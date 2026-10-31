@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "developer_name": "adampbragg",
+    "generation_timestamp": "2026-09-17T20:01:14.137578",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "adampbragg",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js API Design & Extensibility",
+      "Vanilla JavaScript (ES6+)",
+      "Callback-based Programming",
+      "Frontend Data Binding & Model Updates",
+      "Open-Source Contribution Practices"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "\nadampbragg demonstrates **Mid-level JavaScript expertise**, primarily focused on **Chart.js API design and frontend data visualization**. Their contributions show strong proficiency in **vanilla JavaScript (ES6+)** with a focus on **modular, callback-driven extensions** to existing APIs. The developer exhibits **clean API design principles**, backward compatibility awareness, and **functional programming patterns** (callbacks, immutability).\n\nWhile contributions are limited to **Chart.js** (a pure JavaScript library), the work suggests familiarity with **frontend development best practices**, including **DOM manipulation** and **data binding**. There is **no direct evidence** of backend JavaScript (Node.js), TypeScript, or advanced testing frameworks, though these skills may exist in other projects not visible in this dataset.\n\nThe developer’s contributions are **well-documented and focused on developer experience**, indicating strong **communication skills** and an understanding of how libraries are consumed. Their work aligns with **modern JavaScript practices** (ES6+ modules, functional patterns) and **open-source collaboration**.\n\n**Key strengths**:\n- API extensibility (adding `tooltipItems` and `graphData` to `customTooltip`).\n- Backward compatibility awareness.\n- Functional programming (callbacks, modular design).\n- Clean, documentation-friendly changes.\n\n**Potential gaps** (based on limited data):\n- No TypeScript or backend JavaScript experience visible.\n- No explicit testing framework usage (though likely used elsewhere).\n- No evidence of async/await or WebSockets (Chart.js is synchronous).\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 3": [
+        "Chart.js, frequency: 3"
+      ],
+      "Asynchronous Programming": [],
+      "API Design & Consumption, frequency: 3": [
+        "RESTful APIs, frequency: 0",
+        "GraphQL, frequency: 0",
+        "API Error Handling, frequency: 0",
+        "Authentication & Authorization, frequency: 0"
+      ],
+      "Error Handling": [],
+      "Frontend Development Skills, frequency: 3": [
+        "DOM Manipulation, frequency: 2",
+        "Data Binding, frequency: 1"
+      ],
+      "Backend Development Skills": [],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts, frequency: 3": [
+        "Arrow Functions, frequency: 1",
+        "Destructuring, frequency: 1",
+        "Module Systems, frequency: 1"
+      ],
+      "Functional Programming, frequency: 3": [
+        "Callbacks, frequency: 3"
+      ],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture, frequency: 2": [
+        "Event Loop, frequency: 0",
+        "Event Emitters, frequency: 0",
+        "Pub/Sub Model, frequency: 0"
+      ],
+      "Dependency Management": [],
+      "Graphical Data Visualization, frequency: 3": [
+        "Chart.js, frequency: 3"
+      ]
+    }
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

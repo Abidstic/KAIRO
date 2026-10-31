@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "developer_name": "danheberden",
+    "generation_timestamp": "2026-08-12T22:01:12.768737",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 13,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 13
+  },
+  "profile": {
+    "developer_name": "danheberden",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery (DOM manipulation, event delegation, AJAX)",
+      "Legacy JavaScript (ES5)",
+      "Performance optimization (DOM access, HTTP method normalization)",
+      "Manual testing (QUnit-like verification)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)"
+    ],
+    "summary": "danheberden is a Mid-level JavaScript developer with deep expertise in **jQuery**, specializing in **DOM manipulation, event delegation, and AJAX**. Their contributions focus exclusively on **legacy JavaScript (ES5)**, demonstrating strong skills in **performance optimizations** (e.g., direct DOM access over `slice()`) and **backward compatibility fixes** (e.g., IE-specific event handling). While their work is confined to **frontend DOM scripting**, their **problem-solving and debugging** abilities—particularly in **edge-case testing** (Unicode, disabled elements)—are highly valuable. The developer lacks exposure to **modern JavaScript tooling (ES6+, TypeScript, Webpack)** and **modern frameworks (React, Vue)**, but their **deep understanding of jQuery’s internals** and **legacy JavaScript patterns** make them a specialized expert in this niche. Upskilling in **ES6+ features, testing frameworks (Jest), and modern frontend practices** would broaden their expertise significantly.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 13": [
+        "jQuery, frequency: 13"
+      ],
+      "Asynchronous Programming, frequency: 3": [
+        "Callbacks, frequency: 3"
+      ],
+      "API Design & Consumption, frequency: 2": [
+        "RESTful APIs (jQuery.ajax), frequency: 2"
+      ],
+      "Error Handling, frequency: 2": [
+        "Manual error handling (fallback regex for JSON.parse), frequency: 2"
+      ],
+      "Frontend Development Skills, frequency: 13": [
+        "DOM Manipulation, frequency: 10",
+        "Event Delegation, frequency: 3"
+      ],
+      "Backend Development Skills": [],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts, frequency: 5": [
+        "Prototype-based Inheritance, frequency: 5",
+        "IIFE (Immediately Invoked Function Expressions), frequency: 1"
+      ],
+      "Functional Programming, frequency: 1": [
+        "`.map()` utility function, frequency: 1"
+      ],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization, frequency: 2": [
+        "Direct DOM access (avoiding slice()), frequency: 1",
+        "HTTP method normalization (RFC compliance), frequency: 1"
+      ],
+      "Event-Driven Architecture, frequency: 3": [
+        "Event delegation (live/delegate), frequency: 3"
+      ],
+      "Dependency Management": [],
+      "Graphical Data Visualization": []
+    }
+  },
+  "statistics": {
+    "total_prs": 13,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

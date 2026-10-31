@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "developer_name": "avindra",
+    "generation_timestamp": "2026-09-18T01:03:18.040207",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "avindra",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios (HTTP client)",
+      "ES6+ JavaScript (Promises, async/await, arrow functions)",
+      "Webpack (bundling & optimization)",
+      "Promise-based asynchronous programming",
+      "Interceptor pattern implementation",
+      "Dependency management (npm/yarn)",
+      "Frontend build optimization (polyfills, bundle size)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "\navindra demonstrates **Mid-level JavaScript expertise**, primarily focused on **frontend development with Axios, Webpack, and modern JavaScript patterns**. Their contributions show strong proficiency in **asynchronous programming (Promises/async-await)**, **HTTP client patterns (interceptors, config objects)**, and **frontend build optimization (polyfill removal, Webpack updates)**.\n\nWhile their work is **frontend-heavy**, they also have **indirect Node.js exposure** through Axios usage. The contributions emphasize **clean documentation, dependency updates, and example maintenance**, indicating attention to **code quality and maintainability**. There is **no visible TypeScript usage**, but their ES6+ JavaScript skills are well-established.\n\nKey strengths include:\n- **Axios interceptor pattern** (validateStatus, eject)\n- **Promise-based async flows** (async/await, error handling)\n- **Webpack optimization** (polyfill removal, bundle size reduction)\n- **Dependency management** (npm/yarn updates)\n- **Frontend build workflows** (Bootstrap 4 examples, CI/CD compatibility checks)\n\nLimitations:\n- **No explicit backend development** (Node.js exposure is indirect via Axios)\n- **No TypeScript evidence**\n- **No direct testing framework usage** (though IE compatibility checks imply testing awareness)\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 7": [
+        "Axios, frequency: 6",
+        "npm/yarn, frequency: 1"
+      ],
+      "Asynchronous Programming, frequency: 4": [
+        "Promises, frequency: 3",
+        "async/await, frequency: 1"
+      ],
+      "API Design & Consumption, frequency: 3": [
+        "RESTful APIs, frequency: 3"
+      ],
+      "Error Handling, frequency: 1": [
+        "validateStatus (Axios interceptor), frequency: 1"
+      ],
+      "Frontend Development Skills, frequency: 3": [
+        "DOM Manipulation (indirect via Bootstrap 4 examples), frequency: 1",
+        "Webpack (bundling), frequency: 2"
+      ],
+      "Backend Development Skills": [],
+      "DevOps & Deployment, frequency: 1": [
+        "CI/CD Pipelines (IE compatibility checks), frequency: 1"
+      ],
+      "Advanced JavaScript Concepts, frequency: 6": [
+        "Arrow functions, frequency: 1",
+        "Destructuring, frequency: 1",
+        "Spread/rest operator, frequency: 1",
+        "Template literals, frequency: 1",
+        "ES6+ modules, frequency: 1",
+        "Configurable objects (Axios config), frequency: 1"
+      ],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization, frequency: 2": [
+        "Polyfill optimization, frequency: 1",
+        "Bundle size reduction (Webpack), frequency: 1"
+      ],
+      "Event-Driven Architecture": [],
+      "Dependency Management, frequency: 1": [
+        "npm/yarn, frequency: 1"
+      ],
+      "Graphical Data Visualization": []
+    }
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

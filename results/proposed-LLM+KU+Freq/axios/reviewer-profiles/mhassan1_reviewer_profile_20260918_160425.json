@@ -1,0 +1,65 @@
+{
+  "reviewer_name": "mhassan1",
+  "generated_at": "20260918_160425",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 3,
+    "total_prs": 2,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "mhassan1",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios (HTTP client library)",
+      "Defensive programming and error handling",
+      "Node.js backend development",
+      "API request/response handling",
+      "URL path resolution and configuration"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "mhassan1 demonstrates **Mid-level JavaScript expertise**, primarily focused on **backend development with Axios and Node.js**. Their contributions involve **robust error handling** and **defensive programming** in HTTP client logic, particularly around URL construction and configuration. While their reviews are **Axios-centric**, the fixes suggest strong familiarity with **API design, asynchronous request handling, and edge-case prevention**. There is **no evidence of frontend frameworks** (React/Vue/Angular) or TypeScript, but their backend knowledge is evident through **Node.js API patterns, URL resolution, and configuration management**. The reviewer follows **minimal-change principles** (e.g., backporting fixes) and shows **awareness of versioning and regression testing**. Their skillset aligns closely with **backend JavaScript development**, with potential gaps in frontend-specific or advanced testing frameworks.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 3": [
+        "Axios, frequency: 3"
+      ],
+      "Asynchronous Programming, frequency: 1": [
+        "Promises, frequency: 1"
+      ],
+      "API Design & Consumption, frequency: 4": [
+        "RESTful APIs, frequency: 3",
+        "Authentication & Authorization, frequency: 1"
+      ],
+      "Error Handling, frequency: 3": [
+        "Input validation, frequency: 2",
+        "Graceful degradation, frequency: 1"
+      ],
+      "Backend Development Skills, frequency: 5": [
+        "API Endpoints, frequency: 2",
+        "URL path resolution, frequency: 2",
+        "Configuration management, frequency: 1"
+      ],
+      "Advanced JavaScript Concepts, frequency: 2": [
+        "Defensive programming, frequency: 2"
+      ],
+      "Dependency Management, frequency: 1": [
+        "package.json, frequency: 1"
+      ],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Graphical Data Visualization": [],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "DevOps & Deployment": [],
+      "Frontend Development Skills": []
+    }
+  }
+}

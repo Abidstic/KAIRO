@@ -1,0 +1,70 @@
+{
+  "reviewer_name": "mgol",
+  "generated_at": "20260812_231244",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "stats": {
+    "total_reviews": 398,
+    "total_comments": 455,
+    "total_prs": 144,
+    "repos": [
+      "jquery"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "mgol",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "jQuery Core & Sizzle (DOM manipulation, CSS selectors, AMD/ESM migration)",
+      "ESLint & Linter Configuration (rule optimization, linting best practices)",
+      "Unit Testing (QUnit/Jasmine-like frameworks, regression testing)",
+      "ES6+ JavaScript (ES Modules, modern syntax awareness)",
+      "DOM API Optimization (.css(), .offset(), crossorigin handling)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "mgol is a senior JavaScript reviewer with deep expertise in jQuery's core implementation, DOM manipulation, and modern JavaScript tooling. Their reviews demonstrate strong proficiency in ESLint configuration, ES Modules migration, and unit testing frameworks. The reviewer specializes in frontend development with a focus on legacy jQuery maintenance and performance optimization. Their work shows meticulous attention to backward compatibility, behavioral changes, and code quality through granular linting practices. While their expertise is primarily frontend-focused (DOM APIs, CSS selectors, build tools), they exhibit strong awareness of modern JavaScript patterns and tooling ecosystems. No evidence of backend JavaScript or TypeScript usage was found in their reviews.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 15": [
+        "jQuery, frequency: 15",
+        "ESLint, frequency: 10",
+        "QUnit/Jasmine, frequency: 5"
+      ],
+      "Asynchronous Programming, frequency: 3": [
+        "Event Loop, frequency: 2",
+        "Script Loading (crossorigin), frequency: 1"
+      ],
+      "API Design & Consumption, frequency: 3": [
+        "DOM APIs (.css(), .offset()), frequency: 3"
+      ],
+      "Error Handling": [],
+      "Frontend Development Skills, frequency: 20": [
+        "DOM Manipulation, frequency: 15",
+        "CSSOM Manipulation, frequency: 5"
+      ],
+      "Backend Development Skills": [],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts, frequency: 10": [
+        "ES Modules (AMD → ESM migration), frequency: 8",
+        "Module Systems, frequency: 2"
+      ],
+      "Functional Programming, frequency: 2": [
+        "Pure Functions, frequency: 1",
+        "Immutability (ESLint rules), frequency: 1"
+      ],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization, frequency: 3": [
+        "DOM Query Optimization, frequency: 2",
+        "CSSOM Performance, frequency: 1"
+      ],
+      "Event-Driven Architecture": [],
+      "Dependency Management, frequency: 2": [
+        "npm/yarn (package management), frequency: 2"
+      ],
+      "Graphical Data Visualization": []
+    }
+  }
+}

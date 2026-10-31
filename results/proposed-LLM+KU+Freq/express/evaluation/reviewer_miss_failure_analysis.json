@@ -1,0 +1,770 @@
+{
+  "definition": "none of the top-3 suggested reviewers is among the PR's actual reviewers",
+  "comparison": "each miss is compared with the top-1 suggestion",
+  "recent_window_days": 90,
+  "prs_evaluated": 35,
+  "top1_misses": 19,
+  "compared_misses": 13,
+  "unscored_misses": [
+    {
+      "pr_number": 6703,
+      "pr_title": "test: enhance req.is() tests with additional cases",
+      "suggested_reviewer": "bjohansebas",
+      "actual_reviewers": [
+        "hamidrezaghavami"
+      ],
+      "reason": "missing profile for the actual reviewer"
+    },
+    {
+      "pr_number": 6810,
+      "pr_title": "Automatically close PRs named \"Update Readme.md\" ",
+      "suggested_reviewer": "wesleytodd",
+      "actual_reviewers": [
+        "Cycloctane",
+        "lululolily",
+        "avivkeller"
+      ],
+      "reason": "missing profile for the actual reviewer"
+    },
+    {
+      "pr_number": 6825,
+      "pr_title": "Update Readme.md",
+      "suggested_reviewer": "wesleytodd",
+      "actual_reviewers": [
+        "SleepyStew"
+      ],
+      "reason": "missing profile for the actual reviewer"
+    },
+    {
+      "pr_number": 6839,
+      "pr_title": "fix(sendStatus): prevent BigInt status codes",
+      "suggested_reviewer": "bjohansebas",
+      "actual_reviewers": [
+        "shubhamdixit863",
+        "Dhairya3391",
+        "anuragdaksh7"
+      ],
+      "reason": "missing profile for the actual reviewer"
+    },
+    {
+      "pr_number": 6860,
+      "pr_title": "Fix asci code message of EXPRESS",
+      "suggested_reviewer": "wesleytodd",
+      "actual_reviewers": [
+        "Shanu2409"
+      ],
+      "reason": "missing profile for the actual reviewer"
+    },
+    {
+      "pr_number": 6865,
+      "pr_title": "Remove direct `qs` dependency",
+      "suggested_reviewer": "Phillip9587",
+      "actual_reviewers": [
+        "copilot-pull-request-reviewer[bot]",
+        "lukaselmer"
+      ],
+      "reason": "missing profile for the actual reviewer"
+    }
+  ],
+  "aggregate": {
+    "ku_coverage": {
+      "compared": 9,
+      "suggested_better": 3,
+      "actual_better": 0,
+      "ties": 6,
+      "suggested_better_pct": 33.3
+    },
+    "avg_ku_frequency": {
+      "compared": 9,
+      "suggested_better": 8,
+      "actual_better": 1,
+      "ties": 0,
+      "suggested_better_pct": 88.9
+    },
+    "total_reviews": {
+      "compared": 13,
+      "suggested_better": 9,
+      "actual_better": 4,
+      "ties": 0,
+      "suggested_better_pct": 69.2
+    },
+    "recent_reviews": {
+      "compared": 13,
+      "suggested_better": 3,
+      "actual_better": 8,
+      "ties": 2,
+      "suggested_better_pct": 23.1
+    },
+    "hybrid_score": {
+      "compared": 0,
+      "suggested_better": 0,
+      "actual_better": 0,
+      "ties": 0,
+      "suggested_better_pct": 0.0
+    }
+  },
+  "classification": {
+    "justified": 7,
+    "genuine": 2,
+    "split": 4,
+    "justified_pct": 53.8,
+    "genuine_pct": 15.4,
+    "split_pct": 30.8
+  },
+  "genuine_ku_counts": {
+    "Framework/Library Expertise": 1,
+    "API Design & Consumption": 1,
+    "Backend Development Skills": 1
+  },
+  "genuine_metric_wins_for_actual": {
+    "ku_coverage": 0,
+    "avg_ku_frequency": 1,
+    "total_reviews": 1,
+    "recent_reviews": 2,
+    "hybrid_score": 0
+  },
+  "misses": [
+    {
+      "pr_number": 6705,
+      "pr_title": "lib: use req.socket over deprecated req.connection",
+      "required_kus": [
+        "Framework/Library Expertise",
+        "API Design & Consumption",
+        "Backend Development Skills"
+      ],
+      "actual_reviewer": "Phillip9587",
+      "suggested_reviewer": "wesleytodd",
+      "suggested_top3": [
+        "wesleytodd",
+        "bjohansebas",
+        "rileyjshaw"
+      ],
+      "actual_reviewers": [
+        "Phillip9587",
+        "UlisesGascon"
+      ],
+      "actual": {
+        "ku_coverage": 3,
+        "ku_required": 3,
+        "avg_ku_frequency": 13.33,
+        "total_reviews": 31,
+        "recent_reviews": 7,
+        "experience_level": "Mid",
+        "experience_rank": 2,
+        "hybrid_score": null
+      },
+      "suggested": {
+        "ku_coverage": 3,
+        "ku_required": 3,
+        "avg_ku_frequency": 12.67,
+        "total_reviews": 83,
+        "recent_reviews": 5,
+        "experience_level": "Senior",
+        "experience_rank": 3,
+        "hybrid_score": 0.92
+      },
+      "better": {
+        "ku_coverage": "Tie",
+        "avg_ku_frequency": "Actual",
+        "total_reviews": "Suggested",
+        "recent_reviews": "Actual",
+        "experience": "Suggested",
+        "hybrid_score": null
+      },
+      "suggested_metric_wins": 1,
+      "actual_metric_wins": 2,
+      "comparable_metrics": 4,
+      "classification": "Genuine"
+    },
+    {
+      "pr_number": 6729,
+      "pr_title": "Update Readme.md",
+      "required_kus": [],
+      "actual_reviewer": "shivarm",
+      "suggested_reviewer": "wesleytodd",
+      "suggested_top3": [
+        "wesleytodd",
+        "UlisesGascon",
+        "sheplu"
+      ],
+      "actual_reviewers": [
+        "shivarm"
+      ],
+      "actual": {
+        "ku_coverage": 0,
+        "ku_required": 0,
+        "avg_ku_frequency": 0.0,
+        "total_reviews": 9,
+        "recent_reviews": 3,
+        "experience_level": "Junior",
+        "experience_rank": 1,
+        "hybrid_score": null
+      },
+      "suggested": {
+        "ku_coverage": 0,
+        "ku_required": 0,
+        "avg_ku_frequency": 0.0,
+        "total_reviews": 83,
+        "recent_reviews": 3,
+        "experience_level": "Senior",
+        "experience_rank": 3,
+        "hybrid_score": 0.92
+      },
+      "better": {
+        "ku_coverage": null,
+        "avg_ku_frequency": null,
+        "total_reviews": "Suggested",
+        "recent_reviews": "Tie",
+        "experience": "Suggested",
+        "hybrid_score": null
+      },
+      "suggested_metric_wins": 1,
+      "actual_metric_wins": 0,
+      "comparable_metrics": 2,
+      "classification": "Justified"
+    },
+    {
+      "pr_number": 6740,
+      "pr_title": "ci: use github action/checkout@v5",
+      "required_kus": [
+        "DevOps & Deployment"
+      ],
+      "actual_reviewer": "bjohansebas",
+      "suggested_reviewer": "Phillip9587",
+      "suggested_top3": [
+        "Phillip9587",
+        "UlisesGascon",
+        "wesleytodd"
+      ],
+      "actual_reviewers": [
+        "bjohansebas"
+      ],
+      "actual": {
+        "ku_coverage": 0,
+        "ku_required": 1,
+        "avg_ku_frequency": 0.0,
+        "total_reviews": 107,
+        "recent_reviews": 29,
+        "experience_level": "Mid",
+        "experience_rank": 2,
+        "hybrid_score": null
+      },
+      "suggested": {
+        "ku_coverage": 1,
+        "ku_required": 1,
+        "avg_ku_frequency": 10.0,
+        "total_reviews": 31,
+        "recent_reviews": 8,
+        "experience_level": "Mid",
+        "experience_rank": 2,
+        "hybrid_score": 0.92
+      },
+      "better": {
+        "ku_coverage": "Suggested",
+        "avg_ku_frequency": "Suggested",
+        "total_reviews": "Actual",
+        "recent_reviews": "Actual",
+        "experience": "Tie",
+        "hybrid_score": null
+      },
+      "suggested_metric_wins": 2,
+      "actual_metric_wins": 2,
+      "comparable_metrics": 4,
+      "classification": "Split"
+    },
+    {
+      "pr_number": 6754,
+      "pr_title": "feat: add express.asyncHandler helper for async route support",
+      "required_kus": [
+        "Backend Development Skills"
+      ],
+      "actual_reviewer": "shivarm",
+      "suggested_reviewer": "wesleytodd",
+      "suggested_top3": [
+        "wesleytodd",
+        "bjohansebas",
+        "UlisesGascon"
+      ],
+      "actual_reviewers": [
+        "shivarm"
+      ],
+      "actual": {
+        "ku_coverage": 1,
+        "ku_required": 1,
+        "avg_ku_frequency": 5.0,
+        "total_reviews": 9,
+        "recent_reviews": 4,
+        "experience_level": "Junior",
+        "experience_rank": 1,
+        "hybrid_score": null
+      },
+      "suggested": {
+        "ku_coverage": 1,
+        "ku_required": 1,
+        "avg_ku_frequency": 18.0,
+        "total_reviews": 83,
+        "recent_reviews": 0,
+        "experience_level": "Senior",
+        "experience_rank": 3,
+        "hybrid_score": 0.92
+      },
+      "better": {
+        "ku_coverage": "Tie",
+        "avg_ku_frequency": "Suggested",
+        "total_reviews": "Suggested",
+        "recent_reviews": "Actual",
+        "experience": "Suggested",
+        "hybrid_score": null
+      },
+      "suggested_metric_wins": 2,
+      "actual_metric_wins": 1,
+      "comparable_metrics": 4,
+      "classification": "Justified"
+    },
+    {
+      "pr_number": 6774,
+      "pr_title": "feat: add deprecation warnings for invalid sendStatus parameters to prepare for Express v6",
+      "required_kus": [
+        "Framework/Library Expertise",
+        "Error Handling",
+        "Backend Development Skills"
+      ],
+      "actual_reviewer": "shivarm",
+      "suggested_reviewer": "wesleytodd",
+      "suggested_top3": [
+        "wesleytodd",
+        "UlisesGascon",
+        "bjohansebas"
+      ],
+      "actual_reviewers": [
+        "shivarm"
+      ],
+      "actual": {
+        "ku_coverage": 2,
+        "ku_required": 3,
+        "avg_ku_frequency": 5.0,
+        "total_reviews": 9,
+        "recent_reviews": 6,
+        "experience_level": "Junior",
+        "experience_rank": 1,
+        "hybrid_score": null
+      },
+      "suggested": {
+        "ku_coverage": 2,
+        "ku_required": 3,
+        "avg_ku_frequency": 16.5,
+        "total_reviews": 83,
+        "recent_reviews": 0,
+        "experience_level": "Senior",
+        "experience_rank": 3,
+        "hybrid_score": 0.92
+      },
+      "better": {
+        "ku_coverage": "Tie",
+        "avg_ku_frequency": "Suggested",
+        "total_reviews": "Suggested",
+        "recent_reviews": "Actual",
+        "experience": "Suggested",
+        "hybrid_score": null
+      },
+      "suggested_metric_wins": 2,
+      "actual_metric_wins": 1,
+      "comparable_metrics": 4,
+      "classification": "Justified"
+    },
+    {
+      "pr_number": 6803,
+      "pr_title": "Update Readme.md",
+      "required_kus": [],
+      "actual_reviewer": "shivarm",
+      "suggested_reviewer": "wesleytodd",
+      "suggested_top3": [
+        "wesleytodd",
+        "UlisesGascon",
+        "sheplu"
+      ],
+      "actual_reviewers": [
+        "shivarm"
+      ],
+      "actual": {
+        "ku_coverage": 0,
+        "ku_required": 0,
+        "avg_ku_frequency": 0.0,
+        "total_reviews": 9,
+        "recent_reviews": 8,
+        "experience_level": "Junior",
+        "experience_rank": 1,
+        "hybrid_score": null
+      },
+      "suggested": {
+        "ku_coverage": 0,
+        "ku_required": 0,
+        "avg_ku_frequency": 0.0,
+        "total_reviews": 83,
+        "recent_reviews": 1,
+        "experience_level": "Senior",
+        "experience_rank": 3,
+        "hybrid_score": 0.92
+      },
+      "better": {
+        "ku_coverage": null,
+        "avg_ku_frequency": null,
+        "total_reviews": "Suggested",
+        "recent_reviews": "Actual",
+        "experience": "Suggested",
+        "hybrid_score": null
+      },
+      "suggested_metric_wins": 1,
+      "actual_metric_wins": 1,
+      "comparable_metrics": 2,
+      "classification": "Split"
+    },
+    {
+      "pr_number": 6804,
+      "pr_title": "Add automated pull request labeling workflow",
+      "required_kus": [
+        "DevOps & Deployment"
+      ],
+      "actual_reviewer": "bjohansebas",
+      "suggested_reviewer": "UlisesGascon",
+      "suggested_top3": [
+        "UlisesGascon",
+        "Phillip9587",
+        "wesleytodd"
+      ],
+      "actual_reviewers": [
+        "bjohansebas"
+      ],
+      "actual": {
+        "ku_coverage": 0,
+        "ku_required": 1,
+        "avg_ku_frequency": 0.0,
+        "total_reviews": 107,
+        "recent_reviews": 19,
+        "experience_level": "Mid",
+        "experience_rank": 2,
+        "hybrid_score": null
+      },
+      "suggested": {
+        "ku_coverage": 1,
+        "ku_required": 1,
+        "avg_ku_frequency": 3.0,
+        "total_reviews": 65,
+        "recent_reviews": 10,
+        "experience_level": "Senior",
+        "experience_rank": 3,
+        "hybrid_score": 0.92
+      },
+      "better": {
+        "ku_coverage": "Suggested",
+        "avg_ku_frequency": "Suggested",
+        "total_reviews": "Actual",
+        "recent_reviews": "Actual",
+        "experience": "Suggested",
+        "hybrid_score": null
+      },
+      "suggested_metric_wins": 2,
+      "actual_metric_wins": 2,
+      "comparable_metrics": 4,
+      "classification": "Split"
+    },
+    {
+      "pr_number": 6805,
+      "pr_title": "enhancement: Added Block readme github action",
+      "required_kus": [
+        "DevOps & Deployment"
+      ],
+      "actual_reviewer": "bjohansebas",
+      "suggested_reviewer": "UlisesGascon",
+      "suggested_top3": [
+        "UlisesGascon",
+        "wesleytodd",
+        "Phillip9587"
+      ],
+      "actual_reviewers": [
+        "AkashDev01",
+        "tausiq2003",
+        "bjohansebas"
+      ],
+      "actual": {
+        "ku_coverage": 0,
+        "ku_required": 1,
+        "avg_ku_frequency": 0.0,
+        "total_reviews": 107,
+        "recent_reviews": 19,
+        "experience_level": "Mid",
+        "experience_rank": 2,
+        "hybrid_score": null
+      },
+      "suggested": {
+        "ku_coverage": 1,
+        "ku_required": 1,
+        "avg_ku_frequency": 3.0,
+        "total_reviews": 65,
+        "recent_reviews": 10,
+        "experience_level": "Senior",
+        "experience_rank": 3,
+        "hybrid_score": 0.92
+      },
+      "better": {
+        "ku_coverage": "Suggested",
+        "avg_ku_frequency": "Suggested",
+        "total_reviews": "Actual",
+        "recent_reviews": "Actual",
+        "experience": "Suggested",
+        "hybrid_score": null
+      },
+      "suggested_metric_wins": 2,
+      "actual_metric_wins": 2,
+      "comparable_metrics": 4,
+      "classification": "Split"
+    },
+    {
+      "pr_number": 6817,
+      "pr_title": "docs: enhance installation section with additional package managers and verification steps",
+      "required_kus": [],
+      "actual_reviewer": "bjohansebas",
+      "suggested_reviewer": "wesleytodd",
+      "suggested_top3": [
+        "wesleytodd",
+        "sheplu",
+        "UlisesGascon"
+      ],
+      "actual_reviewers": [
+        "bjohansebas"
+      ],
+      "actual": {
+        "ku_coverage": 0,
+        "ku_required": 0,
+        "avg_ku_frequency": 0.0,
+        "total_reviews": 107,
+        "recent_reviews": 21,
+        "experience_level": "Mid",
+        "experience_rank": 2,
+        "hybrid_score": null
+      },
+      "suggested": {
+        "ku_coverage": 0,
+        "ku_required": 0,
+        "avg_ku_frequency": 0.0,
+        "total_reviews": 83,
+        "recent_reviews": 1,
+        "experience_level": "Senior",
+        "experience_rank": 3,
+        "hybrid_score": 0.92
+      },
+      "better": {
+        "ku_coverage": null,
+        "avg_ku_frequency": null,
+        "total_reviews": "Actual",
+        "recent_reviews": "Actual",
+        "experience": "Suggested",
+        "hybrid_score": null
+      },
+      "suggested_metric_wins": 0,
+      "actual_metric_wins": 2,
+      "comparable_metrics": 2,
+      "classification": "Genuine"
+    },
+    {
+      "pr_number": 6843,
+      "pr_title": "ci: add node.js 25 to test matrix",
+      "required_kus": [],
+      "actual_reviewer": "UlisesGascon",
+      "suggested_reviewer": "bjohansebas",
+      "suggested_top3": [
+        "bjohansebas",
+        "wesleytodd",
+        "sheplu"
+      ],
+      "actual_reviewers": [
+        "UlisesGascon"
+      ],
+      "actual": {
+        "ku_coverage": 0,
+        "ku_required": 0,
+        "avg_ku_frequency": 0.0,
+        "total_reviews": 65,
+        "recent_reviews": 8,
+        "experience_level": "Senior",
+        "experience_rank": 3,
+        "hybrid_score": null
+      },
+      "suggested": {
+        "ku_coverage": 0,
+        "ku_required": 0,
+        "avg_ku_frequency": 0.0,
+        "total_reviews": 107,
+        "recent_reviews": 18,
+        "experience_level": "Mid",
+        "experience_rank": 2,
+        "hybrid_score": 0.92
+      },
+      "better": {
+        "ku_coverage": null,
+        "avg_ku_frequency": null,
+        "total_reviews": "Suggested",
+        "recent_reviews": "Suggested",
+        "experience": "Actual",
+        "hybrid_score": null
+      },
+      "suggested_metric_wins": 2,
+      "actual_metric_wins": 0,
+      "comparable_metrics": 2,
+      "classification": "Justified"
+    },
+    {
+      "pr_number": 6848,
+      "pr_title": "fix: prevent crash when BigInt passed to res.status()",
+      "required_kus": [
+        "Framework/Library Expertise",
+        "Backend Development Skills"
+      ],
+      "actual_reviewer": "krzysdz",
+      "suggested_reviewer": "wesleytodd",
+      "suggested_top3": [
+        "wesleytodd",
+        "bjohansebas",
+        "ctcpip"
+      ],
+      "actual_reviewers": [
+        "SrinjoyDev",
+        "krzysdz",
+        "abhisekp"
+      ],
+      "actual": {
+        "ku_coverage": 2,
+        "ku_required": 2,
+        "avg_ku_frequency": 4.0,
+        "total_reviews": 4,
+        "recent_reviews": 0,
+        "experience_level": "Mid",
+        "experience_rank": 2,
+        "hybrid_score": null
+      },
+      "suggested": {
+        "ku_coverage": 2,
+        "ku_required": 2,
+        "avg_ku_frequency": 16.5,
+        "total_reviews": 83,
+        "recent_reviews": 1,
+        "experience_level": "Senior",
+        "experience_rank": 3,
+        "hybrid_score": 0.92
+      },
+      "better": {
+        "ku_coverage": "Tie",
+        "avg_ku_frequency": "Suggested",
+        "total_reviews": "Suggested",
+        "recent_reviews": "Suggested",
+        "experience": "Suggested",
+        "hybrid_score": null
+      },
+      "suggested_metric_wins": 3,
+      "actual_metric_wins": 0,
+      "comparable_metrics": 4,
+      "classification": "Justified"
+    },
+    {
+      "pr_number": 6851,
+      "pr_title": "perf: implement lazy compilation for compileTrust() with large IP lists",
+      "required_kus": [
+        "Framework/Library Expertise",
+        "Web Performance Optimization"
+      ],
+      "actual_reviewer": "krzysdz",
+      "suggested_reviewer": "UlisesGascon",
+      "suggested_top3": [
+        "UlisesGascon",
+        "wesleytodd",
+        "bjohansebas"
+      ],
+      "actual_reviewers": [
+        "krzysdz"
+      ],
+      "actual": {
+        "ku_coverage": 1,
+        "ku_required": 2,
+        "avg_ku_frequency": 3.0,
+        "total_reviews": 4,
+        "recent_reviews": 0,
+        "experience_level": "Mid",
+        "experience_rank": 2,
+        "hybrid_score": null
+      },
+      "suggested": {
+        "ku_coverage": 1,
+        "ku_required": 2,
+        "avg_ku_frequency": 11.0,
+        "total_reviews": 65,
+        "recent_reviews": 9,
+        "experience_level": "Senior",
+        "experience_rank": 3,
+        "hybrid_score": 0.92
+      },
+      "better": {
+        "ku_coverage": "Tie",
+        "avg_ku_frequency": "Suggested",
+        "total_reviews": "Suggested",
+        "recent_reviews": "Suggested",
+        "experience": "Suggested",
+        "hybrid_score": null
+      },
+      "suggested_metric_wins": 3,
+      "actual_metric_wins": 0,
+      "comparable_metrics": 4,
+      "classification": "Justified"
+    },
+    {
+      "pr_number": 6856,
+      "pr_title": "test: fix static file tests for supertest 7+ URL normalization",
+      "required_kus": [
+        "Framework/Library Expertise",
+        "API Design & Consumption",
+        "Backend Development Skills"
+      ],
+      "actual_reviewer": "jonchurch",
+      "suggested_reviewer": "wesleytodd",
+      "suggested_top3": [
+        "wesleytodd",
+        "sheplu",
+        "bjohansebas"
+      ],
+      "actual_reviewers": [
+        "jonchurch"
+      ],
+      "actual": {
+        "ku_coverage": 3,
+        "ku_required": 3,
+        "avg_ku_frequency": 6.33,
+        "total_reviews": 7,
+        "recent_reviews": 1,
+        "experience_level": "Mid",
+        "experience_rank": 2,
+        "hybrid_score": null
+      },
+      "suggested": {
+        "ku_coverage": 3,
+        "ku_required": 3,
+        "avg_ku_frequency": 12.67,
+        "total_reviews": 83,
+        "recent_reviews": 1,
+        "experience_level": "Senior",
+        "experience_rank": 3,
+        "hybrid_score": 0.92
+      },
+      "better": {
+        "ku_coverage": "Tie",
+        "avg_ku_frequency": "Suggested",
+        "total_reviews": "Suggested",
+        "recent_reviews": "Tie",
+        "experience": "Suggested",
+        "hybrid_score": null
+      },
+      "suggested_metric_wins": 2,
+      "actual_metric_wins": 0,
+      "comparable_metrics": 4,
+      "classification": "Justified"
+    }
+  ]
+}

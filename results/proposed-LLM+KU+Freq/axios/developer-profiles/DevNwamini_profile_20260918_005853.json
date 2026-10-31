@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "developer_name": "DevNwamini",
+    "generation_timestamp": "2026-09-18T00:51:26.838908",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "DevNwamini",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Axios (HTTP client)",
+      "Basic Node.js/JavaScript",
+      "Potential exposure to frontend JavaScript frameworks (inferred from axios usage)"
+    ],
+    "programming_languages": [
+      "JavaScript"
+    ],
+    "summary": "\nDevNwamini demonstrates **limited direct evidence** of JavaScript contributions based on available GitHub PR data. Their activity is confined to the **axios** repository, where all PRs show **no actual code changes** (files_changed: 0, additions: 0, deletions: 0). This lack of visible JavaScript file modifications makes it difficult to assess their proficiency beyond **basic Node.js/JavaScript knowledge** (since axios is a Node.js library).\n\nWhile no explicit frontend frameworks (React, Vue, Angular) or backend frameworks (Express, Koa) are visible, the **axios context** suggests potential exposure to:\n- **HTTP client usage** (axios.get(), axios.post(), error handling).\n- **Asynchronous programming** (axios is inherently async).\n- **Modular JavaScript** (PRs reference files like Token.js, ignore.js).\n\nHowever, **no evidence exists** for advanced patterns (ES6+, TypeScript, testing, or build tools). The **experience level is estimated as Junior** due to the **absence of meaningful contributions** and lack of visible expertise in modern JavaScript practices.\n\nFurther analysis would require **actual code changes, PR descriptions, or repository activity** to provide a more accurate assessment.\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 1": [
+        "Axios, frequency: 1"
+      ],
+      "Asynchronous Programming, frequency: 1": [
+        "Promises, frequency: 1"
+      ],
+      "API Design & Consumption, frequency: 1": [
+        "RESTful APIs, frequency: 1"
+      ],
+      "Backend Development Skills, frequency: 1": [
+        "Server-Side Logic, frequency: 1"
+      ],
+      "Error Handling": [],
+      "Frontend Development Skills": [],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts": [],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Dependency Management": [],
+      "Graphical Data Visualization": []
+    }
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

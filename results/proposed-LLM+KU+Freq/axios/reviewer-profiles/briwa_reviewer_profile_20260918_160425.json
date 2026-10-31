@@ -1,0 +1,63 @@
+{
+  "reviewer_name": "briwa",
+  "generated_at": "20260918_160425",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 2,
+    "total_prs": 1,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "briwa",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "API parameter serialization with Axios/Fetch",
+      "Node.js HTTP client libraries",
+      "Custom URL parameter handling",
+      "Versioned package maintenance"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (possible familiarity)"
+    ],
+    "summary": "Based on the limited but focused review data for briwa, this reviewer demonstrates **mid-level expertise** in **API-related JavaScript**, particularly with **custom parameter serialization** in HTTP clients like Axios or Fetch. The evidence suggests strong familiarity with **backend/API development patterns** (Node.js, Express-like environments) and **versioned package maintenance**, but lacks visible contributions in frontend frameworks, testing, or advanced JavaScript paradigms. The two PRs analyzed indicate a **niche focus on low-level HTTP parameter handling**, which is a specialized skill within JavaScript ecosystems. While no explicit frontend or testing knowledge is visible, the **backport context** implies awareness of **semantic versioning and package management**. The reviewer’s contributions are **technically sound but limited in scope**, suggesting a **Mid-level** proficiency with **API development and HTTP client customization** as primary strengths. No evidence of **Lead-level** contributions (e.g., architecture, mentorship) or **Junior-level** gaps (e.g., basic syntax errors) is present in the available data.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 3": [
+        "Node.js, frequency: 2",
+        "Axios, frequency: 1"
+      ],
+      "Asynchronous Programming, frequency: 1": [
+        "Promises, frequency: 1"
+      ],
+      "API Design & Consumption, frequency: 3": [
+        "RESTful APIs, frequency: 2",
+        "Authentication & Authorization, frequency: 1"
+      ],
+      "Backend Development Skills, frequency: 4": [
+        "API Endpoints, frequency: 1",
+        "Middleware, frequency: 1",
+        "Database Integration, frequency: 1",
+        "Versioned Package Maintenance, frequency: 1"
+      ],
+      "Dependency Management, frequency: 1": [
+        "npm/yarn, frequency: 1"
+      ],
+      "Advanced JavaScript Concepts, frequency: 1": [
+        "Optional Chaining, frequency: 1"
+      ],
+      "TypeScript": [],
+      "Error Handling": [],
+      "Frontend Development Skills": [],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Graphical Data Visualization": []
+    }
+  }
+}

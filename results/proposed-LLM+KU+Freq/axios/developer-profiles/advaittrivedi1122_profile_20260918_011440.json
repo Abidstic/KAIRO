@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "developer_name": "advaittrivedi1122",
+    "generation_timestamp": "2026-09-18T01:09:14.759545",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "advaittrivedi1122",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios (HTTP client library)",
+      "Asynchronous programming (Promises, async/await)",
+      "TypeScript",
+      "ES6+ JavaScript features (Set, destructuring, arrow functions)",
+      "API design and adapter patterns",
+      "Immutable data handling",
+      "Node.js backend development"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "\nAdvait Trivedi demonstrates **Mid-level JavaScript expertise** with a strong focus on **Axios**, a prominent HTTP client library used across both frontend and backend environments. Their contributions reveal deep proficiency in **asynchronous programming** (promises, async/await), **modern JavaScript features** (ES6+ constructs like `Set`, destructuring), and **TypeScript** (likely given Axios's TypeScript adoption). The PRs show expertise in **API design** (adapter pattern, extensibility) and **immutable data handling**, indicating a clean, modular coding style. While contributions are primarily backend-focused (Node.js `httpAdapter`), their work aligns with broader JavaScript best practices, including **error handling**, **modularity**, and **cross-platform compatibility**. No evidence of frontend frameworks (React/Vue/etc.) is visible, but their core JavaScript skills are highly transferable to frontend development. The contributor follows **test-driven practices** (fixing edge cases like `Set` serialization) and likely uses **npm/yarn** for dependency management. Overall, this profile highlights a **technically strong JavaScript developer** with a specialization in **backend API development** and **asynchronous systems**.\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 4": [
+        "Axios, frequency: 4",
+        "Node.js, frequency: 3",
+        "npm/yarn, frequency: 1"
+      ],
+      "Asynchronous Programming, frequency: 4": [
+        "Promises, frequency: 3",
+        "async/await, frequency: 1"
+      ],
+      "API Design & Consumption, frequency: 4": [
+        "RESTful APIs, frequency: 2",
+        "Adapter Pattern, frequency: 2"
+      ],
+      "Error Handling": [],
+      "Frontend Development Skills": [],
+      "Backend Development Skills, frequency: 3": [
+        "Middleware (httpAdapter), frequency: 2",
+        "API Endpoints, frequency: 1"
+      ],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts, frequency: 3": [
+        "ES6+ Features (Set, destructuring), frequency: 2",
+        "Prototypes & Inheritance, frequency: 1"
+      ],
+      "Functional Programming, frequency: 2": [
+        "Immutability, frequency: 1",
+        "Pure Functions, frequency: 1"
+      ],
+      "Data Structures & Algorithms": [],
+      "TypeScript, frequency: 2": [
+        "Type Definitions, frequency: 1",
+        "Type Safety, frequency: 1"
+      ],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Dependency Management, frequency: 1": [
+        "npm/yarn, frequency: 1"
+      ],
+      "Graphical Data Visualization": []
+    }
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

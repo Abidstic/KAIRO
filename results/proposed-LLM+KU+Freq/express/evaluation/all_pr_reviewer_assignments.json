@@ -1,0 +1,2890 @@
+{
+  "metadata": {
+    "total_prs_processed": 35,
+    "processing_date": "2025-10-21",
+    "available_reviewers": [
+      "aravindvnair99",
+      "bjohansebas",
+      "blakeembrey",
+      "CBID2",
+      "ctcpip",
+      "dpopp07",
+      "Hardanish-Singh",
+      "IamLizu",
+      "inigomarquinez",
+      "jonchurch",
+      "kjugi",
+      "krzysdz",
+      "mertcanaltin",
+      "Phillip9587",
+      "RaginiSharma01",
+      "rileyjshaw",
+      "RobinTail",
+      "sheplu",
+      "shivarm",
+      "ShubhamOulkar",
+      "UlisesGascon",
+      "wesleytodd"
+    ],
+    "total_available_reviewers": 22
+  },
+  "pr_assignments": [
+    {
+      "pr_number": 6678,
+      "pr_title": "build(deps-dev): bump cookie-session from 2.1.0 to 2.1.1",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "assigned_reviewer": "UlisesGascon",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.92,
+          "reasoning": "Senior-level reviewer with 65+ PRs reviewed, strong frequency evidence for npm/yarn (dependency management) and cookie-session (middleware), and direct experience with security-related dependency updates. Reviewed similar cookie-session bump PRs and has expertise in CI/CD pipeline impact.",
+          "strengths_alignment": [
+            "npm/yarn dependency management (8x frequency)",
+            "cookie-session middleware expertise (5x frequency)",
+            "Express.js ecosystem compatibility (5x frequency)",
+            "Security-focused dependency reviews (similar PR #6399)",
+            "CI/CD pipeline impact assessment (65+ PRs reviewed)"
+          ],
+          "review_experience": "Senior JavaScript backend engineer with 65 PRs reviewed, 10 comments, and 57 PRs merged. Demonstrates deep expertise in Express.js middleware, dependency management, and security-related updates.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.88,
+          "reasoning": "Mid-level reviewer with 31 PRs reviewed, strong frequency evidence for npm/yarn (12x) and cookie-session (Express.js middleware), and direct experience with dependency refactoring. Reviewed similar dependency-related PRs and has CI/CD expertise.",
+          "strengths_alignment": [
+            "npm/yarn dependency management (12x frequency)",
+            "Express.js middleware (10x frequency, inferred cookie-session relevance)",
+            "CI/CD pipeline updates (8x frequency)",
+            "Dependency refactoring experience (PR #6591: once package removal)",
+            "Security-related dependency updates (implied via npm/yarn expertise)"
+          ],
+          "review_experience": "Mid-level JavaScript reviewer with 31 PRs reviewed, 2 comments, and 28 PRs merged. Focuses on dependency management, CI/CD, and Express.js middleware.",
+          "potential_concerns": "Lower review activity (31 PRs) compared to UlisesGascon, but strong frequency evidence for required skills."
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with 107 PRs reviewed, strong frequency evidence for Express.js (5x) and npm/yarn (implied via dependency management), and direct experience with cookie-session-related PRs. Reviewed similar dependency updates and has security-related expertise.",
+          "strengths_alignment": [
+            "Express.js expertise (5x frequency)",
+            "npm/yarn dependency management (implied via similar PRs)",
+            "Security-focused reviews (similar PR #6399: cookie-session bump)",
+            "High review activity (107 PRs reviewed, 41 comments)",
+            "Middleware and async/await expertise (8x, 5x frequency)"
+          ],
+          "review_experience": "Mid-level JavaScript reviewer with 107 PRs reviewed, 41 comments, and 72 PRs merged. Strongest frequency evidence for Express.js and async/await, with security-related reviews.",
+          "potential_concerns": "No explicit cookie-session frequency evidence, but inferred from Express.js middleware expertise."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level reviewer with 65+ PRs reviewed, strong frequency evidence for npm/yarn (dependency management) and cookie-session (middleware), and direct experience with security-related dependency updates. Reviewed similar cookie-session bump PRs and has expertise in CI/CD pipeline impact.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6678",
+      "reviewer_strengths": [
+        "npm/yarn dependency management (8x frequency)",
+        "cookie-session middleware expertise (5x frequency)",
+        "Express.js ecosystem compatibility (5x frequency)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior JavaScript backend engineer with 65 PRs reviewed, 10 comments, and 57 PRs merged. Demonstrates deep expertise in Express.js middleware, dependency management, and security-related updates.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "npm/yarn dependency management",
+          "cookie-session"
+        ],
+        "review_expertise_areas": [
+          "dependencies",
+          "security"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Security",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with 65+ PRs reviewed, strong frequency evidence for npm/yarn (dependency management) and cookie-session (middleware), and direct experience with security-related dependency updates. Reviewed similar cookie-session bump PRs and has expertise in CI/CD pipeline impact.",
+          "strengths_alignment": [
+            "npm/yarn dependency management (8x frequency)",
+            "cookie-session middleware expertise (5x frequency)",
+            "Express.js ecosystem compatibility (5x frequency)",
+            "Security-focused dependency reviews (similar PR #6399)",
+            "CI/CD pipeline impact assessment (65+ PRs reviewed)"
+          ],
+          "review_experience_details": "Senior JavaScript backend engineer with 65 PRs reviewed, 10 comments, and 57 PRs merged. Demonstrates deep expertise in Express.js middleware, dependency management, and security-related updates.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6679,
+      "pr_title": "build(deps-dev): bump morgan from 1.10.0 to 1.10.1",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 83 PRs reviewed, 35 comments, and strong frequency evidence for npm/yarn (dependency management) and security-related skills (async/await, middleware, testing). Directly matches all required skills and expertise areas, including Express.js compatibility and CVE-related reviews.",
+          "strengths_alignment": [
+            "npm/yarn dependency management (12x frequency)",
+            "Express.js ecosystem compatibility (10x frequency)",
+            "Security-related async/await and middleware expertise",
+            "High review activity (83 PRs, 35 comments)"
+          ],
+          "review_experience": "Senior-level JavaScript reviewer with 60 PRs reviewed, 35 comments, and deep expertise in Node.js/Express.js backend development, dependency management, and security practices.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with 65 PRs reviewed, 10 comments, and strong frequency evidence for npm/yarn (8x), Express.js (5x), and middleware (8x). Matches all required skills and expertise areas, including dependency management and security-related reviews.",
+          "strengths_alignment": [
+            "npm/yarn dependency management (8x frequency)",
+            "Express.js ecosystem compatibility (5x frequency)",
+            "Dependency management and security practices (similar review patterns)",
+            "High review activity (65 PRs, 10 comments)"
+          ],
+          "review_experience": "Senior-level JavaScript reviewer with 57 PRs reviewed, 10 comments, and deep expertise in Node.js/Express.js backend development, dependency management, and security practices.",
+          "potential_concerns": "Slightly lower frequency for 'dependency versioning' (not explicitly listed in top skills)"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.82,
+          "reasoning": "Mid-level reviewer with 107 PRs reviewed, 41 comments, and strong frequency evidence for Node.js (10x), Express.js (5x), and middleware (8x). Matches all required skills and expertise areas, including dependency management and security-related reviews, but lacks explicit security review evidence.",
+          "strengths_alignment": [
+            "Node.js and Express.js expertise (10x and 5x frequency)",
+            "Middleware (8x) and async/await (5x) align with 'compatibility with Express.js ecosystem'",
+            "High review activity (107 PRs, 41 comments)",
+            "Dependency management inferred from npm/yarn (not explicitly listed in top skills)"
+          ],
+          "review_experience": "Mid-level JavaScript reviewer with 72 PRs reviewed, 41 comments, and strong expertise in Node.js/Express.js backend development, middleware, and testing.",
+          "potential_concerns": "No explicit evidence of security review focus or CVE-related reviews"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 83 PRs reviewed, 35 comments, and strong frequency evidence for npm/yarn (dependency management) and security-related skills (async/await, middleware, testing). Directly matches all required skills and expertise areas, including Express.js compatibility and CVE-related reviews.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6679",
+      "reviewer_strengths": [
+        "npm/yarn dependency management (12x frequency)",
+        "Express.js ecosystem compatibility (10x frequency)",
+        "Security-related async/await and middleware expertise"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level JavaScript reviewer with 60 PRs reviewed, 35 comments, and deep expertise in Node.js/Express.js backend development, dependency management, and security practices.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "npm package management",
+          "dependency versioning"
+        ],
+        "review_expertise_areas": [
+          "dependencies",
+          "security"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Security",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 83 PRs reviewed, 35 comments, and strong frequency evidence for npm/yarn (dependency management) and security-related skills (async/await, middleware, testing). Directly matches all required skills and expertise areas, including Express.js compatibility and CVE-related reviews.",
+          "strengths_alignment": [
+            "npm/yarn dependency management (12x frequency)",
+            "Express.js ecosystem compatibility (10x frequency)",
+            "Security-related async/await and middleware expertise",
+            "High review activity (83 PRs, 35 comments)"
+          ],
+          "review_experience_details": "Senior-level JavaScript reviewer with 60 PRs reviewed, 35 comments, and deep expertise in Node.js/Express.js backend development, dependency management, and security practices.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6699,
+      "pr_title": "fix: throw generic error for missing required arguments",
+      "pr_author": "shivarm",
+      "pr_state": "closed",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior-level reviewer with 83 PRs reviewed, 35 comments, and deep Express.js/Node.js expertise. Strong frequency evidence for error handling, middleware, async/await, and RESTful APIs—directly matching all required focus areas. Highest activity consistency and senior-level complexity fit for low-complexity PRs.",
+          "strengths_alignment": [
+            "10x Express.js frequency (highest among available)",
+            "8x Middleware frequency (directly relevant to argument validation)",
+            "5x async/await frequency (critical for error handling logic)",
+            "35 comments (demonstrated detailed technical feedback)",
+            "Senior-level experience with 60 PRs reviewed (consistent reliability)"
+          ],
+          "review_experience": "Senior JavaScript reviewer with 83 PRs reviewed, 35 comments, and 60 PRs approved. Specializes in Express.js middleware, HTTP server behavior, and asynchronous programming. Review patterns show deep technical scrutiny of error handling and validation patterns.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.88,
+          "reasoning": "Mid-level reviewer with 107 PRs reviewed, 41 comments, and strong Express.js/Node.js expertise. High frequency for error handling (inferred from middleware/async/await focus) and consistency with Express.js error types. Slightly lower activity than wesleytodd but strong evidence for error handling logic.",
+          "strengths_alignment": [
+            "10x Node.js frequency (highest among mid-level)",
+            "5x Express.js frequency (direct match)",
+            "5x async/await frequency (critical for error handling logic)",
+            "8x Middleware frequency (relevant to argument validation)",
+            "41 comments (demonstrated technical feedback)",
+            "Mid-level experience with 72 PRs reviewed (consistent reliability)"
+          ],
+          "review_experience": "Mid-level JavaScript reviewer with 107 PRs reviewed, 41 comments, and 72 PRs approved. Specializes in Express.js middleware, asynchronous programming, and code quality. Review patterns show focus on error handling, validation, and consistency with existing error types.",
+          "potential_concerns": "No direct evidence of explicit error handling logic reviews (inferred from middleware/async/await focus)"
+        },
+        {
+          "reviewer_name": "jonchurch",
+          "match_score": 0.82,
+          "reasoning": "Mid-level reviewer with 7 PRs reviewed, 4 comments, and explicit focus on error handling and validation patterns. Strong frequency for Express.js and middleware, with direct relevance to argument validation behavior and error handling logic. Lower activity but clear alignment with required focus areas.",
+          "strengths_alignment": [
+            "6x Node.js frequency (direct match)",
+            "6x Express.js frequency (direct match)",
+            "4x Middleware frequency (relevant to argument validation)",
+            "3x async/await frequency (critical for error handling logic)",
+            "4 comments (demonstrated technical feedback)",
+            "Explicit focus on 'HTTP status code handling and validation' in profile"
+          ],
+          "review_experience": "Mid-level JavaScript reviewer with 7 PRs reviewed, 4 comments, and 4 PRs approved. Specializes in Express.js middleware, HTTP status code handling, and error validation patterns. Review patterns show explicit scrutiny of error handling and validation logic.",
+          "potential_concerns": "Lower activity (7 PRs reviewed) compared to top choices"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level reviewer with 83 PRs reviewed, 35 comments, and deep Express.js/Node.js expertise. Strong frequency evidence for error handling, middleware, async/await, and RESTful APIs—directly matching all required focus areas. Highest activity consistency and senior-level complexity fit for low-complexity PRs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6699",
+      "reviewer_strengths": [
+        "10x Express.js frequency (highest among available)",
+        "8x Middleware frequency (directly relevant to argument validation)",
+        "5x async/await frequency (critical for error handling logic)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior JavaScript reviewer with 83 PRs reviewed, 35 comments, and 60 PRs approved. Specializes in Express.js middleware, HTTP server behavior, and asynchronous programming. Review patterns show deep technical scrutiny of error handling and validation patterns.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "backend"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with 83 PRs reviewed, 35 comments, and deep Express.js/Node.js expertise. Strong frequency evidence for error handling, middleware, async/await, and RESTful APIs—directly matching all required focus areas. Highest activity consistency and senior-level complexity fit for low-complexity PRs.",
+          "strengths_alignment": [
+            "10x Express.js frequency (highest among available)",
+            "8x Middleware frequency (directly relevant to argument validation)",
+            "5x async/await frequency (critical for error handling logic)",
+            "35 comments (demonstrated detailed technical feedback)",
+            "Senior-level experience with 60 PRs reviewed (consistent reliability)"
+          ],
+          "review_experience_details": "Senior JavaScript reviewer with 83 PRs reviewed, 35 comments, and 60 PRs approved. Specializes in Express.js middleware, HTTP server behavior, and asynchronous programming. Review patterns show deep technical scrutiny of error handling and validation patterns.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6701,
+      "pr_title": "Ensure all servers are closed",
+      "pr_author": "Kuldeep-Sahoo",
+      "pr_state": "closed",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior-level reviewer with deep Express.js/Node.js expertise, strong frequency evidence for server lifecycle (middleware, async/await), resource cleanup (HTTP server behavior), and process termination (error handling). Highest activity consistency and similar-review relevance.",
+          "strengths_alignment": [
+            "12x Node.js, 10x Express.js, 8x Middleware (direct match to server lifecycle)",
+            "5x async/await (process termination handling)",
+            "35 comments (code quality focus)",
+            "60 PRs reviewed (consistent backend review activity)"
+          ],
+          "review_experience": "Senior reviewer with 83 total reviews, 60 PRs, and 35 comments. Specializes in HTTP server behavior, middleware design, and asynchronous programming—directly relevant to server lifecycle and resource cleanup.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.88,
+          "reasoning": "Mid-level reviewer with strong Express.js expertise (107 reviews, 5x Express.js frequency), but lower activity consistency than Senior reviewers. Demonstrates server lifecycle (middleware) and resource cleanup (async/await) patterns.",
+          "strengths_alignment": [
+            "10x Node.js, 5x Express.js, 8x Middleware (server lifecycle)",
+            "5x async/await (process termination handling)",
+            "41 comments (code quality focus)",
+            "72 PRs reviewed (high volume)"
+          ],
+          "review_experience": "Mid-level reviewer with 107 total reviews, 72 PRs, and 41 comments. Focuses on Express.js middleware, async/await, and code quality—directly relevant to server lifecycle and resource cleanup.",
+          "potential_concerns": "Lower review activity consistency (107 reviews but only 41 comments)"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with strong Express.js expertise (65 reviews, 5x Express.js frequency), but lower activity consistency than wesleytodd. Demonstrates server lifecycle (middleware) and resource cleanup (async/await) patterns.",
+          "strengths_alignment": [
+            "6x Node.js, 5x Express.js, 8x Middleware (server lifecycle)",
+            "6x RESTful APIs (resource cleanup)",
+            "10 comments (code quality focus)",
+            "57 PRs reviewed (high volume)"
+          ],
+          "review_experience": "Senior reviewer with 65 total reviews, 57 PRs, and 10 comments. Focuses on Express.js middleware, API design, and code refactoring—directly relevant to server lifecycle and resource cleanup.",
+          "potential_concerns": "Lower comment frequency (10 comments) compared to wesleytodd"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level reviewer with deep Express.js/Node.js expertise, strong frequency evidence for server lifecycle (middleware, async/await), resource cleanup (HTTP server behavior), and process termination (error handling). Highest activity consistency and similar-review relevance.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6701",
+      "reviewer_strengths": [
+        "12x Node.js, 10x Express.js, 8x Middleware (direct match to server lifecycle)",
+        "5x async/await (process termination handling)",
+        "35 comments (code quality focus)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior reviewer with 83 total reviews, 60 PRs, and 35 comments. Specializes in HTTP server behavior, middleware design, and asynchronous programming—directly relevant to server lifecycle and resource cleanup.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "backend"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with deep Express.js/Node.js expertise, strong frequency evidence for server lifecycle (middleware, async/await), resource cleanup (HTTP server behavior), and process termination (error handling). Highest activity consistency and similar-review relevance.",
+          "strengths_alignment": [
+            "12x Node.js, 10x Express.js, 8x Middleware (direct match to server lifecycle)",
+            "5x async/await (process termination handling)",
+            "35 comments (code quality focus)",
+            "60 PRs reviewed (consistent backend review activity)"
+          ],
+          "review_experience_details": "Senior reviewer with 83 total reviews, 60 PRs, and 35 comments. Specializes in HTTP server behavior, middleware design, and asynchronous programming—directly relevant to server lifecycle and resource cleanup.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6703,
+      "pr_title": "test: enhance req.is() tests with additional cases",
+      "pr_author": "bjohansebas",
+      "pr_state": "open",
+      "assigned_reviewer": "bjohansebas",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.92,
+          "reasoning": "Strongest frequency evidence for Express.js, Node.js, and testing (Mocha/Chai) with 107 reviews and 41 comments. Directly matches all required skills (Express, Testing) and has reviewed similar test coverage PRs (#6386, #6476).",
+          "strengths_alignment": [
+            "Express.js (5x frequency), Node.js (10x), Testing (Mocha/Chai, TDD)",
+            "Reviewed 72 PRs with 41 comments (high activity)",
+            "Similar-review relevance: co-reviewed #6386 (#6476) for test coverage"
+          ],
+          "review_experience": "Mid-level JavaScript reviewer with 107 PR reviews, 41 comments, and 72 PRs reviewed. Focused on Express middleware, async/await, and RESTful APIs. Demonstrated deep knowledge of testing patterns.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.88,
+          "reasoning": "Senior-level expertise in Express.js, Node.js, and testing (Supertest/Jest/Mocha) with 83 reviews and 35 comments. Strong frequency overlap but slightly less direct testing evidence than bjohansebas.",
+          "strengths_alignment": [
+            "Express.js (10x), Node.js (12x), Testing (Supertest/Jest/Mocha)",
+            "Reviewed 60 PRs with 35 comments (high activity)",
+            "Similar-review relevance: co-reviewed #6386 (#6476) for test coverage"
+          ],
+          "review_experience": "Senior JavaScript reviewer with 83 PR reviews, 35 comments, and 60 PRs reviewed. Specializes in HTTP server behavior, middleware, and asynchronous programming. Demonstrated expertise in testing patterns.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "sheplu",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with strong Express.js/Node.js testing focus (Supertest/Mocha) and dependency management. Lower frequency for testing but relevant expertise in test coverage and Express middleware.",
+          "strengths_alignment": [
+            "Express.js (5x), Node.js (7x), Testing (Supertest/Mocha)",
+            "Reviewed 5 PRs with 2 comments (moderate activity)",
+            "Focus on dependency management and API testing"
+          ],
+          "review_experience": "Mid-level JavaScript reviewer with 7 PR reviews, 2 comments, and 5 PRs reviewed. Focused on Express middleware, dependency management, and testing (Supertest/Mocha). Demonstrated expertise in API testing and RESTful practices.",
+          "potential_concerns": "Lower review activity (only 7 reviews) compared to top choices"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest frequency evidence for Express.js, Node.js, and testing (Mocha/Chai) with 107 reviews and 41 comments. Directly matches all required skills (Express, Testing) and has reviewed similar test coverage PRs (#6386, #6476).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 4,
+      "pr_url": "https://github.com/expressjs/express/pull/6703",
+      "reviewer_strengths": [
+        "Express.js (5x frequency), Node.js (10x), Testing (Mocha/Chai, TDD)",
+        "Reviewed 72 PRs with 41 comments (high activity)",
+        "Similar-review relevance: co-reviewed #6386 (#6476) for test coverage"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Mid-level JavaScript reviewer with 107 PR reviews, 41 comments, and 72 PRs reviewed. Focused on Express middleware, async/await, and RESTful APIs. Demonstrated deep knowledge of testing patterns.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing",
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strongest frequency evidence for Express.js, Node.js, and testing (Mocha/Chai) with 107 reviews and 41 comments. Directly matches all required skills (Express, Testing) and has reviewed similar test coverage PRs (#6386, #6476).",
+          "strengths_alignment": [
+            "Express.js (5x frequency), Node.js (10x), Testing (Mocha/Chai, TDD)",
+            "Reviewed 72 PRs with 41 comments (high activity)",
+            "Similar-review relevance: co-reviewed #6386 (#6476) for test coverage"
+          ],
+          "review_experience_details": "Mid-level JavaScript reviewer with 107 PR reviews, 41 comments, and 72 PRs reviewed. Focused on Express middleware, async/await, and RESTful APIs. Demonstrated deep knowledge of testing patterns.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6705,
+      "pr_title": "lib: use req.socket over deprecated req.connection",
+      "pr_author": "bjohansebas",
+      "pr_state": "closed",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with highest frequency evidence for Node.js HTTP server internals (12x Node.js, 10x Express.js) and explicit focus on `req.socket`/`req.connection` usage in middleware/routing reviews. Strongest alignment with deprecation migration and runtime compatibility patterns.",
+          "strengths_alignment": [
+            "12x Node.js HTTP server internals frequency (highest)",
+            "10x Express.js request object API frequency (direct match)",
+            "Explicit deprecation management expertise in reviews",
+            "5x async/await + middleware focus (relevant for runtime compatibility)"
+          ],
+          "review_experience": "83 reviews, 60 PRs, 35 comments; consistent high-quality feedback with 60% approval rate in similar Express.js HTTP-related PRs (e.g., #6520 querystring protocol changes).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.88,
+          "reasoning": "Mid-level reviewer with strong Express.js expertise (5x) and Node.js internals (10x), but lower frequency than wesleytodd. Demonstrated deprecation management in reviews and co-reviewed similar HTTP internals PRs (#6520).",
+          "strengths_alignment": [
+            "10x Node.js + 5x Express.js frequency (direct match)",
+            "Primary skills include 'deprecation management' and 'code quality/refactoring'",
+            "Co-reviewed PR #6520 (querystring protocol) with wesleytodd (similar scope)"
+          ],
+          "review_experience": "107 reviews, 72 PRs, 41 comments; consistent reviewer with 70% approval rate in Express.js HTTP-related changes. Lower comment density (41/107) but high volume of PRs.",
+          "potential_concerns": "Lower comment frequency (41 comments) compared to wesleytodd's 35 across fewer PRs."
+        },
+        {
+          "reviewer_name": "rileyjshaw",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with explicit deprecation management expertise (4x Express.js, 2x Node.js) and focus on `req.socket`/`req.connection` patterns. Lower frequency than top choices but strong alignment with review focus areas.",
+          "strengths_alignment": [
+            "4x Express.js + 2x Node.js frequency (direct match)",
+            "Explicit 'deprecation management' in primary skills",
+            "2x async/await + middleware focus (relevant for runtime compatibility)"
+          ],
+          "review_experience": "2 reviews, 1 PR, 2 comments; limited volume but targeted expertise in deprecation and middleware. Reviewed Express.js HTTP-related changes.",
+          "potential_concerns": "Very low review volume (2 PRs) and comments (2) limits reliability."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with highest frequency evidence for Node.js HTTP server internals (12x Node.js, 10x Express.js) and explicit focus on `req.socket`/`req.connection` usage in middleware/routing reviews. Strongest alignment with deprecation migration and runtime compatibility patterns.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6705",
+      "reviewer_strengths": [
+        "12x Node.js HTTP server internals frequency (highest)",
+        "10x Express.js request object API frequency (direct match)",
+        "Explicit deprecation management expertise in reviews"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "83 reviews, 60 PRs, 35 comments; consistent high-quality feedback with 60% approval rate in similar Express.js HTTP-related PRs (e.g., #6520 querystring protocol changes).",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "Node.js HTTP server internals",
+          "Express.js request object API"
+        ],
+        "review_expertise_areas": [
+          "Backend"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with highest frequency evidence for Node.js HTTP server internals (12x Node.js, 10x Express.js) and explicit focus on `req.socket`/`req.connection` usage in middleware/routing reviews. Strongest alignment with deprecation migration and runtime compatibility patterns.",
+          "strengths_alignment": [
+            "12x Node.js HTTP server internals frequency (highest)",
+            "10x Express.js request object API frequency (direct match)",
+            "Explicit deprecation management expertise in reviews",
+            "5x async/await + middleware focus (relevant for runtime compatibility)"
+          ],
+          "review_experience_details": "83 reviews, 60 PRs, 35 comments; consistent high-quality feedback with 60% approval rate in similar Express.js HTTP-related PRs (e.g., #6520 querystring protocol changes).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6718,
+      "pr_title": "doc: update express app example",
+      "pr_author": "shivarm",
+      "pr_state": "closed",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 60+ PRs reviewed, 35+ comments, and strong documentation-focused evidence from similar PRs (#5512, #6369). Highest frequency of Node.js/Express.js middleware and API expertise, directly aligning with documentation accuracy and example correctness needs.",
+          "strengths_alignment": [
+            "57 PRs reviewed (highest volume)",
+            "10 comments on documentation PRs (#5512)",
+            "Express.js/Node.js middleware expertise (12x Node.js, 10x Express.js)",
+            "Similar review patterns for README/CONTRIBUTING updates"
+          ],
+          "review_experience": "Senior-level JavaScript reviewer with 83 total reviews, 60 PRs reviewed, and 35 comments. Specializes in Express.js middleware, async/await, and API documentation.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "sheplu",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with 5 documentation PRs reviewed, including #5512 (moving docs to Admin repo). Strong Node.js/Express.js expertise (7x Node.js, 5x Express.js) and dependency management, aligning with documentation accuracy needs.",
+          "strengths_alignment": [
+            "Reviewed 5 PRs, including #5512 (documentation migration)",
+            "Top skills: Node.js (7x), Express.js (5x), RESTful APIs (5x)",
+            "Dependency management (npm/yarn) — relevant for documentation tooling"
+          ],
+          "review_experience": "Mid-level reviewer with 7 total reviews, 5 PRs reviewed, and 2 comments. Focused on Node.js/Express.js backend and dependency management.",
+          "potential_concerns": "Lower comment volume (2) compared to wesleytodd"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.78,
+          "reasoning": "Senior reviewer with 57 PRs reviewed, including documentation-focused work (#5512). Strong Express.js/Node.js expertise (6x Node.js, 5x Express.js) and API design patterns, though lower documentation-specific evidence than wesleytodd.",
+          "strengths_alignment": [
+            "57 PRs reviewed, including #5512 (documentation migration)",
+            "Top skills: Middleware (8x), Node.js (6x), Express.js (5x)",
+            "Senior-level expertise with 65 total reviews"
+          ],
+          "review_experience": "Senior-level JavaScript reviewer with 65 total reviews, 57 PRs reviewed, and 10 comments. Specializes in Express.js middleware, API design, and testing.",
+          "potential_concerns": "Lower documentation-specific comment volume (10 total) vs. wesleytodd's 35"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 60+ PRs reviewed, 35+ comments, and strong documentation-focused evidence from similar PRs (#5512, #6369). Highest frequency of Node.js/Express.js middleware and API expertise, directly aligning with documentation accuracy and example correctness needs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6718",
+      "reviewer_strengths": [
+        "57 PRs reviewed (highest volume)",
+        "10 comments on documentation PRs (#5512)",
+        "Express.js/Node.js middleware expertise (12x Node.js, 10x Express.js)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level JavaScript reviewer with 83 total reviews, 60 PRs reviewed, and 35 comments. Specializes in Express.js middleware, async/await, and API documentation.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 60+ PRs reviewed, 35+ comments, and strong documentation-focused evidence from similar PRs (#5512, #6369). Highest frequency of Node.js/Express.js middleware and API expertise, directly aligning with documentation accuracy and example correctness needs.",
+          "strengths_alignment": [
+            "57 PRs reviewed (highest volume)",
+            "10 comments on documentation PRs (#5512)",
+            "Express.js/Node.js middleware expertise (12x Node.js, 10x Express.js)",
+            "Similar review patterns for README/CONTRIBUTING updates"
+          ],
+          "review_experience_details": "Senior-level JavaScript reviewer with 83 total reviews, 60 PRs reviewed, and 35 comments. Specializes in Express.js middleware, async/await, and API documentation.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6729,
+      "pr_title": "Update Readme.md",
+      "pr_author": "AyushGupta30091",
+      "pr_state": "closed",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 60+ PRs reviewed, 35+ comments, and strong documentation-focused evidence (e.g., PR #5512, #6369). Highest frequency of relevant skills (Node.js/Express.js middleware, REST APIs) and consistent review activity.",
+          "strengths_alignment": [
+            "Documentation PR review experience (e.g., PR #5512: 'Move documentation to Admin repository')",
+            "High frequency of 'Middleware' (8x), 'Node.js' (12x), and 'Express.js' (10x) in reviews",
+            "Consistent review activity (83 total reviews, 60 PRs, 35 comments)"
+          ],
+          "review_experience": "Senior-level reviewer with 60+ PRs reviewed, 35+ comments, and 83 total reviews. Specializes in Node.js/Express.js backend and documentation-related PRs.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with 57+ PRs reviewed, 65 total reviews, and strong documentation-related evidence (e.g., PR #5512). High frequency of 'Middleware' (8x) and 'Node.js' (6x) in reviews.",
+          "strengths_alignment": [
+            "Documentation PR review experience (e.g., PR #5512: 'Move documentation to Admin repository')",
+            "High frequency of 'Middleware' (8x), 'Node.js' (6x), and 'Express.js' (5x) in reviews",
+            "Consistent review activity (65 total reviews, 57 PRs, 10 comments)"
+          ],
+          "review_experience": "Senior-level reviewer with 57+ PRs reviewed, 65 total reviews, and 10 comments. Specializes in Node.js/Express.js backend and documentation-related PRs.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "sheplu",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 5 PRs reviewed, 7 total reviews, and documentation-focused evidence (e.g., PR #5512). Strong frequency of 'Node.js' (7x) and 'Express.js' (5x), but lower activity than top choices.",
+          "strengths_alignment": [
+            "Documentation PR review experience (e.g., PR #5512: 'Move documentation to Admin repository')",
+            "High frequency of 'Node.js' (7x) and 'Express.js' (5x) in reviews",
+            "Consistent review activity (7 total reviews, 5 PRs, 2 comments)"
+          ],
+          "review_experience": "Mid-level reviewer with 5 PRs reviewed, 7 total reviews, and 2 comments. Specializes in Node.js/Express.js backend and dependency management.",
+          "potential_concerns": "Lower review activity (7 total reviews) compared to top choices"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 60+ PRs reviewed, 35+ comments, and strong documentation-focused evidence (e.g., PR #5512, #6369). Highest frequency of relevant skills (Node.js/Express.js middleware, REST APIs) and consistent review activity.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6729",
+      "reviewer_strengths": [
+        "Documentation PR review experience (e.g., PR #5512: 'Move documentation to Admin repository')",
+        "High frequency of 'Middleware' (8x), 'Node.js' (12x), and 'Express.js' (10x) in reviews",
+        "Consistent review activity (83 total reviews, 60 PRs, 35 comments)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 60+ PRs reviewed, 35+ comments, and 83 total reviews. Specializes in Node.js/Express.js backend and documentation-related PRs.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 60+ PRs reviewed, 35+ comments, and strong documentation-focused evidence (e.g., PR #5512, #6369). Highest frequency of relevant skills (Node.js/Express.js middleware, REST APIs) and consistent review activity.",
+          "strengths_alignment": [
+            "Documentation PR review experience (e.g., PR #5512: 'Move documentation to Admin repository')",
+            "High frequency of 'Middleware' (8x), 'Node.js' (12x), and 'Express.js' (10x) in reviews",
+            "Consistent review activity (83 total reviews, 60 PRs, 35 comments)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 60+ PRs reviewed, 35+ comments, and 83 total reviews. Specializes in Node.js/Express.js backend and documentation-related PRs.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6740,
+      "pr_title": "ci: use github action/checkout@v5",
+      "pr_author": "shivarm",
+      "pr_state": "closed",
+      "assigned_reviewer": "Phillip9587",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.92,
+          "reasoning": "Direct CI/CD and GitHub Actions expertise with 8x frequency for CI/CD pipelines and 10x for Express.js. Reviewed similar GitHub Actions workflow PRs (e.g., #6314, #6323) and demonstrated dependency checkout versioning knowledge.",
+          "strengths_alignment": [
+            "Top skill: CI/CD Pipelines (8x frequency)",
+            "Primary skill: GitHub Actions and dependency management",
+            "Reviewed GitHub Actions workflow updates in past PRs (#6314, #6323)"
+          ],
+          "review_experience": "Mid-level reviewer with 31 total reviews, 28 PRs reviewed, and 2 comments. Strong evidence of hands-on CI/CD and GitHub Actions experience.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.88,
+          "reasoning": "Senior-level expertise in CI/CD and GitHub Actions (implied via Node.js/Express.js CI/CD integration). Reviewed GitHub Actions workflows in past PRs (#6314) and has strong dependency management skills.",
+          "strengths_alignment": [
+            "Top skill: Middleware (8x) and CI/CD integration (implied)",
+            "Reviewed GitHub Actions workflow updates in past PRs (#6314)",
+            "Primary skill: CI/CD Integration and dependency management"
+          ],
+          "review_experience": "Senior-level reviewer with 65 total reviews, 57 PRs reviewed, and 10 comments. Deep expertise in Node.js/Express.js CI/CD patterns.",
+          "potential_concerns": "No explicit GitHub Actions frequency data (only CI/CD implied)."
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.85,
+          "reasoning": "Senior-level expertise in CI/CD and GitHub Actions (implied via Node.js/Express.js CI/CD). Reviewed GitHub Actions workflows in past PRs (#6314, #6323) and has strong dependency management skills.",
+          "strengths_alignment": [
+            "Top skill: CI/CD Pipelines (implied via Node.js/Express.js CI/CD)",
+            "Reviewed GitHub Actions workflow updates in past PRs (#6314, #6323)",
+            "Primary skill: Dependency management and CI/CD"
+          ],
+          "review_experience": "Senior-level reviewer with 83 total reviews, 60 PRs reviewed, and 35 comments. Deep expertise in Node.js/Express.js CI/CD patterns.",
+          "potential_concerns": "No explicit GitHub Actions frequency data (only CI/CD implied)."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Direct CI/CD and GitHub Actions expertise with 8x frequency for CI/CD pipelines and 10x for Express.js. Reviewed similar GitHub Actions workflow PRs (e.g., #6314, #6323) and demonstrated dependency checkout versioning knowledge.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6740",
+      "reviewer_strengths": [
+        "Top skill: CI/CD Pipelines (8x frequency)",
+        "Primary skill: GitHub Actions and dependency management",
+        "Reviewed GitHub Actions workflow updates in past PRs (#6314, #6323)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Mid-level reviewer with 31 total reviews, 28 PRs reviewed, and 2 comments. Strong evidence of hands-on CI/CD and GitHub Actions experience.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "GitHub Actions",
+          "GitHub Actions workflows"
+        ],
+        "review_expertise_areas": [
+          "CI/CD"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Direct CI/CD and GitHub Actions expertise with 8x frequency for CI/CD pipelines and 10x for Express.js. Reviewed similar GitHub Actions workflow PRs (e.g., #6314, #6323) and demonstrated dependency checkout versioning knowledge.",
+          "strengths_alignment": [
+            "Top skill: CI/CD Pipelines (8x frequency)",
+            "Primary skill: GitHub Actions and dependency management",
+            "Reviewed GitHub Actions workflow updates in past PRs (#6314, #6323)"
+          ],
+          "review_experience_details": "Mid-level reviewer with 31 total reviews, 28 PRs reviewed, and 2 comments. Strong evidence of hands-on CI/CD and GitHub Actions experience.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6742,
+      "pr_title": "feat: dump bodies of get/head reqs",
+      "pr_author": "O4FDev",
+      "pr_state": "open",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior-level reviewer with highest frequency evidence for Express.js, middleware, async/await, and RESTful APIs—directly matching all required skills. Strongest similar-review relevance (e.g., middleware/async patterns) and consistent review activity (83 reviews, 35 comments).",
+          "strengths_alignment": [
+            "Express.js middleware expertise (10x frequency)",
+            "Async/await and RESTful API focus (5x+ frequency)",
+            "HTTP server behavior and request/response handling (primary skills)",
+            "Code quality and maintainability practices (explicit skill)"
+          ],
+          "review_experience": "83 reviews, 60 PRs, 35 comments; 12x Node.js, 10x Express.js, 8x Middleware frequency. Senior-level with deep backend expertise.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.88,
+          "reasoning": "Mid-level reviewer with strong Express.js expertise (5x frequency) and direct focus on async/await, middleware, and RESTful APIs. Lower activity than wesleytodd but high frequency overlap and similar-review evidence (e.g., #6599).",
+          "strengths_alignment": [
+            "Express.js (5x frequency) and Node.js (10x frequency)",
+            "Async/await (5x frequency) and middleware (8x frequency)",
+            "Code quality & refactoring (primary skills)",
+            "Reviewed similar PRs (e.g., #6599 with ShubhamOulkar)"
+          ],
+          "review_experience": "107 reviews, 72 PRs, 41 comments; 10x Node.js, 5x Express.js, 8x Middleware frequency. Mid-level with deep backend focus.",
+          "potential_concerns": "Lower total reviews (107) than wesleytodd, but frequency evidence is strong."
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with strong Express.js expertise (5x frequency) and API/middleware focus. High review volume (65 reviews) but slightly lower frequency overlap than wesleytodd/bjohansebas. Strong domain alignment but fewer direct similar-review matches.",
+          "strengths_alignment": [
+            "Express.js (5x frequency) and Node.js (6x frequency)",
+            "Middleware (8x frequency) and RESTful APIs (5x frequency)",
+            "API design & middleware patterns (primary skills)",
+            "Code refactoring and modularization (explicit skill)"
+          ],
+          "review_experience": "65 reviews, 57 PRs, 10 comments; 6x Node.js, 5x Express.js, 8x Middleware frequency. Senior-level with backend focus.",
+          "potential_concerns": "Lower comment frequency (10) than wesleytodd/bjohansebas; fewer direct similar-review examples."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level reviewer with highest frequency evidence for Express.js, middleware, async/await, and RESTful APIs—directly matching all required skills. Strongest similar-review relevance (e.g., middleware/async patterns) and consistent review activity (83 reviews, 35 comments).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6742",
+      "reviewer_strengths": [
+        "Express.js middleware expertise (10x frequency)",
+        "Async/await and RESTful API focus (5x+ frequency)",
+        "HTTP server behavior and request/response handling (primary skills)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "83 reviews, 60 PRs, 35 comments; 12x Node.js, 10x Express.js, 8x Middleware frequency. Senior-level with deep backend expertise.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "backend"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with highest frequency evidence for Express.js, middleware, async/await, and RESTful APIs—directly matching all required skills. Strongest similar-review relevance (e.g., middleware/async patterns) and consistent review activity (83 reviews, 35 comments).",
+          "strengths_alignment": [
+            "Express.js middleware expertise (10x frequency)",
+            "Async/await and RESTful API focus (5x+ frequency)",
+            "HTTP server behavior and request/response handling (primary skills)",
+            "Code quality and maintainability practices (explicit skill)"
+          ],
+          "review_experience_details": "83 reviews, 60 PRs, 35 comments; 12x Node.js, 10x Express.js, 8x Middleware frequency. Senior-level with deep backend expertise.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6754,
+      "pr_title": "feat: add express.asyncHandler helper for async route support",
+      "pr_author": "macjik",
+      "pr_state": "closed",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with highest frequency evidence for Express.js middleware, async/await, and async route correctness. Strongest alignment with all required focus areas and similar-review patterns (e.g., async middleware validation).",
+          "strengths_alignment": [
+            "Express.js middleware expertise (10x frequency)",
+            "Async/await and Promises (5x frequency)",
+            "HTTP server behavior and middleware design",
+            "Code quality and maintainability practices",
+            "Similar-review participation (e.g., PR #6599 async callback validation)"
+          ],
+          "review_experience": "83 reviews, 60 PRs, 35 comments; consistent high-quality feedback with deep technical depth in Express.js backend patterns.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.88,
+          "reasoning": "Mid-level reviewer with strong Express.js expertise (5x frequency) and direct async/await focus (5x). Matches all review focus areas but lacks senior-level review activity consistency.",
+          "strengths_alignment": [
+            "Express.js (5x frequency), Node.js (10x), Middleware (8x), async/await (5x)",
+            "Reviewed similar async route PRs (e.g., PR #6599)",
+            "Code quality and refactoring focus"
+          ],
+          "review_experience": "107 reviews, 72 PRs, 41 comments; high volume but lower comment density (0.38 comments/PR).",
+          "potential_concerns": "Lower comment density (41 comments/107 reviews) than top choice."
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with strong Express.js/middleware expertise (5x frequency) and similar-review participation, but lower activity consistency than top choices.",
+          "strengths_alignment": [
+            "Express.js (5x), Middleware (8x), async/await (inferred from Node.js expertise)",
+            "API design and middleware patterns",
+            "Code refactoring and modularization"
+          ],
+          "review_experience": "65 reviews, 57 PRs, 10 comments; high volume but sparse comments (0.15 comments/PR).",
+          "potential_concerns": "Very low comment density (10 comments/65 reviews) despite seniority."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with highest frequency evidence for Express.js middleware, async/await, and async route correctness. Strongest alignment with all required focus areas and similar-review patterns (e.g., async middleware validation).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6754",
+      "reviewer_strengths": [
+        "Express.js middleware expertise (10x frequency)",
+        "Async/await and Promises (5x frequency)",
+        "HTTP server behavior and middleware design"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "83 reviews, 60 PRs, 35 comments; consistent high-quality feedback with deep technical depth in Express.js backend patterns.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "backend"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with highest frequency evidence for Express.js middleware, async/await, and async route correctness. Strongest alignment with all required focus areas and similar-review patterns (e.g., async middleware validation).",
+          "strengths_alignment": [
+            "Express.js middleware expertise (10x frequency)",
+            "Async/await and Promises (5x frequency)",
+            "HTTP server behavior and middleware design",
+            "Code quality and maintainability practices",
+            "Similar-review participation (e.g., PR #6599 async callback validation)"
+          ],
+          "review_experience_details": "83 reviews, 60 PRs, 35 comments; consistent high-quality feedback with deep technical depth in Express.js backend patterns.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6758,
+      "pr_title": "Fix: Add type validation for sendStatus to prevent BigInt serialization error (#6756)",
+      "pr_author": "Vedant224",
+      "pr_state": "open",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with highest frequency evidence for Node.js/Express.js (12x Node.js, 10x Express.js) and testing (Supertest/Jest/Mocha). Directly matches all required skills and review focus areas (type validation, error handling, JSON.stringify, BigInt serialization). Strongest similar-review relevance (appeared in PRs #6386 and #6504).",
+          "strengths_alignment": [
+            "12x Node.js frequency (highest among available)",
+            "10x Express.js frequency (direct match)",
+            "Testing expertise (Supertest/Jest/Mocha) for edge cases",
+            "HTTP server behavior and middleware knowledge (critical for Express patterns)",
+            "Consistent review activity (83 reviews, 35 comments)"
+          ],
+          "review_experience": "Senior-level JavaScript reviewer with 60 PRs reviewed, 83 total reviews, and 35 detailed comments. Focused on Express.js middleware, async/await, and testing patterns.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.88,
+          "reasoning": "Mid-level reviewer with strong frequency evidence for Node.js/Express.js (10x Node.js, 5x Express.js) and testing (Mocha/Chai). Matches all required skills but lacks senior-level depth. Appeared in similar PRs (#6386, #6504).",
+          "strengths_alignment": [
+            "10x Node.js, 5x Express.js frequency (direct match)",
+            "Testing expertise (Mocha/Chai, TDD) for edge cases",
+            "Async/await and middleware knowledge (relevant to Express patterns)",
+            "Consistent review activity (107 reviews, 41 comments)"
+          ],
+          "review_experience": "Mid-level JavaScript reviewer with 72 PRs reviewed, 107 total reviews, and 41 comments. Focused on Express.js backend development and testing.",
+          "potential_concerns": "Lower frequency for Express.js (5x) compared to top choice; no explicit mention of JSON.stringify or BigInt serialization."
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with high frequency evidence for Node.js/Express.js (6x Node.js, 5x Express.js) and testing. Matches all required skills but slightly lower frequency for Express.js compared to top choices. Appeared in similar PR #6386.",
+          "strengths_alignment": [
+            "6x Node.js, 5x Express.js frequency (direct match)",
+            "Testing and CI/CD integration (relevant to test coverage)",
+            "API design and middleware patterns (critical for Express)",
+            "Consistent review activity (65 reviews, 10 comments)"
+          ],
+          "review_experience": "Senior-level JavaScript reviewer with 57 PRs reviewed, 65 total reviews, and 10 comments. Focused on Express.js backend development and testing.",
+          "potential_concerns": "Lower frequency for Express.js (5x) compared to wesleytodd; no explicit mention of JSON.stringify or BigInt serialization."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with highest frequency evidence for Node.js/Express.js (12x Node.js, 10x Express.js) and testing (Supertest/Jest/Mocha). Directly matches all required skills and review focus areas (type validation, error handling, JSON.stringify, BigInt serialization). Strongest similar-review relevance (appeared in PRs #6386 and #6504).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 3,
+      "pr_url": "https://github.com/expressjs/express/pull/6758",
+      "reviewer_strengths": [
+        "12x Node.js frequency (highest among available)",
+        "10x Express.js frequency (direct match)",
+        "Testing expertise (Supertest/Jest/Mocha) for edge cases"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level JavaScript reviewer with 60 PRs reviewed, 83 total reviews, and 35 detailed comments. Focused on Express.js middleware, async/await, and testing patterns.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js",
+          "Express.js"
+        ],
+        "review_expertise_areas": [
+          "Backend",
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with highest frequency evidence for Node.js/Express.js (12x Node.js, 10x Express.js) and testing (Supertest/Jest/Mocha). Directly matches all required skills and review focus areas (type validation, error handling, JSON.stringify, BigInt serialization). Strongest similar-review relevance (appeared in PRs #6386 and #6504).",
+          "strengths_alignment": [
+            "12x Node.js frequency (highest among available)",
+            "10x Express.js frequency (direct match)",
+            "Testing expertise (Supertest/Jest/Mocha) for edge cases",
+            "HTTP server behavior and middleware knowledge (critical for Express patterns)",
+            "Consistent review activity (83 reviews, 35 comments)"
+          ],
+          "review_experience_details": "Senior-level JavaScript reviewer with 60 PRs reviewed, 83 total reviews, and 35 detailed comments. Focused on Express.js middleware, async/await, and testing patterns.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6774,
+      "pr_title": "feat: add deprecation warnings for invalid sendStatus parameters to prepare for Express v6",
+      "pr_author": "Vedant224",
+      "pr_state": "open",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with deep Express.js/Node.js expertise, strong testing (Jest/Mocha) and deprecation management experience, and high frequency of relevant skills (Node.js 12x, Express.js 10x, Middleware 8x). Reviewed similar PRs (e.g., #6386) and demonstrated consistent review activity (83 reviews, 35 comments).",
+          "strengths_alignment": [
+            "Express.js internals (10x frequency)",
+            "Deprecation management (implied via middleware/HTTP status expertise)",
+            "Unit testing frameworks (Jest/Mocha, 5x async/await frequency)",
+            "Backend + Testing expertise (60 PRs reviewed)",
+            "Similar-review relevance (collaborated on #6386 with bjohansebas)"
+          ],
+          "review_experience": "Senior-level reviewer with 83 total reviews, 35 comments, and 60 PRs reviewed. Specializes in HTTP server behavior, middleware design, and asynchronous programming. Strong evidence of technical depth in Express.js internals and testing.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with extensive Express.js/Node.js experience (65 reviews, 57 PRs), strong testing (Mocha/Supertest) and deprecation management patterns. Reviewed similar PRs (#6534) and demonstrated consistent review activity. Slightly lower skill frequency for 'deprecation warning systems' but strong backend/testing alignment.",
+          "strengths_alignment": [
+            "Express.js internals (5x frequency)",
+            "Backend + Testing expertise (65 reviews, 57 PRs)",
+            "Deprecation management (implied via middleware/HTTP status expertise)",
+            "Unit testing frameworks (Mocha/Supertest)",
+            "Similar-review relevance (reviewed #6534 with unit test focus)"
+          ],
+          "review_experience": "Senior-level reviewer with 65 total reviews, 10 comments, and 57 PRs reviewed. Specializes in Express.js, Node.js, and testing. Reviewed PRs with unit test additions and deprecation-related discussions.",
+          "potential_concerns": "Lower frequency for 'deprecation warning systems' (not explicitly listed in top skills)."
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.82,
+          "reasoning": "Mid-level reviewer with strong Express.js/Node.js expertise (107 reviews, 41 comments) and direct frequency matches for required skills (Node.js 10x, Express.js 5x). Reviewed similar PRs (#6386) and demonstrated consistent review activity. Lower seniority than top choices but high frequency evidence for core requirements.",
+          "strengths_alignment": [
+            "Express.js internals (5x frequency)",
+            "Deprecation management (implied via 'deprecation management' in primary skills)",
+            "Unit testing frameworks (Mocha/Chai, TDD)",
+            "Backend + Testing expertise (107 reviews, 41 comments)",
+            "Similar-review relevance (reviewed #6386 with testing focus)"
+          ],
+          "review_experience": "Mid-level reviewer with 107 total reviews, 41 comments, and 72 PRs reviewed. Specializes in Express.js, Node.js, and testing (Mocha/Chai). Strong frequency evidence for required skills but fewer senior-level reviews than top choices.",
+          "potential_concerns": "Lower seniority (Mid vs. Senior) and no explicit mention of 'deprecation warning systems' in top skills."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with deep Express.js/Node.js expertise, strong testing (Jest/Mocha) and deprecation management experience, and high frequency of relevant skills (Node.js 12x, Express.js 10x, Middleware 8x). Reviewed similar PRs (e.g., #6386) and demonstrated consistent review activity (83 reviews, 35 comments).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6774",
+      "reviewer_strengths": [
+        "Express.js internals (10x frequency)",
+        "Deprecation management (implied via middleware/HTTP status expertise)",
+        "Unit testing frameworks (Jest/Mocha, 5x async/await frequency)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 83 total reviews, 35 comments, and 60 PRs reviewed. Specializes in HTTP server behavior, middleware design, and asynchronous programming. Strong evidence of technical depth in Express.js internals and testing.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js",
+          "Express.js internals",
+          "deprecation warning systems",
+          "unit testing frameworks"
+        ],
+        "review_expertise_areas": [
+          "Backend",
+          "Testing",
+          "Code Quality"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep Express.js/Node.js expertise, strong testing (Jest/Mocha) and deprecation management experience, and high frequency of relevant skills (Node.js 12x, Express.js 10x, Middleware 8x). Reviewed similar PRs (e.g., #6386) and demonstrated consistent review activity (83 reviews, 35 comments).",
+          "strengths_alignment": [
+            "Express.js internals (10x frequency)",
+            "Deprecation management (implied via middleware/HTTP status expertise)",
+            "Unit testing frameworks (Jest/Mocha, 5x async/await frequency)",
+            "Backend + Testing expertise (60 PRs reviewed)",
+            "Similar-review relevance (collaborated on #6386 with bjohansebas)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 83 total reviews, 35 comments, and 60 PRs reviewed. Specializes in HTTP server behavior, middleware design, and asynchronous programming. Strong evidence of technical depth in Express.js internals and testing.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6780,
+      "pr_title": "Remove history.md from being packaged on publish",
+      "pr_author": "sheplu",
+      "pr_state": "closed",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with deep Express.js/Node.js expertise, strong release-related review activity (similar PRs), and high frequency of relevant skills (middleware, async/await, CI/CD).",
+          "strengths_alignment": [
+            "Express.js/Node.js backend development (12x Node.js, 10x Express.js)",
+            "Release-related CI/CD pipelines (8x CI/CD Pipelines)",
+            "Performance/artifact optimization (async/await, dependency management)",
+            "Consistent high review activity (83 reviews, 35 comments)"
+          ],
+          "review_experience": "Senior-level reviewer with 60 PRs reviewed, 35 comments, and 83 total reviews. Frequently reviewed dependency bumps and release-related PRs (similar to PR #6496/#6497).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with strong Express.js/Node.js expertise, release-related review history (similar PRs), and high frequency of relevant skills (middleware, dependency management).",
+          "strengths_alignment": [
+            "Express.js/Node.js backend development (6x Node.js, 5x Express.js)",
+            "Release-related review activity (reviewed PR #6094: Release: 4.21.2)",
+            "Dependency management and semantic versioning (5x npm/yarn)",
+            "Consistent high review activity (65 reviews, 10 comments)"
+          ],
+          "review_experience": "Senior-level reviewer with 57 PRs reviewed, 10 comments, and 65 total reviews. Frequently reviewed release-related PRs and dependency bumps.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with strong Express.js/Node.js expertise, release-related review activity (similar PRs), and high frequency of relevant skills (CI/CD, dependency management).",
+          "strengths_alignment": [
+            "Express.js/Node.js backend development (10x Express.js, 12x Node.js)",
+            "Release-related review activity (reviewed PR #6496/#6497 with UlisesGascon/wesleytodd)",
+            "Dependency management and CI/CD pipelines (12x npm/yarn, 8x CI/CD Pipelines)",
+            "Consistent mid-level review activity (31 reviews, 2 comments)"
+          ],
+          "review_experience": "Mid-level reviewer with 28 PRs reviewed, 2 comments, and 31 total reviews. Frequently reviewed dependency bumps and release-related PRs.",
+          "potential_concerns": "Lower comment frequency (2 comments) compared to top reviewers"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with deep Express.js/Node.js expertise, strong release-related review activity (similar PRs), and high frequency of relevant skills (middleware, async/await, CI/CD).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 6,
+      "pr_url": "https://github.com/expressjs/express/pull/6780",
+      "reviewer_strengths": [
+        "Express.js/Node.js backend development (12x Node.js, 10x Express.js)",
+        "Release-related CI/CD pipelines (8x CI/CD Pipelines)",
+        "Performance/artifact optimization (async/await, dependency management)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 60 PRs reviewed, 35 comments, and 83 total reviews. Frequently reviewed dependency bumps and release-related PRs (similar to PR #6496/#6497).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "release"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Performance",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep Express.js/Node.js expertise, strong release-related review activity (similar PRs), and high frequency of relevant skills (middleware, async/await, CI/CD).",
+          "strengths_alignment": [
+            "Express.js/Node.js backend development (12x Node.js, 10x Express.js)",
+            "Release-related CI/CD pipelines (8x CI/CD Pipelines)",
+            "Performance/artifact optimization (async/await, dependency management)",
+            "Consistent high review activity (83 reviews, 35 comments)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 60 PRs reviewed, 35 comments, and 83 total reviews. Frequently reviewed dependency bumps and release-related PRs (similar to PR #6496/#6497).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6793,
+      "pr_title": "build(deps): bump actions/download-artifact from 4.3.0 to 5.0.0",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "assigned_reviewer": "Phillip9587",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.92,
+          "reasoning": "Strongest frequency match for GitHub Actions (CI/CD Pipelines 8x) and dependency management (npm/yarn 12x). Directly reviewed similar dependency bump PRs (#6496, #6497) and has 28 PRs reviewed with explicit focus on release/dependency areas.",
+          "strengths_alignment": [
+            "Top frequency for GitHub Actions (CI/CD Pipelines 8x) and dependency management (npm/yarn 12x)",
+            "Reviewed similar dependency bump PRs (#6496, #6497) with UlisesGascon/wesleytodd",
+            "Explicit expertise in semantic versioning and release processes"
+          ],
+          "review_experience": "Mid-level reviewer with 31 reviews, 28 PRs reviewed, and 2 comments. High activity in dependency/dependency management areas with clear evidence of technical depth.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.88,
+          "reasoning": "Senior-level reviewer with deep GitHub Actions (CI/CD) and dependency management expertise (npm/yarn, Dependabot). Reviewed similar dependency bump PRs (#6496, #6497) and has 60 PRs reviewed with strong evidence for release/dependency focus.",
+          "strengths_alignment": [
+            "Top frequency for dependency management (npm/yarn, Dependabot) and GitHub Actions (CI/CD)",
+            "Reviewed similar dependency bump PRs (#6496, #6497) with UlisesGascon/Phillip9587",
+            "Explicit expertise in release processes and artifact handling"
+          ],
+          "review_experience": "Senior reviewer with 83 reviews, 60 PRs reviewed, and 35 comments. Highest activity in dependency/dependency management areas with clear evidence of technical depth.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with strong GitHub Actions and dependency management expertise (npm/yarn). Reviewed similar dependency bump PRs (#6496, #6497) and has 65 reviews with explicit focus on release/dependency areas.",
+          "strengths_alignment": [
+            "Top frequency for dependency management (npm/yarn) and GitHub Actions (CI/CD)",
+            "Reviewed similar dependency bump PRs (#6496, #6497) with wesleytodd/Phillip9587",
+            "Explicit expertise in semantic versioning and release processes"
+          ],
+          "review_experience": "Senior reviewer with 65 reviews, 57 PRs reviewed, and 10 comments. High activity in dependency/dependency management areas with clear evidence of technical depth.",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest frequency match for GitHub Actions (CI/CD Pipelines 8x) and dependency management (npm/yarn 12x). Directly reviewed similar dependency bump PRs (#6496, #6497) and has 28 PRs reviewed with explicit focus on release/dependency areas.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6793",
+      "reviewer_strengths": [
+        "Top frequency for GitHub Actions (CI/CD Pipelines 8x) and dependency management (npm/yarn 12x)",
+        "Reviewed similar dependency bump PRs (#6496, #6497) with UlisesGascon/wesleytodd",
+        "Explicit expertise in semantic versioning and release processes"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Mid-level reviewer with 31 reviews, 28 PRs reviewed, and 2 comments. High activity in dependency/dependency management areas with clear evidence of technical depth.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "GitHub Actions",
+          "dependency management"
+        ],
+        "review_expertise_areas": [
+          "dependencies",
+          "release"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest frequency match for GitHub Actions (CI/CD Pipelines 8x) and dependency management (npm/yarn 12x). Directly reviewed similar dependency bump PRs (#6496, #6497) and has 28 PRs reviewed with explicit focus on release/dependency areas.",
+          "strengths_alignment": [
+            "Top frequency for GitHub Actions (CI/CD Pipelines 8x) and dependency management (npm/yarn 12x)",
+            "Reviewed similar dependency bump PRs (#6496, #6497) with UlisesGascon/wesleytodd",
+            "Explicit expertise in semantic versioning and release processes"
+          ],
+          "review_experience_details": "Mid-level reviewer with 31 reviews, 28 PRs reviewed, and 2 comments. High activity in dependency/dependency management areas with clear evidence of technical depth.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6794,
+      "pr_title": "build(deps): bump actions/setup-node from 4.4.0 to 5.0.0",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "assigned_reviewer": "UlisesGascon",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.92,
+          "reasoning": "Senior-level reviewer with direct GitHub Actions/dependency expertise (65 reviews, 57 PRs), strong frequency evidence for 'Node.js' (6x), 'npm/yarn' (dependency management), and CI/CD patterns. Reviewed similar dependency bumps (actions/setup-node) and GitHub Actions CI updates.",
+          "strengths_alignment": [
+            "Top skills: Node.js (6x), Express.js (5x), Dependency Management (npm/yarn), CI/CD Integration",
+            "Reviewed PR #6497 (actions/setup-node bump) and PR #6314 (GitHub Actions CI workflow updates)",
+            "Senior expertise in dependency upgrades and security fixes (aligns with actions/setup-node v5.0.0 focus)"
+          ],
+          "review_experience": "65 total reviews, 10 comments, 57 PRs reviewed; consistent activity with technical depth in backend/JavaScript domains.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with strong GitHub Actions/dependency frequency (83 reviews, 60 PRs), explicit 'npm/yarn' and 'Dependency management' skills, and similar CI/CD focus. Reviewed dependency bumps (actions/setup-node) and GitHub Actions workflows.",
+          "strengths_alignment": [
+            "Top skills: 'Node.js' (12x), 'npm/yarn' (dependency management), 'CI/CD Pipelines' (8x)",
+            "Reviewed PR #6497 (actions/setup-node bump) and PR #6314 (GitHub Actions CI updates)",
+            "Senior expertise in dependency upgrades and security fixes (aligns with actions/setup-node v5.0.0)"
+          ],
+          "review_experience": "83 total reviews, 35 comments, 60 PRs reviewed; consistent activity with technical depth in backend/JavaScript domains.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with GitHub Actions/dependency frequency (31 reviews, 28 PRs), explicit 'npm/yarn' and 'CI/CD Pipelines' skills. Reviewed GitHub Actions CI updates (PR #6314) but lacks direct actions/setup-node review evidence.",
+          "strengths_alignment": [
+            "Top skills: 'npm/yarn' (12x), 'CI/CD Pipelines' (8x), 'Node.js' (12x), 'Express.js' (10x)",
+            "Reviewed PR #6314 (GitHub Actions CI workflow updates)",
+            "Mid-level expertise in dependency management and CI/CD (aligns with actions/setup-node focus)"
+          ],
+          "review_experience": "31 total reviews, 2 comments, 28 PRs reviewed; consistent activity but lower frequency than top choices.",
+          "potential_concerns": "No direct actions/setup-node review evidence; lower review/comment frequency than top 2."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level reviewer with direct GitHub Actions/dependency expertise (65 reviews, 57 PRs), strong frequency evidence for 'Node.js' (6x), 'npm/yarn' (dependency management), and CI/CD patterns. Reviewed similar dependency bumps (actions/setup-node) and GitHub Actions CI updates.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6794",
+      "reviewer_strengths": [
+        "Top skills: Node.js (6x), Express.js (5x), Dependency Management (npm/yarn), CI/CD Integration",
+        "Reviewed PR #6497 (actions/setup-node bump) and PR #6314 (GitHub Actions CI workflow updates)",
+        "Senior expertise in dependency upgrades and security fixes (aligns with actions/setup-node v5.0.0 focus)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "65 total reviews, 10 comments, 57 PRs reviewed; consistent activity with technical depth in backend/JavaScript domains.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "GitHub Actions",
+          "actions/setup-node"
+        ],
+        "review_expertise_areas": [
+          "dependencies",
+          "github_actions"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with direct GitHub Actions/dependency expertise (65 reviews, 57 PRs), strong frequency evidence for 'Node.js' (6x), 'npm/yarn' (dependency management), and CI/CD patterns. Reviewed similar dependency bumps (actions/setup-node) and GitHub Actions CI updates.",
+          "strengths_alignment": [
+            "Top skills: Node.js (6x), Express.js (5x), Dependency Management (npm/yarn), CI/CD Integration",
+            "Reviewed PR #6497 (actions/setup-node bump) and PR #6314 (GitHub Actions CI workflow updates)",
+            "Senior expertise in dependency upgrades and security fixes (aligns with actions/setup-node v5.0.0 focus)"
+          ],
+          "review_experience_details": "65 total reviews, 10 comments, 57 PRs reviewed; consistent activity with technical depth in backend/JavaScript domains.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6795,
+      "pr_title": "build(deps): bump ossf/scorecard-action from 2.4.2 to 2.4.3",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 83 PRs reviewed, 35 comments, and strong frequency evidence for GitHub Actions (implied via CI/CD), dependency management (npm/yarn, Dependabot), and security/compatibility focus. Directly reviewed dependency bump PRs (#6497) and dependency-related workflows.",
+          "strengths_alignment": [
+            "12x Node.js, 10x Express.js, 12x npm/yarn, 8x CI/CD Pipelines (GitHub Actions implied), 5x Dependency Management",
+            "Reviewed dependency bump PRs (#6497) and dependency workflows (#5435)",
+            "Senior-level expertise in dependency security/compatibility and workflow integration"
+          ],
+          "review_experience": "83 PRs reviewed (60 PRs), 35 comments, 83 total reviews. High activity and consistency in dependency/CI/CD areas.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with 65 PRs reviewed, 10 comments, and strong frequency evidence for dependency management (npm/yarn), GitHub Actions (CI/CD), and security/compatibility. Directly reviewed dependency bump PRs (#6497) and dependency workflows (#5435).",
+          "strengths_alignment": [
+            "6x Node.js, 5x Express.js, 8x Middleware, 6x npm/yarn, 5x Dependency Management",
+            "Reviewed PR #6497 (dependency bump) and PR #5435 (Dependabot integration)",
+            "Senior-level expertise in dependency security/compatibility and workflow integration"
+          ],
+          "review_experience": "65 PRs reviewed (57 PRs), 10 comments, 65 total reviews. High activity and consistency in dependency/CI/CD areas.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 31 PRs reviewed, 2 comments, and strong frequency evidence for GitHub Actions (CI/CD), dependency management (npm/yarn/pnpm), and Express.js. Reviewed dependency bump PR (#6497) and has clear focus on dependency workflows.",
+          "strengths_alignment": [
+            "12x Node.js, 12x npm/yarn, 10x Express.js, 8x CI/CD Pipelines (GitHub Actions implied)",
+            "Reviewed PR #6497 (dependency bump)",
+            "Mid-level expertise in dependency management and CI/CD workflows"
+          ],
+          "review_experience": "31 PRs reviewed (28 PRs), 2 comments, 31 total reviews. Strong frequency evidence for dependency/CI/CD but lower activity than top choices.",
+          "potential_concerns": "Lower review activity (31 PRs) compared to top choices, but strong skill frequency match."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 83 PRs reviewed, 35 comments, and strong frequency evidence for GitHub Actions (implied via CI/CD), dependency management (npm/yarn, Dependabot), and security/compatibility focus. Directly reviewed dependency bump PRs (#6497) and dependency-related workflows.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6795",
+      "reviewer_strengths": [
+        "12x Node.js, 10x Express.js, 12x npm/yarn, 8x CI/CD Pipelines (GitHub Actions implied), 5x Dependency Management",
+        "Reviewed dependency bump PRs (#6497) and dependency workflows (#5435)",
+        "Senior-level expertise in dependency security/compatibility and workflow integration"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "83 PRs reviewed (60 PRs), 35 comments, 83 total reviews. High activity and consistency in dependency/CI/CD areas.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "GitHub Actions",
+          "Dependency Management"
+        ],
+        "review_expertise_areas": [
+          "dependencies"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 83 PRs reviewed, 35 comments, and strong frequency evidence for GitHub Actions (implied via CI/CD), dependency management (npm/yarn, Dependabot), and security/compatibility focus. Directly reviewed dependency bump PRs (#6497) and dependency-related workflows.",
+          "strengths_alignment": [
+            "12x Node.js, 10x Express.js, 12x npm/yarn, 8x CI/CD Pipelines (GitHub Actions implied), 5x Dependency Management",
+            "Reviewed dependency bump PRs (#6497) and dependency workflows (#5435)",
+            "Senior-level expertise in dependency security/compatibility and workflow integration"
+          ],
+          "review_experience_details": "83 PRs reviewed (60 PRs), 35 comments, 83 total reviews. High activity and consistency in dependency/CI/CD areas.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6796,
+      "pr_title": "build(deps): bump github/codeql-action from 3.29.7 to 3.30.5",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "assigned_reviewer": "Phillip9587",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.92,
+          "reasoning": "Strongest match for GitHub Actions and CodeQL expertise, with direct evidence of dependency management and CI/CD workflows. Reviewed similar `github/codeql-action` dependency bumps (PR #6498, #6429) and has high frequency of relevant skills (Node.js, npm/yarn, CI/CD Pipelines).",
+          "strengths_alignment": [
+            "12x Node.js, 10x Express.js, 12x npm/yarn, 8x CI/CD Pipelines, 8x GitHub Actions (inferred from CI/CD)",
+            "Reviewed 28 PRs with 31 total reviews, showing consistent activity",
+            "Directly reviewed similar `github/codeql-action` dependency bumps (PR #6498, #6429)"
+          ],
+          "review_experience": "Mid-level reviewer with 31 reviews and 28 PRs reviewed, specializing in dependency management, CI/CD pipelines, and Express.js middleware. Demonstrates deep familiarity with GitHub Actions and CodeQL-related workflows.",
+          "potential_concerns": "No explicit CodeQL or security review evidence beyond dependency bumps, but inferred from CI/CD and dependency management focus."
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.88,
+          "reasoning": "Senior-level reviewer with extensive experience in Node.js/Express.js and dependency management, including GitHub Actions and CI/CD. Reviewed similar `github/codeql-action` bumps (PR #6498) and has strong security/dependency expertise.",
+          "strengths_alignment": [
+            "65 reviews and 57 PRs reviewed, with 8x Middleware, 6x Node.js, 5x Express.js",
+            "Reviewed PR #6498 (similar `github/codeql-action` dependency bump)",
+            "Primary skills include Dependency Management (npm/yarn), API Design, and CI/CD Integration"
+          ],
+          "review_experience": "Senior-level reviewer with 65 reviews and 57 PRs, specializing in Node.js/Express.js backend development, dependency management, and CI/CD workflows. Demonstrates strong security and dependency expertise.",
+          "potential_concerns": "No explicit CodeQL review evidence, but inferred from CI/CD and dependency management focus."
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with deep expertise in Node.js/Express.js, dependency management, and CI/CD workflows. Reviewed similar `github/codeql-action` bumps (PR #6498) and has strong security/dependency focus, though less direct CodeQL evidence than Phillip9587.",
+          "strengths_alignment": [
+            "83 reviews and 60 PRs reviewed, with 12x Node.js, 10x Express.js, 12x npm/yarn",
+            "Reviewed PR #6498 (similar `github/codeql-action` dependency bump)",
+            "Primary skills include Dependency Management (npm/yarn), Testing, and Code Quality"
+          ],
+          "review_experience": "Senior-level reviewer with 83 reviews and 60 PRs, specializing in Node.js/Express.js backend development, dependency management, and CI/CD workflows. Demonstrates strong security and dependency expertise.",
+          "potential_concerns": "No explicit CodeQL or security review evidence beyond dependency bumps, but inferred from CI/CD and dependency management focus."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest match for GitHub Actions and CodeQL expertise, with direct evidence of dependency management and CI/CD workflows. Reviewed similar `github/codeql-action` dependency bumps (PR #6498, #6429) and has high frequency of relevant skills (Node.js, npm/yarn, CI/CD Pipelines).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6796",
+      "reviewer_strengths": [
+        "12x Node.js, 10x Express.js, 12x npm/yarn, 8x CI/CD Pipelines, 8x GitHub Actions (inferred from CI/CD)",
+        "Reviewed 28 PRs with 31 total reviews, showing consistent activity",
+        "Directly reviewed similar `github/codeql-action` dependency bumps (PR #6498, #6429)"
+      ],
+      "potential_concerns": "No explicit CodeQL or security review evidence beyond dependency bumps, but inferred from CI/CD and dependency management focus.",
+      "review_experience": "Mid-level reviewer with 31 reviews and 28 PRs reviewed, specializing in dependency management, CI/CD pipelines, and Express.js middleware. Demonstrates deep familiarity with GitHub Actions and CodeQL-related workflows.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "GitHub Actions",
+          "CodeQL"
+        ],
+        "review_expertise_areas": [
+          "dependencies",
+          "security"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Security",
+        "assignment_details": {
+          "full_reasoning": "Strongest match for GitHub Actions and CodeQL expertise, with direct evidence of dependency management and CI/CD workflows. Reviewed similar `github/codeql-action` dependency bumps (PR #6498, #6429) and has high frequency of relevant skills (Node.js, npm/yarn, CI/CD Pipelines).",
+          "strengths_alignment": [
+            "12x Node.js, 10x Express.js, 12x npm/yarn, 8x CI/CD Pipelines, 8x GitHub Actions (inferred from CI/CD)",
+            "Reviewed 28 PRs with 31 total reviews, showing consistent activity",
+            "Directly reviewed similar `github/codeql-action` dependency bumps (PR #6498, #6429)"
+          ],
+          "review_experience_details": "Mid-level reviewer with 31 reviews and 28 PRs reviewed, specializing in dependency management, CI/CD pipelines, and Express.js middleware. Demonstrates deep familiarity with GitHub Actions and CodeQL-related workflows.",
+          "potential_limitations": "No explicit CodeQL or security review evidence beyond dependency bumps, but inferred from CI/CD and dependency management focus."
+        }
+      }
+    },
+    {
+      "pr_number": 6797,
+      "pr_title": "build(deps): bump actions/checkout from 4.2.2 to 5.0.0",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "assigned_reviewer": "Phillip9587",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.92,
+          "reasoning": "Strongest frequency evidence for dependency management (npm/yarn/pnpm) and GitHub Actions CI/CD, with direct Express.js/Node.js backend expertise. Reviewed 28+ PRs with 12x dependency management mentions and 8x CI/CD pipeline focus. Matches all required areas (dependencies, GitHub Actions) and similar-review patterns (UlisesGascon/wesleytodd overlap).",
+          "strengths_alignment": [
+            "12x dependency management (npm/yarn/pnpm) frequency",
+            "8x GitHub Actions/CI/CD pipeline mentions",
+            "10x Express.js frequency (direct match to framework)",
+            "Reviewed 28 PRs (high activity consistency)",
+            "Similar-review overlap with UlisesGascon/wesleytodd (dependency bumps)"
+          ],
+          "review_experience": "Mid-level reviewer with 31 total reviews, 28 PRs reviewed, and 2 comments. Focused on dependency management, CI/CD pipelines, and Express.js middleware architecture. No evidence of weak evidence gaps.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.88,
+          "reasoning": "Senior-level expertise in Express.js/Node.js with strong dependency management and CI/CD focus. Reviewed 65 PRs with 5x Express.js and 6x Node.js frequency, including dependency bump PRs. Slightly lower dependency frequency than Phillip9587 but compensates with seniority and broader CI/CD expertise.",
+          "strengths_alignment": [
+            "5x Express.js frequency (direct match)",
+            "6x Node.js frequency",
+            "Dependency Management (npm/yarn) listed as primary skill",
+            "Reviewed 65 PRs (highest activity in group)",
+            "Similar-review overlap: Reviewed dependency bump PRs (PR #6497, #6496)"
+          ],
+          "review_experience": "Senior-level reviewer with 65 total reviews, 57 PRs reviewed, and 10 comments. Focused on Express.js middleware, dependency management, and CI/CD integration. Strong evidence for all required areas.",
+          "potential_concerns": "Lower dependency frequency (3x) than Phillip9587, but seniority compensates."
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.82,
+          "reasoning": "Senior-level reviewer with deep Express.js/Node.js expertise and dependency management focus. Reviewed 83 PRs with 10x Express.js and 12x Node.js frequency, but lower dependency frequency (5x) and no explicit GitHub Actions mentions. Strong similarity to UlisesGascon/Phillip9587 in similar-review patterns.",
+          "strengths_alignment": [
+            "10x Express.js frequency (direct match)",
+            "12x Node.js frequency",
+            "Dependency management (npm/yarn) listed as primary skill",
+            "Reviewed 83 PRs (highest activity in group)",
+            "Similar-review overlap: Reviewed dependency bump PRs (PR #6497, #6496)"
+          ],
+          "review_experience": "Senior-level reviewer with 83 total reviews, 60 PRs reviewed, and 35 comments. Focused on Express.js middleware, dependency management, and asynchronous programming. Strong evidence for Express.js but weaker GitHub Actions focus.",
+          "potential_concerns": "Lower dependency frequency (5x) and no explicit GitHub Actions mentions in profile."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest frequency evidence for dependency management (npm/yarn/pnpm) and GitHub Actions CI/CD, with direct Express.js/Node.js backend expertise. Reviewed 28+ PRs with 12x dependency management mentions and 8x CI/CD pipeline focus. Matches all required areas (dependencies, GitHub Actions) and similar-review patterns (UlisesGascon/wesleytodd overlap).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6797",
+      "reviewer_strengths": [
+        "12x dependency management (npm/yarn/pnpm) frequency",
+        "8x GitHub Actions/CI/CD pipeline mentions",
+        "10x Express.js frequency (direct match to framework)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Mid-level reviewer with 31 total reviews, 28 PRs reviewed, and 2 comments. Focused on dependency management, CI/CD pipelines, and Express.js middleware architecture. No evidence of weak evidence gaps.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "dependencies",
+          "github_actions"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest frequency evidence for dependency management (npm/yarn/pnpm) and GitHub Actions CI/CD, with direct Express.js/Node.js backend expertise. Reviewed 28+ PRs with 12x dependency management mentions and 8x CI/CD pipeline focus. Matches all required areas (dependencies, GitHub Actions) and similar-review patterns (UlisesGascon/wesleytodd overlap).",
+          "strengths_alignment": [
+            "12x dependency management (npm/yarn/pnpm) frequency",
+            "8x GitHub Actions/CI/CD pipeline mentions",
+            "10x Express.js frequency (direct match to framework)",
+            "Reviewed 28 PRs (high activity consistency)",
+            "Similar-review overlap with UlisesGascon/wesleytodd (dependency bumps)"
+          ],
+          "review_experience_details": "Mid-level reviewer with 31 total reviews, 28 PRs reviewed, and 2 comments. Focused on dependency management, CI/CD pipelines, and Express.js middleware architecture. No evidence of weak evidence gaps.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6803,
+      "pr_title": "Update Readme.md",
+      "pr_author": "kpvgeetha",
+      "pr_state": "closed",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 60+ PRs reviewed, 83 total reviews, and strong documentation-focused evidence (similar PRs #5512, #6369). High frequency of Node.js/Express.js expertise aligns with documentation review needs.",
+          "strengths_alignment": [
+            "Documentation-focused review history (similar PRs #5512, #6369)",
+            "High frequency of Node.js/Express.js expertise (12x Node.js, 10x Express.js)",
+            "Consistent review activity (60 PRs reviewed, 83 total reviews)"
+          ],
+          "review_experience": "Senior-level reviewer with 60 PRs reviewed, 83 total reviews, and 35 comments. Demonstrated expertise in Node.js/Express.js backend development, middleware, and documentation.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with 57 PRs reviewed, strong Node.js/Express.js expertise, and documentation-related review patterns. Less direct evidence of documentation-focused reviews than wesleytodd but high frequency of relevant skills.",
+          "strengths_alignment": [
+            "Senior-level expertise in Node.js/Express.js (57 PRs reviewed)",
+            "High frequency of Node.js/Express.js skills (6x Node.js, 5x Express.js)",
+            "Strong alignment with backend documentation needs"
+          ],
+          "review_experience": "Senior-level reviewer with 57 PRs reviewed, 65 total reviews, and 10 comments. Demonstrated expertise in Node.js/Express.js, middleware, and API design.",
+          "potential_concerns": "No explicit documentation-focused review evidence like wesleytodd"
+        },
+        {
+          "reviewer_name": "sheplu",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 5 PRs reviewed, strong Node.js/Express.js expertise, and documentation-focused review history (similar PR #5512). Lower frequency of reviews but relevant experience.",
+          "strengths_alignment": [
+            "Documentation-focused review history (similar PR #5512)",
+            "High frequency of Node.js/Express.js skills (7x Node.js, 5x Express.js)",
+            "Consistent review activity (5 PRs reviewed, 7 total reviews)"
+          ],
+          "review_experience": "Mid-level reviewer with 5 PRs reviewed, 7 total reviews, and 2 comments. Demonstrated expertise in Node.js/Express.js, dependency management, and testing.",
+          "potential_concerns": "Lower total review volume (7 total reviews) compared to top choices"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 60+ PRs reviewed, 83 total reviews, and strong documentation-focused evidence (similar PRs #5512, #6369). High frequency of Node.js/Express.js expertise aligns with documentation review needs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6803",
+      "reviewer_strengths": [
+        "Documentation-focused review history (similar PRs #5512, #6369)",
+        "High frequency of Node.js/Express.js expertise (12x Node.js, 10x Express.js)",
+        "Consistent review activity (60 PRs reviewed, 83 total reviews)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 60 PRs reviewed, 83 total reviews, and 35 comments. Demonstrated expertise in Node.js/Express.js backend development, middleware, and documentation.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 60+ PRs reviewed, 83 total reviews, and strong documentation-focused evidence (similar PRs #5512, #6369). High frequency of Node.js/Express.js expertise aligns with documentation review needs.",
+          "strengths_alignment": [
+            "Documentation-focused review history (similar PRs #5512, #6369)",
+            "High frequency of Node.js/Express.js expertise (12x Node.js, 10x Express.js)",
+            "Consistent review activity (60 PRs reviewed, 83 total reviews)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 60 PRs reviewed, 83 total reviews, and 35 comments. Demonstrated expertise in Node.js/Express.js backend development, middleware, and documentation.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6804,
+      "pr_title": "Add automated pull request labeling workflow",
+      "pr_author": "Ronitsabhaya75",
+      "pr_state": "closed",
+      "assigned_reviewer": "UlisesGascon",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 65 PRs reviewed, 8x middleware frequency, and direct CI/CD/GitHub Actions expertise in similar PRs (#6314, #6497). Strongest frequency match for 'GitHub Actions' and 'Workflow Automation' in Express.js context.",
+          "strengths_alignment": [
+            "8x middleware frequency (directly relevant to workflow automation)",
+            "5x Express.js frequency (framework alignment)",
+            "Reviewed 3 GitHub Actions-related PRs (#6314, #6497) with UlisesGascon",
+            "Senior-level experience with 57 PRs reviewed (consistent activity)"
+          ],
+          "review_experience": "Senior JavaScript backend engineer with 65 PRs reviewed, 10 comments, and 57 PRs reviewed. Demonstrated expertise in GitHub Actions, CI/CD pipelines, and Express.js middleware in past reviews.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with 31 PRs reviewed, 8x CI/CD pipelines frequency, and direct GitHub Actions experience in similar PRs (#6314). Strong frequency match for 'GitHub Actions' and 'Workflow Automation'.",
+          "strengths_alignment": [
+            "8x CI/CD Pipelines frequency (directly relevant to workflow automation)",
+            "10x Express.js frequency (framework alignment)",
+            "Reviewed PR #6314: 'ci: updated github actions ci workflow' (1x reviewer count)",
+            "12x Node.js frequency (backend expertise)"
+          ],
+          "review_experience": "Mid-level JavaScript reviewer with 31 PRs reviewed, 2 comments, and 28 PRs reviewed. Demonstrated expertise in GitHub Actions, dependency management, and Express.js middleware.",
+          "potential_concerns": "Lower review activity (31 PRs) compared to UlisesGascon, but still strong frequency evidence."
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.82,
+          "reasoning": "Senior reviewer with 83 PRs reviewed, 10x Express.js frequency, and strong GitHub Actions/CI/CD expertise. Reviewed similar PRs (#6314, #6497) but lacks explicit 'GitHub Actions' frequency data.",
+          "strengths_alignment": [
+            "10x Express.js frequency (framework alignment)",
+            "8x Middleware frequency (relevant to workflow automation)",
+            "Reviewed PR #6314: 'ci: updated github actions ci workflow' (1x reviewer count)",
+            "Senior-level experience with 60 PRs reviewed"
+          ],
+          "review_experience": "Senior JavaScript backend engineer with 83 PRs reviewed, 35 comments, and 60 PRs reviewed. Demonstrated expertise in GitHub Actions, middleware, and Express.js.",
+          "potential_concerns": "No explicit 'GitHub Actions' frequency data (only CI/CD pipelines at 8x)."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 65 PRs reviewed, 8x middleware frequency, and direct CI/CD/GitHub Actions expertise in similar PRs (#6314, #6497). Strongest frequency match for 'GitHub Actions' and 'Workflow Automation' in Express.js context.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6804",
+      "reviewer_strengths": [
+        "8x middleware frequency (directly relevant to workflow automation)",
+        "5x Express.js frequency (framework alignment)",
+        "Reviewed 3 GitHub Actions-related PRs (#6314, #6497) with UlisesGascon"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior JavaScript backend engineer with 65 PRs reviewed, 10 comments, and 57 PRs reviewed. Demonstrated expertise in GitHub Actions, CI/CD pipelines, and Express.js middleware in past reviews.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "GitHub Actions",
+          "Workflow Automation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 65 PRs reviewed, 8x middleware frequency, and direct CI/CD/GitHub Actions expertise in similar PRs (#6314, #6497). Strongest frequency match for 'GitHub Actions' and 'Workflow Automation' in Express.js context.",
+          "strengths_alignment": [
+            "8x middleware frequency (directly relevant to workflow automation)",
+            "5x Express.js frequency (framework alignment)",
+            "Reviewed 3 GitHub Actions-related PRs (#6314, #6497) with UlisesGascon",
+            "Senior-level experience with 57 PRs reviewed (consistent activity)"
+          ],
+          "review_experience_details": "Senior JavaScript backend engineer with 65 PRs reviewed, 10 comments, and 57 PRs reviewed. Demonstrated expertise in GitHub Actions, CI/CD pipelines, and Express.js middleware in past reviews.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6805,
+      "pr_title": "enhancement: Added Block readme github action",
+      "pr_author": "tausiq2003",
+      "pr_state": "closed",
+      "assigned_reviewer": "UlisesGascon",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.92,
+          "reasoning": "Senior-level reviewer with deep GitHub Actions CI/CD expertise (similar PRs #6497, #6314) and strong frequency evidence for middleware/Express.js. Demonstrated review activity consistency (65 reviews) and low-complexity fit.",
+          "strengths_alignment": [
+            "Reviewed GitHub Actions CI workflows (#6314, #6497)",
+            "8x Middleware frequency + 5x Express.js frequency",
+            "Senior expertise in CI/CD pipelines and Node.js backend"
+          ],
+          "review_experience": "65 reviews (57 PRs), 10 comments; 65% of reviews involved CI/CD or Express.js middleware. Senior-level Node.js/Express.js backend engineer with 57 PRs reviewed.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.88,
+          "reasoning": "Senior-level reviewer with GitHub Actions CI/CD experience (similar PRs #6497, #6314) and strong frequency evidence for middleware/Express.js. Review activity consistency (83 reviews) aligns with low-complexity needs.",
+          "strengths_alignment": [
+            "Reviewed GitHub Actions CI workflows (#6314, #6497)",
+            "10x Express.js frequency + 12x Node.js frequency",
+            "Senior expertise in HTTP server behavior and middleware"
+          ],
+          "review_experience": "83 reviews (60 PRs), 35 comments; 70% of reviews involved CI/CD or Express.js. Senior-level Node.js/Express.js backend engineer with 60 PRs reviewed.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.82,
+          "reasoning": "Mid-level reviewer with GitHub Actions CI/CD expertise (similar PRs #6314) and strong frequency evidence for middleware/Express.js. Review activity consistency (31 reviews) aligns with low-complexity needs.",
+          "strengths_alignment": [
+            "Authored GitHub Actions CI workflow PR #6314",
+            "10x Express.js frequency + 12x Node.js frequency",
+            "Mid-level expertise in CI/CD pipelines and dependency management"
+          ],
+          "review_experience": "31 reviews (28 PRs), 2 comments; 60% of reviews involved CI/CD or Express.js. Mid-level Node.js/Express.js backend engineer with 28 PRs reviewed.",
+          "potential_concerns": "Lower review activity (31 reviews) compared to top choices"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level reviewer with deep GitHub Actions CI/CD expertise (similar PRs #6497, #6314) and strong frequency evidence for middleware/Express.js. Demonstrated review activity consistency (65 reviews) and low-complexity fit.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 4,
+      "pr_url": "https://github.com/expressjs/express/pull/6805",
+      "reviewer_strengths": [
+        "Reviewed GitHub Actions CI workflows (#6314, #6497)",
+        "8x Middleware frequency + 5x Express.js frequency",
+        "Senior expertise in CI/CD pipelines and Node.js backend"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "65 reviews (57 PRs), 10 comments; 65% of reviews involved CI/CD or Express.js middleware. Senior-level Node.js/Express.js backend engineer with 57 PRs reviewed.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "GitHub Actions",
+          "Community Moderation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with deep GitHub Actions CI/CD expertise (similar PRs #6497, #6314) and strong frequency evidence for middleware/Express.js. Demonstrated review activity consistency (65 reviews) and low-complexity fit.",
+          "strengths_alignment": [
+            "Reviewed GitHub Actions CI workflows (#6314, #6497)",
+            "8x Middleware frequency + 5x Express.js frequency",
+            "Senior expertise in CI/CD pipelines and Node.js backend"
+          ],
+          "review_experience_details": "65 reviews (57 PRs), 10 comments; 65% of reviews involved CI/CD or Express.js middleware. Senior-level Node.js/Express.js backend engineer with 57 PRs reviewed.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6810,
+      "pr_title": "Automatically close PRs named \"Update Readme.md\" ",
+      "pr_author": "maximosnolan",
+      "pr_state": "closed",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with **57 PRs reviewed**, **83 total reviews**, and **strong documentation expertise** (seen in similar PRs #5512 and #6369). High frequency of **Node.js/Express.js middleware** (10x) and **RESTful APIs** (5x) aligns with PR focus areas. No direct JavaScript expertise required; documentation-only focus is well-documented.",
+          "strengths_alignment": [
+            "Documentation-focused reviews (similar PRs #5512, #6369)",
+            "High frequency of Node.js/Express.js middleware (10x) and RESTful APIs (5x)",
+            "Senior-level reliability (60 PRs reviewed, 83 total reviews)"
+          ],
+          "review_experience": "Senior JavaScript reviewer with **60 PRs reviewed**, **83 total reviews**, and **35 comments**. Strong evidence of **documentation review patterns** in past similar PRs (e.g., #5512).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with **57 PRs reviewed**, **65 total reviews**, and **documentation alignment** (seen in similar PRs). Strong **Node.js/Express.js middleware** (5x) and **RESTful APIs** (5x) frequency. Lower review activity than wesleytodd but still highly reliable for documentation.",
+          "strengths_alignment": [
+            "Documentation relevance in similar PRs (e.g., #5512)",
+            "High frequency of **Node.js (6x), Express.js (5x), Middleware (8x)**",
+            "Senior-level expertise (57 PRs reviewed, 65 total reviews)"
+          ],
+          "review_experience": "Senior JavaScript reviewer with **57 PRs reviewed**, **65 total reviews**, and **10 comments**. Strong evidence of **documentation review patterns** in past similar PRs (e.g., #5512).",
+          "potential_concerns": "Slightly lower review activity than wesleytodd (65 vs. 83 total reviews)"
+        },
+        {
+          "reviewer_name": "sheplu",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with **5 PRs reviewed**, **7 total reviews**, and **documentation alignment** (seen in similar PRs). Strong **Node.js/Express.js** frequency (7x Node.js, 5x Express.js) but **no direct comments** in reviews. Lower activity than top choices but still relevant.",
+          "strengths_alignment": [
+            "Documentation relevance in similar PRs (e.g., #5512)",
+            "High frequency of **Node.js (7x), Express.js (5x), RESTful APIs (5x)**",
+            "Mid-level expertise with **7 total reviews**"
+          ],
+          "review_experience": "Mid-level JavaScript reviewer with **5 PRs reviewed**, **7 total reviews**, and **2 comments**. Evidence of **documentation review patterns** in past similar PRs (e.g., #5512).",
+          "potential_concerns": "No review comments provided; **low activity (7 total reviews)**"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with **57 PRs reviewed**, **83 total reviews**, and **strong documentation expertise** (seen in similar PRs #5512 and #6369). High frequency of **Node.js/Express.js middleware** (10x) and **RESTful APIs** (5x) aligns with PR focus areas. No direct JavaScript expertise required; documentation-only focus is well-documented.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 3,
+      "pr_url": "https://github.com/expressjs/express/pull/6810",
+      "reviewer_strengths": [
+        "Documentation-focused reviews (similar PRs #5512, #6369)",
+        "High frequency of Node.js/Express.js middleware (10x) and RESTful APIs (5x)",
+        "Senior-level reliability (60 PRs reviewed, 83 total reviews)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior JavaScript reviewer with **60 PRs reviewed**, **83 total reviews**, and **35 comments**. Strong evidence of **documentation review patterns** in past similar PRs (e.g., #5512).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with **57 PRs reviewed**, **83 total reviews**, and **strong documentation expertise** (seen in similar PRs #5512 and #6369). High frequency of **Node.js/Express.js middleware** (10x) and **RESTful APIs** (5x) aligns with PR focus areas. No direct JavaScript expertise required; documentation-only focus is well-documented.",
+          "strengths_alignment": [
+            "Documentation-focused reviews (similar PRs #5512, #6369)",
+            "High frequency of Node.js/Express.js middleware (10x) and RESTful APIs (5x)",
+            "Senior-level reliability (60 PRs reviewed, 83 total reviews)"
+          ],
+          "review_experience_details": "Senior JavaScript reviewer with **60 PRs reviewed**, **83 total reviews**, and **35 comments**. Strong evidence of **documentation review patterns** in past similar PRs (e.g., #5512).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6817,
+      "pr_title": "docs: enhance installation section with additional package managers and verification steps",
+      "pr_author": "Sandesh-projects",
+      "pr_state": "closed",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 83 PRs reviewed, 35 comments, and strong frequency evidence for dependency management (npm/yarn/pnpm) and installation documentation (Node.js/Express.js). Directly matches all review focus areas (installation commands, 'Verifying Installation', formatting, updating Express). Highest activity consistency and similar-review relevance (wesleytodd reviewed PR #5512 and #6369).",
+          "strengths_alignment": [
+            "npm/yarn/pnpm dependency management (12x frequency)",
+            "Express.js installation/documentation expertise (10x frequency)",
+            "Consistent review activity (83 PRs, 35 comments)",
+            "Senior-level experience with dependency-focused reviews"
+          ],
+          "review_experience": "Senior-level JavaScript reviewer with 60 PRs reviewed, 35 comments, and deep expertise in Node.js/Express.js backend development. Specializes in dependency management, installation documentation, and CI/CD pipelines.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "sheplu",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with 31 PRs reviewed, 2 comments, and strong frequency evidence for dependency management (npm/yarn/pnpm) and Express.js installation. Reviewed similar documentation PRs (#5512). Lower activity than wesleytodd but matches all focus areas.",
+          "strengths_alignment": [
+            "npm/yarn/pnpm (12x frequency) for dependency installation",
+            "Express.js (10x frequency) for framework updates",
+            "Reviewed PR #5512 (documentation move) and #6369 (installation steps)",
+            "Dependency management expertise (5x frequency)"
+          ],
+          "review_experience": "Mid-level JavaScript reviewer with 28 PRs reviewed, 2 comments, and expertise in Node.js/Express.js backend development. Focuses on dependency management, testing, and documentation.",
+          "potential_concerns": "Lower review activity (31 PRs) and fewer comments (2) compared to wesleytodd"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.8,
+          "reasoning": "Senior reviewer with 65 PRs reviewed, 10 comments, and strong frequency evidence for Express.js and dependency management. Reviewed similar documentation PRs (#5512). Lower frequency for npm/yarn/pnpm than wesleytodd/sheplu but still highly relevant.",
+          "strengths_alignment": [
+            "Express.js (5x frequency) for framework updates",
+            "Middleware (8x frequency) for documentation consistency",
+            "Reviewed PR #5512 (documentation move)",
+            "Senior-level experience with 57 PRs reviewed"
+          ],
+          "review_experience": "Senior-level JavaScript reviewer with 57 PRs reviewed, 10 comments, and deep expertise in Express.js, Node.js, and dependency management. Focuses on API design, middleware, and documentation.",
+          "potential_concerns": "Lower frequency for npm/yarn/pnpm (0x) compared to top choices"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 83 PRs reviewed, 35 comments, and strong frequency evidence for dependency management (npm/yarn/pnpm) and installation documentation (Node.js/Express.js). Directly matches all review focus areas (installation commands, 'Verifying Installation', formatting, updating Express). Highest activity consistency and similar-review relevance (wesleytodd reviewed PR #5512 and #6369).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6817",
+      "reviewer_strengths": [
+        "npm/yarn/pnpm dependency management (12x frequency)",
+        "Express.js installation/documentation expertise (10x frequency)",
+        "Consistent review activity (83 PRs, 35 comments)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level JavaScript reviewer with 60 PRs reviewed, 35 comments, and deep expertise in Node.js/Express.js backend development. Specializes in dependency management, installation documentation, and CI/CD pipelines.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 83 PRs reviewed, 35 comments, and strong frequency evidence for dependency management (npm/yarn/pnpm) and installation documentation (Node.js/Express.js). Directly matches all review focus areas (installation commands, 'Verifying Installation', formatting, updating Express). Highest activity consistency and similar-review relevance (wesleytodd reviewed PR #5512 and #6369).",
+          "strengths_alignment": [
+            "npm/yarn/pnpm dependency management (12x frequency)",
+            "Express.js installation/documentation expertise (10x frequency)",
+            "Consistent review activity (83 PRs, 35 comments)",
+            "Senior-level experience with dependency-focused reviews"
+          ],
+          "review_experience_details": "Senior-level JavaScript reviewer with 60 PRs reviewed, 35 comments, and deep expertise in Node.js/Express.js backend development. Specializes in dependency management, installation documentation, and CI/CD pipelines.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6825,
+      "pr_title": "Update Readme.md",
+      "pr_author": "saltymango2619",
+      "pr_state": "closed",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 60+ PRs reviewed, 83 total reviews, and 35 comments. Strong documentation focus evidenced by similar PRs (#5512, #6369) and expertise in Node.js/Express.js middleware, RESTful APIs, and dependency management. High frequency of relevant skills (Node.js 12x, Express.js 10x, Middleware 8x) aligns with documentation review needs.",
+          "strengths_alignment": [
+            "Documentation-focused reviews (similar PRs #5512, #6369)",
+            "High frequency of Node.js/Express.js middleware expertise (12x Node.js, 10x Express.js)",
+            "Consistent review activity (83 reviews, 35 comments)"
+          ],
+          "review_experience": "Senior-level reviewer with 60 PRs reviewed, 83 total reviews, and 35 comments. Specializes in Node.js/Express.js backend development, middleware, and RESTful APIs. Reviewed 57 PRs in express repository.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with 57 PRs reviewed, 65 total reviews, and 10 comments. Strong documentation focus evidenced by similar PR #5512. High frequency of Node.js/Express.js skills (Node.js 6x, Express.js 5x, Middleware 8x) aligns with documentation review needs. Slightly lower review activity than wesleytodd but strong expertise.",
+          "strengths_alignment": [
+            "Documentation-focused review (similar PR #5512)",
+            "High frequency of Node.js/Express.js middleware expertise (8x Middleware, 6x Node.js)",
+            "Strong expertise in API design and middleware patterns"
+          ],
+          "review_experience": "Senior-level reviewer with 57 PRs reviewed, 65 total reviews, and 10 comments. Specializes in Node.js/Express.js backend development, middleware, and API design. Reviewed 57 PRs in express repository.",
+          "potential_concerns": "Lower review activity (65 reviews) compared to wesleytodd"
+        },
+        {
+          "reviewer_name": "sheplu",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 28 PRs reviewed, 31 total reviews, and 2 comments. Strong documentation focus evidenced by similar PR #5512. Moderate frequency of Node.js/Express.js skills (Node.js 7x, Express.js 5x) aligns with documentation review needs. Lower review activity and comments compared to top choices but relevant expertise.",
+          "strengths_alignment": [
+            "Documentation-focused review (similar PR #5512)",
+            "Moderate frequency of Node.js/Express.js skills (Node.js 7x, Express.js 5x)",
+            "Expertise in dependency management and testing"
+          ],
+          "review_experience": "Mid-level reviewer with 28 PRs reviewed, 31 total reviews, and 2 comments. Specializes in Node.js/Express.js backend development, dependency management, and testing. Reviewed 28 PRs in express repository.",
+          "potential_concerns": "Lower review activity (31 reviews, 2 comments) and weaker frequency evidence than top choices"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 60+ PRs reviewed, 83 total reviews, and 35 comments. Strong documentation focus evidenced by similar PRs (#5512, #6369) and expertise in Node.js/Express.js middleware, RESTful APIs, and dependency management. High frequency of relevant skills (Node.js 12x, Express.js 10x, Middleware 8x) aligns with documentation review needs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6825",
+      "reviewer_strengths": [
+        "Documentation-focused reviews (similar PRs #5512, #6369)",
+        "High frequency of Node.js/Express.js middleware expertise (12x Node.js, 10x Express.js)",
+        "Consistent review activity (83 reviews, 35 comments)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 60 PRs reviewed, 83 total reviews, and 35 comments. Specializes in Node.js/Express.js backend development, middleware, and RESTful APIs. Reviewed 57 PRs in express repository.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 60+ PRs reviewed, 83 total reviews, and 35 comments. Strong documentation focus evidenced by similar PRs (#5512, #6369) and expertise in Node.js/Express.js middleware, RESTful APIs, and dependency management. High frequency of relevant skills (Node.js 12x, Express.js 10x, Middleware 8x) aligns with documentation review needs.",
+          "strengths_alignment": [
+            "Documentation-focused reviews (similar PRs #5512, #6369)",
+            "High frequency of Node.js/Express.js middleware expertise (12x Node.js, 10x Express.js)",
+            "Consistent review activity (83 reviews, 35 comments)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 60 PRs reviewed, 83 total reviews, and 35 comments. Specializes in Node.js/Express.js backend development, middleware, and RESTful APIs. Reviewed 57 PRs in express repository.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6836,
+      "pr_title": "Add methodNotAllowedCatcher Middleware and Example",
+      "pr_author": "NalinDalal",
+      "pr_state": "open",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior-level reviewer with highest frequency evidence for Express.js middleware (8x), Node.js (12x), and async/await (5x), directly matching all required skills. Strongest similar-review relevance (appeared in PRs with Express middleware and HTTP status code handling). High review activity consistency (83 reviews, 35 comments).",
+          "strengths_alignment": [
+            "Express.js middleware expertise (8x frequency)",
+            "Node.js backend and async/await mastery (12x + 5x)",
+            "Code quality and maintainability focus",
+            "Direct experience with HTTP status code handling (similar-review relevance)"
+          ],
+          "review_experience": "Senior reviewer with 83 PRs reviewed, 35 comments, and deep expertise in Express middleware, HTTP server behavior, and asynchronous programming. Consistently engaged in technical reviews with evidence of detailed feedback.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with strong frequency evidence for Express.js middleware (8x) and Node.js (6x), closely aligned with required skills. Appeared in similar reviews (e.g., PR #6570) and has high review activity (65 PRs, 10 comments). Slightly lower frequency for async/await (not explicitly listed) but strong domain alignment.",
+          "strengths_alignment": [
+            "Express.js middleware expertise (8x frequency)",
+            "Node.js backend and API design focus",
+            "Code refactoring and modularization experience",
+            "Similar-review relevance (appeared in PR #6570 with Express middleware)"
+          ],
+          "review_experience": "Senior reviewer with 65 PRs reviewed, 10 comments, and deep expertise in Express middleware, API design, and modern JavaScript. Consistently engaged in technical reviews with a focus on code quality and maintainability.",
+          "potential_concerns": "Lower frequency of async/await (not explicitly listed in top skills)"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with strong frequency evidence for Express.js middleware (8x), Node.js (10x), and async/await (5x), directly matching all required skills. Appeared in similar reviews (e.g., PR #6386) and has high review activity (107 PRs, 41 comments). Lower seniority but highest frequency for middleware and async/await among mid-level reviewers.",
+          "strengths_alignment": [
+            "Express.js middleware expertise (8x frequency)",
+            "Node.js and async/await mastery (10x + 5x)",
+            "Code quality and refactoring focus",
+            "Similar-review relevance (appeared in PR #6386 and #6487)"
+          ],
+          "review_experience": "Mid-level reviewer with 107 PRs reviewed, 41 comments, and deep expertise in Express middleware, asynchronous programming, and testing (Mocha/Chai). Consistently engaged in technical reviews with detailed feedback.",
+          "potential_concerns": "Mid-level experience (not senior) but compensates with high frequency evidence"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level reviewer with highest frequency evidence for Express.js middleware (8x), Node.js (12x), and async/await (5x), directly matching all required skills. Strongest similar-review relevance (appeared in PRs with Express middleware and HTTP status code handling). High review activity consistency (83 reviews, 35 comments).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6836",
+      "reviewer_strengths": [
+        "Express.js middleware expertise (8x frequency)",
+        "Node.js backend and async/await mastery (12x + 5x)",
+        "Code quality and maintainability focus"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior reviewer with 83 PRs reviewed, 35 comments, and deep expertise in Express middleware, HTTP server behavior, and asynchronous programming. Consistently engaged in technical reviews with evidence of detailed feedback.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript (ES6+)",
+          "Express.js middleware"
+        ],
+        "review_expertise_areas": [
+          "Backend",
+          "Code Quality"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with highest frequency evidence for Express.js middleware (8x), Node.js (12x), and async/await (5x), directly matching all required skills. Strongest similar-review relevance (appeared in PRs with Express middleware and HTTP status code handling). High review activity consistency (83 reviews, 35 comments).",
+          "strengths_alignment": [
+            "Express.js middleware expertise (8x frequency)",
+            "Node.js backend and async/await mastery (12x + 5x)",
+            "Code quality and maintainability focus",
+            "Direct experience with HTTP status code handling (similar-review relevance)"
+          ],
+          "review_experience_details": "Senior reviewer with 83 PRs reviewed, 35 comments, and deep expertise in Express middleware, HTTP server behavior, and asynchronous programming. Consistently engaged in technical reviews with evidence of detailed feedback.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6839,
+      "pr_title": "fix(sendStatus): prevent BigInt status codes",
+      "pr_author": "Dhairya3391",
+      "pr_state": "open",
+      "assigned_reviewer": "bjohansebas",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.92,
+          "reasoning": "Strongest frequency evidence for Node.js (10x), Express.js (5x), and explicit testing expertise (Mocha/Chai, TDD). Reviewed 72 PRs with 41 comments, demonstrating consistent testing focus. Directly matches all required skills and review focus areas (BigInt validation, test coverage).",
+          "strengths_alignment": [
+            "Node.js (10x frequency) and Express.js (5x) direct matches",
+            "Testing expertise (Mocha/Chai, TDD) explicitly listed",
+            "Reviewed 72 PRs with 41 comments (high activity)",
+            "Similar-review matches: PR #6386 (test coverage) and PR #6476 (test variants) both reviewed by bjohansebas"
+          ],
+          "review_experience": "Mid-level reviewer with 107 total reviews, 72 PRs reviewed, and 41 comments. Focused on Node.js/Express.js backend development with explicit testing patterns.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.88,
+          "reasoning": "Senior-level reviewer with deep Node.js/Express.js expertise (12x Node.js, 10x Express.js) and testing (Supertest/Jest/Mocha). Reviewed 60 PRs with 35 comments, showing consistent testing focus. Strong frequency overlap but slightly less testing-specific evidence than bjohansebas.",
+          "strengths_alignment": [
+            "Node.js (12x) and Express.js (10x) frequency matches",
+            "Testing expertise (Supertest, Jest/Mocha) explicitly listed",
+            "Reviewed 60 PRs with 35 comments (high activity)",
+            "Similar-review matches: PR #6476 (test variants) reviewed by wesleytodd"
+          ],
+          "review_experience": "Senior-level reviewer with 83 total reviews, 60 PRs reviewed, and 35 comments. Focused on Node.js/Express.js backend development with testing and middleware expertise.",
+          "potential_concerns": "Less testing-specific frequency evidence than bjohansebas (e.g., no explicit Mocha/Chai mentions)"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with strong Node.js/Express.js expertise (6x Node.js, 5x Express.js) and testing (implicit via CI/CD integration). Reviewed 57 PRs with 10 comments, showing consistent backend focus. Less testing-specific frequency evidence than top choices but high seniority and domain alignment.",
+          "strengths_alignment": [
+            "Node.js (6x) and Express.js (5x) frequency matches",
+            "Testing implied via 'Testing & CI/CD Integration' in summary",
+            "Reviewed 57 PRs with 10 comments (high activity)",
+            "Similar-review match: PR #6386 (test coverage) reviewed by UlisesGascon"
+          ],
+          "review_experience": "Senior-level reviewer with 65 total reviews, 57 PRs reviewed, and 10 comments. Focused on Node.js/Express.js backend development with CI/CD and testing integration.",
+          "potential_concerns": "Testing expertise less explicit (no Mocha/Chai or TDD mentions)"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest frequency evidence for Node.js (10x), Express.js (5x), and explicit testing expertise (Mocha/Chai, TDD). Reviewed 72 PRs with 41 comments, demonstrating consistent testing focus. Directly matches all required skills and review focus areas (BigInt validation, test coverage).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 3,
+      "pr_url": "https://github.com/expressjs/express/pull/6839",
+      "reviewer_strengths": [
+        "Node.js (10x frequency) and Express.js (5x) direct matches",
+        "Testing expertise (Mocha/Chai, TDD) explicitly listed",
+        "Reviewed 72 PRs with 41 comments (high activity)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Mid-level reviewer with 107 total reviews, 72 PRs reviewed, and 41 comments. Focused on Node.js/Express.js backend development with explicit testing patterns.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js"
+        ],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strongest frequency evidence for Node.js (10x), Express.js (5x), and explicit testing expertise (Mocha/Chai, TDD). Reviewed 72 PRs with 41 comments, demonstrating consistent testing focus. Directly matches all required skills and review focus areas (BigInt validation, test coverage).",
+          "strengths_alignment": [
+            "Node.js (10x frequency) and Express.js (5x) direct matches",
+            "Testing expertise (Mocha/Chai, TDD) explicitly listed",
+            "Reviewed 72 PRs with 41 comments (high activity)",
+            "Similar-review matches: PR #6386 (test coverage) and PR #6476 (test variants) both reviewed by bjohansebas"
+          ],
+          "review_experience_details": "Mid-level reviewer with 107 total reviews, 72 PRs reviewed, and 41 comments. Focused on Node.js/Express.js backend development with explicit testing patterns.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6843,
+      "pr_title": "ci: add node.js 25 to test matrix",
+      "pr_author": "Phillip9587",
+      "pr_state": "closed",
+      "assigned_reviewer": "bjohansebas",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.92,
+          "reasoning": "Strongest frequency evidence for testing (Mocha/Chai, TDD) and CI/CD, with direct overlap in Express.js and Node.js testing patterns. Reviewed 107 PRs with 41 comments, including similar PRs (#6476) with testing focus.",
+          "strengths_alignment": [
+            "Top skill: Testing (Mocha/Chai, TDD) with 10x frequency in reviews",
+            "Reviewed 72 PRs with 41 comments (high activity consistency)",
+            "Direct match for CI/CD and test matrix updates in similar PRs (#6476)"
+          ],
+          "review_experience": "Mid-level reviewer with 107 total reviews, 41 comments, and 72 PRs reviewed. Primary skills include Express.js, async/await, and Node.js testing.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.88,
+          "reasoning": "Senior-level expertise in testing (Supertest/Jest/Mocha) and CI/CD, with 83 reviews and 35 comments. Reviewed similar PRs (#6386, #6476) and has strong frequency evidence for Express.js testing.",
+          "strengths_alignment": [
+            "Top skill: Testing (Supertest, Jest/Mocha) with 5x frequency in reviews",
+            "Reviewed 60 PRs with 35 comments (high activity consistency)",
+            "Direct match for CI/CD and testing in similar PRs (#6386, #6476)"
+          ],
+          "review_experience": "Senior-level reviewer with 83 total reviews, 35 comments, and 60 PRs reviewed. Primary skills include Express.js, middleware, and Node.js testing.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "sheplu",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with strong testing (supertest/Mocha) and CI/CD focus, but lower review volume (7 reviews, 2 comments). Matches CI/CD and testing needs but lacks similar-review evidence.",
+          "strengths_alignment": [
+            "Top skill: Testing (supertest, Mocha) with 5x frequency in reviews",
+            "Primary skills include CI/CD pipelines and dependency management"
+          ],
+          "review_experience": "Mid-level reviewer with 7 total reviews, 2 comments, and 5 PRs reviewed. Primary skills include Express.js, Node.js, and testing.",
+          "potential_concerns": "Low review volume (7 reviews) and no direct evidence of similar PR review patterns"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest frequency evidence for testing (Mocha/Chai, TDD) and CI/CD, with direct overlap in Express.js and Node.js testing patterns. Reviewed 107 PRs with 41 comments, including similar PRs (#6476) with testing focus.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6843",
+      "reviewer_strengths": [
+        "Top skill: Testing (Mocha/Chai, TDD) with 10x frequency in reviews",
+        "Reviewed 72 PRs with 41 comments (high activity consistency)",
+        "Direct match for CI/CD and test matrix updates in similar PRs (#6476)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Mid-level reviewer with 107 total reviews, 41 comments, and 72 PRs reviewed. Primary skills include Express.js, async/await, and Node.js testing.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strongest frequency evidence for testing (Mocha/Chai, TDD) and CI/CD, with direct overlap in Express.js and Node.js testing patterns. Reviewed 107 PRs with 41 comments, including similar PRs (#6476) with testing focus.",
+          "strengths_alignment": [
+            "Top skill: Testing (Mocha/Chai, TDD) with 10x frequency in reviews",
+            "Reviewed 72 PRs with 41 comments (high activity consistency)",
+            "Direct match for CI/CD and test matrix updates in similar PRs (#6476)"
+          ],
+          "review_experience_details": "Mid-level reviewer with 107 total reviews, 41 comments, and 72 PRs reviewed. Primary skills include Express.js, async/await, and Node.js testing.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6844,
+      "pr_title": "Refactor application.js for clarity and consistency",
+      "pr_author": "renaoch",
+      "pr_state": "closed",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 83 PRs reviewed, 35 comments, and strong frequency evidence for middleware (8x), Express.js (10x), and defensive programming patterns. Directly matches all required focus areas (defensive checks, null/undefined filtering, consistency).",
+          "strengths_alignment": [
+            "Express.js middleware expertise (10x frequency)",
+            "Defensive programming patterns (async/await, error handling)",
+            "Code quality focus (35 comments, 60 PRs reviewed)"
+          ],
+          "review_experience": "Senior-level JavaScript reviewer with 83 PRs reviewed, 35 comments, and 60 PRs reviewed. Specializes in HTTP server behavior, middleware design, and asynchronous programming.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with 65 PRs reviewed, 10 comments, and strong frequency evidence for middleware (8x) and Express.js (5x). Matches all focus areas but slightly less review activity than wesleytodd.",
+          "strengths_alignment": [
+            "Middleware (8x frequency) and Express.js (5x frequency)",
+            "Code refactoring and modularization expertise",
+            "Consistency improvements in application.js (similar to PR #6511)"
+          ],
+          "review_experience": "Senior-level JavaScript reviewer with 65 PRs reviewed, 10 comments, and 57 PRs reviewed. Focuses on API design, middleware patterns, and code quality.",
+          "potential_concerns": "Lower comment frequency (10) compared to wesleytodd (35)"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.82,
+          "reasoning": "Mid-level reviewer with 107 PRs reviewed, 41 comments, and strong frequency evidence for middleware (8x) and Express.js (5x). Matches focus areas but lacks senior-level depth in defensive checks.",
+          "strengths_alignment": [
+            "Middleware (8x frequency) and Express.js (5x frequency)",
+            "High review volume (107 PRs, 41 comments)",
+            "Async/await and RESTful API expertise"
+          ],
+          "review_experience": "Mid-level JavaScript reviewer with 107 PRs reviewed, 41 comments, and 72 PRs reviewed. Focuses on Express.js, middleware, and asynchronous programming.",
+          "potential_concerns": "No explicit evidence of defensive checks or null/undefined filtering in reviews"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 83 PRs reviewed, 35 comments, and strong frequency evidence for middleware (8x), Express.js (10x), and defensive programming patterns. Directly matches all required focus areas (defensive checks, null/undefined filtering, consistency).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6844",
+      "reviewer_strengths": [
+        "Express.js middleware expertise (10x frequency)",
+        "Defensive programming patterns (async/await, error handling)",
+        "Code quality focus (35 comments, 60 PRs reviewed)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level JavaScript reviewer with 83 PRs reviewed, 35 comments, and 60 PRs reviewed. Specializes in HTTP server behavior, middleware design, and asynchronous programming.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Code Quality"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 83 PRs reviewed, 35 comments, and strong frequency evidence for middleware (8x), Express.js (10x), and defensive programming patterns. Directly matches all required focus areas (defensive checks, null/undefined filtering, consistency).",
+          "strengths_alignment": [
+            "Express.js middleware expertise (10x frequency)",
+            "Defensive programming patterns (async/await, error handling)",
+            "Code quality focus (35 comments, 60 PRs reviewed)"
+          ],
+          "review_experience_details": "Senior-level JavaScript reviewer with 83 PRs reviewed, 35 comments, and 60 PRs reviewed. Specializes in HTTP server behavior, middleware design, and asynchronous programming.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6846,
+      "pr_title": "Added HTTP exceptions, compression, helmet, and CORS integration",
+      "pr_author": "Nikhil012N",
+      "pr_state": "open",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior-level reviewer with highest frequency evidence for middleware (8x), Express.js (10x), and HTTP-related skills (async/await, RESTful APIs). Strongest alignment with all focus areas including security middleware (Helmet/CORS) and error handling. Highest review activity consistency (83 reviews, 35 comments).",
+          "strengths_alignment": [
+            "8x middleware frequency (direct match for middleware integration correctness)",
+            "10x Express.js frequency (backend expertise)",
+            "5x async/await frequency (error handling robustness)",
+            "35 comments (proactive review engagement)",
+            "12x Node.js frequency (primary language alignment)"
+          ],
+          "review_experience": "Senior JavaScript reviewer with 83 total reviews, 60 PRs reviewed, and 35 comments. Specializes in HTTP server behavior, middleware design, and asynchronous programming. Strong evidence of code quality focus in Express.js ecosystem.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.88,
+          "reasoning": "Mid-level reviewer with strong frequency evidence for middleware (8x), Express.js (5x), and async/await (5x). Direct matches for error handling and security middleware. Lower review activity than top choice but high comment density (41 comments).",
+          "strengths_alignment": [
+            "8x middleware frequency (direct match for middleware integration correctness)",
+            "5x Express.js frequency (backend expertise)",
+            "5x async/await frequency (error handling robustness)",
+            "107 total reviews (high volume)",
+            "5x RESTful APIs frequency (HTTP exception handling)"
+          ],
+          "review_experience": "Mid-level JavaScript reviewer with 107 total reviews, 72 PRs reviewed, and 41 comments. Strong expertise in Express.js middleware, asynchronous programming, and code quality. Reviewed similar PRs (e.g., #6599).",
+          "potential_concerns": "Lower comment density (41 comments across 107 reviews) than top choice"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with strong middleware (8x) and Express.js (5x) frequency. High review volume (65 reviews) but lower comment density (10 comments). Strong alignment with security and middleware focus areas.",
+          "strengths_alignment": [
+            "8x middleware frequency (direct match for middleware integration correctness)",
+            "5x Express.js frequency (backend expertise)",
+            "6x Node.js frequency (primary language alignment)",
+            "5x RESTful APIs frequency (HTTP exception handling)",
+            "65 total reviews (high volume)"
+          ],
+          "review_experience": "Senior JavaScript reviewer with 65 total reviews, 57 PRs reviewed, and 10 comments. Specializes in Express.js middleware, API design, and code refactoring. Strong evidence of security and middleware expertise.",
+          "potential_concerns": "Lower comment density (10 comments across 65 reviews) than top two choices"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level reviewer with highest frequency evidence for middleware (8x), Express.js (10x), and HTTP-related skills (async/await, RESTful APIs). Strongest alignment with all focus areas including security middleware (Helmet/CORS) and error handling. Highest review activity consistency (83 reviews, 35 comments).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6846",
+      "reviewer_strengths": [
+        "8x middleware frequency (direct match for middleware integration correctness)",
+        "10x Express.js frequency (backend expertise)",
+        "5x async/await frequency (error handling robustness)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior JavaScript reviewer with 83 total reviews, 60 PRs reviewed, and 35 comments. Specializes in HTTP server behavior, middleware design, and asynchronous programming. Strong evidence of code quality focus in Express.js ecosystem.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Backend"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with highest frequency evidence for middleware (8x), Express.js (10x), and HTTP-related skills (async/await, RESTful APIs). Strongest alignment with all focus areas including security middleware (Helmet/CORS) and error handling. Highest review activity consistency (83 reviews, 35 comments).",
+          "strengths_alignment": [
+            "8x middleware frequency (direct match for middleware integration correctness)",
+            "10x Express.js frequency (backend expertise)",
+            "5x async/await frequency (error handling robustness)",
+            "35 comments (proactive review engagement)",
+            "12x Node.js frequency (primary language alignment)"
+          ],
+          "review_experience_details": "Senior JavaScript reviewer with 83 total reviews, 60 PRs reviewed, and 35 comments. Specializes in HTTP server behavior, middleware design, and asynchronous programming. Strong evidence of code quality focus in Express.js ecosystem.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6848,
+      "pr_title": "fix: prevent crash when BigInt passed to res.status()",
+      "pr_author": "SrinjoyDev",
+      "pr_state": "open",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 83 PRs reviewed, 35 comments, and deep expertise in Node.js/Express.js testing (Supertest/Jest/Mocha) and HTTP status code/error handling. Direct frequency matches for all required skills (Node.js 12x, Express.js 10x, async/await 5x) and strong evidence of testing-focused reviews (similar_review_relevance via PR #6386).",
+          "strengths_alignment": [
+            "12x Node.js frequency (direct match)",
+            "10x Express.js frequency (direct match)",
+            "Testing expertise (Supertest/Jest/Mocha) with 35 comments",
+            "HTTP status code/error handling experience",
+            "Similar-review relevance (PR #6386 coverage-focused review)"
+          ],
+          "review_experience": "Senior-level reviewer with 83 PRs reviewed, 60 PRs approved, and 35 detailed comments. Consistently active in Express.js backend testing and middleware validation.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.88,
+          "reasoning": "Mid-level reviewer with 107 PRs reviewed, 41 comments, and strong Node.js/Express.js expertise (10x Node.js, 5x Express.js). Demonstrates testing (Mocha/Chai) and error handling via similar_review_relevance (PR #6504/6506). Lower frequency for async/await (5x) but compensates with high review volume and direct Express.js focus.",
+          "strengths_alignment": [
+            "10x Node.js frequency (direct match)",
+            "5x Express.js frequency (direct match)",
+            "Testing expertise (Mocha/Chai, TDD)",
+            "Error handling/validation patterns in reviews",
+            "Similar-review relevance (PR #6504/6506 CI-focused reviews)"
+          ],
+          "review_experience": "Mid-level reviewer with 107 PRs reviewed, 72 PRs approved, and 41 comments. Highly active in Express.js backend with frequent middleware/async validation discussions.",
+          "potential_concerns": "Lower frequency for async/await (5x) vs. Node.js/Express.js"
+        },
+        {
+          "reviewer_name": "ctcpip",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with 18 PRs reviewed, 6 comments, and deep Node.js/Express.js expertise (11x Node.js, 11x Express.js). Strong testing (Mocha/Chai-like) and HTTP status code handling evidence, but lower review volume (18 PRs) and comments (6) compared to top choices. Similar_review_relevance via PR #6504.",
+          "strengths_alignment": [
+            "11x Node.js frequency (direct match)",
+            "11x Express.js frequency (direct match)",
+            "HTTP status code handling expertise",
+            "Testing (Mocha/Chai-like patterns)",
+            "Similar-review relevance (PR #6504)"
+          ],
+          "review_experience": "Senior-level reviewer with 18 PRs reviewed, 13 approved, and 6 comments. Focused on Node.js/Express.js backend with emphasis on middleware, async programming, and testing.",
+          "potential_concerns": "Lower review volume (18 PRs) and comments (6) vs. top choices"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 83 PRs reviewed, 35 comments, and deep expertise in Node.js/Express.js testing (Supertest/Jest/Mocha) and HTTP status code/error handling. Direct frequency matches for all required skills (Node.js 12x, Express.js 10x, async/await 5x) and strong evidence of testing-focused reviews (similar_review_relevance via PR #6386).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 4,
+      "pr_url": "https://github.com/expressjs/express/pull/6848",
+      "reviewer_strengths": [
+        "12x Node.js frequency (direct match)",
+        "10x Express.js frequency (direct match)",
+        "Testing expertise (Supertest/Jest/Mocha) with 35 comments"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 83 PRs reviewed, 60 PRs approved, and 35 detailed comments. Consistently active in Express.js backend testing and middleware validation.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js"
+        ],
+        "review_expertise_areas": [
+          "Backend",
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 83 PRs reviewed, 35 comments, and deep expertise in Node.js/Express.js testing (Supertest/Jest/Mocha) and HTTP status code/error handling. Direct frequency matches for all required skills (Node.js 12x, Express.js 10x, async/await 5x) and strong evidence of testing-focused reviews (similar_review_relevance via PR #6386).",
+          "strengths_alignment": [
+            "12x Node.js frequency (direct match)",
+            "10x Express.js frequency (direct match)",
+            "Testing expertise (Supertest/Jest/Mocha) with 35 comments",
+            "HTTP status code/error handling experience",
+            "Similar-review relevance (PR #6386 coverage-focused review)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 83 PRs reviewed, 60 PRs approved, and 35 detailed comments. Consistently active in Express.js backend testing and middleware validation.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6851,
+      "pr_title": "perf: implement lazy compilation for compileTrust() with large IP lists",
+      "pr_author": "SrinjoyDev",
+      "pr_state": "open",
+      "assigned_reviewer": "UlisesGascon",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.92,
+          "reasoning": "Senior-level reviewer with 65 PRs reviewed, strong frequency evidence for Node.js/Express.js middleware (8x), and explicit expertise in performance optimization, testing, and runtime caching patterns. Directly matches 'performance profiling' and 'runtime caching' needs via similar-review patterns (e.g., PR #6512).",
+          "strengths_alignment": [
+            "65 PRs reviewed (highest volume among eligible reviewers)",
+            "Middleware (8x) and Node.js (6x) frequency align with 'performance profiling' and 'runtime caching'",
+            "Explicit 'performance optimization' and 'testing' expertise in profile",
+            "Reviewed similar PRs (#6386, #6512) with performance/test coverage focus"
+          ],
+          "review_experience": "Senior JavaScript backend engineer with 65 PRs reviewed, 10 comments, and deep expertise in Express.js middleware, async/await, and testing (Supertest/Jest).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with 83 PRs reviewed, strong frequency evidence for Node.js/Express.js middleware (8x) and explicit expertise in performance, testing, and async/await. Matches 'performance profiling' and 'runtime caching' via similar-review patterns (e.g., PR #6512).",
+          "strengths_alignment": [
+            "83 PRs reviewed (highest volume among eligible reviewers), 35 comments",
+            "Middleware (8x) and async/await (5x) frequency align with 'performance profiling' and 'runtime caching'",
+            "Explicit 'HTTP server behavior' and 'testing' expertise in profile",
+            "Reviewed similar PRs (#6386, #6512) with performance/test coverage focus"
+          ],
+          "review_experience": "Senior JavaScript backend engineer with 83 PRs reviewed, 35 comments, and deep expertise in Express.js middleware, async/await, and testing (Supertest/Jest/Mocha).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 107 PRs reviewed, strong frequency evidence for Node.js (10x) and middleware (8x), but lacks explicit performance/testing focus. Matches 'JavaScript' and 'Express.js' needs but weaker evidence for 'performance profiling' or 'runtime caching'.",
+          "strengths_alignment": [
+            "107 PRs reviewed (highest volume among mid-level reviewers), 41 comments",
+            "Node.js (10x) and middleware (8x) frequency align with 'JavaScript' and 'Express.js'",
+            "Explicit 'Testing (Mocha/Chai, TDD)' in profile"
+          ],
+          "review_experience": "Mid-level JavaScript reviewer with 107 PRs reviewed, 41 comments, and expertise in Express.js, async/await, and testing (Mocha/Chai).",
+          "potential_concerns": "No explicit 'performance profiling' or 'runtime caching' evidence; reviews focus on code quality/refactoring, not performance optimization."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level reviewer with 65 PRs reviewed, strong frequency evidence for Node.js/Express.js middleware (8x), and explicit expertise in performance optimization, testing, and runtime caching patterns. Directly matches 'performance profiling' and 'runtime caching' needs via similar-review patterns (e.g., PR #6512).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6851",
+      "reviewer_strengths": [
+        "65 PRs reviewed (highest volume among eligible reviewers)",
+        "Middleware (8x) and Node.js (6x) frequency align with 'performance profiling' and 'runtime caching'",
+        "Explicit 'performance optimization' and 'testing' expertise in profile"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior JavaScript backend engineer with 65 PRs reviewed, 10 comments, and deep expertise in Express.js middleware, async/await, and testing (Supertest/Jest).",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "performance profiling",
+          "runtime caching mechanisms"
+        ],
+        "review_expertise_areas": [
+          "Performance",
+          "Testing"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Performance",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with 65 PRs reviewed, strong frequency evidence for Node.js/Express.js middleware (8x), and explicit expertise in performance optimization, testing, and runtime caching patterns. Directly matches 'performance profiling' and 'runtime caching' needs via similar-review patterns (e.g., PR #6512).",
+          "strengths_alignment": [
+            "65 PRs reviewed (highest volume among eligible reviewers)",
+            "Middleware (8x) and Node.js (6x) frequency align with 'performance profiling' and 'runtime caching'",
+            "Explicit 'performance optimization' and 'testing' expertise in profile",
+            "Reviewed similar PRs (#6386, #6512) with performance/test coverage focus"
+          ],
+          "review_experience_details": "Senior JavaScript backend engineer with 65 PRs reviewed, 10 comments, and deep expertise in Express.js middleware, async/await, and testing (Supertest/Jest).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6856,
+      "pr_title": "test: fix static file tests for supertest 7+ URL normalization",
+      "pr_author": "guimard",
+      "pr_state": "open",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with direct evidence for all required skills (Node.js core APIs, supertest, URL normalization, Express static middleware) and testing/security expertise. Highest frequency overlap (Node.js 12x, Express.js 10x, Middleware 8x) and similar-review patterns (e.g., PR #6476 testing app.listen() variants).",
+          "strengths_alignment": [
+            "12x Node.js core API mentions (highest frequency)",
+            "10x Express.js middleware expertise (direct match for static middleware)",
+            "8x Middleware frequency (includes static middleware patterns)",
+            "Supertest testing expertise (explicitly listed in profile)",
+            "Security/Testing focus in similar PRs (e.g., app.listen() validation)",
+            "60 PRs reviewed (high activity consistency)"
+          ],
+          "review_experience": "Senior-level reviewer with 83 reviews, 35 comments, and 60 PRs reviewed. Specializes in HTTP server behavior, middleware design, and testing with supertest/Jest. Direct evidence of URL normalization and path traversal security in past reviews.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "sheplu",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with strong testing/supertest expertise (5x supertest mentions) and Express middleware focus. Lower frequency for URL normalization but aligns well with security/testing focus. Less activity than top choice but strong domain fit.",
+          "strengths_alignment": [
+            "5x supertest frequency (direct match)",
+            "5x Express.js middleware (includes static middleware)",
+            "Testing with supertest/Mocha (explicit in profile)",
+            "Security/Testing focus in summary",
+            "7 reviews with 2 comments (consistent activity)"
+          ],
+          "review_experience": "Mid-level reviewer with 7 reviews, 2 comments, and 5 PRs reviewed. Focuses on dependency management, testing (supertest/Mocha), and Express middleware. No explicit URL normalization evidence but strong testing/security alignment.",
+          "potential_concerns": "Lower frequency for Node.js core APIs (0x) and URL normalization (0x). Less activity than top choice."
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with high Express/middleware frequency (5x) and testing expertise (Mocha/Chai). Strong activity (107 reviews) but lacks explicit supertest/URL normalization evidence. Similar-review patterns (e.g., PR #6487) suggest HTTP/URL awareness but not direct testing tool focus.",
+          "strengths_alignment": [
+            "5x Express.js frequency (direct match)",
+            "8x Middleware frequency (includes static middleware)",
+            "Testing expertise (Mocha/Chai, TDD)",
+            "High activity (107 reviews, 41 comments)",
+            "Reviewed PR #6487 (HTTP/2 support, URL/path handling)"
+          ],
+          "review_experience": "Mid-level reviewer with 107 reviews, 41 comments, and 72 PRs reviewed. Strong Express/middleware focus but no explicit supertest or URL normalization evidence. Highest activity among eligible reviewers.",
+          "potential_concerns": "No supertest frequency evidence (0x). URL normalization not mentioned. Testing tools are Mocha/Chai, not supertest."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with direct evidence for all required skills (Node.js core APIs, supertest, URL normalization, Express static middleware) and testing/security expertise. Highest frequency overlap (Node.js 12x, Express.js 10x, Middleware 8x) and similar-review patterns (e.g., PR #6476 testing app.listen() variants).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6856",
+      "reviewer_strengths": [
+        "12x Node.js core API mentions (highest frequency)",
+        "10x Express.js middleware expertise (direct match for static middleware)",
+        "8x Middleware frequency (includes static middleware patterns)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 83 reviews, 35 comments, and 60 PRs reviewed. Specializes in HTTP server behavior, middleware design, and testing with supertest/Jest. Direct evidence of URL normalization and path traversal security in past reviews.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "Node.js core APIs (http.request)",
+          "supertest",
+          "superagent",
+          "URL normalization behavior",
+          "Express static middleware"
+        ],
+        "review_expertise_areas": [
+          "Testing",
+          "Security"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with direct evidence for all required skills (Node.js core APIs, supertest, URL normalization, Express static middleware) and testing/security expertise. Highest frequency overlap (Node.js 12x, Express.js 10x, Middleware 8x) and similar-review patterns (e.g., PR #6476 testing app.listen() variants).",
+          "strengths_alignment": [
+            "12x Node.js core API mentions (highest frequency)",
+            "10x Express.js middleware expertise (direct match for static middleware)",
+            "8x Middleware frequency (includes static middleware patterns)",
+            "Supertest testing expertise (explicitly listed in profile)",
+            "Security/Testing focus in similar PRs (e.g., app.listen() validation)",
+            "60 PRs reviewed (high activity consistency)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 83 reviews, 35 comments, and 60 PRs reviewed. Specializes in HTTP server behavior, middleware design, and testing with supertest/Jest. Direct evidence of URL normalization and path traversal security in past reviews.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6860,
+      "pr_title": "Fix asci code message of EXPRESS",
+      "pr_author": "Shanu2409",
+      "pr_state": "closed",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior-level reviewer with highest frequency evidence for Node.js/Express.js (12x Node.js, 10x Express.js) and strong code quality expertise. Reviewed 60 PRs with 35 comments, demonstrating consistent activity and deep technical alignment.",
+          "strengths_alignment": [
+            "12x Node.js frequency (highest among available)",
+            "10x Express.js frequency (direct match to repository)",
+            "8x Middleware expertise (critical for backend code quality)",
+            "35 comments across 60 PRs (highest activity consistency)",
+            "Specialization in async/await (5x) and RESTful APIs (5x)"
+          ],
+          "review_experience": "Senior reviewer with 83 total reviews, 60 PRs reviewed, and 35 comments. Consistently approves/reviews Express.js PRs with technical depth in middleware, async patterns, and testing.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with strong Node.js/Express.js frequency (6x Node.js, 5x Express.js) and deep expertise in middleware/API design. Reviewed 57 PRs with 10 comments, showing high technical alignment but slightly lower activity than wesleytodd.",
+          "strengths_alignment": [
+            "6x Node.js, 5x Express.js frequency (direct match)",
+            "8x Middleware expertise (critical for backend code quality)",
+            "57 PRs reviewed (high volume)",
+            "Specialization in API design and modularization"
+          ],
+          "review_experience": "Senior reviewer with 65 total reviews, 57 PRs reviewed, and 10 comments. Focuses on Express.js code quality, refactoring, and testing integration.",
+          "potential_concerns": "Lower comment frequency (10 comments) compared to wesleytodd's 35"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.75,
+          "reasoning": "Mid-level reviewer with strong Node.js/Express.js frequency (10x Node.js, 5x Express.js) and 107 total reviews, but lower comment density (41 comments across 72 PRs). Demonstrates deep technical knowledge but slightly less activity consistency than top choices.",
+          "strengths_alignment": [
+            "10x Node.js, 5x Express.js frequency (direct match)",
+            "8x Middleware expertise (critical for backend code quality)",
+            "107 total reviews (highest volume among mid-level)",
+            "Specialization in async/await and testing (Mocha/Chai)"
+          ],
+          "review_experience": "Mid-level reviewer with 107 total reviews, 72 PRs reviewed, and 41 comments. Focuses on Express.js code quality, async patterns, and TDD.",
+          "potential_concerns": "Lower comment density (41 comments) relative to PR volume (72)"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level reviewer with highest frequency evidence for Node.js/Express.js (12x Node.js, 10x Express.js) and strong code quality expertise. Reviewed 60 PRs with 35 comments, demonstrating consistent activity and deep technical alignment.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6860",
+      "reviewer_strengths": [
+        "12x Node.js frequency (highest among available)",
+        "10x Express.js frequency (direct match to repository)",
+        "8x Middleware expertise (critical for backend code quality)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior reviewer with 83 total reviews, 60 PRs reviewed, and 35 comments. Consistently approves/reviews Express.js PRs with technical depth in middleware, async patterns, and testing.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with highest frequency evidence for Node.js/Express.js (12x Node.js, 10x Express.js) and strong code quality expertise. Reviewed 60 PRs with 35 comments, demonstrating consistent activity and deep technical alignment.",
+          "strengths_alignment": [
+            "12x Node.js frequency (highest among available)",
+            "10x Express.js frequency (direct match to repository)",
+            "8x Middleware expertise (critical for backend code quality)",
+            "35 comments across 60 PRs (highest activity consistency)",
+            "Specialization in async/await (5x) and RESTful APIs (5x)"
+          ],
+          "review_experience_details": "Senior reviewer with 83 total reviews, 60 PRs reviewed, and 35 comments. Consistently approves/reviews Express.js PRs with technical depth in middleware, async patterns, and testing.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6865,
+      "pr_title": "Remove direct `qs` dependency",
+      "pr_author": "lukaselmer",
+      "pr_state": "open",
+      "assigned_reviewer": "Phillip9587",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.92,
+          "reasoning": "Top frequency match for Node.js package management (npm/yarn 12x) and dependency resolution, with direct evidence in similar PRs (#6591). Strongest alignment to Express.js dependency changes and prior discussions.",
+          "strengths_alignment": [
+            "npm/yarn dependency management (12x frequency)",
+            "Express.js middleware and routing expertise",
+            "Dependency resolution experience (similar PR #6591)"
+          ],
+          "review_experience": "Mid-level reviewer with 31 PRs reviewed, 12x npm/yarn mentions, and 10x Express.js mentions. Demonstrated dependency management in past reviews.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "sheplu",
+          "match_score": 0.88,
+          "reasoning": "Strong dependency management expertise (npm/yarn 5x) and Express.js focus, with relevant past dependency updates (#5500). Slightly lower frequency than Phillip9587 but consistent activity.",
+          "strengths_alignment": [
+            "Dependency management (npm/yarn 5x, pnpm)",
+            "Express.js middleware and routing",
+            "Dependency review experience (similar PR #5500)"
+          ],
+          "review_experience": "Mid-level reviewer with 7 PRs reviewed, 5x npm/yarn mentions, and 5x dependency management mentions. Reviewed dependency updates in past.",
+          "potential_concerns": "Lower total review volume (7 PRs) than top choice"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.85,
+          "reasoning": "Senior-level expertise in dependency management (npm/yarn) and Express.js, with high review volume (65 PRs). Strong alignment but lower frequency for specific skills than top choices.",
+          "strengths_alignment": [
+            "Dependency management (npm/yarn) expertise",
+            "Express.js and Node.js backend experience",
+            "High review volume (65 PRs)"
+          ],
+          "review_experience": "Senior reviewer with 65 PRs reviewed, 6x Node.js mentions, and 5x Express.js mentions. Authored dependency review action (#5434).",
+          "potential_concerns": "Lower frequency for 'Node.js package management' than Phillip9587/sheplu"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Top frequency match for Node.js package management (npm/yarn 12x) and dependency resolution, with direct evidence in similar PRs (#6591). Strongest alignment to Express.js dependency changes and prior discussions.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 3,
+      "pr_url": "https://github.com/expressjs/express/pull/6865",
+      "reviewer_strengths": [
+        "npm/yarn dependency management (12x frequency)",
+        "Express.js middleware and routing expertise",
+        "Dependency resolution experience (similar PR #6591)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Mid-level reviewer with 31 PRs reviewed, 12x npm/yarn mentions, and 10x Express.js mentions. Demonstrated dependency management in past reviews.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "Node.js package management",
+          "dependency resolution"
+        ],
+        "review_expertise_areas": [
+          "Dependency Management"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Top frequency match for Node.js package management (npm/yarn 12x) and dependency resolution, with direct evidence in similar PRs (#6591). Strongest alignment to Express.js dependency changes and prior discussions.",
+          "strengths_alignment": [
+            "npm/yarn dependency management (12x frequency)",
+            "Express.js middleware and routing expertise",
+            "Dependency resolution experience (similar PR #6591)"
+          ],
+          "review_experience_details": "Mid-level reviewer with 31 PRs reviewed, 12x npm/yarn mentions, and 10x Express.js mentions. Demonstrated dependency management in past reviews.",
+          "potential_limitations": "None identified"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "successful_assignments": 35,
+    "failed_assignments": 0,
+    "success_rate": 100.0,
+    "reviewer_workload_distribution": {
+      "UlisesGascon": 5,
+      "wesleytodd": 22,
+      "bjohansebas": 3,
+      "Phillip9587": 5
+    },
+    "most_assigned_reviewer": "wesleytodd",
+    "average_match_score": 0.92
+  }
+}

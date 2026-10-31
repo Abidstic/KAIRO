@@ -1,0 +1,74 @@
+{
+  "reviewer_name": "gibson042",
+  "generated_at": "20260812_231527",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "stats": {
+    "total_reviews": 64,
+    "total_comments": 31,
+    "total_prs": 45,
+    "repos": [
+      "jquery"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "gibson042",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "jQuery core functionality (events, DOM manipulation, AJAX)",
+      "ES6 module systems (AMD → ES modules migration)",
+      "Frontend performance optimization (DOM manipulation, build-time optimizations)",
+      "XSS security testing and fixes",
+      "Cross-browser compatibility (iOS 8–12, QtWebKit)",
+      "Asynchronous programming (callbacks, event handling)",
+      "Testing frameworks (QUnit, Node.js mock servers)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (familiarity, no direct evidence)"
+    ],
+    "summary": "gibson042 is a **senior frontend JavaScript engineer** with deep expertise in **jQuery internals**, particularly in **event handling, DOM manipulation, and security (XSS testing)**. Their reviews demonstrate strong **frontend development skills**, including **performance optimizations**, **cross-browser compatibility fixes**, and **modern JavaScript practices** (e.g., migrating from AMD to ES modules). They show a **testing-first mindset** with heavy involvement in **jQuery’s test suite**, focusing on edge cases (e.g., iOS-specific bugs, callback handling). While their expertise is **frontend-heavy**, they also have **minimal Node.js testing exposure**. No evidence of **React/Vue/Angular** or **TypeScript** usage, but their **ES6+ knowledge** and **build tool familiarity** (e.g., Webpack/Rollup) suggest adaptability to modern stacks. Ideal for **legacy jQuery projects**, **frontend architecture**, or **QA/testing roles**.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 12": [
+        "jQuery, frequency: 12",
+        "QUnit, frequency: 3"
+      ],
+      "Asynchronous Programming, frequency: 5": [
+        "Callbacks, frequency: 3",
+        "Event Loop, frequency: 2"
+      ],
+      "API Design & Consumption, frequency: 3": [
+        "AJAX (json/jsonp), frequency: 3"
+      ],
+      "Error Handling, frequency: 0": [],
+      "Frontend Development Skills, frequency: 15": [
+        "DOM Manipulation, frequency: 8",
+        "Event-Driven Programming, frequency: 7"
+      ],
+      "Backend Development Skills, frequency: 2": [
+        "Node.js Testing, frequency: 2"
+      ],
+      "DevOps & Deployment, frequency: 0": [],
+      "Advanced JavaScript Concepts, frequency: 4": [
+        "Module Systems (AMD → ES6), frequency: 3",
+        "Closures, frequency: 1"
+      ],
+      "Functional Programming, frequency: 0": [],
+      "Data Structures & Algorithms, frequency: 0": [],
+      "TypeScript, frequency: 0": [],
+      "Progressive Web Apps (PWA), frequency: 0": [],
+      "Mobile Development with JavaScript, frequency: 0": [],
+      "Web Performance Optimization, frequency: 3": [
+        "DOM Performance (DocumentFragment), frequency: 2",
+        "Build Optimizations, frequency: 1"
+      ],
+      "Event-Driven Architecture, frequency: 7": [
+        "Event Delegation, frequency: 5",
+        "Event Propagation, frequency: 2"
+      ],
+      "Dependency Management, frequency: 2": [
+        "npm/yarn, frequency: 2"
+      ],
+      "Graphical Data Visualization, frequency: 0": []
+    }
+  }
+}

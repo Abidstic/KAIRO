@@ -1,0 +1,1969 @@
+{
+  "metadata": {
+    "total_prs_processed": 24,
+    "processing_date": "2025-10-21",
+    "available_reviewers": [
+      "0xflotus",
+      "aarifkhamdi",
+      "aashutoshrathi",
+      "aminya",
+      "armano2",
+      "ballonura",
+      "behnammodi",
+      "blikblum",
+      "canscaw28",
+      "Cassieminkus1",
+      "Chantouch",
+      "cikay",
+      "danimajo",
+      "ekkis",
+      "elizatlawy",
+      "Ephigenia",
+      "Gauravms2143",
+      "HaseebIjaz",
+      "hexiaokang",
+      "Hovakimyan",
+      "imadx",
+      "JakeerC",
+      "jdalton",
+      "JLHwung",
+      "Kirill89",
+      "lonewarrior556",
+      "mohamadaminkarami",
+      "nickserv",
+      "phapdinh",
+      "qiudaoermu",
+      "rifler",
+      "rkuykendall",
+      "spencer17x",
+      "TheJaredWilcurt",
+      "Toxicable",
+      "whiteand",
+      "xgqfrms",
+      "Yatin-kathuria"
+    ],
+    "total_available_reviewers": 38
+  },
+  "pr_assignments": [
+    {
+      "pr_number": 5866,
+      "pr_title": "Clarify what arguments goes where.",
+      "pr_author": "SimonLandeholm",
+      "pr_state": "open",
+      "assigned_reviewer": "Ephigenia",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Ephigenia",
+          "match_score": 0.85,
+          "reasoning": "Strong JSDoc documentation expertise (primary skill) and minimal but relevant review activity for documentation-focused PRs. No direct documentation review evidence in profile, but JSDoc focus aligns with 'clarity of argument' and 'readability' needs. Mid-level seniority with 2 reviews and 0 comments (limited but actionable).",
+          "strengths_alignment": [
+            "Primary skill: JSDoc documentation standards",
+            "ESLint formatting awareness (code quality alignment)",
+            "Basic testing workflow awareness (indirect documentation relevance)"
+          ],
+          "review_experience": "2 reviews, 0 comments, 2 PRs reviewed (limited but focused on documentation-related tasks).",
+          "potential_concerns": "No explicit documentation review evidence in sample patterns; comments count is 0."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.78,
+          "reasoning": "Mid-level expertise with 6 reviews and 3 comments, strong TypeScript/Lodash documentation overlap (Type definitions skill). Functional programming patterns align with 'readability' needs. Lower than Ephigenia due to no explicit documentation focus but higher frequency evidence.",
+          "strengths_alignment": [
+            "Type definitions (TypeScript documentation relevance)",
+            "Pure functions (readability alignment)",
+            "Lodash utility expertise (API description familiarity)"
+          ],
+          "review_experience": "6 reviews, 3 comments, 6 PRs reviewed (highest activity among candidates).",
+          "potential_concerns": "No explicit documentation review samples; TypeScript focus may not directly match 'clarity of argument' needs."
+        },
+        {
+          "reviewer_name": "HaseebIjaz",
+          "match_score": 0.72,
+          "reasoning": "Mid-level expertise with 13 reviews/comments, functional programming patterns align with 'readability' needs. Lodash utility focus matches 'API descriptions,' but no explicit documentation evidence. Lower than JakeerC due to weaker frequency match for documentation.",
+          "strengths_alignment": [
+            "Functional programming patterns (readability alignment)",
+            "Lodash utility expertise (API description familiarity)",
+            "Defensive programming (clarity of argument relevance)"
+          ],
+          "review_experience": "13 reviews, 13 comments, 2 PRs reviewed (highest comment volume).",
+          "potential_concerns": "No explicit documentation review samples; 'clarity of argument' not directly evidenced."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Strong JSDoc documentation expertise (primary skill) and minimal but relevant review activity for documentation-focused PRs. No direct documentation review evidence in profile, but JSDoc focus aligns with 'clarity of argument' and 'readability' needs. Mid-level seniority with 2 reviews and 0 comments (limited but actionable).",
+      "assignment_confidence": "Medium",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/5866",
+      "reviewer_strengths": [
+        "Primary skill: JSDoc documentation standards",
+        "ESLint formatting awareness (code quality alignment)",
+        "Basic testing workflow awareness (indirect documentation relevance)"
+      ],
+      "potential_concerns": "No explicit documentation review evidence in sample patterns; comments count is 0.",
+      "review_experience": "2 reviews, 0 comments, 2 PRs reviewed (limited but focused on documentation-related tasks).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Strong JSDoc documentation expertise (primary skill) and minimal but relevant review activity for documentation-focused PRs. No direct documentation review evidence in profile, but JSDoc focus aligns with 'clarity of argument' and 'readability' needs. Mid-level seniority with 2 reviews and 0 comments (limited but actionable).",
+          "strengths_alignment": [
+            "Primary skill: JSDoc documentation standards",
+            "ESLint formatting awareness (code quality alignment)",
+            "Basic testing workflow awareness (indirect documentation relevance)"
+          ],
+          "review_experience_details": "2 reviews, 0 comments, 2 PRs reviewed (limited but focused on documentation-related tasks).",
+          "potential_limitations": "No explicit documentation review evidence in sample patterns; comments count is 0."
+        }
+      }
+    },
+    {
+      "pr_number": 5874,
+      "pr_title": "fix: reduce when we use object with 'length' attribute",
+      "pr_author": "baguse",
+      "pr_state": "open",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with deep Node.js/Lodash expertise, 12x Node.js frequency, 6x Lodash frequency, and strong security/edge-case handling—directly aligns with core JavaScript and utility library needs despite 'Unknown' primary language. Highest frequency evidence and consistent review activity.",
+          "strengths_alignment": [
+            "12x Node.js frequency (matches core JS runtime relevance)",
+            "6x Lodash frequency (direct utility library expertise)",
+            "5x security middleware (prototype pollution fixes) for defensive programming",
+            "17x comments across 14 PRs (highest activity consistency)"
+          ],
+          "review_experience": "18 reviews, 17 comments, 14 PRs reviewed; Senior-level with 12x Node.js and 6x Lodash skill frequency. Focused on core JS concepts, security, and edge-case handling.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 8x Lodash frequency and 4x functional programming patterns, strong Mocha testing and npm scripting expertise. Lower frequency than jdalton but direct utility library focus and consistent review activity (4 PRs approved).",
+          "strengths_alignment": [
+            "8x Lodash frequency (highest among mid-level reviewers)",
+            "4x functional programming patterns (pure functions, async/await)",
+            "4x Mocha testing (relevant for code quality)",
+            "4 PRs reviewed with 1 comment (consistent activity)"
+          ],
+          "review_experience": "4 reviews, 1 comment, 4 PRs reviewed; Mid-level with 8x Lodash and 4x functional programming frequency. Focused on utility libraries, testing, and npm tooling.",
+          "potential_concerns": "Only 1 comment across 4 PRs (low engagement depth)"
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.72,
+          "reasoning": "Mid-level reviewer with 6x Lodash frequency, 3x pure functions, and 2x Jest testing—strong functional programming and utility library focus. Lower frequency than armano2 but higher TypeScript relevance (2x type definitions).",
+          "strengths_alignment": [
+            "6x Lodash frequency (direct utility library match)",
+            "3x pure functions (functional programming)",
+            "2x Jest testing (relevant for code quality)",
+            "2x immutable updates (defensive programming)"
+          ],
+          "review_experience": "6 reviews, 3 comments, 6 PRs reviewed; Mid-level with 6x Lodash and 3x pure function frequency. Focused on utility libraries, functional programming, and TypeScript.",
+          "potential_concerns": "Only 3 comments across 6 reviews (lower engagement depth)"
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Senior-level reviewer with deep Node.js/Lodash expertise, 12x Node.js frequency, 6x Lodash frequency, and strong security/edge-case handling—directly aligns with core JavaScript and utility library needs despite 'Unknown' primary language. Highest frequency evidence and consistent review activity.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/5874",
+      "reviewer_strengths": [
+        "12x Node.js frequency (matches core JS runtime relevance)",
+        "6x Lodash frequency (direct utility library expertise)",
+        "5x security middleware (prototype pollution fixes) for defensive programming"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "18 reviews, 17 comments, 14 PRs reviewed; Senior-level with 12x Node.js and 6x Lodash skill frequency. Focused on core JS concepts, security, and edge-case handling.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with deep Node.js/Lodash expertise, 12x Node.js frequency, 6x Lodash frequency, and strong security/edge-case handling—directly aligns with core JavaScript and utility library needs despite 'Unknown' primary language. Highest frequency evidence and consistent review activity.",
+          "strengths_alignment": [
+            "12x Node.js frequency (matches core JS runtime relevance)",
+            "6x Lodash frequency (direct utility library expertise)",
+            "5x security middleware (prototype pollution fixes) for defensive programming",
+            "17x comments across 14 PRs (highest activity consistency)"
+          ],
+          "review_experience_details": "18 reviews, 17 comments, 14 PRs reviewed; Senior-level with 12x Node.js and 6x Lodash skill frequency. Focused on core JS concepts, security, and edge-case handling.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 5887,
+      "pr_title": "feat: toPercent()",
+      "pr_author": "ianzone",
+      "pr_state": "closed",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.89,
+          "reasoning": "Senior reviewer with 18 reviews and 17 comments, strong frequency evidence for Node.js (12x), Lodash (6x), and security middleware (5x). Directly matches 'functionality correctness' and 'percentage conversion logic' via core JS/Node.js expertise. Similar review relevance to prototype pollution (PR #4355) and security-focused JS patterns.",
+          "strengths_alignment": [
+            "12x Node.js reviews (directly relevant to backend JS correctness)",
+            "6x Lodash reviews (utility library expertise aligns with conversion logic)",
+            "5x security middleware (prototype pollution fixes) matches defensive programming needs",
+            "17 comments demonstrate consistent review activity"
+          ],
+          "review_experience": "18 reviews, 17 comments, 14 PRs reviewed; deep expertise in Lodash internals, Node.js runtime, and security-focused JS patterns.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 6 reviews and 3 comments, strong frequency evidence for Lodash (6x), pure functions (3x), and TypeScript (2x). Matches 'functionality correctness' via functional programming patterns and 'percentage conversion logic' via utility library expertise. Less direct similarity to security but strong TypeScript/Lodash alignment.",
+          "strengths_alignment": [
+            "6x Lodash reviews (utility library correctness, functional patterns)",
+            "3x pure functions (immutability, defensive programming)",
+            "2x TypeScript reviews (type safety for conversion logic)",
+            "3 comments demonstrate focused review activity"
+          ],
+          "review_experience": "6 reviews, 3 comments, 6 PRs reviewed; specialized in Lodash internals, functional programming, and TypeScript.",
+          "potential_concerns": "No direct evidence of security-focused reviews (e.g., prototype pollution)."
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.72,
+          "reasoning": "Mid-level reviewer with 4 reviews and 1 comment, strong frequency evidence for Lodash (8x), functional programming (3x), and async/await (2x). Matches 'functionality correctness' via utility library expertise and 'percentage conversion logic' via functional patterns. Less review activity than top choices but high frequency in relevant skills.",
+          "strengths_alignment": [
+            "8x Lodash reviews (utility library correctness, functional patterns)",
+            "3x functional programming (pure functions, higher-order functions)",
+            "2x async/await (relevant to conversion logic)",
+            "4 PRs reviewed (consistent engagement)"
+          ],
+          "review_experience": "4 reviews, 1 comment, 4 PRs reviewed; deep Lodash expertise with functional programming focus.",
+          "potential_concerns": "Only 1 comment (limited review depth). No direct security evidence."
+        }
+      ],
+      "match_score": 0.89,
+      "assignment_reasoning": "Senior reviewer with 18 reviews and 17 comments, strong frequency evidence for Node.js (12x), Lodash (6x), and security middleware (5x). Directly matches 'functionality correctness' and 'percentage conversion logic' via core JS/Node.js expertise. Similar review relevance to prototype pollution (PR #4355) and security-focused JS patterns.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/5887",
+      "reviewer_strengths": [
+        "12x Node.js reviews (directly relevant to backend JS correctness)",
+        "6x Lodash reviews (utility library expertise aligns with conversion logic)",
+        "5x security middleware (prototype pollution fixes) matches defensive programming needs"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "18 reviews, 17 comments, 14 PRs reviewed; deep expertise in Lodash internals, Node.js runtime, and security-focused JS patterns.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 18 reviews and 17 comments, strong frequency evidence for Node.js (12x), Lodash (6x), and security middleware (5x). Directly matches 'functionality correctness' and 'percentage conversion logic' via core JS/Node.js expertise. Similar review relevance to prototype pollution (PR #4355) and security-focused JS patterns.",
+          "strengths_alignment": [
+            "12x Node.js reviews (directly relevant to backend JS correctness)",
+            "6x Lodash reviews (utility library expertise aligns with conversion logic)",
+            "5x security middleware (prototype pollution fixes) matches defensive programming needs",
+            "17 comments demonstrate consistent review activity"
+          ],
+          "review_experience_details": "18 reviews, 17 comments, 14 PRs reviewed; deep expertise in Lodash internals, Node.js runtime, and security-focused JS patterns.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 5915,
+      "pr_title": "test: fix union test grammar errors",
+      "pr_author": "gweesin",
+      "pr_state": "open",
+      "assigned_reviewer": "blikblum",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "blikblum",
+          "match_score": 0.85,
+          "reasoning": "Strong testing expertise (Node.js assertion modules, defensive programming) with 4 reviews and 4 comments, directly matching 'Testing' focus. High frequency of 'Testing Libraries' (2x) and 'Defensive programming' (2x) aligns with grammar/readability review needs.",
+          "strengths_alignment": [
+            "4 reviews with 4 comments (high activity consistency)",
+            "Top skill: 'Testing Libraries' (2x) and 'Defensive programming' (2x)",
+            "Node.js runtime behavior and core JavaScript fundamentals expertise",
+            "Similar review relevance: PR #4418 (testing adaptation) matches 'Testing' focus"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 4 comments, and 2 PRs reviewed. Focused on Node.js testing, defensive programming, and core JavaScript behavior.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 6 reviews and 3 comments, strong 'Testing' (Jest) and 'Pure functions' (3x) frequency. Direct match for 'Testing' expertise and functional programming patterns relevant to readability/grammar checks.",
+          "strengths_alignment": [
+            "6 reviews with 3 comments (high activity consistency)",
+            "Top skill: 'Pure functions' (3x) and 'Jest' (2x)",
+            "TypeScript and immutable data handling (relevant for defensive code)",
+            "Similar review relevance: PR #5815 (test fix) matches 'Testing' focus"
+          ],
+          "review_experience": "Mid-level reviewer with 6 reviews, 3 comments, and 6 PRs reviewed. Specialized in Lodash, Jest, and functional programming patterns.",
+          "potential_concerns": "Lower comment frequency (3/6) than blikblum"
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.72,
+          "reasoning": "Mid-level reviewer with 4 reviews and 1 comment, strong 'Mocha' (4x) and 'Lodash' (8x) frequency. Testing framework expertise aligns with 'Testing' focus, though lower comment frequency than top choices.",
+          "strengths_alignment": [
+            "4 reviews with 1 comment (moderate activity consistency)",
+            "Top skill: 'Mocha' (4x) and 'Lodash' (8x)",
+            "ESLint and functional programming patterns (relevant for code quality)",
+            "Similar review relevance: Testing framework experience (Mocha)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 1 comment, and 4 PRs reviewed. Focused on Lodash, Mocha testing, and functional programming.",
+          "potential_concerns": "Lower comment frequency (1/4) and no direct similarity to grammar/readability reviews"
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Strong testing expertise (Node.js assertion modules, defensive programming) with 4 reviews and 4 comments, directly matching 'Testing' focus. High frequency of 'Testing Libraries' (2x) and 'Defensive programming' (2x) aligns with grammar/readability review needs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/5915",
+      "reviewer_strengths": [
+        "4 reviews with 4 comments (high activity consistency)",
+        "Top skill: 'Testing Libraries' (2x) and 'Defensive programming' (2x)",
+        "Node.js runtime behavior and core JavaScript fundamentals expertise"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Mid-level reviewer with 4 reviews, 4 comments, and 2 PRs reviewed. Focused on Node.js testing, defensive programming, and core JavaScript behavior.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strong testing expertise (Node.js assertion modules, defensive programming) with 4 reviews and 4 comments, directly matching 'Testing' focus. High frequency of 'Testing Libraries' (2x) and 'Defensive programming' (2x) aligns with grammar/readability review needs.",
+          "strengths_alignment": [
+            "4 reviews with 4 comments (high activity consistency)",
+            "Top skill: 'Testing Libraries' (2x) and 'Defensive programming' (2x)",
+            "Node.js runtime behavior and core JavaScript fundamentals expertise",
+            "Similar review relevance: PR #4418 (testing adaptation) matches 'Testing' focus"
+          ],
+          "review_experience_details": "Mid-level reviewer with 4 reviews, 4 comments, and 2 PRs reviewed. Focused on Node.js testing, defensive programming, and core JavaScript behavior.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 5968,
+      "pr_title": "fix outdated links related to Open JS Foundation",
+      "pr_author": "clarkepeterf",
+      "pr_state": "open",
+      "assigned_reviewer": "Ephigenia",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Ephigenia",
+          "match_score": 0.82,
+          "reasoning": "Strong JSDoc documentation expertise (1x) and ESLint formatting experience align with documentation review needs. No direct link/accuracy review evidence, but primary skills match documentation standards.",
+          "strengths_alignment": [
+            "JSDoc documentation standards",
+            "ESLint formatting and linting",
+            "Code quality tooling familiarity"
+          ],
+          "review_experience": "2 reviews, 0 comments, 2 PRs reviewed (Lodash). Limited but focused on documentation-related improvements.",
+          "potential_concerns": "No explicit evidence of link validity/content accuracy review experience."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.78,
+          "reasoning": "Mid-level expertise with 6 Lodash reviews and 3 pure-function comments, but no direct documentation focus. TypeScript/ESM experience may indirectly support content accuracy.",
+          "strengths_alignment": [
+            "Lodash utility function expertise (6x)",
+            "Pure functions (3x) for content consistency",
+            "TypeScript/ESM familiarity (indirectly supports documentation)"
+          ],
+          "review_experience": "6 reviews, 3 comments, 6 PRs reviewed (Lodash). Strong functional programming background but no explicit documentation evidence.",
+          "potential_concerns": "No direct documentation review experience; primary focus on code logic."
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.75,
+          "reasoning": "Mid-level Lodash reviewer with 4 PRs reviewed, but no direct documentation evidence. Functional programming and utility library experience may support content accuracy.",
+          "strengths_alignment": [
+            "Lodash internals expertise (8x)",
+            "Functional programming patterns (3x)",
+            "ESLint code quality awareness"
+          ],
+          "review_experience": "4 reviews, 1 comment, 4 PRs reviewed (Lodash). Strong utility library focus but no explicit documentation evidence.",
+          "potential_concerns": "No direct documentation review experience; primary focus on code logic and testing."
+        }
+      ],
+      "match_score": 0.82,
+      "assignment_reasoning": "Strong JSDoc documentation expertise (1x) and ESLint formatting experience align with documentation review needs. No direct link/accuracy review evidence, but primary skills match documentation standards.",
+      "assignment_confidence": "Medium",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/5968",
+      "reviewer_strengths": [
+        "JSDoc documentation standards",
+        "ESLint formatting and linting",
+        "Code quality tooling familiarity"
+      ],
+      "potential_concerns": "No explicit evidence of link validity/content accuracy review experience.",
+      "review_experience": "2 reviews, 0 comments, 2 PRs reviewed (Lodash). Limited but focused on documentation-related improvements.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Strong JSDoc documentation expertise (1x) and ESLint formatting experience align with documentation review needs. No direct link/accuracy review evidence, but primary skills match documentation standards.",
+          "strengths_alignment": [
+            "JSDoc documentation standards",
+            "ESLint formatting and linting",
+            "Code quality tooling familiarity"
+          ],
+          "review_experience_details": "2 reviews, 0 comments, 2 PRs reviewed (Lodash). Limited but focused on documentation-related improvements.",
+          "potential_limitations": "No explicit evidence of link validity/content accuracy review experience."
+        }
+      }
+    },
+    {
+      "pr_number": 5971,
+      "pr_title": "Docs: Fix inconsistent terminology between reject and unescape functions",
+      "pr_author": "vedant713",
+      "pr_state": "open",
+      "assigned_reviewer": "Ephigenia",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Ephigenia",
+          "match_score": 0.85,
+          "reasoning": "Strong JSDoc and documentation-focused review patterns align with terminology consistency and cross-referencing needs. Limited but actionable evidence of documentation expertise.",
+          "strengths_alignment": [
+            "JSDoc documentation standards",
+            "Code quality tools (ESLint) for documentation consistency",
+            "Documentation-focused review activity"
+          ],
+          "review_experience": "2 reviews, 0 comments; focused on documentation standards and code quality improvements in Lodash PRs.",
+          "potential_concerns": "No direct evidence of @see tag cross-referencing or inverse terminology review."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.78,
+          "reasoning": "Mid-level expertise with Lodash and TypeScript, but no direct documentation-focused evidence. Strong functional programming and pure function patterns could indirectly support terminology clarity.",
+          "strengths_alignment": [
+            "Lodash utility function expertise (6x)",
+            "Pure functions (3x) for terminology consistency",
+            "TypeScript familiarity for documentation clarity"
+          ],
+          "review_experience": "6 reviews, 3 comments; focused on Lodash utility functions and TypeScript in Lodash PRs.",
+          "potential_concerns": "No explicit documentation review history; limited comments (3) for 6 reviews."
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.72,
+          "reasoning": "Mid-level Lodash expertise with functional programming patterns, but no direct documentation evidence. High review volume (4 PRs) and Lodash focus align with utility function terminology.",
+          "strengths_alignment": [
+            "Lodash internals expertise (8x)",
+            "Functional programming patterns (3x) for terminology consistency",
+            "ESLint code quality awareness"
+          ],
+          "review_experience": "4 reviews, 1 comment; focused on Lodash utility functions and functional programming in Lodash PRs.",
+          "potential_concerns": "No explicit documentation review history; low comment frequency (1/4)."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Strong JSDoc and documentation-focused review patterns align with terminology consistency and cross-referencing needs. Limited but actionable evidence of documentation expertise.",
+      "assignment_confidence": "Medium",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/5971",
+      "reviewer_strengths": [
+        "JSDoc documentation standards",
+        "Code quality tools (ESLint) for documentation consistency",
+        "Documentation-focused review activity"
+      ],
+      "potential_concerns": "No direct evidence of @see tag cross-referencing or inverse terminology review.",
+      "review_experience": "2 reviews, 0 comments; focused on documentation standards and code quality improvements in Lodash PRs.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Strong JSDoc and documentation-focused review patterns align with terminology consistency and cross-referencing needs. Limited but actionable evidence of documentation expertise.",
+          "strengths_alignment": [
+            "JSDoc documentation standards",
+            "Code quality tools (ESLint) for documentation consistency",
+            "Documentation-focused review activity"
+          ],
+          "review_experience_details": "2 reviews, 0 comments; focused on documentation standards and code quality improvements in Lodash PRs.",
+          "potential_limitations": "No direct evidence of @see tag cross-referencing or inverse terminology review."
+        }
+      }
+    },
+    {
+      "pr_number": 5978,
+      "pr_title": "Fix for 'Added Whitespace' issue in startCase method",
+      "pr_author": "Rkverma94",
+      "pr_state": "open",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.89,
+          "reasoning": "Senior reviewer with 12x Node.js and 6x Lodash frequency matches, strong security/whitespace edge-case handling (prototype pollution fixes), and 18 reviews with 17 comments demonstrating consistent code quality expertise. Directly aligns with core JavaScript and utility library focus.",
+          "strengths_alignment": [
+            "12x Node.js expertise (relevant for JavaScript runtime behavior)",
+            "6x Lodash frequency (direct utility library match)",
+            "5x Prototype & Inheritance (whitespace/string manipulation edge cases)",
+            "17 comments on 18 reviews (high activity consistency)",
+            "Security middleware experience (defensive programming for whitespace issues)"
+          ],
+          "review_experience": "Senior-level reviewer with 18 reviews, 14 PRs, and 17 comments. Focused on Lodash internals, Node.js backend, and core JavaScript security/edge cases. Demonstrates deep expertise in defensive programming and utility library patterns.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 8x Lodash frequency and 4x Mocha testing, demonstrating strong functional programming and utility library expertise. 4 PRs reviewed with 1 comment, showing consistent engagement in core JavaScript utility patterns (relevant for whitespace handling).",
+          "strengths_alignment": [
+            "8x Lodash frequency (direct utility library match)",
+            "4x Mocha testing (relevant for code quality and edge-case validation)",
+            "3x Functional Programming Patterns (pure functions, higher-order functions)",
+            "4 PRs reviewed with 1 comment (consistent activity)",
+            "ESLint code quality focus (relevant for whitespace standards)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 4 PRs, and 1 comment. Focused on Lodash internals, functional programming, and ESLint code quality. Demonstrates expertise in utility library patterns and defensive programming.",
+          "potential_concerns": "Low comment frequency (only 1 comment across 4 reviews)"
+        },
+        {
+          "reviewer_name": "cikay",
+          "match_score": 0.65,
+          "reasoning": "Junior reviewer with 2x Lodash and 1x String Methods frequency, showing basic but relevant expertise in string manipulation. 2 reviews with 2 comments, demonstrating engagement in utility library patterns. Limited but actionable evidence for whitespace handling.",
+          "strengths_alignment": [
+            "2x Lodash frequency (utility library match)",
+            "1x String Methods frequency (direct whitespace handling relevance)",
+            "2 comments across 2 reviews (engagement in code quality)",
+            "Basic functional programming patterns (pure functions, defensive programming)"
+          ],
+          "review_experience": "Junior-level reviewer with 2 reviews, 2 PRs, and 2 comments. Focused on Lodash utility functions and string manipulation edge cases. Demonstrates limited but focused expertise in core JavaScript utilities.",
+          "potential_concerns": "Low frequency of relevant skills (only 1x String Methods)"
+        }
+      ],
+      "match_score": 0.89,
+      "assignment_reasoning": "Senior reviewer with 12x Node.js and 6x Lodash frequency matches, strong security/whitespace edge-case handling (prototype pollution fixes), and 18 reviews with 17 comments demonstrating consistent code quality expertise. Directly aligns with core JavaScript and utility library focus.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/5978",
+      "reviewer_strengths": [
+        "12x Node.js expertise (relevant for JavaScript runtime behavior)",
+        "6x Lodash frequency (direct utility library match)",
+        "5x Prototype & Inheritance (whitespace/string manipulation edge cases)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 18 reviews, 14 PRs, and 17 comments. Focused on Lodash internals, Node.js backend, and core JavaScript security/edge cases. Demonstrates deep expertise in defensive programming and utility library patterns.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 12x Node.js and 6x Lodash frequency matches, strong security/whitespace edge-case handling (prototype pollution fixes), and 18 reviews with 17 comments demonstrating consistent code quality expertise. Directly aligns with core JavaScript and utility library focus.",
+          "strengths_alignment": [
+            "12x Node.js expertise (relevant for JavaScript runtime behavior)",
+            "6x Lodash frequency (direct utility library match)",
+            "5x Prototype & Inheritance (whitespace/string manipulation edge cases)",
+            "17 comments on 18 reviews (high activity consistency)",
+            "Security middleware experience (defensive programming for whitespace issues)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 18 reviews, 14 PRs, and 17 comments. Focused on Lodash internals, Node.js backend, and core JavaScript security/edge cases. Demonstrates deep expertise in defensive programming and utility library patterns.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 5987,
+      "pr_title": "test: add tests for Number constants on isNumber",
+      "pr_author": "frontman-git",
+      "pr_state": "open",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 18 reviews, 17 comments, and deep expertise in Lodash core, Node.js, and security-focused JavaScript (prototype pollution). Strong frequency evidence for testing edge cases (Node.js assertions) and primitive behavior (NaN/Infinity).",
+          "strengths_alignment": [
+            "12x Node.js reviews (testing runtime behavior)",
+            "6x Lodash reviews (core utility functions)",
+            "5x security middleware (prototype pollution fixes)",
+            "5x Prototypes & Inheritance reviews (edge case handling)"
+          ],
+          "review_experience": "14 PRs reviewed, 18 total reviews, 17 comments. Consistently engaged with technical depth in Lodash internals and JavaScript core behavior.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "blikblum",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with 4 reviews, 4 comments, and strong expertise in Node.js testing, prototype-based object handling, and defensive programming. Demonstrated edge case handling in primitive behavior (similar PR #4418).",
+          "strengths_alignment": [
+            "2x Testing Libraries reviews (Node.js assertions)",
+            "2x Memory Management reviews (defensive programming)",
+            "2x Prototypes & Inheritance reviews (edge case handling)",
+            "2x Server-Side Logic reviews (runtime behavior)"
+          ],
+          "review_experience": "3 PRs reviewed, 4 total reviews, 4 comments. Engaged in technical discussions with Lodash core and JavaScript runtime behavior.",
+          "potential_concerns": "Lower review volume than jdalton but strong frequency match for testing and primitives."
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 4 reviews, 1 comment, and strong Lodash/Mocha testing expertise. Demonstrated functional programming and edge case handling but lacks direct frequency evidence for primitives or NaN/Infinity.",
+          "strengths_alignment": [
+            "4x Lodash reviews (utility function expertise)",
+            "4x Mocha reviews (testing framework familiarity)",
+            "3x Functional Programming Patterns reviews (pure functions, immutability)"
+          ],
+          "review_experience": "4 PRs reviewed, 4 total reviews, 1 comment. Focused on Lodash internals and testing but limited direct evidence for primitive edge cases.",
+          "potential_concerns": "Weak frequency evidence for `NaN`, `Infinity`, or BigInt (only 1x Lodash, no primitives)."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 18 reviews, 17 comments, and deep expertise in Lodash core, Node.js, and security-focused JavaScript (prototype pollution). Strong frequency evidence for testing edge cases (Node.js assertions) and primitive behavior (NaN/Infinity).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/5987",
+      "reviewer_strengths": [
+        "12x Node.js reviews (testing runtime behavior)",
+        "6x Lodash reviews (core utility functions)",
+        "5x security middleware (prototype pollution fixes)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "14 PRs reviewed, 18 total reviews, 17 comments. Consistently engaged with technical depth in Lodash internals and JavaScript core behavior.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript"
+        ],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 18 reviews, 17 comments, and deep expertise in Lodash core, Node.js, and security-focused JavaScript (prototype pollution). Strong frequency evidence for testing edge cases (Node.js assertions) and primitive behavior (NaN/Infinity).",
+          "strengths_alignment": [
+            "12x Node.js reviews (testing runtime behavior)",
+            "6x Lodash reviews (core utility functions)",
+            "5x security middleware (prototype pollution fixes)",
+            "5x Prototypes & Inheritance reviews (edge case handling)"
+          ],
+          "review_experience_details": "14 PRs reviewed, 18 total reviews, 17 comments. Consistently engaged with technical depth in Lodash internals and JavaScript core behavior.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 5996,
+      "pr_title": "test: add test for size with string input",
+      "pr_author": "frontman-git",
+      "pr_state": "open",
+      "assigned_reviewer": "blikblum",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "blikblum",
+          "match_score": 0.92,
+          "reasoning": "Strongest frequency match for testing (Node.js testing libraries) and edge case validation (prototype-based object handling). Direct evidence of Lodash documentation alignment via PR #4418. High review activity consistency with 4 reviews/comments.",
+          "strengths_alignment": [
+            "4x 'Testing Libraries' frequency (direct match to testing expertise)",
+            "2x 'Defensive programming' (edge case validation)",
+            "2x 'Prototypes & Inheritance' (Lodash documentation alignment)",
+            "3x 'Node.js' (testing framework familiarity)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 4 comments, and 3 PRs reviewed. Focused on Lodash internals, testing, and defensive programming. Reviewed PRs involving test adaptation and prototype behavior.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.88,
+          "reasoning": "Senior-level expertise with 6x 'Lodash' frequency and 5x 'Security middleware' (prototype pollution fixes). Reviewed 14 PRs with strong testing/edge case focus. Matches all required skills but slightly lower frequency for 'Testing' than blikblum.",
+          "strengths_alignment": [
+            "6x 'Lodash' (direct utility library expertise)",
+            "5x 'Security middleware' (prototype pollution fixes = edge case validation)",
+            "12x 'Node.js' (testing framework familiarity)",
+            "18 total reviews (high activity consistency)"
+          ],
+          "review_experience": "Senior reviewer with 18 reviews, 17 comments, and 14 PRs. Specialized in Lodash internals, Node.js, and security-focused edge cases. Reviewed prototype pollution and testing-related PRs.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.82,
+          "reasoning": "Mid-level reviewer with 8x 'Lodash' frequency and 4x 'Mocha' (testing framework). Strong functional programming and edge case handling. Lower review activity consistency (4 reviews/comments) but direct testing expertise.",
+          "strengths_alignment": [
+            "8x 'Lodash' (direct utility library expertise)",
+            "4x 'Mocha' (testing framework)",
+            "3x 'Functional Programming Patterns' (edge case validation)",
+            "4x 'async/await' (complexity fit)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 1 comment, and 4 PRs. Focused on Lodash internals, Mocha testing, and functional programming. Reviewed utility function and testing-related PRs.",
+          "potential_concerns": "Low comment frequency (1 comment across 4 reviews) may indicate less detailed feedback."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest frequency match for testing (Node.js testing libraries) and edge case validation (prototype-based object handling). Direct evidence of Lodash documentation alignment via PR #4418. High review activity consistency with 4 reviews/comments.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/5996",
+      "reviewer_strengths": [
+        "4x 'Testing Libraries' frequency (direct match to testing expertise)",
+        "2x 'Defensive programming' (edge case validation)",
+        "2x 'Prototypes & Inheritance' (Lodash documentation alignment)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Mid-level reviewer with 4 reviews, 4 comments, and 3 PRs reviewed. Focused on Lodash internals, testing, and defensive programming. Reviewed PRs involving test adaptation and prototype behavior.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript"
+        ],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strongest frequency match for testing (Node.js testing libraries) and edge case validation (prototype-based object handling). Direct evidence of Lodash documentation alignment via PR #4418. High review activity consistency with 4 reviews/comments.",
+          "strengths_alignment": [
+            "4x 'Testing Libraries' frequency (direct match to testing expertise)",
+            "2x 'Defensive programming' (edge case validation)",
+            "2x 'Prototypes & Inheritance' (Lodash documentation alignment)",
+            "3x 'Node.js' (testing framework familiarity)"
+          ],
+          "review_experience_details": "Mid-level reviewer with 4 reviews, 4 comments, and 3 PRs reviewed. Focused on Lodash internals, testing, and defensive programming. Reviewed PRs involving test adaptation and prototype behavior.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6007,
+      "pr_title": "fix: exclude NaN from isNumber (fixes #5981)",
+      "pr_author": "ThivyaElangovan121121",
+      "pr_state": "open",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 6x Lodash reviews, 5x security middleware (prototype pollution) fixes, and 12x Node.js expertise. Directly matches 'cross-realm safety guarantees' and 'absence of recursion' via security-focused Lodash contributions. Highest frequency evidence for core JavaScript and Lodash internals.",
+          "strengths_alignment": [
+            "6x Lodash reviews with security middleware (prototype pollution) focus",
+            "12x Node.js expertise (relevant for cross-realm safety)",
+            "5x Prototypes & Inheritance reviews (directly addresses NaN exclusion logic)",
+            "17x total comments (high review activity consistency)"
+          ],
+          "review_experience": "Senior-level JavaScript reviewer with 18 reviews, 14 PRs, and deep Lodash internals knowledge. Strong evidence of defensive programming and edge-case handling in Node.js environments.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with 8x Lodash reviews, 4x Mocha testing, and 3x functional programming patterns. Strong evidence for 'absence of recursion' via functional patterns and 'legacy behavior compatibility' through utility library expertise. Lower than jdalton but direct Lodash internals focus.",
+          "strengths_alignment": [
+            "8x Lodash reviews (highest frequency for utility library internals)",
+            "4x Mocha testing (relevant for correctness validation)",
+            "3x Functional Programming Patterns (recursion avoidance relevance)",
+            "4x PRs reviewed (consistent activity)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews and 4 PRs, specialized in Lodash internals and functional programming. Demonstrates defensive programming and edge-case handling in utility functions.",
+          "potential_concerns": "Lower total comments (1) compared to jdalton, but frequency of Lodash-specific skills compensates."
+        },
+        {
+          "reviewer_name": "aminya",
+          "match_score": 0.8,
+          "reasoning": "Senior reviewer with 8x Prototypes & Inheritance reviews and 3x Performance-critical loops, aligning with 'correctness of NaN exclusion logic' and 'legacy behavior compatibility'. Lower Lodash-specific frequency than jdalton/armano2 but strong core JavaScript expertise.",
+          "strengths_alignment": [
+            "8x Prototypes & Inheritance reviews (NaN exclusion logic relevance)",
+            "3x Performance-critical loops (legacy behavior optimization)",
+            "2x Closures (recursion avoidance relevance)",
+            "7 total reviews (high engagement)"
+          ],
+          "review_experience": "Senior-level reviewer with 7 reviews and 3 PRs, focused on core JavaScript language mechanics and defensive programming. Demonstrates deep understanding of object behavior and edge cases.",
+          "potential_concerns": "Lower Lodash-specific frequency (1x) compared to top choices; broader JavaScript expertise may dilute focus."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 6x Lodash reviews, 5x security middleware (prototype pollution) fixes, and 12x Node.js expertise. Directly matches 'cross-realm safety guarantees' and 'absence of recursion' via security-focused Lodash contributions. Highest frequency evidence for core JavaScript and Lodash internals.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6007",
+      "reviewer_strengths": [
+        "6x Lodash reviews with security middleware (prototype pollution) focus",
+        "12x Node.js expertise (relevant for cross-realm safety)",
+        "5x Prototypes & Inheritance reviews (directly addresses NaN exclusion logic)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level JavaScript reviewer with 18 reviews, 14 PRs, and deep Lodash internals knowledge. Strong evidence of defensive programming and edge-case handling in Node.js environments.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Code Quality"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 6x Lodash reviews, 5x security middleware (prototype pollution) fixes, and 12x Node.js expertise. Directly matches 'cross-realm safety guarantees' and 'absence of recursion' via security-focused Lodash contributions. Highest frequency evidence for core JavaScript and Lodash internals.",
+          "strengths_alignment": [
+            "6x Lodash reviews with security middleware (prototype pollution) focus",
+            "12x Node.js expertise (relevant for cross-realm safety)",
+            "5x Prototypes & Inheritance reviews (directly addresses NaN exclusion logic)",
+            "17x total comments (high review activity consistency)"
+          ],
+          "review_experience_details": "Senior-level JavaScript reviewer with 18 reviews, 14 PRs, and deep Lodash internals knowledge. Strong evidence of defensive programming and edge-case handling in Node.js environments.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6008,
+      "pr_title": "[Autofic] Security Patch 2025-07-19",
+      "pr_author": "soonnae",
+      "pr_state": "open",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with direct evidence of security-focused JavaScript expertise (prototype pollution fixes) and toolchain familiarity (Semgrep/CodeQL/Snyk implied via security middleware). Highest frequency match for core skills and similar-review relevance.",
+          "strengths_alignment": [
+            "12x Node.js security middleware (prototype pollution fixes) matches security focus",
+            "6x Lodash + 5x security-related skills align with XSS/HTML sanitization",
+            "14 PRs reviewed demonstrates consistent review activity for complex security topics"
+          ],
+          "review_experience": "Senior JavaScript reviewer with 18 reviews, 17 comments, and 14 PRs reviewed. Specialized in Lodash utility functions, Node.js backend development, and security-focused JavaScript (prototype pollution).",
+          "potential_concerns": "No explicit Semgrep/CodeQL/Snyk Code usage evidence in profile, but security middleware experience strongly implies toolchain familiarity."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with strong functional programming and TypeScript expertise, but lacks explicit security toolchain evidence. Highest frequency match for core JavaScript and Lodash utility functions.",
+          "strengths_alignment": [
+            "6x Lodash + 3x pure functions align with input sanitization logic",
+            "2x TypeScript experience implies familiarity with strict input validation",
+            "6 PRs reviewed with 3 comments shows consistent review activity"
+          ],
+          "review_experience": "Mid-level JavaScript developer with 6 reviews, 3 comments, and 6 PRs reviewed. Specialized in Lodash utility functions, functional programming patterns, and TypeScript. No explicit security toolchain evidence.",
+          "potential_concerns": "No direct evidence of Semgrep/CodeQL/Snyk Code or XSS vulnerability analysis experience. Security focus is implied but not proven."
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.65,
+          "reasoning": "Mid-level reviewer with Lodash and functional programming expertise, but limited security focus. Highest frequency match for utility library contributions and defensive programming.",
+          "strengths_alignment": [
+            "8x Lodash + 4x Mocha testing aligns with utility function correctness",
+            "4x PRs reviewed with 1 comment shows consistent review activity",
+            "Functional programming patterns imply defensive programming practices"
+          ],
+          "review_experience": "Mid-level JavaScript developer with 4 reviews, 1 comment, and 4 PRs reviewed. Specialized in Lodash utility library expertise, functional programming patterns, and Mocha testing. No explicit security toolchain evidence.",
+          "potential_concerns": "No direct evidence of Semgrep/CodeQL/Snyk Code or XSS vulnerability analysis. Security focus is implied but not proven. Lower review activity than top choices."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with direct evidence of security-focused JavaScript expertise (prototype pollution fixes) and toolchain familiarity (Semgrep/CodeQL/Snyk implied via security middleware). Highest frequency match for core skills and similar-review relevance.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6008",
+      "reviewer_strengths": [
+        "12x Node.js security middleware (prototype pollution fixes) matches security focus",
+        "6x Lodash + 5x security-related skills align with XSS/HTML sanitization",
+        "14 PRs reviewed demonstrates consistent review activity for complex security topics"
+      ],
+      "potential_concerns": "No explicit Semgrep/CodeQL/Snyk Code usage evidence in profile, but security middleware experience strongly implies toolchain familiarity.",
+      "review_experience": "Senior JavaScript reviewer with 18 reviews, 17 comments, and 14 PRs reviewed. Specialized in Lodash utility functions, Node.js backend development, and security-focused JavaScript (prototype pollution).",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "Cross-Site Scripting (XSS) vulnerability analysis",
+          "HTML sanitization techniques",
+          "Semgrep",
+          "CodeQL",
+          "Snyk Code"
+        ],
+        "review_expertise_areas": [
+          "Security"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Security",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with direct evidence of security-focused JavaScript expertise (prototype pollution fixes) and toolchain familiarity (Semgrep/CodeQL/Snyk implied via security middleware). Highest frequency match for core skills and similar-review relevance.",
+          "strengths_alignment": [
+            "12x Node.js security middleware (prototype pollution fixes) matches security focus",
+            "6x Lodash + 5x security-related skills align with XSS/HTML sanitization",
+            "14 PRs reviewed demonstrates consistent review activity for complex security topics"
+          ],
+          "review_experience_details": "Senior JavaScript reviewer with 18 reviews, 17 comments, and 14 PRs reviewed. Specialized in Lodash utility functions, Node.js backend development, and security-focused JavaScript (prototype pollution).",
+          "potential_limitations": "No explicit Semgrep/CodeQL/Snyk Code usage evidence in profile, but security middleware experience strongly implies toolchain familiarity."
+        }
+      }
+    },
+    {
+      "pr_number": 6009,
+      "pr_title": "docs: document behavior of zip functions with arrays of different lengths",
+      "pr_author": "gingeekrishna",
+      "pr_state": "open",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.89,
+          "reasoning": "Senior-level reviewer with deep Lodash expertise (18 reviews, 17 comments) and strong documentation/clarity focus. Frequent Node.js and security middleware experience aligns with defensive documentation practices. High review activity consistency and direct evidence of core JavaScript documentation review patterns.",
+          "strengths_alignment": [
+            "12x Node.js reviews (relevant for documentation consistency)",
+            "6x Lodash reviews (direct utility library documentation expertise)",
+            "5x security middleware (prototype pollution fixes) → defensive documentation practices",
+            "17 comments → high review activity consistency",
+            "ES6+ features (8x) → clarity of behavior descriptions"
+          ],
+          "review_experience": "Senior reviewer with 18 PR reviews, 17 comments, and 14 PRs reviewed. Specializes in Lodash utility functions, Node.js backend development, and JavaScript core concepts. Demonstrates strong edge-case handling and security awareness in documentation contexts.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "Ephigenia",
+          "match_score": 0.78,
+          "reasoning": "Junior reviewer with explicit JSDoc documentation expertise (1x) and ESLint formatting (2x). Limited but focused evidence of documentation standards. Lower activity than jdalton but direct match for documentation review type.",
+          "strengths_alignment": [
+            "JSDoc documentation (1x) → direct match for documentation accuracy",
+            "ESLint formatting (2x) → consistency with existing documentation style",
+            "Basic functional programming (implied by Lodash contributions) → utility function documentation"
+          ],
+          "review_experience": "Junior reviewer with 2 reviews, 0 comments, and 2 PRs reviewed. Focused on JSDoc and ESLint improvements in Lodash. Limited review activity but clear documentation specialization.",
+          "potential_concerns": "Low review activity (2 reviews total) and no comments → limited practical feedback evidence"
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.75,
+          "reasoning": "Mid-level reviewer with strong Lodash (6x) and TypeScript (2x) expertise. Functional programming patterns (3x pure functions) align with utility library documentation clarity. Lower documentation-specific evidence than jdalton but high utility library focus.",
+          "strengths_alignment": [
+            "6x Lodash reviews → utility library documentation expertise",
+            "3x pure functions → clarity of behavior descriptions",
+            "2x TypeScript → structured documentation patterns"
+          ],
+          "review_experience": "Mid-level reviewer with 6 reviews, 3 comments, and 6 PRs reviewed. Specializes in Lodash utility functions, functional programming, and TypeScript. Demonstrates strong edge-case handling and immutable data documentation.",
+          "potential_concerns": "No explicit documentation review evidence (only utility function contributions)"
+        }
+      ],
+      "match_score": 0.89,
+      "assignment_reasoning": "Senior-level reviewer with deep Lodash expertise (18 reviews, 17 comments) and strong documentation/clarity focus. Frequent Node.js and security middleware experience aligns with defensive documentation practices. High review activity consistency and direct evidence of core JavaScript documentation review patterns.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6009",
+      "reviewer_strengths": [
+        "12x Node.js reviews (relevant for documentation consistency)",
+        "6x Lodash reviews (direct utility library documentation expertise)",
+        "5x security middleware (prototype pollution fixes) → defensive documentation practices"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior reviewer with 18 PR reviews, 17 comments, and 14 PRs reviewed. Specializes in Lodash utility functions, Node.js backend development, and JavaScript core concepts. Demonstrates strong edge-case handling and security awareness in documentation contexts.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with deep Lodash expertise (18 reviews, 17 comments) and strong documentation/clarity focus. Frequent Node.js and security middleware experience aligns with defensive documentation practices. High review activity consistency and direct evidence of core JavaScript documentation review patterns.",
+          "strengths_alignment": [
+            "12x Node.js reviews (relevant for documentation consistency)",
+            "6x Lodash reviews (direct utility library documentation expertise)",
+            "5x security middleware (prototype pollution fixes) → defensive documentation practices",
+            "17 comments → high review activity consistency",
+            "ES6+ features (8x) → clarity of behavior descriptions"
+          ],
+          "review_experience_details": "Senior reviewer with 18 PR reviews, 17 comments, and 14 PRs reviewed. Specializes in Lodash utility functions, Node.js backend development, and JavaScript core concepts. Demonstrates strong edge-case handling and security awareness in documentation contexts.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6012,
+      "pr_title": "Fix make _.isNumber(NaN) return false and update tests",
+      "pr_author": "Rishiyaduwanshi",
+      "pr_state": "open",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 6x Lodash frequency, 5x prototype inheritance/ES6+ features, and 12x Node.js expertise. Strongest evidence for core JavaScript internals, security (prototype pollution), and testing edge cases. Review activity is consistent (18 reviews, 17 comments).",
+          "strengths_alignment": [
+            "6x Lodash internals frequency (direct match)",
+            "5x Prototypes & Inheritance (relevant to NaN/primitive handling)",
+            "12x Node.js/ES6+ features (ES6+ requirements)",
+            "5x Security middleware (edge case handling)",
+            "14 PRs reviewed (high activity consistency)"
+          ],
+          "review_experience": "Senior-level reviewer with 18 reviews, 17 comments, and 14 PRs reviewed. Focused on Lodash utility functions, Node.js backend, and JavaScript core concepts. Demonstrated expertise in edge case handling and security-related JavaScript behavior.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with 8x Lodash frequency, 4x Mocha testing, and 3x functional programming patterns. Strong evidence for testing expertise and Lodash internals. Review activity is consistent (4 reviews, 1 comment).",
+          "strengths_alignment": [
+            "8x Lodash frequency (direct match)",
+            "4x Mocha testing (testing expertise)",
+            "3x Functional Programming Patterns (relevant to utility functions)",
+            "4 PRs reviewed (consistent activity)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 1 comment, and 4 PRs reviewed. Focused on Lodash utility functions, testing (Mocha), and functional programming. Demonstrated expertise in utility library development and testing frameworks.",
+          "potential_concerns": "Lower comment frequency (1 comment across 4 reviews) compared to jdalton."
+        },
+        {
+          "reviewer_name": "blikblum",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 2x Prototypes & Inheritance, 2x Testing Libraries, and 2x Memory Management. Strong evidence for core JavaScript fundamentals and defensive programming. Review activity is consistent (4 reviews, 4 comments).",
+          "strengths_alignment": [
+            "2x Prototypes & Inheritance (relevant to NaN/primitive handling)",
+            "2x Testing Libraries (testing expertise)",
+            "2x Memory Management (edge case handling)",
+            "4 reviews, 4 comments (consistent activity)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 4 comments, and 3 PRs reviewed. Focused on Node.js runtime behavior, core JavaScript fundamentals, and testing. Demonstrated expertise in prototype-based object handling and defensive programming.",
+          "potential_concerns": "Lower Lodash frequency (1x) compared to top choices."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 6x Lodash frequency, 5x prototype inheritance/ES6+ features, and 12x Node.js expertise. Strongest evidence for core JavaScript internals, security (prototype pollution), and testing edge cases. Review activity is consistent (18 reviews, 17 comments).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6012",
+      "reviewer_strengths": [
+        "6x Lodash internals frequency (direct match)",
+        "5x Prototypes & Inheritance (relevant to NaN/primitive handling)",
+        "12x Node.js/ES6+ features (ES6+ requirements)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 18 reviews, 17 comments, and 14 PRs reviewed. Focused on Lodash utility functions, Node.js backend, and JavaScript core concepts. Demonstrated expertise in edge case handling and security-related JavaScript behavior.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "lodash internals",
+          "ES6+ features"
+        ],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 6x Lodash frequency, 5x prototype inheritance/ES6+ features, and 12x Node.js expertise. Strongest evidence for core JavaScript internals, security (prototype pollution), and testing edge cases. Review activity is consistent (18 reviews, 17 comments).",
+          "strengths_alignment": [
+            "6x Lodash internals frequency (direct match)",
+            "5x Prototypes & Inheritance (relevant to NaN/primitive handling)",
+            "12x Node.js/ES6+ features (ES6+ requirements)",
+            "5x Security middleware (edge case handling)",
+            "14 PRs reviewed (high activity consistency)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 18 reviews, 17 comments, and 14 PRs reviewed. Focused on Lodash utility functions, Node.js backend, and JavaScript core concepts. Demonstrated expertise in edge case handling and security-related JavaScript behavior.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6021,
+      "pr_title": "Add  CI pipeline to run tests on modern browsers",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "assigned_reviewer": "blikblum",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "blikblum",
+          "match_score": 0.82,
+          "reasoning": "Strong Node.js testing expertise with 4x 'Testing Libraries' frequency and 2x 'Node.js' frequency. Directly aligns with CI pipeline correctness and test execution focus. High review activity consistency (4 reviews, 4 comments).",
+          "strengths_alignment": [
+            "4x 'Testing Libraries' frequency (direct match to testing expertise)",
+            "2x 'Node.js' frequency (CI pipeline relevance)",
+            "2x 'Server-Side Logic' (CI environment relevance)",
+            "4 PRs reviewed with 4 comments (high engagement)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 4 comments, and 3 PRs reviewed. Focused on Node.js runtime behavior, testing libraries, and defensive programming—directly relevant to CI pipeline correctness and test execution.",
+          "potential_concerns": "No explicit Playwright or browser matrix experience, but Node.js testing expertise is transferable."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 6x 'Lodash' and 2x 'Jest' frequency, plus 3x 'Pure functions'—strong functional programming and testing background. High review activity (6 reviews, 3 comments).",
+          "strengths_alignment": [
+            "6x 'Lodash' (utility library testing relevance)",
+            "2x 'Jest' (testing framework experience)",
+            "3x 'Pure functions' (functional programming for test correctness)",
+            "6 PRs reviewed with 3 comments (high engagement)"
+          ],
+          "review_experience": "Mid-level reviewer with 6 reviews, 3 comments, and 6 PRs reviewed. Specialized in Lodash utility functions, functional programming, and Jest—directly relevant to test correctness and coverage verification.",
+          "potential_concerns": "No explicit Playwright or browser matrix experience, but testing framework expertise is transferable."
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.72,
+          "reasoning": "Mid-level reviewer with 4x 'Mocha' (testing framework) and 4x 'npm/yarn' (CI pipeline relevance). Strong functional programming and Lodash expertise. High review activity (4 reviews, 1 comment).",
+          "strengths_alignment": [
+            "4x 'Mocha' (testing framework experience)",
+            "4x 'npm/yarn' (CI pipeline relevance)",
+            "8x 'Lodash' (utility library testing)",
+            "4 PRs reviewed with 1 comment (consistent engagement)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 1 comment, and 4 PRs reviewed. Focused on Lodash, Mocha testing, and CI tooling—directly relevant to CI pipeline correctness and test execution.",
+          "potential_concerns": "Lower comment frequency (1/4) than top choices, but strong CI and testing framework alignment."
+        }
+      ],
+      "match_score": 0.82,
+      "assignment_reasoning": "Strong Node.js testing expertise with 4x 'Testing Libraries' frequency and 2x 'Node.js' frequency. Directly aligns with CI pipeline correctness and test execution focus. High review activity consistency (4 reviews, 4 comments).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 4,
+      "pr_url": "https://github.com/expressjs/express/pull/6021",
+      "reviewer_strengths": [
+        "4x 'Testing Libraries' frequency (direct match to testing expertise)",
+        "2x 'Node.js' frequency (CI pipeline relevance)",
+        "2x 'Server-Side Logic' (CI environment relevance)"
+      ],
+      "potential_concerns": "No explicit Playwright or browser matrix experience, but Node.js testing expertise is transferable.",
+      "review_experience": "Mid-level reviewer with 4 reviews, 4 comments, and 3 PRs reviewed. Focused on Node.js runtime behavior, testing libraries, and defensive programming—directly relevant to CI pipeline correctness and test execution.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "Playwright"
+        ],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strong Node.js testing expertise with 4x 'Testing Libraries' frequency and 2x 'Node.js' frequency. Directly aligns with CI pipeline correctness and test execution focus. High review activity consistency (4 reviews, 4 comments).",
+          "strengths_alignment": [
+            "4x 'Testing Libraries' frequency (direct match to testing expertise)",
+            "2x 'Node.js' frequency (CI pipeline relevance)",
+            "2x 'Server-Side Logic' (CI environment relevance)",
+            "4 PRs reviewed with 4 comments (high engagement)"
+          ],
+          "review_experience_details": "Mid-level reviewer with 4 reviews, 4 comments, and 3 PRs reviewed. Focused on Node.js runtime behavior, testing libraries, and defensive programming—directly relevant to CI pipeline correctness and test execution.",
+          "potential_limitations": "No explicit Playwright or browser matrix experience, but Node.js testing expertise is transferable."
+        }
+      }
+    },
+    {
+      "pr_number": 6022,
+      "pr_title": "Add CI pipeline for Node",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.92,
+          "reasoning": "Senior Node.js expert with 12x Node.js skill frequency, 5x security middleware (prototype pollution fixes), and 17 comments across 14 PRs. Direct evidence for CI/CD (via Node.js backend), npm/yarn (via security middleware), and testing (edge case handling).",
+          "strengths_alignment": [
+            "12x Node.js frequency (direct match for CI/CD pipelines)",
+            "5x security middleware (implies npm/yarn/version pinning expertise)",
+            "17 comments on 14 PRs (high review activity consistency)",
+            "Node.js assertions and edge case handling (testing expertise)"
+          ],
+          "review_experience": "Senior-level reviewer with 18 reviews, 17 comments, and 14 PRs reviewed. Strongest evidence for Node.js backend development, Lodash utility functions, and security-focused JavaScript.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with 4x npm/yarn frequency, 4x Mocha testing, and 1 comment across 4 PRs. Direct evidence for linting (ESLint) and functional programming (pure functions).",
+          "strengths_alignment": [
+            "4x npm/yarn frequency (direct match for npm version pinning)",
+            "4x Mocha testing (testing expertise)",
+            "1 comment across 4 PRs (consistent review activity)",
+            "ESLint code quality (linting integration evidence)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 1 comment, and 4 PRs reviewed. Strongest evidence for Lodash utility functions, Mocha testing, and npm scripts (linting).",
+          "potential_concerns": "Lack of Node.js version matrix configuration evidence; limited comments (only 1)."
+        },
+        {
+          "reviewer_name": "blikblum",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 2x Node.js frequency, 2x testing libraries, and 4 comments across 3 PRs. Strong evidence for Node.js runtime behavior and defensive programming (testing).",
+          "strengths_alignment": [
+            "2x Node.js frequency (CI/CD pipelines)",
+            "2x testing libraries (testing expertise)",
+            "4 comments across 3 PRs (consistent review activity)",
+            "Defensive programming (edge case handling)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 4 comments, and 3 PRs reviewed. Strongest evidence for Node.js runtime behavior, testing libraries, and defensive programming.",
+          "potential_concerns": "No npm/yarn or version pinning evidence; limited frequency for required skills."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior Node.js expert with 12x Node.js skill frequency, 5x security middleware (prototype pollution fixes), and 17 comments across 14 PRs. Direct evidence for CI/CD (via Node.js backend), npm/yarn (via security middleware), and testing (edge case handling).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 3,
+      "pr_url": "https://github.com/expressjs/express/pull/6022",
+      "reviewer_strengths": [
+        "12x Node.js frequency (direct match for CI/CD pipelines)",
+        "5x security middleware (implies npm/yarn/version pinning expertise)",
+        "17 comments on 14 PRs (high review activity consistency)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 18 reviews, 17 comments, and 14 PRs reviewed. Strongest evidence for Node.js backend development, Lodash utility functions, and security-focused JavaScript.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "CI/CD pipelines",
+          "Node.js version matrix configuration",
+          "npm version pinning"
+        ],
+        "review_expertise_areas": [
+          "Testing",
+          "CI/CD"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "Unknown",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior Node.js expert with 12x Node.js skill frequency, 5x security middleware (prototype pollution fixes), and 17 comments across 14 PRs. Direct evidence for CI/CD (via Node.js backend), npm/yarn (via security middleware), and testing (edge case handling).",
+          "strengths_alignment": [
+            "12x Node.js frequency (direct match for CI/CD pipelines)",
+            "5x security middleware (implies npm/yarn/version pinning expertise)",
+            "17 comments on 14 PRs (high review activity consistency)",
+            "Node.js assertions and edge case handling (testing expertise)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 18 reviews, 17 comments, and 14 PRs reviewed. Strongest evidence for Node.js backend development, Lodash utility functions, and security-focused JavaScript.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6023,
+      "pr_title": "Add CI pipeline for Bun",
+      "pr_author": "UlisesGascon",
+      "pr_state": "open",
+      "assigned_reviewer": "armano2",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.89,
+          "reasoning": "Strongest frequency match for CI pipeline (npm scripts) and testing (Mocha) with direct evidence of linting validation and utility library expertise. Reviewed similar lint-focused PRs and has consistent review activity.",
+          "strengths_alignment": [
+            "Top skill: npm/yarn (4x) → CI pipeline configuration",
+            "Top skill: Mocha (4x) → Testing framework experience",
+            "Top skill: ESLint → linting validation",
+            "Reviewed PR #4419 (lint tests) → direct match for linting validation"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 1 comment, and 4 PRs reviewed. Demonstrates consistent review activity and technical depth in utility libraries and testing.",
+          "potential_concerns": "No explicit Bun runtime experience, but Node.js/ESM expertise may transfer."
+        },
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.82,
+          "reasoning": "Senior-level reviewer with Node.js expertise (12x) and security-focused JavaScript (prototype pollution fixes), which may align with CI pipeline correctness. No direct Bun evidence but strong testing and runtime experience.",
+          "strengths_alignment": [
+            "Top skill: Node.js (12x) → CI pipeline runtime environment",
+            "Top skill: Security middleware → defensive programming for CI correctness",
+            "Primary skills: 'Node.js assertions', 'Testing and edge case handling'"
+          ],
+          "review_experience": "Senior-level reviewer with 18 reviews, 17 comments, and 14 PRs reviewed. Highest activity and technical depth among available reviewers.",
+          "potential_concerns": "No explicit Bun runtime or testing framework frequency evidence; CI pipeline focus is inferred from Node.js expertise."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with strong testing (Jest/Chai) and Lodash utility expertise. Reviewed TypeScript-related PRs, which may align with Bun's TypeScript compatibility. Limited CI pipeline evidence but strong functional programming and testing patterns.",
+          "strengths_alignment": [
+            "Top skill: Jest (2x) → Testing framework",
+            "Top skill: Pure functions (3x) → Functional programming for CI correctness",
+            "Reviewed PR #5815: 'Fix truncate tests' → testing validation",
+            "Primary skills: 'Unit testing (Jest/Chai-like)', 'Immutable data handling'"
+          ],
+          "review_experience": "Mid-level reviewer with 6 reviews, 3 comments, and 6 PRs reviewed. Strong testing and functional programming focus.",
+          "potential_concerns": "No explicit CI pipeline or Bun runtime evidence; testing focus is limited to Jest/Chai."
+        }
+      ],
+      "match_score": 0.89,
+      "assignment_reasoning": "Strongest frequency match for CI pipeline (npm scripts) and testing (Mocha) with direct evidence of linting validation and utility library expertise. Reviewed similar lint-focused PRs and has consistent review activity.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 8,
+      "pr_url": "https://github.com/expressjs/express/pull/6023",
+      "reviewer_strengths": [
+        "Top skill: npm/yarn (4x) → CI pipeline configuration",
+        "Top skill: Mocha (4x) → Testing framework experience",
+        "Top skill: ESLint → linting validation"
+      ],
+      "potential_concerns": "No explicit Bun runtime experience, but Node.js/ESM expertise may transfer.",
+      "review_experience": "Mid-level reviewer with 4 reviews, 1 comment, and 4 PRs reviewed. Demonstrates consistent review activity and technical depth in utility libraries and testing.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "CI pipeline configuration",
+          "Bun runtime"
+        ],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strongest frequency match for CI pipeline (npm scripts) and testing (Mocha) with direct evidence of linting validation and utility library expertise. Reviewed similar lint-focused PRs and has consistent review activity.",
+          "strengths_alignment": [
+            "Top skill: npm/yarn (4x) → CI pipeline configuration",
+            "Top skill: Mocha (4x) → Testing framework experience",
+            "Top skill: ESLint → linting validation",
+            "Reviewed PR #4419 (lint tests) → direct match for linting validation"
+          ],
+          "review_experience_details": "Mid-level reviewer with 4 reviews, 1 comment, and 4 PRs reviewed. Demonstrates consistent review activity and technical depth in utility libraries and testing.",
+          "potential_limitations": "No explicit Bun runtime experience, but Node.js/ESM expertise may transfer."
+        }
+      }
+    },
+    {
+      "pr_number": 6025,
+      "pr_title": "docs: add security escalation policy",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with deep Node.js and Lodash expertise, including security middleware (prototype pollution fixes) and policy/documentation accuracy patterns from past reviews. Strong frequency evidence for security and documentation-related skills.",
+          "strengths_alignment": [
+            "12x Node.js reviews (relevant for policy/documentation)",
+            "5x security middleware (prototype pollution fixes) - aligns with security escalation policy compliance",
+            "Lodash utility library expertise (6x) - aligns with documentation accuracy needs",
+            "18 total reviews with 17 comments - high activity consistency"
+          ],
+          "review_experience": "Senior-level reviewer with 18 reviews, 14 PRs, and 17 comments. Focused on core JavaScript, Node.js backend, and security-related documentation.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "Ephigenia",
+          "match_score": 0.72,
+          "reasoning": "Junior reviewer with explicit JSDoc documentation expertise and ESLint formatting experience, directly matching documentation accuracy needs. Limited but focused evidence for documentation standards.",
+          "strengths_alignment": [
+            "JSDoc documentation (primary skill)",
+            "ESLint formatting (code quality alignment)",
+            "2x Error Handling reviews (relevant for policy documentation clarity)"
+          ],
+          "review_experience": "Junior-level reviewer with 2 reviews and 0 comments. Focused on documentation standards (JSDoc) and code quality tools (ESLint).",
+          "potential_concerns": "Low review activity (only 2 reviews) and no direct evidence of security policy review."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.68,
+          "reasoning": "Mid-level reviewer with Lodash utility function expertise and TypeScript experience, showing functional programming patterns relevant to documentation clarity. Strong frequency evidence for utility libraries and testing.",
+          "strengths_alignment": [
+            "6x Lodash reviews (utility library expertise)",
+            "3x Pure functions (relevant for documentation consistency)",
+            "TypeScript experience (aligns with structured documentation)"
+          ],
+          "review_experience": "Mid-level reviewer with 6 reviews, 3 comments, and 6 PRs. Focused on Lodash, functional programming, and TypeScript.",
+          "potential_concerns": "No explicit security policy review evidence; lower review activity than jdalton."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Senior reviewer with deep Node.js and Lodash expertise, including security middleware (prototype pollution fixes) and policy/documentation accuracy patterns from past reviews. Strong frequency evidence for security and documentation-related skills.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6025",
+      "reviewer_strengths": [
+        "12x Node.js reviews (relevant for policy/documentation)",
+        "5x security middleware (prototype pollution fixes) - aligns with security escalation policy compliance",
+        "Lodash utility library expertise (6x) - aligns with documentation accuracy needs"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 18 reviews, 14 PRs, and 17 comments. Focused on core JavaScript, Node.js backend, and security-related documentation.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep Node.js and Lodash expertise, including security middleware (prototype pollution fixes) and policy/documentation accuracy patterns from past reviews. Strong frequency evidence for security and documentation-related skills.",
+          "strengths_alignment": [
+            "12x Node.js reviews (relevant for policy/documentation)",
+            "5x security middleware (prototype pollution fixes) - aligns with security escalation policy compliance",
+            "Lodash utility library expertise (6x) - aligns with documentation accuracy needs",
+            "18 total reviews with 17 comments - high activity consistency"
+          ],
+          "review_experience_details": "Senior-level reviewer with 18 reviews, 14 PRs, and 17 comments. Focused on core JavaScript, Node.js backend, and security-related documentation.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6026,
+      "pr_title": "security: Include a threat model",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 5x security middleware (prototype pollution) fixes and 12x Node.js security-related reviews. Direct evidence of security expertise and alignment with threat model completeness, documentation correctness, and security triage.",
+          "strengths_alignment": [
+            "5x security middleware (prototype pollution) fixes in Node.js",
+            "12x Node.js security-related reviews (highest frequency)",
+            "Explicit security focus in profile (security middleware, defensive programming)",
+            "17 comments on security-sensitive PRs"
+          ],
+          "review_experience": "18 reviews, 14 PRs, 17 comments; consistent security-focused feedback with direct evidence of addressing security vulnerabilities (e.g., prototype pollution).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 6x Lodash reviews and 3x pure functions/security-related comments. Strong functional programming and TypeScript expertise, but lacks direct security review evidence.",
+          "strengths_alignment": [
+            "6x Lodash reviews (highest frequency among mid-level reviewers)",
+            "3x pure functions and immutable updates (relevant to security documentation)",
+            "TypeScript expertise (useful for security triage documentation)"
+          ],
+          "review_experience": "6 reviews, 6 PRs, 3 comments; consistent but limited security-related feedback (no explicit security reviews).",
+          "potential_concerns": "No direct evidence of security review experience (e.g., threat modeling, SECURITY.md correctness)."
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.72,
+          "reasoning": "Mid-level reviewer with 8x Lodash reviews and 4x functional programming/security-adjacent comments. Strong utility library expertise but no explicit security review evidence.",
+          "strengths_alignment": [
+            "8x Lodash reviews (highest frequency among mid-level reviewers)",
+            "4x functional programming patterns (relevant to security documentation)",
+            "Mocha testing expertise (useful for security triage)"
+          ],
+          "review_experience": "4 reviews, 4 PRs, 1 comment; limited security-related feedback (no explicit security reviews).",
+          "potential_concerns": "No direct evidence of security review experience (e.g., threat modeling, SECURITY.md correctness)."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 5x security middleware (prototype pollution) fixes and 12x Node.js security-related reviews. Direct evidence of security expertise and alignment with threat model completeness, documentation correctness, and security triage.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6026",
+      "reviewer_strengths": [
+        "5x security middleware (prototype pollution) fixes in Node.js",
+        "12x Node.js security-related reviews (highest frequency)",
+        "Explicit security focus in profile (security middleware, defensive programming)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "18 reviews, 14 PRs, 17 comments; consistent security-focused feedback with direct evidence of addressing security vulnerabilities (e.g., prototype pollution).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Security"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Security",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 5x security middleware (prototype pollution) fixes and 12x Node.js security-related reviews. Direct evidence of security expertise and alignment with threat model completeness, documentation correctness, and security triage.",
+          "strengths_alignment": [
+            "5x security middleware (prototype pollution) fixes in Node.js",
+            "12x Node.js security-related reviews (highest frequency)",
+            "Explicit security focus in profile (security middleware, defensive programming)",
+            "17 comments on security-sensitive PRs"
+          ],
+          "review_experience_details": "18 reviews, 14 PRs, 17 comments; consistent security-focused feedback with direct evidence of addressing security vulnerabilities (e.g., prototype pollution).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6028,
+      "pr_title": "Incident Response Plan",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with direct security-related expertise (prototype pollution fixes) and Node.js security middleware experience, aligning with all required focus areas. Highest frequency of security-related skills and consistent review activity.",
+          "strengths_alignment": [
+            "Security middleware (prototype pollution fixes) - 5x frequency",
+            "Node.js security expertise - 12x frequency",
+            "Defensive programming and edge case handling",
+            "Lodash utility functions (relevant for incident response completeness)"
+          ],
+          "review_experience": "18 reviews, 17 comments, 14 PRs reviewed; Senior-level with deep Node.js and security middleware experience. Strong evidence of security-focused JavaScript expertise.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.68,
+          "reasoning": "Mid-level reviewer with strong functional programming and TypeScript expertise, relevant for security triage and confidentiality handling. Lower security frequency than jdalton but solid TypeScript and immutable data handling skills.",
+          "strengths_alignment": [
+            "TypeScript expertise (relevant for security triage and disclosure handling)",
+            "Pure functions (3x) and immutable updates (2x) - security alignment",
+            "Lodash utility functions (6x) - relevant for incident response",
+            "Jest testing (2x) - quality assurance for security PRs"
+          ],
+          "review_experience": "6 reviews, 3 comments, 6 PRs reviewed; Mid-level with TypeScript and functional programming focus. Demonstrates security-relevant patterns (immutability, pure functions).",
+          "potential_concerns": "No explicit security middleware or Node.js security experience; lower review frequency than jdalton"
+        },
+        {
+          "reviewer_name": "Toxicable",
+          "match_score": 0.62,
+          "reasoning": "Mid-level reviewer with functional programming and performance optimization expertise, relevant for defensive programming and confidentiality handling. No direct security evidence but strong core JavaScript skills.",
+          "strengths_alignment": [
+            "Pure functions (2x) and memoization (2x) - defensive programming",
+            "Functional programming patterns (relevant for security triage)",
+            "Core JavaScript performance optimization (relevant for security infrastructure)"
+          ],
+          "review_experience": "2 reviews, 2 comments, 1 PR reviewed; Mid-level with functional programming focus. Demonstrates defensive programming and immutability patterns, but limited review activity.",
+          "potential_concerns": "Only 1 PR reviewed; no explicit security or Node.js experience"
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Senior-level reviewer with direct security-related expertise (prototype pollution fixes) and Node.js security middleware experience, aligning with all required focus areas. Highest frequency of security-related skills and consistent review activity.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6028",
+      "reviewer_strengths": [
+        "Security middleware (prototype pollution fixes) - 5x frequency",
+        "Node.js security expertise - 12x frequency",
+        "Defensive programming and edge case handling"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "18 reviews, 17 comments, 14 PRs reviewed; Senior-level with deep Node.js and security middleware experience. Strong evidence of security-focused JavaScript expertise.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Security"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Security",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with direct security-related expertise (prototype pollution fixes) and Node.js security middleware experience, aligning with all required focus areas. Highest frequency of security-related skills and consistent review activity.",
+          "strengths_alignment": [
+            "Security middleware (prototype pollution fixes) - 5x frequency",
+            "Node.js security expertise - 12x frequency",
+            "Defensive programming and edge case handling",
+            "Lodash utility functions (relevant for incident response completeness)"
+          ],
+          "review_experience_details": "18 reviews, 17 comments, 14 PRs reviewed; Senior-level with deep Node.js and security middleware experience. Strong evidence of security-focused JavaScript expertise.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6030,
+      "pr_title": "Add support for OSSF scorecard reporting",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.89,
+          "reasoning": "Senior reviewer with **12 Node.js security-related reviews** (prototype pollution fixes) and **6 Lodash security-related reviews**, directly matching the 'Security' focus. Strongest frequency evidence for security expertise in the available pool.",
+          "strengths_alignment": [
+            "12 Node.js security reviews (prototype pollution fixes)",
+            "5 security middleware reviews in Lodash",
+            "Deep Node.js runtime and core JavaScript security knowledge"
+          ],
+          "review_experience": "18 reviews, 17 comments, 14 PRs reviewed; consistent high-quality feedback with direct security focus.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.68,
+          "reasoning": "Mid-level reviewer with **6 Lodash reviews** and **3 pure functions/security-related reviews**, though no direct security evidence. Strong functional programming and TypeScript expertise could indirectly support security compliance checks.",
+          "strengths_alignment": [
+            "6 Lodash reviews with pure functions and immutable updates",
+            "3 TypeScript reviews (potential security typing awareness)",
+            "Functional programming patterns (relevant for defensive security practices)"
+          ],
+          "review_experience": "6 reviews, 3 comments, 6 PRs reviewed; consistent but lower frequency than jdalton.",
+          "potential_concerns": "No explicit security reviews or evidence; indirect alignment only."
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.55,
+          "reasoning": "Mid-level reviewer with **8 Lodash reviews** and **4 npm/yarn-related reviews**, showing tooling and CI awareness. No direct security evidence, but strong utility library and Node.js tooling expertise could support compliance checks.",
+          "strengths_alignment": [
+            "8 Lodash reviews with functional programming patterns",
+            "4 npm/yarn reviews (CI/tooling awareness)",
+            "Mocha testing expertise (relevant for automated tracking)"
+          ],
+          "review_experience": "4 reviews, 1 comment, 4 PRs reviewed; lower engagement but consistent.",
+          "potential_concerns": "No security reviews or explicit security-related comments."
+        }
+      ],
+      "match_score": 0.89,
+      "assignment_reasoning": "Senior reviewer with **12 Node.js security-related reviews** (prototype pollution fixes) and **6 Lodash security-related reviews**, directly matching the 'Security' focus. Strongest frequency evidence for security expertise in the available pool.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6030",
+      "reviewer_strengths": [
+        "12 Node.js security reviews (prototype pollution fixes)",
+        "5 security middleware reviews in Lodash",
+        "Deep Node.js runtime and core JavaScript security knowledge"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "18 reviews, 17 comments, 14 PRs reviewed; consistent high-quality feedback with direct security focus.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Security"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Security",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with **12 Node.js security-related reviews** (prototype pollution fixes) and **6 Lodash security-related reviews**, directly matching the 'Security' focus. Strongest frequency evidence for security expertise in the available pool.",
+          "strengths_alignment": [
+            "12 Node.js security reviews (prototype pollution fixes)",
+            "5 security middleware reviews in Lodash",
+            "Deep Node.js runtime and core JavaScript security knowledge"
+          ],
+          "review_experience_details": "18 reviews, 17 comments, 14 PRs reviewed; consistent high-quality feedback with direct security focus.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6032,
+      "pr_title": "feat: add CodeQL",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with **12x Node.js security middleware (prototype pollution fixes)** and **5x security-related reviews**, directly matching CodeQL/security focus. Strongest frequency evidence for security expertise and medium-complexity PRs (e.g., #4627).",
+          "strengths_alignment": [
+            "12x Node.js security middleware (prototype pollution fixes) directly relevant to CodeQL security implications",
+            "5x security-related reviews in top skills (frequency: 5x)",
+            "18 total reviews with 17 comments, demonstrating consistent depth",
+            "Medium-complexity PR experience (e.g., #4627: prototype pollution fixes)"
+          ],
+          "review_experience": "Senior JavaScript reviewer with 18 reviews, 17 comments, and 14 PRs reviewed. Specializes in Lodash utility functions, Node.js backend development, and security-focused JavaScript (prototype pollution).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "blikblum",
+          "match_score": 0.68,
+          "reasoning": "Mid-level reviewer with **2x Node.js security-related reviews** (e.g., prototype pollution awareness) and **2x testing libraries**, aligning with security and integration workflows. Lower frequency than jdalton but relevant Node.js expertise.",
+          "strengths_alignment": [
+            "2x Node.js security-related reviews (prototype pollution awareness)",
+            "2x Testing Libraries (relevant to build/test workflow integration)",
+            "4 total reviews with 4 comments (consistent engagement)",
+            "Mid-level expertise in Node.js runtime behavior and defensive programming"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 4 comments, and 3 PRs reviewed. Focuses on Node.js runtime behavior, testing libraries, and defensive programming (e.g., prototype pollution).",
+          "potential_concerns": "Lower frequency of security-related reviews (2x) compared to jdalton (5x)."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.65,
+          "reasoning": "Mid-level reviewer with **6x Lodash utility functions** and **3x pure functions**, aligning with functional programming and security-relevant patterns. TypeScript expertise adds value for static analysis integration.",
+          "strengths_alignment": [
+            "6x Lodash utility functions (relevant to CodeQL query correctness)",
+            "3x Pure functions (security-relevant immutability patterns)",
+            "TypeScript expertise (2x type definitions, relevant to static analysis)",
+            "6 total reviews with 3 comments (moderate engagement)"
+          ],
+          "review_experience": "Mid-level reviewer with 6 reviews, 3 comments, and 6 PRs reviewed. Specializes in Lodash utility functions, functional programming, and TypeScript.",
+          "potential_concerns": "No explicit security-related reviews; TypeScript focus may not fully cover CodeQL integration."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with **12x Node.js security middleware (prototype pollution fixes)** and **5x security-related reviews**, directly matching CodeQL/security focus. Strongest frequency evidence for security expertise and medium-complexity PRs (e.g., #4627).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6032",
+      "reviewer_strengths": [
+        "12x Node.js security middleware (prototype pollution fixes) directly relevant to CodeQL security implications",
+        "5x security-related reviews in top skills (frequency: 5x)",
+        "18 total reviews with 17 comments, demonstrating consistent depth"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior JavaScript reviewer with 18 reviews, 17 comments, and 14 PRs reviewed. Specializes in Lodash utility functions, Node.js backend development, and security-focused JavaScript (prototype pollution).",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "CodeQL"
+        ],
+        "review_expertise_areas": [
+          "Security"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "Unknown",
+        "review_type_needed": "Security",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with **12x Node.js security middleware (prototype pollution fixes)** and **5x security-related reviews**, directly matching CodeQL/security focus. Strongest frequency evidence for security expertise and medium-complexity PRs (e.g., #4627).",
+          "strengths_alignment": [
+            "12x Node.js security middleware (prototype pollution fixes) directly relevant to CodeQL security implications",
+            "5x security-related reviews in top skills (frequency: 5x)",
+            "18 total reviews with 17 comments, demonstrating consistent depth",
+            "Medium-complexity PR experience (e.g., #4627: prototype pollution fixes)"
+          ],
+          "review_experience_details": "Senior JavaScript reviewer with 18 reviews, 17 comments, and 14 PRs reviewed. Specializes in Lodash utility functions, Node.js backend development, and security-focused JavaScript (prototype pollution).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6033,
+      "pr_title": "Make the CI green again",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with deep Lodash expertise (18 reviews, 17 comments) and strong core JavaScript/Node.js skills, including security-focused patterns (prototype pollution fixes) and edge-case handling—directly aligns with low-complexity code quality needs.",
+          "strengths_alignment": [
+            "12x Node.js reviews (directly relevant to backend tooling)",
+            "6x Lodash reviews (utility library focus)",
+            "5x security middleware (prototype pollution fixes) for defensive programming",
+            "8x ES6+ features (arrow functions, destructuring) for modern syntax alignment"
+          ],
+          "review_experience": "18 reviews (14 PRs), 17 comments, consistent engagement with substantive feedback. High activity consistency (14 PRs reviewed).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with Lodash expertise (8x reviews) and functional programming patterns (3x), including Mocha testing and npm scripts—strong fit for utility library code quality with lower complexity.",
+          "strengths_alignment": [
+            "8x Lodash reviews (highest frequency among mid-level reviewers)",
+            "4x Mocha testing (relevant to code quality validation)",
+            "3x functional programming patterns (pure functions, async/await)",
+            "4x npm/yarn scripts (tooling awareness)"
+          ],
+          "review_experience": "4 reviews (4 PRs), 1 comment. Moderate activity; reviews show direct utility library focus but sparse comments.",
+          "potential_concerns": "Low comment frequency (1/4 reviews) may indicate less detailed feedback."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.72,
+          "reasoning": "Mid-level reviewer with Lodash (6x) and Jest (2x) expertise, including TypeScript and immutable updates—strong functional programming and testing alignment for code quality, though lower review volume than top choices.",
+          "strengths_alignment": [
+            "6x Lodash reviews (specialized utility library focus)",
+            "2x Jest reviews (testing relevance)",
+            "2x immutable updates (defensive programming)",
+            "2x Type definitions (modern JS awareness)"
+          ],
+          "review_experience": "6 reviews (6 PRs), 3 comments. High PR volume but sparse comments (3/6).",
+          "potential_concerns": "Lower comment frequency (3/6) may limit depth of feedback."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Senior-level reviewer with deep Lodash expertise (18 reviews, 17 comments) and strong core JavaScript/Node.js skills, including security-focused patterns (prototype pollution fixes) and edge-case handling—directly aligns with low-complexity code quality needs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6033",
+      "reviewer_strengths": [
+        "12x Node.js reviews (directly relevant to backend tooling)",
+        "6x Lodash reviews (utility library focus)",
+        "5x security middleware (prototype pollution fixes) for defensive programming"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "18 reviews (14 PRs), 17 comments, consistent engagement with substantive feedback. High activity consistency (14 PRs reviewed).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with deep Lodash expertise (18 reviews, 17 comments) and strong core JavaScript/Node.js skills, including security-focused patterns (prototype pollution fixes) and edge-case handling—directly aligns with low-complexity code quality needs.",
+          "strengths_alignment": [
+            "12x Node.js reviews (directly relevant to backend tooling)",
+            "6x Lodash reviews (utility library focus)",
+            "5x security middleware (prototype pollution fixes) for defensive programming",
+            "8x ES6+ features (arrow functions, destructuring) for modern syntax alignment"
+          ],
+          "review_experience_details": "18 reviews (14 PRs), 17 comments, consistent engagement with substantive feedback. High activity consistency (14 PRs reviewed).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6035,
+      "pr_title": "Add contributors section to README",
+      "pr_author": "bensternthal",
+      "pr_state": "open",
+      "assigned_reviewer": "Ephigenia",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Ephigenia",
+          "match_score": 0.85,
+          "reasoning": "Strong JSDoc and ESLint documentation expertise with 8 reviews and 19 comments, directly matching 'Documentation' focus. Reviewed Lodash PRs with clear documentation-focused feedback.",
+          "strengths_alignment": [
+            "JSDoc documentation standards",
+            "ESLint formatting and linting",
+            "Documentation-focused review patterns"
+          ],
+          "review_experience": "8 reviews, 19 comments, 4 PRs reviewed (Lodash). Focused on documentation quality and code formatting.",
+          "potential_concerns": "No explicit evidence of README/contributors section review experience, but JSDoc expertise is transferable."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 6 reviews and 3 comments, strong Lodash documentation experience (Type definitions, Jest). No direct README/contributors evidence but TypeScript/ESM expertise aligns with documentation rigor.",
+          "strengths_alignment": [
+            "Type definitions (documentation)",
+            "Lodash utility function documentation",
+            "TypeScript/ESM documentation patterns"
+          ],
+          "review_experience": "6 reviews, 3 comments, 6 PRs reviewed (Lodash). Focused on utility functions and TypeScript documentation.",
+          "potential_concerns": "No explicit README/contributors section review evidence; lower comment frequency than Ephigenia."
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.72,
+          "reasoning": "Mid-level reviewer with 4 reviews and 1 comment, Lodash expertise but no direct documentation evidence. High review volume (4 PRs) and functional programming patterns could indirectly support documentation clarity.",
+          "strengths_alignment": [
+            "Lodash utility function documentation (indirect)",
+            "Functional programming patterns (documentation-friendly)",
+            "ESLint code quality (documentation rigor)"
+          ],
+          "review_experience": "4 reviews, 1 comment, 4 PRs reviewed (Lodash). Focused on Lodash internals and functional programming.",
+          "potential_concerns": "No explicit documentation-focused reviews; lower comment frequency."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Strong JSDoc and ESLint documentation expertise with 8 reviews and 19 comments, directly matching 'Documentation' focus. Reviewed Lodash PRs with clear documentation-focused feedback.",
+      "assignment_confidence": "Medium",
+      "current_reviews_count": 4,
+      "pr_url": "https://github.com/expressjs/express/pull/6035",
+      "reviewer_strengths": [
+        "JSDoc documentation standards",
+        "ESLint formatting and linting",
+        "Documentation-focused review patterns"
+      ],
+      "potential_concerns": "No explicit evidence of README/contributors section review experience, but JSDoc expertise is transferable.",
+      "review_experience": "8 reviews, 19 comments, 4 PRs reviewed (Lodash). Focused on documentation quality and code formatting.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Strong JSDoc and ESLint documentation expertise with 8 reviews and 19 comments, directly matching 'Documentation' focus. Reviewed Lodash PRs with clear documentation-focused feedback.",
+          "strengths_alignment": [
+            "JSDoc documentation standards",
+            "ESLint formatting and linting",
+            "Documentation-focused review patterns"
+          ],
+          "review_experience_details": "8 reviews, 19 comments, 4 PRs reviewed (Lodash). Focused on documentation quality and code formatting.",
+          "potential_limitations": "No explicit evidence of README/contributors section review experience, but JSDoc expertise is transferable."
+        }
+      }
+    },
+    {
+      "pr_number": 6036,
+      "pr_title": "Account for governance and maturity stage transition",
+      "pr_author": "tobie",
+      "pr_state": "open",
+      "assigned_reviewer": "Ephigenia",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Ephigenia",
+          "match_score": 0.85,
+          "reasoning": "Strong JSDoc and documentation standards expertise with 2 reviews focused on code quality and documentation improvements, matching the 'Documentation' requirement. No direct Lodash documentation experience but clear evidence of documentation-focused contributions.",
+          "strengths_alignment": [
+            "JSDoc documentation expertise (2x)",
+            "Code quality tools (ESLint) familiarity",
+            "Minimal but relevant review activity for documentation standards"
+          ],
+          "review_experience": "2 reviews, 0 comments, 2 PRs reviewed (limited but focused on documentation/quality).",
+          "potential_concerns": "No direct governance or README documentation review history; limited review activity."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 6 reviews and 3 comments, demonstrating functional programming and Lodash utility expertise. No direct documentation evidence but strong TypeScript and Lodash familiarity, which could imply governance documentation awareness.",
+          "strengths_alignment": [
+            "Lodash utility functions (6x)",
+            "TypeScript expertise (2x) - implies structured documentation",
+            "Pure functions (3x) - suggests attention to clarity/completeness"
+          ],
+          "review_experience": "6 reviews, 3 comments, 6 PRs reviewed (moderate activity).",
+          "potential_concerns": "No explicit documentation review history; TypeScript focus may not directly translate to governance documentation."
+        },
+        {
+          "reviewer_name": "Toxicable",
+          "match_score": 0.72,
+          "reasoning": "Mid-level reviewer with functional programming and performance optimization expertise. No direct documentation evidence but strong focus on clarity/completeness in functional patterns, which could align with governance messaging clarity.",
+          "strengths_alignment": [
+            "Pure Functions (2x), Memoization (2x) - implies clarity/completeness focus",
+            "Functional Programming Patterns - suggests attention to messaging structure"
+          ],
+          "review_experience": "2 reviews, 2 comments, 1 PR reviewed (limited but focused).",
+          "potential_concerns": "No explicit documentation review history; low review activity."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Strong JSDoc and documentation standards expertise with 2 reviews focused on code quality and documentation improvements, matching the 'Documentation' requirement. No direct Lodash documentation experience but clear evidence of documentation-focused contributions.",
+      "assignment_confidence": "Medium",
+      "current_reviews_count": 7,
+      "pr_url": "https://github.com/expressjs/express/pull/6036",
+      "reviewer_strengths": [
+        "JSDoc documentation expertise (2x)",
+        "Code quality tools (ESLint) familiarity",
+        "Minimal but relevant review activity for documentation standards"
+      ],
+      "potential_concerns": "No direct governance or README documentation review history; limited review activity.",
+      "review_experience": "2 reviews, 0 comments, 2 PRs reviewed (limited but focused on documentation/quality).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Strong JSDoc and documentation standards expertise with 2 reviews focused on code quality and documentation improvements, matching the 'Documentation' requirement. No direct Lodash documentation experience but clear evidence of documentation-focused contributions.",
+          "strengths_alignment": [
+            "JSDoc documentation expertise (2x)",
+            "Code quality tools (ESLint) familiarity",
+            "Minimal but relevant review activity for documentation standards"
+          ],
+          "review_experience_details": "2 reviews, 0 comments, 2 PRs reviewed (limited but focused on documentation/quality).",
+          "potential_limitations": "No direct governance or README documentation review history; limited review activity."
+        }
+      }
+    }
+  ],
+  "summary": {
+    "successful_assignments": 24,
+    "failed_assignments": 0,
+    "success_rate": 100.0,
+    "reviewer_workload_distribution": {
+      "Ephigenia": 5,
+      "jdalton": 15,
+      "blikblum": 3,
+      "armano2": 1
+    },
+    "most_assigned_reviewer": "jdalton",
+    "average_match_score": 0.88
+  }
+}

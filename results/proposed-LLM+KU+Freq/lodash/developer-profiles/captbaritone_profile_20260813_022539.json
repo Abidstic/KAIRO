@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "developer_name": "captbaritone",
+    "generation_timestamp": "2026-08-13T02:24:12.525591",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "lodash"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "captbaritone",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript Core (ES5/ES6+)",
+      "Functional Programming Patterns",
+      "ESLint & Code Quality",
+      "Lodash Internals",
+      "Code Optimization"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)"
+    ],
+    "summary": "\ncaptbaritone demonstrates **Mid-level JavaScript expertise** with a strong focus on **JavaScript core concepts**, particularly within the **Lodash utility library ecosystem**. Their contributions highlight proficiency in **code optimization, functional programming patterns, and automated quality checks** (e.g., ESLint integration). While their work is **Lodash-centric** (not framework-specific), the contributions reveal deep knowledge of **pure JavaScript utilities, immutability, and readability vs. performance trade-offs**.\n\nKey strengths include:\n- **Code simplification** (e.g., optimizing Lodash’s `_result` function).\n- **ESLint rule enforcement** (e.g., `no-unexpected-multiline`).\n- **Functional JavaScript principles** (pure functions, immutability).\n- **Pre-commit quality gates** (automated style checks).\n\nLimitations:\n- No evidence of **modern ES6+ features** in contributions (Lodash is ES5-compatible).\n- No **testing frameworks** (Jest, Mocha) or **TypeScript** exposure.\n- No **frontend/backend frameworks** (React, Node.js, etc.) or **async/await** usage.\n\nThis profile suggests a **specialized utility-focused developer** with **strong JavaScript fundamentals** but limited exposure to broader ecosystems.\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 3": [
+        "Lodash, frequency: 3"
+      ],
+      "Asynchronous Programming, frequency: 0": [],
+      "API Design & Consumption, frequency: 0": [],
+      "Error Handling, frequency: 0": [],
+      "Frontend Development Skills, frequency: 0": [],
+      "Backend Development Skills, frequency: 0": [],
+      "DevOps & Deployment, frequency: 0": [],
+      "Advanced JavaScript Concepts, frequency: 3": [
+        "Closures, frequency: 1",
+        "Pure Functions, frequency: 1",
+        "Module Systems, frequency: 1"
+      ],
+      "Functional Programming, frequency: 3": [
+        "Pure Functions, frequency: 2",
+        "Immutability, frequency: 1"
+      ],
+      "Data Structures & Algorithms, frequency: 0": [],
+      "TypeScript, frequency: 0": [],
+      "Progressive Web Apps (PWA), frequency: 0": [],
+      "Mobile Development with JavaScript, frequency: 0": [],
+      "Web Performance Optimization, frequency: 0": [],
+      "Event-Driven Architecture, frequency: 0": [],
+      "Dependency Management, frequency: 0": [],
+      "Graphical Data Visualization, frequency: 0": []
+    }
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "lodash"
+    ]
+  }
+}

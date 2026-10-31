@@ -1,0 +1,65 @@
+{
+  "reviewer_name": "jasonsaayman",
+  "generated_at": "20260918_160425",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "stats": {
+    "total_reviews": 71,
+    "total_comments": 11,
+    "total_prs": 62,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "jasonsaayman",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "TypeScript",
+      "Axios (HTTP client library)",
+      "Modern JavaScript/TypeScript best practices",
+      "Type-safe API development",
+      "Asynchronous programming patterns",
+      "ES6+ JavaScript features",
+      "Type definitions (CommonJS/ESM)",
+      "HTTP client patterns",
+      "Error handling and debugging"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "jasonsaayman is a highly skilled **Senior-level JavaScript/TypeScript reviewer** with deep expertise in **Axios**, **TypeScript**, and modern JavaScript best practices. Their contributions focus heavily on **type safety**, **API development**, and **asynchronous programming**, particularly in the context of HTTP client libraries. With 71 reviews primarily centered on Axios, they demonstrate advanced proficiency in **TypeScript type definitions**, **CommonJS/ESM compatibility**, and **clean, maintainable code organization**. Their work is frontend-focused but framework-agnostic, emphasizing **type-safe HTTP request handling**, **interceptor patterns**, and **error handling clarity**. While their experience is not explicitly backend-oriented, their skills are highly transferable to any JavaScript/TypeScript project using Axios or similar libraries. Their review feedback and PRs consistently reflect a strong commitment to **code quality**, **documentation**, and **modern JavaScript/TypeScript practices**.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 10": [
+        "Axios, frequency: 10",
+        "TypeScript, frequency: 10"
+      ],
+      "Asynchronous Programming, frequency: 8": [
+        "Promises, frequency: 5",
+        "Request abort handling, frequency: 3"
+      ],
+      "API Design & Consumption, frequency: 12": [
+        "RESTful APIs, frequency: 10",
+        "HTTP client patterns, frequency: 8",
+        "URL objects (Fetch API compatibility), frequency: 2"
+      ],
+      "Error Handling, frequency: 5": [
+        "Type-safe error handling, frequency: 3",
+        "Error log clarity, frequency: 2"
+      ],
+      "Advanced JavaScript Concepts, frequency: 7": [
+        "ES6+ features (classes, modules, destructuring), frequency: 5",
+        "Module systems (CommonJS/ESM), frequency: 2"
+      ],
+      "TypeScript, frequency: 15": [
+        "Type definitions (index.d.ts, index.d.cts), frequency: 8",
+        "Type guards (isCancel), frequency: 3",
+        "Type extensions (AxiosConfig), frequency: 2",
+        "Enum handling (HttpStatusCode), frequency: 2"
+      ],
+      "Dependency Management, frequency: 2": [
+        "npm/yarn, frequency: 2"
+      ]
+    }
+  }
+}

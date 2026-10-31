@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "developer_name": "Gobie",
+    "generation_timestamp": "2026-08-13T13:48:55.492360",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "Gobie",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Moment.js (Date/Time Manipulation)",
+      "JavaScript Performance Optimization",
+      "Unit Testing (Jest/Mocha)",
+      "Functional Programming Patterns",
+      "Code Cleanup & Refactoring"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "\nGobie demonstrates a **Mid-level JavaScript proficiency**, primarily focused on **date/time manipulation, performance optimization, and clean code practices** within the Moment.js ecosystem. Their contributions show strong **functional programming awareness**, **testing skills**, and **performance-focused refactoring**, but lack evidence of modern frontend frameworks or backend development.\n\nKey strengths include:\n- **Optimizing legacy code** (20% performance gains in `zeroFill`).\n- **Testing edge cases** (year-end boundary conditions).\n- **Clean code principles** (immutability, short-circuiting, unused code removal).\n\nLimited exposure to **TypeScript, async patterns, or backend systems** suggests specialization in **utility libraries** rather than full-stack development. Gobie’s work aligns with **JavaScript core concepts** and **testing methodologies**, making them a **reliable contributor to utility libraries** but not yet a **full-stack or framework specialist**.\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 3": [
+        "Moment.js, frequency: 3",
+        "Jest, frequency: 1"
+      ],
+      "Asynchronous Programming, frequency: 0": [],
+      "API Design & Consumption, frequency: 0": [],
+      "Error Handling, frequency: 0": [],
+      "Frontend Development Skills, frequency: 0": [],
+      "Backend Development Skills, frequency: 0": [],
+      "DevOps & Deployment, frequency: 0": [],
+      "Advanced JavaScript Concepts, frequency: 3": [
+        "Closures, frequency: 1",
+        "Optional Chaining, frequency: 1",
+        "Immutability, frequency: 1"
+      ],
+      "Functional Programming, frequency: 3": [
+        "Pure Functions, frequency: 1",
+        "Short-Circuiting (&&, ||), frequency: 1",
+        "Destructuring, frequency: 1"
+      ],
+      "Data Structures & Algorithms, frequency: 0": [],
+      "TypeScript, frequency: 0": [],
+      "Progressive Web Apps (PWA), frequency: 0": [],
+      "Mobile Development with JavaScript, frequency: 0": [],
+      "Web Performance Optimization, frequency: 2": [
+        "Benchmarking, frequency: 1",
+        "Micro-Optimizations, frequency: 1"
+      ],
+      "Event-Driven Architecture, frequency: 0": [],
+      "Dependency Management, frequency: 0": [],
+      "Graphical Data Visualization, frequency: 0": []
+    }
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

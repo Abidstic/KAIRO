@@ -1,0 +1,3242 @@
+{
+  "summary": {
+    "extraction_metadata": {
+      "extraction_date": "2026-09-18 03:58:13",
+      "source_file": "../PR data for Reviewers/preactjs_preact_reviewer_data_test.json",
+      "total_prs_analyzed": 89
+    },
+    "overall_statistics": {
+      "total_prs": 89,
+      "prs_with_reviews": 89,
+      "prs_without_reviews": 0,
+      "total_reviews": 176,
+      "average_reviews_per_pr": 1.98,
+      "unique_reviewers_count": 11
+    },
+    "reviewer_activity": {
+      "by_prs_reviewed": {
+        "JoviDeCroock": 54,
+        "rschristian": 46,
+        "marvinhagemeister": 21,
+        "43081j": 2,
+        "colinaaa": 2,
+        "vasylenkoval": 2,
+        "frontman-git": 1,
+        "joel-solymosi": 1,
+        "shyguy1412": 1,
+        "azekeprofit": 1,
+        "argyleink": 1
+      },
+      "by_total_reviews": {
+        "JoviDeCroock": 68,
+        "rschristian": 66,
+        "marvinhagemeister": 21,
+        "joel-solymosi": 4,
+        "azekeprofit": 4,
+        "43081j": 3,
+        "vasylenkoval": 3,
+        "frontman-git": 2,
+        "colinaaa": 2,
+        "argyleink": 2,
+        "shyguy1412": 1
+      }
+    },
+    "top_reviewers": {
+      "most_prs_reviewed": [
+        "JoviDeCroock",
+        54
+      ],
+      "most_total_reviews": [
+        "JoviDeCroock",
+        68
+      ]
+    }
+  },
+  "pr_reviewer_assignments": [
+    {
+      "pr_number": 4803,
+      "pr_title": "fix: reuse DOM nodes inside <template> during hydration",
+      "pr_author": "frontman-git",
+      "pr_state": "open",
+      "created_at": "2025-06-18T01:48:04Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4803",
+      "total_reviews": 6,
+      "total_review_comments": 6,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-06-18T03:50:14Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-06-18T04:04:17Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "frontman-git",
+          "reviewer_id": 174184333,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-06-18T04:30:12Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "frontman-git",
+          "reviewer_id": 174184333,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-06-18T04:41:58Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-06-18T04:42:40Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-06-18T05:53:30Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock",
+        "rschristian",
+        "frontman-git"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock",
+        "rschristian",
+        "frontman-git"
+      ]
+    },
+    {
+      "pr_number": 4804,
+      "pr_title": "Add v10 note",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-06-18T06:03:45Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4804",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "Good call!",
+          "submitted_at": "2025-06-18T06:35:11Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4806,
+      "pr_title": "chore: migrate from mocha to vitest",
+      "pr_author": "43081j",
+      "pr_state": "closed",
+      "created_at": "2025-06-24T11:50:07Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4806",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-24T12:23:30Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "Sweet!",
+          "submitted_at": "2025-06-24T12:34:36Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister",
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister",
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4807,
+      "pr_title": "chore: use v8 coverage",
+      "pr_author": "43081j",
+      "pr_state": "closed",
+      "created_at": "2025-06-24T12:06:51Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4807",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-25T06:25:26Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4808,
+      "pr_title": "chore: switch to playwright for browser tests",
+      "pr_author": "43081j",
+      "pr_state": "closed",
+      "created_at": "2025-06-24T12:20:14Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4808",
+      "total_reviews": 4,
+      "total_review_comments": 3,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-06-24T12:23:11Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "43081j",
+          "reviewer_id": 5677153,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-06-24T12:24:44Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-24T13:09:37Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-06-24T17:16:41Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian",
+        "43081j",
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian",
+        "43081j",
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4809,
+      "pr_title": "test: migrate components tests to vitest spies",
+      "pr_author": "43081j",
+      "pr_state": "closed",
+      "created_at": "2025-06-24T16:48:03Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4809",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-25T13:08:28Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4810,
+      "pr_title": "test: migrate context tests to vitest spies",
+      "pr_author": "43081j",
+      "pr_state": "closed",
+      "created_at": "2025-06-24T16:51:38Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4810",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-25T13:09:22Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4811,
+      "pr_title": "test: migrate createContext test to use vitest spies",
+      "pr_author": "43081j",
+      "pr_state": "closed",
+      "created_at": "2025-06-24T16:55:22Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4811",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-25T13:09:03Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4812,
+      "pr_title": "test: migrate more browser tests to use vitest spies",
+      "pr_author": "43081j",
+      "pr_state": "closed",
+      "created_at": "2025-06-25T10:18:32Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4812",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-25T13:09:36Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4813,
+      "pr_title": "test: migrate events/refs tests to vitest spies",
+      "pr_author": "43081j",
+      "pr_state": "closed",
+      "created_at": "2025-06-25T10:33:57Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4813",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-25T13:10:58Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4814,
+      "pr_title": "perf: reduce some repeated logic",
+      "pr_author": "43081j",
+      "pr_state": "closed",
+      "created_at": "2025-06-25T12:26:54Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4814",
+      "total_reviews": 5,
+      "total_review_comments": 4,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-06-25T13:08:11Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "43081j",
+          "reviewer_id": 5677153,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-06-25T13:09:30Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-06-25T13:10:29Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "43081j",
+          "reviewer_id": 5677153,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-06-25T13:11:31Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "This is really clever, it basically flattens the loop",
+          "submitted_at": "2025-06-25T15:20:51Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "43081j",
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "43081j",
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4815,
+      "pr_title": "test: migrate lifecycle tests to use vitest spies",
+      "pr_author": "43081j",
+      "pr_state": "closed",
+      "created_at": "2025-06-26T09:25:13Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4815",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-26T09:49:32Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4816,
+      "pr_title": "test: migrate hooks tests to vitest spies",
+      "pr_author": "43081j",
+      "pr_state": "closed",
+      "created_at": "2025-06-26T10:42:45Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4816",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-26T11:11:49Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4817,
+      "pr_title": "test: migrate debug tests to vitest spies",
+      "pr_author": "43081j",
+      "pr_state": "closed",
+      "created_at": "2025-06-26T12:13:53Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4817",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-26T16:12:07Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4819,
+      "pr_title": "test: migrate compat tests to vitest spies",
+      "pr_author": "43081j",
+      "pr_state": "closed",
+      "created_at": "2025-06-27T14:45:05Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4819",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-27T14:58:21Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4820,
+      "pr_title": "chore: remove sinon",
+      "pr_author": "43081j",
+      "pr_state": "closed",
+      "created_at": "2025-06-27T15:15:57Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4820",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "AWESOME!",
+          "submitted_at": "2025-06-27T15:20:24Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4821,
+      "pr_title": "perf: reduce some repeated logic (#4814)",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-06-28T16:36:10Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4821",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "LGTM",
+          "submitted_at": "2025-06-28T16:38:23Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister"
+      ]
+    },
+    {
+      "pr_number": 4822,
+      "pr_title": "Fix empty children",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-06-28T16:52:52Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4822",
+      "total_reviews": 3,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-06-30T08:03:11Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-30T08:03:17Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-06-30T09:49:20Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister",
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister",
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4828,
+      "pr_title": "ci: Correct PR reporter filter for forks",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-07-02T08:07:04Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4828",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-02T08:09:57Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4829,
+      "pr_title": "Revert state settling and unsafe",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-07-06T08:55:49Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4829",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-06T09:10:40Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4830,
+      "pr_title": "fix: export helper functions from `preact/debug`",
+      "pr_author": "colinaaa",
+      "pr_state": "closed",
+      "created_at": "2025-07-07T14:11:12Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4830",
+      "total_reviews": 3,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "Seems reasonable to me",
+          "submitted_at": "2025-07-08T23:00:11Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "colinaaa",
+          "reviewer_id": 40660121,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-09T02:10:09Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-09T06:05:28Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "colinaaa",
+        "JoviDeCroock",
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "colinaaa",
+        "JoviDeCroock",
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4834,
+      "pr_title": "fix: Ensure 'compat/test-utils' exports match & are valid",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-07-08T22:46:50Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4834",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-08T23:31:20Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister"
+      ]
+    },
+    {
+      "pr_number": 4835,
+      "pr_title": "types: Add types for '/compat/server' & '/compat/scheduler'",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-07-08T23:20:07Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4835",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-09T00:16:21Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4836,
+      "pr_title": "React does not forward refs by default for class components",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-07-09T17:46:55Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4836",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "LGTM",
+          "submitted_at": "2025-07-09T17:47:59Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister"
+      ]
+    },
+    {
+      "pr_number": 4841,
+      "pr_title": "feat: add unstable batched updates to compat",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-07-12T02:54:43Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4841",
+      "total_reviews": 3,
+      "total_review_comments": 3,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-12T02:55:50Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-12T02:59:38Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-12T05:36:44Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock",
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock",
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4842,
+      "pr_title": "test: Add simple test for `unstable_batchedUpdate` to improve coverage",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-07-15T03:17:51Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4842",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-15T05:41:01Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4844,
+      "pr_title": "chore: Update 'replaceNode' deprecation comment to point at new shim",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-07-16T20:28:26Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4844",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-17T06:05:40Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4848,
+      "pr_title": "chore(deps): upgrade oxlint to 1.8.0, fix errors",
+      "pr_author": "camc314",
+      "pr_state": "closed",
+      "created_at": "2025-07-24T09:09:52Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4848",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-24T09:25:20Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4850,
+      "pr_title": "fix(debug): fix memory leak in VNode owner tracking",
+      "pr_author": "developit",
+      "pr_state": "closed",
+      "created_at": "2025-07-24T16:53:55Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4850",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "The linked signals issue can be reproduced in prod builds so unfortunately this won't be the cause. Good find anyhow though!",
+          "submitted_at": "2025-07-24T17:01:23Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-24T19:29:48Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock",
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock",
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4851,
+      "pr_title": "Support alternative contentDocument",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-07-24T19:23:40Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4851",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-24T19:32:03Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "LGTM",
+          "submitted_at": "2025-07-24T20:12:55Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister",
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister",
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4852,
+      "pr_title": "fix(types): correct eslint directive for no-unsafe-declaration-merging",
+      "pr_author": "camc314",
+      "pr_state": "closed",
+      "created_at": "2025-07-25T21:55:49Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4852",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-25T21:57:10Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4853,
+      "pr_title": "Provide solution to long standing memleak",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-07-26T09:43:03Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4853",
+      "total_reviews": 4,
+      "total_review_comments": 3,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-05T18:46:28Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-05T18:46:52Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-05T20:36:22Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-06T06:38:54Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian",
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian",
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4854,
+      "pr_title": "fix: under concurrency pressure,  oldVNode may be empty, and preact may crash. Fix for that scenario",
+      "pr_author": "joel-solymosi",
+      "pr_state": "closed",
+      "created_at": "2025-07-27T04:36:29Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4854",
+      "total_reviews": 10,
+      "total_review_comments": 10,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-27T06:03:39Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "joel-solymosi",
+          "reviewer_id": 15796953,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-27T15:49:11Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-27T16:00:31Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "joel-solymosi",
+          "reviewer_id": 15796953,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-27T17:43:52Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-27T17:46:57Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "joel-solymosi",
+          "reviewer_id": 15796953,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-27T18:19:50Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-27T18:22:44Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "joel-solymosi",
+          "reviewer_id": 15796953,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-27T18:37:45Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-27T18:43:08Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-27T18:49:39Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "joel-solymosi",
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "joel-solymosi",
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4855,
+      "pr_title": "Golf down suspense",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-07-27T17:58:12Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4855",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "Nice finds!",
+          "submitted_at": "2025-07-27T22:29:29Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4856,
+      "pr_title": "Ensure we rerender after a suspensefully hydrating boundary throws an…",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-07-27T19:21:53Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4856",
+      "total_reviews": 3,
+      "total_review_comments": 1,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-28T06:35:20Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "Great find!",
+          "submitted_at": "2025-07-28T06:53:25Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "LGTM",
+          "submitted_at": "2025-07-28T08:11:42Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister",
+        "rschristian",
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister",
+        "rschristian",
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4857,
+      "pr_title": "Ensure we properly re-render bailing errored children",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-07-28T06:34:57Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4857",
+      "total_reviews": 3,
+      "total_review_comments": 1,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-28T06:35:46Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-28T06:53:43Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "LGTM",
+          "submitted_at": "2025-07-28T08:12:02Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister",
+        "rschristian",
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister",
+        "rschristian",
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4858,
+      "pr_title": "Bump testing/transpilation/formatting deps",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-07-28T08:25:05Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4858",
+      "total_reviews": 4,
+      "total_review_comments": 4,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-28T08:27:43Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-28T08:28:37Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-28T08:30:21Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-28T08:32:04Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian",
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian",
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4859,
+      "pr_title": "10.27.0",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-07-28T08:38:39Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4859",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "I'm good either way, but with the new helper exports from `/debug`, do we want to make this 10.27.0? Quite niche in who will care about this being provided though.",
+          "submitted_at": "2025-07-28T09:28:56Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-28T09:48:22Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister",
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister",
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4860,
+      "pr_title": "chore: Backport refcallback type and debug helpers",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-07-28T08:50:24Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4860",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-28T09:06:34Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4861,
+      "pr_title": "Correct contributing docs",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-07-28T15:55:36Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4861",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "Good spot",
+          "submitted_at": "2025-07-28T19:11:29Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4863,
+      "pr_title": "fix(types) make React.SVGAttributes generic",
+      "pr_author": "shyguy1412",
+      "pr_state": "closed",
+      "created_at": "2025-07-30T15:38:55Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4863",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "Thanks! ~~I'll add it to my to-dos to check whether we can make the definition from core generic too.~~ Edit: oh, I might've misread that. Whoops \n\nJust FYI, `main` is for the upcoming v11 release, you may want to instead target `v10.x`?",
+          "submitted_at": "2025-07-30T21:41:10Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4864,
+      "pr_title": "fix(types) preact/compat missing React.Key",
+      "pr_author": "shyguy1412",
+      "pr_state": "closed",
+      "created_at": "2025-07-30T17:28:59Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4864",
+      "total_reviews": 3,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "Same thing re:v10 vs v11 but thanks!",
+          "submitted_at": "2025-07-30T21:58:08Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-30T22:32:56Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "shyguy1412",
+          "reviewer_id": 48560522,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-30T22:41:43Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian",
+        "shyguy1412"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian",
+        "shyguy1412"
+      ]
+    },
+    {
+      "pr_number": 4866,
+      "pr_title": "chore: Port compat type changes from v10.x",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-07-31T05:59:25Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4866",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-31T06:18:08Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4867,
+      "pr_title": "Add flags for component type",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-07-31T06:13:38Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4867",
+      "total_reviews": 4,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-31T09:29:39Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "LGTM",
+          "submitted_at": "2025-08-01T13:23:58Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-05T19:47:43Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-05T19:56:15Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister",
+        "rschristian",
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister",
+        "rschristian",
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4868,
+      "pr_title": "feat: add .type property referencing original component",
+      "pr_author": "upupming",
+      "pr_state": "closed",
+      "created_at": "2025-07-31T14:20:30Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4868",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "Cheers!\n\nFYI, the `main` branch here is the upcoming v11 release. Feel free to make a second PR against `v10.x`, which is where v10 work occurs.",
+          "submitted_at": "2025-07-31T14:24:22Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4869,
+      "pr_title": "feat: add .type property referencing original component",
+      "pr_author": "upupming",
+      "pr_state": "closed",
+      "created_at": "2025-07-31T14:52:55Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4869",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "LGTM, thanks!",
+          "submitted_at": "2025-07-31T15:52:30Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister"
+      ]
+    },
+    {
+      "pr_number": 4870,
+      "pr_title": "fix(compat): add .render property referencing original render function",
+      "pr_author": "upupming",
+      "pr_state": "closed",
+      "created_at": "2025-07-31T14:57:03Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4870",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "Thanks!",
+          "submitted_at": "2025-07-31T15:57:56Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister"
+      ]
+    },
+    {
+      "pr_number": 4875,
+      "pr_title": "feat(debug): add `captureOwnerStack`",
+      "pr_author": "colinaaa",
+      "pr_state": "closed",
+      "created_at": "2025-08-05T13:06:53Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4875",
+      "total_reviews": 4,
+      "total_review_comments": 3,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-05T17:36:23Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "colinaaa",
+          "reviewer_id": 40660121,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-06T05:22:55Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-06T05:27:50Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-06T05:28:08Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "colinaaa",
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "colinaaa",
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4876,
+      "pr_title": "refactor: Make HTMLAttribute type declarations consistent",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-08-05T19:02:47Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4876",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-08T08:58:42Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4877,
+      "pr_title": "Remove rerendercount",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-08-05T19:56:59Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4877",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-05T20:12:27Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4878,
+      "pr_title": "refactor: Move most interfaces out of the JSX namespace",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-08-05T23:39:19Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4878",
+      "total_reviews": 3,
+      "total_review_comments": 3,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-05T23:57:49Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-06T00:04:14Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-08T08:58:15Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock",
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock",
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4880,
+      "pr_title": "Ensure memoized components re-render after errors",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-08-08T15:17:31Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4880",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-08T17:31:12Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4881,
+      "pr_title": "Call tolowercase only when needed",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-08-08T15:37:43Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4881",
+      "total_reviews": 3,
+      "total_review_comments": 3,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-08T17:28:14Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-08T17:29:02Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-08T18:08:30Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock",
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock",
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4882,
+      "pr_title": "refactor: Avoid breaking change for ARIA element types",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-08-08T19:37:55Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4882",
+      "total_reviews": 2,
+      "total_review_comments": 1,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-08T19:40:07Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-09T02:13:53Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock",
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock",
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4884,
+      "pr_title": "fix: Types w/ module augmentation",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-08-10T01:18:31Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4884",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-10T05:13:37Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4885,
+      "pr_title": "Export IntrinsicHTMLElements interface",
+      "pr_author": "edoardocavazza",
+      "pr_state": "closed",
+      "created_at": "2025-08-14T08:54:25Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4885",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "I don't see much harm in it, even if it's rather niche & has some footguns for those that choose to use it (`HTMLDetailsAttributes`, for example, no longer aligns with the JSX type in your example above).\r\n\r\nWe probably wouldn't document an example like that so IMO it's fine.",
+          "submitted_at": "2025-08-14T19:49:33Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4886,
+      "pr_title": "docs: Update CONTRIBUTING.md",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-08-14T20:21:01Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4886",
+      "total_reviews": 2,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-14T20:24:24Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-16T07:32:26Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock",
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock",
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4888,
+      "pr_title": "Do not re-insert memoized vnodes that keep their relative order after swap",
+      "pr_author": "vasylenkoval",
+      "pr_state": "closed",
+      "created_at": "2025-08-16T01:08:24Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4888",
+      "total_reviews": 6,
+      "total_review_comments": 3,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "This is an awesome find, when I re-wrote the heuristics for skew based diffing I never checked the js-framework-benchmark and I even explicitly pointed out better swap performance 😅 \r\n\r\nThank you for the thorough research, this is a _really_ great find!\r\n\r\n>  Ideally it would be a separate code path but I wanted to get your feedback first. Let me know your thoughts!\r\n\r\nI agree with this generally, in Preact though we have a tendency to balance bytes and performance. Separating code paths often leads to relatively large byte size increases. We could prototype it and see what that balance is and I'm happy to discuss it but wanted to be clear about our philosophy.",
+          "submitted_at": "2025-08-16T06:39:11Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-16T06:40:46Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "What a great find! This is a fascinating PR and explanation how you found this. This is great!!",
+          "submitted_at": "2025-08-16T09:52:24Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "Just as an aside: the `main` branch here is our upcoming v11 release, `v10.x` is the current release line. This probably colored your results a bit as v11 has landed some other improvements too, but by all means, this looks to be a really solid improvement (and w/ a byte reduction no less).\r\n\r\nThis change could likely also be ported to v10 w/ similar (I'm guessing/hoping) improvements there; it should be more or less a direct copy/paste, I don't think these code paths have changed in much v11.\r\n\r\nLooks great though, and thanks again for the investigation!",
+          "submitted_at": "2025-08-16T16:24:54Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "vasylenkoval",
+          "reviewer_id": 28285782,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-16T22:56:53Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "vasylenkoval",
+          "reviewer_id": 28285782,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-16T23:10:18Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister",
+        "rschristian",
+        "vasylenkoval",
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister",
+        "rschristian",
+        "vasylenkoval",
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4890,
+      "pr_title": "Port #4888 to v10",
+      "pr_author": "vasylenkoval",
+      "pr_state": "closed",
+      "created_at": "2025-08-17T16:16:11Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4890",
+      "total_reviews": 3,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "vasylenkoval",
+          "reviewer_id": 28285782,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-17T16:16:29Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-17T17:16:27Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "Thanks! Sorry about the CI, evidently it's not quite configured properly on this branch.",
+          "submitted_at": "2025-08-17T17:17:23Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian",
+        "vasylenkoval"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian",
+        "vasylenkoval"
+      ]
+    },
+    {
+      "pr_number": 4891,
+      "pr_title": "ci: Fix benchmarks for v10.x",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-08-18T00:55:14Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4891",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-18T04:37:54Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister"
+      ]
+    },
+    {
+      "pr_number": 4892,
+      "pr_title": "10.27.1",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-08-18T16:30:37Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4892",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "LGTM",
+          "submitted_at": "2025-08-18T16:35:56Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister"
+      ]
+    },
+    {
+      "pr_number": 4893,
+      "pr_title": "v11.0.0-beta.0",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-08-19T18:21:53Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4893",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-19T18:22:49Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4894,
+      "pr_title": "Save bytes on hydration 2.0",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-08-20T15:21:17Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4894",
+      "total_reviews": 2,
+      "total_review_comments": 1,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "LGTM",
+          "submitted_at": "2025-08-21T11:47:45Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-22T18:33:19Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister",
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister",
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4896,
+      "pr_title": "Save bytes by inlining ref unmount checks",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-08-20T16:53:03Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4896",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "LGTM",
+          "submitted_at": "2025-08-21T11:48:54Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister"
+      ]
+    },
+    {
+      "pr_number": 4897,
+      "pr_title": "Golf down hooks impl",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-08-22T07:25:13Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4897",
+      "total_reviews": 3,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-22T07:25:28Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-22T07:25:40Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "Nice diff!",
+          "submitted_at": "2025-08-23T05:35:23Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian",
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian",
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4898,
+      "pr_title": "Check excess for preact-iso",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-08-23T02:23:39Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4898",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-23T05:35:51Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4900,
+      "pr_title": "ci: Fix PR reporter for non-main branch targets",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-08-24T04:10:06Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4900",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-28T17:54:22Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4901,
+      "pr_title": "Add TrustedHTML (from @types/trusted-types) to dangerouslySetInnerHTML",
+      "pr_author": "azekeprofit",
+      "pr_state": "closed",
+      "created_at": "2025-08-25T02:13:28Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4901",
+      "total_reviews": 9,
+      "total_review_comments": 9,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-25T02:16:09Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "azekeprofit",
+          "reviewer_id": 64343918,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-25T02:39:06Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "azekeprofit",
+          "reviewer_id": 64343918,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-25T02:43:36Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-25T02:44:20Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-25T02:45:30Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "azekeprofit",
+          "reviewer_id": 64343918,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-25T03:11:53Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-25T03:17:22Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "azekeprofit",
+          "reviewer_id": 64343918,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-25T04:18:11Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-25T04:28:22Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "azekeprofit",
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "azekeprofit",
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4904,
+      "pr_title": "refactor (v10): Mirror non-JSX types to the 'preact' namespace",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-08-27T01:14:55Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4904",
+      "total_reviews": 3,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-27T01:17:10Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-27T01:34:41Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-28T07:22:18Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock",
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock",
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4906,
+      "pr_title": "Address memory leak",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-08-27T17:46:34Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4906",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-27T18:05:23Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4907,
+      "pr_title": "Prevent frequently updated components from retaining memory",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-08-27T17:52:01Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4907",
+      "total_reviews": 2,
+      "total_review_comments": 1,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-27T17:53:50Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-27T18:05:43Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian",
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian",
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4910,
+      "pr_title": "Root leak",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-08-31T10:23:37Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4910",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-31T11:35:42Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister"
+      ]
+    },
+    {
+      "pr_number": 4911,
+      "pr_title": "ci: Kickstart benches again in v10.x w/ successful run",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-08-31T20:03:12Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4911",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-01T05:50:37Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4912,
+      "pr_title": "ci: Revert #4911, run benches on v10 again",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-09-01T19:21:23Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4912",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-02T06:10:16Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4915,
+      "pr_title": "test: add failing test for Context+memo bailout retention",
+      "pr_author": "NandanDevHub",
+      "pr_state": "closed",
+      "created_at": "2025-09-13T06:17:33Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4915",
+      "total_reviews": 1,
+      "total_review_comments": 1,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-13T06:21:47Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4917,
+      "pr_title": "10.27.2",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-09-13T07:26:46Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4917",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-13T07:35:24Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister"
+      ]
+    },
+    {
+      "pr_number": 4924,
+      "pr_title": "fix: Support XHTML phrasing content in MathML token elements",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-09-27T23:56:51Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4924",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "LGTM, nice fix!",
+          "submitted_at": "2025-09-28T09:21:43Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T14:43:20Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister",
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister",
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4925,
+      "pr_title": "test: Switch tests to use `.jsx` file extension",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-09-28T20:09:21Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4925",
+      "total_reviews": 4,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-28T20:12:45Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-28T22:35:08Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T07:06:21Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "marvinhagemeister",
+          "reviewer_id": 1062408,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T08:33:09Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "marvinhagemeister",
+        "JoviDeCroock",
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "marvinhagemeister",
+        "JoviDeCroock",
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4930,
+      "pr_title": "Updates dangerouslySetInnerHTML type so future TS will accept Trusted…",
+      "pr_author": "lukewarlow",
+      "pr_state": "closed",
+      "created_at": "2025-10-23T18:08:57Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4930",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "Thanks!\r\n\r\nJust to expound: `parseFromString` should take [A TrustedHTML or string instance defining HTML to be parsed.](https://developer.mozilla.org/en-US/docs/Web/API/DOMParser/parseFromString), though TS has yet to update `lib/dom.d.ts` to account for this. The method here should in theory be future proof though and collect the correct types for `.innerHTML` when/if TS makes them available.\r\n\r\nQuite crafty",
+          "submitted_at": "2025-10-23T18:41:03Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4937,
+      "pr_title": "Avoid lazy components without result going in throw loop",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-10-24T15:31:46Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4937",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-24T15:34:02Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4939,
+      "pr_title": "Avoid lazy components without result going in throw loop",
+      "pr_author": "JoviDeCroock",
+      "pr_state": "closed",
+      "created_at": "2025-10-24T18:05:41Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4939",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-24T22:00:25Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4940,
+      "pr_title": "fix(compat): add `commpat/server.browser` entry",
+      "pr_author": "marvinhagemeister",
+      "pr_state": "closed",
+      "created_at": "2025-10-26T10:39:31Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4940",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "Years have gone by and yet I'm still baffled by how awfully this is named\r\n\r\nCheers tho, might want to mirror this to `v10.x` too",
+          "submitted_at": "2025-10-26T10:44:47Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "This is going to v11, to backport raise a PR against v10.x",
+          "submitted_at": "2025-10-26T11:14:02Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock",
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock",
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4941,
+      "pr_title": "fix(compat): add `commpat/server.browser` entry",
+      "pr_author": "marvinhagemeister",
+      "pr_state": "closed",
+      "created_at": "2025-10-27T09:06:41Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4941",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-27T09:12:59Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4946,
+      "pr_title": "Adds `scrollsnapchange` and `scrollsnapchanging` event support",
+      "pr_author": "argyleink",
+      "pr_state": "closed",
+      "created_at": "2025-10-29T22:58:21Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4946",
+      "total_reviews": 6,
+      "total_review_comments": 5,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "DISMISSED",
+          "review_body": "Thanks!\n\n[The `main` branch is targetting v11](https://github.com/preactjs/preact/blob/main/CONTRIBUTING.md#important-branches), which is still in beta. If you're willing to mirror this to the `v10.x` branch, targetting the current v10 release line, we'd appreciate it, else one of us will do it when we can.",
+          "submitted_at": "2025-10-30T00:28:02Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-30T00:33:21Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "argyleink",
+          "reviewer_id": 1134620,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-30T15:00:12Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "argyleink",
+          "reviewer_id": 1134620,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-30T15:01:23Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-30T15:20:45Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "Hope you don't mind, I just went ahead and added the corrections to your branch as I realized TS hasn't yet shipped `SnapEvent` (or hasn't in our version, anyhow) and it'd require a bit of wrangling to set up. Not a lot of work, but equally, not something we'd expect for folks with 0 context of this repo.\n\nThanks again!",
+          "submitted_at": "2025-10-30T18:35:50Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "argyleink",
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "argyleink",
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4947,
+      "pr_title": "Adds snap events",
+      "pr_author": "argyleink",
+      "pr_state": "closed",
+      "created_at": "2025-10-30T15:06:44Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4947",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "Thanks!",
+          "submitted_at": "2025-10-30T18:47:33Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian"
+      ]
+    },
+    {
+      "pr_number": 4948,
+      "pr_title": "types: Fix scroll events",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-10-30T16:40:23Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4948",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-30T16:47:04Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4949,
+      "pr_title": "types: Fix scroll events v10.x",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-10-30T16:42:54Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4949",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-30T16:47:38Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4950,
+      "pr_title": "types: Missed jsx duplicates",
+      "pr_author": "rschristian",
+      "pr_state": "closed",
+      "created_at": "2025-10-30T18:03:26Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4950",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-30T18:06:53Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "JoviDeCroock"
+      ]
+    },
+    {
+      "pr_number": 4951,
+      "pr_title": "refactor(children): remove redundant assignment to childVNode",
+      "pr_author": "ali-garajian",
+      "pr_state": "closed",
+      "created_at": "2025-10-31T16:10:29Z",
+      "pr_url": "https://github.com/expressjs/express/pull/4951",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "JoviDeCroock",
+          "reviewer_id": 17125876,
+          "review_state": "APPROVED",
+          "review_body": "Great find! Looks like it saves 2 bytes, thank you for cleaning this up and contributing! If you want you can also backport this to v10.x which I intend to draft a release for this weekend",
+          "submitted_at": "2025-10-31T16:29:16Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "rschristian",
+          "reviewer_id": 33403762,
+          "review_state": "APPROVED",
+          "review_body": "Byte diff comes from the second commit, somehow the first has no effect? Wonder if terser is stripping that for us or if compression is really just a marvel\n\nGood catch tho!",
+          "submitted_at": "2025-10-31T16:32:27Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "rschristian",
+        "JoviDeCroock"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rschristian",
+        "JoviDeCroock"
+      ]
+    }
+  ]
+}

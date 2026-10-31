@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "cowboy",
+    "generation_timestamp": "2026-08-12T22:23:04.217829",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "cowboy",
+    "raw_response": "```json\n{\n  \"developer_name\": \"cowboy\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"jQuery Core\",\n    \"DOM manipulation\",\n    \"Event-driven programming\",\n    \"AJAX ($.get, $.post)\",\n    \"Legacy JavaScript patterns (pre-ES6)\",\n    \"Unit testing with QUnit\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES5/ES3)\"\n  ],\n  \"summary\": {\n    \"developer_name\": \"cowboy\",\n    \"experience_level\": \"Mid\",\n    \"summary\": \"cowboy is a **Mid-level JavaScript developer** with **specialized expertise in jQuery**, focusing on DOM manipulation, event handling, and AJAX. Their contributions demonstrate strong proficiency in **legacy JavaScript patterns** (pre-ES6) and **jQuery’s core functionality**, including event binding, selector logic, and AJAX request improvements. While their work is deeply rooted in jQuery’s ecosystem, there is **no evidence of modern JavaScript frameworks (React, Vue, Angular) or ES6+ features**. Their contributions primarily involve **bug fixes, minor refactors, and unit testing** (using QUnit), with a focus on improving code **DRYness** and **modularity** within jQuery’s legacy codebase. The developer shows **basic familiarity with asynchronous programming** (callback-based) and **API consumption** (jQuery’s `$.get`/`$.post`), but lacks experience with modern tooling, TypeScript, or backend development. Their skillset is well-suited for **maintaining or extending legacy jQuery-based projects** but would benefit from exposure to **modern JavaScript practices** (ES6+, TypeScript, testing frameworks like Jest) and **frontend frameworks** to advance beyond their current scope.\",\n    \"javascript_skill_matrix\": {\n      \"Framework/Library Expertise, frequency: 4\": [\n        \"jQuery, frequency: 4\",\n        \"QUnit, frequency: 1\"\n      ],\n      \"Asynchronous Programming, frequency: 2\": [\n        \"Callbacks, frequency: 2\"\n      ],\n      \"API Design & Consumption, frequency: 2\": [\n        \"RESTful APIs (jQuery $.get/$.post), frequency: 2\"\n      ],\n      \"Error Handling\": [],\n      \"Frontend Development Skills, frequency: 4\": [\n        \"DOM Manipulation, frequency: 4\",\n        \"Event-Driven Programming, frequency: 2\"\n      ],\n      \"Backend Development Skills\": [],\n      \"DevOps & Deployment\": [],\n      \"Advanced JavaScript Concepts, frequency: 1\": [\n        \"Event Delegation, frequency: 1\"\n      ],\n      \"Functional Programming\": [],\n      \"Data Structures & Algorithms\": [],\n      \"TypeScript\": [],\n      \"Progressive Web Apps (PWA)\": [],\n      \"Mobile Development with JavaScript\": [],\n      \"Web Performance Optimization\": [],\n      \"Event-Driven Architecture, frequency: 2\": [\n        \"Event Binding (jQuery), frequency: 2\"\n      ],\n      \"Dependency Management\": [],\n      \"Graphical Data Visualization\": []\n    }\n  }\n}\n```",
+    "parsing_error": "1 validation error for DeveloperProfile\njavascript_skill_matrix\n  Field required [type=missing, input_value={'developer_name': 'cowbo...d their current scope.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.9/v/missing"
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

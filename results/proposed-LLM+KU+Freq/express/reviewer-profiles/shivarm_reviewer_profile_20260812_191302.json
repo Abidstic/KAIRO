@@ -1,0 +1,53 @@
+{
+  "reviewer_name": "shivarm",
+  "generated_at": "20260812_191302",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "stats": {
+    "total_reviews": 9,
+    "total_comments": 6,
+    "total_prs": 5,
+    "repos": [
+      "express"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "shivarm",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Express.js (Node.js backend framework)",
+      "Dependency Management (npm/yarn)",
+      "CI/CD and Process Improvements"
+    ],
+    "programming_languages": [
+      "JavaScript (limited backend exposure)"
+    ],
+    "summary": "Based on the available GitHub review data, shivarm demonstrates **limited direct JavaScript expertise** with no evidence of code-level reviews or technical feedback on JavaScript logic. The reviews primarily focus on **dependency management, documentation updates, and CI/CD processes** within an Express.js context. While there is **indirect inference of familiarity with Express.js middleware** (e.g., `res.redirect`), no actual JavaScript code reviews or discussions of modern JS patterns, testing, or frontend frameworks are present. The reviewer appears more aligned with **process/dependency management** than deep technical JavaScript skills. No evidence of TypeScript, frontend frameworks, or advanced JavaScript concepts is visible in the provided dataset. The experience level is assessed as **Junior** due to the lack of technical depth in JavaScript-specific reviews.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 5": [
+        "Express.js, frequency: 5"
+      ],
+      "Backend Development Skills, frequency: 5": [
+        "Middleware, frequency: 5"
+      ],
+      "Dependency Management, frequency: 5": [
+        "npm/yarn, frequency: 5"
+      ],
+      "DevOps & Deployment, frequency: 3": [
+        "CI/CD Pipelines, frequency: 3"
+      ],
+      "API Design & Consumption": [],
+      "Error Handling": [],
+      "Frontend Development Skills": [],
+      "Asynchronous Programming": [],
+      "Advanced JavaScript Concepts": [],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Graphical Data Visualization": []
+    }
+  }
+}

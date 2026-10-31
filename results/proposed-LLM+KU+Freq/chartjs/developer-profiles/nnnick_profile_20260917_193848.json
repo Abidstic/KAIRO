@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "developer_name": "nnnick",
+    "generation_timestamp": "2026-09-17T19:32:25.569177",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 18,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "nnnick",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js (Canvas-based data visualization)",
+      "Modern JavaScript (ES6+ features)",
+      "DOM/Canvas manipulation",
+      "Event-driven programming",
+      "Build automation (Gulp)",
+      "Code quality & linting (JSHint/ESLint)",
+      "Version control & releases (Git, semantic versioning)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "nnnick is a mid-level JavaScript developer with specialized expertise in frontend data visualization, particularly through contributions to Chart.js. Their work demonstrates strong proficiency in modern JavaScript (ES6+), canvas-based rendering, event-driven programming, and build automation. With 18 PRs focused on improving Chart.js's core functionality—including fixes for rendering edge cases, tooltip behavior, and performance optimizations—they exhibit deep knowledge of DOM manipulation, animation frames, and modular code organization. While their contributions are frontend-focused, their experience with Gulp, semantic versioning, and CI/CD pipelines (Travis) also highlights practical development workflow skills. No evidence of backend JavaScript or TypeScript usage is observed, but their frontend specialization in charting libraries positions them as a valuable contributor to interactive data visualization projects.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 18": [
+        "Chart.js, frequency: 18",
+        "Gulp, frequency: 3"
+      ],
+      "Asynchronous Programming, frequency: 5": [
+        "requestAnimationFrame, frequency: 2",
+        "async/await, frequency: 1",
+        "Event Loop (implied), frequency: 2"
+      ],
+      "API Design & Consumption, frequency: 2": [
+        "Canvas API, frequency: 10",
+        "DOM Manipulation, frequency: 8"
+      ],
+      "Error Handling, frequency: 6": [
+        "Null/Undefined Handling, frequency: 4",
+        "Edge Case Fixes, frequency: 2"
+      ],
+      "Frontend Development Skills, frequency: 25": [
+        "DOM Manipulation, frequency: 15",
+        "Canvas Rendering, frequency: 10",
+        "Event-Driven UI, frequency: 5"
+      ],
+      "Backend Development Skills": [],
+      "DevOps & Deployment, frequency: 5": [
+        "CI/CD (Travis CI), frequency: 3",
+        "Semantic Versioning, frequency: 2"
+      ],
+      "Advanced JavaScript Concepts, frequency: 15": [
+        "ES6+ Features (Arrow Functions, Template Literals), frequency: 8",
+        "Closures, frequency: 3",
+        "Prototypes & Inheritance, frequency: 4"
+      ],
+      "Functional Programming, frequency: 3": [
+        "Pure Functions (Tooltip Templates), frequency: 2",
+        "Declarative Rendering, frequency: 1"
+      ],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization, frequency: 4": [
+        "Rendering Efficiency, frequency: 2",
+        "Animation Frame Optimization, frequency: 2"
+      ],
+      "Event-Driven Architecture, frequency: 8": [
+        "Event Listeners, frequency: 5",
+        "Animation Events, frequency: 3"
+      ],
+      "Dependency Management, frequency: 3": [
+        "npm/yarn (indirect), frequency: 3"
+      ],
+      "Graphical Data Visualization, frequency: 18": [
+        "Chart.js (Core), frequency: 18"
+      ]
+    }
+  },
+  "statistics": {
+    "total_prs": 18,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

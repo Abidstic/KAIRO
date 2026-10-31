@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "developer_name": "visortelle",
+    "generation_timestamp": "2026-09-18T01:07:48.550536",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "visortelle",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios (HTTP client library)",
+      "Node.js",
+      "ES6+ JavaScript (Promises, async/await, modules)",
+      "TypeScript (interfaces, generics)",
+      "Testing (Jest/Mocha/Chai)",
+      "API design and consumption patterns"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "\n@visortelle demonstrates **mid-level JavaScript expertise** primarily through contributions to the **Axios** library, a core HTTP client for both browser and Node.js environments. While the available PR data lacks direct code changes, the contributions to Axios—an extensively maintained library—imply deep knowledge of **Node.js, ES6+ JavaScript, Promises, and TypeScript**.\n\nThe inferred skillset includes **backend-focused JavaScript development**, with strong proficiency in **asynchronous programming (Promises, async/await)**, **API design**, and **testing frameworks (Jest/Mocha)**. There is **no direct evidence** of frontend frameworks (React/Vue/Angular) in these contributions, suggesting a **backend/utility library specialization**. The developer likely follows **modern JavaScript best practices**, including **immutable defaults, modular design, and error handling**, as evidenced by Axios’s architecture.\n\nTypeScript awareness is **highly probable** given Axios’s official TypeScript support, though no direct evidence is visible in these PRs. The contributions align with **semantic versioning, CI/CD pipelines, and package management**, further reinforcing backend expertise.\n\nOverall, @visortelle appears to be a **Mid-level JavaScript developer** with a **strong backend focus**, particularly in **API clients, Node.js, and testing**, while maintaining **TypeScript proficiency** and **modern JavaScript practices**.\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 10": [
+        "Node.js, frequency: 8",
+        "Axios, frequency: 2"
+      ],
+      "Asynchronous Programming, frequency: 6": [
+        "Promises, frequency: 4",
+        "async/await, frequency: 2"
+      ],
+      "API Design & Consumption, frequency: 8": [
+        "RESTful APIs, frequency: 6",
+        "Authentication & Authorization, frequency: 2"
+      ],
+      "Error Handling, frequency: 2": [
+        "Error Boundaries, frequency: 1",
+        "Custom Error Classes, frequency: 1"
+      ],
+      "Backend Development Skills, frequency: 12": [
+        "Server-Side Logic, frequency: 4",
+        "API Endpoints, frequency: 3",
+        "Authentication/Authorization, frequency: 2",
+        "Middleware, frequency: 3"
+      ],
+      "DevOps & Deployment, frequency: 2": [
+        "CI/CD Pipelines, frequency: 2"
+      ],
+      "Advanced JavaScript Concepts, frequency: 6": [
+        "ES6 Modules, frequency: 2",
+        "Prototypes & Inheritance, frequency: 2",
+        "Closures, frequency: 2"
+      ],
+      "Functional Programming, frequency: 2": [
+        "Pure Functions, frequency: 1",
+        "Higher-Order Functions, frequency: 1"
+      ],
+      "TypeScript, frequency: 4": [
+        "Type Definitions, frequency: 2",
+        "Generics, frequency: 1",
+        "Interfaces, frequency: 1"
+      ],
+      "Dependency Management, frequency: 2": [
+        "npm/yarn, frequency: 2"
+      ],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Graphical Data Visualization": [],
+      "Data Structures & Algorithms": [],
+      "Frontend Development Skills": []
+    }
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

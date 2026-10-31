@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "developer_name": "adityaanurag0219",
+    "generation_timestamp": "2026-09-18T00:58:12.832129",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "adityaanurag0219",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios (HTTP client)",
+      "JavaScript error handling",
+      "HTTP protocol and headers",
+      "JSON parsing and validation",
+      "Defensive programming"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "\nAditya Anurag demonstrates **Mid-level JavaScript expertise** with a strong focus on **Axios-based HTTP client debugging and error handling**. Their contributions primarily revolve around improving **error clarity** in HTTP requests/responses, particularly around **JSON parsing failures** and **header parsing** (e.g., `Content-Disposition`). While the PRs lack explicit evidence of frontend frameworks, the use of Axios suggests familiarity with **both frontend (likely React/Vue) and backend (Node.js/Express) contexts**.\n\nKey strengths include:\n- **Axios mastery**: Deep understanding of HTTP request/response flows, error propagation, and debugging.\n- **Error handling**: Expertise in making errors **user-friendly** and **debuggable** (e.g., enhancing `AxiosError` stack traces).\n- **HTTP protocol awareness**: Hands-on experience with **headers, encoding/decoding**, and API consumption patterns.\n\nWeaknesses:\n- **No TypeScript contributions** (though likely comfortable with JavaScript).\n- **Limited evidence of testing frameworks** (though error-focused debugging implies unit testing knowledge).\n- **No build tool or CI/CD involvement** (Axios is a standalone library with minimal build complexity).\n\nOverall, Aditya is a **specialist in HTTP client debugging** with a **procedural/imperative** coding style, excelling in **defensive programming** and **API error handling**. Their contributions align with **Mid-level JavaScript developers** who focus on **runtime behavior** over broader architecture or framework expertise.\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 4": [
+        "Axios, frequency: 4"
+      ],
+      "Asynchronous Programming, frequency: 0": [],
+      "API Design & Consumption, frequency: 4": [
+        "RESTful APIs, frequency: 4"
+      ],
+      "Error Handling, frequency: 4": [
+        "Custom Error Classes, frequency: 2",
+        "Error Boundaries (implied via AxiosError fixes), frequency: 2"
+      ],
+      "Frontend Development Skills, frequency: 0": [],
+      "Backend Development Skills, frequency: 2": [
+        "Middleware (implied via Axios in Node.js), frequency: 1",
+        "API Endpoints (implied via Axios usage), frequency: 1"
+      ],
+      "DevOps & Deployment, frequency: 0": [],
+      "Advanced JavaScript Concepts, frequency: 0": [],
+      "Functional Programming, frequency: 0": [],
+      "Data Structures & Algorithms, frequency: 0": [],
+      "TypeScript, frequency: 0": [],
+      "Progressive Web Apps (PWA), frequency: 0": [],
+      "Mobile Development with JavaScript, frequency: 0": [],
+      "Web Performance Optimization, frequency: 0": [],
+      "Event-Driven Architecture, frequency: 0": [],
+      "Dependency Management, frequency: 0": [],
+      "Graphical Data Visualization, frequency: 0": []
+    }
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

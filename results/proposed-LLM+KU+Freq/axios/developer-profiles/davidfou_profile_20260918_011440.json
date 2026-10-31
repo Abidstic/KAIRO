@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "developer_name": "davidfou",
+    "generation_timestamp": "2026-09-18T01:00:09.437797",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "davidfou",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios (HTTP client library)",
+      "JavaScript ES6+ (Promises, Arrow Functions, Modules)",
+      "URL Parameter Serialization & Encoding",
+      "Dependency Management",
+      "Testing Awareness (Jest-like environments)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (possible, but not confirmed)"
+    ],
+    "summary": "\nDavidfou demonstrates **Mid-level JavaScript expertise**, primarily evidenced through contributions to the **axios** library—a popular HTTP client for both browser and Node.js environments. Their work focuses on **modular improvements** in HTTP request handling, particularly **URL parameter serialization** and **third-party library integration**, showcasing a strong grasp of **functional programming patterns** (e.g., configurable serializers) and **modular design**.\n\nThe contributions reflect **clean, backward-compatible changes** with a focus on **user-centric improvements**, though the limited PR history (3 total) restricts deeper insight into broader JavaScript ecosystems. While no **frontend frameworks (React/Vue)** or **backend frameworks (Express/NestJS)** are explicitly visible, the developer’s familiarity with **async/await**, **promise-based APIs**, and **dependency versioning** (e.g., test suite failures) suggests proficiency in **modern JavaScript development**.\n\nTypeScript usage is **possible but unconfirmed**, as axios supports it natively. The developer’s contributions align with **API consumption patterns**, **error handling in HTTP clients**, and **dependency management**, but lack evidence in **testing implementation**, **performance optimization**, or **advanced architectures** (e.g., microservices, event-driven systems).\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 3": [
+        "Axios, frequency: 3"
+      ],
+      "Asynchronous Programming, frequency: 2": [
+        "Promises, frequency: 2"
+      ],
+      "API Design & Consumption, frequency: 3": [
+        "RESTful APIs, frequency: 3"
+      ],
+      "Error Handling": [],
+      "Frontend Development Skills": [],
+      "Backend Development Skills": [],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts, frequency: 2": [
+        "Module Systems, frequency: 1",
+        "Higher-Order Functions, frequency: 1"
+      ],
+      "Functional Programming, frequency: 2": [
+        "Configurable Serializers, frequency: 1",
+        "Pure Functions (implied), frequency: 1"
+      ],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Dependency Management, frequency: 2": [
+        "npm/yarn, frequency: 1",
+        "Dependency Versioning, frequency: 1"
+      ],
+      "Graphical Data Visualization": []
+    }
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

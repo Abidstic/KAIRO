@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "developer_name": "mdewilde",
+    "generation_timestamp": "2026-09-17T19:52:03.366206",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "mdewilde",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Chart.js (JavaScript library for data visualization)",
+      "ES6+ JavaScript (arrow functions, class syntax, Promise/async-await)",
+      "Documentation and technical writing",
+      "DOM manipulation and browser APIs",
+      "Animation systems (easing functions)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "\nBased on the GitHub PR contributions to Chart.js, mdewilde demonstrates **indirect JavaScript expertise** primarily through documentation improvements rather than direct code changes. Their contributions focus on **fixing typos, improving references, and correcting links** in the Chart.js documentation, indicating strong attention to detail and familiarity with the library's ecosystem.\n\nWhile no direct code contributions are visible, the context suggests exposure to **vanilla JavaScript (ES6+)** used in Chart.js, including **ES6 class syntax, arrow functions, and Promise-based patterns**. There is also **indirect evidence of DOM manipulation** (since Chart.js renders directly in the browser) and **animation systems** (e.g., easing functions).\n\nHowever, **no evidence of backend JavaScript (Node.js), TypeScript, testing frameworks, or build tools** is present in these contributions. The experience level is assessed as **Junior** due to the **lack of direct code contributions** and **limited scope of technical exposure** beyond documentation.\n\nOverall, mdewilde appears to be a **technically curious contributor** with **foundational JavaScript knowledge** and **strong documentation skills**, but their **practical coding experience remains unproven** in this dataset.\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 2": [
+        "Chart.js, frequency: 2"
+      ],
+      "Asynchronous Programming, frequency: 1": [
+        "Promise, frequency: 1"
+      ],
+      "API Design & Consumption": [],
+      "Error Handling": [],
+      "Frontend Development Skills, frequency: 3": [
+        "DOM Manipulation, frequency: 1",
+        "Animation Systems, frequency: 1",
+        "Browser APIs, frequency: 1"
+      ],
+      "Backend Development Skills": [],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts, frequency: 3": [
+        "ES6 Class Syntax, frequency: 1",
+        "Arrow Functions, frequency: 1",
+        "Destructuring, frequency: 1"
+      ],
+      "Functional Programming, frequency: 1": [
+        "Easing Functions (Indirect FP Exposure), frequency: 1"
+      ],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Dependency Management": [],
+      "Graphical Data Visualization, frequency: 1": [
+        "Chart.js (Data Visualization Library), frequency: 1"
+      ]
+    }
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

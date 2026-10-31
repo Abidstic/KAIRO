@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "developer_name": "SashaKoro",
+    "generation_timestamp": "2026-09-18T01:04:11.421139",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "SashaKoro",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios (HTTP client library)",
+      "Promise-based asynchronous programming",
+      "Interceptor patterns",
+      "Unit testing (Jest/Mocha)",
+      "CI/CD pipelines (GitHub Actions)",
+      "TypeScript (likely proficient)",
+      "Asynchronous request control (synchronous/async behavior)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred)"
+    ],
+    "summary": "\nSashaKoro demonstrates **Mid-level JavaScript expertise**, primarily evidenced through contributions to the **Axios** library—a widely used HTTP client for both frontend and backend applications. Their work focuses on **core library improvements**, particularly around **interceptors, request predictability, and asynchronous behavior control**, indicating deep familiarity with **Promise-based patterns, async/await, and middleware-like architectures**.\n\nKey strengths include:\n- **Axios internals**: Mastery of interceptors, request/response modification, and configurable request execution (synchronous/async options).\n- **Testing and CI**: Experience with **unit testing (Jest/Mocha)** and **CI/CD integration (GitHub Actions)**, ensuring robust library behavior.\n- **Asynchronous programming**: Strong command of **Promises, async/await, and event loop concepts**, critical for HTTP client libraries.\n- **TypeScript proficiency**: Likely familiarity with TypeScript (given Axios’s ecosystem), though not explicitly demonstrated in these PRs.\n- **Code quality**: Awareness of **documentation (JSDoc), backward compatibility, and predictable behavior**, essential for maintainable libraries.\n\nWhile contributions are **limited to Axios**, the skills are **highly transferable** to modern JavaScript applications, including **React/Vue/Angular** projects or **Node.js backend services**. The absence of frontend framework-specific changes (e.g., React components) suggests a **backend-leaning focus**, but the expertise applies broadly to **HTTP client patterns, API design, and asynchronous workflows**.\n\n**Experience Level Justification**:\n- **Mid-level**: Contributions to a **major open-source library** (Axios) with **core architectural changes** (interceptors, request control) and **testing/CI integration** indicate **intermediate-to-advanced** proficiency. However, the **limited scope (only 3 PRs)** and lack of frontend framework involvement prevent a **Senior/Lead** classification.\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 10": [
+        "Axios, frequency: 10",
+        "Jest, frequency: 2"
+      ],
+      "Asynchronous Programming, frequency: 8": [
+        "Promises, frequency: 6",
+        "async/await, frequency: 2"
+      ],
+      "API Design & Consumption, frequency: 6": [
+        "RESTful APIs, frequency: 6"
+      ],
+      "Error Handling": [],
+      "Frontend Development Skills": [],
+      "Backend Development Skills": [],
+      "DevOps & Deployment, frequency: 3": [
+        "CI/CD Pipelines, frequency: 3"
+      ],
+      "Advanced JavaScript Concepts, frequency: 4": [
+        "Module Systems, frequency: 2",
+        "Closures, frequency: 1",
+        "Event Loop, frequency: 1"
+      ],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript, frequency: 2": [
+        "Type Definitions, frequency: 1",
+        "Generics, frequency: 1"
+      ],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Dependency Management, frequency: 2": [
+        "npm/yarn, frequency: 2"
+      ],
+      "Graphical Data Visualization": []
+    }
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

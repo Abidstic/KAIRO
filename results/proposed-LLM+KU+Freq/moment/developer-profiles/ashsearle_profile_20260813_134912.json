@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "developer_name": "ashsearle",
+    "generation_timestamp": "2026-08-13T13:41:08.290135",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 25,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "ashsearle",
+    "experience_level": "Mid/Senior",
+    "primary_skills": [
+      "TypeScript",
+      "ES6+ JavaScript",
+      "Moment.js (Date-Time Library)",
+      "Functional Programming Patterns",
+      "Immutable Operations",
+      "API Design & Method Chaining",
+      "Error Handling & Edge-Case Testing",
+      "Code Quality & Backward Compatibility"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "\nashsearle demonstrates **Mid/Senior-level JavaScript expertise** with a strong focus on **TypeScript, ES6+ JavaScript, and date-time manipulation libraries**. Their contributions to **Moment.js** reveal deep knowledge of **immutable programming, functional patterns, and robust API design**, particularly in handling edge cases (e.g., floating-point errors, invalid dates). While primarily frontend-oriented (via Moment.js usage), their **TypeScript proficiency** suggests exposure to backend ecosystems. The developer excels in **code quality, backward compatibility, and localization**, with a clear understanding of **modern JavaScript paradigms** (e.g., arrow functions, destructuring, modules). No evidence of React/Vue/Angular or async-heavy frameworks, but their contributions imply a **strong foundation in core JavaScript and TypeScript best practices**.\n\nKey strengths:\n- **TypeScript**: Strong evidence of type safety improvements (e.g., fixing `min/max` signatures).\n- **ES6+**: Heavy usage of modern JS features (arrow functions, destructuring, optional params).\n- **Testing & Edge Cases**: Focus on regression testing (floating-point errors, IE8 compatibility).\n- **API Design**: Immutable methods, method chaining, and defensive programming.\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 3": [
+        "Moment.js, frequency: 3"
+      ],
+      "Asynchronous Programming, frequency: 0": [],
+      "API Design & Consumption, frequency: 3": [
+        "RESTful APIs, frequency: 1",
+        "Method Chaining, frequency: 2"
+      ],
+      "Error Handling, frequency: 2": [
+        "Floating-Point Error Handling, frequency: 1",
+        "Invalid Date Handling, frequency: 1"
+      ],
+      "Frontend Development Skills, frequency: 0": [],
+      "Backend Development Skills, frequency: 0": [],
+      "DevOps & Deployment, frequency: 0": [],
+      "Advanced JavaScript Concepts, frequency: 5": [
+        "Arrow Functions, frequency: 1",
+        "Destructuring & Spread Operator, frequency: 1",
+        "Modules (ES6 import/export), frequency: 1",
+        "Prototypes & Inheritance, frequency: 1",
+        "Optional Parameters, frequency: 1"
+      ],
+      "Functional Programming, frequency: 2": [
+        "Immutable Operations, frequency: 1",
+        "Pure Functions, frequency: 1"
+      ],
+      "Data Structures & Algorithms, frequency: 0": [],
+      "TypeScript, frequency: 3": [
+        "Type Definitions, frequency: 1",
+        "Type Safety Improvements, frequency: 1",
+        "TypeScript Interfaces, frequency: 1"
+      ],
+      "Progressive Web Apps (PWA), frequency: 0": [],
+      "Mobile Development with JavaScript, frequency: 0": [],
+      "Web Performance Optimization, frequency: 0": [],
+      "Event-Driven Architecture, frequency: 0": [],
+      "Dependency Management, frequency: 0": [],
+      "Graphical Data Visualization, frequency: 0": []
+    }
+  },
+  "statistics": {
+    "total_prs": 25,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

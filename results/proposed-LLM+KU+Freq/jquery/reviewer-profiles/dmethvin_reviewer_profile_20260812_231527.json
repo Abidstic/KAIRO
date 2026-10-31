@@ -1,0 +1,89 @@
+{
+  "reviewer_name": "dmethvin",
+  "generated_at": "20260812_231527",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "stats": {
+    "total_reviews": 38,
+    "total_comments": 10,
+    "total_prs": 34,
+    "repos": [
+      "jquery"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "dmethvin",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "jQuery Core Internals",
+      "Legacy JavaScript Maintenance",
+      "Event-Driven Architecture",
+      "DOM Manipulation & Attributes",
+      "Ajax & JSONP Handling",
+      "Memory Management & Optimization",
+      "Build System Integration (Rollup, ESLint)",
+      "IE-Specific Workarounds",
+      "Backward Compatibility Strategies"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "Node.js (for testing)"
+    ],
+    "summary": "dmethvin is a highly experienced Senior JavaScript reviewer specializing in jQuery's core internals and legacy JavaScript maintenance. Their expertise is deeply rooted in jQuery's event system, DOM manipulation, Ajax handling, and memory management, with particular focus on maintaining backward compatibility and optimizing for older browsers like IE. The reviewer demonstrates strong skills in build system integration (Rollup, ESLint) and testing strategies, though their knowledge is confined to jQuery's legacy codebase rather than modern frameworks or TypeScript. Their reviews consistently address complex legacy code challenges, making them a valuable resource for maintaining and improving jQuery's core functionality while ensuring robust performance and compatibility across different environments.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 38": [
+        "jQuery, frequency: 38"
+      ],
+      "Asynchronous Programming, frequency: 10": [
+        "Event Loop, frequency: 3",
+        "Callbacks, frequency: 2",
+        "Passive Event Listeners, frequency: 2",
+        "Ajax (async handling), frequency: 3"
+      ],
+      "API Design & Consumption, frequency: 10": [
+        "RESTful APIs (jQuery.ajax()), frequency: 8",
+        "JSONP, frequency: 2"
+      ],
+      "Error Handling": [],
+      "Frontend Development Skills, frequency: 38": [
+        "DOM Manipulation, frequency: 15",
+        "Attributes & Data Handling (val(), css(), data()), frequency: 8",
+        "Event Delegation, frequency: 5",
+        "Memory Management (jQuery.cache), frequency: 5",
+        "IE-Specific DOM Fixes, frequency: 5"
+      ],
+      "Backend Development Skills": [],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts, frequency: 15": [
+        "Closures, frequency: 3",
+        "Prototypes & Inheritance, frequency: 5",
+        "Module Systems (ES Modules), frequency: 3",
+        "Immutability Patterns, frequency: 2",
+        "Memory Leak Prevention, frequency: 2"
+      ],
+      "Functional Programming, frequency: 5": [
+        "Pure Functions, frequency: 2",
+        "Immutability, frequency: 3"
+      ],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization, frequency: 5": [
+        "String Concatenation Optimization, frequency: 2",
+        "Build Fragment Optimization, frequency: 2",
+        "Memory Leak Prevention, frequency: 1"
+      ],
+      "Event-Driven Architecture, frequency: 15": [
+        "Event Delegation, frequency: 5",
+        "Passive Event Listeners, frequency: 5",
+        "Event Teardown, frequency: 3",
+        "Global Event System (jQuery.event.global), frequency: 2"
+      ],
+      "Dependency Management, frequency: 5": [
+        "npm/yarn (for testing), frequency: 3",
+        "ESLint Configuration, frequency: 2"
+      ],
+      "Graphical Data Visualization": []
+    }
+  }
+}

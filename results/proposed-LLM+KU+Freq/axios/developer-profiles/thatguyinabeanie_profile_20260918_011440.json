@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "developer_name": "thatguyinabeanie",
+    "generation_timestamp": "2026-09-18T01:10:35.190720",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "thatguyinabeanie",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios (HTTP client library)",
+      "TypeScript (generics, interfaces)",
+      "Promise-based asynchronous programming",
+      "API security and configuration",
+      "Versioned API maintenance"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "\nThe developer @thatguyinabeanie demonstrates **mid-level expertise** in JavaScript, with a **strong focus on Axios (HTTP client library)** and **TypeScript**. Their contributions are primarily centered around **core utility development**, particularly in **API client patterns, security fixes, and configuration enhancements**. The developer shows **deep proficiency in TypeScript generics and interfaces**, as evidenced by changes to `AxiosRequestConfig<D=any>`. While there is **no visible frontend framework experience** (React, Vue, etc.), their work on Axios—used in both frontend and backend—indicates **solid backend/utility JavaScript skills**, including **Promise-based async patterns, security-conscious development, and versioned API maintenance**.\n\nThe developer follows **modern JavaScript best practices**, such as **immutable updates, type safety, and minimal focused changes**, but lacks evidence of **frontend-specific skills, testing frameworks, or build tool exposure** (e.g., Webpack, Babel). Their contributions are **security-focused and maintainable**, with a clear understanding of **HTTP client libraries and API design**.\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 3": [
+        "Axios, frequency: 3"
+      ],
+      "Asynchronous Programming, frequency: 3": [
+        "Promises, frequency: 3"
+      ],
+      "API Design & Consumption, frequency: 3": [
+        "RESTful APIs, frequency: 3"
+      ],
+      "Error Handling": [],
+      "Frontend Development Skills": [],
+      "Backend Development Skills, frequency: 3": [
+        "API Endpoints, frequency: 3"
+      ],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts, frequency: 2": [
+        "Module Systems, frequency: 1",
+        "Prototypes & Inheritance, frequency: 1"
+      ],
+      "Functional Programming, frequency: 2": [
+        "Configurable API clients, frequency: 2"
+      ],
+      "Data Structures & Algorithms": [],
+      "TypeScript, frequency: 3": [
+        "Generics, frequency: 1",
+        "Interface extensions, frequency: 1",
+        "Type-safe configurations, frequency: 1"
+      ],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Dependency Management": [],
+      "Graphical Data Visualization": []
+    }
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

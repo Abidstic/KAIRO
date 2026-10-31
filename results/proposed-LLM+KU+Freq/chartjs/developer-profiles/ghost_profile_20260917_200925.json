@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "developer_name": "ghost",
+    "generation_timestamp": "2026-09-17T20:04:35.206072",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "ghost",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Vanilla JavaScript (ES6+)",
+      "Canvas API",
+      "DOM Manipulation",
+      "Modular JavaScript (ES Modules/CommonJS)",
+      "Build Tool Awareness (Webpack/Babel)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "\nThe developer 'ghost' demonstrates **limited direct evidence** of JavaScript skills based on the provided GitHub PR data for Chart.js, which contains **no file changes or meaningful code contributions**. However, their involvement with Chart.js—a pure JavaScript library for browser-based chart rendering—allows for **indirect inference** of their technical profile.\n\nKey insights suggest familiarity with **vanilla JavaScript (ES6+)** and **Canvas/DOM APIs**, as these are core to Chart.js's functionality. While no explicit contributions to testing, build tools, or frameworks are visible in the PRs, their exposure to Chart.js's ecosystem implies potential experience with **Webpack/Babel** (for bundling) and **Jest** (for unit testing). The lack of TypeScript, React/Vue, or backend frameworks (Node.js, Express) in these PRs further narrows their expertise to **frontend-focused vanilla JS**.\n\nGiven the **absence of code changes** and **minimal PR metadata**, the developer's experience level is assessed as **Junior**, with primary skills centered around **core JavaScript and browser APIs**. No evidence supports advanced topics like functional programming, data structures, or DevOps practices.\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 2": [
+        "Jest, frequency: 1"
+      ],
+      "Asynchronous Programming, frequency: 0": [],
+      "API Design & Consumption, frequency: 2": [
+        "Canvas API, frequency: 1",
+        "DOM API, frequency: 1"
+      ],
+      "Error Handling, frequency: 0": [],
+      "Frontend Development Skills, frequency: 4": [
+        "DOM Manipulation, frequency: 2",
+        "Canvas API, frequency: 2"
+      ],
+      "Backend Development Skills, frequency: 0": [],
+      "DevOps & Deployment, frequency: 0": [],
+      "Advanced JavaScript Concepts, frequency: 0": [],
+      "Functional Programming, frequency: 0": [],
+      "Data Structures & Algorithms, frequency: 0": [],
+      "TypeScript, frequency: 0": [],
+      "Progressive Web Apps (PWA), frequency: 0": [],
+      "Mobile Development with JavaScript, frequency: 0": [],
+      "Web Performance Optimization, frequency: 0": [],
+      "Event-Driven Architecture, frequency: 0": [],
+      "Dependency Management, frequency: 0": [],
+      "Graphical Data Visualization, frequency: 2": [
+        "Chart.js (Canvas-based), frequency: 2"
+      ]
+    }
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

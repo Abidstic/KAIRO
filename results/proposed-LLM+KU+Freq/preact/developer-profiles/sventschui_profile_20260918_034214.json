@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "developer_name": "sventschui",
+    "generation_timestamp": "2026-09-18T03:31:59.155081",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 29,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "sventschui",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "React/Preact ecosystem",
+      "Suspense and lazy loading",
+      "Component lifecycle management",
+      "State management with createContext",
+      "Performance optimization (byte-level)",
+      "Async rendering and error handling",
+      "Test-driven development",
+      "Virtual DOM reconciliation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (implied proficiency)"
+    ],
+    "summary": "sventschui is a highly skilled **Senior JavaScript developer** with deep expertise in the **React/Preact ecosystem**, particularly focusing on **async rendering patterns (Suspense), component lifecycle management, and performance optimization**. Their contributions demonstrate a strong command of **modern JavaScript (ES6+), React-like patterns, and test-driven development**. The developer specializes in **frontend optimization**, including **byte-level code golfing, compatibility builds, and efficient rendering strategies**. While contributions are **purely frontend-focused**, the clean codebase suggests **strong TypeScript discipline** (even if not explicitly used in these PRs). Their work in **Suspense-based async rendering** and **memoization** indicates advanced knowledge of **React internals** and **performance-critical UI patterns**.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 29": [
+        "React, frequency: 29",
+        "Preact, frequency: 29",
+        "Suspense (React/Preact), frequency: 10",
+        "createContext, frequency: 3",
+        "memo, frequency: 2",
+        "Fragment, frequency: 2",
+        "setState, frequency: 3",
+        "lazy, frequency: 2",
+        "Jest (implied), frequency: 2"
+      ],
+      "Asynchronous Programming, frequency: 15": [
+        "Suspense (async rendering), frequency: 10",
+        "Promise-based error handling, frequency: 3",
+        "Async state updates, frequency: 2"
+      ],
+      "API Design & Consumption": [],
+      "Error Handling, frequency: 5": [
+        "Suspense error boundaries, frequency: 3",
+        "Async error handling, frequency: 2"
+      ],
+      "Frontend Development Skills, frequency: 29": [
+        "Virtual DOM reconciliation, frequency: 5",
+        "Component lifecycle management, frequency: 4",
+        "State management (createContext), frequency: 3",
+        "DOM manipulation (indirect), frequency: 2",
+        "Code splitting (lazy), frequency: 2",
+        "Performance optimization (byte-level), frequency: 10",
+        "Test-driven debugging, frequency: 2"
+      ],
+      "Backend Development Skills": [],
+      "DevOps & Deployment, frequency: 2": [
+        "CI/CD (Coveralls), frequency: 2"
+      ],
+      "Advanced JavaScript Concepts, frequency: 12": [
+        "Closures (implied), frequency: 2",
+        "Module systems (import/export), frequency: 3",
+        "Optional chaining (implied), frequency: 2",
+        "Spread/rest operator, frequency: 2",
+        "Arrow functions, frequency: 2",
+        "Destructuring, frequency: 2"
+      ],
+      "Functional Programming, frequency: 3": [
+        "Pure functions (implied), frequency: 2",
+        "Immutability (React patterns), frequency: 1"
+      ],
+      "Data Structures & Algorithms": [],
+      "TypeScript, frequency: 3": [
+        "Type-safe this handling, frequency: 1",
+        "Clean code discipline (implied), frequency: 2"
+      ],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization, frequency: 15": [
+        "Byte-level optimization (code golfing), frequency: 10",
+        "Compatibility builds, frequency: 3",
+        "Efficient rendering (Suspense), frequency: 2"
+      ],
+      "Event-Driven Architecture": [],
+      "Dependency Management": [],
+      "Graphical Data Visualization": []
+    }
+  },
+  "statistics": {
+    "total_prs": 29,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "developer_name": "wenz",
+    "generation_timestamp": "2026-08-12T22:20:43.573968",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "wenz",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery (Ajax/HTTP request handling)",
+      "Legacy JavaScript (pre-ES6)",
+      "Callback-based asynchronous programming",
+      "URL construction and query string manipulation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5 and earlier)"
+    ],
+    "summary": "wenz is a JavaScript developer with specialized expertise in jQuery, particularly its Ajax/HTTP request handling system. Their contributions focus on legacy JavaScript (pre-ES6) and procedural/object-oriented patterns, with deep knowledge of callback-based asynchronous programming. The developer demonstrates proficiency in fixing URL construction issues in jQuery's `$.ajax()` method when `cache: false` is set, indicating strong understanding of HTTP request headers and query string manipulation. While their contributions are limited to frontend development (client-side HTTP requests), there is no evidence of modern JavaScript frameworks, TypeScript, or backend development experience. Their work aligns with legacy development practices from the 2010s, lacking exposure to contemporary tooling, testing frameworks, or ES6+ features. The experience level is assessed as Mid due to their focused specialization in a specific library area and demonstrated ability to identify and fix complex issues in jQuery's core functionality.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 1": [
+        "jQuery, frequency: 1"
+      ],
+      "Asynchronous Programming, frequency: 1": [
+        "Callbacks, frequency: 1"
+      ],
+      "API Design & Consumption, frequency: 1": [
+        "RESTful APIs, frequency: 1"
+      ],
+      "Error Handling": [],
+      "Frontend Development Skills, frequency: 1": [
+        "DOM Manipulation, frequency: 1"
+      ],
+      "Backend Development Skills": [],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts, frequency: 1": [
+        "Prototypes & Inheritance, frequency: 1"
+      ],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Dependency Management": [],
+      "Graphical Data Visualization": []
+    }
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

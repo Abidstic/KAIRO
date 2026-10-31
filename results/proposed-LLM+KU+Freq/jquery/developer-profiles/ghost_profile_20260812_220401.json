@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "developer_name": "ghost",
+    "generation_timestamp": "2026-08-12T21:55:59.582234",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 26,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "ghost",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery internals and DOM manipulation",
+      "Cross-browser compatibility (IE9/10)",
+      "Legacy JavaScript (ES5) patterns",
+      "AJAX/JSONP error handling",
+      "Performance optimization for DOM operations"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)"
+    ],
+    "summary": "The developer 'ghost' demonstrates **mid-level expertise** primarily focused on **legacy jQuery internals**, with deep knowledge of **DOM manipulation, cross-browser compatibility (especially IE9/10), and AJAX/JSONP error handling**. Their contributions are **limited to frontend JavaScript (ES5)** and show **no evidence of modern JavaScript (ES6+, TypeScript, or frameworks like React/Vue)**. The developer excels in **bug fixes for memory leaks, CSS property handling, and performance optimizations** but lacks exposure to **modern frontend/backend practices** or **testing frameworks**. Their work is **highly specialized in jQuery’s legacy ecosystem**, making them a **jQuery expert** rather than a generalist JavaScript developer.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 26": [
+        "jQuery, frequency: 26"
+      ],
+      "Asynchronous Programming, frequency: 6": [
+        "Callbacks, frequency: 4",
+        "AJAX (jQuery $.ajax), frequency: 2"
+      ],
+      "API Design & Consumption, frequency: 4": [
+        "AJAX (jQuery $.ajax), frequency: 3",
+        "JSONP, frequency: 1"
+      ],
+      "Error Handling, frequency: 8": [
+        "JSONP error handling, frequency: 2",
+        "Memory leak prevention, frequency: 3",
+        "Event delegation fixes, frequency: 3"
+      ],
+      "Frontend Development Skills, frequency: 26": [
+        "DOM manipulation (jQuery), frequency: 18",
+        "Event handling (jQuery), frequency: 6",
+        "CSS property handling (getComputedStyle), frequency: 2"
+      ],
+      "Backend Development Skills": [],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts, frequency: 12": [
+        "Prototypes & Inheritance (jQuery object model), frequency: 5",
+        "Module Systems (legacy jQuery build process), frequency: 3",
+        "Closures (callback-based async), frequency: 4"
+      ],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization, frequency: 4": [
+        "DOM rendering performance, frequency: 2",
+        "Speed test fixes, frequency: 2"
+      ],
+      "Event-Driven Architecture, frequency: 6": [
+        "Event delegation (jQuery), frequency: 4",
+        "Event propagation fixes, frequency: 2"
+      ],
+      "Dependency Management": [],
+      "Graphical Data Visualization": []
+    }
+  },
+  "statistics": {
+    "total_prs": 26,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

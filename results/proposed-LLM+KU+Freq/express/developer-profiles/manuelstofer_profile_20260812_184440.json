@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "developer_name": "manuelstofer",
+    "generation_timestamp": "2026-08-12T18:37:57.349881",
+    "llm_provider": "OpenRouter (Qwen 2.5)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "manuelstofer",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Express.js",
+      "Node.js backend development",
+      "Asynchronous programming (callback-based)",
+      "Testing (Node.js unit/integration)",
+      "Middleware development"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "Manuel Stofer demonstrates strong **mid-level expertise** in **Node.js backend development**, particularly with **Express.js internals**. His contributions focus on **asynchronous programming patterns**, **callback-based error handling**, and **test-driven development** for Express middleware. While his contributions are **backend-only**, they reveal deep understanding of **HTTP request lifecycle**, **file streaming**, and **robust error handling** in aborted requests. The work shows proficiency in **modular code practices** and **test coverage** but lacks evidence of modern async/await, TypeScript, or frontend frameworks. His contributions align with **cleanup and refactoring efforts**, indicating attention to **code maintainability** and **backward compatibility** across Express versions.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 6": [
+        "Express.js, frequency: 5",
+        "Jest, frequency: 1"
+      ],
+      "Asynchronous Programming, frequency: 4": [
+        "Callbacks, frequency: 3",
+        "Event Loop (Node.js streams), frequency: 1"
+      ],
+      "API Design & Consumption, frequency: 1": [
+        "Middleware, frequency: 1"
+      ],
+      "Error Handling, frequency: 2": [
+        "Callback-based error handling, frequency: 1",
+        "Aborted request handling, frequency: 1"
+      ],
+      "Backend Development Skills, frequency: 6": [
+        "Middleware, frequency: 2",
+        "API Endpoints (file-serving), frequency: 2",
+        "Authentication/Authorization (implicit in middleware), frequency: 2"
+      ],
+      "Dependency Management, frequency: 1": [
+        "npm/yarn, frequency: 1"
+      ],
+      "Advanced JavaScript Concepts, frequency: 1": [
+        "Module Systems (Express internals), frequency: 1"
+      ],
+      "Event-Driven Architecture, frequency: 1": [
+        "Event Emitters (Node.js streams), frequency: 1"
+      ],
+      "Testing Libraries": [],
+      "Frontend Development Skills": [],
+      "DevOps & Deployment": [],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Graphical Data Visualization": []
+    }
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

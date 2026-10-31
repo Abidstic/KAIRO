@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "skfd",
+    "generation_timestamp": "2026-08-13T13:45:32.153367",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "skfd",
+    "raw_response": "```json\n{\n  \"developer_name\": \"skfd\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Moment.js (legacy date library)\",\n    \"Grunt.js (build automation)\",\n    \"Locale-based modularization\",\n    \"JavaScript error handling & debugging\",\n    \"Test case development & bug reproduction\",\n    \"Minification & build optimization\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES5/ES6)\"\n  ],\n  \"summary\": {\n    \"developer_name\": \"skfd\",\n    \"experience_level\": \"Mid\",\n    \"summary\": \"skfd is a **Mid-level JavaScript developer** with specialized expertise in **Moment.js**, a legacy date manipulation library. Their contributions focus on **locale modularization, error handling, and build optimization**, demonstrating strong skills in **JavaScript testing, debugging, and legacy code maintenance**. While their experience is primarily centered around **Moment.js’s core functionality and Grunt.js-based builds**, they show proficiency in **defensive programming, configuration management, and minification techniques**. The developer’s work highlights **deep knowledge of JavaScript’s modularity patterns** (e.g., parent-child locale inheritance) and **attention to performance** (e.g., removing comments in minified builds). However, their contributions do not reflect exposure to **modern JavaScript frameworks, TypeScript, or asynchronous programming paradigms**, indicating a **legacy-focused skill set**. Their ability to **reproduce bugs, write test cases, and improve build workflows** suggests **Mid-level experience** with a niche specialization in **date libraries and build automation**.\",\n    \"javascript_skill_matrix\": {\n      \"Framework/Library Expertise, frequency: 7\": [\n        \"Moment.js, frequency: 7\",\n        \"Grunt.js, frequency: 3\"\n      ],\n      \"Error Handling, frequency: 3\": [\n        \"Defensive programming, frequency: 2\",\n        \"Bug reproduction & test cases, frequency: 1\"\n      ],\n      \"Frontend Development Skills, frequency: 3\": [\n        \"DOM manipulation (indirect via Moment.js), frequency: 1\",\n        \"Minification & optimization, frequency: 2\"\n      ],\n      \"Dependency Management, frequency: 1\": [\n        \"npm/yarn (indirect via Moment.js), frequency: 1\"\n      ],\n      \"Web Performance Optimization, frequency: 2\": [\n        \"Minification (removing comments), frequency: 2\"\n      ],\n      \"Advanced JavaScript Concepts, frequency: 2\": [\n        \"Modularity & parent-child inheritance, frequency: 2\"\n      ],\n      \"API Design & Consumption\": [],\n      \"Asynchronous Programming\": [],\n      \"Backend Development Skills\": [],\n      \"DevOps & Deployment\": [],\n      \"Functional Programming\": [],\n      \"Data Structures & Algorithms\": [],\n      \"TypeScript\": [],\n      \"Progressive Web Apps (PWA)\": [],\n      \"Mobile Development with JavaScript\": [],\n      \"Event-Driven Architecture\": [],\n      \"Graphical Data Visualization\": []\n    }\n  }\n}\n```",
+    "parsing_error": "1 validation error for DeveloperProfile\njavascript_skill_matrix\n  Field required [type=missing, input_value={'developer_name': 'skfd'...nd build automation**.'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.9/v/missing"
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

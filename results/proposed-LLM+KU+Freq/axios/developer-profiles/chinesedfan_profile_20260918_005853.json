@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "developer_name": "chinesedfan",
+    "generation_timestamp": "2026-09-18T00:36:29.928993",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 15,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "chinesedfan",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios (HTTP Client)",
+      "Node.js",
+      "Promise-based asynchronous programming",
+      "ES6+ JavaScript features",
+      "GitHub Actions (CI/CD)",
+      "HTTP client internals",
+      "Testing (unit/integration)",
+      "Configurable HTTP requests"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (indirect via Axios)"
+    ],
+    "summary": "\nchinesedfan demonstrates a **Mid-level JavaScript developer** with **specialized expertise in Axios (HTTP client library)** and **Node.js backend development**. Their contributions focus on **asynchronous programming, HTTP request handling, and CI/CD automation**, primarily within the Axios codebase. The developer shows strong proficiency in **ES6+ features, Promises, and async/await**, with evidence of **refactoring, testing, and security-conscious fixes**. While contributions are backend-heavy (Node.js), their work aligns with modern JavaScript practices and demonstrates **deep understanding of HTTP client internals**. No direct frontend framework experience is evident, but their skills are highly transferable to frontend projects using Axios.\n\nKey strengths include:\n- **Axios internals** (HTTP request handling, redirects, aborts, config merging).\n- **Asynchronous programming** (Promises, `async/await`, error handling).\n- **Testing and CI/CD** (GitHub Actions, unit tests, cross-environment validation).\n- **ES6+ JavaScript** (arrow functions, destructuring, template literals, `Object.entries`).\n- **Security and code quality** (XSS checks, refactoring, modularity improvements).\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 15": [
+        "Node.js, frequency: 10",
+        "Axios, frequency: 15",
+        "follow-redirects, frequency: 2"
+      ],
+      "Asynchronous Programming, frequency: 12": [
+        "Promises, frequency: 8",
+        "async/await, frequency: 4"
+      ],
+      "API Design & Consumption, frequency: 12": [
+        "RESTful APIs, frequency: 12"
+      ],
+      "Error Handling, frequency: 3": [
+        "Custom Error Handling, frequency: 2",
+        "Security Fixes (XSS), frequency: 1"
+      ],
+      "Backend Development Skills, frequency: 15": [
+        "API Endpoints, frequency: 5",
+        "Middleware (HTTP client logic), frequency: 5",
+        "Authentication/Authorization (indirect), frequency: 3",
+        "Database Integration (indirect), frequency: 2"
+      ],
+      "DevOps & Deployment, frequency: 8": [
+        "CI/CD Pipelines (GitHub Actions), frequency: 6",
+        "Travis CI, frequency: 2"
+      ],
+      "Advanced JavaScript Concepts, frequency: 10": [
+        "ES6+ Features (arrow functions, destructuring, etc.), frequency: 6",
+        "Prototypes & Inheritance (indirect), frequency: 2",
+        "Module Systems (Axios config), frequency: 2"
+      ],
+      "Functional Programming, frequency: 2": [
+        "Pure Functions (refactoring), frequency: 2"
+      ],
+      "Dependency Management, frequency: 2": [
+        "npm/yarn (package management), frequency: 2"
+      ],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Graphical Data Visualization": [],
+      "Data Structures & Algorithms": [],
+      "Frontend Development Skills": []
+    }
+  },
+  "statistics": {
+    "total_prs": 15,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

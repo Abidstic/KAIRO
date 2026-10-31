@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "Alanscut",
+    "generation_timestamp": "2026-09-18T00:40:31.582333",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 12,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 12
+  },
+  "profile": {
+    "developer_name": "Alanscut",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios (HTTP Client)",
+      "Modern JavaScript (ES6+)",
+      "Asynchronous Programming (Promises/async-await)",
+      "Utility Function Development",
+      "Environment-Specific Code Optimization",
+      "CI/CD Pipeline Configuration"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (indirect experience)"
+    ],
+    "summary": "\nAlanscut is a **Mid-level JavaScript developer** with **specialized expertise in Axios**, demonstrating strong proficiency in **HTTP client development, asynchronous programming, and environment-specific optimizations**. Their contributions primarily focus on **frontend JavaScript**, particularly **browser compatibility fixes, utility function development, and CI/CD pipeline improvements**. While their contributions are centered around Axios, their work suggests **indirect experience with modern frontend frameworks (React/Vue/Angular)** and **Node.js environments**, particularly in CI/CD contexts. Alanscut exhibits **clean, modular code practices**, **error handling**, and **polyfill development**, indicating a **practical, production-ready skill set** with a focus on **reliability and cross-environment compatibility**.\n\nKey strengths include:\n- **Axios mastery** (HTTP client, request/response handling, interceptors)\n- **Asynchronous programming** (Promises, async/await, error handling)\n- **Environment-specific optimizations** (browser/Expo/Node.js polyfills)\n- **CI/CD awareness** (Travis CI, package management)\n- **Utility function development** (deep merging, validation logic)\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 12": [
+        "Axios, frequency: 12",
+        "Node.js, frequency: 3",
+        "npm/yarn, frequency: 3"
+      ],
+      "Asynchronous Programming, frequency: 6": [
+        "Promises, frequency: 4",
+        "async/await, frequency: 2"
+      ],
+      "API Design & Consumption, frequency: 12": [
+        "RESTful APIs, frequency: 12"
+      ],
+      "Error Handling, frequency: 4": [
+        "Custom Error Validation, frequency: 3",
+        "Promise-Based Error Handling, frequency: 1"
+      ],
+      "Frontend Development Skills, frequency: 10": [
+        "DOM Manipulation (indirect), frequency: 2",
+        "Browser Compatibility (ie11, Expo), frequency: 8"
+      ],
+      "Backend Development Skills, frequency: 3": [
+        "CI/CD Pipelines (Travis CI), frequency: 3"
+      ],
+      "DevOps & Deployment, frequency: 3": [
+        "CI/CD Pipelines, frequency: 3"
+      ],
+      "Advanced JavaScript Concepts, frequency: 6": [
+        "Utility Functions (deepMerge, validateStatus), frequency: 4",
+        "Polyfills (btoa, includes API), frequency: 2"
+      ],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript, frequency: 2": [
+        "Expo App Compatibility, frequency: 2"
+      ],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Dependency Management, frequency: 3": [
+        "npm/yarn, frequency: 3"
+      ],
+      "Graphical Data Visualization": []
+    }
+  },
+  "statistics": {
+    "total_prs": 12,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

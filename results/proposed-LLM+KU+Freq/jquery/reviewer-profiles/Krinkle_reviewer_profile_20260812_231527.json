@@ -1,0 +1,66 @@
+{
+  "reviewer_name": "Krinkle",
+  "generated_at": "20260812_231527",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "stats": {
+    "total_reviews": 17,
+    "total_comments": 8,
+    "total_prs": 12,
+    "repos": [
+      "jquery"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "Krinkle",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery",
+      "Node.js testing",
+      "Legacy JavaScript patterns",
+      "Content Security Policy (CSP) handling",
+      "Test optimization for jQuery test suite"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6 legacy)"
+    ],
+    "summary": "Krinkle is a specialized JavaScript reviewer with deep expertise in jQuery internals and Node.js testing environments. Their reviews focus heavily on legacy JavaScript patterns, callback systems, and test optimizations within the jQuery ecosystem. While they demonstrate strong familiarity with jQuery's core APIs, CSP handling, and Node.js mock servers, their expertise is limited to pre-ES6 JavaScript and lacks modern framework knowledge (React, Vue, etc.), TypeScript, or backend API development. Their contributions are valuable for maintaining and improving jQuery's test suite and legacy codebase but do not extend to contemporary JavaScript development practices.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 17": [
+        "jQuery, frequency: 17",
+        "Node.js, frequency: 3"
+      ],
+      "Asynchronous Programming, frequency: 3": [
+        "Callbacks, frequency: 3"
+      ],
+      "API Design & Consumption, frequency: 2": [
+        "RESTful APIs, frequency: 1",
+        "Authentication & Authorization, frequency: 1"
+      ],
+      "Error Handling, frequency: 3": [
+        "CSP (Content Security Policy) errors, frequency: 2",
+        "Custom Error Classes, frequency: 1"
+      ],
+      "Frontend Development Skills, frequency: 15": [
+        "DOM Manipulation, frequency: 10",
+        "jQuery AJAX handling, frequency: 5"
+      ],
+      "Backend Development Skills, frequency: 3": [
+        "Node.js mock servers, frequency: 3"
+      ],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts, frequency: 3": [
+        "Closures, frequency: 2",
+        "Module Systems, frequency: 1"
+      ],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Dependency Management": [],
+      "Graphical Data Visualization": []
+    }
+  }
+}

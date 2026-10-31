@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "developer_name": "rubennorte",
+    "generation_timestamp": "2026-09-18T00:44:35.054982",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 8,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 8
+  },
+  "profile": {
+    "developer_name": "rubennorte",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios (HTTP client library)",
+      "Promise-based asynchronous programming",
+      "Node.js backend development",
+      "TypeScript (likely used)",
+      "HTTP adapter architecture",
+      "Error handling and structured error reporting",
+      "Configurable request/response handling"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "rubennorte is a mid-level JavaScript developer with deep expertise in Axios, a popular HTTP client library for both Node.js and browser environments. Their contributions focus on the core HTTP layer, demonstrating strong skills in asynchronous programming, adapter architecture, and error handling. The developer shows proficiency in modern JavaScript practices (ES6+ features) and likely uses TypeScript, given Axios' TypeScript-first approach. While contributions are backend-focused (Node.js, HTTP agents, redirects), the skills are transferable to frontend applications using Axios. Testing knowledge is implied through Axios' rigorous testing standards, though no direct evidence of testing frameworks (like Jest) appears in their PRs. The developer demonstrates clean, maintainable code with a focus on backward compatibility and performance optimization.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 8": [
+        "Axios, frequency: 8",
+        "Node.js, frequency: 8"
+      ],
+      "Asynchronous Programming, frequency: 6": [
+        "Promises, frequency: 6",
+        "async/await, frequency: 2"
+      ],
+      "API Design & Consumption, frequency: 8": [
+        "RESTful APIs, frequency: 8"
+      ],
+      "Error Handling, frequency: 4": [
+        "Structured error reporting, frequency: 3",
+        "Custom error classes, frequency: 1"
+      ],
+      "Backend Development Skills, frequency: 10": [
+        "HTTP agent configuration, frequency: 3",
+        "Middleware (adapter-based), frequency: 3",
+        "API Endpoints (HTTP layer), frequency: 2",
+        "Authentication/Authorization, frequency: 2"
+      ],
+      "Advanced JavaScript Concepts, frequency: 6": [
+        "Arrow functions, frequency: 2",
+        "Destructuring, frequency: 2",
+        "Spread/rest operator, frequency: 2"
+      ],
+      "TypeScript, frequency: 3": [
+        "Type definitions, frequency: 2",
+        "Interfaces, frequency: 1"
+      ],
+      "Dependency Management, frequency: 2": [
+        "npm/yarn, frequency: 2"
+      ],
+      "Functional Programming, frequency: 2": [
+        "Immutable-like patterns, frequency: 2"
+      ],
+      "Event-Driven Architecture": [],
+      "Frontend Development Skills": [],
+      "DevOps & Deployment": [],
+      "Data Structures & Algorithms": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Graphical Data Visualization": []
+    }
+  },
+  "statistics": {
+    "total_prs": 8,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

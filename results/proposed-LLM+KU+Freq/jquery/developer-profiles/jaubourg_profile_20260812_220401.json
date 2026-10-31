@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "developer_name": "jaubourg",
+    "generation_timestamp": "2026-08-12T22:02:50.010444",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 11,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 11
+  },
+  "profile": {
+    "developer_name": "jaubourg",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "jQuery Core (AJAX, Deferred/Promise systems)",
+      "Asynchronous JavaScript (Promises, XHR, error handling)",
+      "Unit Testing (QUnit-like frameworks, test infrastructure)",
+      "Code Optimization (minification, performance tweaks)",
+      "Legacy JavaScript (ES5+, strict mode, cross-browser compatibility)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5+)"
+    ],
+    "summary": "jaubourg is a **Senior JavaScript engineer** with deep expertise in **legacy and modern asynchronous JavaScript**, specializing in **jQuery core contributions**, particularly in **AJAX, Deferred/Promise systems, and testing infrastructure**. Their work demonstrates mastery of **error handling in async workflows**, **test-driven development**, and **performance optimizations** for large-scale frontend libraries. While their contributions are **jQuery-centric**, they exhibit strong **code quality improvements**, **cross-browser compatibility fixes**, and **modular testing strategies**. The absence of modern frameworks (React/Vue) or TypeScript suggests a focus on **runtime behavior and legacy systems** rather than contemporary tooling. Their contributions highlight **robust asynchronous programming**, **API contract testing**, and **legacy code maintenance**—key skills for engineers working on mature JavaScript ecosystems.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 11": [
+        "jQuery, frequency: 11"
+      ],
+      "Asynchronous Programming, frequency: 11": [
+        "Promises, frequency: 3",
+        "XHR (AJAX), frequency: 6",
+        "Deferred Objects, frequency: 2"
+      ],
+      "API Design & Consumption, frequency: 6": [
+        "RESTful APIs, frequency: 6"
+      ],
+      "Error Handling, frequency: 5": [
+        "Synchronous/Asynchronous Error Handling, frequency: 3",
+        "Exception Protection (xhr.send), frequency: 2"
+      ],
+      "Frontend Development Skills, frequency: 11": [
+        "DOM Manipulation, frequency: 1",
+        "Event-Driven Patterns, frequency: 3",
+        "Cross-Browser Compatibility, frequency: 7"
+      ],
+      "Backend Development Skills": [],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts, frequency: 7": [
+        "Strict Mode, frequency: 1",
+        "Module Systems (Legacy jQuery), frequency: 2",
+        "Closures (Implicit in Deferred/Promise), frequency: 2",
+        "Event Loop (Async/AJAX), frequency: 2"
+      ],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization, frequency: 3": [
+        "Minification (Grunt/UglifyJS), frequency: 2",
+        "Script Transport Reduction, frequency: 1"
+      ],
+      "Event-Driven Architecture, frequency: 4": [
+        "Callback-Based Patterns, frequency: 2",
+        "Event Emitters (Legacy jQuery), frequency: 2"
+      ],
+      "Dependency Management": [],
+      "Graphical Data Visualization": []
+    }
+  },
+  "statistics": {
+    "total_prs": 11,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

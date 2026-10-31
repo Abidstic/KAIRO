@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "developer_name": "DanielRuf",
+    "generation_timestamp": "2026-09-17T19:54:32.394665",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "DanielRuf",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js (JavaScript charting library)",
+      "Vanilla JavaScript (DOM manipulation, ES6+ features)",
+      "JavaScript testing (Jest/Node.js compatibility)",
+      "Build optimization (Node.js module caching)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "\nDanielRuf demonstrates **mid-level JavaScript expertise** primarily through contributions to the **Chart.js** library, a pure JavaScript frontend tool. While visible PRs are limited to **chore-type changes** (no direct code modifications), the context strongly suggests proficiency in **vanilla JavaScript**, **DOM manipulation**, and **ES6+ features** (classes, arrow functions, modules). There is **no direct evidence** of React/Vue/Angular, TypeScript, or backend Node.js contributions in these PRs, though Node.js testing experience is implied by PR titles.\n\nThe developer likely follows **modular programming patterns** (Chart.js’s architecture) and has **inferred knowledge** of testing frameworks (Jest) and build tools (Webpack, ESLint). Their contributions indicate an ability to work with **JavaScript libraries**, optimize builds, and maintain code quality—key skills for a **mid-level frontend developer** specializing in data visualization.\n\nFor a more comprehensive assessment, direct code contributions (PRs with `files_changed > 0`) would be required to validate deeper expertise in advanced concepts or frameworks.\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 3": [
+        "Chart.js, frequency: 3",
+        "Jest, frequency: 1"
+      ],
+      "Asynchronous Programming, frequency: 0": [],
+      "API Design & Consumption, frequency: 0": [],
+      "Error Handling, frequency: 0": [],
+      "Frontend Development Skills, frequency: 3": [
+        "DOM Manipulation, frequency: 2",
+        "ES6+ Features (Classes, Arrow Functions, Modules), frequency: 1"
+      ],
+      "Backend Development Skills, frequency: 0": [],
+      "DevOps & Deployment, frequency: 0": [],
+      "Advanced JavaScript Concepts, frequency: 1": [
+        "Module Systems, frequency: 1"
+      ],
+      "Functional Programming, frequency: 0": [],
+      "Data Structures & Algorithms, frequency: 0": [],
+      "TypeScript, frequency: 0": [],
+      "Progressive Web Apps (PWA), frequency: 0": [],
+      "Mobile Development with JavaScript, frequency: 0": [],
+      "Web Performance Optimization, frequency: 0": [],
+      "Event-Driven Architecture, frequency: 0": [],
+      "Dependency Management, frequency: 0": [],
+      "Graphical Data Visualization, frequency: 3": [
+        "Chart.js, frequency: 3"
+      ]
+    }
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

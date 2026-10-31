@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "developer_name": "Copilot",
+    "generation_timestamp": "2026-09-18T01:11:30.289726",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "Copilot (AI-Assisted Developer)",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Axios (HTTP Client)",
+      "TypeScript",
+      "Error Handling & Defensive Programming",
+      "API Design & Consumption",
+      "Asynchronous Programming (Promises/Async-Await)",
+      "Backend JavaScript (Node.js)",
+      "Type Safety & Strong Typing"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "Copilot demonstrates **Senior-level expertise** in JavaScript, particularly in **Axios internals, TypeScript, and backend API development**. While contributions are limited to PR metadata (no code changes), the **type fixes and error handling improvements** reveal deep knowledge of **defensive programming, type safety, and asynchronous patterns**. The focus is **backend-oriented (Node.js/Axios)**, with **advanced TypeScript proficiency** (e.g., restoring `AxiosError.cause` types). No direct frontend framework involvement is evident, but the skills align with **backend-focused JavaScript engineers** who work with RESTful APIs, error handling, and modular design. The developer’s contributions suggest **strong attention to backward compatibility, semantic versioning, and maintainable code practices**—hallmarks of a **Senior engineer**.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 3": [
+        "Axios, frequency: 3"
+      ],
+      "Asynchronous Programming, frequency: 2": [
+        "Promises, frequency: 1",
+        "async/await, frequency: 1"
+      ],
+      "API Design & Consumption, frequency: 3": [
+        "RESTful APIs, frequency: 3"
+      ],
+      "Error Handling, frequency: 3": [
+        "Custom Error Classes, frequency: 1",
+        "Type Narrowing, frequency: 1",
+        "Error Boundaries (inferred), frequency: 1"
+      ],
+      "Backend Development Skills, frequency: 5": [
+        "Middleware (Interceptors), frequency: 2",
+        "API Endpoints, frequency: 1",
+        "Authentication/Authorization (inferred), frequency: 1",
+        "Defensive Programming, frequency: 1"
+      ],
+      "TypeScript, frequency: 5": [
+        "Type Definitions, frequency: 2",
+        "Generics, frequency: 1",
+        "Type Inference, frequency: 1",
+        "Type Narrowing, frequency: 1"
+      ],
+      "Dependency Management, frequency: 1": [
+        "npm/yarn (inferred), frequency: 1"
+      ],
+      "Event-Driven Architecture, frequency: 1": [
+        "Event Emitters (inferred), frequency: 1"
+      ],
+      "Advanced JavaScript Concepts, frequency: 2": [
+        "Module Systems, frequency: 1",
+        "Closures (inferred), frequency: 1"
+      ],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "DevOps & Deployment": [],
+      "Graphical Data Visualization": [],
+      "Frontend Development Skills": []
+    }
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

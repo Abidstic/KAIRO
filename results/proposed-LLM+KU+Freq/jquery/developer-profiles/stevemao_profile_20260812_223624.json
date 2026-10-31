@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "developer_name": "stevemao",
+    "generation_timestamp": "2026-08-12T22:30:02.552690",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "stevemao",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "jQuery (DOM manipulation, AJAX, event handling)",
+      "QUnit (unit testing framework)",
+      "Legacy JavaScript (ES5, callback-based patterns)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)"
+    ],
+    "summary": "\nBased on the analysis of stevemao's contributions to the jQuery repository, this developer demonstrates **junior-level expertise** primarily focused on **legacy JavaScript frameworks and testing**. The contributions are centered around **jQuery's core functionality**, including DOM manipulation, AJAX, and event handling, with a strong emphasis on **QUnit-based unit testing**. There is **no evidence of modern JavaScript frameworks (React, Vue, Angular), backend development (Node.js, Express), or advanced ES6+ features** in the observed PRs.\n\nstevemao shows proficiency in **legacy JavaScript patterns**, particularly **callback-based asynchronous operations** and **DOM-centric development**, but lacks exposure to **modern tooling (TypeScript, Webpack, ESLint), backend systems, or contemporary frontend architectures**. The contributions are **test-focused**, with an emphasis on **adding test coverage** rather than refactoring or optimizing existing code. Overall, this profile reflects a **junior developer** with **specialized knowledge in jQuery and QUnit**, but limited to a **narrow, legacy-focused skill set**.\n\nThe developer's contributions are **isolated to frontend DOM manipulation and testing**, with **no backend, API design, or DevOps experience** visible in the provided data.\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 4": [
+        "jQuery, frequency: 4",
+        "QUnit, frequency: 2"
+      ],
+      "Asynchronous Programming, frequency: 1": [
+        "Callbacks, frequency: 1"
+      ],
+      "API Design & Consumption, frequency: 0": [],
+      "Error Handling, frequency: 0": [],
+      "Frontend Development Skills, frequency: 4": [
+        "DOM Manipulation, frequency: 4"
+      ],
+      "Backend Development Skills, frequency: 0": [],
+      "DevOps & Deployment, frequency: 0": [],
+      "Advanced JavaScript Concepts, frequency: 0": [],
+      "Functional Programming, frequency: 0": [],
+      "Data Structures & Algorithms, frequency: 0": [],
+      "TypeScript, frequency: 0": [],
+      "Progressive Web Apps (PWA), frequency: 0": [],
+      "Mobile Development with JavaScript, frequency: 0": [],
+      "Web Performance Optimization, frequency: 0": [],
+      "Event-Driven Architecture, frequency: 0": [],
+      "Dependency Management, frequency: 0": [],
+      "Graphical Data Visualization, frequency: 0": []
+    }
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

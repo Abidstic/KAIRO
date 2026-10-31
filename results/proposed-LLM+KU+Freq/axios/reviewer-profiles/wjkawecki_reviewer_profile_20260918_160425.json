@@ -1,0 +1,60 @@
+{
+  "reviewer_name": "wjkawecki",
+  "generated_at": "20260918_160425",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 0,
+    "total_prs": 2,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "wjkawecki",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js dependency security",
+      "HTTP client libraries (follow-redirects, Axios)",
+      "CVE vulnerability patching",
+      "Semantic versioning and dependency management"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js backend focus)"
+    ],
+    "summary": "wjkawecki demonstrates specialized expertise in Node.js dependency security, particularly around HTTP client libraries like `follow-redirects` and their integration with tools like Axios. Their reviews focus on vulnerability patching, redirect handling, and secure dependency management, with a strong emphasis on backend JavaScript ecosystems. While their contributions are narrowly concentrated on dependency maintenance and security, the depth of their knowledge in this niche area suggests mid-level experience with a security-first mindset. There is no evidence of frontend development, TypeScript usage, or broader JavaScript framework expertise beyond the core Node.js ecosystem.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 2": [
+        "Node.js, frequency: 2"
+      ],
+      "Asynchronous Programming, frequency: 1": [
+        "Promises, frequency: 1"
+      ],
+      "API Design & Consumption, frequency: 2": [
+        "RESTful APIs, frequency: 1",
+        "Authentication & Authorization, frequency: 1"
+      ],
+      "Error Handling": [],
+      "Frontend Development Skills": [],
+      "Backend Development Skills, frequency: 3": [
+        "Middleware, frequency: 1",
+        "API Endpoints, frequency: 1",
+        "Authentication/Authorization, frequency: 1"
+      ],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts": [],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Dependency Management, frequency: 3": [
+        "npm/yarn, frequency: 2",
+        "Package-lock.json & Yarn.lock, frequency: 1"
+      ],
+      "Graphical Data Visualization": []
+    }
+  }
+}

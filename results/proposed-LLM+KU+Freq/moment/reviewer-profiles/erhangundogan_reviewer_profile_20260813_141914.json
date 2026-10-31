@@ -1,0 +1,54 @@
+{
+  "reviewer_name": "erhangundogan",
+  "generated_at": "20260813_141914",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 1,
+    "total_prs": 3,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "erhangundogan",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Internationalization (i18n) libraries (e.g., formatjs, react-intl)",
+      "Basic JavaScript ES6+ features (modules, arrow functions)",
+      "Translation key management in JSON/TS files"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "The reviewer, erhangundogan, demonstrates **limited direct JavaScript expertise** based on the provided PR data, which focuses exclusively on Turkish locale/translation changes for the `moment` library. While their contributions involve i18n-related work (likely using libraries like `formatjs` or `react-intl`), there is **no evidence of deep technical JavaScript knowledge** (e.g., frameworks, testing, or backend development). Their contributions appear to be **frontend-focused**, potentially involving translation string management in JSON/TypeScript files. The reviewer's experience level is assessed as **Junior** due to the lack of complex JavaScript patterns, architectural decisions, or framework-specific expertise in the reviewed PRs. Their skills are inferred indirectly from i18n contexts rather than direct JavaScript implementation.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 2": [
+        "i18n libraries (e.g., formatjs, react-intl), frequency: 2"
+      ],
+      "Frontend Development Skills, frequency: 2": [
+        "DOM Manipulation (indirect, via translation string handling), frequency: 1",
+        "JSON/TypeScript file management for translations, frequency: 1"
+      ],
+      "Advanced JavaScript Concepts, frequency: 1": [
+        "ES6+ Modules (import/export for translations), frequency: 1"
+      ],
+      "TypeScript, frequency: 1": [
+        "TypeScript file handling (indirect, for translation keys), frequency: 1"
+      ],
+      "Asynchronous Programming": [],
+      "API Design & Consumption": [],
+      "Error Handling": [],
+      "Backend Development Skills": [],
+      "DevOps & Deployment": [],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Dependency Management": [],
+      "Graphical Data Visualization": []
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "reviewer_name": "suyundukov",
+  "generated_at": "20260813_141914",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 1,
+    "total_prs": 3,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "suyundukov",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Locale/Internationalization (i18n) Data Management",
+      "Basic Functional Programming Patterns",
+      "Date/Time Handling Utilities"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+ awareness inferred)"
+    ],
+    "summary": "The reviewer profile for suyundukov shows limited direct evidence of deep JavaScript expertise based on the available GitHub PR data. Their contributions primarily involve locale/translation-related changes (e.g., JSON files for French and French-Canadian locales) and a single utility function (`year_guess()`) for date handling. While there is **indirect evidence** of awareness of functional programming patterns (e.g., deterministic date processing) and modularity, no explicit JavaScript code reviews or framework-specific knowledge are visible. The reviewer demonstrates **partial familiarity with testing requirements** (mentions of 'Needs tests') and **code review rigor** (questions unnecessary PRs), but lacks concrete examples of advanced JavaScript concepts, frameworks, or backend systems. Their technical focus appears to be on **data consistency and localization utilities** rather than core JavaScript development. The experience level is assessed as **Junior** due to the limited scope of contributions and absence of complex JavaScript patterns or frameworks.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 0": [],
+      "Asynchronous Programming, frequency: 0": [],
+      "API Design & Consumption, frequency: 0": [],
+      "Error Handling, frequency: 1": [
+        "Error handling in date utilities, frequency: 1"
+      ],
+      "Frontend Development Skills, frequency: 0": [],
+      "Backend Development Skills, frequency: 0": [],
+      "DevOps & Deployment, frequency: 0": [],
+      "Advanced JavaScript Concepts, frequency: 1": [
+        "Date handling utilities, frequency: 1"
+      ],
+      "Functional Programming, frequency: 1": [
+        "Deterministic utility functions, frequency: 1"
+      ],
+      "Data Structures & Algorithms, frequency: 0": [],
+      "TypeScript, frequency: 0": [],
+      "Progressive Web Apps (PWA), frequency: 0": [],
+      "Mobile Development with JavaScript, frequency: 0": [],
+      "Web Performance Optimization, frequency: 0": [],
+      "Event-Driven Architecture, frequency: 0": [],
+      "Dependency Management, frequency: 0": [],
+      "Graphical Data Visualization, frequency: 0": []
+    }
+  }
+}

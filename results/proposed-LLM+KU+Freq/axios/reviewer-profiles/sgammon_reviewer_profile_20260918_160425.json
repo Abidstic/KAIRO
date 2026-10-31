@@ -1,0 +1,64 @@
+{
+  "reviewer_name": "sgammon",
+  "generated_at": "20260918_160425",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 17,
+    "total_prs": 1,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "sgammon",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript ES6+ (async/await, arrow functions, modules)",
+      "Frontend Framework (React/Vue likely)",
+      "HTTP Client Libraries (fetch, Axios)",
+      "Build Tool Awareness (Webpack/Vite, Babel)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "sgammon demonstrates **mid-level JavaScript expertise** primarily focused on frontend development, with inferred knowledge of React/Vue frameworks and HTTP client libraries (fetch/Axios). Their reviews suggest familiarity with modern JavaScript (ES6+ features like async/await and modules) and basic build tool workflows (e.g., handling dist artifacts). However, the limited review data prevents a definitive assessment of deeper expertise in testing, TypeScript, or advanced patterns. The reviewer's contributions are **frontend-heavy**, with possible Node.js utility knowledge for HTTP handling. While they show **basic awareness of clean code practices** (e.g., separating signal from noise), there is no evidence of advanced topics like functional programming, algorithms, or DevOps. Their experience aligns with a **mid-level developer** comfortable with core JavaScript and frontend tooling but lacking in specialized or backend-focused skills.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 3": [
+        "React, frequency: 1",
+        "Vue.js, frequency: 1",
+        "axios, frequency: 1"
+      ],
+      "Asynchronous Programming, frequency: 2": [
+        "async/await, frequency: 1",
+        "Promises, frequency: 1"
+      ],
+      "API Design & Consumption, frequency: 2": [
+        "RESTful APIs, frequency: 2"
+      ],
+      "Frontend Development Skills, frequency: 3": [
+        "DOM Manipulation, frequency: 1",
+        "Modular imports/exports, frequency: 1",
+        "Build tool awareness (dist artifacts), frequency: 1"
+      ],
+      "Backend Development Skills, frequency: 1": [
+        "Node.js (HTTP handling), frequency: 1"
+      ],
+      "Advanced JavaScript Concepts, frequency: 2": [
+        "Arrow functions, frequency: 1",
+        "Module Systems, frequency: 1"
+      ],
+      "Dependency Management, frequency: 0": [],
+      "Error Handling": [],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Graphical Data Visualization": [],
+      "DevOps & Deployment": []
+    }
+  }
+}

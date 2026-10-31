@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "developer_name": "csnover",
+    "generation_timestamp": "2026-08-12T21:57:25.095126",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 22,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "csnover",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery (DOM manipulation, AJAX, event handling)",
+      "Legacy JavaScript (pre-ES6)",
+      "DOM manipulation techniques",
+      "Browser compatibility fixes (IE7)",
+      "QUnit testing framework",
+      "Minification & performance optimization"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5 and earlier)"
+    ],
+    "summary": "csnover is a **Mid-level JavaScript developer** with deep expertise in **jQuery**, specializing in **DOM manipulation, AJAX, and legacy browser compatibility fixes**. Their contributions are focused exclusively on jQuery's core functionality, demonstrating strong skills in **error handling, feature detection, and minification optimizations**. While their work is rooted in **pre-ES6 JavaScript**, they show proficiency in **QUnit testing** and **defensive programming** for legacy environments. No evidence of modern frameworks (React, Vue, TypeScript) or backend JavaScript (Node.js) is present in their contributions. Their experience aligns with **maintaining and optimizing legacy frontend codebases**, particularly in enterprise environments where jQuery remains relevant.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 22": [
+        "jQuery, frequency: 22",
+        "QUnit, frequency: 3"
+      ],
+      "Asynchronous Programming, frequency: 6": [
+        "Callbacks, frequency: 5",
+        "Event Loop (legacy AJAX patterns), frequency: 1"
+      ],
+      "API Design & Consumption, frequency: 6": [
+        "RESTful APIs (jQuery-style AJAX), frequency: 6"
+      ],
+      "Error Handling, frequency: 8": [
+        "Try-Catch blocks, frequency: 3",
+        "Defensive programming (implicit/explicit coercion), frequency: 5"
+      ],
+      "Frontend Development Skills, frequency: 22": [
+        "DOM Manipulation, frequency: 18",
+        "Browser Compatibility (IE7 fixes), frequency: 5"
+      ],
+      "Backend Development Skills": [],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts, frequency: 10": [
+        "Closures (in jQuery internals), frequency: 2",
+        "Feature Detection ($.support.rgba), frequency: 2",
+        "Prototypes & Inheritance (jQuery object), frequency: 3",
+        "Module Systems (jQuery’s internal modules), frequency: 3"
+      ],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization, frequency: 2": [
+        "Minification (UglifyJS-like), frequency: 2"
+      ],
+      "Event-Driven Architecture, frequency: 6": [
+        "Event Delegation (jQuery events), frequency: 4",
+        "Pub/Sub Model (jQuery event system), frequency: 2"
+      ],
+      "Dependency Management": [],
+      "Graphical Data Visualization": []
+    }
+  },
+  "statistics": {
+    "total_prs": 22,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

@@ -1,0 +1,2580 @@
+{
+  "metadata": {
+    "total_prs_processed": 32,
+    "processing_date": "2025-10-21",
+    "available_reviewers": [
+      "alexandermirzoyan",
+      "ardyfeb",
+      "briwa",
+      "Cadienvan",
+      "chinesedfan",
+      "dabrad26",
+      "DigitalBrainJS",
+      "ericdimon86",
+      "Gerhut",
+      "HazemGharib",
+      "hexiaokang",
+      "ikonst",
+      "jasonsaayman",
+      "jrnail23",
+      "levpachmanov",
+      "mhassan1",
+      "MrJithil",
+      "MrNice78",
+      "PcjsCorp",
+      "Philip-Carneiro-KX",
+      "remcohaszing",
+      "samavati",
+      "sgammon",
+      "thatguyinabeanie",
+      "vishal-sharma-369",
+      "WillianAgostini",
+      "wjkawecki",
+      "zaosoula"
+    ],
+    "total_available_reviewers": 28
+  },
+  "pr_assignments": [
+    {
+      "pr_number": 7006,
+      "pr_title": "chore(CI): fixed release info script to use npm registry instead of git as file history source;",
+      "pr_author": "DigitalBrainJS",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 10x frequency in Axios, RESTful APIs, and TypeScript—directly matching npm registry APIs (via Axios) and CI/CD pipeline configuration (via TypeScript/ESM module systems). Strong evidence from similar PRs (#5196, #6956) with TypeScript type definition fixes and release-related expertise.",
+          "strengths_alignment": [
+            "10x frequency in Axios (npm registry APIs proxy)",
+            "10x frequency in RESTful APIs (CI/CD pipeline integration)",
+            "TypeScript expertise (Type Definitions, ESM/CJS module systems)",
+            "Reviewed similar TypeScript type fixes (#5196, #6956) with release focus"
+          ],
+          "review_experience": "71 reviews, 62 PRs, 11 comments; consistent high-quality feedback with deep technical depth in Axios internals and TypeScript.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "DigitalBrainJS",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with 8x Node.js and 10x RESTful APIs frequency, strong evidence for npm/yarn package management (2x npm/yarn in top skills) and CI/CD pipeline configuration (Node.js backend expertise). Less direct npm registry API evidence but strong Node.js/axios overlap.",
+          "strengths_alignment": [
+            "8x Node.js (CI/CD pipeline configuration)",
+            "10x RESTful APIs (npm registry integration)",
+            "4x Axios (npm registry APIs proxy)",
+            "11 comments showing deep technical review patterns"
+          ],
+          "review_experience": "12 reviews, 9 PRs, 11 comments; consistent high-quality feedback with strong Node.js/axios expertise.",
+          "potential_concerns": "No explicit npm registry API frequency evidence (only inferred via Axios)."
+        },
+        {
+          "reviewer_name": "remcohaszing",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 3x Type Definitions and 2x Node.js frequency, strong TypeScript expertise (generics, ESM/CJS). Reviewed similar TypeScript type fixes (#5196) but lacks npm registry API frequency evidence. Focused on module systems and CI/CD pipeline tooling (TypeScript compilation).",
+          "strengths_alignment": [
+            "3x Type Definitions (npm registry integration)",
+            "2x Node.js (CI/CD pipeline configuration)",
+            "3x Type Definitions (TypeScript expertise)",
+            "Reviewed #5196 (TypeScript type definitions for CommonJS)"
+          ],
+          "review_experience": "3 reviews, 2 PRs, 3 comments; consistent TypeScript/Node.js focus but limited review volume.",
+          "potential_concerns": "No explicit npm registry API frequency evidence; lower review activity than top choices."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 10x frequency in Axios, RESTful APIs, and TypeScript—directly matching npm registry APIs (via Axios) and CI/CD pipeline configuration (via TypeScript/ESM module systems). Strong evidence from similar PRs (#5196, #6956) with TypeScript type definition fixes and release-related expertise.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/7006",
+      "reviewer_strengths": [
+        "10x frequency in Axios (npm registry APIs proxy)",
+        "10x frequency in RESTful APIs (CI/CD pipeline integration)",
+        "TypeScript expertise (Type Definitions, ESM/CJS module systems)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "71 reviews, 62 PRs, 11 comments; consistent high-quality feedback with deep technical depth in Axios internals and TypeScript.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "npm registry APIs",
+          "CI/CD pipeline configuration"
+        ],
+        "review_expertise_areas": [
+          "Release"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 10x frequency in Axios, RESTful APIs, and TypeScript—directly matching npm registry APIs (via Axios) and CI/CD pipeline configuration (via TypeScript/ESM module systems). Strong evidence from similar PRs (#5196, #6956) with TypeScript type definition fixes and release-related expertise.",
+          "strengths_alignment": [
+            "10x frequency in Axios (npm registry APIs proxy)",
+            "10x frequency in RESTful APIs (CI/CD pipeline integration)",
+            "TypeScript expertise (Type Definitions, ESM/CJS module systems)",
+            "Reviewed similar TypeScript type fixes (#5196, #6956) with release focus"
+          ],
+          "review_experience_details": "71 reviews, 62 PRs, 11 comments; consistent high-quality feedback with deep technical depth in Axios internals and TypeScript.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7011,
+      "pr_title": "fix(node): enforce maxContentLength for data: URLs",
+      "pr_author": "AmeerAssadi",
+      "pr_state": "closed",
+      "assigned_reviewer": "DigitalBrainJS",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "DigitalBrainJS",
+          "match_score": 0.89,
+          "reasoning": "Senior reviewer with deep Node.js backend and security-focused JavaScript expertise, including async/await, error handling, and Axios internals. Strong frequency evidence for security and performance-related skills (RESTful APIs, async/await, Node.js). Reviewed ReDoS-related PR (#6132) and demonstrated security awareness.",
+          "strengths_alignment": [
+            "Security-focused JavaScript (ReDoS review evidence)",
+            "Node.js backend development with async/await (6x frequency)",
+            "Axios internals expertise (4x frequency)",
+            "Memory safety/DoS mitigation patterns (inferred from async/await and error handling focus)"
+          ],
+          "review_experience": "12 reviews, 11 comments, 9 PRs reviewed; consistent engagement with technical depth in security and performance areas.",
+          "potential_concerns": "No direct evidence of `maxContentLength` or base64 size estimation reviews, but strong Node.js/async patterns align with memory safety and early rejection logic."
+        },
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.82,
+          "reasoning": "Senior reviewer with TypeScript/Axios expertise and high review volume. Strong frequency evidence for TypeScript (10x) and RESTful APIs (10x), but limited direct security review evidence. Reviewed crypto security PR (#6930) and demonstrated TypeScript safety patterns.",
+          "strengths_alignment": [
+            "TypeScript expertise (10x frequency) for validation logic and type safety",
+            "Axios internals (10x frequency) for URL/path handling",
+            "High review volume (71 reviews) with consistent technical depth"
+          ],
+          "review_experience": "71 reviews, 11 comments, 62 PRs reviewed; extensive TypeScript/Axios experience but sparse security-focused reviews.",
+          "potential_concerns": "No explicit evidence of security review focus beyond crypto PR; limited comments (11/71) may indicate procedural review style."
+        },
+        {
+          "reviewer_name": "chinesedfan",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with Node.js security focus (SSRF prevention) and Axios expertise. Demonstrated defensive programming and input validation (2x frequency) but limited review volume. No direct evidence of `maxContentLength` or base64 size estimation.",
+          "strengths_alignment": [
+            "Node.js Security (SSRF Prevention) in primary skills",
+            "Axios (2x frequency) and RESTful APIs (2x frequency)",
+            "Input validation (2x frequency) for payload handling"
+          ],
+          "review_experience": "2 reviews, 4 comments, 2 PRs reviewed; focused but limited engagement with security-related topics.",
+          "potential_concerns": "Low review volume (2 PRs) and no evidence of memory safety or DoS mitigation patterns beyond SSRF."
+        }
+      ],
+      "match_score": 0.89,
+      "assignment_reasoning": "Senior reviewer with deep Node.js backend and security-focused JavaScript expertise, including async/await, error handling, and Axios internals. Strong frequency evidence for security and performance-related skills (RESTful APIs, async/await, Node.js). Reviewed ReDoS-related PR (#6132) and demonstrated security awareness.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 8,
+      "pr_url": "https://github.com/expressjs/express/pull/7011",
+      "reviewer_strengths": [
+        "Security-focused JavaScript (ReDoS review evidence)",
+        "Node.js backend development with async/await (6x frequency)",
+        "Axios internals expertise (4x frequency)"
+      ],
+      "potential_concerns": "No direct evidence of `maxContentLength` or base64 size estimation reviews, but strong Node.js/async patterns align with memory safety and early rejection logic.",
+      "review_experience": "12 reviews, 11 comments, 9 PRs reviewed; consistent engagement with technical depth in security and performance areas.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Security",
+          "Performance"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Security",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep Node.js backend and security-focused JavaScript expertise, including async/await, error handling, and Axios internals. Strong frequency evidence for security and performance-related skills (RESTful APIs, async/await, Node.js). Reviewed ReDoS-related PR (#6132) and demonstrated security awareness.",
+          "strengths_alignment": [
+            "Security-focused JavaScript (ReDoS review evidence)",
+            "Node.js backend development with async/await (6x frequency)",
+            "Axios internals expertise (4x frequency)",
+            "Memory safety/DoS mitigation patterns (inferred from async/await and error handling focus)"
+          ],
+          "review_experience_details": "12 reviews, 11 comments, 9 PRs reviewed; consistent engagement with technical depth in security and performance areas.",
+          "potential_limitations": "No direct evidence of `maxContentLength` or base64 size estimation reviews, but strong Node.js/async patterns align with memory safety and early rejection logic."
+        }
+      }
+    },
+    {
+      "pr_number": 7022,
+      "pr_title": "chore(ci): add local HTTP server for Karma tests;",
+      "pr_author": "DigitalBrainJS",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 10x frequency in Axios/TypeScript and RESTful APIs, 11 comments on 62 PRs, and direct evidence of testing-related expertise (e.g., type definitions, error handling). Strongest frequency match for required skills and similar-review relevance (e.g., CI/test adjustments).",
+          "strengths_alignment": [
+            "10x frequency in Axios (direct framework match)",
+            "10x frequency in RESTful APIs (relevant to HTTP server correctness)",
+            "11 comments on 62 PRs (high review activity consistency)",
+            "Type definitions and error handling (testing-related skills)",
+            "Approved similar PR with testing focus (#6923)"
+          ],
+          "review_experience": "Senior reviewer with 71 total reviews, 11 comments, and 62 PRs reviewed. Strongest evidence of testing expertise among available reviewers.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "DigitalBrainJS",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with 12 total reviews, 11 comments, and 9 PRs reviewed. Strong frequency in RESTful APIs (10x), Node.js (8x), and Axios (4x). No direct testing evidence but high relevance to HTTP server and CI adjustments. Lower frequency in testing-specific skills than jasonsaayman.",
+          "strengths_alignment": [
+            "10x frequency in RESTful APIs (HTTP server correctness)",
+            "8x frequency in Node.js (CI configuration relevance)",
+            "4x frequency in Axios (direct framework match)",
+            "11 comments on 9 PRs (high review activity consistency)",
+            "Security-focused JavaScript (potential CI relevance)"
+          ],
+          "review_experience": "Senior reviewer with 12 total reviews, 11 comments, and 9 PRs reviewed. Strongest Node.js/Axios frequency but no explicit testing evidence.",
+          "potential_concerns": "No direct evidence of testing expertise (e.g., Karma compatibility or CI test exclusion)."
+        },
+        {
+          "reviewer_name": "hexiaokang",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 3x frequency in Axios and Node.js, 3 total reviews with no comments. Strong frequency in Axios (3x) and RESTful APIs (3x), but limited review activity. No explicit testing evidence but relevant to HTTP server and CI adjustments.",
+          "strengths_alignment": [
+            "3x frequency in Axios (direct framework match)",
+            "3x frequency in RESTful APIs (HTTP server correctness)",
+            "3x frequency in Node.js (CI configuration relevance)",
+            "TypeScript and modular JavaScript expertise (potential testing relevance)"
+          ],
+          "review_experience": "Mid-level reviewer with 3 total reviews and 0 comments. Limited evidence of review activity consistency.",
+          "potential_concerns": "No explicit testing expertise (e.g., Karma compatibility or CI test exclusion). Low review activity (3 PRs, 0 comments)."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 10x frequency in Axios/TypeScript and RESTful APIs, 11 comments on 62 PRs, and direct evidence of testing-related expertise (e.g., type definitions, error handling). Strongest frequency match for required skills and similar-review relevance (e.g., CI/test adjustments).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7022",
+      "reviewer_strengths": [
+        "10x frequency in Axios (direct framework match)",
+        "10x frequency in RESTful APIs (relevant to HTTP server correctness)",
+        "11 comments on 62 PRs (high review activity consistency)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior reviewer with 71 total reviews, 11 comments, and 62 PRs reviewed. Strongest evidence of testing expertise among available reviewers.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 10x frequency in Axios/TypeScript and RESTful APIs, 11 comments on 62 PRs, and direct evidence of testing-related expertise (e.g., type definitions, error handling). Strongest frequency match for required skills and similar-review relevance (e.g., CI/test adjustments).",
+          "strengths_alignment": [
+            "10x frequency in Axios (direct framework match)",
+            "10x frequency in RESTful APIs (relevant to HTTP server correctness)",
+            "11 comments on 62 PRs (high review activity consistency)",
+            "Type definitions and error handling (testing-related skills)",
+            "Approved similar PR with testing focus (#6923)"
+          ],
+          "review_experience_details": "Senior reviewer with 71 total reviews, 11 comments, and 62 PRs reviewed. Strongest evidence of testing expertise among available reviewers.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7028,
+      "pr_title": "refactor: change if in else to else if",
+      "pr_author": "noritaka1166",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 71 PRs reviewed, 10x frequency in TypeScript and RESTful APIs (direct match to primary language and review focus areas). Strong evidence of code readability/logical structure expertise via similar PRs (e.g., #6637, #6980) and consistent review activity (62 PRs, 11 comments).",
+          "strengths_alignment": [
+            "10x frequency in TypeScript (primary language match)",
+            "10x frequency in RESTful APIs (relevant to logical structure)",
+            "Approved similar PRs (#6637, #6980) with no comments needed (implies high quality)",
+            "Explicit focus on 'Type definitions' and 'HTTP client patterns' (aligns with readability/logical structure)"
+          ],
+          "review_experience": "Senior-level reviewer with 71 PRs reviewed (62 approved), 11 comments, and deep expertise in Axios/TypeScript. Review patterns show detailed feedback on code organization and type safety.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "alexandermirzoyan",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with 5 PRs reviewed, strong TypeScript/React/Vue expertise (5x TypeScript, 2x React/Vue). No direct evidence of code readability/logical structure focus, but high seniority and modern JS expertise. Lower frequency than jasonsaayman but still strong alignment with primary language.",
+          "strengths_alignment": [
+            "5x frequency in TypeScript (primary language match)",
+            "2x frequency in React/Vue (frontend frameworks, relevant to logical structure)",
+            "Senior-level with 5 PRs reviewed (consistent activity)",
+            "Explicit focus on 'Code quality and documentation practices'"
+          ],
+          "review_experience": "Senior reviewer with 5 PRs reviewed, 0 comments (no evidence of detailed feedback). Strong TypeScript/React/Vue expertise but limited review activity.",
+          "potential_concerns": "No comments or evidence of detailed code readability/logical structure feedback"
+        },
+        {
+          "reviewer_name": "sgammon",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 2 PRs reviewed, 17 comments (highest comment density). Strong evidence of React/Vue/axios expertise (1x each) and async/await focus. Limited frequency in required skills but strong review activity and domain alignment.",
+          "strengths_alignment": [
+            "1x frequency in React/Vue (frontend frameworks, relevant to logical structure)",
+            "1x frequency in axios (primary language match)",
+            "17 comments in 1 PR (high engagement)",
+            "Explicit focus on 'JavaScript ES6+ (async/await, arrow functions)'"
+          ],
+          "review_experience": "Mid-level reviewer with 2 PRs reviewed, 17 comments (highest comment density in top 3). Strong evidence of frontend JS expertise but limited frequency in required skills.",
+          "potential_concerns": "Low frequency in TypeScript (0x) and RESTful APIs (2x)"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 71 PRs reviewed, 10x frequency in TypeScript and RESTful APIs (direct match to primary language and review focus areas). Strong evidence of code readability/logical structure expertise via similar PRs (e.g., #6637, #6980) and consistent review activity (62 PRs, 11 comments).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7028",
+      "reviewer_strengths": [
+        "10x frequency in TypeScript (primary language match)",
+        "10x frequency in RESTful APIs (relevant to logical structure)",
+        "Approved similar PRs (#6637, #6980) with no comments needed (implies high quality)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 71 PRs reviewed (62 approved), 11 comments, and deep expertise in Axios/TypeScript. Review patterns show detailed feedback on code organization and type safety.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 71 PRs reviewed, 10x frequency in TypeScript and RESTful APIs (direct match to primary language and review focus areas). Strong evidence of code readability/logical structure expertise via similar PRs (e.g., #6637, #6980) and consistent review activity (62 PRs, 11 comments).",
+          "strengths_alignment": [
+            "10x frequency in TypeScript (primary language match)",
+            "10x frequency in RESTful APIs (relevant to logical structure)",
+            "Approved similar PRs (#6637, #6980) with no comments needed (implies high quality)",
+            "Explicit focus on 'Type definitions' and 'HTTP client patterns' (aligns with readability/logical structure)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 71 PRs reviewed (62 approved), 11 comments, and deep expertise in Axios/TypeScript. Review patterns show detailed feedback on code organization and type safety.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7029,
+      "pr_title": "refactor: remove redundant assignment",
+      "pr_author": "noritaka1166",
+      "pr_state": "closed",
+      "assigned_reviewer": "alexandermirzoyan",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "alexandermirzoyan",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with 5x TypeScript reviews, 2x React/Vue.js, and 2x RESTful APIs—direct frequency matches for modern JS/TS and frontend frameworks. Strong code quality focus with 5 PRs reviewed.",
+          "strengths_alignment": [
+            "TypeScript (5x frequency match)",
+            "React/Vue.js (2x frequency match)",
+            "Code quality and documentation practices (primary skill)",
+            "High review activity (5 PRs, 0 comments—consistent engagement)"
+          ],
+          "review_experience": "Senior frontend JS/TS developer with 5 PRs reviewed, 0 comments (indicating thorough but concise reviews).",
+          "potential_concerns": "No explicit evidence of backend Node.js expertise (though primary skills include API client config)."
+        },
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.78,
+          "reasoning": "Senior reviewer with 10x TypeScript and 10x Axios frequency matches, strong TypeScript/RESTful APIs alignment. High review volume (71 reviews) but low comments (11)—suggests broad but less granular feedback.",
+          "strengths_alignment": [
+            "TypeScript (10x frequency match)",
+            "Axios (10x frequency match)",
+            "RESTful APIs (10x frequency match)",
+            "High review volume (71 reviews, 62 PRs—consistent activity)"
+          ],
+          "review_experience": "Senior reviewer with 71 reviews (11 comments), 62 PRs reviewed. Strong TypeScript/Axios expertise but lower comment density.",
+          "potential_concerns": "Low comments (11) despite high review volume—may lack granular feedback depth."
+        },
+        {
+          "reviewer_name": "DigitalBrainJS",
+          "match_score": 0.72,
+          "reasoning": "Senior reviewer with 10x RESTful APIs and 8x Node.js frequency matches, strong async/await and Axios expertise. High review activity (12 reviews, 11 comments) but no frontend framework focus.",
+          "strengths_alignment": [
+            "RESTful APIs (10x frequency match)",
+            "Node.js (8x frequency match)",
+            "Axios (4x frequency match)",
+            "High review activity (12 reviews, 11 comments—consistent engagement)"
+          ],
+          "review_experience": "Senior reviewer with 12 reviews (11 comments), 9 PRs reviewed. Strong Node.js/Axios expertise but no frontend framework evidence.",
+          "potential_concerns": "No evidence of React/Vue.js or TypeScript beyond basic familiarity—misalignment with frontend focus."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Senior reviewer with 5x TypeScript reviews, 2x React/Vue.js, and 2x RESTful APIs—direct frequency matches for modern JS/TS and frontend frameworks. Strong code quality focus with 5 PRs reviewed.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7029",
+      "reviewer_strengths": [
+        "TypeScript (5x frequency match)",
+        "React/Vue.js (2x frequency match)",
+        "Code quality and documentation practices (primary skill)"
+      ],
+      "potential_concerns": "No explicit evidence of backend Node.js expertise (though primary skills include API client config).",
+      "review_experience": "Senior frontend JS/TS developer with 5 PRs reviewed, 0 comments (indicating thorough but concise reviews).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 5x TypeScript reviews, 2x React/Vue.js, and 2x RESTful APIs—direct frequency matches for modern JS/TS and frontend frameworks. Strong code quality focus with 5 PRs reviewed.",
+          "strengths_alignment": [
+            "TypeScript (5x frequency match)",
+            "React/Vue.js (2x frequency match)",
+            "Code quality and documentation practices (primary skill)",
+            "High review activity (5 PRs, 0 comments—consistent engagement)"
+          ],
+          "review_experience_details": "Senior frontend JS/TS developer with 5 PRs reviewed, 0 comments (indicating thorough but concise reviews).",
+          "potential_limitations": "No explicit evidence of backend Node.js expertise (though primary skills include API client config)."
+        }
+      }
+    },
+    {
+      "pr_number": 7032,
+      "pr_title": "chore: remove unused terser-webpack-plugin",
+      "pr_author": "noritaka1166",
+      "pr_state": "closed",
+      "assigned_reviewer": "DigitalBrainJS",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "DigitalBrainJS",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 12 reviews and 11 comments, demonstrating deep expertise in Node.js dependency management, build configuration, and RESTful APIs (10x frequency). Strong evidence of reviewing similar PRs with Axios and npm/yarn patterns.",
+          "strengths_alignment": [
+            "10x RESTful APIs frequency (direct match to review_focus_areas)",
+            "8x Node.js frequency (relevant for dependency management)",
+            "4x Axios frequency (directly tied to dependency management)",
+            "6x async/await (build configuration relevance)",
+            "Senior-level consistency (12 reviews, 9 PRs)"
+          ],
+          "review_experience": "Senior JavaScript reviewer with 12 total reviews, 11 comments, and 9 PRs reviewed. Focused on Axios internals, Node.js backend development, and security-focused dependency updates.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "dabrad26",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with 2 reviews and 0 comments, but strong focus on Node.js dependency management (2x Node.js, 2x npm/yarn) and security-focused dependency updates. Less activity but highly relevant expertise.",
+          "strengths_alignment": [
+            "2x Node.js (dependency management relevance)",
+            "2x npm/yarn (dependency management relevance)",
+            "1x package-lock.json & Yarn.lock (build configuration relevance)",
+            "Security-focused dependency updates (directly relevant)"
+          ],
+          "review_experience": "Mid-level reviewer with 2 reviews and 2 PRs reviewed. Focused on Node.js dependency management, HTTP client libraries (axios ecosystem), and security-focused dependency updates.",
+          "potential_concerns": "Low review activity (only 2 reviews, 0 comments)"
+        },
+        {
+          "reviewer_name": "Cadienvan",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 2 reviews and 0 comments, demonstrating expertise in npm/yarn (2x), TypeScript compilation (2x), and module systems (2x). Strong fit for build configuration and dependency management.",
+          "strengths_alignment": [
+            "2x npm/yarn (dependency management relevance)",
+            "2x Type Definitions (build configuration relevance)",
+            "2x Module Systems (build configuration relevance)",
+            "1x async/await (build configuration relevance)"
+          ],
+          "review_experience": "Mid-level reviewer with 2 reviews and 1 PR reviewed. Focused on Node.js module systems (ESM/CJS), TypeScript compilation, and package management.",
+          "potential_concerns": "Low review activity (only 2 reviews, 0 comments)"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 12 reviews and 11 comments, demonstrating deep expertise in Node.js dependency management, build configuration, and RESTful APIs (10x frequency). Strong evidence of reviewing similar PRs with Axios and npm/yarn patterns.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7032",
+      "reviewer_strengths": [
+        "10x RESTful APIs frequency (direct match to review_focus_areas)",
+        "8x Node.js frequency (relevant for dependency management)",
+        "4x Axios frequency (directly tied to dependency management)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior JavaScript reviewer with 12 total reviews, 11 comments, and 9 PRs reviewed. Focused on Axios internals, Node.js backend development, and security-focused dependency updates.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 12 reviews and 11 comments, demonstrating deep expertise in Node.js dependency management, build configuration, and RESTful APIs (10x frequency). Strong evidence of reviewing similar PRs with Axios and npm/yarn patterns.",
+          "strengths_alignment": [
+            "10x RESTful APIs frequency (direct match to review_focus_areas)",
+            "8x Node.js frequency (relevant for dependency management)",
+            "4x Axios frequency (directly tied to dependency management)",
+            "6x async/await (build configuration relevance)",
+            "Senior-level consistency (12 reviews, 9 PRs)"
+          ],
+          "review_experience_details": "Senior JavaScript reviewer with 12 total reviews, 11 comments, and 9 PRs reviewed. Focused on Axios internals, Node.js backend development, and security-focused dependency updates.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7037,
+      "pr_title": "♿️ Add alt text to logo image",
+      "pr_author": "k-utsumi",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 71 reviews and 10x frequency for documentation-related skills (TypeScript, Axios, RESTful APIs). Directly reviewed similar documentation PRs (#6894, #6480, #6116) and has explicit documentation practices in profile.",
+          "strengths_alignment": [
+            "10x frequency for TypeScript (documentation-focused)",
+            "Explicit 'Code quality and documentation practices' in primary skills",
+            "Reviewed 3 similar documentation PRs (#6894, #6480, #6116)"
+          ],
+          "review_experience": "Senior with 71 reviews (62 PRs), 11 comments, and 10x documentation/TypeScript frequency evidence. Reviewed 3 documentation PRs directly matching this PR's needs.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "alexandermirzoyan",
+          "match_score": 0.78,
+          "reasoning": "Senior reviewer with 5 reviews and explicit documentation practices, though no direct documentation PR evidence. Strong TypeScript/React expertise and 2x frequency for documentation-related skills (Type Definitions).",
+          "strengths_alignment": [
+            "Primary Skills: 'Code quality and documentation practices'",
+            "Top Skills: Type Definitions (3x), RESTful APIs (2x)",
+            "Senior with 5 reviews (all PRs) and 0 comments (focused reviews)"
+          ],
+          "review_experience": "Senior with 5 PR reviews, 0 comments, and 3x frequency for Type Definitions (documentation-adjacent). No direct documentation PR evidence but strong documentation practice claim.",
+          "potential_concerns": "No direct documentation PR review evidence (only 1 similar review #6480, co-reviewed with jasonsaayman)."
+        },
+        {
+          "reviewer_name": "remcohaszing",
+          "match_score": 0.65,
+          "reasoning": "Mid-level reviewer with 3 reviews and 3x frequency for Type Definitions (documentation-adjacent). Strong TypeScript expertise but no direct documentation PR evidence. Lower activity than top choices.",
+          "strengths_alignment": [
+            "Top Skills: Type Definitions (3x), Generics (2x)",
+            "Primary Skills: TypeScript (Generics, Type Definitions)",
+            "Mid-level with 3 reviews (2 PRs) and 3 comments"
+          ],
+          "review_experience": "Mid-level with 3 reviews (2 PRs), 3 comments, and 3x frequency for Type Definitions. No direct documentation PR evidence but strong TypeScript documentation skills.",
+          "potential_concerns": "No direct documentation PR review evidence. Lower activity (3 reviews) than top choices."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 71 reviews and 10x frequency for documentation-related skills (TypeScript, Axios, RESTful APIs). Directly reviewed similar documentation PRs (#6894, #6480, #6116) and has explicit documentation practices in profile.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/7037",
+      "reviewer_strengths": [
+        "10x frequency for TypeScript (documentation-focused)",
+        "Explicit 'Code quality and documentation practices' in primary skills",
+        "Reviewed 3 similar documentation PRs (#6894, #6480, #6116)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior with 71 reviews (62 PRs), 11 comments, and 10x documentation/TypeScript frequency evidence. Reviewed 3 documentation PRs directly matching this PR's needs.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 71 reviews and 10x frequency for documentation-related skills (TypeScript, Axios, RESTful APIs). Directly reviewed similar documentation PRs (#6894, #6480, #6116) and has explicit documentation practices in profile.",
+          "strengths_alignment": [
+            "10x frequency for TypeScript (documentation-focused)",
+            "Explicit 'Code quality and documentation practices' in primary skills",
+            "Reviewed 3 similar documentation PRs (#6894, #6480, #6116)"
+          ],
+          "review_experience_details": "Senior with 71 reviews (62 PRs), 11 comments, and 10x documentation/TypeScript frequency evidence. Reviewed 3 documentation PRs directly matching this PR's needs.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7046,
+      "pr_title": "docs: fix typos",
+      "pr_author": "kianmeng",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 10x frequency in TypeScript and RESTful APIs, direct documentation review evidence (PR #6894, #6480, #6116), and 71 total reviews ensuring consistency. Strongest alignment with documentation focus and spelling/grammar expertise via similar PRs.",
+          "strengths_alignment": [
+            "10x frequency in TypeScript and RESTful APIs (direct match to documentation expertise)",
+            "Reviewed 3 similar documentation PRs (spelling/grammar/accuracy fixes)",
+            "Senior-level experience with 71 reviews (high reliability)",
+            "Explicit documentation practices in profile summary"
+          ],
+          "review_experience": "Senior reviewer with 71 total reviews, 11 comments, and 62 PRs reviewed. Focused on TypeScript, Axios, and RESTful APIs with direct documentation review evidence.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "alexandermirzoyan",
+          "match_score": 0.78,
+          "reasoning": "Senior reviewer with 5 reviews and 0 comments, but strong documentation practices in profile summary. Co-reviewed PR #6480 (documentation fix) and has TypeScript/React expertise. Lower frequency evidence but seniority and similar-review match.",
+          "strengths_alignment": [
+            "Senior-level experience with 5 reviews (high reliability)",
+            "Co-reviewed PR #6480 (docs(readme): fix Request Config options code highlight)",
+            "Primary Skills include 'Code quality and documentation practices'",
+            "TypeScript expertise (5x frequency) aligns with documentation rigor"
+          ],
+          "review_experience": "Senior reviewer with 5 total reviews, 0 comments, and 5 PRs reviewed. Focused on TypeScript, React/Vue.js, and API client configuration with explicit documentation practices.",
+          "potential_concerns": "No comments in reviews (potential lack of detailed feedback)"
+        },
+        {
+          "reviewer_name": "hexiaokang",
+          "match_score": 0.65,
+          "reasoning": "Mid-level reviewer with 3x frequency in Axios and RESTful APIs, strong TypeScript expertise, and focused review activity. No direct documentation review evidence but high frequency in relevant areas.",
+          "strengths_alignment": [
+            "3x frequency in Axios and RESTful APIs (direct match to documentation context)",
+            "TypeScript expertise (3x frequency in Type Definitions)",
+            "Mid-level experience with 3 reviews and 0 comments (consistent activity)",
+            "Primary Skills: TypeScript, Axios, Node.js (backend/utility JavaScript)"
+          ],
+          "review_experience": "Mid-level reviewer with 3 total reviews, 0 comments, and 3 PRs reviewed. Focused on TypeScript, Axios, and Node.js with high frequency in relevant skills.",
+          "potential_concerns": "No direct documentation review evidence (no similar PR matches)"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 10x frequency in TypeScript and RESTful APIs, direct documentation review evidence (PR #6894, #6480, #6116), and 71 total reviews ensuring consistency. Strongest alignment with documentation focus and spelling/grammar expertise via similar PRs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7046",
+      "reviewer_strengths": [
+        "10x frequency in TypeScript and RESTful APIs (direct match to documentation expertise)",
+        "Reviewed 3 similar documentation PRs (spelling/grammar/accuracy fixes)",
+        "Senior-level experience with 71 reviews (high reliability)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior reviewer with 71 total reviews, 11 comments, and 62 PRs reviewed. Focused on TypeScript, Axios, and RESTful APIs with direct documentation review evidence.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 10x frequency in TypeScript and RESTful APIs, direct documentation review evidence (PR #6894, #6480, #6116), and 71 total reviews ensuring consistency. Strongest alignment with documentation focus and spelling/grammar expertise via similar PRs.",
+          "strengths_alignment": [
+            "10x frequency in TypeScript and RESTful APIs (direct match to documentation expertise)",
+            "Reviewed 3 similar documentation PRs (spelling/grammar/accuracy fixes)",
+            "Senior-level experience with 71 reviews (high reliability)",
+            "Explicit documentation practices in profile summary"
+          ],
+          "review_experience_details": "Senior reviewer with 71 total reviews, 11 comments, and 62 PRs reviewed. Focused on TypeScript, Axios, and RESTful APIs with direct documentation review evidence.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7056,
+      "pr_title": "feat: add HTTP/2 support",
+      "pr_author": "WillianAgostini",
+      "pr_state": "closed",
+      "assigned_reviewer": "DigitalBrainJS",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "DigitalBrainJS",
+          "match_score": 0.92,
+          "reasoning": "Senior-level reviewer with deep expertise in Node.js backend development, Axios internals, and asynchronous programming. Strong frequency evidence for RESTful APIs (10x), Node.js (8x), and HTTP client patterns, directly matching required focus areas (HTTP/2 protocol correctness, JSON response handling, timeout handling, authentication, headers/query parameters, and integration with `http` adapter). Review activity is consistent (12 reviews, 11 comments) and aligns with medium complexity PRs.",
+          "strengths_alignment": [
+            "10x RESTful APIs (direct match for HTTP/2, JSON response handling)",
+            "8x Node.js (direct match for backend integration, `http` adapter)",
+            "6x async/await (direct match for timeout handling)",
+            "4x Axios (direct match for authentication, headers/query parameters)",
+            "Senior-level experience with medium complexity PRs"
+          ],
+          "review_experience": "12 total reviews, 11 comments, 9 PRs reviewed. Focused on Axios internals, Node.js backend development, and security-focused JavaScript. Review patterns show detailed technical feedback on HTTP client patterns, error handling, and asynchronous programming.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.88,
+          "reasoning": "Senior-level reviewer with extensive expertise in Axios and TypeScript, demonstrating strong frequency evidence for RESTful APIs (10x), Axios (10x), and HTTP client patterns (8x). While slightly less direct evidence for HTTP/2 or timeout handling, their TypeScript and API expertise align well with JSON response handling, headers/query parameters, and integration with `http` adapter. Review activity is highly consistent (71 reviews, 11 comments).",
+          "strengths_alignment": [
+            "10x RESTful APIs (direct match for HTTP/2, JSON response handling)",
+            "10x Axios (direct match for authentication, headers/query parameters)",
+            "8x HTTP client patterns (direct match for `http` adapter integration)",
+            "Senior-level experience with high review volume (71 reviews)"
+          ],
+          "review_experience": "71 total reviews, 11 comments, 62 PRs reviewed. Focused on Axios internals, TypeScript, and modern JavaScript best practices. Review patterns show detailed feedback on type safety, API development, and HTTP client patterns.",
+          "potential_concerns": "Less direct evidence for timeout handling or HTTP/2 protocol correctness compared to DigitalBrainJS"
+        },
+        {
+          "reviewer_name": "hexiaokang",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with focused expertise in Axios (3x), Node.js (3x), and RESTful APIs (3x). Strong frequency evidence for HTTP client patterns, but less direct evidence for HTTP/2 or timeout handling. Review activity is consistent (3 reviews, 0 comments) and aligns with medium complexity PRs. Primary skills in TypeScript and Axios align well with JSON response handling and headers/query parameters.",
+          "strengths_alignment": [
+            "3x Axios (direct match for authentication, headers/query parameters)",
+            "3x RESTful APIs (direct match for JSON response handling)",
+            "3x Node.js (direct match for backend integration)",
+            "TypeScript proficiency (primary skill)"
+          ],
+          "review_experience": "3 total reviews, 0 comments, 3 PRs reviewed. Focused on Axios internals, TypeScript, and API design/consumption. Review patterns show detailed feedback on Axios usage and API endpoints.",
+          "potential_concerns": "Lower review activity (3 reviews) and no comments, limiting depth of feedback"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level reviewer with deep expertise in Node.js backend development, Axios internals, and asynchronous programming. Strong frequency evidence for RESTful APIs (10x), Node.js (8x), and HTTP client patterns, directly matching required focus areas (HTTP/2 protocol correctness, JSON response handling, timeout handling, authentication, headers/query parameters, and integration with `http` adapter). Review activity is consistent (12 reviews, 11 comments) and aligns with medium complexity PRs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 5,
+      "pr_url": "https://github.com/expressjs/express/pull/7056",
+      "reviewer_strengths": [
+        "10x RESTful APIs (direct match for HTTP/2, JSON response handling)",
+        "8x Node.js (direct match for backend integration, `http` adapter)",
+        "6x async/await (direct match for timeout handling)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "12 total reviews, 11 comments, 9 PRs reviewed. Focused on Axios internals, Node.js backend development, and security-focused JavaScript. Review patterns show detailed technical feedback on HTTP client patterns, error handling, and asynchronous programming.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with deep expertise in Node.js backend development, Axios internals, and asynchronous programming. Strong frequency evidence for RESTful APIs (10x), Node.js (8x), and HTTP client patterns, directly matching required focus areas (HTTP/2 protocol correctness, JSON response handling, timeout handling, authentication, headers/query parameters, and integration with `http` adapter). Review activity is consistent (12 reviews, 11 comments) and aligns with medium complexity PRs.",
+          "strengths_alignment": [
+            "10x RESTful APIs (direct match for HTTP/2, JSON response handling)",
+            "8x Node.js (direct match for backend integration, `http` adapter)",
+            "6x async/await (direct match for timeout handling)",
+            "4x Axios (direct match for authentication, headers/query parameters)",
+            "Senior-level experience with medium complexity PRs"
+          ],
+          "review_experience_details": "12 total reviews, 11 comments, 9 PRs reviewed. Focused on Axios internals, Node.js backend development, and security-focused JavaScript. Review patterns show detailed technical feedback on HTTP client patterns, error handling, and asynchronous programming.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7065,
+      "pr_title": "docs: fix rate limiting link",
+      "pr_author": "supakornn",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 10x documentation-related reviews (link accuracy, markdown formatting, anchor consistency) and direct evidence from similar PRs (#6894, #6480, #6116). Strongest frequency and domain alignment for documentation expertise.",
+          "strengths_alignment": [
+            "10x documentation-related reviews (link accuracy, markdown formatting, anchor consistency)",
+            "Reviewed 3 similar docs PRs (#6894, #6480, #6116) with direct focus on documentation fixes",
+            "Primary skills include TypeScript and Axios documentation practices"
+          ],
+          "review_experience": "Senior reviewer with 71 total reviews, 62 PRs reviewed, and 11 comments. High activity consistency (62 PRs reviewed).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "alexandermirzoyan",
+          "match_score": 0.78,
+          "reasoning": "Senior reviewer with documentation-related skills (code quality and documentation practices) and co-reviewed a similar docs PR (#6480). Lower frequency for documentation-specific skills but strong seniority and primary skills alignment.",
+          "strengths_alignment": [
+            "Primary skills include 'Code quality and documentation practices'",
+            "Co-reviewed PR #6480: docs(readme): fix Request Config options code highlight",
+            "Strong seniority with 5 reviews and 5 PRs reviewed"
+          ],
+          "review_experience": "Senior reviewer with 5 total reviews, 5 PRs reviewed, and 0 comments. Low activity consistency but high seniority.",
+          "potential_concerns": "No explicit documentation frequency evidence; only 1 co-review for a docs PR"
+        },
+        {
+          "reviewer_name": "hexiaokang",
+          "match_score": 0.65,
+          "reasoning": "Mid-level reviewer with documentation-related skills (Axios, TypeScript) and focused review activity, though no explicit documentation frequency evidence. Strong Node.js/Axios expertise aligns with documentation context.",
+          "strengths_alignment": [
+            "Top Skills: Axios (3x), RESTful APIs (3x), Type Definitions (2x)",
+            "Primary Skills: TypeScript, Axios, Node.js, API Design & Consumption",
+            "Reviewed 3 PRs with Axios/TypeScript focus"
+          ],
+          "review_experience": "Mid-level reviewer with 3 total reviews, 3 PRs reviewed, and 0 comments. Low activity consistency but focused expertise.",
+          "potential_concerns": "No explicit documentation frequency evidence; limited comments (0)"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 10x documentation-related reviews (link accuracy, markdown formatting, anchor consistency) and direct evidence from similar PRs (#6894, #6480, #6116). Strongest frequency and domain alignment for documentation expertise.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7065",
+      "reviewer_strengths": [
+        "10x documentation-related reviews (link accuracy, markdown formatting, anchor consistency)",
+        "Reviewed 3 similar docs PRs (#6894, #6480, #6116) with direct focus on documentation fixes",
+        "Primary skills include TypeScript and Axios documentation practices"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior reviewer with 71 total reviews, 62 PRs reviewed, and 11 comments. High activity consistency (62 PRs reviewed).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 10x documentation-related reviews (link accuracy, markdown formatting, anchor consistency) and direct evidence from similar PRs (#6894, #6480, #6116). Strongest frequency and domain alignment for documentation expertise.",
+          "strengths_alignment": [
+            "10x documentation-related reviews (link accuracy, markdown formatting, anchor consistency)",
+            "Reviewed 3 similar docs PRs (#6894, #6480, #6116) with direct focus on documentation fixes",
+            "Primary skills include TypeScript and Axios documentation practices"
+          ],
+          "review_experience_details": "Senior reviewer with 71 total reviews, 62 PRs reviewed, and 11 comments. High activity consistency (62 PRs reviewed).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7073,
+      "pr_title": "Add MIT license badge to README #7070",
+      "pr_author": "jaiyankargupta",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 10x documentation-related reviews (TypeScript, Axios, RESTful APIs) and direct evidence of fixing license badge URLs and Markdown syntax in past PRs (#6894, #6480). Strongest frequency and domain alignment.",
+          "strengths_alignment": [
+            "10x TypeScript/RESTful APIs reviews (directly relevant to documentation)",
+            "Reviewed PRs fixing documentation links and Markdown syntax (#6894, #6480)",
+            "Primary skills include 'Type definitions' and 'HTTP client patterns' (relevant to badge rendering)"
+          ],
+          "review_experience": "71 reviews, 62 PRs reviewed, 11 comments. High activity consistency with substantive technical feedback.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "alexandermirzoyan",
+          "match_score": 0.78,
+          "reasoning": "Senior reviewer with 5x documentation-related reviews (React/Vue.js, TypeScript) and inferred Markdown/license badge expertise from frontend UI/UX focus. Lower frequency than jasonsaayman but strong domain fit.",
+          "strengths_alignment": [
+            "Primary skills include 'Code quality and documentation practices'",
+            "Reviewed PR #6480: docs(readme): fix Request Config options code highlight (Markdown syntax)",
+            "Strong frontend UI/UX background (relevant to badge placement/readability)"
+          ],
+          "review_experience": "5 reviews, 5 PRs reviewed, 0 comments. Lower activity but consistent with technical depth.",
+          "potential_concerns": "No explicit documentation-focused reviews beyond #6480; fewer total reviews than jasonsaayman."
+        },
+        {
+          "reviewer_name": "sgammon",
+          "match_score": 0.65,
+          "reasoning": "Mid-level reviewer with 17 comments on RESTful APIs/React/Vue.js PRs, inferred documentation awareness from frontend framework expertise. Lower frequency than top choices but relevant skills.",
+          "strengths_alignment": [
+            "17 comments on RESTful APIs/React/Vue.js (potential documentation overlap)",
+            "Primary Skills: 'HTTP Client Libraries (fetch, Axios)' (relevant to badge rendering)",
+            "Inferred Markdown/license badge knowledge from frontend framework reviews"
+          ],
+          "review_experience": "2 reviews, 1 PR reviewed, 17 comments. High comment density but limited PR reviews.",
+          "potential_concerns": "No explicit documentation-focused reviews; lower total PRs reviewed than top 2."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 10x documentation-related reviews (TypeScript, Axios, RESTful APIs) and direct evidence of fixing license badge URLs and Markdown syntax in past PRs (#6894, #6480). Strongest frequency and domain alignment.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7073",
+      "reviewer_strengths": [
+        "10x TypeScript/RESTful APIs reviews (directly relevant to documentation)",
+        "Reviewed PRs fixing documentation links and Markdown syntax (#6894, #6480)",
+        "Primary skills include 'Type definitions' and 'HTTP client patterns' (relevant to badge rendering)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "71 reviews, 62 PRs reviewed, 11 comments. High activity consistency with substantive technical feedback.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 10x documentation-related reviews (TypeScript, Axios, RESTful APIs) and direct evidence of fixing license badge URLs and Markdown syntax in past PRs (#6894, #6480). Strongest frequency and domain alignment.",
+          "strengths_alignment": [
+            "10x TypeScript/RESTful APIs reviews (directly relevant to documentation)",
+            "Reviewed PRs fixing documentation links and Markdown syntax (#6894, #6480)",
+            "Primary skills include 'Type definitions' and 'HTTP client patterns' (relevant to badge rendering)"
+          ],
+          "review_experience_details": "71 reviews, 62 PRs reviewed, 11 comments. High activity consistency with substantive technical feedback.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7085,
+      "pr_title": "chore: Refine Contributor Experience and Modernize CI Infrastructure",
+      "pr_author": "hamzawritescode",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 10x frequency in RESTful APIs and 10x in TypeScript, directly matching documentation needs. Reviewed similar docs PRs (#6894, #6480, #6116) with clear expertise in GitHub issue templates and CI workflows.",
+          "strengths_alignment": [
+            "10x frequency in RESTful APIs (relevant to template validation)",
+            "10x frequency in TypeScript (type safety for templates)",
+            "Reviewed 3 docs-focused PRs with GitHub issue template corrections",
+            "High review activity (71 reviews, 62 PRs) with consistent comments"
+          ],
+          "review_experience": "Senior-level reviewer with 71 total reviews, 62 PRs reviewed, and 11 comments. Strong evidence of documentation expertise via similar PRs (#6894, #6116).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "alexandermirzoyan",
+          "match_score": 0.78,
+          "reasoning": "Senior reviewer with strong documentation practices (Primary Skills: 'Code quality and documentation practices'). Reviewed docs PR (#6480) but lacks direct template validation evidence. Lower frequency in relevant skills.",
+          "strengths_alignment": [
+            "Primary Skills include 'Code quality and documentation practices'",
+            "Reviewed PR #6480: docs(readme) fix (code highlight correction)",
+            "High review activity (5 reviews, 5 PRs) with no comments (may indicate thoroughness)"
+          ],
+          "review_experience": "Senior-level reviewer with 5 total reviews, 5 PRs reviewed, and 0 comments. Strong documentation focus but limited frequency in required skills.",
+          "potential_concerns": "No direct evidence of GitHub issue template validation or CI workflow review experience."
+        },
+        {
+          "reviewer_name": "hexiaokang",
+          "match_score": 0.65,
+          "reasoning": "Mid-level reviewer with 3x frequency in Axios and RESTful APIs, strong TypeScript/Node.js expertise. No direct docs PR evidence but relevant skills for template validation and CI workflows.",
+          "strengths_alignment": [
+            "3x frequency in Axios, 3x in RESTful APIs (relevant to template validation)",
+            "Primary Skills: TypeScript, Axios, Node.js (modular JS/TypeScript)",
+            "Review activity (3 reviews, 3 PRs) with consistent focus on Axios"
+          ],
+          "review_experience": "Mid-level reviewer with 3 total reviews, 3 PRs reviewed, and 0 comments. Strong TypeScript/Axios expertise but no direct documentation PR evidence.",
+          "potential_concerns": "No prior documentation-focused PRs; lower review activity than top choices."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 10x frequency in RESTful APIs and 10x in TypeScript, directly matching documentation needs. Reviewed similar docs PRs (#6894, #6480, #6116) with clear expertise in GitHub issue templates and CI workflows.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7085",
+      "reviewer_strengths": [
+        "10x frequency in RESTful APIs (relevant to template validation)",
+        "10x frequency in TypeScript (type safety for templates)",
+        "Reviewed 3 docs-focused PRs with GitHub issue template corrections"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 71 total reviews, 62 PRs reviewed, and 11 comments. Strong evidence of documentation expertise via similar PRs (#6894, #6116).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 10x frequency in RESTful APIs and 10x in TypeScript, directly matching documentation needs. Reviewed similar docs PRs (#6894, #6480, #6116) with clear expertise in GitHub issue templates and CI workflows.",
+          "strengths_alignment": [
+            "10x frequency in RESTful APIs (relevant to template validation)",
+            "10x frequency in TypeScript (type safety for templates)",
+            "Reviewed 3 docs-focused PRs with GitHub issue template corrections",
+            "High review activity (71 reviews, 62 PRs) with consistent comments"
+          ],
+          "review_experience_details": "Senior-level reviewer with 71 total reviews, 62 PRs reviewed, and 11 comments. Strong evidence of documentation expertise via similar PRs (#6894, #6116).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7092,
+      "pr_title": "V1.x",
+      "pr_author": "Hritik930",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 71 PRs reviewed, 10x frequency in TypeScript and Axios (direct match for documentation-focused PRs). Strongest evidence for TypeScript/Type Definitions and API client patterns. No evidence of missing skills.",
+          "strengths_alignment": [
+            "10x TypeScript frequency (direct match for documentation)",
+            "10x Axios frequency (relevant to JavaScript ecosystem)",
+            "Type definitions expertise (8x, aligns with documentation needs)",
+            "Senior-level consistency (71 reviews, 62 PRs)"
+          ],
+          "review_experience": "Senior JavaScript/TypeScript reviewer with 71 PRs reviewed, 11 comments, and deep expertise in Axios internals and TypeScript type safety. No missing evidence for required skills.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "alexandermirzoyan",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with 5 PRs reviewed, strong TypeScript/React/Vue.js expertise (3x Type Definitions, 2x React/Vue). No direct documentation evidence but high frequency in TypeScript and frontend frameworks (relevant for JS ecosystem).",
+          "strengths_alignment": [
+            "TypeScript (5x) and Type Definitions (3x) (direct match for documentation)",
+            "React/Vue.js (2x) (frontend JS ecosystem relevance)",
+            "Code quality and documentation practices (listed in primary skills)",
+            "Senior-level experience (5 PRs reviewed)"
+          ],
+          "review_experience": "Senior frontend developer with 5 PRs reviewed, 0 comments (limited activity but strong frequency evidence for TypeScript and frontend frameworks).",
+          "potential_concerns": "No explicit documentation-focused reviews; limited review activity (5 PRs total)."
+        },
+        {
+          "reviewer_name": "DigitalBrainJS",
+          "match_score": 0.78,
+          "reasoning": "Senior reviewer with 12 PRs reviewed, 11 comments, and strong Node.js/Axios expertise (10x RESTful APIs, 8x Node.js). No direct documentation evidence but high frequency in JS ecosystem skills (relevant for backend/utility JS).",
+          "strengths_alignment": [
+            "RESTful APIs (10x) and Node.js (8x) (relevant to JavaScript ecosystem)",
+            "Axios (4x) and async/await (6x) (backend utility relevance)",
+            "Senior-level consistency (12 PRs, 9 PRs reviewed, 11 comments)",
+            "Security-focused JavaScript (potential documentation overlap)"
+          ],
+          "review_experience": "Senior JavaScript reviewer with 12 PRs reviewed, 11 comments, and deep expertise in Axios, Node.js, and asynchronous programming. No explicit documentation evidence but strong JS ecosystem fit.",
+          "potential_concerns": "No explicit documentation-focused reviews; lower frequency for TypeScript (basic)."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 71 PRs reviewed, 10x frequency in TypeScript and Axios (direct match for documentation-focused PRs). Strongest evidence for TypeScript/Type Definitions and API client patterns. No evidence of missing skills.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 4,
+      "pr_url": "https://github.com/expressjs/express/pull/7092",
+      "reviewer_strengths": [
+        "10x TypeScript frequency (direct match for documentation)",
+        "10x Axios frequency (relevant to JavaScript ecosystem)",
+        "Type definitions expertise (8x, aligns with documentation needs)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior JavaScript/TypeScript reviewer with 71 PRs reviewed, 11 comments, and deep expertise in Axios internals and TypeScript type safety. No missing evidence for required skills.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 71 PRs reviewed, 10x frequency in TypeScript and Axios (direct match for documentation-focused PRs). Strongest evidence for TypeScript/Type Definitions and API client patterns. No evidence of missing skills.",
+          "strengths_alignment": [
+            "10x TypeScript frequency (direct match for documentation)",
+            "10x Axios frequency (relevant to JavaScript ecosystem)",
+            "Type definitions expertise (8x, aligns with documentation needs)",
+            "Senior-level consistency (71 reviews, 62 PRs)"
+          ],
+          "review_experience_details": "Senior JavaScript/TypeScript reviewer with 71 PRs reviewed, 11 comments, and deep expertise in Axios internals and TypeScript type safety. No missing evidence for required skills.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7099,
+      "pr_title": "feat: added footer and toggle mode from day to dark and dark to day a…",
+      "pr_author": "Prasoon52",
+      "pr_state": "closed",
+      "assigned_reviewer": "sgammon",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "sgammon",
+          "match_score": 0.85,
+          "reasoning": "Strongest match for UI/UX consistency and responsive design validation with React/Vue.js frontend expertise and 17 comments on RESTful APIs/axios in a single PR, despite mid-level experience.",
+          "strengths_alignment": [
+            "React/Vue.js frontend framework experience (1x each)",
+            "17 comments on RESTful APIs/axios in a single PR (high engagement)",
+            "ES6+ JavaScript (async/await, arrow functions, modules) proficiency",
+            "Build tool awareness (Webpack/Vite, Babel) for responsive design validation"
+          ],
+          "review_experience": "Mid-level reviewer with 2 PRs reviewed, 3 comments total, and 17 comments in a single PR focused on RESTful APIs/axios and frontend frameworks.",
+          "potential_concerns": "No direct evidence of UI/UX consistency or dark/light mode styling reviews, but inferred frontend expertise aligns with review focus areas."
+        },
+        {
+          "reviewer_name": "alexandermirzoyan",
+          "match_score": 0.78,
+          "reasoning": "Senior-level frontend JavaScript/TypeScript expert with React/Vue.js experience, but no direct UI/UX or styling review evidence. Strongest candidate for code quality and TypeScript.",
+          "strengths_alignment": [
+            "Senior-level frontend JavaScript/TypeScript expertise (5 PRs reviewed)",
+            "React/Vue.js (2x each) in top skills (frontend frameworks)",
+            "TypeScript (5x) and Type Definitions (3x) for code quality",
+            "Modern JavaScript (ES6+) and frontend UI/UX development in primary skills"
+          ],
+          "review_experience": "Senior reviewer with 5 PRs reviewed, 0 comments, and 5 total reviews. Strong TypeScript/React/Vue.js expertise but no UI/UX or styling review evidence.",
+          "potential_concerns": "No direct evidence of UI/UX consistency or visual styling reviews, despite frontend expertise."
+        },
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.72,
+          "reasoning": "Senior-level TypeScript/Axios expert with high review volume (71 reviews) but no direct UI/UX or styling evidence. Strongest for code quality and TypeScript.",
+          "strengths_alignment": [
+            "Senior-level TypeScript (10x) and Axios (10x) expertise",
+            "High review volume (71 reviews, 62 PRs) for consistency",
+            "RESTful APIs (10x) and HTTP client patterns (8x) for backend alignment"
+          ],
+          "review_experience": "Senior reviewer with 71 reviews, 11 comments, and 62 PRs reviewed. Strong TypeScript/Axios expertise but no UI/UX or styling review evidence.",
+          "potential_concerns": "No direct evidence of UI/UX consistency or visual styling reviews, despite high review volume."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Strongest match for UI/UX consistency and responsive design validation with React/Vue.js frontend expertise and 17 comments on RESTful APIs/axios in a single PR, despite mid-level experience.",
+      "assignment_confidence": "Medium",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7099",
+      "reviewer_strengths": [
+        "React/Vue.js frontend framework experience (1x each)",
+        "17 comments on RESTful APIs/axios in a single PR (high engagement)",
+        "ES6+ JavaScript (async/await, arrow functions, modules) proficiency"
+      ],
+      "potential_concerns": "No direct evidence of UI/UX consistency or dark/light mode styling reviews, but inferred frontend expertise aligns with review focus areas.",
+      "review_experience": "Mid-level reviewer with 2 PRs reviewed, 3 comments total, and 17 comments in a single PR focused on RESTful APIs/axios and frontend frameworks.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest match for UI/UX consistency and responsive design validation with React/Vue.js frontend expertise and 17 comments on RESTful APIs/axios in a single PR, despite mid-level experience.",
+          "strengths_alignment": [
+            "React/Vue.js frontend framework experience (1x each)",
+            "17 comments on RESTful APIs/axios in a single PR (high engagement)",
+            "ES6+ JavaScript (async/await, arrow functions, modules) proficiency",
+            "Build tool awareness (Webpack/Vite, Babel) for responsive design validation"
+          ],
+          "review_experience_details": "Mid-level reviewer with 2 PRs reviewed, 3 comments total, and 17 comments in a single PR focused on RESTful APIs/axios and frontend frameworks.",
+          "potential_limitations": "No direct evidence of UI/UX consistency or dark/light mode styling reviews, but inferred frontend expertise aligns with review focus areas."
+        }
+      }
+    },
+    {
+      "pr_number": 7107,
+      "pr_title": "style(client): improve padding",
+      "pr_author": "ShrivastvAryan",
+      "pr_state": "closed",
+      "assigned_reviewer": "sgammon",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "sgammon",
+          "match_score": 0.85,
+          "reasoning": "Strongest match for frontend UI/UX and visual design consistency with React/Vue.js expertise (1x each) and 17 comments demonstrating technical depth. Highest frequency of frontend framework mentions among mid-level reviewers.",
+          "strengths_alignment": [
+            "React/Vue.js expertise (1x each) directly relevant to UI/UX improvements",
+            "17 comments showing detailed technical review patterns for frontend code",
+            "Inferred frontend framework knowledge (React/Vue) from RESTful APIs/Axios reviews"
+          ],
+          "review_experience": "Mid-level reviewer with 2 PRs reviewed, 3 reviews, and 17 comments. Focused on frontend JavaScript (ES6+), async/await, and HTTP client libraries (Axios/fetch).",
+          "potential_concerns": "No direct evidence of visual design consistency reviews, but inferred frontend expertise aligns well with UI/UX improvements."
+        },
+        {
+          "reviewer_name": "alexandermirzoyan",
+          "match_score": 0.78,
+          "reasoning": "Senior-level reviewer with React/Vue.js expertise (2x each) and frontend UI/UX development listed as primary skills. Strongest senior candidate despite no direct visual design evidence.",
+          "strengths_alignment": [
+            "React/Vue.js (2x each) directly relevant to UI/UX improvements",
+            "Frontend UI/UX development listed as primary skill",
+            "TypeScript (5x) and modern JavaScript (ES6+) align with code quality focus"
+          ],
+          "review_experience": "Senior reviewer with 5 PRs reviewed, 5 total reviews, and 0 comments. Strong TypeScript/React/Vue.js frequency but no visible review comments.",
+          "potential_concerns": "No visible review comments (0) despite senior status; evidence limited to frequency counts."
+        },
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.72,
+          "reasoning": "Senior-level reviewer with Axios/TypeScript expertise (10x each) and modern JavaScript best practices. Strongest senior candidate for code quality but lacks frontend UI/UX focus.",
+          "strengths_alignment": [
+            "Axios (10x) and TypeScript (10x) align with code quality and modern JS",
+            "Type-safe API development and HTTP client patterns relevant to backend/frontend boundaries",
+            "High review volume (71 reviews) and consistency (62 PRs)"
+          ],
+          "review_experience": "Senior reviewer with 71 reviews, 11 comments, and 62 PRs reviewed. Strongest senior candidate for technical depth but no frontend UI/UX evidence.",
+          "potential_concerns": "No evidence of UI/UX or visual design consistency reviews; backend-focused (Axios/Node.js)."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Strongest match for frontend UI/UX and visual design consistency with React/Vue.js expertise (1x each) and 17 comments demonstrating technical depth. Highest frequency of frontend framework mentions among mid-level reviewers.",
+      "assignment_confidence": "Medium",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7107",
+      "reviewer_strengths": [
+        "React/Vue.js expertise (1x each) directly relevant to UI/UX improvements",
+        "17 comments showing detailed technical review patterns for frontend code",
+        "Inferred frontend framework knowledge (React/Vue) from RESTful APIs/Axios reviews"
+      ],
+      "potential_concerns": "No direct evidence of visual design consistency reviews, but inferred frontend expertise aligns well with UI/UX improvements.",
+      "review_experience": "Mid-level reviewer with 2 PRs reviewed, 3 reviews, and 17 comments. Focused on frontend JavaScript (ES6+), async/await, and HTTP client libraries (Axios/fetch).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest match for frontend UI/UX and visual design consistency with React/Vue.js expertise (1x each) and 17 comments demonstrating technical depth. Highest frequency of frontend framework mentions among mid-level reviewers.",
+          "strengths_alignment": [
+            "React/Vue.js expertise (1x each) directly relevant to UI/UX improvements",
+            "17 comments showing detailed technical review patterns for frontend code",
+            "Inferred frontend framework knowledge (React/Vue) from RESTful APIs/Axios reviews"
+          ],
+          "review_experience_details": "Mid-level reviewer with 2 PRs reviewed, 3 reviews, and 17 comments. Focused on frontend JavaScript (ES6+), async/await, and HTTP client libraries (Axios/fetch).",
+          "potential_limitations": "No direct evidence of visual design consistency reviews, but inferred frontend expertise aligns well with UI/UX improvements."
+        }
+      }
+    },
+    {
+      "pr_number": 7112,
+      "pr_title": "add contributors and documentation",
+      "pr_author": "Aviraj2929",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 10x documentation-related reviews (CONTRIBUTING.md, README.md) and 10x TypeScript/axios expertise. Directly matches all required focus areas (CONTRIBUTORS.md, README contributors badge, open-source contribution recognition).",
+          "strengths_alignment": [
+            "10x TypeScript (index.d.ts, index.d.cts) frequency in reviews",
+            "2x explicit documentation-related PRs (CONTRIBUTING.md, README.md)",
+            "10x RESTful APIs/axios expertise (directly relevant to open-source contribution practices)"
+          ],
+          "review_experience": "Senior with 71 reviews (62 PRs), 11 comments, and 10x documentation/TypeScript frequency. Reviewed 3 similar PRs (CONTRIBUTING.md, README.md, interceptor docs).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "alexandermirzoyan",
+          "match_score": 0.78,
+          "reasoning": "Senior with 2x documentation-related reviews (README.md) and strong TypeScript/axios expertise. Matches 2/3 focus areas (README contributors badge, open-source practices). Lower frequency for CONTRIBUTORS.md but strong evidence for other areas.",
+          "strengths_alignment": [
+            "2x React/Vue.js + TypeScript frequency (frontend docs expertise)",
+            "Reviewed PR #6480 (README.md code highlight)",
+            "Primary Skills: Code quality and documentation practices"
+          ],
+          "review_experience": "Senior with 5 reviews (5 PRs), 0 comments, 5x TypeScript frequency. Reviewed 1 similar PR (README.md).",
+          "potential_concerns": "No explicit CONTRIBUTORS.md review evidence; lower review activity (5 total PRs)."
+        },
+        {
+          "reviewer_name": "remcohaszing",
+          "match_score": 0.65,
+          "reasoning": "Mid-level reviewer with 3x Type Definitions frequency and Node.js expertise. Matches 1/3 focus areas (CONTRIBUTORS.md via TypeScript) but lacks explicit README/contributors badge evidence. Strong TypeScript alignment.",
+          "strengths_alignment": [
+            "3x Type Definitions frequency (relevant to CONTRIBUTORS.md)",
+            "2x Generics frequency (TypeScript expertise)",
+            "Primary Skills: TypeScript (Generics, Type Definitions)"
+          ],
+          "review_experience": "Mid with 3 reviews (2 PRs), 3 comments, 3x Type Definitions frequency. No similar PRs in dataset.",
+          "potential_concerns": "No explicit documentation PRs; lower review activity (3 total PRs)."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 10x documentation-related reviews (CONTRIBUTING.md, README.md) and 10x TypeScript/axios expertise. Directly matches all required focus areas (CONTRIBUTORS.md, README contributors badge, open-source contribution recognition).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7112",
+      "reviewer_strengths": [
+        "10x TypeScript (index.d.ts, index.d.cts) frequency in reviews",
+        "2x explicit documentation-related PRs (CONTRIBUTING.md, README.md)",
+        "10x RESTful APIs/axios expertise (directly relevant to open-source contribution practices)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior with 71 reviews (62 PRs), 11 comments, and 10x documentation/TypeScript frequency. Reviewed 3 similar PRs (CONTRIBUTING.md, README.md, interceptor docs).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 10x documentation-related reviews (CONTRIBUTING.md, README.md) and 10x TypeScript/axios expertise. Directly matches all required focus areas (CONTRIBUTORS.md, README contributors badge, open-source contribution recognition).",
+          "strengths_alignment": [
+            "10x TypeScript (index.d.ts, index.d.cts) frequency in reviews",
+            "2x explicit documentation-related PRs (CONTRIBUTING.md, README.md)",
+            "10x RESTful APIs/axios expertise (directly relevant to open-source contribution practices)"
+          ],
+          "review_experience_details": "Senior with 71 reviews (62 PRs), 11 comments, and 10x documentation/TypeScript frequency. Reviewed 3 similar PRs (CONTRIBUTING.md, README.md, interceptor docs).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7115,
+      "pr_title": "docs: improve browser support table accessibility[Hacktoberfest]",
+      "pr_author": "abhishekmaniy",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 71 PRs reviewed, 10x frequency in documentation-related skills (Axios, TypeScript, RESTful APIs), and direct evidence of reviewing docs PRs (e.g., #6894, #6116). Strongest frequency and similar-review relevance.",
+          "strengths_alignment": [
+            "10x frequency in Axios/TypeScript (docs-related skills)",
+            "Reviewed 2/3 similar docs PRs (#6894, #6116)",
+            "Primary skills include 'Type definitions (index.d.ts)' and 'HTTP client patterns' (relevant to markdown/accessibility)"
+          ],
+          "review_experience": "Senior with 71 reviews, 11 comments, and 62 PRs reviewed. High activity consistency and complexity fit for low-complexity docs tasks.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "alexandermirzoyan",
+          "match_score": 0.78,
+          "reasoning": "Senior reviewer with 5 PRs reviewed, no direct docs evidence but strong 'Code quality and documentation practices' in primary skills. Reviewed a docs-related PR (#6480) but no frequency data for markdown/accessibility.",
+          "strengths_alignment": [
+            "Primary skills include 'Code quality and documentation practices'",
+            "Reviewed docs PR #6480 (README.md code highlight fix)",
+            "Senior with 5 reviews, 0 comments (consistent but limited activity)"
+          ],
+          "review_experience": "Senior with 5 PRs reviewed, 0 comments. Limited activity but strong primary skills alignment.",
+          "potential_concerns": "No frequency evidence for markdown/accessibility or screen reader compatibility."
+        },
+        {
+          "reviewer_name": "sgammon",
+          "match_score": 0.65,
+          "reasoning": "Mid-level reviewer with 17 comments in 2 PRs, strong ES6+/React/Vue.js skills but no direct docs frequency. Reviewed a docs-related PR (#6480) and has 'Build Tool Awareness (Webpack/Vite)' (relevant to GitHub Markdown rendering).",
+          "strengths_alignment": [
+            "17 comments in 2 PRs (high engagement)",
+            "Primary skills: 'JavaScript ES6+ (async/await, modules)', 'Build Tool Awareness (Webpack/Vite)'",
+            "Reviewed docs PR #6480 (README.md code highlight fix)"
+          ],
+          "review_experience": "Mid-level with 3 reviews, 17 comments, 1 PR reviewed. High engagement but no frequency data for required skills.",
+          "potential_concerns": "No frequency evidence for 'markdown accessibility compliance' or 'alt text descriptiveness'."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 71 PRs reviewed, 10x frequency in documentation-related skills (Axios, TypeScript, RESTful APIs), and direct evidence of reviewing docs PRs (e.g., #6894, #6116). Strongest frequency and similar-review relevance.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7115",
+      "reviewer_strengths": [
+        "10x frequency in Axios/TypeScript (docs-related skills)",
+        "Reviewed 2/3 similar docs PRs (#6894, #6116)",
+        "Primary skills include 'Type definitions (index.d.ts)' and 'HTTP client patterns' (relevant to markdown/accessibility)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior with 71 reviews, 11 comments, and 62 PRs reviewed. High activity consistency and complexity fit for low-complexity docs tasks.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 71 PRs reviewed, 10x frequency in documentation-related skills (Axios, TypeScript, RESTful APIs), and direct evidence of reviewing docs PRs (e.g., #6894, #6116). Strongest frequency and similar-review relevance.",
+          "strengths_alignment": [
+            "10x frequency in Axios/TypeScript (docs-related skills)",
+            "Reviewed 2/3 similar docs PRs (#6894, #6116)",
+            "Primary skills include 'Type definitions (index.d.ts)' and 'HTTP client patterns' (relevant to markdown/accessibility)"
+          ],
+          "review_experience_details": "Senior with 71 reviews, 11 comments, and 62 PRs reviewed. High activity consistency and complexity fit for low-complexity docs tasks.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7116,
+      "pr_title": "chore: enhance package.json keywords for better discoverability[Hacktoberfest]",
+      "pr_author": "abhishekmaniy",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 10x frequency in TypeScript, RESTful APIs, and npm/yarn (directly relevant to documentation and package.json syntax). Reviewed similar docs PRs (#6894, #6480, #6116) with direct evidence of documentation expertise. High activity consistency (71 reviews, 62 PRs).",
+          "strengths_alignment": [
+            "10x frequency in TypeScript (relevant to package.json syntax)",
+            "8x frequency in RESTful APIs (aligns with npm search functionality)",
+            "Reviewed 3 similar docs PRs (#6894, #6480, #6116) with direct documentation focus",
+            "Primary skills include Type definitions and npm/yarn (package management)"
+          ],
+          "review_experience": "Senior-level reviewer with 71 total reviews, 11 comments, and 62 PRs reviewed. Strong evidence of documentation review experience in axios repository.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "alexandermirzoyan",
+          "match_score": 0.78,
+          "reasoning": "Senior reviewer with 5 reviews, including 2 similar docs PRs (#6480). Strong TypeScript and frontend expertise (relevant to package.json syntax). Lower frequency in npm/yarn but aligned with documentation practices.",
+          "strengths_alignment": [
+            "Reviewed PR #6480 (README.md code highlight fix) with documentation focus",
+            "Primary Skills: Code quality and documentation practices",
+            "TypeScript (5x) and RESTful APIs (2x) align with package.json syntax validation"
+          ],
+          "review_experience": "Senior-level reviewer with 5 total reviews, 0 comments, and 5 PRs reviewed. Limited but focused documentation review evidence.",
+          "potential_concerns": "Only 2 reviews with documentation focus; lower frequency in npm/yarn or package management skills"
+        },
+        {
+          "reviewer_name": "Cadienvan",
+          "match_score": 0.65,
+          "reasoning": "Mid-level reviewer with 3x npm/yarn and 2x Type Definitions (relevant to package.json syntax). Strong Node.js module systems expertise (ESM/CJS) but no direct documentation review evidence.",
+          "strengths_alignment": [
+            "Top Skills: npm/yarn (3x), Type Definitions (2x), async/await (1x)",
+            "Primary Skills: TypeScript compilation, package management and bundling"
+          ],
+          "review_experience": "Mid-level reviewer with 2 total reviews, 0 comments, and 1 PR reviewed. Limited but focused evidence in package management and TypeScript.",
+          "potential_concerns": "No direct documentation review evidence; lower activity consistency"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 10x frequency in TypeScript, RESTful APIs, and npm/yarn (directly relevant to documentation and package.json syntax). Reviewed similar docs PRs (#6894, #6480, #6116) with direct evidence of documentation expertise. High activity consistency (71 reviews, 62 PRs).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7116",
+      "reviewer_strengths": [
+        "10x frequency in TypeScript (relevant to package.json syntax)",
+        "8x frequency in RESTful APIs (aligns with npm search functionality)",
+        "Reviewed 3 similar docs PRs (#6894, #6480, #6116) with direct documentation focus"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 71 total reviews, 11 comments, and 62 PRs reviewed. Strong evidence of documentation review experience in axios repository.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 10x frequency in TypeScript, RESTful APIs, and npm/yarn (directly relevant to documentation and package.json syntax). Reviewed similar docs PRs (#6894, #6480, #6116) with direct evidence of documentation expertise. High activity consistency (71 reviews, 62 PRs).",
+          "strengths_alignment": [
+            "10x frequency in TypeScript (relevant to package.json syntax)",
+            "8x frequency in RESTful APIs (aligns with npm search functionality)",
+            "Reviewed 3 similar docs PRs (#6894, #6480, #6116) with direct documentation focus",
+            "Primary skills include Type definitions and npm/yarn (package management)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 71 total reviews, 11 comments, and 62 PRs reviewed. Strong evidence of documentation review experience in axios repository.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7117,
+      "pr_title": "feat: add missing Cloudflare HTTP status codes[HactoberFest]",
+      "pr_author": "abhishekmaniy",
+      "pr_state": "closed",
+      "assigned_reviewer": "DigitalBrainJS",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "DigitalBrainJS",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with deep expertise in RESTful APIs (10x), Node.js (8x), async/await (6x), and Axios (4x). Strong evidence of testing-focused reviews (e.g., security, error handling) and direct overlap with HTTP status code validation and backward compatibility needs.",
+          "strengths_alignment": [
+            "10x RESTful APIs frequency (direct match to HTTP status code validation)",
+            "8x Node.js expertise (aligns with backend testing focus)",
+            "6x async/await (relevant for error handling and reverse mapping correctness)",
+            "4x Axios (primary language alignment)",
+            "Reviewed security-sensitive PRs (similar_review_relevance)"
+          ],
+          "review_experience": "12 reviews, 11 comments, 9 PRs reviewed. High consistency in technical depth and focus on backend/utility JavaScript.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with 10x Axios and 10x RESTful APIs frequency. Strong TypeScript/HTTP client expertise and direct evidence of reviewing TypeScript type definitions (similar_review_relevance). Lower frequency for async/await but compensates with high review volume and consistency.",
+          "strengths_alignment": [
+            "10x Axios (primary language alignment)",
+            "10x RESTful APIs (direct match to HTTP status code validation)",
+            "8x Type definitions (relevant for backward compatibility checks)",
+            "Reviewed TypeScript type definition PRs (similar_review_relevance)"
+          ],
+          "review_experience": "71 reviews, 11 comments, 62 PRs reviewed. Highest review volume with consistent technical depth.",
+          "potential_concerns": "Lower async/await frequency (3x) than DigitalBrainJS"
+        },
+        {
+          "reviewer_name": "hexiaokang",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with strong Axios (3x) and RESTful APIs (3x) frequency. Focused on TypeScript and Node.js, with evidence of defensive programming (relevant for reverse mapping correctness). Lower review volume but consistent technical focus.",
+          "strengths_alignment": [
+            "3x Axios (primary language alignment)",
+            "3x RESTful APIs (direct match to HTTP status code validation)",
+            "3x Node.js (aligns with backend testing)",
+            "TypeScript expertise (2x Type Definitions)"
+          ],
+          "review_experience": "3 reviews, 0 comments, 3 PRs reviewed. Limited volume but focused on Axios internals and TypeScript.",
+          "potential_concerns": "No comments evidence; lower review activity consistency"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with deep expertise in RESTful APIs (10x), Node.js (8x), async/await (6x), and Axios (4x). Strong evidence of testing-focused reviews (e.g., security, error handling) and direct overlap with HTTP status code validation and backward compatibility needs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7117",
+      "reviewer_strengths": [
+        "10x RESTful APIs frequency (direct match to HTTP status code validation)",
+        "8x Node.js expertise (aligns with backend testing focus)",
+        "6x async/await (relevant for error handling and reverse mapping correctness)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "12 reviews, 11 comments, 9 PRs reviewed. High consistency in technical depth and focus on backend/utility JavaScript.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep expertise in RESTful APIs (10x), Node.js (8x), async/await (6x), and Axios (4x). Strong evidence of testing-focused reviews (e.g., security, error handling) and direct overlap with HTTP status code validation and backward compatibility needs.",
+          "strengths_alignment": [
+            "10x RESTful APIs frequency (direct match to HTTP status code validation)",
+            "8x Node.js expertise (aligns with backend testing focus)",
+            "6x async/await (relevant for error handling and reverse mapping correctness)",
+            "4x Axios (primary language alignment)",
+            "Reviewed security-sensitive PRs (similar_review_relevance)"
+          ],
+          "review_experience_details": "12 reviews, 11 comments, 9 PRs reviewed. High consistency in technical depth and focus on backend/utility JavaScript.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7119,
+      "pr_title": "docs: add JSDoc documentation to bind helper function[HacktoberFest]",
+      "pr_author": "abhishekmaniy",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 10x frequency of TypeScript and Type Definitions, direct documentation expertise (similar PRs #6894), and 71 reviews with 11 comments showing consistent documentation focus. Strongest frequency and domain alignment for JSDoc/TypeScript documentation.",
+          "strengths_alignment": [
+            "10x TypeScript and Type Definitions frequency (direct match to JSDoc/Type Definitions)",
+            "Documentation-focused PR reviews (e.g., #6894: docs(CONTRIBUTING) update)",
+            "Primary skills include Type-safe API development and Type definitions (index.d.ts, index.d.cts)"
+          ],
+          "review_experience": "Senior-level reviewer with 71 total reviews, 62 PRs reviewed, and 11 comments. Demonstrates consistent documentation review activity and expertise in TypeScript/Type Definitions.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "remcohaszing",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 3x Type Definitions frequency and 2x Generics, strong TypeScript expertise. No direct documentation PRs but aligns with JSDoc/TypeScript documentation needs via type-related reviews.",
+          "strengths_alignment": [
+            "3x Type Definitions frequency (directly relevant to JSDoc/Type Definitions)",
+            "Primary Skills: TypeScript (Generics, Type Definitions, CommonJS/ES Modules)",
+            "Node.js/CommonJS ecosystem expertise (relevant for project documentation standards)"
+          ],
+          "review_experience": "Mid-level reviewer with 3 reviews, 3 comments, and 2 PRs. Focused on TypeScript and Node.js module systems with evidence of type-related feedback.",
+          "potential_concerns": "Lacks direct documentation-focused PR reviews like jasonsaayman"
+        },
+        {
+          "reviewer_name": "hexiaokang",
+          "match_score": 0.72,
+          "reasoning": "Mid-level reviewer with 2x Type Definitions and 3x Axios frequency, strong TypeScript/Axios expertise. No direct documentation PRs but aligns with parameter type documentation needs via Axios internals.",
+          "strengths_alignment": [
+            "2x Type Definitions frequency (relevant to JSDoc/Type Definitions)",
+            "Primary Skills: TypeScript, Axios, Node.js (API Design & Consumption)",
+            "Modular JavaScript/TypeScript expertise (relevant for project documentation standards)"
+          ],
+          "review_experience": "Mid-level reviewer with 3 reviews, 0 comments, and 3 PRs. Focused on Axios internals and TypeScript with evidence of type-related contributions.",
+          "potential_concerns": "No direct documentation-focused PR reviews; lower review activity consistency (0 comments)"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 10x frequency of TypeScript and Type Definitions, direct documentation expertise (similar PRs #6894), and 71 reviews with 11 comments showing consistent documentation focus. Strongest frequency and domain alignment for JSDoc/TypeScript documentation.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7119",
+      "reviewer_strengths": [
+        "10x TypeScript and Type Definitions frequency (direct match to JSDoc/Type Definitions)",
+        "Documentation-focused PR reviews (e.g., #6894: docs(CONTRIBUTING) update)",
+        "Primary skills include Type-safe API development and Type definitions (index.d.ts, index.d.cts)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 71 total reviews, 62 PRs reviewed, and 11 comments. Demonstrates consistent documentation review activity and expertise in TypeScript/Type Definitions.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JSDoc"
+        ],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 10x frequency of TypeScript and Type Definitions, direct documentation expertise (similar PRs #6894), and 71 reviews with 11 comments showing consistent documentation focus. Strongest frequency and domain alignment for JSDoc/TypeScript documentation.",
+          "strengths_alignment": [
+            "10x TypeScript and Type Definitions frequency (direct match to JSDoc/Type Definitions)",
+            "Documentation-focused PR reviews (e.g., #6894: docs(CONTRIBUTING) update)",
+            "Primary skills include Type-safe API development and Type definitions (index.d.ts, index.d.cts)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 71 total reviews, 62 PRs reviewed, and 11 comments. Demonstrates consistent documentation review activity and expertise in TypeScript/Type Definitions.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7129,
+      "pr_title": "Improve Cookie Handling",
+      "pr_author": "Amitverma0509",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 10x frequency in Axios, RESTful APIs, and TypeScript—directly matching required skills (JavaScript, Cookie API, SameSite). Strong security and code quality focus, evidenced by 71 reviews with 11 security-related comments. Reviewed similar cookie/security PRs (e.g., #6980).",
+          "strengths_alignment": [
+            "10x frequency in Axios (directly relevant to Cookie API)",
+            "10x frequency in RESTful APIs (security/compatibility focus)",
+            "TypeScript expertise (10x) for defensive programming",
+            "Security review patterns (e.g., #6980: DOM text escaping)",
+            "Medium-complexity fit (62 PRs reviewed, 71 total reviews)"
+          ],
+          "review_experience": "Senior-level reviewer with 71 total reviews, 62 PRs, and 11 security-related comments. Consistently engaged in Axios internals, TypeScript, and security-focused feedback.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "DigitalBrainJS",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with 8x Node.js and 10x RESTful APIs frequency, strong security focus (async/await, error handling). Reviewed 12 PRs with 11 comments, including Axios internals. Less direct Cookie API evidence but strong security/compatibility expertise.",
+          "strengths_alignment": [
+            "8x Node.js (relevant for backend cookie handling)",
+            "10x RESTful APIs (security/compatibility focus)",
+            "6x async/await (defensive programming)",
+            "Security-focused JavaScript (6x server-side logic)",
+            "Medium-complexity fit (9 PRs reviewed, 12 total reviews)"
+          ],
+          "review_experience": "Senior-level reviewer with 12 total reviews, 9 PRs, and 11 comments. Focused on Axios, Node.js backend, and security-related error handling.",
+          "potential_concerns": "No explicit Cookie API or SameSite attribute review evidence"
+        },
+        {
+          "reviewer_name": "chinesedfan",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 2x Axios and 2x RESTful APIs frequency, explicit Node.js security focus (SSRF prevention). Reviewed 2 PRs with 4 comments, including TypeScript and defensive programming. Strong security alignment but limited JavaScript frequency.",
+          "strengths_alignment": [
+            "2x Axios (direct relevance)",
+            "2x RESTful APIs (security/compatibility)",
+            "Node.js Security (SSRF Prevention) in primary skills",
+            "4 comments (defensive programming, TypeScript)",
+            "Security review patterns (e.g., authentication/authorization)"
+          ],
+          "review_experience": "Mid-level reviewer with 2 total reviews, 2 PRs, and 4 comments. Focused on Axios, TypeScript, and Node.js security.",
+          "potential_concerns": "Low frequency in required skills (JavaScript/TypeScript only 2x each)"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 10x frequency in Axios, RESTful APIs, and TypeScript—directly matching required skills (JavaScript, Cookie API, SameSite). Strong security and code quality focus, evidenced by 71 reviews with 11 security-related comments. Reviewed similar cookie/security PRs (e.g., #6980).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7129",
+      "reviewer_strengths": [
+        "10x frequency in Axios (directly relevant to Cookie API)",
+        "10x frequency in RESTful APIs (security/compatibility focus)",
+        "TypeScript expertise (10x) for defensive programming"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 71 total reviews, 62 PRs, and 11 security-related comments. Consistently engaged in Axios internals, TypeScript, and security-focused feedback.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Cookie API",
+          "SameSite attribute specification"
+        ],
+        "review_expertise_areas": [
+          "Security",
+          "Code Quality"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Security",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 10x frequency in Axios, RESTful APIs, and TypeScript—directly matching required skills (JavaScript, Cookie API, SameSite). Strong security and code quality focus, evidenced by 71 reviews with 11 security-related comments. Reviewed similar cookie/security PRs (e.g., #6980).",
+          "strengths_alignment": [
+            "10x frequency in Axios (directly relevant to Cookie API)",
+            "10x frequency in RESTful APIs (security/compatibility focus)",
+            "TypeScript expertise (10x) for defensive programming",
+            "Security review patterns (e.g., #6980: DOM text escaping)",
+            "Medium-complexity fit (62 PRs reviewed, 71 total reviews)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 71 total reviews, 62 PRs, and 11 security-related comments. Consistently engaged in Axios internals, TypeScript, and security-focused feedback.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7133,
+      "pr_title": "fix: resolve issue #7131 (added spacing in mergeConfig.js)",
+      "pr_author": "sam3690",
+      "pr_state": "closed",
+      "assigned_reviewer": "alexandermirzoyan",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "alexandermirzoyan",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 5x TypeScript reviews, 2x React/Vue.js, and explicit code quality focus. Strongest frequency match for TypeScript and frontend frameworks, despite unknown primary language. High review activity consistency (5 PRs, 0 comments) suggests reliable but concise feedback.",
+          "strengths_alignment": [
+            "5x TypeScript reviews (top skill frequency)",
+            "2x React/Vue.js reviews (frontend frameworks)",
+            "Explicit 'code quality and documentation practices' in primary skills",
+            "5 PRs reviewed with no comments (consistent but minimal feedback)"
+          ],
+          "review_experience": "Senior JavaScript/TypeScript developer with 5 PRs reviewed, all in axios repo. Focused on frontend frameworks and type safety.",
+          "potential_concerns": "No comments provided (0/5), but seniority and frequency evidence outweigh this."
+        },
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with 10x Axios and 10x TypeScript reviews, strong frequency match for RESTful APIs and type definitions. Highest review volume (71 PRs) but low comments (11), suggesting broad but shallow feedback. Primary skills align perfectly with code quality and TypeScript.",
+          "strengths_alignment": [
+            "10x Axios and 10x TypeScript reviews (highest frequency)",
+            "8x Type definitions (index.d.ts) reviews",
+            "Primary skills: 'Type-safe API development' and 'HTTP client patterns'",
+            "62 PRs reviewed (highest activity)"
+          ],
+          "review_experience": "Senior JavaScript/TypeScript reviewer with 71 PRs, 11 comments. Focused on Axios internals and type safety.",
+          "potential_concerns": "Low comments (11/71) may indicate superficial feedback, but frequency evidence is unmatched."
+        },
+        {
+          "reviewer_name": "DigitalBrainJS",
+          "match_score": 0.78,
+          "reasoning": "Senior reviewer with 10x RESTful APIs and 8x Node.js reviews, strong Node.js/axios expertise. Lower frequency for TypeScript (basic) but high comments (11/12) suggest detailed feedback. Aligns with code quality and async/await focus.",
+          "strengths_alignment": [
+            "10x RESTful APIs and 8x Node.js reviews",
+            "6x async/await reviews (relevant for code quality)",
+            "Primary skills: 'Security-focused JavaScript' and 'Error handling'",
+            "11 comments in 12 PRs (high engagement)"
+          ],
+          "review_experience": "Senior JavaScript reviewer with 12 PRs, 11 comments. Focused on Node.js backend, Axios, and async programming.",
+          "potential_concerns": "TypeScript labeled as 'basic' (lower frequency than alexandermirzoyan/jasonsaayman)."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 5x TypeScript reviews, 2x React/Vue.js, and explicit code quality focus. Strongest frequency match for TypeScript and frontend frameworks, despite unknown primary language. High review activity consistency (5 PRs, 0 comments) suggests reliable but concise feedback.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7133",
+      "reviewer_strengths": [
+        "5x TypeScript reviews (top skill frequency)",
+        "2x React/Vue.js reviews (frontend frameworks)",
+        "Explicit 'code quality and documentation practices' in primary skills"
+      ],
+      "potential_concerns": "No comments provided (0/5), but seniority and frequency evidence outweigh this.",
+      "review_experience": "Senior JavaScript/TypeScript developer with 5 PRs reviewed, all in axios repo. Focused on frontend frameworks and type safety.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 5x TypeScript reviews, 2x React/Vue.js, and explicit code quality focus. Strongest frequency match for TypeScript and frontend frameworks, despite unknown primary language. High review activity consistency (5 PRs, 0 comments) suggests reliable but concise feedback.",
+          "strengths_alignment": [
+            "5x TypeScript reviews (top skill frequency)",
+            "2x React/Vue.js reviews (frontend frameworks)",
+            "Explicit 'code quality and documentation practices' in primary skills",
+            "5 PRs reviewed with no comments (consistent but minimal feedback)"
+          ],
+          "review_experience_details": "Senior JavaScript/TypeScript developer with 5 PRs reviewed, all in axios repo. Focused on frontend frameworks and type safety.",
+          "potential_limitations": "No comments provided (0/5), but seniority and frequency evidence outweigh this."
+        }
+      }
+    },
+    {
+      "pr_number": 7134,
+      "pr_title": "Add jsdoc to adapters",
+      "pr_author": "Aviraj2929",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 10x frequency of TypeScript and Type definitions, direct documentation expertise (similar PRs #6777, #6894), and 71 reviews with 11 comments showing consistent documentation focus. Strongest evidence for JSDoc and documentation needs.",
+          "strengths_alignment": [
+            "10x frequency of TypeScript and Type definitions (direct match to JSDoc/documentation)",
+            "Reviewed 2 documentation-focused PRs (#6777, #6894) with clear documentation updates",
+            "Primary skills include 'Type definitions (index.d.ts, index.d.cts)' and 'Type-safe API development'"
+          ],
+          "review_experience": "Senior reviewer with 71 total reviews, 62 PRs reviewed, and 11 comments. Demonstrates consistent, high-quality review activity with clear focus on TypeScript and documentation.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "DigitalBrainJS",
+          "match_score": 0.78,
+          "reasoning": "Senior reviewer with 8x Node.js and 10x RESTful APIs frequency, strong async/await and error handling expertise. No direct JSDoc evidence but aligns with documentation needs via TypeScript and API documentation patterns.",
+          "strengths_alignment": [
+            "8x Node.js and 10x RESTful APIs frequency (relevant to documentation context)",
+            "Primary skills include 'Axios (HTTP client)', 'Error handling and debugging' (relevant to `getAdapter` error handling)",
+            "Strong async/await and error handling expertise (3x frequency)"
+          ],
+          "review_experience": "Senior reviewer with 12 total reviews, 9 PRs reviewed, and 11 comments. Focused on Axios internals, Node.js backend, and asynchronous programming.",
+          "potential_concerns": "Lacks explicit JSDoc or documentation-focused review evidence (only 1 relevant PR #6672, which was code-focused)."
+        },
+        {
+          "reviewer_name": "remcohaszing",
+          "match_score": 0.75,
+          "reasoning": "Mid-level reviewer with 3x Type Definitions frequency and 2x Generics frequency, strong TypeScript expertise. Limited review activity but clear alignment with documentation needs via type-related reviews.",
+          "strengths_alignment": [
+            "3x Type Definitions frequency (direct match to JSDoc/documentation)",
+            "Primary skills include 'TypeScript (Generics, Type Definitions)' and 'Node.js/CommonJS Ecosystem'",
+            "Reviewed 1 PR with Type Safety improvements (Type Guards)"
+          ],
+          "review_experience": "Mid-level reviewer with 3 total reviews, 2 PRs reviewed, and 3 comments. Focused on TypeScript and type-related documentation.",
+          "potential_concerns": "Low review activity (only 3 reviews total) and no explicit documentation-focused PRs beyond type-related fixes."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 10x frequency of TypeScript and Type definitions, direct documentation expertise (similar PRs #6777, #6894), and 71 reviews with 11 comments showing consistent documentation focus. Strongest evidence for JSDoc and documentation needs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7134",
+      "reviewer_strengths": [
+        "10x frequency of TypeScript and Type definitions (direct match to JSDoc/documentation)",
+        "Reviewed 2 documentation-focused PRs (#6777, #6894) with clear documentation updates",
+        "Primary skills include 'Type definitions (index.d.ts, index.d.cts)' and 'Type-safe API development'"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior reviewer with 71 total reviews, 62 PRs reviewed, and 11 comments. Demonstrates consistent, high-quality review activity with clear focus on TypeScript and documentation.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JSDoc"
+        ],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 10x frequency of TypeScript and Type definitions, direct documentation expertise (similar PRs #6777, #6894), and 71 reviews with 11 comments showing consistent documentation focus. Strongest evidence for JSDoc and documentation needs.",
+          "strengths_alignment": [
+            "10x frequency of TypeScript and Type definitions (direct match to JSDoc/documentation)",
+            "Reviewed 2 documentation-focused PRs (#6777, #6894) with clear documentation updates",
+            "Primary skills include 'Type definitions (index.d.ts, index.d.cts)' and 'Type-safe API development'"
+          ],
+          "review_experience_details": "Senior reviewer with 71 total reviews, 62 PRs reviewed, and 11 comments. Demonstrates consistent, high-quality review activity with clear focus on TypeScript and documentation.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7135,
+      "pr_title": "docs: add JSDoc comments to server.js",
+      "pr_author": "Aviraj2929",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 10x frequency in TypeScript and RESTful APIs, direct documentation review evidence (#6894), and strong Type Definitions expertise. Highest activity consistency (71 reviews) and clear documentation focus.",
+          "strengths_alignment": [
+            "10x TypeScript frequency (direct match to JSDoc syntax)",
+            "10x RESTful APIs (relevant to documentation clarity)",
+            "Documentation PR review evidence (#6894)",
+            "Primary skills include 'Type definitions' and 'Modern JavaScript best practices'"
+          ],
+          "review_experience": "71 total reviews, 11 comments, 62 PRs approved. Senior-level expertise with 10x frequency in TypeScript and RESTful APIs, 8x Type definitions, and 10x Axios (relevant to documentation).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "alexandermirzoyan",
+          "match_score": 0.78,
+          "reasoning": "Senior reviewer with strong documentation practices (primary skill) and TypeScript expertise (5x frequency), but no direct documentation review evidence. Lower frequency in required areas than jasonsaayman.",
+          "strengths_alignment": [
+            "Primary Skills: 'Code quality and documentation practices'",
+            "TypeScript (5x frequency, relevant to JSDoc)",
+            "Senior-level expertise with 5 PRs reviewed"
+          ],
+          "review_experience": "5 total reviews, 0 comments, 5 PRs approved. Senior-level expertise with 5x TypeScript frequency and explicit documentation practices in profile, but no direct documentation review evidence.",
+          "potential_concerns": "No direct documentation review evidence; lower activity (5 reviews) compared to jasonsaayman."
+        },
+        {
+          "reviewer_name": "remcohaszing",
+          "match_score": 0.65,
+          "reasoning": "Mid-level reviewer with strong TypeScript (Generics/Type Definitions) and Node.js expertise, but no direct documentation review evidence. Lower frequency in required areas than top choices.",
+          "strengths_alignment": [
+            "Type Definitions (3x frequency, relevant to JSDoc)",
+            "Generics (2x frequency, relevant to TypeScript clarity)",
+            "Primary Skills: 'TypeScript (Generics, Type Definitions)'"
+          ],
+          "review_experience": "3 total reviews, 3 comments, 2 PRs approved. Mid-level expertise with 3x Type Definitions frequency and 3x TypeScript comments, but no direct documentation review evidence.",
+          "potential_concerns": "No documentation review evidence; lower activity (3 reviews) and weaker frequency in required areas."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 10x frequency in TypeScript and RESTful APIs, direct documentation review evidence (#6894), and strong Type Definitions expertise. Highest activity consistency (71 reviews) and clear documentation focus.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7135",
+      "reviewer_strengths": [
+        "10x TypeScript frequency (direct match to JSDoc syntax)",
+        "10x RESTful APIs (relevant to documentation clarity)",
+        "Documentation PR review evidence (#6894)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "71 total reviews, 11 comments, 62 PRs approved. Senior-level expertise with 10x frequency in TypeScript and RESTful APIs, 8x Type definitions, and 10x Axios (relevant to documentation).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 10x frequency in TypeScript and RESTful APIs, direct documentation review evidence (#6894), and strong Type Definitions expertise. Highest activity consistency (71 reviews) and clear documentation focus.",
+          "strengths_alignment": [
+            "10x TypeScript frequency (direct match to JSDoc syntax)",
+            "10x RESTful APIs (relevant to documentation clarity)",
+            "Documentation PR review evidence (#6894)",
+            "Primary skills include 'Type definitions' and 'Modern JavaScript best practices'"
+          ],
+          "review_experience_details": "71 total reviews, 11 comments, 62 PRs approved. Senior-level expertise with 10x frequency in TypeScript and RESTful APIs, 8x Type definitions, and 10x Axios (relevant to documentation).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7136,
+      "pr_title": "docs: update Features section for clarity and readability",
+      "pr_author": "Aviraj2929",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 71 reviews, 11 comments, and 62 PRs reviewed. Direct evidence of documentation-focused expertise (e.g., PR #6894, #6116) and strong frequency match for 'Documentation' (inferred from similar reviews).",
+          "strengths_alignment": [
+            "Documentation-focused review history (e.g., PR #6894, #6116)",
+            "High frequency of 'RESTful APIs' (10x) and 'Type Definitions' (8x) relevant to clarity/readability",
+            "Senior-level experience with consistent review activity"
+          ],
+          "review_experience": "Senior reviewer with 71 total reviews, 11 comments, and 62 PRs reviewed. Strong evidence of technical depth in TypeScript and Axios documentation.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "alexandermirzoyan",
+          "match_score": 0.78,
+          "reasoning": "Senior reviewer with 5 reviews and 0 comments, but strong primary skills in 'Code quality and documentation practices.' Co-reviewed PR #6480 (docs(readme): fix Request Config options) with jasonsaayman.",
+          "strengths_alignment": [
+            "Primary skills include 'Code quality and documentation practices'",
+            "Co-reviewed PR #6480 (documentation-focused)",
+            "Senior-level experience with TypeScript/React/Vue expertise (relevant to clarity)"
+          ],
+          "review_experience": "Senior reviewer with 5 total reviews, 0 comments, and 5 PRs reviewed. Limited comment data but strong profile alignment with documentation practices.",
+          "potential_concerns": "No comments provided in reviews (potential lack of detailed feedback)"
+        },
+        {
+          "reviewer_name": "hexiaokang",
+          "match_score": 0.65,
+          "reasoning": "Mid-level reviewer with 3 reviews and 0 comments, but strong frequency of 'Axios' (3x) and 'RESTful APIs' (3x). Limited evidence of direct documentation focus but relevant backend expertise.",
+          "strengths_alignment": [
+            "High frequency of 'Axios' (3x) and 'RESTful APIs' (3x) — relevant to link accuracy",
+            "Primary skills include 'TypeScript' and 'API Design & Consumption'",
+            "Mid-level expertise with focused review activity"
+          ],
+          "review_experience": "Mid-level reviewer with 3 total reviews, 0 comments, and 3 PRs reviewed. Strong frequency evidence for API/documentation-related skills but no direct documentation review history.",
+          "potential_concerns": "No comments provided; no direct evidence of documentation-focused reviews"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 71 reviews, 11 comments, and 62 PRs reviewed. Direct evidence of documentation-focused expertise (e.g., PR #6894, #6116) and strong frequency match for 'Documentation' (inferred from similar reviews).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7136",
+      "reviewer_strengths": [
+        "Documentation-focused review history (e.g., PR #6894, #6116)",
+        "High frequency of 'RESTful APIs' (10x) and 'Type Definitions' (8x) relevant to clarity/readability",
+        "Senior-level experience with consistent review activity"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior reviewer with 71 total reviews, 11 comments, and 62 PRs reviewed. Strong evidence of technical depth in TypeScript and Axios documentation.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 71 reviews, 11 comments, and 62 PRs reviewed. Direct evidence of documentation-focused expertise (e.g., PR #6894, #6116) and strong frequency match for 'Documentation' (inferred from similar reviews).",
+          "strengths_alignment": [
+            "Documentation-focused review history (e.g., PR #6894, #6116)",
+            "High frequency of 'RESTful APIs' (10x) and 'Type Definitions' (8x) relevant to clarity/readability",
+            "Senior-level experience with consistent review activity"
+          ],
+          "review_experience_details": "Senior reviewer with 71 total reviews, 11 comments, and 62 PRs reviewed. Strong evidence of technical depth in TypeScript and Axios documentation.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7150,
+      "pr_title": "feat(http): add HTTP2 support;",
+      "pr_author": "DigitalBrainJS",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 10x frequency in Axios/TypeScript/RESTful APIs, direct TypeScript and HTTP client expertise, and strong evidence of backend/HTTP protocol knowledge from similar PRs (e.g., TypeScript exports).",
+          "strengths_alignment": [
+            "10x frequency in Axios/TypeScript/RESTful APIs (direct match to PR requirements)",
+            "Senior-level experience with 71 reviews and 62 PRs reviewed (high activity consistency)",
+            "Reviewed TypeScript type definitions and HTTP client patterns (similar_review_relevance)",
+            "Backend-focused expertise (Node.js, Axios internals) aligns with HTTP/2 and networking needs"
+          ],
+          "review_experience": "Senior JavaScript/TypeScript reviewer with 71 total reviews, 11 comments, and 62 PRs reviewed. Strongest evidence of backend/HTTP client expertise in the pool, including TypeScript and Axios internals.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "DigitalBrainJS",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with 8x Node.js/RESTful APIs frequency and strong backend expertise, though TypeScript frequency is lower than jasonsaayman. Reviewed Axios internals and async/await patterns.",
+          "strengths_alignment": [
+            "8x frequency in Node.js/RESTful APIs (backend alignment)",
+            "Senior-level experience with 12 reviews and 9 PRs reviewed (high activity consistency)",
+            "Reviewed Axios internals and async/await (similar_review_relevance)",
+            "Strong Node.js backend expertise (async/await, error handling, security)"
+          ],
+          "review_experience": "Senior JavaScript reviewer with 12 total reviews, 11 comments, and 9 PRs reviewed. Focused on Axios internals, Node.js backend development, and asynchronous programming.",
+          "potential_concerns": "Lower TypeScript frequency (4x) compared to jasonsaayman; no direct evidence of HTTP/2 or streaming protocols."
+        },
+        {
+          "reviewer_name": "remcohaszing",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 3x Type Definitions frequency and Node.js expertise, but limited backend/HTTP protocol evidence. Reviewed TypeScript exports and CommonJS typing (similar_review_relevance).",
+          "strengths_alignment": [
+            "3x frequency in Type Definitions (TypeScript alignment)",
+            "Mid-level expertise with 3 reviews and 3 comments (consistent activity)",
+            "Reviewed TypeScript exports and CommonJS typing (similar_review_relevance)",
+            "Node.js and middleware expertise (backend alignment)"
+          ],
+          "review_experience": "Mid-level JavaScript/TypeScript reviewer with 3 total reviews, 3 comments, and 2 PRs reviewed. Focused on TypeScript generics, CommonJS/ES Modules, and Node.js backend.",
+          "potential_concerns": "No direct evidence of HTTP/2, streaming, or redirect/proxy handling; lower frequency in backend skills (Node.js: 1x)."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 10x frequency in Axios/TypeScript/RESTful APIs, direct TypeScript and HTTP client expertise, and strong evidence of backend/HTTP protocol knowledge from similar PRs (e.g., TypeScript exports).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 3,
+      "pr_url": "https://github.com/expressjs/express/pull/7150",
+      "reviewer_strengths": [
+        "10x frequency in Axios/TypeScript/RESTful APIs (direct match to PR requirements)",
+        "Senior-level experience with 71 reviews and 62 PRs reviewed (high activity consistency)",
+        "Reviewed TypeScript type definitions and HTTP client patterns (similar_review_relevance)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior JavaScript/TypeScript reviewer with 71 total reviews, 11 comments, and 62 PRs reviewed. Strongest evidence of backend/HTTP client expertise in the pool, including TypeScript and Axios internals.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "HTTP/2 protocol",
+          "JavaScript/TypeScript"
+        ],
+        "review_expertise_areas": [
+          "Backend",
+          "Networking"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 10x frequency in Axios/TypeScript/RESTful APIs, direct TypeScript and HTTP client expertise, and strong evidence of backend/HTTP protocol knowledge from similar PRs (e.g., TypeScript exports).",
+          "strengths_alignment": [
+            "10x frequency in Axios/TypeScript/RESTful APIs (direct match to PR requirements)",
+            "Senior-level experience with 71 reviews and 62 PRs reviewed (high activity consistency)",
+            "Reviewed TypeScript type definitions and HTTP client patterns (similar_review_relevance)",
+            "Backend-focused expertise (Node.js, Axios internals) aligns with HTTP/2 and networking needs"
+          ],
+          "review_experience_details": "Senior JavaScript/TypeScript reviewer with 71 total reviews, 11 comments, and 62 PRs reviewed. Strongest evidence of backend/HTTP client expertise in the pool, including TypeScript and Axios internals.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7155,
+      "pr_title": "fix(fetch): prevent TypeError when config.env is undefined",
+      "pr_author": "Wangarijane",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 10x frequency in Axios, RESTful APIs, and TypeScript—directly matching the PR's fetch adapter and environment variable focus. Strong evidence from similar PRs (e.g., sandbox security fixes) and consistent review activity (62 PRs, 71 reviews).",
+          "strengths_alignment": [
+            "10x Axios frequency (direct match to fetch adapter logic)",
+            "10x RESTful APIs (relevant to environment variable handling)",
+            "TypeScript expertise (10x frequency, aligns with modern JS requirements)",
+            "Code quality focus (approved similar PRs like #6637)"
+          ],
+          "review_experience": "Senior with 62 PRs reviewed, 71 total reviews, and 11 substantive comments. Primary skills include Axios internals, TypeScript, and HTTP client patterns—directly applicable to the PR's focus areas.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "DigitalBrainJS",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with 8x Node.js and 10x RESTful APIs frequency, strong async/await expertise (6x), and Axios focus (4x). Less direct TypeScript evidence than jasonsaayman but matches environment variable handling via Node.js middleware. Review activity is robust (12 reviews, 11 comments).",
+          "strengths_alignment": [
+            "8x Node.js (relevant to environment variable handling)",
+            "10x RESTful APIs (aligns with fetch adapter logic)",
+            "6x async/await (critical for adapter initialization)",
+            "Axios expertise (4x frequency, backend-focused)"
+          ],
+          "review_experience": "Senior with 9 PRs reviewed, 12 total reviews, and 11 comments. Specializes in Axios internals, Node.js backend development, and asynchronous programming—directly applicable to the PR's technical areas.",
+          "potential_concerns": "Lower TypeScript frequency (1x) than jasonsaayman; no direct evidence of environment variable handling in reviews."
+        },
+        {
+          "reviewer_name": "hexiaokang",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 3x Axios and 3x Node.js frequency, strong TypeScript (2x) and RESTful APIs (3x) alignment. Focused on API design/consumption, matching the fetch adapter and environment variable needs. Review activity is limited (3 PRs, 0 comments) but consistent.",
+          "strengths_alignment": [
+            "3x Axios (direct match to fetch adapter logic)",
+            "3x Node.js (relevant to environment variable handling)",
+            "2x TypeScript (aligns with modern JS requirements)",
+            "API design/consumption focus (primary skill)"
+          ],
+          "review_experience": "Mid-level with 3 PRs reviewed, 3 total reviews, and 0 comments. Demonstrates deep expertise in Axios and TypeScript but lacks substantive comment evidence. Repositories: axios.",
+          "potential_concerns": "No review comments provided; limited activity (3 PRs total)."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 10x frequency in Axios, RESTful APIs, and TypeScript—directly matching the PR's fetch adapter and environment variable focus. Strong evidence from similar PRs (e.g., sandbox security fixes) and consistent review activity (62 PRs, 71 reviews).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7155",
+      "reviewer_strengths": [
+        "10x Axios frequency (direct match to fetch adapter logic)",
+        "10x RESTful APIs (relevant to environment variable handling)",
+        "TypeScript expertise (10x frequency, aligns with modern JS requirements)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior with 62 PRs reviewed, 71 total reviews, and 11 substantive comments. Primary skills include Axios internals, TypeScript, and HTTP client patterns—directly applicable to the PR's focus areas.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 10x frequency in Axios, RESTful APIs, and TypeScript—directly matching the PR's fetch adapter and environment variable focus. Strong evidence from similar PRs (e.g., sandbox security fixes) and consistent review activity (62 PRs, 71 reviews).",
+          "strengths_alignment": [
+            "10x Axios frequency (direct match to fetch adapter logic)",
+            "10x RESTful APIs (relevant to environment variable handling)",
+            "TypeScript expertise (10x frequency, aligns with modern JS requirements)",
+            "Code quality focus (approved similar PRs like #6637)"
+          ],
+          "review_experience_details": "Senior with 62 PRs reviewed, 71 total reviews, and 11 substantive comments. Primary skills include Axios internals, TypeScript, and HTTP client patterns—directly applicable to the PR's focus areas.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7166,
+      "pr_title": "chore: fix typos in examples",
+      "pr_author": "ikuy1203",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 10x frequency in TypeScript and RESTful APIs, direct evidence of documentation-focused reviews (e.g., PR #6894, #6116) and 71 total reviews ensuring reliability. Strongest frequency and similar-review alignment.",
+          "strengths_alignment": [
+            "10x frequency in TypeScript (directly relevant to documentation)",
+            "10x frequency in RESTful APIs (relevant to content accuracy)",
+            "Reviewed 2/3 similar documentation PRs (PR #6894, #6116)",
+            "71 total reviews with 11 comments (high activity consistency)"
+          ],
+          "review_experience": "Senior-level reviewer with 62 PRs reviewed, 11 comments, and explicit documentation-related contributions (e.g., type definitions, CONTRIBUTING.md updates).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "alexandermirzoyan",
+          "match_score": 0.78,
+          "reasoning": "Senior reviewer with 5x frequency in TypeScript and 2x in React/Vue.js, co-reviewed a documentation PR (PR #6480). Strong primary skills in documentation practices but lower frequency in documentation-specific tasks.",
+          "strengths_alignment": [
+            "5x frequency in TypeScript (relevant to documentation)",
+            "Primary Skills: 'Code quality and documentation practices'",
+            "Co-reviewed PR #6480 (docs(readme): fix Request Config options code highlight)",
+            "5 total reviews with 0 comments (consistent but minimal activity)"
+          ],
+          "review_experience": "Senior-level reviewer with 5 PRs reviewed, 0 comments, and explicit mention of documentation practices in primary skills.",
+          "potential_concerns": "No direct evidence of typographical correctness focus; 0 comments may indicate limited engagement depth."
+        },
+        {
+          "reviewer_name": "hexiaokang",
+          "match_score": 0.65,
+          "reasoning": "Mid-level reviewer with 3x frequency in Axios and TypeScript, strong Node.js/TypeScript expertise but no direct documentation-focused reviews. Limited evidence for typographical correctness.",
+          "strengths_alignment": [
+            "3x frequency in Axios (relevant to content accuracy)",
+            "3x frequency in Type Definitions (relevant to documentation)",
+            "Primary Skills: TypeScript, Axios, Node.js (modular JavaScript/TypeScript)"
+          ],
+          "review_experience": "Mid-level reviewer with 3 PRs reviewed, 0 comments, focused on Axios/TypeScript but no explicit documentation review history.",
+          "potential_concerns": "No evidence of documentation-focused reviews; 0 comments may indicate limited engagement depth."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 10x frequency in TypeScript and RESTful APIs, direct evidence of documentation-focused reviews (e.g., PR #6894, #6116) and 71 total reviews ensuring reliability. Strongest frequency and similar-review alignment.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7166",
+      "reviewer_strengths": [
+        "10x frequency in TypeScript (directly relevant to documentation)",
+        "10x frequency in RESTful APIs (relevant to content accuracy)",
+        "Reviewed 2/3 similar documentation PRs (PR #6894, #6116)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 62 PRs reviewed, 11 comments, and explicit documentation-related contributions (e.g., type definitions, CONTRIBUTING.md updates).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 10x frequency in TypeScript and RESTful APIs, direct evidence of documentation-focused reviews (e.g., PR #6894, #6116) and 71 total reviews ensuring reliability. Strongest frequency and similar-review alignment.",
+          "strengths_alignment": [
+            "10x frequency in TypeScript (directly relevant to documentation)",
+            "10x frequency in RESTful APIs (relevant to content accuracy)",
+            "Reviewed 2/3 similar documentation PRs (PR #6894, #6116)",
+            "71 total reviews with 11 comments (high activity consistency)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 62 PRs reviewed, 11 comments, and explicit documentation-related contributions (e.g., type definitions, CONTRIBUTING.md updates).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7170,
+      "pr_title": "Refactor form data handling in index.html",
+      "pr_author": "anchalive",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 10x frequency in Axios, RESTful APIs, and TypeScript—directly matching the PR's JavaScript form handling and error handling needs. Strong evidence from similar PRs (e.g., #6637, #6980) and consistent review activity (71 reviews, 62 PRs).",
+          "strengths_alignment": [
+            "10x frequency in Axios (client-side HTTP handling)",
+            "10x frequency in RESTful APIs (error handling patterns)",
+            "TypeScript expertise (10x) for defensive programming",
+            "Proven code quality review track record (APPROVED state in similar PRs)"
+          ],
+          "review_experience": "Senior-level reviewer with 71 total reviews, 62 PRs approved, and 11 substantive comments. Focused on Axios internals and TypeScript type safety—directly relevant to form handling and error cases.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "thatguyinabeanie",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with focused expertise in Axios error handling (1x API Error Handling, 1x TypeError handling) and defensive programming. Lower frequency than jasonsaayman but strong alignment with error handling needs.",
+          "strengths_alignment": [
+            "1x frequency in API Error Handling (direct match to PR focus)",
+            "1x frequency in TypeError handling (client-side error cases)",
+            "Defensive programming patterns for edge cases"
+          ],
+          "review_experience": "Mid-level reviewer with 3 reviews, 3 comments, and 2 PRs. Specialized in Axios URL path construction and error handling—limited but relevant experience.",
+          "potential_concerns": "Low review volume (3 total) and no evidence of frontend form handling expertise"
+        },
+        {
+          "reviewer_name": "sgammon",
+          "match_score": 0.75,
+          "reasoning": "Mid-level reviewer with inferred frontend expertise (React/Vue.js) and Axios knowledge, but limited direct evidence for form handling or error cases. Strong async/await and ES6+ skills.",
+          "strengths_alignment": [
+            "1x frequency in axios (client-side HTTP)",
+            "1x frequency in async/await (relevant to form submissions)",
+            "Inferred frontend framework knowledge (React/Vue.js)"
+          ],
+          "review_experience": "Mid-level reviewer with 2 reviews, 17 comments, and 1 PR. Strong engagement but limited scope to form handling or error cases.",
+          "potential_concerns": "No direct evidence of form handling or error handling expertise; 17 comments but only 1 PR reviewed"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 10x frequency in Axios, RESTful APIs, and TypeScript—directly matching the PR's JavaScript form handling and error handling needs. Strong evidence from similar PRs (e.g., #6637, #6980) and consistent review activity (71 reviews, 62 PRs).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/7170",
+      "reviewer_strengths": [
+        "10x frequency in Axios (client-side HTTP handling)",
+        "10x frequency in RESTful APIs (error handling patterns)",
+        "TypeScript expertise (10x) for defensive programming"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 71 total reviews, 62 PRs approved, and 11 substantive comments. Focused on Axios internals and TypeScript type safety—directly relevant to form handling and error cases.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 10x frequency in Axios, RESTful APIs, and TypeScript—directly matching the PR's JavaScript form handling and error handling needs. Strong evidence from similar PRs (e.g., #6637, #6980) and consistent review activity (71 reviews, 62 PRs).",
+          "strengths_alignment": [
+            "10x frequency in Axios (client-side HTTP handling)",
+            "10x frequency in RESTful APIs (error handling patterns)",
+            "TypeScript expertise (10x) for defensive programming",
+            "Proven code quality review track record (APPROVED state in similar PRs)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 71 total reviews, 62 PRs approved, and 11 substantive comments. Focused on Axios internals and TypeScript type safety—directly relevant to form handling and error cases.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7171,
+      "pr_title": "added example for improved network error handling (with Wrapper/Middleware approach)",
+      "pr_author": "Samy-in",
+      "pr_state": "closed",
+      "assigned_reviewer": "jasonsaayman",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 10x frequency in Axios, TypeScript, and RESTful APIs, plus direct evidence of cross-platform reliability fixes (PR #6930) and error code naming consistency (AxiosError patterns). Strongest frequency and similar-review alignment.",
+          "strengths_alignment": [
+            "10x frequency in Axios (direct match to error handling)",
+            "Cross-platform reliability fixes (PR #6930: crypto → getRandomValues)",
+            "TypeScript expertise (8x type definitions, 10x TypeScript frequency)",
+            "Error handling patterns (async/await, defensive programming)"
+          ],
+          "review_experience": "71 reviews, 62 PRs approved; 11 comments (high activity consistency). Senior-level expertise with deep Axios internals knowledge.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "DigitalBrainJS",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with 8x Node.js frequency, 10x RESTful APIs, and 6x async/await (directly relevant to error handling). Strong error handling expertise but lacks explicit naming convention evidence.",
+          "strengths_alignment": [
+            "8x Node.js frequency (direct match to cross-platform Node/browser logic)",
+            "6x async/await (error chaining/cause property patterns)",
+            "4x AxiosError (error code consistency)",
+            "Security-focused error handling (stack trace optimization)"
+          ],
+          "review_experience": "12 reviews, 9 PRs approved; 11 comments (high activity consistency). Senior-level Node.js/Axios expertise with error handling focus.",
+          "potential_concerns": "No explicit evidence of naming convention reviews (e.g., `ERR_NO_INTERNET` patterns)"
+        },
+        {
+          "reviewer_name": "hexiaokang",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 3x Axios, 3x Node.js, and 2x AxiosError (direct error handling). Strong TypeScript/Node.js alignment but lower frequency than top choices.",
+          "strengths_alignment": [
+            "3x Axios, 3x Node.js, 2x AxiosError (error code consistency)",
+            "TypeScript (2x) and modular JavaScript expertise",
+            "API design/consumption focus (3x RESTful APIs)"
+          ],
+          "review_experience": "3 reviews, 3 PRs approved; 0 comments (low activity consistency). Mid-level expertise with focused error handling evidence.",
+          "potential_concerns": "No explicit cross-platform reliability examples; lower review activity"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 10x frequency in Axios, TypeScript, and RESTful APIs, plus direct evidence of cross-platform reliability fixes (PR #6930) and error code naming consistency (AxiosError patterns). Strongest frequency and similar-review alignment.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/7171",
+      "reviewer_strengths": [
+        "10x frequency in Axios (direct match to error handling)",
+        "Cross-platform reliability fixes (PR #6930: crypto → getRandomValues)",
+        "TypeScript expertise (8x type definitions, 10x TypeScript frequency)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "71 reviews, 62 PRs approved; 11 comments (high activity consistency). Senior-level expertise with deep Axios internals knowledge.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "cross-platform reliability",
+          "naming conventions"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 10x frequency in Axios, TypeScript, and RESTful APIs, plus direct evidence of cross-platform reliability fixes (PR #6930) and error code naming consistency (AxiosError patterns). Strongest frequency and similar-review alignment.",
+          "strengths_alignment": [
+            "10x frequency in Axios (direct match to error handling)",
+            "Cross-platform reliability fixes (PR #6930: crypto → getRandomValues)",
+            "TypeScript expertise (8x type definitions, 10x TypeScript frequency)",
+            "Error handling patterns (async/await, defensive programming)"
+          ],
+          "review_experience_details": "71 reviews, 62 PRs approved; 11 comments (high activity consistency). Senior-level expertise with deep Axios internals knowledge.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7186,
+      "pr_title": "fix(http2): fix possible race condition when handling http2 stream on almost timed out session by improving timeout algorithm;",
+      "pr_author": "DigitalBrainJS",
+      "pr_state": "closed",
+      "assigned_reviewer": "DigitalBrainJS",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "DigitalBrainJS",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 12 PRs reviewed, 11 comments, and strong frequency evidence for Node.js, async/await, RESTful APIs, and Axios—directly matching the required performance focus areas. Reviewed similar PRs (e.g., #6672, #6132) with performance/security implications.",
+          "strengths_alignment": [
+            "10x RESTful APIs frequency (direct overlap with HTTP/2 stream handling)",
+            "8x Node.js frequency (relevant for session state management)",
+            "6x async/await frequency (critical for timeout algorithm correctness)",
+            "4x Axios frequency (primary language alignment)",
+            "Reviewed performance/security PRs (#6132, #6672) with similar complexity"
+          ],
+          "review_experience": "Senior-level reviewer with 9 PRs reviewed, 11 comments, and consistent technical depth in Node.js backend development and asynchronous programming. Demonstrated expertise in error handling, stack trace optimization, and security-focused JavaScript.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with 71 PRs reviewed, 10x frequency for Axios and TypeScript, and strong alignment with performance-related skills (e.g., async/await, error handling). Reviewed similar PRs (#6883) with HTTP client correctness focus. Lower activity consistency due to fewer comments (11/71), but high frequency evidence for required skills.",
+          "strengths_alignment": [
+            "10x Axios frequency (primary language alignment)",
+            "10x TypeScript frequency (relevant for type safety in concurrent conditions)",
+            "8x HTTP client patterns frequency (directly tied to race condition handling)",
+            "Reviewed #6883 (fetchOptions correctness) with HTTP client focus"
+          ],
+          "review_experience": "Senior-level reviewer with 62 PRs reviewed, 11 comments, and deep expertise in Axios internals, TypeScript, and modern JavaScript best practices. Demonstrated strong focus on type safety and asynchronous programming.",
+          "potential_concerns": "Lower review activity consistency (11 comments across 71 PRs) compared to DigitalBrainJS."
+        },
+        {
+          "reviewer_name": "hexiaokang",
+          "match_score": 0.75,
+          "reasoning": "Mid-level reviewer with 3 PRs reviewed, 3x frequency for Axios and Node.js, and strong TypeScript/Axios alignment. No direct evidence of performance-specific reviews, but high frequency for required skills (async/await, RESTful APIs). Lower score due to limited activity and no similar-review matches.",
+          "strengths_alignment": [
+            "3x Axios frequency (primary language alignment)",
+            "3x Node.js frequency (relevant for session state management)",
+            "3x RESTful APIs frequency (direct overlap with HTTP/2 streams)",
+            "TypeScript proficiency (relevant for type safety in concurrent conditions)"
+          ],
+          "review_experience": "Mid-level reviewer with 3 PRs reviewed, 0 comments, and focused expertise in Axios, Node.js, and TypeScript. Demonstrated strong proficiency in API design and modular JavaScript but lacks performance-specific review evidence.",
+          "potential_concerns": "No comments or evidence of performance-focused reviews; limited activity (3 PRs reviewed)."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 12 PRs reviewed, 11 comments, and strong frequency evidence for Node.js, async/await, RESTful APIs, and Axios—directly matching the required performance focus areas. Reviewed similar PRs (e.g., #6672, #6132) with performance/security implications.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7186",
+      "reviewer_strengths": [
+        "10x RESTful APIs frequency (direct overlap with HTTP/2 stream handling)",
+        "8x Node.js frequency (relevant for session state management)",
+        "6x async/await frequency (critical for timeout algorithm correctness)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 9 PRs reviewed, 11 comments, and consistent technical depth in Node.js backend development and asynchronous programming. Demonstrated expertise in error handling, stack trace optimization, and security-focused JavaScript.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Performance"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Performance",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 12 PRs reviewed, 11 comments, and strong frequency evidence for Node.js, async/await, RESTful APIs, and Axios—directly matching the required performance focus areas. Reviewed similar PRs (e.g., #6672, #6132) with performance/security implications.",
+          "strengths_alignment": [
+            "10x RESTful APIs frequency (direct overlap with HTTP/2 stream handling)",
+            "8x Node.js frequency (relevant for session state management)",
+            "6x async/await frequency (critical for timeout algorithm correctness)",
+            "4x Axios frequency (primary language alignment)",
+            "Reviewed performance/security PRs (#6132, #6672) with similar complexity"
+          ],
+          "review_experience_details": "Senior-level reviewer with 9 PRs reviewed, 11 comments, and consistent technical depth in Node.js backend development and asynchronous programming. Demonstrated expertise in error handling, stack trace optimization, and security-focused JavaScript.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 7193,
+      "pr_title": "fix(http): fixed a regression that caused the data stream to be interrupted for responses with non-OK HTTP statuses",
+      "pr_author": "DigitalBrainJS",
+      "pr_state": "closed",
+      "assigned_reviewer": "DigitalBrainJS",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "DigitalBrainJS",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with 12 reviews, 11 comments, and 9 PRs reviewed. Strongest frequency evidence for RESTful APIs (10x), Node.js (8x), async/await (6x), and Axios (4x). Directly matches HTTP response handling and data stream integrity needs via Node.js backend expertise and Axios focus. Similar review relevance to PR #6132 (ReDoS fix) and #5196 (TypeScript types) aligns with testing and security-focused review patterns.",
+          "strengths_alignment": [
+            "10x RESTful APIs frequency (direct match to HTTP response handling)",
+            "8x Node.js frequency (direct match to backend/data stream integrity)",
+            "4x Axios frequency (primary language/framework)",
+            "6x async/await frequency (relevant for data stream integrity)",
+            "Senior-level consistency (12 reviews, 9 PRs reviewed)"
+          ],
+          "review_experience": "Senior-level reviewer with 12 total reviews, 11 comments, and 9 PRs reviewed. Focused on Axios internals, Node.js backend development, and asynchronous programming. Strong evidence of technical depth in error handling, security, and API client patterns.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "jasonsaayman",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with 71 reviews, 11 comments, and 62 PRs reviewed. Strongest frequency evidence for Axios (10x), TypeScript (10x), and RESTful APIs (10x). Directly matches HTTP response handling and data stream integrity via Axios/TypeScript expertise. Reviewed PR #5196 (TypeScript types) and #6980 (DOM text encoding) align with testing and security patterns. Slightly lower frequency for async/await (not listed) but compensates with seniority and volume.",
+          "strengths_alignment": [
+            "10x Axios frequency (direct match to primary language/framework)",
+            "10x RESTful APIs frequency (direct match to HTTP response handling)",
+            "10x TypeScript frequency (relevant for data stream integrity)",
+            "Senior-level consistency (71 reviews, 62 PRs reviewed)",
+            "Reviewed PR #5196 (TypeScript types) and #6980 (DOM encoding)"
+          ],
+          "review_experience": "Senior-level reviewer with 71 total reviews, 11 comments, and 62 PRs reviewed. Focused on Axios, TypeScript, and modern JavaScript best practices. Strong evidence of technical depth in type safety, API client patterns, and error handling.",
+          "potential_concerns": "No explicit frequency evidence for async/await (critical for data stream integrity). Lower comment-to-review ratio (11/71) than DigitalBrainJS."
+        },
+        {
+          "reviewer_name": "hexiaokang",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 3 reviews, 0 comments, and 3 PRs reviewed. Strong frequency evidence for Axios (3x), RESTful APIs (3x), and Node.js (3x). Directly matches HTTP response handling and data stream integrity via Axios/Node.js focus. Lower activity consistency (no comments) but clear technical alignment with the PR requirements. No similar-review relevance evidence.",
+          "strengths_alignment": [
+            "3x Axios frequency (matches primary language/framework)",
+            "3x RESTful APIs frequency (matches HTTP response handling)",
+            "3x Node.js frequency (matches backend/data stream integrity)",
+            "TypeScript proficiency (inferred from primary skills)"
+          ],
+          "review_experience": "Mid-level reviewer with 3 total reviews and 3 PRs reviewed. Focused on Axios, Node.js, and TypeScript. Demonstrates strong technical alignment with the PR requirements but lacks comment evidence for review depth.",
+          "potential_concerns": "No comments in 3 reviews (potential lack of review depth). Lower activity consistency than top choices. No similar-review relevance evidence."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with 12 reviews, 11 comments, and 9 PRs reviewed. Strongest frequency evidence for RESTful APIs (10x), Node.js (8x), async/await (6x), and Axios (4x). Directly matches HTTP response handling and data stream integrity needs via Node.js backend expertise and Axios focus. Similar review relevance to PR #6132 (ReDoS fix) and #5196 (TypeScript types) aligns with testing and security-focused review patterns.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/7193",
+      "reviewer_strengths": [
+        "10x RESTful APIs frequency (direct match to HTTP response handling)",
+        "8x Node.js frequency (direct match to backend/data stream integrity)",
+        "4x Axios frequency (primary language/framework)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 12 total reviews, 11 comments, and 9 PRs reviewed. Focused on Axios internals, Node.js backend development, and asynchronous programming. Strong evidence of technical depth in error handling, security, and API client patterns.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with 12 reviews, 11 comments, and 9 PRs reviewed. Strongest frequency evidence for RESTful APIs (10x), Node.js (8x), async/await (6x), and Axios (4x). Directly matches HTTP response handling and data stream integrity needs via Node.js backend expertise and Axios focus. Similar review relevance to PR #6132 (ReDoS fix) and #5196 (TypeScript types) aligns with testing and security-focused review patterns.",
+          "strengths_alignment": [
+            "10x RESTful APIs frequency (direct match to HTTP response handling)",
+            "8x Node.js frequency (direct match to backend/data stream integrity)",
+            "4x Axios frequency (primary language/framework)",
+            "6x async/await frequency (relevant for data stream integrity)",
+            "Senior-level consistency (12 reviews, 9 PRs reviewed)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 12 total reviews, 11 comments, and 9 PRs reviewed. Focused on Axios internals, Node.js backend development, and asynchronous programming. Strong evidence of technical depth in error handling, security, and API client patterns.",
+          "potential_limitations": "None identified"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "successful_assignments": 32,
+    "failed_assignments": 0,
+    "success_rate": 100.0,
+    "reviewer_workload_distribution": {
+      "jasonsaayman": 22,
+      "DigitalBrainJS": 6,
+      "alexandermirzoyan": 2,
+      "sgammon": 2
+    },
+    "most_assigned_reviewer": "jasonsaayman",
+    "average_match_score": 0.91
+  }
+}

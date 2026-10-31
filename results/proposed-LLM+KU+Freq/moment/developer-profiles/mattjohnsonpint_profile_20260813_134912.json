@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "developer_name": "mattjohnsonpint",
+    "generation_timestamp": "2026-08-13T13:41:46.972820",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 12,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 12
+  },
+  "profile": {
+    "developer_name": "mattjohnsonpint",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Moment.js (Date/Time Manipulation)",
+      "JavaScript Date Object Handling",
+      "QUnit Testing Framework",
+      "Timezone & DST Edge-Case Debugging",
+      "Functional Programming Patterns",
+      "API Extension & Backward Compatibility"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)"
+    ],
+    "summary": "\n  **mattjohnsonpint** is a **Mid-level JavaScript developer** with specialized expertise in **Moment.js**, a legacy date/time manipulation library. Their contributions demonstrate deep knowledge of **JavaScript's Date object**, particularly around **timezone handling, DST transitions, and edge-case debugging**. While their work is **frontend-focused** and primarily involves **legacy JavaScript (ES5)**, their contributions reveal strong **testing methodologies (QUnit)**, **functional programming patterns**, and **API design principles** for utility libraries.\n\n  Their experience is **not aligned with modern frameworks** (React/Vue/Angular) or **TypeScript**, but their **precision in date manipulation** and **test-driven approach** indicate a **methodical problem-solving mindset**. The developer shows **backward compatibility awareness** and **clean code practices**, making them a valuable asset for **legacy codebases** or projects requiring **robust date/time utilities**.\n\n  **Key Strengths**:\n  - **Moment.js API extensions** (e.g., `age()` function).\n  - **Timezone & DST bug fixes** (e.g., fractional-hour offsets).\n  - **QUnit test restoration & optimization**.\n  - **Minimal-change, backward-compatible patches**.\n\n  **Areas for Growth**:\n  - **Modern JavaScript (ES6+)** adoption.\n  - **TypeScript** proficiency.\n  - **Framework integration** (React/Vue/Angular).\n  - **Asynchronous programming** (Promises/async-await).\n  ",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 12": [
+        "Moment.js, frequency: 12",
+        "QUnit, frequency: 5"
+      ],
+      "Asynchronous Programming, frequency: 0": [],
+      "API Design & Consumption, frequency: 12": [
+        "API Extension (Moment.js), frequency: 12"
+      ],
+      "Error Handling, frequency: 6": [
+        "Edge-Case Debugging (DST/Timezones), frequency: 6"
+      ],
+      "Frontend Development Skills, frequency: 12": [
+        "DOM Manipulation (Indirect via Moment.js), frequency: 2",
+        "Timezone-Aware Date Handling, frequency: 10"
+      ],
+      "Backend Development Skills, frequency: 0": [],
+      "DevOps & Deployment, frequency: 0": [],
+      "Advanced JavaScript Concepts, frequency: 12": [
+        "Date Object Manipulation, frequency: 8",
+        "Functional Programming (Pure Functions), frequency: 4"
+      ],
+      "Functional Programming, frequency: 4": [
+        "Pure Functions (e.g., `age()`), frequency: 4"
+      ],
+      "Data Structures & Algorithms, frequency: 0": [],
+      "TypeScript, frequency: 0": [],
+      "Progressive Web Apps (PWA), frequency: 0": [],
+      "Mobile Development with JavaScript, frequency: 0": [],
+      "Web Performance Optimization, frequency: 0": [],
+      "Event-Driven Architecture, frequency: 0": [],
+      "Dependency Management, frequency: 0": [],
+      "Graphical Data Visualization, frequency: 0": []
+    }
+  },
+  "statistics": {
+    "total_prs": 12,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

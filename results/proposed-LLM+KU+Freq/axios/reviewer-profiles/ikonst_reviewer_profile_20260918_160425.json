@@ -1,0 +1,70 @@
+{
+  "reviewer_name": "ikonst",
+  "generated_at": "20260918_160425",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 4,
+    "total_prs": 1,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "ikonst",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Asynchronous programming (async/await, error chaining)",
+      "Node.js backend development",
+      "Error handling and stack trace preservation",
+      "API request handling and error propagation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from error handling patterns)"
+    ],
+    "summary": "Based on the available PR metadata, ikonst demonstrates a strong focus on asynchronous JavaScript programming, particularly in Node.js environments. Their expertise appears centered around preserving stack traces in async operations, error chaining, and defensive programming patterns. While no direct frontend experience is evident, their backend knowledge includes Node.js, HTTP request handling, and modern error handling techniques. The inferred TypeScript proficiency suggests familiarity with type-safe error handling patterns. The reviewer's work aligns with mid-level expertise given the depth of async/await and error handling knowledge demonstrated in the single visible PR.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 3": [
+        "Node.js, frequency: 3"
+      ],
+      "Asynchronous Programming, frequency: 5": [
+        "async/await, frequency: 4",
+        "Promises, frequency: 1"
+      ],
+      "API Design & Consumption, frequency: 3": [
+        "RESTful APIs, frequency: 3"
+      ],
+      "Error Handling, frequency: 5": [
+        "Error chaining (cause property), frequency: 3",
+        "Try-Catch, frequency: 2"
+      ],
+      "Backend Development Skills, frequency: 8": [
+        "API Endpoints, frequency: 3",
+        "Middleware, frequency: 2",
+        "Authentication/Authorization, frequency: 1",
+        "Server-Side Logic, frequency: 2"
+      ],
+      "Advanced JavaScript Concepts, frequency: 2": [
+        "Module Systems, frequency: 1",
+        "Error Boundaries, frequency: 1"
+      ],
+      "TypeScript, frequency: 1": [
+        "Type Definitions, frequency: 1"
+      ],
+      "Dependency Management, frequency: 1": [
+        "npm/yarn, frequency: 1"
+      ],
+      "Event-Driven Architecture, frequency: 1": [
+        "Event Loop, frequency: 1"
+      ],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "DevOps & Deployment": [],
+      "Graphical Data Visualization": []
+    }
+  }
+}

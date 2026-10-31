@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "jasonsaayman",
+    "generation_timestamp": "2026-09-18T00:32:31.350028",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 68,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "jasonsaayman",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js (Axios ecosystem)",
+      "npm/yarn dependency management",
+      "CI/CD pipelines (Travis CI, GitHub Actions)",
+      "Testing tooling (Karma, Sauce Labs)",
+      "Documentation improvements",
+      "Asynchronous programming patterns"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "\nJason Saayman demonstrates **mid-level expertise** in **Node.js backend development**, particularly within the **Axios ecosystem**. His contributions are focused on **dependency management, CI/CD tooling, and documentation improvements**, showing strong proficiency in **npm/yarn, Travis CI, and GitHub Actions**. While his work is **heavily backend-oriented** (Axios, Karma, Sauce Labs), there is **no evidence of frontend frameworks or TypeScript** in this dataset.\n\nKey strengths include:\n- **Backend JavaScript** (Axios, Node.js HTTP client)\n- **Dependency management** (npm/yarn, semantic versioning)\n- **CI/CD workflows** (Travis CI, GitHub Actions)\n- **Testing tooling** (Karma, Sauce Labs)\n- **Documentation & DX improvements**\n\nThe absence of **frontend frameworks, TypeScript, or direct API development** suggests a **backend-focused specialization**, though his **async programming awareness** (via Axios) and **debugging skills** (fixing test reporting issues) indicate broader JavaScript competence.\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise, frequency: 12": [
+        "Node.js, frequency: 12",
+        "npm/yarn, frequency: 6",
+        "Karma, frequency: 3",
+        "Sauce Labs, frequency: 2"
+      ],
+      "Asynchronous Programming, frequency: 3": [
+        "Promises, frequency: 2",
+        "async/await, frequency: 1"
+      ],
+      "API Design & Consumption, frequency: 2": [
+        "RESTful APIs, frequency: 2"
+      ],
+      "Error Handling, frequency: 2": [
+        "Debugging (async HTTP issues), frequency: 2"
+      ],
+      "Frontend Development Skills": [],
+      "Backend Development Skills, frequency: 12": [
+        "Middleware (Axios internals), frequency: 2",
+        "API Endpoints (indirect via Axios), frequency: 2",
+        "Authentication/Authorization (indirect via Axios), frequency: 2",
+        "Dependency Management (npm/yarn), frequency: 6"
+      ],
+      "DevOps & Deployment, frequency: 8": [
+        "CI/CD Pipelines (Travis CI), frequency: 4",
+        "GitHub Actions, frequency: 2",
+        "Dependency Security (version updates), frequency: 2"
+      ],
+      "Advanced JavaScript Concepts": [],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Dependency Management, frequency: 6": [
+        "npm/yarn, frequency: 6"
+      ],
+      "Graphical Data Visualization": []
+    }
+  },
+  "statistics": {
+    "total_prs": 68,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

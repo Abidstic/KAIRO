@@ -1,0 +1,965 @@
+{
+  "summary": {
+    "extraction_metadata": {
+      "extraction_date": "2026-08-13 03:28:53",
+      "source_file": "../PR data for Reviewers/lodash_lodash_reviewer_data_test.json",
+      "total_prs_analyzed": 24
+    },
+    "overall_statistics": {
+      "total_prs": 24,
+      "prs_with_reviews": 24,
+      "prs_without_reviews": 0,
+      "total_reviews": 52,
+      "average_reviews_per_pr": 2.17,
+      "unique_reviewers_count": 14
+    },
+    "reviewer_activity": {
+      "by_prs_reviewed": {
+        "jdalton": 9,
+        "Cassieminkus1": 8,
+        "UlisesGascon": 6,
+        "jonchurch": 4,
+        "falsyvalues": 3,
+        "Trott": 1,
+        "rap1ds": 1,
+        "Princetagusor": 1,
+        "Playgirlkaybraz11": 1,
+        "bjohansebas": 1,
+        "Valera-Zaebal": 1,
+        "utkarshSinha1910": 1,
+        "Sourojitbanerjee": 1,
+        "tobie": 1
+      },
+      "by_total_reviews": {
+        "jdalton": 15,
+        "Cassieminkus1": 9,
+        "UlisesGascon": 7,
+        "jonchurch": 5,
+        "falsyvalues": 5,
+        "tobie": 3,
+        "Trott": 1,
+        "rap1ds": 1,
+        "Playgirlkaybraz11": 1,
+        "Princetagusor": 1,
+        "bjohansebas": 1,
+        "Valera-Zaebal": 1,
+        "utkarshSinha1910": 1,
+        "Sourojitbanerjee": 1
+      }
+    },
+    "top_reviewers": {
+      "most_prs_reviewed": [
+        "jdalton",
+        9
+      ],
+      "most_total_reviews": [
+        "jdalton",
+        15
+      ]
+    }
+  },
+  "pr_reviewer_assignments": [
+    {
+      "pr_number": 5866,
+      "pr_title": "Clarify what arguments goes where.",
+      "pr_author": "SimonLandeholm",
+      "pr_state": "open",
+      "created_at": "2024-05-24T09:27:34Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5866",
+      "total_reviews": 2,
+      "total_review_comments": 1,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "Trott",
+          "reviewer_id": 718899,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-05-24T11:57:36Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "Cassieminkus1",
+          "reviewer_id": 164292316,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-04T11:51:00Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "Cassieminkus1",
+        "Trott"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "Cassieminkus1",
+        "Trott"
+      ]
+    },
+    {
+      "pr_number": 5874,
+      "pr_title": "fix: reduce when we use object with 'length' attribute",
+      "pr_author": "baguse",
+      "pr_state": "open",
+      "created_at": "2024-05-30T15:52:28Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5874",
+      "total_reviews": 2,
+      "total_review_comments": 1,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rap1ds",
+          "reviewer_id": 429876,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-12T11:57:10Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "Cassieminkus1",
+          "reviewer_id": 164292316,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-04T11:50:28Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "rap1ds",
+        "Cassieminkus1"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rap1ds",
+        "Cassieminkus1"
+      ]
+    },
+    {
+      "pr_number": 5887,
+      "pr_title": "feat: toPercent()",
+      "pr_author": "ianzone",
+      "pr_state": "closed",
+      "created_at": "2024-06-18T17:50:13Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5887",
+      "total_reviews": 1,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "UlisesGascon",
+          "reviewer_id": 5110813,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-27T16:17:00Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "UlisesGascon"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "UlisesGascon"
+      ]
+    },
+    {
+      "pr_number": 5915,
+      "pr_title": "test: fix union test grammar errors",
+      "pr_author": "gweesin",
+      "pr_state": "open",
+      "created_at": "2024-08-10T15:52:27Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5915",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "Playgirlkaybraz11",
+          "reviewer_id": 170968903,
+          "review_state": "APPROVED",
+          "review_body": "#252 #5872 #5872 #5605 ",
+          "submitted_at": "2024-08-26T03:17:39Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "Princetagusor",
+          "reviewer_id": 179426934,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-26T03:35:20Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "Princetagusor",
+        "Playgirlkaybraz11"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "Princetagusor",
+        "Playgirlkaybraz11"
+      ]
+    },
+    {
+      "pr_number": 5968,
+      "pr_title": "fix outdated links related to Open JS Foundation",
+      "pr_author": "clarkepeterf",
+      "pr_state": "open",
+      "created_at": "2025-02-24T12:59:41Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5968",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "UlisesGascon",
+          "reviewer_id": 5110813,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-02-24T17:02:29Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "bjohansebas",
+          "reviewer_id": 103585995,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-03-15T00:37:14Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "bjohansebas",
+        "UlisesGascon"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "bjohansebas",
+        "UlisesGascon"
+      ]
+    },
+    {
+      "pr_number": 5971,
+      "pr_title": "Docs: Fix inconsistent terminology between reject and unescape functions",
+      "pr_author": "vedant713",
+      "pr_state": "open",
+      "created_at": "2025-03-05T00:15:51Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5971",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "Cassieminkus1",
+          "reviewer_id": 164292316,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-04T11:48:56Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "Cassieminkus1"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "Cassieminkus1"
+      ]
+    },
+    {
+      "pr_number": 5978,
+      "pr_title": "Fix for 'Added Whitespace' issue in startCase method",
+      "pr_author": "Rkverma94",
+      "pr_state": "open",
+      "created_at": "2025-03-30T15:30:22Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5978",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "Cassieminkus1",
+          "reviewer_id": 164292316,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-04T11:48:20Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "Cassieminkus1"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "Cassieminkus1"
+      ]
+    },
+    {
+      "pr_number": 5987,
+      "pr_title": "test: add tests for Number constants on isNumber",
+      "pr_author": "frontman-git",
+      "pr_state": "open",
+      "created_at": "2025-04-29T04:14:35Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5987",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "Valera-Zaebal",
+          "reviewer_id": 212119888,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-05-27T18:35:39Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "Valera-Zaebal"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "Valera-Zaebal"
+      ]
+    },
+    {
+      "pr_number": 5996,
+      "pr_title": "test: add test for size with string input",
+      "pr_author": "frontman-git",
+      "pr_state": "open",
+      "created_at": "2025-06-05T15:04:14Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5996",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "Cassieminkus1",
+          "reviewer_id": 164292316,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-04T11:46:50Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "Cassieminkus1"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "Cassieminkus1"
+      ]
+    },
+    {
+      "pr_number": 6007,
+      "pr_title": "fix: exclude NaN from isNumber (fixes #5981)",
+      "pr_author": "ThivyaElangovan121121",
+      "pr_state": "open",
+      "created_at": "2025-07-18T08:58:36Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6007",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "Cassieminkus1",
+          "reviewer_id": 164292316,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-04T11:46:24Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "Cassieminkus1"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "Cassieminkus1"
+      ]
+    },
+    {
+      "pr_number": 6008,
+      "pr_title": "[Autofic] Security Patch 2025-07-19",
+      "pr_author": "soonnae",
+      "pr_state": "open",
+      "created_at": "2025-07-19T07:52:29Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6008",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "Cassieminkus1",
+          "reviewer_id": 164292316,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-04T11:45:43Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "Cassieminkus1"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "Cassieminkus1"
+      ]
+    },
+    {
+      "pr_number": 6009,
+      "pr_title": "docs: document behavior of zip functions with arrays of different lengths",
+      "pr_author": "gingeekrishna",
+      "pr_state": "open",
+      "created_at": "2025-07-21T16:44:03Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6009",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "Cassieminkus1",
+          "reviewer_id": 164292316,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-04T11:45:15Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "Cassieminkus1",
+          "reviewer_id": 164292316,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-07T08:35:22Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "Cassieminkus1"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "Cassieminkus1"
+      ]
+    },
+    {
+      "pr_number": 6012,
+      "pr_title": "Fix make _.isNumber(NaN) return false and update tests",
+      "pr_author": "Rishiyaduwanshi",
+      "pr_state": "open",
+      "created_at": "2025-08-26T21:07:11Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6012",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "utkarshSinha1910",
+          "reviewer_id": 164741609,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-13T04:46:46Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "utkarshSinha1910"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "utkarshSinha1910"
+      ]
+    },
+    {
+      "pr_number": 6021,
+      "pr_title": "Add  CI pipeline to run tests on modern browsers",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "created_at": "2025-10-11T11:34:41Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6021",
+      "total_reviews": 4,
+      "total_review_comments": 4,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "UlisesGascon",
+          "reviewer_id": 5110813,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-11T11:38:54Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "jdalton",
+          "reviewer_id": 4303,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-27T10:19:25Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "jdalton",
+          "reviewer_id": 4303,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-27T10:20:18Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "jdalton",
+          "reviewer_id": 4303,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-27T10:20:23Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "jdalton",
+        "UlisesGascon"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "jdalton",
+        "UlisesGascon"
+      ]
+    },
+    {
+      "pr_number": 6022,
+      "pr_title": "Add CI pipeline for Node",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "created_at": "2025-10-11T11:35:05Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6022",
+      "total_reviews": 3,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "jonchurch",
+          "reviewer_id": 12915163,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-23T02:13:57Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "jdalton",
+          "reviewer_id": 4303,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-27T10:21:51Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "jdalton",
+          "reviewer_id": 4303,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-27T10:22:01Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "jdalton",
+        "jonchurch"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "jdalton",
+        "jonchurch"
+      ]
+    },
+    {
+      "pr_number": 6023,
+      "pr_title": "Add CI pipeline for Bun",
+      "pr_author": "UlisesGascon",
+      "pr_state": "open",
+      "created_at": "2025-10-11T11:35:22Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6023",
+      "total_reviews": 8,
+      "total_review_comments": 5,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "jonchurch",
+          "reviewer_id": 12915163,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "",
+          "submitted_at": "2025-10-23T03:05:29Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "falsyvalues",
+          "reviewer_id": 1199350,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-27T09:48:24Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "jdalton",
+          "reviewer_id": 4303,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-27T10:22:58Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "UlisesGascon",
+          "reviewer_id": 5110813,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-27T20:07:12Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "jdalton",
+          "reviewer_id": 4303,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-28T15:13:01Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "jdalton",
+          "reviewer_id": 4303,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-28T15:29:47Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "jonchurch",
+          "reviewer_id": 12915163,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-28T15:41:36Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "falsyvalues",
+          "reviewer_id": 1199350,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-28T16:00:10Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "jdalton",
+        "falsyvalues",
+        "UlisesGascon",
+        "jonchurch"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "jdalton",
+        "falsyvalues",
+        "UlisesGascon",
+        "jonchurch"
+      ]
+    },
+    {
+      "pr_number": 6025,
+      "pr_title": "docs: add security escalation policy",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "created_at": "2025-10-11T16:42:41Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6025",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "jdalton",
+          "reviewer_id": 4303,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-27T10:23:59Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "jdalton"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "jdalton"
+      ]
+    },
+    {
+      "pr_number": 6026,
+      "pr_title": "security: Include a threat model",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "created_at": "2025-10-11T17:32:44Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6026",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "Sourojitbanerjee",
+          "reviewer_id": 181811476,
+          "review_state": "COMMENTED",
+          "review_body": "Hey @UlisesGascon, this addition looks really valuable, having a clear threat model definitely helps contributors understand Lodash’s security scope.\r\nA few small notes are that you could consider linking specific examples or scenarios under each “trust boundary” section in threat-model.md for clarity. Maybe add a brief note in SECURITY.md summarizing what the threat model covers (e.g., “out-of-scope: client-side misuse”) so readers get the gist without opening another file.\r\n",
+          "submitted_at": "2025-10-21T05:49:18Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "jdalton",
+          "reviewer_id": 4303,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-27T10:30:35Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "jdalton",
+        "Sourojitbanerjee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "jdalton",
+        "Sourojitbanerjee"
+      ]
+    },
+    {
+      "pr_number": 6028,
+      "pr_title": "Incident Response Plan",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "created_at": "2025-10-21T22:24:35Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6028",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "jdalton",
+          "reviewer_id": 4303,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-27T10:26:03Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "jdalton"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "jdalton"
+      ]
+    },
+    {
+      "pr_number": 6030,
+      "pr_title": "Add support for OSSF scorecard reporting",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "created_at": "2025-10-21T22:33:00Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6030",
+      "total_reviews": 2,
+      "total_review_comments": 1,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "jdalton",
+          "reviewer_id": 4303,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-27T10:25:20Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "jdalton",
+          "reviewer_id": 4303,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-27T10:25:31Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "jdalton"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "jdalton"
+      ]
+    },
+    {
+      "pr_number": 6032,
+      "pr_title": "feat: add CodeQL",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "created_at": "2025-10-21T22:37:53Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6032",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "jdalton",
+          "reviewer_id": 4303,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-27T10:29:13Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "jdalton"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "jdalton"
+      ]
+    },
+    {
+      "pr_number": 6033,
+      "pr_title": "Make the CI green again",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "created_at": "2025-10-27T20:13:40Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6033",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "jdalton",
+          "reviewer_id": 4303,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-28T15:12:16Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "jdalton"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "jdalton"
+      ]
+    },
+    {
+      "pr_number": 6035,
+      "pr_title": "Add contributors section to README",
+      "pr_author": "bensternthal",
+      "pr_state": "open",
+      "created_at": "2025-10-28T16:20:28Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6035",
+      "total_reviews": 4,
+      "total_review_comments": 5,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "jonchurch",
+          "reviewer_id": 12915163,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-28T16:24:38Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "falsyvalues",
+          "reviewer_id": 1199350,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-28T17:08:28Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "UlisesGascon",
+          "reviewer_id": 5110813,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-28T17:14:21Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "UlisesGascon",
+          "reviewer_id": 5110813,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-29T10:57:57Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "falsyvalues",
+        "UlisesGascon",
+        "jonchurch"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "falsyvalues",
+        "UlisesGascon",
+        "jonchurch"
+      ]
+    },
+    {
+      "pr_number": 6036,
+      "pr_title": "Account for governance and maturity stage transition",
+      "pr_author": "tobie",
+      "pr_state": "open",
+      "created_at": "2025-10-28T23:39:36Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6036",
+      "total_reviews": 7,
+      "total_review_comments": 8,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "jonchurch",
+          "reviewer_id": 12915163,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-29T01:08:20Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "falsyvalues",
+          "reviewer_id": 1199350,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-29T09:30:44Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "tobie",
+          "reviewer_id": 3392,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-29T10:21:45Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "tobie",
+          "reviewer_id": 3392,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-29T10:28:42Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "UlisesGascon",
+          "reviewer_id": 5110813,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-29T10:58:43Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "falsyvalues",
+          "reviewer_id": 1199350,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-29T21:40:10Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "tobie",
+          "reviewer_id": 3392,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-29T22:49:42Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "tobie",
+        "falsyvalues",
+        "UlisesGascon",
+        "jonchurch"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "tobie",
+        "falsyvalues",
+        "UlisesGascon",
+        "jonchurch"
+      ]
+    }
+  ]
+}

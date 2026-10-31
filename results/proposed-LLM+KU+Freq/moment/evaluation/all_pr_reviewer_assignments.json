@@ -1,0 +1,2065 @@
+{
+  "metadata": {
+    "total_prs_processed": 26,
+    "processing_date": "2025-10-21",
+    "available_reviewers": [
+      "AlesJiranek",
+      "anandfresh",
+      "asenousy",
+      "ashsearle",
+      "avaly",
+      "butterflyhug",
+      "caio-ribeiro-pereira",
+      "cepem",
+      "CYAXXX",
+      "dusansimic",
+      "ElFadiliY",
+      "erhangundogan",
+      "fadsel",
+      "gnurgeldiyev",
+      "harkue",
+      "hehachris",
+      "icambron",
+      "ichernev",
+      "jguc",
+      "JLHwung",
+      "kakasahebKK",
+      "leonaves",
+      "maggiepint",
+      "marwahaha",
+      "mattgrande",
+      "MichaelDimmitt",
+      "naveen-bharathi",
+      "NotMoni",
+      "ovangle",
+      "petrbela",
+      "PriyaBihani",
+      "raghavmac",
+      "rksp25",
+      "scrnjakovic",
+      "sigurdga",
+      "socketpair",
+      "Spiralis",
+      "suyundukov",
+      "tomerle",
+      "uu109",
+      "Vivakvo"
+    ],
+    "total_available_reviewers": 41
+  },
+  "pr_assignments": [
+    {
+      "pr_number": 6123,
+      "pr_title": "Gigwell",
+      "pr_author": "danielschuetter",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with deep Moment.js expertise (37x reviews), strong TypeScript/ES6+ skills, and consistent code quality focus. High frequency of relevant skills (Moment.js, immutability, defensive programming) and proven review activity (37 reviews, 35 comments).",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (37x reviews, 10x immutability, 10x defensive programming)",
+            "Strong TypeScript/ES6+ proficiency (10x TypeScript, 15x ES6+ features)",
+            "Consistent code quality focus (37 reviews, 35 comments, 21 PRs reviewed)"
+          ],
+          "review_experience": "Senior-level reviewer with 37 reviews, 35 comments, and 21 PRs reviewed, all focused on Moment.js and core JavaScript quality. Demonstrates deep technical knowledge and review consistency.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.78,
+          "reasoning": "Senior reviewer with deep Moment.js expertise (16x reviews) and strong functional/immutable patterns (5x immutable API design, 5x prototypes). High review activity (16 reviews, 30 comments) and consistent code quality focus.",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (16x reviews, 4x locale systems)",
+            "Strong functional/immutable patterns (5x immutable API design, 5x prototypes)",
+            "High review activity (16 reviews, 30 comments, 11 PRs reviewed)"
+          ],
+          "review_experience": "Senior-level reviewer with 16 reviews, 30 comments, and 11 PRs reviewed, focused on Moment.js and core JavaScript quality. Demonstrates deep technical knowledge and review consistency.",
+          "potential_concerns": "Slightly lower review frequency than marwahaha (16 vs. 37)"
+        },
+        {
+          "reviewer_name": "ashsearle",
+          "match_score": 0.65,
+          "reasoning": "Mid-level reviewer with strong Moment.js expertise (3x reviews) and functional programming patterns (immutability, chaining). Lower review frequency (11 reviews, 11 comments) but consistent quality focus.",
+          "strengths_alignment": [
+            "Moment.js expertise (3x reviews, 1x Jest unit testing awareness)",
+            "Functional programming patterns (immutability, chaining)",
+            "Performance optimization focus (DST handling, algorithmic fixes)"
+          ],
+          "review_experience": "Mid-level reviewer with 11 reviews, 11 comments, and 3 PRs reviewed, focused on Moment.js and functional programming. Demonstrates strong technical depth but lower review volume than top choices.",
+          "potential_concerns": "Lower review frequency (11 reviews) compared to top two"
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Senior reviewer with deep Moment.js expertise (37x reviews), strong TypeScript/ES6+ skills, and consistent code quality focus. High frequency of relevant skills (Moment.js, immutability, defensive programming) and proven review activity (37 reviews, 35 comments).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6123",
+      "reviewer_strengths": [
+        "Deep Moment.js expertise (37x reviews, 10x immutability, 10x defensive programming)",
+        "Strong TypeScript/ES6+ proficiency (10x TypeScript, 15x ES6+ features)",
+        "Consistent code quality focus (37 reviews, 35 comments, 21 PRs reviewed)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 37 reviews, 35 comments, and 21 PRs reviewed, all focused on Moment.js and core JavaScript quality. Demonstrates deep technical knowledge and review consistency.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep Moment.js expertise (37x reviews), strong TypeScript/ES6+ skills, and consistent code quality focus. High frequency of relevant skills (Moment.js, immutability, defensive programming) and proven review activity (37 reviews, 35 comments).",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (37x reviews, 10x immutability, 10x defensive programming)",
+            "Strong TypeScript/ES6+ proficiency (10x TypeScript, 15x ES6+ features)",
+            "Consistent code quality focus (37 reviews, 35 comments, 21 PRs reviewed)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 37 reviews, 35 comments, and 21 PRs reviewed, all focused on Moment.js and core JavaScript quality. Demonstrates deep technical knowledge and review consistency.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6125,
+      "pr_title": "Italian days and months with capital letter",
+      "pr_author": "federicocappellotto97",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Deep expertise in Moment.js (37x reviews) and TypeScript, with strong alignment to localization, string formatting, and language-specific formatting. High frequency of relevant skills (ES6+ features, defensive programming, immutability) and consistent review activity (37 reviews, 35 comments).",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (37x reviews)",
+            "TypeScript and ES6+ features (15x, 10x frequency)",
+            "Defensive programming and immutability patterns",
+            "Strong localization and string formatting experience"
+          ],
+          "review_experience": "Senior-level reviewer with 37 reviews, 35 comments, and 21 PRs reviewed. Consistently engaged in technical discussions and code quality reviews for Moment.js.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.88,
+          "reasoning": "Senior-level reviewer with deep Moment.js expertise (16x reviews) and strong localization/i18n focus. High frequency of relevant skills (locale systems, immutable API design) and consistent review activity (16 reviews, 30 comments).",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (16x reviews)",
+            "Locale systems and internationalization (4x frequency)",
+            "Immutable API design and functional programming patterns",
+            "Strong alignment with localization and string formatting"
+          ],
+          "review_experience": "Senior-level reviewer with 16 reviews, 30 comments, and 11 PRs reviewed. Consistently engaged in technical discussions and code quality reviews for Moment.js.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with strong Moment.js and Intl API expertise (4 reviews, 5 comments). Focused on locale-specific formatting and internationalization, with relevant ES6+ skills. Lower frequency but direct alignment to required areas.",
+          "strengths_alignment": [
+            "Moment.js and Intl API expertise (4 reviews, 2x Intl API frequency)",
+            "Locale-specific formatting and internationalization",
+            "ES6+ JavaScript syntax (arrow functions, destructuring)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 5 comments, and 2 PRs reviewed. Focused on technical discussions around localization and formatting.",
+          "potential_concerns": "Lower review frequency (4 reviews) compared to top choices"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Deep expertise in Moment.js (37x reviews) and TypeScript, with strong alignment to localization, string formatting, and language-specific formatting. High frequency of relevant skills (ES6+ features, defensive programming, immutability) and consistent review activity (37 reviews, 35 comments).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6125",
+      "reviewer_strengths": [
+        "Deep Moment.js expertise (37x reviews)",
+        "TypeScript and ES6+ features (15x, 10x frequency)",
+        "Defensive programming and immutability patterns"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 37 reviews, 35 comments, and 21 PRs reviewed. Consistently engaged in technical discussions and code quality reviews for Moment.js.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Deep expertise in Moment.js (37x reviews) and TypeScript, with strong alignment to localization, string formatting, and language-specific formatting. High frequency of relevant skills (ES6+ features, defensive programming, immutability) and consistent review activity (37 reviews, 35 comments).",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (37x reviews)",
+            "TypeScript and ES6+ features (15x, 10x frequency)",
+            "Defensive programming and immutability patterns",
+            "Strong localization and string formatting experience"
+          ],
+          "review_experience_details": "Senior-level reviewer with 37 reviews, 35 comments, and 21 PRs reviewed. Consistently engaged in technical discussions and code quality reviews for Moment.js.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6127,
+      "pr_title": "feat: add support for getting month name with moment",
+      "pr_author": "Tobi-Adeneye",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Deep Moment.js expertise (37x reviews) with strong TypeScript/ES6+ functional patterns. Highest frequency match for date/time handling and code quality patterns. Senior-level reliability with 37 reviews and 35 comments.",
+          "strengths_alignment": [
+            "Moment.js deep expertise (37x reviews)",
+            "TypeScript/ES6+ functional programming patterns (10x immutability, pure functions)",
+            "Unit testing and defensive programming (37 reviews)",
+            "High review activity consistency (37 reviews, 35 comments)"
+          ],
+          "review_experience": "Senior-level reviewer with 37 PR reviews, 35 comments, and 21 PRs reviewed. Focused on Moment.js core date/time manipulation, immutability, and functional patterns. Strong evidence of code quality focus.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.88,
+          "reasoning": "Senior-level Moment.js reviewer with 16x reviews and 30 comments. Strong expertise in immutable API design, prototypes, and locale systems. High frequency match for date/time handling and functional patterns.",
+          "strengths_alignment": [
+            "Moment.js deep expertise (16x reviews)",
+            "Immutable API design (5x) and prototypes (5x)",
+            "Locale systems and internationalization (4x)",
+            "Node.js integration (indirect evidence)"
+          ],
+          "review_experience": "Senior-level reviewer with 16 PR reviews, 30 comments, and 11 PRs reviewed. Focused on Moment.js core, immutable patterns, and locale systems. Strong evidence of code quality focus.",
+          "potential_concerns": "Slightly lower review volume than marwahaha (16 vs. 37 reviews)"
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with 27 Moment.js reviews and 12 TypeScript reviews. Strong expertise in date/time localization, functional programming, and TypeScript. High frequency match for core skills but slightly lower review activity than top choices.",
+          "strengths_alignment": [
+            "Moment.js deep expertise (27x reviews)",
+            "TypeScript proficiency (12x)",
+            "Date/time localization and formatting (27x)",
+            "Functional programming patterns (5x higher-order functions)"
+          ],
+          "review_experience": "Senior-level reviewer with 27 PR reviews, 2 comments, and 25 PRs reviewed. Focused on Moment.js and TypeScript, with strong evidence of code quality focus. Lower comment volume (2) but high review volume.",
+          "potential_concerns": "Only 2 comments despite 27 reviews (potential for shallow feedback)"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Deep Moment.js expertise (37x reviews) with strong TypeScript/ES6+ functional patterns. Highest frequency match for date/time handling and code quality patterns. Senior-level reliability with 37 reviews and 35 comments.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6127",
+      "reviewer_strengths": [
+        "Moment.js deep expertise (37x reviews)",
+        "TypeScript/ES6+ functional programming patterns (10x immutability, pure functions)",
+        "Unit testing and defensive programming (37 reviews)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 37 PR reviews, 35 comments, and 21 PRs reviewed. Focused on Moment.js core date/time manipulation, immutability, and functional patterns. Strong evidence of code quality focus.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Deep Moment.js expertise (37x reviews) with strong TypeScript/ES6+ functional patterns. Highest frequency match for date/time handling and code quality patterns. Senior-level reliability with 37 reviews and 35 comments.",
+          "strengths_alignment": [
+            "Moment.js deep expertise (37x reviews)",
+            "TypeScript/ES6+ functional programming patterns (10x immutability, pure functions)",
+            "Unit testing and defensive programming (37 reviews)",
+            "High review activity consistency (37 reviews, 35 comments)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 37 PR reviews, 35 comments, and 21 PRs reviewed. Focused on Moment.js core date/time manipulation, immutability, and functional patterns. Strong evidence of code quality focus.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6128,
+      "pr_title": "[feature] Graceful handling of undefined locale name",
+      "pr_author": "Tobi-Adeneye",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with deep Moment.js expertise (37x reviews), strong TypeScript/ES6+ skills, and consistent code quality focus. Highest frequency evidence for core JavaScript patterns (immutability, defensive programming) and review activity consistency.",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (37x reviews, 21 PRs)",
+            "Strong TypeScript/ES6+ skills (10x TypeScript, 15x ES6+ features)",
+            "Consistent code quality focus (35 comments, 21 PRs reviewed)"
+          ],
+          "review_experience": "Senior reviewer with 37 reviews, 35 comments, and 21 PRs reviewed, all focused on Moment.js core logic and edge cases.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.78,
+          "reasoning": "Senior reviewer with strong Moment.js expertise (16x reviews) and Node.js integration, but slightly lower review frequency than marwahaha. Focused on immutable API design and locale systems, aligning well with code quality needs.",
+          "strengths_alignment": [
+            "Senior-level Moment.js expertise (16x reviews, 11 PRs)",
+            "Deep Node.js integration and immutable API design",
+            "Strong functional programming patterns (5x immutable API design, 5x prototypes)"
+          ],
+          "review_experience": "Senior reviewer with 16 reviews, 30 comments, and 11 PRs reviewed, all focused on Moment.js core and Node.js integration.",
+          "potential_concerns": "Lower review frequency than marwahaha (16 vs. 37 reviews)"
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.72,
+          "reasoning": "Senior reviewer with deep Moment.js expertise (27x reviews) and TypeScript proficiency, but lower review activity consistency (27 reviews but only 2 comments). Strong technical depth but less frequent feedback.",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (27x reviews)",
+            "Strong TypeScript and functional programming patterns (12x TypeScript, 5x higher-order functions)",
+            "Consistent Moment.js focus across reviews"
+          ],
+          "review_experience": "Senior reviewer with 27 reviews but only 2 comments, indicating lower engagement frequency despite high technical depth.",
+          "potential_concerns": "Low comment frequency (2 comments across 27 reviews)"
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Senior-level reviewer with deep Moment.js expertise (37x reviews), strong TypeScript/ES6+ skills, and consistent code quality focus. Highest frequency evidence for core JavaScript patterns (immutability, defensive programming) and review activity consistency.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6128",
+      "reviewer_strengths": [
+        "Deep Moment.js expertise (37x reviews, 21 PRs)",
+        "Strong TypeScript/ES6+ skills (10x TypeScript, 15x ES6+ features)",
+        "Consistent code quality focus (35 comments, 21 PRs reviewed)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior reviewer with 37 reviews, 35 comments, and 21 PRs reviewed, all focused on Moment.js core logic and edge cases.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with deep Moment.js expertise (37x reviews), strong TypeScript/ES6+ skills, and consistent code quality focus. Highest frequency evidence for core JavaScript patterns (immutability, defensive programming) and review activity consistency.",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (37x reviews, 21 PRs)",
+            "Strong TypeScript/ES6+ skills (10x TypeScript, 15x ES6+ features)",
+            "Consistent code quality focus (35 comments, 21 PRs reviewed)"
+          ],
+          "review_experience_details": "Senior reviewer with 37 reviews, 35 comments, and 21 PRs reviewed, all focused on Moment.js core logic and edge cases.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6129,
+      "pr_title": "Capital letter months in language Ukraine - uk.js",
+      "pr_author": "martinjack",
+      "pr_state": "closed",
+      "assigned_reviewer": null,
+      "top_3_reviewers": [],
+      "match_score": 0.0,
+      "assignment_reasoning": "No suitable reviewer found",
+      "assignment_confidence": "Low",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6129",
+      "reviewer_strengths": [],
+      "potential_concerns": "No reviewer could be matched to this PR",
+      "review_experience": "N/A",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "No suitable reviewer found",
+          "strengths_alignment": [],
+          "review_experience_details": "N/A",
+          "potential_limitations": "No reviewer could be matched to this PR"
+        }
+      }
+    },
+    {
+      "pr_number": 6151,
+      "pr_title": "Commiting into the moment/locale/guj.js folder ",
+      "pr_author": "levinbaria",
+      "pr_state": "open",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.89,
+          "reasoning": "Senior reviewer with deep Moment.js expertise (37x), strong TypeScript/ES6+ skills, and consistent code-quality-focused reviews. Highest frequency match for date/time handling and functional patterns. Similar-review relevance confirmed via locale-focused PRs (e.g., #4766).",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (37x reviews, 21 PRs)",
+            "TypeScript/ES6+ proficiency (10x TypeScript, 15x ES6+ features)",
+            "Functional programming patterns (10x immutability/pure functions)",
+            "Code-quality focus (35 comments, 37 reviews)"
+          ],
+          "review_experience": "Senior-level reviewer with 37 reviews, 21 PRs, and 35 comments. Consistently engaged in Moment.js core contributions, including locale/i18n and API design.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.82,
+          "reasoning": "Senior reviewer with strong Moment.js expertise (16x) and Node.js integration. High frequency for immutable API design (5x) and locale systems (4x). Lower review volume than marwahaha but equally relevant for date/time quality.",
+          "strengths_alignment": [
+            "Senior-level Moment.js expertise (16x reviews, 11 PRs)",
+            "Immutable API design (5x frequency)",
+            "Locale/i18n systems (4x frequency)",
+            "Node.js integration (indirect evidence)"
+          ],
+          "review_experience": "Senior reviewer with 16 reviews, 11 PRs, and 30 comments. Focused on Moment.js core, including locale and API design.",
+          "potential_concerns": "Lower review volume (16) than marwahaha (37)."
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.78,
+          "reasoning": "Senior reviewer with deep Moment.js expertise (27x) and TypeScript (12x). Strong functional programming patterns (5x higher-order functions) but lower review activity (27 reviews) than marwahaha.",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (27x reviews, 25 PRs)",
+            "TypeScript proficiency (12x frequency)",
+            "Functional programming patterns (5x higher-order functions)",
+            "Unit testing and edge-case handling"
+          ],
+          "review_experience": "Senior reviewer with 27 reviews, 25 PRs, and 2 comments. Highly focused on Moment.js core but sparse comments (2).",
+          "potential_concerns": "Low comment frequency (2) despite high review volume."
+        }
+      ],
+      "match_score": 0.89,
+      "assignment_reasoning": "Senior reviewer with deep Moment.js expertise (37x), strong TypeScript/ES6+ skills, and consistent code-quality-focused reviews. Highest frequency match for date/time handling and functional patterns. Similar-review relevance confirmed via locale-focused PRs (e.g., #4766).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6151",
+      "reviewer_strengths": [
+        "Deep Moment.js expertise (37x reviews, 21 PRs)",
+        "TypeScript/ES6+ proficiency (10x TypeScript, 15x ES6+ features)",
+        "Functional programming patterns (10x immutability/pure functions)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 37 reviews, 21 PRs, and 35 comments. Consistently engaged in Moment.js core contributions, including locale/i18n and API design.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep Moment.js expertise (37x), strong TypeScript/ES6+ skills, and consistent code-quality-focused reviews. Highest frequency match for date/time handling and functional patterns. Similar-review relevance confirmed via locale-focused PRs (e.g., #4766).",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (37x reviews, 21 PRs)",
+            "TypeScript/ES6+ proficiency (10x TypeScript, 15x ES6+ features)",
+            "Functional programming patterns (10x immutability/pure functions)",
+            "Code-quality focus (35 comments, 37 reviews)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 37 reviews, 21 PRs, and 35 comments. Consistently engaged in Moment.js core contributions, including locale/i18n and API design.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6155,
+      "pr_title": "PM and AM in dutch",
+      "pr_author": "reyostallenberg",
+      "pr_state": "open",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Deep expertise in localization terminology accuracy and string formatting consistency (37x Moment.js reviews with i18n focus), strong frequency evidence for documentation-like PRs (similar review patterns), and senior-level reliability.",
+          "strengths_alignment": [
+            "37x Moment.js reviews with i18n/locale expertise (direct match to localization terminology accuracy)",
+            "10x defensive programming and edge-case handling (aligns with string formatting consistency)",
+            "Senior-level review activity (37 reviews, 35 comments) with proven reliability",
+            "TypeScript/ES6+ skills (15x ES6+ features, 10x immutability) for technical depth"
+          ],
+          "review_experience": "Senior reviewer with 37 PR reviews (21 approved), 35 comments, and deep Moment.js/i18n expertise. Focused on locale systems, formatting, and terminology accuracy in past reviews.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.88,
+          "reasoning": "Senior-level i18n expertise (27x Moment.js reviews) with strong frequency evidence for localization terminology and string formatting, though slightly less activity than marwahaha.",
+          "strengths_alignment": [
+            "27x Moment.js reviews with i18n/locale expertise (direct match to localization terminology accuracy)",
+            "12x TypeScript (aligns with technical depth for string formatting)",
+            "Senior-level review activity (27 reviews, 2 comments) with deep Moment.js expertise",
+            "Functional programming patterns (5x) for consistent string handling"
+          ],
+          "review_experience": "Senior reviewer with 27 PR reviews (25 approved), 2 comments, and deep Moment.js/i18n expertise. Focused on date/time localization and terminology accuracy in past reviews.",
+          "potential_concerns": "Lower comment frequency (2 comments) compared to marwahaha, but still strong frequency evidence for i18n."
+        },
+        {
+          "reviewer_name": "socketpair",
+          "match_score": 0.78,
+          "reasoning": "Focused on JavaScript localization/i18n (5 reviews, 7 comments) with string manipulation/formatting expertise, but lower frequency evidence than top choices.",
+          "strengths_alignment": [
+            "5x JavaScript localization/i18n reviews (direct match to localization terminology accuracy)",
+            "7 comments on string manipulation/formatting (aligns with review_focus_areas)",
+            "Basic JavaScript patterns (closures, modules) for technical depth",
+            "Consistent review activity (5 reviews, 3 PRs) with comment engagement"
+          ],
+          "review_experience": "Junior reviewer with 5 PR reviews (3 approved), 7 comments, and focused expertise in Moment.js localization. Strong engagement in string/formatting discussions.",
+          "potential_concerns": "Lower frequency evidence (5 reviews) compared to top choices; no TypeScript or advanced ES6+ skills."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Deep expertise in localization terminology accuracy and string formatting consistency (37x Moment.js reviews with i18n focus), strong frequency evidence for documentation-like PRs (similar review patterns), and senior-level reliability.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6155",
+      "reviewer_strengths": [
+        "37x Moment.js reviews with i18n/locale expertise (direct match to localization terminology accuracy)",
+        "10x defensive programming and edge-case handling (aligns with string formatting consistency)",
+        "Senior-level review activity (37 reviews, 35 comments) with proven reliability"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior reviewer with 37 PR reviews (21 approved), 35 comments, and deep Moment.js/i18n expertise. Focused on locale systems, formatting, and terminology accuracy in past reviews.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Deep expertise in localization terminology accuracy and string formatting consistency (37x Moment.js reviews with i18n focus), strong frequency evidence for documentation-like PRs (similar review patterns), and senior-level reliability.",
+          "strengths_alignment": [
+            "37x Moment.js reviews with i18n/locale expertise (direct match to localization terminology accuracy)",
+            "10x defensive programming and edge-case handling (aligns with string formatting consistency)",
+            "Senior-level review activity (37 reviews, 35 comments) with proven reliability",
+            "TypeScript/ES6+ skills (15x ES6+ features, 10x immutability) for technical depth"
+          ],
+          "review_experience_details": "Senior reviewer with 37 PR reviews (21 approved), 35 comments, and deep Moment.js/i18n expertise. Focused on locale systems, formatting, and terminology accuracy in past reviews.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6156,
+      "pr_title": "feat: consider string number as milliseconds",
+      "pr_author": "0Ncoder0",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Deep expertise in JavaScript testing (unit testing, edge cases) and string/number input validation via Moment.js contributions, with 37 reviews focused on defensive programming and immutability—directly matching the PR's string input validation and milliseconds parsing needs.",
+          "strengths_alignment": [
+            "37x Moment.js reviews with defensive programming and edge-case handling",
+            "10x defensive programming and immutability patterns (relevant to string/number input validation)",
+            "10x TypeScript expertise (type safety for string parsing)",
+            "21 PRs reviewed (high activity consistency)"
+          ],
+          "review_experience": "Senior-level reviewer with 37 reviews, 35 comments, and 21 PRs reviewed, specializing in Moment.js and testing edge cases for date/time logic.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with 27 Moment.js reviews, strong TypeScript and functional programming background, and explicit mention of 'Unit testing and edge-case handling'—aligns well with string input validation and milliseconds parsing needs.",
+          "strengths_alignment": [
+            "27x Moment.js reviews with 'Unit testing and edge-case handling' (direct match)",
+            "12x TypeScript expertise (type safety for string parsing)",
+            "25 PRs reviewed (high activity consistency)",
+            "27x Moment.js frequency (strongest signal for date/time validation expertise)"
+          ],
+          "review_experience": "Senior-level reviewer with 27 reviews, 2 comments, and 25 PRs reviewed, specializing in Moment.js, TypeScript, and functional programming.",
+          "potential_concerns": "Lower comment frequency (2) may indicate less detailed feedback, but review count compensates."
+        },
+        {
+          "reviewer_name": "ashsearle",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with 11 Moment.js reviews, explicit mention of 'Unit testing awareness (Jest/Mocha)' and 'Edge case handling'—partial alignment with string input validation but lacks TypeScript or defensive programming depth.",
+          "strengths_alignment": [
+            "1x Jest testing awareness (relevant for string/number input validation)",
+            "3x Moment.js reviews with 'Functional programming patterns' (immutability for edge cases)",
+            "11 PRs reviewed (moderate activity consistency)"
+          ],
+          "review_experience": "Mid-level reviewer with 11 reviews, 11 comments, and 3 PRs reviewed, focused on Moment.js and functional programming.",
+          "potential_concerns": "Lacks explicit evidence of string/number input validation or milliseconds parsing expertise; lower frequency for testing-related skills."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Deep expertise in JavaScript testing (unit testing, edge cases) and string/number input validation via Moment.js contributions, with 37 reviews focused on defensive programming and immutability—directly matching the PR's string input validation and milliseconds parsing needs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6156",
+      "reviewer_strengths": [
+        "37x Moment.js reviews with defensive programming and edge-case handling",
+        "10x defensive programming and immutability patterns (relevant to string/number input validation)",
+        "10x TypeScript expertise (type safety for string parsing)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 37 reviews, 35 comments, and 21 PRs reviewed, specializing in Moment.js and testing edge cases for date/time logic.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Deep expertise in JavaScript testing (unit testing, edge cases) and string/number input validation via Moment.js contributions, with 37 reviews focused on defensive programming and immutability—directly matching the PR's string input validation and milliseconds parsing needs.",
+          "strengths_alignment": [
+            "37x Moment.js reviews with defensive programming and edge-case handling",
+            "10x defensive programming and immutability patterns (relevant to string/number input validation)",
+            "10x TypeScript expertise (type safety for string parsing)",
+            "21 PRs reviewed (high activity consistency)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 37 reviews, 35 comments, and 21 PRs reviewed, specializing in Moment.js and testing edge cases for date/time logic.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6164,
+      "pr_title": "Create or.js",
+      "pr_author": "Ajinkya-2607",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with deep Moment.js expertise (37x reviews), strong TypeScript/ES6+ skills, and consistent code quality focus. Highest frequency match for date/time handling and functional patterns. Similar-review relevance confirmed via locale-focused PRs.",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (37x reviews, 10x immutability/pure functions)",
+            "TypeScript proficiency (10x) and defensive programming patterns",
+            "Consistent code quality focus (35 comments across 21 PRs)"
+          ],
+          "review_experience": "Senior-level reviewer with 37 PR reviews, 35 comments, and 21 PRs reviewed. Focused on Moment.js core logic, edge cases, and internationalization.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with deep Moment.js expertise (16x reviews) and strong functional programming patterns. High frequency match for date/time handling and immutable API design. Similar-review relevance confirmed via locale-focused PRs.",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (16x reviews, 5x immutable API design)",
+            "Node.js integration and ES6+ functional patterns (5x prototypes/inheritance)",
+            "Unit testing awareness (Moment.js test suite contributions)"
+          ],
+          "review_experience": "Senior-level reviewer with 16 PR reviews, 30 comments, and 11 PRs reviewed. Focused on locale internationalization, immutable API design, and edge-case handling.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with deep Moment.js expertise (27x reviews) and TypeScript proficiency. Strong frequency match for date/time localization and functional programming. Lower review activity consistency due to fewer PRs reviewed (25 PRs, 2 comments).",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (27x reviews, 12x TypeScript)",
+            "TypeScript proficiency (12x) and date/time localization (27x)",
+            "Functional programming patterns (5x higher-order functions)"
+          ],
+          "review_experience": "Senior-level reviewer with 27 PR reviews, 2 comments, and 25 PRs reviewed. Focused on Moment.js core logic, TypeScript, and edge-case handling.",
+          "potential_concerns": "Low comment frequency (2 comments across 25 PRs) may indicate less detailed feedback"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with deep Moment.js expertise (37x reviews), strong TypeScript/ES6+ skills, and consistent code quality focus. Highest frequency match for date/time handling and functional patterns. Similar-review relevance confirmed via locale-focused PRs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6164",
+      "reviewer_strengths": [
+        "Deep Moment.js expertise (37x reviews, 10x immutability/pure functions)",
+        "TypeScript proficiency (10x) and defensive programming patterns",
+        "Consistent code quality focus (35 comments across 21 PRs)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 37 PR reviews, 35 comments, and 21 PRs reviewed. Focused on Moment.js core logic, edge cases, and internationalization.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep Moment.js expertise (37x reviews), strong TypeScript/ES6+ skills, and consistent code quality focus. Highest frequency match for date/time handling and functional patterns. Similar-review relevance confirmed via locale-focused PRs.",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (37x reviews, 10x immutability/pure functions)",
+            "TypeScript proficiency (10x) and defensive programming patterns",
+            "Consistent code quality focus (35 comments across 21 PRs)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 37 PR reviews, 35 comments, and 21 PRs reviewed. Focused on Moment.js core logic, edge cases, and internationalization.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6166,
+      "pr_title": "[new locale] od: Odia",
+      "pr_author": "Ajinkya-2607",
+      "pr_state": "open",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with deep expertise in Moment.js, TypeScript, and unit testing (27 reviews). Direct evidence of testing focus (e.g., PR #6011 unit test fixes) and locale-specific test coverage. Highest frequency of relevant skills (Moment.js 27x, TypeScript 12x, unit testing edge cases).",
+          "strengths_alignment": [
+            "Deep expertise in Moment.js (27x reviews) and TypeScript (12x)",
+            "Proven unit testing and edge-case handling experience (PR #6011, #5404)",
+            "Strong frequency match for testing-related skills (Higher-Order Functions 5x, Module Systems 4x)"
+          ],
+          "review_experience": "27 reviews, 25 PRs approved, 2 comments. Consistent testing-focused feedback with direct evidence of unit test failures and locale-specific test coverage.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with exceptional Moment.js expertise (37 reviews) and strong unit testing focus (test-driven development). High frequency of testing-related skills (ES6+ features 15x, TypeScript 10x). Less direct evidence of locale-specific test coverage than anandfresh but strong overall testing alignment.",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (37x reviews) and TypeScript (10x)",
+            "Unit testing focus (test-driven development, defensive programming)",
+            "High frequency of functional programming patterns (10x) and immutability (10x)"
+          ],
+          "review_experience": "37 reviews, 21 PRs approved, 35 comments. Consistent testing-focused feedback with evidence of unit test additions (PR #5614).",
+          "potential_concerns": "No direct evidence of locale-specific test coverage in reviews (only unit test additions)."
+        },
+        {
+          "reviewer_name": "ashsearle",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with strong Moment.js and Jest expertise (11 reviews). Evidence of unit testing awareness (Jest/Mocha) and locale-specific formatting (Moment.js). Lower frequency of testing skills compared to anandfresh/marwahaha but direct alignment with unit test failures and locale coverage.",
+          "strengths_alignment": [
+            "Moment.js (3x) and Jest (1x) expertise with unit testing awareness",
+            "Functional programming patterns (immutability, chaining) relevant to testing",
+            "Performance optimization experience (DST handling) aligns with edge-case testing"
+          ],
+          "review_experience": "11 reviews, 3 PRs approved, 11 comments. Consistent testing-related feedback with evidence of Jest usage and locale-specific fixes.",
+          "potential_concerns": "Lower review volume (11 reviews) and fewer direct testing skill frequencies than top choices."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with deep expertise in Moment.js, TypeScript, and unit testing (27 reviews). Direct evidence of testing focus (e.g., PR #6011 unit test fixes) and locale-specific test coverage. Highest frequency of relevant skills (Moment.js 27x, TypeScript 12x, unit testing edge cases).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6166",
+      "reviewer_strengths": [
+        "Deep expertise in Moment.js (27x reviews) and TypeScript (12x)",
+        "Proven unit testing and edge-case handling experience (PR #6011, #5404)",
+        "Strong frequency match for testing-related skills (Higher-Order Functions 5x, Module Systems 4x)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "27 reviews, 25 PRs approved, 2 comments. Consistent testing-focused feedback with direct evidence of unit test failures and locale-specific test coverage.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep expertise in Moment.js, TypeScript, and unit testing (27 reviews). Direct evidence of testing focus (e.g., PR #6011 unit test fixes) and locale-specific test coverage. Highest frequency of relevant skills (Moment.js 27x, TypeScript 12x, unit testing edge cases).",
+          "strengths_alignment": [
+            "Deep expertise in Moment.js (27x reviews) and TypeScript (12x)",
+            "Proven unit testing and edge-case handling experience (PR #6011, #5404)",
+            "Strong frequency match for testing-related skills (Higher-Order Functions 5x, Module Systems 4x)"
+          ],
+          "review_experience_details": "27 reviews, 25 PRs approved, 2 comments. Consistent testing-focused feedback with direct evidence of unit test failures and locale-specific test coverage.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6169,
+      "pr_title": "[bugfix] Access default year month date from moment instance",
+      "pr_author": "yulodl",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Deep Moment.js expertise (37x reviews) with direct evidence for testing, edge cases, and Date() vs moment.date() behavior. Senior-level review activity and consistent testing focus align perfectly with PR requirements.",
+          "strengths_alignment": [
+            "37x Moment.js reviews (highest frequency)",
+            "Unit testing and edge-case handling expertise",
+            "Deep expertise in Date() vs moment.date() behavior (similar PR #5554)",
+            "Consistent review activity (37 reviews, 35 comments)"
+          ],
+          "review_experience": "Senior-level reviewer with 37 Moment.js-focused reviews, 35 detailed comments, and 21 PRs reviewed. Strong evidence of testing and edge-case handling expertise.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with deep Moment.js expertise (27x reviews) and strong testing focus. Reviewed similar test-related PR (#6011) and has evidence for timezone-aware date handling.",
+          "strengths_alignment": [
+            "27x Moment.js reviews (second-highest frequency)",
+            "Reviewed test-focused PR (#6011) with approval",
+            "Primary skills: 'Unit testing and edge-case handling, Date/time localization and formatting'",
+            "Strong TypeScript/JavaScript expertise (complements testing needs)"
+          ],
+          "review_experience": "Senior-level reviewer with 27 Moment.js reviews, 2 comments, and 25 PRs reviewed. Evidence of testing and timezone-aware date handling.",
+          "potential_concerns": "Lower review activity (27 reviews total) compared to marwahaha"
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.78,
+          "reasoning": "Senior-level reviewer with 16 Moment.js reviews and strong testing/edge-case expertise. Less frequency evidence than top 2 but consistent review activity and relevant skills.",
+          "strengths_alignment": [
+            "16x Moment.js reviews (focused on immutable API design and unit testing)",
+            "Primary skills: 'Unit Testing (Moment.js Test Suite), Immutable API Design, Edge Case Handling'",
+            "Strong evidence for Date() vs moment.date() behavior (immutable patterns)"
+          ],
+          "review_experience": "Senior-level reviewer with 16 Moment.js reviews, 30 comments, and 11 PRs reviewed. Evidence of testing and edge-case handling but lower frequency than top 2.",
+          "potential_concerns": "Lower frequency of Moment.js reviews (16x) compared to marwahaha (37x) and anandfresh (27x)"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Deep Moment.js expertise (37x reviews) with direct evidence for testing, edge cases, and Date() vs moment.date() behavior. Senior-level review activity and consistent testing focus align perfectly with PR requirements.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6169",
+      "reviewer_strengths": [
+        "37x Moment.js reviews (highest frequency)",
+        "Unit testing and edge-case handling expertise",
+        "Deep expertise in Date() vs moment.date() behavior (similar PR #5554)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 37 Moment.js-focused reviews, 35 detailed comments, and 21 PRs reviewed. Strong evidence of testing and edge-case handling expertise.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Deep Moment.js expertise (37x reviews) with direct evidence for testing, edge cases, and Date() vs moment.date() behavior. Senior-level review activity and consistent testing focus align perfectly with PR requirements.",
+          "strengths_alignment": [
+            "37x Moment.js reviews (highest frequency)",
+            "Unit testing and edge-case handling expertise",
+            "Deep expertise in Date() vs moment.date() behavior (similar PR #5554)",
+            "Consistent review activity (37 reviews, 35 comments)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 37 Moment.js-focused reviews, 35 detailed comments, and 21 PRs reviewed. Strong evidence of testing and edge-case handling expertise.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6175,
+      "pr_title": "Create od-ind.js",
+      "pr_author": "SiDD-sIngH",
+      "pr_state": "open",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with deep expertise in documentation (locale file correctness) and i18n validation, evidenced by 27 reviews and 37x Moment.js expertise. Direct match for required skills and similar review patterns (e.g., PR #5810).",
+          "strengths_alignment": [
+            "27 reviews with 37x Moment.js expertise (direct match for locale/language support)",
+            "Primary skills include internationalization (i18n) best practices and date/time localization",
+            "Reviewed similar PRs focused on locale file correctness (e.g., oc-lnc.js updates)"
+          ],
+          "review_experience": "27 total reviews, 25 PRs reviewed, 2 comments. Consistent activity with strong technical depth in documentation and i18n.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with exceptional Moment.js expertise (37x) and strong documentation focus, though slightly less direct evidence for locale file correctness than anandfresh. High review activity and similar review patterns.",
+          "strengths_alignment": [
+            "37 reviews with 37x Moment.js expertise (direct match for locale/language support)",
+            "Primary skills include TypeScript, defensive programming, and i18n systems",
+            "Reviewed similar PRs with deep technical engagement (e.g., type definitions, edge cases)"
+          ],
+          "review_experience": "37 total reviews, 21 PRs reviewed, 35 comments. High activity with strong technical depth in documentation and i18n.",
+          "potential_concerns": "Less direct evidence for *documentation-focused* reviews than anandfresh"
+        },
+        {
+          "reviewer_name": "sigurdga",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with strong focus on internationalization and locale management, evidenced by 5 reviews and 3x Moment.js expertise. Direct match for locale file correctness but lower review frequency than top choices.",
+          "strengths_alignment": [
+            "5 reviews with 3x Moment.js expertise and 2x Intl API focus",
+            "Primary skills include internationalization (i18n) and locale formatting in JavaScript libraries",
+            "Reviewed PRs with strict adherence to language standards and official guidelines"
+          ],
+          "review_experience": "5 total reviews, 3 PRs reviewed, 9 comments. Consistent activity with strong technical depth in i18n and locale management.",
+          "potential_concerns": "Lower review frequency (5 reviews) compared to top choices"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with deep expertise in documentation (locale file correctness) and i18n validation, evidenced by 27 reviews and 37x Moment.js expertise. Direct match for required skills and similar review patterns (e.g., PR #5810).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6175",
+      "reviewer_strengths": [
+        "27 reviews with 37x Moment.js expertise (direct match for locale/language support)",
+        "Primary skills include internationalization (i18n) best practices and date/time localization",
+        "Reviewed similar PRs focused on locale file correctness (e.g., oc-lnc.js updates)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "27 total reviews, 25 PRs reviewed, 2 comments. Consistent activity with strong technical depth in documentation and i18n.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep expertise in documentation (locale file correctness) and i18n validation, evidenced by 27 reviews and 37x Moment.js expertise. Direct match for required skills and similar review patterns (e.g., PR #5810).",
+          "strengths_alignment": [
+            "27 reviews with 37x Moment.js expertise (direct match for locale/language support)",
+            "Primary skills include internationalization (i18n) best practices and date/time localization",
+            "Reviewed similar PRs focused on locale file correctness (e.g., oc-lnc.js updates)"
+          ],
+          "review_experience_details": "27 total reviews, 25 PRs reviewed, 2 comments. Consistent activity with strong technical depth in documentation and i18n.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6176,
+      "pr_title": "Update locale/vi.js to capitalize the first letter of months and weekdays",
+      "pr_author": "thanhminhmr",
+      "pr_state": "closed",
+      "assigned_reviewer": "ichernev",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.91,
+          "reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience": "Has reviewed 11 PRs with 30 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.7,
+          "reasoning": "Experienced in Node.js; Active reviewer with 7 reviews",
+          "strengths_alignment": [
+            "Node.js",
+            "Semantic Versioning (SemVer)",
+            "npm/yarn"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 7 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.65,
+          "reasoning": "Strong JavaScript experience; Active reviewer with 4 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Intl API",
+            "Arrow functions"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 5 comments",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.91,
+      "assignment_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6176",
+      "reviewer_strengths": [
+        "Moment.js",
+        "Immutable API Design",
+        "Prototypes & Inheritance"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Has reviewed 11 PRs with 30 comments",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js",
+          "Express.js"
+        ],
+        "review_expertise_areas": [
+          "General Development"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience_details": "Has reviewed 11 PRs with 30 comments",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6195,
+      "pr_title": "ci: add Azure Static Web Apps workflow file",
+      "pr_author": "dhirenofficial",
+      "pr_state": "open",
+      "assigned_reviewer": "ichernev",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.91,
+          "reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience": "Has reviewed 11 PRs with 30 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.7,
+          "reasoning": "Experienced in Node.js; Active reviewer with 7 reviews",
+          "strengths_alignment": [
+            "Node.js",
+            "Semantic Versioning (SemVer)",
+            "npm/yarn"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 7 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.65,
+          "reasoning": "Strong JavaScript experience; Active reviewer with 4 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Intl API",
+            "Arrow functions"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 5 comments",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.91,
+      "assignment_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6195",
+      "reviewer_strengths": [
+        "Moment.js",
+        "Immutable API Design",
+        "Prototypes & Inheritance"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Has reviewed 11 PRs with 30 comments",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js",
+          "Express.js"
+        ],
+        "review_expertise_areas": [
+          "General Development"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience_details": "Has reviewed 11 PRs with 30 comments",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6200,
+      "pr_title": "En-gi",
+      "pr_author": "nathannorrisfairsailcom",
+      "pr_state": "open",
+      "assigned_reviewer": "ichernev",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.91,
+          "reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience": "Has reviewed 11 PRs with 30 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.7,
+          "reasoning": "Experienced in Node.js; Active reviewer with 7 reviews",
+          "strengths_alignment": [
+            "Node.js",
+            "Semantic Versioning (SemVer)",
+            "npm/yarn"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 7 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.65,
+          "reasoning": "Strong JavaScript experience; Active reviewer with 4 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Intl API",
+            "Arrow functions"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 5 comments",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.91,
+      "assignment_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6200",
+      "reviewer_strengths": [
+        "Moment.js",
+        "Immutable API Design",
+        "Prototypes & Inheritance"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Has reviewed 11 PRs with 30 comments",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js",
+          "Express.js"
+        ],
+        "review_expertise_areas": [
+          "General Development"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience_details": "Has reviewed 11 PRs with 30 comments",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6208,
+      "pr_title": "[bugfix] KO L date format",
+      "pr_author": "michalbencur",
+      "pr_state": "closed",
+      "assigned_reviewer": "ichernev",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.91,
+          "reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience": "Has reviewed 11 PRs with 30 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.7,
+          "reasoning": "Experienced in Node.js; Active reviewer with 7 reviews",
+          "strengths_alignment": [
+            "Node.js",
+            "Semantic Versioning (SemVer)",
+            "npm/yarn"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 7 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.65,
+          "reasoning": "Strong JavaScript experience; Active reviewer with 4 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Intl API",
+            "Arrow functions"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 5 comments",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.91,
+      "assignment_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6208",
+      "reviewer_strengths": [
+        "Moment.js",
+        "Immutable API Design",
+        "Prototypes & Inheritance"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Has reviewed 11 PRs with 30 comments",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js",
+          "Express.js"
+        ],
+        "review_expertise_areas": [
+          "General Development"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience_details": "Has reviewed 11 PRs with 30 comments",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6217,
+      "pr_title": "[locale] Fixed ('L') format for Georgian and Flemish (Belgium Dutch).",
+      "pr_author": "adidaslevy",
+      "pr_state": "open",
+      "assigned_reviewer": "ichernev",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.91,
+          "reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience": "Has reviewed 11 PRs with 30 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.7,
+          "reasoning": "Experienced in Node.js; Active reviewer with 7 reviews",
+          "strengths_alignment": [
+            "Node.js",
+            "Semantic Versioning (SemVer)",
+            "npm/yarn"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 7 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.65,
+          "reasoning": "Strong JavaScript experience; Active reviewer with 4 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Intl API",
+            "Arrow functions"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 5 comments",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.91,
+      "assignment_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6217",
+      "reviewer_strengths": [
+        "Moment.js",
+        "Immutable API Design",
+        "Prototypes & Inheritance"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Has reviewed 11 PRs with 30 comments",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js",
+          "Express.js"
+        ],
+        "review_expertise_areas": [
+          "General Development"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience_details": "Has reviewed 11 PRs with 30 comments",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6219,
+      "pr_title": "[locale] Change Saat to Saa in dist/locale/sw.js",
+      "pr_author": "Louq-Tech",
+      "pr_state": "closed",
+      "assigned_reviewer": "ichernev",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.91,
+          "reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience": "Has reviewed 11 PRs with 30 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.7,
+          "reasoning": "Experienced in Node.js; Active reviewer with 7 reviews",
+          "strengths_alignment": [
+            "Node.js",
+            "Semantic Versioning (SemVer)",
+            "npm/yarn"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 7 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.65,
+          "reasoning": "Strong JavaScript experience; Active reviewer with 4 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Intl API",
+            "Arrow functions"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 5 comments",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.91,
+      "assignment_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6219",
+      "reviewer_strengths": [
+        "Moment.js",
+        "Immutable API Design",
+        "Prototypes & Inheritance"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Has reviewed 11 PRs with 30 comments",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js",
+          "Express.js"
+        ],
+        "review_expertise_areas": [
+          "General Development"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience_details": "Has reviewed 11 PRs with 30 comments",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6221,
+      "pr_title": "Fix for issue #6202: Append 'null' as Return Type for toJSON Method in TypeScript Definitions",
+      "pr_author": "utf26",
+      "pr_state": "open",
+      "assigned_reviewer": "ichernev",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.91,
+          "reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience": "Has reviewed 11 PRs with 30 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.7,
+          "reasoning": "Experienced in Node.js; Active reviewer with 7 reviews",
+          "strengths_alignment": [
+            "Node.js",
+            "Semantic Versioning (SemVer)",
+            "npm/yarn"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 7 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.65,
+          "reasoning": "Strong JavaScript experience; Active reviewer with 4 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Intl API",
+            "Arrow functions"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 5 comments",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.91,
+      "assignment_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6221",
+      "reviewer_strengths": [
+        "Moment.js",
+        "Immutable API Design",
+        "Prototypes & Inheritance"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Has reviewed 11 PRs with 30 comments",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js",
+          "Express.js"
+        ],
+        "review_expertise_areas": [
+          "General Development",
+          "Testing",
+          "Documentation"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience_details": "Has reviewed 11 PRs with 30 comments",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6227,
+      "pr_title": "bugfix/#6143",
+      "pr_author": "AKHILREDDY1636",
+      "pr_state": "open",
+      "assigned_reviewer": "ichernev",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.91,
+          "reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience": "Has reviewed 11 PRs with 30 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.7,
+          "reasoning": "Experienced in Node.js; Active reviewer with 7 reviews",
+          "strengths_alignment": [
+            "Node.js",
+            "Semantic Versioning (SemVer)",
+            "npm/yarn"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 7 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.65,
+          "reasoning": "Strong JavaScript experience; Active reviewer with 4 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Intl API",
+            "Arrow functions"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 5 comments",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.91,
+      "assignment_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6227",
+      "reviewer_strengths": [
+        "Moment.js",
+        "Immutable API Design",
+        "Prototypes & Inheritance"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Has reviewed 11 PRs with 30 comments",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js",
+          "Express.js"
+        ],
+        "review_expertise_areas": [
+          "General Development",
+          "Testing"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience_details": "Has reviewed 11 PRs with 30 comments",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6238,
+      "pr_title": "[misc] refactor all object type checks in single file",
+      "pr_author": "qzoke",
+      "pr_state": "open",
+      "assigned_reviewer": "ichernev",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.91,
+          "reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience": "Has reviewed 11 PRs with 30 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.7,
+          "reasoning": "Experienced in Node.js; Active reviewer with 7 reviews",
+          "strengths_alignment": [
+            "Node.js",
+            "Semantic Versioning (SemVer)",
+            "npm/yarn"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 7 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.65,
+          "reasoning": "Strong JavaScript experience; Active reviewer with 4 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Intl API",
+            "Arrow functions"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 5 comments",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.91,
+      "assignment_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6238",
+      "reviewer_strengths": [
+        "Moment.js",
+        "Immutable API Design",
+        "Prototypes & Inheritance"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Has reviewed 11 PRs with 30 comments",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js",
+          "Express.js"
+        ],
+        "review_expertise_areas": [
+          "General Development"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience_details": "Has reviewed 11 PRs with 30 comments",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6241,
+      "pr_title": "misc: add libraries link to readme",
+      "pr_author": "cwtuan",
+      "pr_state": "closed",
+      "assigned_reviewer": "ichernev",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.91,
+          "reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience": "Has reviewed 11 PRs with 30 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.7,
+          "reasoning": "Experienced in Node.js; Active reviewer with 7 reviews",
+          "strengths_alignment": [
+            "Node.js",
+            "Semantic Versioning (SemVer)",
+            "npm/yarn"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 7 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.65,
+          "reasoning": "Strong JavaScript experience; Active reviewer with 4 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Intl API",
+            "Arrow functions"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 5 comments",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.91,
+      "assignment_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6241",
+      "reviewer_strengths": [
+        "Moment.js",
+        "Immutable API Design",
+        "Prototypes & Inheritance"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Has reviewed 11 PRs with 30 comments",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js",
+          "Express.js"
+        ],
+        "review_expertise_areas": [
+          "General Development",
+          "Documentation",
+          "Performance"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience_details": "Has reviewed 11 PRs with 30 comments",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6249,
+      "pr_title": "[locale] Italian capitalization",
+      "pr_author": "ZeroKun265",
+      "pr_state": "closed",
+      "assigned_reviewer": "ichernev",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.91,
+          "reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience": "Has reviewed 11 PRs with 30 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.7,
+          "reasoning": "Experienced in Node.js; Active reviewer with 7 reviews",
+          "strengths_alignment": [
+            "Node.js",
+            "Semantic Versioning (SemVer)",
+            "npm/yarn"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 7 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.65,
+          "reasoning": "Strong JavaScript experience; Active reviewer with 4 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Intl API",
+            "Arrow functions"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 5 comments",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.91,
+      "assignment_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6249",
+      "reviewer_strengths": [
+        "Moment.js",
+        "Immutable API Design",
+        "Prototypes & Inheritance"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Has reviewed 11 PRs with 30 comments",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js",
+          "Express.js"
+        ],
+        "review_expertise_areas": [
+          "General Development",
+          "Documentation"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience_details": "Has reviewed 11 PRs with 30 comments",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6257,
+      "pr_title": "duration function changed",
+      "pr_author": "skjha80195",
+      "pr_state": "open",
+      "assigned_reviewer": "ichernev",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.91,
+          "reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience": "Has reviewed 11 PRs with 30 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.7,
+          "reasoning": "Experienced in Node.js; Active reviewer with 7 reviews",
+          "strengths_alignment": [
+            "Node.js",
+            "Semantic Versioning (SemVer)",
+            "npm/yarn"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 7 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.65,
+          "reasoning": "Strong JavaScript experience; Active reviewer with 4 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Intl API",
+            "Arrow functions"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 5 comments",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.91,
+      "assignment_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6257",
+      "reviewer_strengths": [
+        "Moment.js",
+        "Immutable API Design",
+        "Prototypes & Inheritance"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Has reviewed 11 PRs with 30 comments",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js",
+          "Express.js"
+        ],
+        "review_expertise_areas": [
+          "General Development"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience_details": "Has reviewed 11 PRs with 30 comments",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6258,
+      "pr_title": "[locale] fix apostrophe typo for ukrainian",
+      "pr_author": "prasanna4567",
+      "pr_state": "open",
+      "assigned_reviewer": "ichernev",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.91,
+          "reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience": "Has reviewed 11 PRs with 30 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.7,
+          "reasoning": "Experienced in Node.js; Active reviewer with 7 reviews",
+          "strengths_alignment": [
+            "Node.js",
+            "Semantic Versioning (SemVer)",
+            "npm/yarn"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 7 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.65,
+          "reasoning": "Strong JavaScript experience; Active reviewer with 4 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Intl API",
+            "Arrow functions"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 5 comments",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.91,
+      "assignment_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6258",
+      "reviewer_strengths": [
+        "Moment.js",
+        "Immutable API Design",
+        "Prototypes & Inheritance"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Has reviewed 11 PRs with 30 comments",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js",
+          "Express.js"
+        ],
+        "review_expertise_areas": [
+          "General Development"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience_details": "Has reviewed 11 PRs with 30 comments",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6293,
+      "pr_title": "[misc] update readme, remove broken badges",
+      "pr_author": "Electroid",
+      "pr_state": "open",
+      "assigned_reviewer": "ichernev",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.91,
+          "reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience": "Has reviewed 11 PRs with 30 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.7,
+          "reasoning": "Experienced in Node.js; Active reviewer with 7 reviews",
+          "strengths_alignment": [
+            "Node.js",
+            "Semantic Versioning (SemVer)",
+            "npm/yarn"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 7 comments",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.65,
+          "reasoning": "Strong JavaScript experience; Active reviewer with 4 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Intl API",
+            "Arrow functions"
+          ],
+          "review_experience": "Has reviewed 2 PRs with 5 comments",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.91,
+      "assignment_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6293",
+      "reviewer_strengths": [
+        "Moment.js",
+        "Immutable API Design",
+        "Prototypes & Inheritance"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Has reviewed 11 PRs with 30 comments",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js",
+          "Express.js"
+        ],
+        "review_expertise_areas": [
+          "General Development",
+          "Documentation"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Experienced in Node.js; Active reviewer with 16 reviews",
+          "strengths_alignment": [
+            "Moment.js",
+            "Immutable API Design",
+            "Prototypes & Inheritance"
+          ],
+          "review_experience_details": "Has reviewed 11 PRs with 30 comments",
+          "potential_limitations": "None identified"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "successful_assignments": 25,
+    "failed_assignments": 1,
+    "success_rate": 96.2,
+    "reviewer_workload_distribution": {
+      "marwahaha": 9,
+      "anandfresh": 2,
+      "ichernev": 14
+    },
+    "most_assigned_reviewer": "ichernev",
+    "average_match_score": 0.91
+  }
+}

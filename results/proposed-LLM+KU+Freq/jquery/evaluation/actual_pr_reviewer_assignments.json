@@ -1,0 +1,3700 @@
+{
+  "summary": {
+    "extraction_metadata": {
+      "extraction_date": "2026-08-13 00:01:46",
+      "source_file": "../PR data for Reviewers/jquery_jquery_reviewer_data_test.json",
+      "total_prs_analyzed": 77
+    },
+    "overall_statistics": {
+      "total_prs": 77,
+      "prs_with_reviews": 77,
+      "prs_without_reviews": 0,
+      "total_reviews": 265,
+      "average_reviews_per_pr": 3.44,
+      "unique_reviewers_count": 7
+    },
+    "reviewer_activity": {
+      "by_prs_reviewed": {
+        "mgol": 54,
+        "timmywil": 46,
+        "gibson042": 5,
+        "Krinkle": 2,
+        "github-advanced-security[bot]": 2,
+        "ac-mmi": 1,
+        "fasttime": 1
+      },
+      "by_total_reviews": {
+        "timmywil": 119,
+        "mgol": 115,
+        "ac-mmi": 18,
+        "gibson042": 8,
+        "Krinkle": 2,
+        "github-advanced-security[bot]": 2,
+        "fasttime": 1
+      }
+    },
+    "top_reviewers": {
+      "most_prs_reviewed": [
+        "mgol",
+        54
+      ],
+      "most_total_reviews": [
+        "timmywil",
+        119
+      ]
+    }
+  },
+  "pr_reviewer_assignments": [
+    {
+      "pr_number": 5431,
+      "pr_title": "Tests: fix flakey message logs; ignore delete worker failures",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-03-05T20:09:58Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5431",
+      "total_reviews": 2,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-05T20:35:06Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-05T20:50:16Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5434,
+      "pr_title": "Build: add GitHub Actions workflow to update Filestash",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-03-08T15:49:19Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5434",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "LGTM. Let me know when you're ready to merge so that I disable the Jenkins job.\r\n\r\nOne thing - with the Jenkins job being disabled before merging this, we no longer need to build on Node.js 10. You can remove it here if you want. That said, dropping Node 10 allows us to introduce a few improvements like upgrade Rollup (which I need for the `exports` improvements PR), switch to `node:`-prefixed Node.js core modules, using `node:fs/promises` instead of `fs.promises` from `node:fs`, dropping the `jenkins` npm script and maybe something else. If you'd like, you can group it all in a followup PR. I'd just prefer not to wait too long with dropping the build on Node 10.",
+          "submitted_at": "2024-03-08T17:34:51Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "Krinkle",
+          "reviewer_id": 156867,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-03-08T18:07:17Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "Krinkle"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "Krinkle"
+      ]
+    },
+    {
+      "pr_number": 5435,
+      "pr_title": "Build: add GitHub Actions workflow to update Filestash",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-03-08T15:58:37Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5435",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "LGTM with the same remarks as I posted at https://github.com/jquery/jquery/pull/5434#pullrequestreview-1925439310",
+          "submitted_at": "2024-03-08T17:35:17Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5436,
+      "pr_title": "Drop support for Node 10",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-03-08T23:42:48Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5436",
+      "total_reviews": 4,
+      "total_review_comments": 4,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "LGTM",
+          "submitted_at": "2024-03-09T15:14:35Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "Actually, one comment",
+          "submitted_at": "2024-03-09T15:17:13Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-09T15:24:22Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-09T15:25:46Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5437,
+      "pr_title": "Drop support for Node 10 on 3.x",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-03-08T23:43:46Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5437",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-03-09T15:15:18Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5438,
+      "pr_title": "Tests: add --hard-retries option to test runner",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-03-10T15:54:41Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5438",
+      "total_reviews": 4,
+      "total_review_comments": 4,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-10T15:57:10Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "LGTM by reading with one question",
+          "submitted_at": "2024-03-10T22:56:40Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-11T14:09:31Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-11T14:12:01Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5439,
+      "pr_title": "Tests: add --hard-retries option to test runner",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-03-10T15:55:41Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5439",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "LGTM but see https://github.com/jquery/jquery/pull/5438#pullrequestreview-1926719250",
+          "submitted_at": "2024-03-10T22:57:39Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5440,
+      "pr_title": "Some build refactors/improvements",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-03-10T16:30:08Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5440",
+      "total_reviews": 5,
+      "total_review_comments": 6,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-10T16:32:57Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-10T23:05:26Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-11T14:18:14Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-11T16:57:30Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "LGTM. The comment https://github.com/jquery/jquery/pull/5440#discussion_r1519002065 is yet to be addressed but that's going to happen in a separate release PR.",
+          "submitted_at": "2024-03-11T16:58:55Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5441,
+      "pr_title": "Some build refactors/improvements",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-03-10T16:31:28Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5441",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "LGTM with the same comment as at https://github.com/jquery/jquery/pull/5440#pullrequestreview-1928441721",
+          "submitted_at": "2024-03-11T17:00:41Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5443,
+      "pr_title": "Tests: add actual and expected messages to test reporter",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-03-14T00:16:18Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5443",
+      "total_reviews": 3,
+      "total_review_comments": 3,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "Approving but I'd love to see proper diffing in the console; sometimes it can really help.",
+          "submitted_at": "2024-03-14T08:59:57Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-14T09:01:32Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-14T13:05:25Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5444,
+      "pr_title": "Tests: add actual and expected messages to test reporter",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-03-14T00:17:05Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5444",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "Approving with the same comment as in https://github.com/jquery/jquery/pull/5443#pullrequestreview-1936079159",
+          "submitted_at": "2024-03-14T09:00:21Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5445,
+      "pr_title": "Tests: add diffing to test reporter",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-03-14T13:48:11Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5445",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "Can you show an example of an array, object & number failure with the implementation from this PR?",
+          "submitted_at": "2024-03-14T15:30:12Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "Looks great, thanks!",
+          "submitted_at": "2024-03-14T17:27:26Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5446,
+      "pr_title": "Tests: add diffing to test reporter",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-03-14T13:49:01Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5446",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-03-14T17:27:33Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5448,
+      "pr_title": "Tests: show any and all actual/expected values",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-03-15T20:50:46Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5448",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "Thanks!",
+          "submitted_at": "2024-03-15T21:05:25Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5449,
+      "pr_title": "Tests: show any and all actual/expected values",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-03-15T20:51:36Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5449",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-03-15T21:05:54Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5452,
+      "pr_title": "Attributes: Make `.attr( name, false )` remove for all non-ARIA attrs",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2024-03-18T22:13:36Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5452",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "gibson042",
+          "reviewer_id": 1199584,
+          "review_state": "APPROVED",
+          "review_body": "Thanks!",
+          "submitted_at": "2024-03-19T14:56:01Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "Incredible how little the tests needed to change!",
+          "submitted_at": "2024-03-19T15:11:37Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil",
+        "gibson042"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil",
+        "gibson042"
+      ]
+    },
+    {
+      "pr_number": 5454,
+      "pr_title": "Tests: improve diffing for values of different types",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-03-22T00:33:23Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5454",
+      "total_reviews": 25,
+      "total_review_comments": 24,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "One comment",
+          "submitted_at": "2024-03-22T09:43:42Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-22T13:17:51Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-22T16:14:40Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-22T16:16:47Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-22T16:18:54Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-23T11:28:26Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-23T11:50:26Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-23T15:46:34Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "github-advanced-security[bot]",
+          "reviewer_id": 62310815,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-23T15:48:25Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-25T16:32:05Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-25T16:33:47Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-25T16:34:23Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-25T16:43:25Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-25T17:00:00Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "gibson042",
+          "reviewer_id": 1199584,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-25T17:25:38Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "gibson042",
+          "reviewer_id": 1199584,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-25T18:03:06Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-25T19:49:46Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-25T21:24:36Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-25T21:26:42Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-26T14:11:26Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-26T14:14:27Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "gibson042",
+          "reviewer_id": 1199584,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-03-26T15:23:40Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "Thanks for following with the review! LGTM, Richard’s suggestions also look good to apply before merging.",
+          "submitted_at": "2024-03-26T18:42:15Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-26T20:11:31Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-03-26T22:00:54Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "gibson042",
+        "timmywil",
+        "github-advanced-security[bot]"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "gibson042",
+        "timmywil",
+        "github-advanced-security[bot]"
+      ]
+    },
+    {
+      "pr_number": 5455,
+      "pr_title": "Tests: improve diffing for values of different types",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-03-22T00:34:25Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5455",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "LGTM with the same suggestions as in the `main` PR.",
+          "submitted_at": "2024-03-26T18:43:23Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5460,
+      "pr_title": "Tests: share queue/browser handling for all worker types",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-03-28T14:44:15Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5460",
+      "total_reviews": 9,
+      "total_review_comments": 12,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-28T14:54:06Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "Nice work! I have a few questions/remarks.",
+          "submitted_at": "2024-03-29T22:10:43Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-30T15:07:05Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-30T15:08:20Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-30T15:08:57Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-30T15:10:06Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-30T15:11:22Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-03-30T22:30:04Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "LGTM",
+          "submitted_at": "2024-03-30T22:31:09Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5461,
+      "pr_title": "Build: Bump express from 4.18.3 to 4.19.2",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "created_at": "2024-03-29T19:59:51Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5461",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-03-29T20:22:42Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5462,
+      "pr_title": "Build: Bump actions/cache, actions/checkout & github/codeql-action",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "created_at": "2024-04-01T00:51:50Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5462",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-04-02T21:34:58Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5465,
+      "pr_title": "Tests: share queue/browser handling for all worker types",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-04-01T14:35:31Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5465",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "LGTM assuming it's the same as the `main` version ",
+          "submitted_at": "2024-04-01T16:31:52Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5466,
+      "pr_title": "Event: Increase robustness of an inner native event in leverageNative",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2024-04-02T15:48:49Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5466",
+      "total_reviews": 10,
+      "total_review_comments": 11,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-04-02T21:25:44Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-04-03T23:24:46Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-04-12T21:22:22Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "gibson042",
+          "reviewer_id": 1199584,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-04-24T19:04:43Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-04-24T19:59:25Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-04-24T20:03:34Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-04-28T21:51:27Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-04-28T21:53:03Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "gibson042",
+          "reviewer_id": 1199584,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-04-29T15:33:32Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-13T15:57:44Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil",
+        "gibson042"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil",
+        "gibson042"
+      ]
+    },
+    {
+      "pr_number": 5478,
+      "pr_title": "Tests: Make the beforeunload event tests work regardless of extensions",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2024-04-24T17:00:07Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5478",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-04-24T17:37:28Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5479,
+      "pr_title": "Docs: Update remaining HTTP URLs to HTTPS",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2024-04-24T17:02:37Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5479",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-04-24T17:35:48Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "gibson042",
+          "reviewer_id": 1199584,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-04-24T19:08:52Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "gibson042",
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "gibson042",
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5481,
+      "pr_title": "Tests: include github ref in concurrency group",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-04-25T14:27:09Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5481",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "Thanks!",
+          "submitted_at": "2024-04-25T16:13:42Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5482,
+      "pr_title": "Tests: include github ref in concurrency group",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-04-25T14:27:44Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5482",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "Thanks!",
+          "submitted_at": "2024-04-25T16:13:38Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5492,
+      "pr_title": "Tests: revert concurrency group change",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-05-24T20:53:07Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5492",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-29T13:42:04Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5493,
+      "pr_title": "Tests: revert concurrency group change",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-05-24T20:53:43Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5493",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-29T13:41:39Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5495,
+      "pr_title": "CSS:Tests: Fix tests & support tests under CSS Zoom",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2024-05-29T12:01:24Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5495",
+      "total_reviews": 2,
+      "total_review_comments": 1,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-29T15:08:57Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-05-29T15:26:09Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5496,
+      "pr_title": "CSS:Tests: Fix tests & support tests under CSS Zoom (3.x version)",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2024-05-29T12:02:07Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5496",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-29T15:08:53Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5497,
+      "pr_title": "Tests: Make `:has` selector tests not vulnerable to unrelated failures",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2024-05-29T12:48:00Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5497",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-29T15:09:21Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5498,
+      "pr_title": "Tests: Align `:has` selector tests with `3.x-stable`",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2024-05-29T12:48:49Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5498",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-29T15:09:26Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5501,
+      "pr_title": "Build: improve specificity of eslint config; add ecma versions",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-06-03T14:46:54Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5501",
+      "total_reviews": 10,
+      "total_review_comments": 11,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "",
+          "submitted_at": "2024-06-03T16:04:01Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-03T16:40:34Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-03T17:16:04Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-03T21:40:12Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-03T22:02:15Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-04T13:29:26Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-04T13:38:24Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "LGTM with one question",
+          "submitted_at": "2024-06-04T22:31:12Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-05T13:39:21Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-06-05T21:58:17Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5503,
+      "pr_title": "Build: Group dependabot PRs updating GitHub Actions",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2024-06-04T22:42:55Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5503",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-06-05T13:42:36Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5504,
+      "pr_title": "Build: improve specificity of eslint config; add ecma versions",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-06-05T14:19:33Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5504",
+      "total_reviews": 9,
+      "total_review_comments": 8,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "",
+          "submitted_at": "2024-06-05T21:59:59Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-06T13:55:13Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-06T19:54:04Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-06T21:55:20Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-07T10:31:23Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-07T10:31:57Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-07T13:38:11Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-07T21:27:29Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "LGTM! Thanks for bearing with me. 😉 ",
+          "submitted_at": "2024-06-07T21:27:43Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5505,
+      "pr_title": "Build: Bump the github-actions group with 2 updates",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "created_at": "2024-06-05T22:01:51Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5505",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-06-05T22:05:04Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5506,
+      "pr_title": "Tests: fix supportsScroll feature test in offset",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-06-10T13:54:04Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5506",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "False positives are the worst!",
+          "submitted_at": "2024-06-10T16:08:03Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5507,
+      "pr_title": "Tests: remove unnecessary scroll feature test",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-06-10T14:10:56Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5507",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-06-10T16:08:55Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5508,
+      "pr_title": "Build: upgrade dependencies, including eslint 9.4.0 and uglify 3.7.7",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-06-12T15:32:50Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5508",
+      "total_reviews": 16,
+      "total_review_comments": 16,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-12T15:47:57Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "",
+          "submitted_at": "2024-06-14T16:48:24Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-14T16:49:03Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-14T16:59:23Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-14T17:00:35Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-14T19:24:16Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-14T19:53:38Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-14T20:00:31Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-14T20:08:22Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-14T20:13:20Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-14T20:14:13Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-14T20:15:07Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-14T20:26:19Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-14T20:43:46Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-06-14T23:06:35Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-14T23:07:55Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5509,
+      "pr_title": "Build: upgrade dependencies; fix bundler tests on windows",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-06-12T15:39:51Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5509",
+      "total_reviews": 3,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-12T15:41:27Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-06-14T16:44:31Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-14T16:47:56Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5512,
+      "pr_title": "Release: migrate release process to release-it",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-06-17T16:33:14Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5512",
+      "total_reviews": 30,
+      "total_review_comments": 30,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "github-advanced-security[bot]",
+          "reviewer_id": 62310815,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-17T16:35:01Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "It'll be great to have reproducible builds!\r\n\r\nI added some comments.",
+          "submitted_at": "2024-07-05T16:25:20Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-05T16:56:32Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-05T17:00:42Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-05T17:02:11Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-05T17:03:42Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-05T17:04:15Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-05T17:04:38Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-05T17:05:21Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T14:07:46Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T14:08:40Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T14:09:17Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T14:43:08Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T14:43:53Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T14:45:30Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T14:46:44Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T14:47:38Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T14:47:48Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T14:48:31Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T15:02:57Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T15:03:47Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T15:07:38Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T15:09:29Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T15:14:52Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T15:16:50Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T15:18:21Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T15:19:00Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T15:20:05Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T15:23:34Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-08T15:32:48Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil",
+        "github-advanced-security[bot]"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil",
+        "github-advanced-security[bot]"
+      ]
+    },
+    {
+      "pr_number": 5515,
+      "pr_title": "Build: Bump the github-actions group with 2 updates",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "created_at": "2024-07-01T01:06:27Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5515",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-07-05T16:44:25Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5517,
+      "pr_title": "Release: fix running pre/post release scripts in windows",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-07-11T15:17:15Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5517",
+      "total_reviews": 5,
+      "total_review_comments": 4,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-11T15:31:20Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-11T15:51:58Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-11T15:54:23Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-11T16:02:12Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-07-11T16:04:08Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5518,
+      "pr_title": "Release: set preReleaseBase in config file",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-07-12T14:47:28Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5518",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-07-12T16:15:02Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5519,
+      "pr_title": "Release: ensure builds have the proper version",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-07-15T14:38:01Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5519",
+      "total_reviews": 2,
+      "total_review_comments": 1,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-15T16:13:01Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "It'd be a bit cleaner to have scripts (i.e. runnable files) separate from libraries (e.g. files exporting utilities). Not a huge concern, though.",
+          "submitted_at": "2024-07-15T16:16:38Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5521,
+      "pr_title": "Release: use correct build date in release verification",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-07-17T21:20:43Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5521",
+      "total_reviews": 9,
+      "total_review_comments": 11,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-17T21:21:43Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-17T21:22:16Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "One suggestion. LGTM overall, though.",
+          "submitted_at": "2024-07-17T22:44:29Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-18T00:59:47Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "Minor remarks to address, otherwise LGTM",
+          "submitted_at": "2024-07-19T22:48:53Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-20T01:39:18Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-20T05:37:46Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "Looks mostly good, I have some minor comments. Nice work!",
+          "submitted_at": "2024-07-26T20:41:11Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-26T21:04:09Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5522,
+      "pr_title": "Release: migrate release process to release-it (3.x)",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-07-18T15:09:52Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5522",
+      "total_reviews": 4,
+      "total_review_comments": 7,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "I compared the output with `main` and I have a few minor comments, but nothing blocking the merge. Nice to see 3.x migrated as well!",
+          "submitted_at": "2024-07-26T21:03:55Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-29T16:39:54Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-29T16:44:37Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-29T19:13:28Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5523,
+      "pr_title": "Manipulation: Make jQuery.cleanData not skip elements during cleanup",
+      "pr_author": "ac-mmi",
+      "pr_state": "closed",
+      "created_at": "2024-07-21T12:24:12Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5523",
+      "total_reviews": 30,
+      "total_review_comments": 30,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "Thanks for the PR. Please don't change code formatting, though. Run `npm test` locally & you'll see the build fails; you need to fix it.\r\n\r\nAlso, all such changes need tests.",
+          "submitted_at": "2024-07-21T12:35:46Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "`jQuery.cleanData` is not an API you'd call yourself; jQuery calls it. One of the suggested solutions on the issue was to update the internal `getAll` function to avoid `getElementsByTagName` which returns a live collection and just falling back to always use `querySelectorAll`. That also wouldn't require any changes to `jQuery.cleanData` and it'd reduce size instead of increasing it.\r\n\r\nWe'd need some perf tests done for this change, though, to make sure we don't regress significantly.\r\n\r\nAlso, as I mentioned before, all such changes need tests; there are no added in this PR. Make also sure existing tests & static checks are passing; `npm test` definitely does not pass on your PR.\r\n\r\nThe majority of the work here is with the perf tests & writing good unit tests, not in actual code changes.",
+          "submitted_at": "2024-07-26T20:36:41Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "ac-mmi",
+          "reviewer_id": 79802170,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-27T11:39:54Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "We still need tests for what this PR is supposed to fix. Also, we need to have some performance tests comparing before & after done with test cases & results posted in a comment on this PR. This is to make sure we don’t regress too much on performance.",
+          "submitted_at": "2024-07-29T19:09:35Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "",
+          "submitted_at": "2024-07-31T18:20:10Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "We're getting closer, but I still have some remarks.\r\n\r\nPlease also share the code for measuring performance so that I can run it by myself.",
+          "submitted_at": "2024-08-05T17:12:59Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "Comments about tests still need to get resolved.",
+          "submitted_at": "2024-08-13T08:17:50Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "ac-mmi",
+          "reviewer_id": 79802170,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-13T08:49:22Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "Thanks for the updates; see my latest comments. Please make sure to address them all before re-requesting review - I bumped one of the older comments that was not addressed.",
+          "submitted_at": "2024-08-26T22:27:02Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "ac-mmi",
+          "reviewer_id": 79802170,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-27T08:46:59Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "ac-mmi",
+          "reviewer_id": 79802170,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-27T08:47:04Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "ac-mmi",
+          "reviewer_id": 79802170,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-27T08:47:07Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "ac-mmi",
+          "reviewer_id": 79802170,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-27T08:47:10Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "ac-mmi",
+          "reviewer_id": 79802170,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-27T08:47:15Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "ac-mmi",
+          "reviewer_id": 79802170,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-27T08:47:19Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "ac-mmi",
+          "reviewer_id": 79802170,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-27T08:47:23Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "ac-mmi",
+          "reviewer_id": 79802170,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-27T08:47:28Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "ac-mmi",
+          "reviewer_id": 79802170,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-27T08:47:30Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "ac-mmi",
+          "reviewer_id": 79802170,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-27T08:47:36Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "ac-mmi",
+          "reviewer_id": 79802170,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-27T08:47:44Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "ac-mmi",
+          "reviewer_id": 79802170,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-27T08:47:49Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-28T22:22:58Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "ac-mmi",
+          "reviewer_id": 79802170,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-29T06:24:39Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "ac-mmi",
+          "reviewer_id": 79802170,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-29T06:25:33Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "Just a few nits, other than that, mostly looks good!",
+          "submitted_at": "2024-08-30T15:56:52Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "ac-mmi",
+          "reviewer_id": 79802170,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-30T17:00:09Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "ac-mmi",
+          "reviewer_id": 79802170,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-30T17:00:11Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "Thanks, this LGTM, but I want to discuss it with the team before merging.",
+          "submitted_at": "2024-09-02T21:45:01Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "LGTM",
+          "submitted_at": "2024-09-09T16:34:25Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "gibson042",
+          "reviewer_id": 1199584,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-09-09T16:48:46Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "ac-mmi",
+        "timmywil",
+        "gibson042"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "ac-mmi",
+        "timmywil",
+        "gibson042"
+      ]
+    },
+    {
+      "pr_number": 5524,
+      "pr_title": "Build: align eslint config with 3.x branch as much as possible",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-07-29T19:20:09Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5524",
+      "total_reviews": 4,
+      "total_review_comments": 4,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "One comment but LGTM overall",
+          "submitted_at": "2024-07-29T22:11:59Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-30T15:39:51Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "fasttime",
+          "reviewer_id": 6367844,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-06T08:58:11Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-09T01:38:44Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil",
+        "fasttime"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil",
+        "fasttime"
+      ]
+    },
+    {
+      "pr_number": 5527,
+      "pr_title": "Tests: replace express with basic Node server",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-07-30T18:48:48Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5527",
+      "total_reviews": 4,
+      "total_review_comments": 5,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "I left a few comments but nothing major. Good to see this size decrease!",
+          "submitted_at": "2024-07-30T20:46:59Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-30T21:20:42Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-07-30T21:21:38Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "Krinkle",
+          "reviewer_id": 156867,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-07-30T22:07:13Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "Krinkle",
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "Krinkle",
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5528,
+      "pr_title": "Build: Bump the github-actions group with 2 updates",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "created_at": "2024-08-01T00:31:41Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5528",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-01T09:04:05Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5531,
+      "pr_title": "Tests: replace express with basic Node server (3.x)",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-08-11T15:23:34Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5531",
+      "total_reviews": 8,
+      "total_review_comments": 8,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-11T15:24:33Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-11T15:25:14Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "LGTM. Just a few questions about alignment, but not strictly related to this PR landing.",
+          "submitted_at": "2024-08-19T17:00:05Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-19T17:26:26Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-23T02:00:41Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "",
+          "submitted_at": "2024-08-23T12:26:42Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-23T12:37:37Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-23T16:48:39Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5532,
+      "pr_title": "Tests: replace dead links in qunit fixture",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-08-12T14:37:01Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5532",
+      "total_reviews": 4,
+      "total_review_comments": 3,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-12T16:35:22Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-12T16:37:13Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-12T16:47:24Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-12T16:47:30Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5538,
+      "pr_title": "Tests: align mock.php spacing with 3.x-stable branch",
+      "pr_author": "timmywil",
+      "pr_state": "closed",
+      "created_at": "2024-08-24T14:01:44Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5538",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-24T18:11:34Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5540,
+      "pr_title": "Tests: Run tests in Edge in IE mode in GitHub Actions",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2024-08-25T23:09:31Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5540",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-09-09T16:17:54Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5541,
+      "pr_title": "Add new Support section to README.",
+      "pr_author": "AndreAngelantoni",
+      "pr_state": "closed",
+      "created_at": "2024-08-26T21:12:03Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5541",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "Per the discussion in the doc, this is something we want to do ourselves.",
+          "submitted_at": "2024-08-26T21:44:24Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5544,
+      "pr_title": "Build: Bump webpack from 5.93.0 to 5.94.0",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "created_at": "2024-08-31T07:02:15Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5544",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-09-02T21:25:31Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5545,
+      "pr_title": "Build: Bump github/codeql-action from 3.25.15 to 3.26.6 in the github-actions group",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "created_at": "2024-09-01T00:14:47Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5545",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-09-02T21:23:41Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5547,
+      "pr_title": "Tests: Run tests on both real Firefox ESRs",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2024-09-04T22:07:15Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5547",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "This looks good, and has the benefit of not having to explicitly set the ESR version.",
+          "submitted_at": "2024-09-05T15:28:12Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5548,
+      "pr_title": "Tests: Run tests on both real Firefox ESRs",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2024-09-06T12:42:10Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5548",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-09-06T13:54:12Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5558,
+      "pr_title": "Build: Bump rollup from 4.19.0 to 4.22.4",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "created_at": "2024-09-24T03:23:21Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5558",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-09-24T23:03:17Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5559,
+      "pr_title": "Tests: Switch to an updated fork of promises-aplus-tests",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2024-09-26T09:39:30Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5559",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "Thanks!",
+          "submitted_at": "2024-09-30T16:46:07Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5640,
+      "pr_title": "Tests: Add tests for `jQuery.get( String, null-ish, null-ish, String )`",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2025-03-17T13:11:35Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5640",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-03-31T15:51:54Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5641,
+      "pr_title": "Build: ESLint: Remove the `outerIIFEBody` exception to `indent`",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2025-03-17T13:21:18Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5641",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-03-31T15:16:23Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5647,
+      "pr_title": "Build: Bump the github-actions group with 3 updates",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "created_at": "2025-04-01T00:56:32Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5647",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-04-01T09:13:11Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5651,
+      "pr_title": "Docs: Create Bug and Feature Request Forms",
+      "pr_author": "adityaraute",
+      "pr_state": "open",
+      "created_at": "2025-04-06T09:30:50Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5651",
+      "total_reviews": 6,
+      "total_review_comments": 5,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "Thanks for the PR.\r\n\r\nI tried this on my fork but it doesn't work. I recommend you to temporarily enable issues on your jQuery fork and to set the `patch-1` branch as the main one and you'll be able to check what's needed. In particular, I think we need a `config.yml` file: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#configuring-the-template-chooser\r\n\r\nAlso, if we want to introduce a feature request form, please make sure the path to report regular bug reports is at least not harder than it was - maybe we need to create a form for bug reports as well, even if for now it won't ask that many questions (we can always improve it later)?",
+          "submitted_at": "2025-04-13T21:36:14Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-13T16:23:52Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-13T16:24:11Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-13T16:26:50Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-13T16:28:19Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-13T16:29:43Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol",
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol",
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5653,
+      "pr_title": "Core: Formally deprecate push/sort/splice",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2025-04-08T11:55:44Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5653",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-04-14T16:50:21Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5704,
+      "pr_title": "Build: Separate Node.js & Browser Tests, update tested Node.js versions",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2025-09-19T11:32:21Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5704",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "Thank you! Let's get this in.",
+          "submitted_at": "2025-10-13T16:17:45Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5705,
+      "pr_title": "Build: Update browsers tested in BrowserStack",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2025-09-19T11:41:18Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5705",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-13T16:05:47Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5706,
+      "pr_title": "Build: Update browsers tested in BrowserStack (3.x)",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2025-09-19T11:44:49Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5706",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-13T16:06:09Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5712,
+      "pr_title": "Build: Bump the github-actions group with 2 updates",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "created_at": "2025-10-01T00:02:07Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5712",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "mgol",
+          "reviewer_id": 1758366,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-12T12:13:30Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "mgol"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mgol"
+      ]
+    },
+    {
+      "pr_number": 5713,
+      "pr_title": "Tests: Fix manipulation tests on iPad on iOS 12.",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2025-10-14T22:23:39Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5713",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-20T16:11:11Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5714,
+      "pr_title": "Selector: Remove the workaround for `:has`; test both on iPhone & iPad",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2025-10-22T14:13:38Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5714",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-27T16:22:42Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5715,
+      "pr_title": "Build: Test both on iPhone & iPad",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2025-10-22T14:14:28Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5715",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "LGTM",
+          "submitted_at": "2025-10-27T16:20:29Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5716,
+      "pr_title": "Tests: Fix selector tests in Chrome 141",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2025-10-22T14:42:19Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5716",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-27T16:16:41Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    },
+    {
+      "pr_number": 5717,
+      "pr_title": "Tests: Fix selector tests in Chrome 141 (3.x)",
+      "pr_author": "mgol",
+      "pr_state": "closed",
+      "created_at": "2025-10-22T14:43:14Z",
+      "pr_url": "https://github.com/expressjs/express/pull/5717",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "timmywil",
+          "reviewer_id": 192451,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-27T16:17:00Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "timmywil"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timmywil"
+      ]
+    }
+  ]
+}
