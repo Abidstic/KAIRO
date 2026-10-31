@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "mochiya98",
+    "generation_timestamp": "2026-09-18T04:15:32.741421",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 7,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 7
+  },
+  "profile": {
+    "developer_name": "mochiya98",
+    "raw_response": "```json\n{\n  \"developer_name\": \"mochiya98\",\n  \"experience_level\": \"Senior\",\n  \"primary_skills\": [\n    \"React/Preact lifecycle methods\",\n    \"JavaScript class component internals\",\n    \"Webpack/Babel optimizations\",\n    \"Frontend rendering debugging\",\n    \"State management in React ecosystems\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (implied by Preact ecosystem familiarity)\"\n  ],\n  \"summary\": \"mochiya98 is a Senior-level JavaScript developer with deep expertise in React/Preact lifecycle methods, JavaScript class component internals, and frontend rendering optimizations. Their contributions focus on fixing subtle bugs in state management, virtual DOM updates, and Webpack/Babel optimizations within the Preact repository. The developer demonstrates strong debugging skills, particularly in edge cases related to lifecycle methods (e.g., `getDerivedStateFromProps`, `shouldComponentUpdate`) and attribute handling (e.g., camelCase vs. kebab-case styles). While primarily frontend-focused, their work also reveals familiarity with build tooling optimizations like variable mangling and tree-shaking. The absence of backend or testing framework references suggests specialization in frontend rendering systems and JavaScript internals.\",\n  \"identified_skills\": {\n    \"React_Preact_Specialization\": [\n      \"React lifecycle methods\",\n      \"Preact compatibility fixes\",\n      \"React.memo optimization\",\n      \"Virtual DOM reconciliation\"\n    ],\n    \"JavaScript_Class_Component_Internals\": [\n      \"_prevState\" handling,\n      \"_nextState\" state transitions,\n      \"this\" binding in lifecycle methods\",\n      \"state update timing\"\n    ],\n    \"Webpack_Babel_Optimizations\": [\n      \"variable mangling (e.g., _prevState)\",\n      \"tree-shaking awareness\",\n      \"debug tooling integration\"\n    ],\n    \"Frontend_Rendering_Debugging\": [\n      \"style attribute parsing (camelCase/kebab-case)\",\n      \"shouldComponentUpdate optimizations\",\n      \"getDerivedStateFromProps fixes\",\n      \"rendering edge cases\"\n    ],\n    \"State_Management\": [\n      \"setState in lifecycle methods\",\n      \"derived state updates\",\n      \"state reconciliation\"\n    ],\n    \"JavaScript_Language\": [\n      \"prototype-based inheritance\",\n      \"closures in lifecycle methods\",\n      \"ES6+ assumptions\"\n    ],\n    \"Bug_Fix_Specialization\": [\n      \"edge-case handling\",\n      \"subtle behavior discrepancies\",\n      \"defensive programming\"\n    ],\n    \"Build_Tooling\": [\n      \"Webpack configuration\",\n      \"Babel optimizations\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR 1: Fixed React.memo optimization by addressing memoization behavior in Preact compatibility layer\",\n    \"PR 2: Corrected shouldComponentUpdate logic to prevent unnecessary re-renders, referencing issue #1368\",\n    \"PR 3: Fixed state update timing in componentWillReceiveProps by ensuring _nextState propagation\",\n    \"PR 4: Resolved style attribute parsing discrepancy between camelCase and kebab-case in Preact\",\n    \"PR 5: Addressed getDerivedStateFromProps not updating _nextState correctly in class components\",\n    \"PR 6: Implemented Webpack variable mangling for _prevState to reduce bundle size, referencing debug tooling\",\n    \"PR 7: Optimized performance by avoiding unnecessary computations in state updates ('ward off evil s')\",\n    \"All PRs reference specific GitHub issues (#1368, #1374, #1461) indicating reproducible test cases and debugging focus\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 24 column 20 (char 1538)"
+  },
+  "statistics": {
+    "total_prs": 7,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

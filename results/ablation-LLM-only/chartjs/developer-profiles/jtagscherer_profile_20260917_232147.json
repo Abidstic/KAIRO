@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "jtagscherer",
+    "generation_timestamp": "2026-09-17T23:21:47.897129",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "jtagscherer",
+    "raw_response": "```json\n{\n  \"developer_name\": \"jtagscherer\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Chart.js internals\",\n    \"Visual regression testing\",\n    \".editorconfig and linter integration\",\n    \"JavaScript-based data visualization\",\n    \"Unit testing for pixel-based outputs\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\"\n  ],\n  \"summary\": \"jtagscherer demonstrates mid-level expertise in JavaScript, specializing in Chart.js data visualization with a focus on rendering precision, layout adjustments, and visual regression testing. Their contributions primarily involve refining Chart.js internals—particularly logarithmic scaling, legend layouting, and pixel-perfect rendering—while also contributing to test infrastructure and code quality tools like .editorconfig. The developer shows strong collaboration skills, often resolving issues through discussion rather than direct code changes, indicating a nuanced understanding of Chart.js's technical constraints and testing paradigms. While their contributions are deeply embedded in Chart.js, there is no evidence of broader JavaScript framework or backend experience.\",\n  \"identified_skills\": {\n    \"Data Visualization Libraries\": [\"Chart.js\", \"Logarithmic scale rendering\", \"Legend layouting\"],\n    \"Testing\": [\"Visual regression testing\", \"Pixel proximity matcher\", \"Unit test infrastructure\"],\n    \"Code Quality & Tooling\": [\".editorconfig\", \"Linter integration\", \"Final newline enforcement\"],\n    \"Problem-Solving & Collaboration\": [\"Discussion-based bug fixes\", \"Collaborative debugging\"],\n    \"JavaScript Language Features\": [],\n    \"Frontend Frameworks\": [],\n    \"Backend Systems\": [],\n    \"Build & Deployment\": []\n  },\n  \"skill_evidence\": [\n    \"PR #1: Legend layouting bug fix (type: bug) — adjusting spacing/padding in chart legends (discussion-based resolution)\",\n    \"PR #2: Updated .editorconfig to enforce consistent line endings ('final newlines') with linter validation\",\n    \"PR #2: Introduced 'pixel proximity matcher' for unit tests in Chart.js, ensuring visual accuracy\",\n    \"PR #3: Type labeled 'infrastructure' — suggests involvement in test utilities or test runner enhancements\",\n    \"PRs involve logarithmic scale adjustments, indicating expertise in mathematical scaling for chart rendering\",\n    \"No direct code changes in PRs (files_changed: 0), but all were closed, implying collaborative problem-solving\",\n    \"Mentions of 'as is ensured by the linter' in PR descriptions, confirming linter-driven development practices\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 33 column 3 (char 2521)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

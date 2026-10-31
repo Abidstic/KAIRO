@@ -1,0 +1,75 @@
+{
+  "reviewer_name": "hexiaokang",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 0,
+    "total_prs": 3,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "hexiaokang",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "Axios internals",
+      "JavaScript module systems",
+      "Type safety in HTTP clients",
+      "Code review for correctness"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ESM/CJS)"
+    ],
+    "summary": "hexiaokang is a Mid-level JavaScript reviewer with specialized expertise in TypeScript and Axios. Their reviews demonstrate deep technical proficiency in fixing type definitions, module exports, and Axios-specific configurations. The reviewer excels at enforcing code consistency, type safety, and minimalist changes, primarily contributing to library maintenance and internal tooling. Evidence from three PRs shows strong focus on TypeScript type refinement, Axios error handling, and module system best practices.",
+    "identified_skills": {
+      "TypeScript": [
+        "Type refinement",
+        "TypeScript naming conventions",
+        "Interface/Type adjustments",
+        "AxiosError type definitions",
+        "PascalCase type naming"
+      ],
+      "JavaScript Modules": [
+        "ESM vs. CJS exports",
+        "Module organization",
+        "Tree-shaking considerations",
+        "Clean public API design"
+      ],
+      "HTTP Client Libraries": [
+        "Axios internals",
+        "AxiosError handling",
+        "AxiosRequestConfig types",
+        "HTTP adapter systems"
+      ],
+      "Code Review & Quality": [
+        "Minimalist PR changes",
+        "Type safety enforcement",
+        "Backward compatibility checks",
+        "Consistency enforcement"
+      ],
+      "JavaScript Ecosystem": [
+        "Modern JS tooling awareness",
+        "TypeScript-heavy projects",
+        "Module bundler considerations"
+      ],
+      "Defensive Programming": [
+        "Preventing type-related bugs",
+        "Runtime-type alignment"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1 ('fix: Update AxiosError type declaration to exclude status') — corrected TypeScript type definitions for AxiosError, demonstrating type refinement and interface adjustments",
+      "PR #2 ('fix: rename types responseEncoding to ResponseEncoding') — enforced PascalCase naming convention for TypeScript types, showing attention to TypeScript best practices",
+      "PR #3 ('export Adapters') — adjusted module exports to avoid CJS transpilation issues, highlighting ESM/CJS awareness and module organization expertise",
+      "All PRs approved with minimal changes — indicates strong code review judgment focused on correctness and consistency",
+      "Axios-specific fixes in PRs #1 and #2 — demonstrates deep understanding of Axios's error handling and request configuration types",
+      "PR #3 description mentions 'not transpiled as individual files' — shows awareness of bundler implications and tree-shaking considerations",
+      "No frontend frameworks or backend server code — confirms specialization in library/tooling rather than application development"
+    ]
+  }
+}

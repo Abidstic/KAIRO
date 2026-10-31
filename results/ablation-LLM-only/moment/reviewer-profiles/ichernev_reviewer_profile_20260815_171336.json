@@ -1,0 +1,86 @@
+{
+  "reviewer_name": "ichernev",
+  "generated_at": "20260815_171336",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 16,
+    "total_comments": 30,
+    "total_prs": 11,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "ichernev",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Moment.js core development",
+      "Date/time manipulation APIs",
+      "JavaScript object manipulation",
+      "Locale and internationalization",
+      "Bug fixing and debugging",
+      "Unit testing in JavaScript"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "TypeScript (inferred from Moment.js ecosystem)"
+    ],
+    "summary": "ichernev is a highly experienced Senior-level JavaScript reviewer with deep expertise in Moment.js, specializing in date/time manipulation, locale systems, and performance optimizations. Their reviews demonstrate rigorous technical judgment, strong debugging skills, and a focus on correctness and testing. While their JavaScript skills are specialized to Moment.js internals, they exhibit excellent proficiency in JavaScript object manipulation, string parsing, and versioning processes. Their contributions primarily involve core library development rather than broader frontend/backend ecosystems.",
+    "identified_skills": {
+      "DateTime Libraries": [
+        "Moment.js",
+        "date manipulation APIs",
+        "duration formatting",
+        "startOf/endOf methods",
+        "Daylight Saving Time handling"
+      ],
+      "Internationalization": [
+        "locale systems",
+        "locale normalization",
+        "new locale additions",
+        "string-based locale handling"
+      ],
+      "JavaScript Core": [
+        "object property manipulation",
+        "immutable patterns",
+        "string parsing and normalization",
+        "JSON-based configuration"
+      ],
+      "Testing Practices": [
+        "unit testing",
+        "test-driven development",
+        "test coverage discussions"
+      ],
+      "Versioning & Releases": [
+        "breaking change management",
+        "release-pending labels",
+        "API stability considerations"
+      ],
+      "Code Review": [
+        "LGTM approvals",
+        "constructive feedback on edge cases",
+        "performance optimization reviews"
+      ],
+      "Bug Resolution": [
+        "DST edge case fixes",
+        "locale crash prevention",
+        "race condition resolution"
+      ],
+      "JavaScript Ecosystem": [
+        "npm package maintenance",
+        "test suite integration"
+      ]
+    },
+    "skill_evidence": [
+      "PR 11: '[bugfix] Fix startOf/endOf DST issues while boosting performance' — demonstrates deep DST handling expertise and performance debugging",
+      "PR 10: '[bugfix] fix(local_update): normalize locale name on updating locale' — shows locale system manipulation and string normalization skills",
+      "PR 15-16: '[new locale] kg: Add kongo locale' and '[new locale] (zh-mo) Add Chinese Macau' — evidence of internationalization contributions",
+      "'LGTM' approval in PR 7 — indicates high confidence in API correctness and testing coverage",
+      "'Looks good' approval in PR 10 — suggests rigorous review of locale normalization logic",
+      "'Needs tests' label in PR 6 — demonstrates engagement with test-driven development discussions",
+      "PR 11 labeled 'Pending Next Release' — shows awareness of versioning and breaking change implications",
+      "Review comments identifying DST edge cases in PR 11 — evidence of careful debugging and edge-case analysis"
+    ]
+  }
+}

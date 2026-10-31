@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "developer_name": "Mohit21GoJs",
+    "generation_timestamp": "2026-08-15T17:10:56.218248",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "lodash"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "Mohit21GoJs",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Lodash utility functions",
+      "Functional programming patterns",
+      "Issue triage and validation",
+      "JavaScript utility library contributions"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)"
+    ],
+    "summary": "Mohit21GoJs demonstrates early-stage contributions to the Lodash utility library, focusing on issue validation and potential feature discussions. Their work is limited to Lodash-specific functional programming patterns and utility function behavior, with no visible implementation changes. The contributions suggest familiarity with Lodash's core design but lack evidence of broader JavaScript ecosystem experience or modern tooling. Experience level is assessed as Junior due to the limited scope and lack of code implementation.",
+    "identified_skills": {
+      "Utility Library Contributions": [
+        "Lodash internals",
+        "Utility function behavior",
+        "Functional programming patterns"
+      ],
+      "Issue Management": [
+        "Issue triage",
+        "Invalid issue labeling",
+        "Issue bankruptcy resolution"
+      ],
+      "JavaScript Core": [
+        "Vanilla JavaScript (ES5/ES6)",
+        "Array/object manipulation"
+      ],
+      "GitHub Workflow": [
+        "PR labeling",
+        "Issue closing"
+      ],
+      "Feature Discussion": [
+        "Proposed utility function extensions"
+      ]
+    },
+    "skill_evidence": [
+      "PR labeled 'invalid' suggests experience in filtering out invalid issue reports",
+      "PR titled 'add order by behaviour with array similar to get method' indicates discussion of new utility function design",
+      "All PRs reference issue #4438 in lodash, showing engagement with core functionality",
+      "No code changes visible in PRs, implying review or documentation-focused contributions",
+      "Labels like 'issue bankruptcy' indicate participation in resolving stale or duplicate issues",
+      "No evidence of modern JS features (e.g., async/await, classes) in PR context",
+      "Contributions limited to Lodash repository, with no cross-project visibility"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "lodash"
+    ]
+  }
+}

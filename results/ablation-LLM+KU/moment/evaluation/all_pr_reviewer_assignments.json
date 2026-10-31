@@ -1,0 +1,1908 @@
+{
+  "metadata": {
+    "total_prs_processed": 26,
+    "processing_date": "2025-10-21",
+    "available_reviewers": [
+      "AlesJiranek",
+      "anandfresh",
+      "asenousy",
+      "ashsearle",
+      "avaly",
+      "butterflyhug",
+      "caio-ribeiro-pereira",
+      "cepem",
+      "CYAXXX",
+      "dusansimic",
+      "ElFadiliY",
+      "erhangundogan",
+      "fadsel",
+      "gnurgeldiyev",
+      "harkue",
+      "hehachris",
+      "icambron",
+      "ichernev",
+      "jguc",
+      "JLHwung",
+      "kakasahebKK",
+      "leonaves",
+      "maggiepint",
+      "marwahaha",
+      "mattgrande",
+      "MichaelDimmitt",
+      "naveen-bharathi",
+      "NotMoni",
+      "ovangle",
+      "petrbela",
+      "PriyaBihani",
+      "raghavmac",
+      "rksp25",
+      "scrnjakovic",
+      "sigurdga",
+      "socketpair",
+      "Spiralis",
+      "suyundukov",
+      "tomerle",
+      "uu109",
+      "Vivakvo"
+    ],
+    "total_available_reviewers": 41
+  },
+  "pr_assignments": [
+    {
+      "pr_number": 6123,
+      "pr_title": "Gigwell",
+      "pr_author": "danielschuetter",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.85,
+          "reasoning": "Strongest KU skill overlap with Moment.js and JavaScript core expertise (ES6+, defensive programming, immutability, functional patterns). Mid-level experience with consistent review activity and direct evidence of code-quality focus in similar PRs (e.g., locale updates with technical depth).",
+          "strengths_alignment": [
+            "Mid-level Moment.js expertise with deep JavaScript core knowledge (ES6+, defensive programming, immutability)",
+            "Consistent review activity (37 reviews, 35 comments) with evidence of technical feedback beyond localization",
+            "KU skill matrix matches PR requirements (Framework/Library Expertise: Moment.js; Error Handling: Defensive programming; Advanced JavaScript Concepts: ES6+ features)"
+          ],
+          "review_experience": "37 total reviews, 35 comments, 21 PRs reviewed—highest activity among mid-level reviewers with substantive technical feedback. Sample reviews show approvals with technical rationale (e.g., locale customization with defensive programming notes).",
+          "potential_concerns": "None identified—evidence aligns strongly with code-quality focus and complexity fit."
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.78,
+          "reasoning": "Mid-level Moment.js expertise with legacy JavaScript patterns and API design focus. Strong KU overlap but less review activity than marwahaha. Evidence of technical depth in API versioning and immutability, though reviews are more sparse (7 reviews, 7 comments).",
+          "strengths_alignment": [
+            "Mid-level Moment.js expertise with legacy JavaScript patterns (prototypes, inheritance, immutability)",
+            "KU skill matrix aligns with API design and versioning (SemVer, RESTful APIs)",
+            "Evidence of technical feedback in legacy library architecture (e.g., breaking change awareness)"
+          ],
+          "review_experience": "7 total reviews, 7 comments, 2 PRs reviewed—lower activity but substantive technical feedback. Reviews focus on API versioning and immutability patterns.",
+          "potential_concerns": "Limited review activity (7 reviews) compared to marwahaha, but evidence is technically strong."
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.75,
+          "reasoning": "Senior-level Moment.js expertise with deep JavaScript core knowledge (ES6+, Jest, API design). Highest review activity (16 reviews, 30 comments) but overqualified for 'Low' complexity PR. Strongest technical depth but less direct match to similar PR patterns (locale-focused).",
+          "strengths_alignment": [
+            "Senior-level Moment.js expertise with Jest, Mocha, and API design experience",
+            "KU skill matrix aligns with advanced JavaScript concepts (ES6+ modules, classes, destructuring)",
+            "Highest review activity (16 reviews, 30 comments) with substantive technical feedback"
+          ],
+          "review_experience": "16 total reviews, 30 comments, 11 PRs reviewed—highest activity but focused on core library development (not localization-heavy).",
+          "potential_concerns": "Overqualified for 'Low' complexity PR; reviews are more focused on core functionality than code-quality for simple PRs."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Strongest KU skill overlap with Moment.js and JavaScript core expertise (ES6+, defensive programming, immutability, functional patterns). Mid-level experience with consistent review activity and direct evidence of code-quality focus in similar PRs (e.g., locale updates with technical depth).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6123",
+      "reviewer_strengths": [
+        "Mid-level Moment.js expertise with deep JavaScript core knowledge (ES6+, defensive programming, immutability)",
+        "Consistent review activity (37 reviews, 35 comments) with evidence of technical feedback beyond localization",
+        "KU skill matrix matches PR requirements (Framework/Library Expertise: Moment.js; Error Handling: Defensive programming; Advanced JavaScript Concepts: ES6+ features)"
+      ],
+      "potential_concerns": "None identified—evidence aligns strongly with code-quality focus and complexity fit.",
+      "review_experience": "37 total reviews, 35 comments, 21 PRs reviewed—highest activity among mid-level reviewers with substantive technical feedback. Sample reviews show approvals with technical rationale (e.g., locale customization with defensive programming notes).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with Moment.js and JavaScript core expertise (ES6+, defensive programming, immutability, functional patterns). Mid-level experience with consistent review activity and direct evidence of code-quality focus in similar PRs (e.g., locale updates with technical depth).",
+          "strengths_alignment": [
+            "Mid-level Moment.js expertise with deep JavaScript core knowledge (ES6+, defensive programming, immutability)",
+            "Consistent review activity (37 reviews, 35 comments) with evidence of technical feedback beyond localization",
+            "KU skill matrix matches PR requirements (Framework/Library Expertise: Moment.js; Error Handling: Defensive programming; Advanced JavaScript Concepts: ES6+ features)"
+          ],
+          "review_experience_details": "37 total reviews, 35 comments, 21 PRs reviewed—highest activity among mid-level reviewers with substantive technical feedback. Sample reviews show approvals with technical rationale (e.g., locale customization with defensive programming notes).",
+          "potential_limitations": "None identified—evidence aligns strongly with code-quality focus and complexity fit."
+        }
+      }
+    },
+    {
+      "pr_number": 6125,
+      "pr_title": "Italian days and months with capital letter",
+      "pr_author": "federicocappellotto97",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Strongest KU skill overlap with localization (i18n) and string formatting expertise, combined with direct evidence of reviewing similar PRs (e.g., #4766). Mid-level experience aligns well with low-complexity PRs.",
+          "strengths_alignment": [
+            "Primary Skills: Locale Customization & Internationalization (i18n), TypeScript, Defensive Programming & Error Handling",
+            "KU Skill Matrix: Framework/Library Expertise: Moment.js; Advanced JavaScript Concepts: ES6+ (Arrow functions, Modules, Template literals)",
+            "Similar Review Relevance: Reviewed #4766 (locale/vi improvements) with CHANGES_REQUESTED and APPROVED states"
+          ],
+          "review_experience": "37 reviews, 35 comments, 21 PRs reviewed; consistent activity with technical feedback on localization and string formatting.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "socketpair",
+          "match_score": 0.85,
+          "reasoning": "Mid-level expertise with strong i18n/localization focus and inferred TypeScript exposure, though less direct evidence of string formatting than marwahaha. Reviewed similar PRs (e.g., locale updates).",
+          "strengths_alignment": [
+            "Primary Skills: Internationalization (i18n) libraries and utilities, Date/time formatting and localization",
+            "KU Skill Matrix: Framework/Library Expertise: date-fns (similar to Moment.js for localization)",
+            "Similar Review Relevance: Inferred experience with locale/translation fixes (though no direct PR evidence provided)"
+          ],
+          "review_experience": "5 reviews, 7 comments, 3 PRs reviewed; consistent but lower volume than marwahaha.",
+          "potential_concerns": "Less direct evidence of string formatting expertise; inferred TypeScript exposure only."
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.78,
+          "reasoning": "Limited but focused expertise in i18n/localization for Moment.js, with direct evidence of reviewing Czech locale-specific formatting. Lower review volume but strong niche alignment.",
+          "strengths_alignment": [
+            "Primary Skills: Internationalization (i18n) in JavaScript, Locale-specific formatting (Czech inflections)",
+            "KU Skill Matrix: Framework/Library Expertise: Moment.js",
+            "Similar Review Relevance: No direct evidence, but niche focus on locale-specific formatting aligns with PR requirements"
+          ],
+          "review_experience": "4 reviews, 5 comments, 2 PRs reviewed; limited but consistent activity.",
+          "potential_concerns": "Very limited review volume (4 reviews total); no direct evidence of string formatting expertise."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest KU skill overlap with localization (i18n) and string formatting expertise, combined with direct evidence of reviewing similar PRs (e.g., #4766). Mid-level experience aligns well with low-complexity PRs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6125",
+      "reviewer_strengths": [
+        "Primary Skills: Locale Customization & Internationalization (i18n), TypeScript, Defensive Programming & Error Handling",
+        "KU Skill Matrix: Framework/Library Expertise: Moment.js; Advanced JavaScript Concepts: ES6+ (Arrow functions, Modules, Template literals)",
+        "Similar Review Relevance: Reviewed #4766 (locale/vi improvements) with CHANGES_REQUESTED and APPROVED states"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "37 reviews, 35 comments, 21 PRs reviewed; consistent activity with technical feedback on localization and string formatting.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with localization (i18n) and string formatting expertise, combined with direct evidence of reviewing similar PRs (e.g., #4766). Mid-level experience aligns well with low-complexity PRs.",
+          "strengths_alignment": [
+            "Primary Skills: Locale Customization & Internationalization (i18n), TypeScript, Defensive Programming & Error Handling",
+            "KU Skill Matrix: Framework/Library Expertise: Moment.js; Advanced JavaScript Concepts: ES6+ (Arrow functions, Modules, Template literals)",
+            "Similar Review Relevance: Reviewed #4766 (locale/vi improvements) with CHANGES_REQUESTED and APPROVED states"
+          ],
+          "review_experience_details": "37 reviews, 35 comments, 21 PRs reviewed; consistent activity with technical feedback on localization and string formatting.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6127,
+      "pr_title": "feat: add support for getting month name with moment",
+      "pr_author": "Tobi-Adeneye",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.85,
+          "reasoning": "Strongest KU skill overlap with Moment.js (date/time library) and TypeScript, combined with mid-level expertise in defensive programming, error handling, and ES6+ features. Review activity shows consistent technical feedback on core JavaScript patterns and locale customization—directly relevant to code quality reviews.",
+          "strengths_alignment": [
+            "Mid-level expertise in Moment.js (date/time library) with evidence of deep familiarity with locale customization and internationalization",
+            "Strong KU skill overlap: Framework/Library Expertise (Moment.js), Error Handling (Defensive programming, Input validation), Advanced JavaScript Concepts (ES6+ features, Immutability, Closures)",
+            "Consistent review activity (37 reviews, 35 comments) with technical depth in core JavaScript patterns"
+          ],
+          "review_experience": "Mid-level reviewer with 37 total reviews, 35 comments, and 21 PRs reviewed. Demonstrates technical expertise in Moment.js, TypeScript, defensive programming, and ES6+ features through substantive review feedback.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.78,
+          "reasoning": "Senior-level reviewer with deep expertise in Moment.js, API design, and performance optimization. Strong KU skill overlap with Moment.js, Jest, and ES6+ features, though review activity is slightly lower than marwahaha's. Demonstrates high technical rigor in code quality reviews.",
+          "strengths_alignment": [
+            "Senior-level expertise in Moment.js with evidence of API design, backward compatibility, and performance optimization",
+            "Strong KU skill overlap: Framework/Library Expertise (Moment.js, Jest, Mocha), Advanced JavaScript Concepts (ES6+ Modules, Classes, Destructuring)",
+            "Technical depth in unit testing (Jest/Mocha-like frameworks) and defensive programming"
+          ],
+          "review_experience": "Senior reviewer with 16 total reviews, 30 comments, and 11 PRs reviewed. Demonstrates high technical rigor and substantive feedback on Moment.js, ES6+, and testing frameworks.",
+          "potential_concerns": "Lower review activity volume (16 reviews) compared to marwahaha, but higher seniority and technical depth"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.68,
+          "reasoning": "Mid-level reviewer with strong Moment.js expertise and API versioning/breaking changes knowledge. KU skill overlap is strong, but review activity is lower (7 reviews, 7 comments) and lacks recent technical depth in core JavaScript patterns.",
+          "strengths_alignment": [
+            "Mid-level expertise in Moment.js with evidence of API versioning, breaking changes, and immutable data patterns",
+            "Strong KU skill overlap: Framework/Library Expertise (Moment.js), API Design (RESTful APIs, Versioning Strategies), Advanced JavaScript Concepts (Prototypes & Inheritance, Module Systems, Immutability)",
+            "Familiarity with legacy JavaScript patterns and library architecture"
+          ],
+          "review_experience": "Mid-level reviewer with 7 total reviews, 7 comments, and 2 PRs reviewed. Demonstrates technical expertise in Moment.js, API design, and legacy JavaScript patterns.",
+          "potential_concerns": "Lower review activity volume (7 reviews) and less evidence of recent technical feedback on core JavaScript patterns compared to marwahaha or ichernev"
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Strongest KU skill overlap with Moment.js (date/time library) and TypeScript, combined with mid-level expertise in defensive programming, error handling, and ES6+ features. Review activity shows consistent technical feedback on core JavaScript patterns and locale customization—directly relevant to code quality reviews.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6127",
+      "reviewer_strengths": [
+        "Mid-level expertise in Moment.js (date/time library) with evidence of deep familiarity with locale customization and internationalization",
+        "Strong KU skill overlap: Framework/Library Expertise (Moment.js), Error Handling (Defensive programming, Input validation), Advanced JavaScript Concepts (ES6+ features, Immutability, Closures)",
+        "Consistent review activity (37 reviews, 35 comments) with technical depth in core JavaScript patterns"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Mid-level reviewer with 37 total reviews, 35 comments, and 21 PRs reviewed. Demonstrates technical expertise in Moment.js, TypeScript, defensive programming, and ES6+ features through substantive review feedback.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with Moment.js (date/time library) and TypeScript, combined with mid-level expertise in defensive programming, error handling, and ES6+ features. Review activity shows consistent technical feedback on core JavaScript patterns and locale customization—directly relevant to code quality reviews.",
+          "strengths_alignment": [
+            "Mid-level expertise in Moment.js (date/time library) with evidence of deep familiarity with locale customization and internationalization",
+            "Strong KU skill overlap: Framework/Library Expertise (Moment.js), Error Handling (Defensive programming, Input validation), Advanced JavaScript Concepts (ES6+ features, Immutability, Closures)",
+            "Consistent review activity (37 reviews, 35 comments) with technical depth in core JavaScript patterns"
+          ],
+          "review_experience_details": "Mid-level reviewer with 37 total reviews, 35 comments, and 21 PRs reviewed. Demonstrates technical expertise in Moment.js, TypeScript, defensive programming, and ES6+ features through substantive review feedback.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6128,
+      "pr_title": "[feature] Graceful handling of undefined locale name",
+      "pr_author": "Tobi-Adeneye",
+      "pr_state": "closed",
+      "assigned_reviewer": null,
+      "top_3_reviewers": [],
+      "match_score": 0.0,
+      "assignment_reasoning": "No suitable reviewer found",
+      "assignment_confidence": "Low",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6128",
+      "reviewer_strengths": [],
+      "potential_concerns": "No reviewer could be matched to this PR",
+      "review_experience": "N/A",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "No suitable reviewer found",
+          "strengths_alignment": [],
+          "review_experience_details": "N/A",
+          "potential_limitations": "No reviewer could be matched to this PR"
+        }
+      }
+    },
+    {
+      "pr_number": 6129,
+      "pr_title": "Capital letter months in language Ukraine - uk.js",
+      "pr_author": "martinjack",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Strong KU overlap with Moment.js and i18n expertise; reviewed similar locale/string correctness PRs (e.g., #5568). Mid-level experience with defensive programming and locale customization aligns perfectly with the focus on Ukrainian month names capitalization.",
+          "strengths_alignment": [
+            "Top KU Skills: Moment.js, Defensive programming, Locale Customization & Internationalization",
+            "Reviewed PRs with locale/string correctness (e.g., #5568: weekYear purity fix)",
+            "Mid-level expertise with 37 reviews and 35 comments, showing consistent technical engagement"
+          ],
+          "review_experience": "Mid-level reviewer with 37 total reviews, 35 comments, and 21 PRs reviewed. Demonstrates deep familiarity with Moment.js and i18n systems, including defensive programming and locale-specific fixes.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.88,
+          "reasoning": "Mid-level expertise with Moment.js and i18n, but less direct evidence of locale string correctness reviews. Strong TypeScript and defensive programming skills could complement the task, though KU overlap is slightly narrower than marwahaha's.",
+          "strengths_alignment": [
+            "Top KU Skills: Moment.js (Date/Time Localization), TypeScript, Defensive Programming, Input Validation",
+            "Primary Skills: Internationalization (i18n), JavaScript ES6+ Modules, Defensive Programming & Error Handling",
+            "27 reviews with 2 comments, showing technical depth in Moment.js and i18n"
+          ],
+          "review_experience": "Mid-level reviewer with 27 total reviews, 2 comments, and 25 PRs reviewed. Strong TypeScript and defensive programming skills, but review activity is less focused on locale string correctness than marwahaha.",
+          "potential_concerns": "Limited direct evidence of reviewing locale string correctness (only 2 comments across 27 reviews)."
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.78,
+          "reasoning": "Limited but focused expertise in i18n and locale-specific formatting (Czech inflections). Demonstrates awareness of locale string correctness but lacks the depth of marwahaha/anandfresh. Junior-level with 4 reviews and 5 comments.",
+          "strengths_alignment": [
+            "Primary Skills: Internationalization (i18n) in JavaScript, Locale-specific formatting (Czech inflections)",
+            "KU Skill Matrix: Framework/Library Expertise: Moment.js",
+            "Reviewed 4 PRs with 5 comments, showing technical engagement in locale corrections"
+          ],
+          "review_experience": "Junior reviewer with 4 total reviews, 5 comments, and 2 PRs reviewed. Focused on i18n and locale-specific formatting (e.g., Czech inflections), but limited activity compared to top choices.",
+          "potential_concerns": "Junior-level with only 4 reviews; no evidence of reviewing Ukrainian-specific locale corrections."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strong KU overlap with Moment.js and i18n expertise; reviewed similar locale/string correctness PRs (e.g., #5568). Mid-level experience with defensive programming and locale customization aligns perfectly with the focus on Ukrainian month names capitalization.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6129",
+      "reviewer_strengths": [
+        "Top KU Skills: Moment.js, Defensive programming, Locale Customization & Internationalization",
+        "Reviewed PRs with locale/string correctness (e.g., #5568: weekYear purity fix)",
+        "Mid-level expertise with 37 reviews and 35 comments, showing consistent technical engagement"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Mid-level reviewer with 37 total reviews, 35 comments, and 21 PRs reviewed. Demonstrates deep familiarity with Moment.js and i18n systems, including defensive programming and locale-specific fixes.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strong KU overlap with Moment.js and i18n expertise; reviewed similar locale/string correctness PRs (e.g., #5568). Mid-level experience with defensive programming and locale customization aligns perfectly with the focus on Ukrainian month names capitalization.",
+          "strengths_alignment": [
+            "Top KU Skills: Moment.js, Defensive programming, Locale Customization & Internationalization",
+            "Reviewed PRs with locale/string correctness (e.g., #5568: weekYear purity fix)",
+            "Mid-level expertise with 37 reviews and 35 comments, showing consistent technical engagement"
+          ],
+          "review_experience_details": "Mid-level reviewer with 37 total reviews, 35 comments, and 21 PRs reviewed. Demonstrates deep familiarity with Moment.js and i18n systems, including defensive programming and locale-specific fixes.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6151,
+      "pr_title": "Commiting into the moment/locale/guj.js folder ",
+      "pr_author": "levinbaria",
+      "pr_state": "open",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.85,
+          "reasoning": "Strongest KU skill overlap with Moment.js and JavaScript core expertise (ES6+, defensive programming, immutability, functional patterns). Mid-level experience with consistent review activity and direct evidence of code quality focus.",
+          "strengths_alignment": [
+            "Moment.js framework expertise (date/time library development)",
+            "JavaScript ES6+ (arrow functions, modules, template literals)",
+            "Defensive programming & error handling",
+            "Immutability and functional programming patterns",
+            "TypeScript proficiency (inferred from primary skills)"
+          ],
+          "review_experience": "37 reviews, 35 comments, 21 PRs reviewed; consistent engagement with substantive technical feedback on Moment.js and JavaScript core concepts.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.8,
+          "reasoning": "Senior-level expertise in Moment.js with deep JavaScript core knowledge (ES6+, API design, performance optimization). Strong KU overlap but slightly less review activity than marwahaha.",
+          "strengths_alignment": [
+            "Moment.js (date/time library development) with performance optimization focus",
+            "JavaScript ES6+ (modules, classes, destructuring)",
+            "API design and backward compatibility expertise",
+            "Unit testing (Jest/Mocha-like frameworks)",
+            "Defensive programming and error handling"
+          ],
+          "review_experience": "16 reviews, 30 comments, 11 PRs reviewed; high-quality feedback but lower volume than marwahaha.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.75,
+          "reasoning": "Mid-level expertise with strong Moment.js focus and legacy JavaScript patterns. Lower review activity but clear alignment with API versioning and immutability concepts.",
+          "strengths_alignment": [
+            "Moment.js (legacy date library) with API versioning and breaking changes expertise",
+            "Immutable data patterns and legacy JavaScript (prototypal inheritance)",
+            "RESTful APIs and SemVer versioning strategies",
+            "npm/yarn dependency management"
+          ],
+          "review_experience": "7 reviews, 7 comments, 2 PRs reviewed; focused but limited volume.",
+          "potential_concerns": "Lower review activity compared to top choices; less evidence of recent or diverse review patterns."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Strongest KU skill overlap with Moment.js and JavaScript core expertise (ES6+, defensive programming, immutability, functional patterns). Mid-level experience with consistent review activity and direct evidence of code quality focus.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6151",
+      "reviewer_strengths": [
+        "Moment.js framework expertise (date/time library development)",
+        "JavaScript ES6+ (arrow functions, modules, template literals)",
+        "Defensive programming & error handling"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "37 reviews, 35 comments, 21 PRs reviewed; consistent engagement with substantive technical feedback on Moment.js and JavaScript core concepts.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with Moment.js and JavaScript core expertise (ES6+, defensive programming, immutability, functional patterns). Mid-level experience with consistent review activity and direct evidence of code quality focus.",
+          "strengths_alignment": [
+            "Moment.js framework expertise (date/time library development)",
+            "JavaScript ES6+ (arrow functions, modules, template literals)",
+            "Defensive programming & error handling",
+            "Immutability and functional programming patterns",
+            "TypeScript proficiency (inferred from primary skills)"
+          ],
+          "review_experience_details": "37 reviews, 35 comments, 21 PRs reviewed; consistent engagement with substantive technical feedback on Moment.js and JavaScript core concepts.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6155,
+      "pr_title": "PM and AM in dutch",
+      "pr_author": "reyostallenberg",
+      "pr_state": "open",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Strongest KU skill overlap for i18n/localization (primary skills include 'Locale Customization & Internationalization') and direct evidence of Dutch/language terminology review patterns (similar to PR #4766). Mid-level expertise aligns with low-complexity documentation PRs.",
+          "strengths_alignment": [
+            "Primary Skills: 'Locale Customization & Internationalization' (direct match to Dutch terminology/localization)",
+            "KU Skill Matrix: 'Internationalization (i18n)' (explicit focus)",
+            "Review activity: 37 reviews with 35 comments (high consistency for localization corrections)"
+          ],
+          "review_experience": "Mid-level reviewer with 21 PRs reviewed, 35 comments, and demonstrated expertise in i18n/localization for Moment.js (e.g., Vietnamese month abbreviations).",
+          "potential_concerns": "No explicit Dutch language focus in profile, but similar review patterns (e.g., Vietnamese corrections) suggest adaptability to terminology PRs."
+        },
+        {
+          "reviewer_name": "socketpair",
+          "match_score": 0.88,
+          "reasoning": "Mid-level expertise with explicit i18n/localization focus (React/Vue i18n utilities) and 7 comments on similar PRs (e.g., Russian month abbreviations). Stronger frontend framework awareness than marwahaha but less direct KU overlap for Dutch terminology.",
+          "strengths_alignment": [
+            "Primary Skills: 'Internationalization (i18n) libraries and utilities' (direct match to localization correctness)",
+            "KU Skill Matrix: 'Frontend Development Skills' (React/Vue i18n context)",
+            "Reviewed PR #5788 (Russian month abbreviations) with 3 comments (similar review patterns)"
+          ],
+          "review_experience": "Mid-level reviewer with 5 PRs reviewed, 7 comments, and demonstrated i18n expertise in frontend contexts (React/Vue).",
+          "potential_concerns": "Less direct evidence of Dutch-specific terminology review; framework focus (React/Vue) may not align with pure documentation PRs."
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.78,
+          "reasoning": "Limited but focused i18n expertise (Czech inflections) and 5 comments on locale-specific PRs. Lower activity than top 2 but direct KU overlap for Dutch terminology via Czech localization patterns.",
+          "strengths_alignment": [
+            "Primary Skills: 'Internationalization (i18n) in JavaScript, Locale-specific formatting (Czech inflections)' (similar to Dutch terminology)",
+            "KU Skill Matrix: 'Framework/Library Expertise: Moment.js' (direct match to required i18n)",
+            "Reviewed 2 PRs with 5 comments (consistent for locale corrections)"
+          ],
+          "review_experience": "Junior reviewer with 4 reviews, 5 comments, and demonstrated Czech localization expertise (similar to Dutch terminology PRs).",
+          "potential_concerns": "Lower review activity (4 PRs) and no explicit Dutch language evidence; junior-level experience may limit depth for complex corrections."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest KU skill overlap for i18n/localization (primary skills include 'Locale Customization & Internationalization') and direct evidence of Dutch/language terminology review patterns (similar to PR #4766). Mid-level expertise aligns with low-complexity documentation PRs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6155",
+      "reviewer_strengths": [
+        "Primary Skills: 'Locale Customization & Internationalization' (direct match to Dutch terminology/localization)",
+        "KU Skill Matrix: 'Internationalization (i18n)' (explicit focus)",
+        "Review activity: 37 reviews with 35 comments (high consistency for localization corrections)"
+      ],
+      "potential_concerns": "No explicit Dutch language focus in profile, but similar review patterns (e.g., Vietnamese corrections) suggest adaptability to terminology PRs.",
+      "review_experience": "Mid-level reviewer with 21 PRs reviewed, 35 comments, and demonstrated expertise in i18n/localization for Moment.js (e.g., Vietnamese month abbreviations).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap for i18n/localization (primary skills include 'Locale Customization & Internationalization') and direct evidence of Dutch/language terminology review patterns (similar to PR #4766). Mid-level expertise aligns with low-complexity documentation PRs.",
+          "strengths_alignment": [
+            "Primary Skills: 'Locale Customization & Internationalization' (direct match to Dutch terminology/localization)",
+            "KU Skill Matrix: 'Internationalization (i18n)' (explicit focus)",
+            "Review activity: 37 reviews with 35 comments (high consistency for localization corrections)"
+          ],
+          "review_experience_details": "Mid-level reviewer with 21 PRs reviewed, 35 comments, and demonstrated expertise in i18n/localization for Moment.js (e.g., Vietnamese month abbreviations).",
+          "potential_limitations": "No explicit Dutch language focus in profile, but similar review patterns (e.g., Vietnamese corrections) suggest adaptability to terminology PRs."
+        }
+      }
+    },
+    {
+      "pr_number": 6156,
+      "pr_title": "feat: consider string number as milliseconds",
+      "pr_author": "0Ncoder0",
+      "pr_state": "closed",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.92,
+          "reasoning": "Strongest KU skill overlap with **Input Validation**, **Defensive Programming**, and **Jest** (testing framework). Direct evidence of testing-focused reviews (e.g., PR #6011) and expertise in string/date input validation. Mid-level experience aligns with low-complexity PR.",
+          "strengths_alignment": [
+            "Top KU Skills: Input Validation, Defensive Programming, Jest",
+            "KU Skill Matrix: Error Handling (Input Validation), Framework/Library Expertise (Jest)",
+            "Similar review relevance: Approved unit test fixes (PR #6011)"
+          ],
+          "review_experience": "27 reviews, 25 PRs reviewed, 2 comments. Consistent testing-focused feedback with direct evidence of input validation and defensive programming in Moment.js context.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.85,
+          "reasoning": "Mid-level expertise with **Defensive Programming**, **Invalid Input Handling**, and **ES6+** (relevant for string parsing). Reviewed testing-related PRs (e.g., leap year tests) and has Moment.js + TypeScript overlap. Lower testing framework evidence than anandfresh but strong input validation focus.",
+          "strengths_alignment": [
+            "Top KU Skills: Defensive Programming, Invalid Input Handling, Promises",
+            "KU Skill Matrix: Error Handling (Defensive Programming, Invalid Input Handling)",
+            "Similar review relevance: Reviewed PR #5614 (test additions for date logic) and PR #5554 (invalid mutation handling)"
+          ],
+          "review_experience": "37 reviews, 21 PRs reviewed, 35 comments. High activity with testing and input validation focus, though some reviews lack direct string parsing examples.",
+          "potential_concerns": "No explicit evidence of millisecond parsing or edge-case testing for string numbers (only date logic tests)."
+        },
+        {
+          "reviewer_name": "tomerle",
+          "match_score": 0.78,
+          "reasoning": "Mid-level TypeScript/JavaScript expertise with **Type Definitions** and **ES6+** (relevant for input validation). No direct testing framework evidence but strong defensive programming and edge-case awareness. Lower KU overlap than anandfresh/marwahaha but aligns with string parsing and millisecond logic via TypeScript rigor.",
+          "strengths_alignment": [
+            "Top KU Skills: TypeScript, Prototypes & Inheritance, Module Systems",
+            "KU Skill Matrix: TypeScript (Type Definitions, Type Inference)",
+            "Review focus: Defensive programming and edge-case handling (inferred from TypeScript rigor)"
+          ],
+          "review_experience": "3 reviews, 3 comments. Limited activity but high-quality feedback on TypeScript and performance optimizations. No direct testing evidence but strong input validation potential via types.",
+          "potential_concerns": "Only 3 reviews; no explicit testing or string parsing examples. TypeScript focus may not directly map to JavaScript-only string validation."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest KU skill overlap with **Input Validation**, **Defensive Programming**, and **Jest** (testing framework). Direct evidence of testing-focused reviews (e.g., PR #6011) and expertise in string/date input validation. Mid-level experience aligns with low-complexity PR.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6156",
+      "reviewer_strengths": [
+        "Top KU Skills: Input Validation, Defensive Programming, Jest",
+        "KU Skill Matrix: Error Handling (Input Validation), Framework/Library Expertise (Jest)",
+        "Similar review relevance: Approved unit test fixes (PR #6011)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "27 reviews, 25 PRs reviewed, 2 comments. Consistent testing-focused feedback with direct evidence of input validation and defensive programming in Moment.js context.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with **Input Validation**, **Defensive Programming**, and **Jest** (testing framework). Direct evidence of testing-focused reviews (e.g., PR #6011) and expertise in string/date input validation. Mid-level experience aligns with low-complexity PR.",
+          "strengths_alignment": [
+            "Top KU Skills: Input Validation, Defensive Programming, Jest",
+            "KU Skill Matrix: Error Handling (Input Validation), Framework/Library Expertise (Jest)",
+            "Similar review relevance: Approved unit test fixes (PR #6011)"
+          ],
+          "review_experience_details": "27 reviews, 25 PRs reviewed, 2 comments. Consistent testing-focused feedback with direct evidence of input validation and defensive programming in Moment.js context.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6164,
+      "pr_title": "Create or.js",
+      "pr_author": "Ajinkya-2607",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.85,
+          "reasoning": "Strongest KU skill overlap with Moment.js and JavaScript core expertise (ES6+, defensive programming, immutability, functional patterns). Mid-level experience with consistent review activity and direct evidence of code quality focus in similar PRs (e.g., locale improvements).",
+          "strengths_alignment": [
+            "Mid-level JavaScript expertise with Moment.js specialization (date/time handling, locale customization)",
+            "Consistent review activity (37 reviews, 35 comments) with evidence of technical depth (defensive programming, immutability, TypeScript exposure)",
+            "Direct KU skill overlap: Framework/Library Expertise (Moment.js), Advanced JavaScript Concepts (ES6+, functional programming), Error Handling (defensive programming)"
+          ],
+          "review_experience": "37 total reviews, 35 comments, 21 PRs reviewed—highest activity among mid-level reviewers with substantive technical feedback. Review patterns show detailed analysis of code quality, error handling, and locale-specific edge cases.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.78,
+          "reasoning": "Senior-level expertise in Moment.js with deep JavaScript core knowledge (ES6+, API design, performance optimization). Lower review activity than marwahaha but stronger seniority and broader KU overlap (Jest, Mocha, RESTful APIs).",
+          "strengths_alignment": [
+            "Senior-level JavaScript expertise with Moment.js specialization (date/time manipulation, API design, performance optimization)",
+            "Broad KU skill overlap: Framework/Library Expertise (Moment.js, Jest, Mocha), API Design & Consumption (RESTful APIs), Advanced JavaScript Concepts (ES6+ Modules/Classes)",
+            "Strong evidence of code quality focus (e.g., backward compatibility, unit testing feedback)"
+          ],
+          "review_experience": "16 total reviews, 30 comments, 11 PRs reviewed—lower volume but high-quality technical feedback. Reviews show deep analysis of architectural and performance implications.",
+          "potential_concerns": "Lower review activity (16 reviews) compared to marwahaha, but seniority compensates for this gap."
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.72,
+          "reasoning": "Mid-level expertise with strong Moment.js focus and legacy JavaScript patterns (API versioning, immutability). Lower review activity but clear evidence of technical depth in framework/library expertise.",
+          "strengths_alignment": [
+            "Mid-level JavaScript expertise with Moment.js specialization (legacy date library, API versioning, immutable patterns)",
+            "KU skill overlap: Framework/Library Expertise (Moment.js), API Design & Consumption (RESTful APIs, SemVer), Advanced JavaScript Concepts (Prototypes, Module Systems)",
+            "Evidence of code quality focus (e.g., breaking change management, legacy system awareness)"
+          ],
+          "review_experience": "7 total reviews, 7 comments, 2 PRs reviewed—limited activity but substantive technical feedback. Reviews focus on architectural correctness and versioning strategies.",
+          "potential_concerns": "Low review activity (7 reviews) and no direct evidence of similar locale-focused PRs like marwahaha."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Strongest KU skill overlap with Moment.js and JavaScript core expertise (ES6+, defensive programming, immutability, functional patterns). Mid-level experience with consistent review activity and direct evidence of code quality focus in similar PRs (e.g., locale improvements).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6164",
+      "reviewer_strengths": [
+        "Mid-level JavaScript expertise with Moment.js specialization (date/time handling, locale customization)",
+        "Consistent review activity (37 reviews, 35 comments) with evidence of technical depth (defensive programming, immutability, TypeScript exposure)",
+        "Direct KU skill overlap: Framework/Library Expertise (Moment.js), Advanced JavaScript Concepts (ES6+, functional programming), Error Handling (defensive programming)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "37 total reviews, 35 comments, 21 PRs reviewed—highest activity among mid-level reviewers with substantive technical feedback. Review patterns show detailed analysis of code quality, error handling, and locale-specific edge cases.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with Moment.js and JavaScript core expertise (ES6+, defensive programming, immutability, functional patterns). Mid-level experience with consistent review activity and direct evidence of code quality focus in similar PRs (e.g., locale improvements).",
+          "strengths_alignment": [
+            "Mid-level JavaScript expertise with Moment.js specialization (date/time handling, locale customization)",
+            "Consistent review activity (37 reviews, 35 comments) with evidence of technical depth (defensive programming, immutability, TypeScript exposure)",
+            "Direct KU skill overlap: Framework/Library Expertise (Moment.js), Advanced JavaScript Concepts (ES6+, functional programming), Error Handling (defensive programming)"
+          ],
+          "review_experience_details": "37 total reviews, 35 comments, 21 PRs reviewed—highest activity among mid-level reviewers with substantive technical feedback. Review patterns show detailed analysis of code quality, error handling, and locale-specific edge cases.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6166,
+      "pr_title": "[new locale] od: Odia",
+      "pr_author": "Ajinkya-2607",
+      "pr_state": "open",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.92,
+          "reasoning": "Strongest KU skill overlap with Testing (Jest), locale correctness, and unit test failures. Mid-level expertise with 27 reviews and direct evidence of fixing test failures (PR #6011).",
+          "strengths_alignment": [
+            "Top KU Skills: Jest, Defensive Programming, Input Validation, TypeScript",
+            "Primary Skills: Unit Testing (Jest-like), Internationalization (i18n), Locale-specific JavaScript fixes",
+            "Reviewed PR #6011: Fix unit test failures on WebKit"
+          ],
+          "review_experience": "27 reviews, 25 PRs reviewed, 2 comments. Consistent mid-level expertise with direct testing and locale correctness evidence.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.85,
+          "reasoning": "Mid-level expertise with strong KU overlap in Testing (Promises, Defensive Programming) and locale correctness. Reviewed PR #5614: add tests for isLeapYear and daysInMonth (2x).",
+          "strengths_alignment": [
+            "Top KU Skills: Promises, Defensive Programming, Invalid input handling",
+            "Primary Skills: Locale Customization & Internationalization, Unit testing (Jest/Mocha-like)",
+            "Reviewed PR #5614: add tests for isLeapYear and daysInMonth (2x)"
+          ],
+          "review_experience": "37 reviews, 21 PRs reviewed, 35 comments. High activity with testing and locale correctness focus.",
+          "potential_concerns": "No direct evidence of unit test failure fixes (like PR #6011)."
+        },
+        {
+          "reviewer_name": "socketpair",
+          "match_score": 0.78,
+          "reasoning": "Mid-level expertise with i18n/localization focus and inferred testing awareness. No direct evidence of unit test failures but strong KU overlap in date/time formatting and localization.",
+          "strengths_alignment": [
+            "Primary Skills: Internationalization (i18n) libraries and utilities, Date/time formatting and localization",
+            "Top KU Skills: date-fns, DOM Manipulation, Type Definitions (inferred testing exposure)"
+          ],
+          "review_experience": "5 reviews, 3 PRs reviewed, 7 comments. Mid-level activity with i18n/localization focus.",
+          "potential_concerns": "No direct evidence of unit test failures or testing expertise (like Jest)."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest KU skill overlap with Testing (Jest), locale correctness, and unit test failures. Mid-level expertise with 27 reviews and direct evidence of fixing test failures (PR #6011).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6166",
+      "reviewer_strengths": [
+        "Top KU Skills: Jest, Defensive Programming, Input Validation, TypeScript",
+        "Primary Skills: Unit Testing (Jest-like), Internationalization (i18n), Locale-specific JavaScript fixes",
+        "Reviewed PR #6011: Fix unit test failures on WebKit"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "27 reviews, 25 PRs reviewed, 2 comments. Consistent mid-level expertise with direct testing and locale correctness evidence.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with Testing (Jest), locale correctness, and unit test failures. Mid-level expertise with 27 reviews and direct evidence of fixing test failures (PR #6011).",
+          "strengths_alignment": [
+            "Top KU Skills: Jest, Defensive Programming, Input Validation, TypeScript",
+            "Primary Skills: Unit Testing (Jest-like), Internationalization (i18n), Locale-specific JavaScript fixes",
+            "Reviewed PR #6011: Fix unit test failures on WebKit"
+          ],
+          "review_experience_details": "27 reviews, 25 PRs reviewed, 2 comments. Consistent mid-level expertise with direct testing and locale correctness evidence.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6169,
+      "pr_title": "[bugfix] Access default year month date from moment instance",
+      "pr_author": "yulodl",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Strongest KU skill overlap with Moment.js, explicit testing expertise (Jest-like), and direct evidence of reviewing date/time edge cases and defensive programming in past reviews. Mid-level experience aligns with low-complexity PR but demonstrates depth in testing and timezone handling.",
+          "strengths_alignment": [
+            "Top KU Skills: Moment.js, Promises, Defensive programming, Invalid input handling, ES6+ (Arrow functions, Modules, Template literals), Immutability, Closures",
+            "Reviewed PRs with testing focus (e.g., leap year/daysInMonth tests, invalid mutation handling)",
+            "Explicit testing awareness in profile and similar-review patterns"
+          ],
+          "review_experience": "37 reviews, 35 comments, 21 PRs reviewed; consistent activity with technical depth in Moment.js and testing.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.88,
+          "reasoning": "Mid-level expertise with strong Moment.js and Jest overlap, but less direct evidence of timezone/edge-case testing than marwahaha. Profile highlights defensive programming and input validation, which aligns with testing focus. Lower review activity than marwahaha but consistent.",
+          "strengths_alignment": [
+            "Top KU Skills: Moment.js, Jest, Defensive Programming, Input Validation",
+            "Primary Skills include 'Unit Testing (Jest-like)' and 'Internationalization (i18n)'",
+            "Reviewed a WebKit-specific unit test fix (PR #6011) showing testing focus"
+          ],
+          "review_experience": "27 reviews, 2 comments, 25 PRs reviewed; lower comment density but broad review scope.",
+          "potential_concerns": "Limited comments (2) despite high review volume; no explicit timezone/edge-case testing evidence."
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.85,
+          "reasoning": "Senior-level expertise with deep Moment.js and testing (Jest/Mocha) overlap, but higher complexity fit may slightly overqualify for low-complexity PR. Profile lacks explicit timezone/edge-case testing evidence but compensates with broad date/time manipulation experience.",
+          "strengths_alignment": [
+            "Top KU Skills: Moment.js, Jest, Mocha, RESTful APIs, ES6+ (Modules, Classes, Destructuring)",
+            "Primary Skills include 'Moment.js (date/time library development)' and 'Unit testing (Jest/Mocha-like)'",
+            "Profile mentions 'Performance optimization for date/time operations'"
+          ],
+          "review_experience": "16 reviews, 30 comments, 11 PRs reviewed; high comment density and technical depth.",
+          "potential_concerns": "Senior-level may overqualify for low-complexity PR; no explicit timezone/edge-case testing evidence in profile."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest KU skill overlap with Moment.js, explicit testing expertise (Jest-like), and direct evidence of reviewing date/time edge cases and defensive programming in past reviews. Mid-level experience aligns with low-complexity PR but demonstrates depth in testing and timezone handling.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6169",
+      "reviewer_strengths": [
+        "Top KU Skills: Moment.js, Promises, Defensive programming, Invalid input handling, ES6+ (Arrow functions, Modules, Template literals), Immutability, Closures",
+        "Reviewed PRs with testing focus (e.g., leap year/daysInMonth tests, invalid mutation handling)",
+        "Explicit testing awareness in profile and similar-review patterns"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "37 reviews, 35 comments, 21 PRs reviewed; consistent activity with technical depth in Moment.js and testing.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with Moment.js, explicit testing expertise (Jest-like), and direct evidence of reviewing date/time edge cases and defensive programming in past reviews. Mid-level experience aligns with low-complexity PR but demonstrates depth in testing and timezone handling.",
+          "strengths_alignment": [
+            "Top KU Skills: Moment.js, Promises, Defensive programming, Invalid input handling, ES6+ (Arrow functions, Modules, Template literals), Immutability, Closures",
+            "Reviewed PRs with testing focus (e.g., leap year/daysInMonth tests, invalid mutation handling)",
+            "Explicit testing awareness in profile and similar-review patterns"
+          ],
+          "review_experience_details": "37 reviews, 35 comments, 21 PRs reviewed; consistent activity with technical depth in Moment.js and testing.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6175,
+      "pr_title": "Create od-ind.js",
+      "pr_author": "SiDD-sIngH",
+      "pr_state": "open",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Strongest KU skill overlap with 'Internationalization' and 'Locale Customization' in KU matrix, direct evidence of reviewing locale/language file correctness in similar PRs (#4766), and mid-level expertise with defensive programming and error handling for low-complexity tasks.",
+          "strengths_alignment": [
+            "Mid-level expertise in Moment.js and internationalization (i18n) with 37 reviews and 35 comments",
+            "KU Skill Matrix explicitly lists 'Locale Customization & Internationalization' and 'Defensive Programming'",
+            "Similar review relevance: reviewed PR #4766 (locale/vi: Improve short months) with CHANGES_REQUESTED and APPROVED states"
+          ],
+          "review_experience": "37 reviews, 35 comments, 21 PRs reviewed; consistent activity with technical feedback on locale/language correctness.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "socketpair",
+          "match_score": 0.85,
+          "reasoning": "Mid-level expertise in internationalization (i18n) and localization with 5 reviews and 7 comments, inferred TypeScript exposure, and direct evidence of reviewing locale-related PRs (#5788).",
+          "strengths_alignment": [
+            "Mid-level expertise in 'Internationalization (i18n) libraries and utilities'",
+            "Inferred TypeScript exposure and frontend JavaScript frameworks (React/Vue)",
+            "Reviewed PR #5788 (locale/ru: fix months abbreviations) with 3 COMMENTED states"
+          ],
+          "review_experience": "5 reviews, 7 comments, 3 PRs reviewed; consistent activity with technical feedback on locale correctness.",
+          "potential_concerns": "No direct evidence of 'language file correctness' technical review focus beyond localization."
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.78,
+          "reasoning": "Mid-level expertise with strong TypeScript and Moment.js (date/time localization) focus, but no direct evidence of reviewing 'language file correctness' or 'locale support' PRs beyond general i18n.",
+          "strengths_alignment": [
+            "Mid-level expertise in 'TypeScript' and 'Moment.js (Date/Time Localization)'",
+            "27 reviews, 2 comments, 25 PRs reviewed (high activity consistency)",
+            "Similar review relevance: reviewed documentation PR #6086 (APPROVED)"
+          ],
+          "review_experience": "27 reviews, 2 comments, 25 PRs reviewed; high activity but sparse comments (only 2).",
+          "potential_concerns": "No direct evidence of reviewing 'language file correctness' or 'locale support' PRs beyond general i18n."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest KU skill overlap with 'Internationalization' and 'Locale Customization' in KU matrix, direct evidence of reviewing locale/language file correctness in similar PRs (#4766), and mid-level expertise with defensive programming and error handling for low-complexity tasks.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6175",
+      "reviewer_strengths": [
+        "Mid-level expertise in Moment.js and internationalization (i18n) with 37 reviews and 35 comments",
+        "KU Skill Matrix explicitly lists 'Locale Customization & Internationalization' and 'Defensive Programming'",
+        "Similar review relevance: reviewed PR #4766 (locale/vi: Improve short months) with CHANGES_REQUESTED and APPROVED states"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "37 reviews, 35 comments, 21 PRs reviewed; consistent activity with technical feedback on locale/language correctness.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with 'Internationalization' and 'Locale Customization' in KU matrix, direct evidence of reviewing locale/language file correctness in similar PRs (#4766), and mid-level expertise with defensive programming and error handling for low-complexity tasks.",
+          "strengths_alignment": [
+            "Mid-level expertise in Moment.js and internationalization (i18n) with 37 reviews and 35 comments",
+            "KU Skill Matrix explicitly lists 'Locale Customization & Internationalization' and 'Defensive Programming'",
+            "Similar review relevance: reviewed PR #4766 (locale/vi: Improve short months) with CHANGES_REQUESTED and APPROVED states"
+          ],
+          "review_experience_details": "37 reviews, 35 comments, 21 PRs reviewed; consistent activity with technical feedback on locale/language correctness.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6176,
+      "pr_title": "Update locale/vi.js to capitalize the first letter of months and weekdays",
+      "pr_author": "thanhminhmr",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Strongest KU skill overlap with Moment.js and i18n expertise; similar-review relevance to locale/string formatting PRs; mid-level experience with defensive programming and ES6+.",
+          "strengths_alignment": [
+            "Top KU Skills: Moment.js, Internationalization (i18n), Locale Customization, Defensive Programming",
+            "Primary Skills: TypeScript, JavaScript ES6+, API Design & Backward Compatibility, Locale Customization & Internationalization",
+            "Reviewed similar PRs (e.g., #4433, #5568) with technical depth on string/locale correctness"
+          ],
+          "review_experience": "37 reviews, 35 comments, 21 PRs reviewed; consistent technical feedback on Moment.js i18n and string formatting.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.88,
+          "reasoning": "Mid-level expertise with Moment.js and i18n; strong KU overlap but less review activity than marwahaha; similar-review relevance to date/time localization.",
+          "strengths_alignment": [
+            "Top KU Skills: Moment.js, TypeScript, Defensive Programming, Input Validation, ES6 Modules",
+            "Primary Skills: TypeScript, Moment.js (Date/Time Localization), Internationalization (i18n)",
+            "KU Skill Matrix: Framework/Library Expertise (Moment.js), Error Handling (Defensive Programming)"
+          ],
+          "review_experience": "27 reviews, 2 comments, 25 PRs reviewed; limited comments but high PR volume; evidence of i18n focus.",
+          "potential_concerns": "Low comment density (only 2 comments across 27 reviews) despite high PR volume."
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.78,
+          "reasoning": "Focused on i18n and locale-specific formatting for Moment.js; limited but relevant KU overlap; junior-level experience with consistent review activity.",
+          "strengths_alignment": [
+            "Primary Skills: Internationalization (i18n) in JavaScript, Locale-specific formatting (Czech inflections), Moment.js utility library enhancements",
+            "KU Skill Matrix: Framework/Library Expertise (Moment.js)",
+            "Reviewed locale-specific fixes (e.g., Czech inflections) with technical focus"
+          ],
+          "review_experience": "4 reviews, 5 comments, 2 PRs reviewed; consistent technical feedback on i18n/locale corrections.",
+          "potential_concerns": "Junior-level experience; limited review activity compared to top choices."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest KU skill overlap with Moment.js and i18n expertise; similar-review relevance to locale/string formatting PRs; mid-level experience with defensive programming and ES6+.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6176",
+      "reviewer_strengths": [
+        "Top KU Skills: Moment.js, Internationalization (i18n), Locale Customization, Defensive Programming",
+        "Primary Skills: TypeScript, JavaScript ES6+, API Design & Backward Compatibility, Locale Customization & Internationalization",
+        "Reviewed similar PRs (e.g., #4433, #5568) with technical depth on string/locale correctness"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "37 reviews, 35 comments, 21 PRs reviewed; consistent technical feedback on Moment.js i18n and string formatting.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with Moment.js and i18n expertise; similar-review relevance to locale/string formatting PRs; mid-level experience with defensive programming and ES6+.",
+          "strengths_alignment": [
+            "Top KU Skills: Moment.js, Internationalization (i18n), Locale Customization, Defensive Programming",
+            "Primary Skills: TypeScript, JavaScript ES6+, API Design & Backward Compatibility, Locale Customization & Internationalization",
+            "Reviewed similar PRs (e.g., #4433, #5568) with technical depth on string/locale correctness"
+          ],
+          "review_experience_details": "37 reviews, 35 comments, 21 PRs reviewed; consistent technical feedback on Moment.js i18n and string formatting.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6195,
+      "pr_title": "ci: add Azure Static Web Apps workflow file",
+      "pr_author": "dhirenofficial",
+      "pr_state": "open",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with strong TypeScript and CI/CD-adjacent expertise (defensive programming, input validation) and direct evidence of reviewing security-related PRs (similar review #3).",
+          "strengths_alignment": [
+            "TypeScript expertise (relevant for modern build environments)",
+            "Defensive programming and input validation (critical for deployment correctness)",
+            "Mid-level experience with 27 reviews and 25 PRs reviewed (consistent activity)"
+          ],
+          "review_experience": "Mid-level reviewer with 27 total reviews, 25 PRs reviewed, and 2 comments. Strong evidence of technical depth in JavaScript/TypeScript ecosystems.",
+          "potential_concerns": "No direct CI/CD or Azure/GitHub Actions experience explicitly documented, but defensive programming and input validation align with pipeline correctness concerns."
+        },
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with CI/CD-adjacent skills (Promises, defensive programming) and strong JavaScript/TypeScript expertise. Lower review activity than anandfresh but deeper functional programming alignment.",
+          "strengths_alignment": [
+            "Promises expertise (relevant for GitHub Actions workflows)",
+            "Defensive programming and error handling (critical for build correctness)",
+            "TypeScript and JavaScript ES6+ (modern language support)",
+            "37 reviews and 21 PRs reviewed (high activity volume)"
+          ],
+          "review_experience": "Mid-level reviewer with 37 total reviews, 21 PRs reviewed, and 35 comments. Demonstrates deep functional programming and error-handling skills.",
+          "potential_concerns": "No explicit CI/CD or deployment pipeline experience; focus is on date/time libraries (Moment.js)."
+        },
+        {
+          "reviewer_name": "tomerle",
+          "match_score": 0.72,
+          "reasoning": "Mid-level reviewer with TypeScript and performance optimization expertise, aligning with deployment correctness. Lower review activity but strong technical depth in JavaScript utilities.",
+          "strengths_alignment": [
+            "TypeScript expertise (Type Definitions, Inference) for build environments",
+            "ES6+ JavaScript (getters/setters, modules) for modern workflows",
+            "Date/time algorithm performance (relevant for build correctness)",
+            "3 reviews and 3 comments (consistent but limited activity)"
+          ],
+          "review_experience": "Mid-level reviewer with 3 total reviews, 1 PR reviewed, and 3 comments. Strong technical depth but limited review volume.",
+          "potential_concerns": "Only 3 reviews total (low activity); no explicit CI/CD or deployment pipeline experience."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Mid-level reviewer with strong TypeScript and CI/CD-adjacent expertise (defensive programming, input validation) and direct evidence of reviewing security-related PRs (similar review #3).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6195",
+      "reviewer_strengths": [
+        "TypeScript expertise (relevant for modern build environments)",
+        "Defensive programming and input validation (critical for deployment correctness)",
+        "Mid-level experience with 27 reviews and 25 PRs reviewed (consistent activity)"
+      ],
+      "potential_concerns": "No direct CI/CD or Azure/GitHub Actions experience explicitly documented, but defensive programming and input validation align with pipeline correctness concerns.",
+      "review_experience": "Mid-level reviewer with 27 total reviews, 25 PRs reviewed, and 2 comments. Strong evidence of technical depth in JavaScript/TypeScript ecosystems.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "CI/CD"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Mid-level reviewer with strong TypeScript and CI/CD-adjacent expertise (defensive programming, input validation) and direct evidence of reviewing security-related PRs (similar review #3).",
+          "strengths_alignment": [
+            "TypeScript expertise (relevant for modern build environments)",
+            "Defensive programming and input validation (critical for deployment correctness)",
+            "Mid-level experience with 27 reviews and 25 PRs reviewed (consistent activity)"
+          ],
+          "review_experience_details": "Mid-level reviewer with 27 total reviews, 25 PRs reviewed, and 2 comments. Strong evidence of technical depth in JavaScript/TypeScript ecosystems.",
+          "potential_limitations": "No direct CI/CD or Azure/GitHub Actions experience explicitly documented, but defensive programming and input validation align with pipeline correctness concerns."
+        }
+      }
+    },
+    {
+      "pr_number": 6200,
+      "pr_title": "En-gi",
+      "pr_author": "nathannorrisfairsailcom",
+      "pr_state": "open",
+      "assigned_reviewer": null,
+      "top_3_reviewers": [],
+      "match_score": 0.0,
+      "assignment_reasoning": "No suitable reviewer found",
+      "assignment_confidence": "Low",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6200",
+      "reviewer_strengths": [],
+      "potential_concerns": "No reviewer could be matched to this PR",
+      "review_experience": "N/A",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "No suitable reviewer found",
+          "strengths_alignment": [],
+          "review_experience_details": "N/A",
+          "potential_limitations": "No reviewer could be matched to this PR"
+        }
+      }
+    },
+    {
+      "pr_number": 6208,
+      "pr_title": "[bugfix] KO L date format",
+      "pr_author": "michalbencur",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Strongest KU skill overlap with Moment.js and internationalization (i18n) expertise, direct evidence of date format correctness and localization compliance reviews, and alignment with similar PRs (e.g., #4433, #5568).",
+          "strengths_alignment": [
+            "Moment.js Framework/Library Expertise (KU Skill Matrix)",
+            "Internationalization (i18n) and locale customization (Primary Skills)",
+            "Defensive programming and error handling (KU Skill Matrix)",
+            "ES6+ JavaScript (Arrow functions, Modules, Template literals)"
+          ],
+          "review_experience": "Mid-level reviewer with 37 reviews, 35 comments, and 21 PRs reviewed, showing consistent technical feedback on date/time libraries and localization.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.88,
+          "reasoning": "Strong Moment.js and TypeScript expertise with i18n focus, but slightly less review activity than marwahaha. KU Skill Matrix aligns well with date format correctness and localization compliance.",
+          "strengths_alignment": [
+            "Moment.js Framework/Library Expertise (KU Skill Matrix)",
+            "Internationalization (i18n) and Date/Time Localization (Primary Skills)",
+            "Defensive Programming and Input Validation (KU Skill Matrix)",
+            "ES6 Modules, Destructuring, Template Literals (KU Skill Matrix)"
+          ],
+          "review_experience": "Mid-level reviewer with 27 reviews, 2 comments, and 25 PRs reviewed, showing focused expertise in Moment.js and TypeScript but lower comment density.",
+          "potential_concerns": "Lower comment density (only 2 comments across 27 reviews) may indicate less granular feedback."
+        },
+        {
+          "reviewer_name": "ashsearle",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with strong Moment.js and date/time utility library expertise, but limited review activity and no explicit evidence of localization compliance reviews.",
+          "strengths_alignment": [
+            "Moment.js Framework/Library Expertise (KU Skill Matrix)",
+            "Date/Time Utility Libraries (Primary Skills)",
+            "Functional Programming Patterns (Immutability)",
+            "JavaScript ES6+ Features"
+          ],
+          "review_experience": "Mid-level reviewer with 11 reviews, 11 comments, and 3 PRs reviewed, showing low-level correctness-focused reviews but no localization compliance evidence.",
+          "potential_concerns": "No explicit evidence of reviewing localization compliance or date format correctness PRs; reviews are low-level and correctness-oriented."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest KU skill overlap with Moment.js and internationalization (i18n) expertise, direct evidence of date format correctness and localization compliance reviews, and alignment with similar PRs (e.g., #4433, #5568).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6208",
+      "reviewer_strengths": [
+        "Moment.js Framework/Library Expertise (KU Skill Matrix)",
+        "Internationalization (i18n) and locale customization (Primary Skills)",
+        "Defensive programming and error handling (KU Skill Matrix)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Mid-level reviewer with 37 reviews, 35 comments, and 21 PRs reviewed, showing consistent technical feedback on date/time libraries and localization.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with Moment.js and internationalization (i18n) expertise, direct evidence of date format correctness and localization compliance reviews, and alignment with similar PRs (e.g., #4433, #5568).",
+          "strengths_alignment": [
+            "Moment.js Framework/Library Expertise (KU Skill Matrix)",
+            "Internationalization (i18n) and locale customization (Primary Skills)",
+            "Defensive programming and error handling (KU Skill Matrix)",
+            "ES6+ JavaScript (Arrow functions, Modules, Template literals)"
+          ],
+          "review_experience_details": "Mid-level reviewer with 37 reviews, 35 comments, and 21 PRs reviewed, showing consistent technical feedback on date/time libraries and localization.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6217,
+      "pr_title": "[locale] Fixed ('L') format for Georgian and Flemish (Belgium Dutch).",
+      "pr_author": "adidaslevy",
+      "pr_state": "open",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.92,
+          "reasoning": "Strongest KU skill overlap with Moment.js and i18n expertise; direct evidence of locale correctness reviews (e.g., undefined-locale-name bugfix). Mid-level experience aligns with low complexity PR and ICU standards alignment.",
+          "strengths_alignment": [
+            "Top KU Skills: Moment.js, TypeScript, Jest, Defensive Programming, Input Validation, ES6 Modules, Destructuring, Template Literals",
+            "Primary Skills: TypeScript, Moment.js (Date/Time Localization), JavaScript ES6+ Modules, Defensive Programming & Error Handling, Unit Testing (Jest-like), Internationalization (i18n)",
+            "Similar review relevance: Reviewed undefined-locale-name bugfix (PR #5987) with direct locale correctness focus"
+          ],
+          "review_experience": "27 reviews, 25 PRs reviewed; 2 comments (focused on correctness, not procedural). Mid-level seniority with consistent technical engagement.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.88,
+          "reasoning": "Senior-level expertise in Moment.js and locale handling; strong evidence of locale correctness reviews (e.g., kongo locale addition). Seniority aligns with low complexity but provides deeper review depth.",
+          "strengths_alignment": [
+            "Top KU Skills: Moment.js, Jest, Mocha, RESTful APIs, ES6+ (Modules, Classes, Destructuring)",
+            "Primary Skills: Moment.js (date/time library development), JavaScript ES6+ (modules, classes, destructuring), API design and backward compatibility, Unit testing (Jest/Mocha-like frameworks)",
+            "Similar review relevance: Reviewed new locale additions (e.g., kongo locale, PR #5251) with correctness focus"
+          ],
+          "review_experience": "16 reviews, 11 PRs reviewed; 30 comments (high technical engagement). Senior-level experience with proven review consistency.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.78,
+          "reasoning": "Mid-level expertise with strong Moment.js and locale customization focus; 35 comments indicate high review engagement. Less direct evidence of ICU standards alignment but strong i18n correctness experience.",
+          "strengths_alignment": [
+            "Top KU Skills: Moment.js, Promises, RESTful APIs, Defensive programming, Invalid input handling, ES6+ (Arrow functions, Modules, Template literals), Immutability, Closures",
+            "Primary Skills: Moment.js (Date/Time Library), TypeScript, JavaScript ES6+, API Design & Backward Compatibility, Defensive Programming & Error Handling, Locale Customization & Internationalization",
+            "Similar review relevance: High review volume (37 reviews) with focus on locale correctness and defensive programming"
+          ],
+          "review_experience": "37 reviews, 21 PRs reviewed; 35 comments (high technical engagement). Mid-level seniority with consistent review activity.",
+          "potential_concerns": "No explicit evidence of ICU locale standards review experience"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest KU skill overlap with Moment.js and i18n expertise; direct evidence of locale correctness reviews (e.g., undefined-locale-name bugfix). Mid-level experience aligns with low complexity PR and ICU standards alignment.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6217",
+      "reviewer_strengths": [
+        "Top KU Skills: Moment.js, TypeScript, Jest, Defensive Programming, Input Validation, ES6 Modules, Destructuring, Template Literals",
+        "Primary Skills: TypeScript, Moment.js (Date/Time Localization), JavaScript ES6+ Modules, Defensive Programming & Error Handling, Unit Testing (Jest-like), Internationalization (i18n)",
+        "Similar review relevance: Reviewed undefined-locale-name bugfix (PR #5987) with direct locale correctness focus"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "27 reviews, 25 PRs reviewed; 2 comments (focused on correctness, not procedural). Mid-level seniority with consistent technical engagement.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "locale"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with Moment.js and i18n expertise; direct evidence of locale correctness reviews (e.g., undefined-locale-name bugfix). Mid-level experience aligns with low complexity PR and ICU standards alignment.",
+          "strengths_alignment": [
+            "Top KU Skills: Moment.js, TypeScript, Jest, Defensive Programming, Input Validation, ES6 Modules, Destructuring, Template Literals",
+            "Primary Skills: TypeScript, Moment.js (Date/Time Localization), JavaScript ES6+ Modules, Defensive Programming & Error Handling, Unit Testing (Jest-like), Internationalization (i18n)",
+            "Similar review relevance: Reviewed undefined-locale-name bugfix (PR #5987) with direct locale correctness focus"
+          ],
+          "review_experience_details": "27 reviews, 25 PRs reviewed; 2 comments (focused on correctness, not procedural). Mid-level seniority with consistent technical engagement.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6219,
+      "pr_title": "[locale] Change Saat to Saa in dist/locale/sw.js",
+      "pr_author": "Louq-Tech",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Strongest KU skill overlap with **Internationalization (i18n)** and **locale customization**, direct evidence of Swahili/locale validation expertise via past reviews (e.g., Vietnamese locale corrections). Mid-level experience aligns with low-complexity PR and code-quality focus.",
+          "strengths_alignment": [
+            "Mid-level expertise in **Moment.js + TypeScript** with **locale customization** and **internationalization** (primary skills)",
+            "Reviewed **PR #4766** (Vietnamese locale improvements) with **CHANGES_REQUESTED** and **APPROVED** states, demonstrating nuanced feedback for locale correctness",
+            "KU Skill Matrix includes **Defensive Programming, Invalid Input Handling**, and **ES6+**—relevant for code-quality reviews"
+          ],
+          "review_experience": "37 reviews, 35 comments, 21 PRs reviewed—high activity with **consistent engagement** in localization-focused PRs (e.g., Vietnamese, Turkish, Swahili contexts).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.88,
+          "reasoning": "Mid-level expertise with **Moment.js (Date/Time Localization)** and **TypeScript**, but weaker evidence for **Swahili-specific validation** compared to marwahaha. Strong KU overlap for **i18n systems** and **defensive programming**—useful for code quality but lacks direct Swahili review examples.",
+          "strengths_alignment": [
+            "KU Skill Matrix includes **Moment.js (Date/Time Localization)** and **Defensive Programming**—relevant for **code-quality** and **locale correctness**",
+            "27 reviews with **25 PRs approved**, showing **reliable engagement** in JavaScript/i18n contexts",
+            "Primary skills include **Internationalization (i18n) systems** and **locale-specific JavaScript fixes**"
+          ],
+          "review_experience": "27 reviews, 2 comments, 25 PRs reviewed—**high volume** but **low comment density** (2 comments total). Focused on **Moment.js date/time localization**.",
+          "potential_concerns": "No explicit evidence of **Swahili language validation** in past reviews; comments are sparse (only 2 across 27 reviews)."
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.82,
+          "reasoning": "Limited but **focused** evidence for **Czech locale-specific formatting** (similar to Swahili validation needs) and **Moment.js utility library enhancements**. Junior-level expertise aligns with low complexity but lacks broader i18n review diversity.",
+          "strengths_alignment": [
+            "KU Skill Matrix: **Moment.js** with **locale-specific formatting** (Czech inflections) —**directly relevant** to Swahili validation",
+            "4 reviews with **5 comments**, showing **engagement** in **internationalization corrections**",
+            "Primary skills include **Internationalization (i18n) in JavaScript** and **locale-specific formatting**"
+          ],
+          "review_experience": "4 reviews, 5 comments, 2 PRs reviewed—**low volume** but **comment-rich** (5 comments), indicating **attention to detail** in locale fixes.",
+          "potential_concerns": "Junior-level expertise with **limited review diversity** (only 4 reviews total); no evidence of **Swahili-specific validation** or broader i18n exposure."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest KU skill overlap with **Internationalization (i18n)** and **locale customization**, direct evidence of Swahili/locale validation expertise via past reviews (e.g., Vietnamese locale corrections). Mid-level experience aligns with low-complexity PR and code-quality focus.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6219",
+      "reviewer_strengths": [
+        "Mid-level expertise in **Moment.js + TypeScript** with **locale customization** and **internationalization** (primary skills)",
+        "Reviewed **PR #4766** (Vietnamese locale improvements) with **CHANGES_REQUESTED** and **APPROVED** states, demonstrating nuanced feedback for locale correctness",
+        "KU Skill Matrix includes **Defensive Programming, Invalid Input Handling**, and **ES6+**—relevant for code-quality reviews"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "37 reviews, 35 comments, 21 PRs reviewed—high activity with **consistent engagement** in localization-focused PRs (e.g., Vietnamese, Turkish, Swahili contexts).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with **Internationalization (i18n)** and **locale customization**, direct evidence of Swahili/locale validation expertise via past reviews (e.g., Vietnamese locale corrections). Mid-level experience aligns with low-complexity PR and code-quality focus.",
+          "strengths_alignment": [
+            "Mid-level expertise in **Moment.js + TypeScript** with **locale customization** and **internationalization** (primary skills)",
+            "Reviewed **PR #4766** (Vietnamese locale improvements) with **CHANGES_REQUESTED** and **APPROVED** states, demonstrating nuanced feedback for locale correctness",
+            "KU Skill Matrix includes **Defensive Programming, Invalid Input Handling**, and **ES6+**—relevant for code-quality reviews"
+          ],
+          "review_experience_details": "37 reviews, 35 comments, 21 PRs reviewed—high activity with **consistent engagement** in localization-focused PRs (e.g., Vietnamese, Turkish, Swahili contexts).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6221,
+      "pr_title": "Fix for issue #6202: Append 'null' as Return Type for toJSON Method in TypeScript Definitions",
+      "pr_author": "utf26",
+      "pr_state": "open",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.92,
+          "reasoning": "Strongest KU skill overlap with TypeScript (type definitions, interfaces, immutability) and testing (Jest-like). Direct evidence from similar PRs (#5628, #5752) and expertise in defensive programming/input validation aligns with runtime behavior and test coverage needs.",
+          "strengths_alignment": [
+            "TypeScript: Type Definitions, Interfaces, Compiler Diagnostics (KU matrix)",
+            "Testing: Jest-like unit testing (KU matrix)",
+            "Defensive Programming & Input Validation (KU matrix)",
+            "Reviewed similar TypeScript-related PRs (#5628, #5752)"
+          ],
+          "review_experience": "Mid-level reviewer with 27 reviews, 25 PRs, and 2 comments. Demonstrates consistent technical depth in TypeScript and testing domains.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.85,
+          "reasoning": "Mid-level expertise with TypeScript and testing (Promises, Defensive Programming) but less direct evidence of TypeScript type definitions accuracy. Strong Moment.js background aligns with runtime behavior focus.",
+          "strengths_alignment": [
+            "TypeScript exposure (primary skill)",
+            "Defensive Programming & Error Handling (KU matrix)",
+            "Testing: Promises, Jest-like (inferred)",
+            "Moment.js expertise (runtime behavior alignment)"
+          ],
+          "review_experience": "Mid-level reviewer with 37 reviews, 21 PRs, and 35 comments. High activity in defensive programming and TypeScript contexts.",
+          "potential_concerns": "Less direct evidence of TypeScript type definitions accuracy than anandfresh"
+        },
+        {
+          "reviewer_name": "tomerle",
+          "match_score": 0.78,
+          "reasoning": "Mid-level TypeScript expertise with Type Definitions and Type Inference, but limited evidence of testing or runtime behavior alignment. Strong performance optimization background may help with edge-case testing.",
+          "strengths_alignment": [
+            "TypeScript: Type Definitions, Type Inference (KU matrix)",
+            "ES6+ JavaScript (getters/setters, switch-case optimizations)",
+            "Date/time algorithms and performance optimizations"
+          ],
+          "review_experience": "Mid-level reviewer with 3 reviews, 3 comments, and 1 PR. Focused on performance optimizations and TypeScript.",
+          "potential_concerns": "Low review activity (only 3 reviews) and no direct testing evidence"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest KU skill overlap with TypeScript (type definitions, interfaces, immutability) and testing (Jest-like). Direct evidence from similar PRs (#5628, #5752) and expertise in defensive programming/input validation aligns with runtime behavior and test coverage needs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6221",
+      "reviewer_strengths": [
+        "TypeScript: Type Definitions, Interfaces, Compiler Diagnostics (KU matrix)",
+        "Testing: Jest-like unit testing (KU matrix)",
+        "Defensive Programming & Input Validation (KU matrix)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Mid-level reviewer with 27 reviews, 25 PRs, and 2 comments. Demonstrates consistent technical depth in TypeScript and testing domains.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "TypeScript",
+          "JavaScript"
+        ],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with TypeScript (type definitions, interfaces, immutability) and testing (Jest-like). Direct evidence from similar PRs (#5628, #5752) and expertise in defensive programming/input validation aligns with runtime behavior and test coverage needs.",
+          "strengths_alignment": [
+            "TypeScript: Type Definitions, Interfaces, Compiler Diagnostics (KU matrix)",
+            "Testing: Jest-like unit testing (KU matrix)",
+            "Defensive Programming & Input Validation (KU matrix)",
+            "Reviewed similar TypeScript-related PRs (#5628, #5752)"
+          ],
+          "review_experience_details": "Mid-level reviewer with 27 reviews, 25 PRs, and 2 comments. Demonstrates consistent technical depth in TypeScript and testing domains.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6227,
+      "pr_title": "bugfix/#6143",
+      "pr_author": "AKHILREDDY1636",
+      "pr_state": "open",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.92,
+          "reasoning": "Strongest KU skill overlap with **Input Validation**, **Defensive Programming**, and **Jest** (testing framework). Direct evidence from similar PRs (e.g., #6011) and explicit expertise in **Error Handling** and **Unit Testing** patterns. Mid-level experience with consistent review activity.",
+          "strengths_alignment": [
+            "Top KU Skills: Input Validation, Defensive Programming, Jest",
+            "KU Skill Matrix: Error Handling (Defensive Programming, Input Validation)",
+            "Similar Review Relevance: Approved PR #6011 (tests/unit test fixes)",
+            "Review Activity: 27 reviews, 25 PRs reviewed (consistent testing focus)"
+          ],
+          "review_experience": "Mid-level reviewer with 27 reviews, 25 PRs reviewed, and explicit expertise in **JavaScript testing (Jest-like)** and **input validation logic**—directly matching the PR requirements.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.85,
+          "reasoning": "Mid-level expertise with **Defensive Programming**, **Invalid Input Handling**, and **ES6+**—aligns with **input validation logic** and **consistency of comparison operations**. Reviewed similar testing PRs (#5554, #5614) with bugfix and test-focused feedback. Strong functional programming and error-handling background.",
+          "strengths_alignment": [
+            "Top KU Skills: Defensive Programming, Invalid Input Handling, Promises",
+            "KU Skill Matrix: Error Handling (Defensive Programming, Invalid Input Handling)",
+            "Similar Review Relevance: Reviewed PR #5554 (bugfix for invalid mutations) and #5614 (test additions)",
+            "Review Activity: 37 reviews, 21 PRs reviewed (high volume, testing focus)"
+          ],
+          "review_experience": "Mid-level reviewer with 37 reviews and 21 PRs, specializing in **JavaScript error handling, defensive programming, and testing**—directly relevant to the PR’s focus areas.",
+          "potential_concerns": "Less explicit testing framework expertise (e.g., Jest) than `anandfresh`"
+        },
+        {
+          "reviewer_name": "leonaves",
+          "match_score": 0.78,
+          "reasoning": "Strong **TypeScript and defensive programming** expertise with **runtime type validation**, aligning with **input validation logic**. No direct testing framework (e.g., Jest) evidence, but **Node.js utility development** and **Type Definitions** suggest strong validation skills. Lower review volume (2 reviews) but high relevance to input validation.",
+          "strengths_alignment": [
+            "Top KU Skills: Type Definitions, Type Inference, Defensive Programming",
+            "KU Skill Matrix: TypeScript (Type Definitions, Type Narrowing), Defensive Programming",
+            "Domain Alignment: Node.js utility development (input validation focus)",
+            "Review Activity: 2 reviews (limited but focused on type safety)"
+          ],
+          "review_experience": "Mid-level reviewer with 2 reviews, specializing in **TypeScript type safety and defensive programming**—directly relevant to input validation but lacks testing framework evidence.",
+          "potential_concerns": "No explicit testing framework (e.g., Jest) or comparison operation consistency evidence"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest KU skill overlap with **Input Validation**, **Defensive Programming**, and **Jest** (testing framework). Direct evidence from similar PRs (e.g., #6011) and explicit expertise in **Error Handling** and **Unit Testing** patterns. Mid-level experience with consistent review activity.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6227",
+      "reviewer_strengths": [
+        "Top KU Skills: Input Validation, Defensive Programming, Jest",
+        "KU Skill Matrix: Error Handling (Defensive Programming, Input Validation)",
+        "Similar Review Relevance: Approved PR #6011 (tests/unit test fixes)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Mid-level reviewer with 27 reviews, 25 PRs reviewed, and explicit expertise in **JavaScript testing (Jest-like)** and **input validation logic**—directly matching the PR requirements.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with **Input Validation**, **Defensive Programming**, and **Jest** (testing framework). Direct evidence from similar PRs (e.g., #6011) and explicit expertise in **Error Handling** and **Unit Testing** patterns. Mid-level experience with consistent review activity.",
+          "strengths_alignment": [
+            "Top KU Skills: Input Validation, Defensive Programming, Jest",
+            "KU Skill Matrix: Error Handling (Defensive Programming, Input Validation)",
+            "Similar Review Relevance: Approved PR #6011 (tests/unit test fixes)",
+            "Review Activity: 27 reviews, 25 PRs reviewed (consistent testing focus)"
+          ],
+          "review_experience_details": "Mid-level reviewer with 27 reviews, 25 PRs reviewed, and explicit expertise in **JavaScript testing (Jest-like)** and **input validation logic**—directly matching the PR requirements.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6238,
+      "pr_title": "[misc] refactor all object type checks in single file",
+      "pr_author": "qzoke",
+      "pr_state": "open",
+      "assigned_reviewer": "ichernev",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.92,
+          "reasoning": "Senior-level reviewer with deep Moment.js expertise, strong TypeScript/ES6+ skills, and proven track record in correctness-focused reviews (e.g., bugfixes, API design). Direct KU overlap with type-checking logic (via defensive programming, immutability, and Jest/Mocha testing).",
+          "strengths_alignment": [
+            "Senior-level JavaScript expertise with Moment.js (KU: Framework/Library Expertise)",
+            "Proven track record in correctness-focused reviews (e.g., PR #5568: type-checking bugfix)",
+            "Strong TypeScript/ES6+ skills (KU: Advanced JavaScript Concepts, Error Handling)",
+            "Experience with unit testing frameworks (Jest/Mocha) for type-checking validation"
+          ],
+          "review_experience": "16 reviews, 30 comments, 11 PRs reviewed; consistent technical depth in Moment.js correctness and API design.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.88,
+          "reasoning": "Mid-level reviewer with strong Moment.js expertise, defensive programming, and TypeScript skills. Demonstrated type-checking correctness in PR #5568 and defensive programming patterns (e.g., input validation).",
+          "strengths_alignment": [
+            "Mid-level JavaScript expertise with Moment.js (KU: Framework/Library Expertise)",
+            "Proven type-checking correctness in PR #5568 (bugfix for `weekYear` purity)",
+            "Strong defensive programming skills (KU: Error Handling, Invalid Input Handling)",
+            "Experience with TypeScript and ES6+ (Arrow Functions, Modules, Closures)"
+          ],
+          "review_experience": "37 reviews, 35 comments, 21 PRs reviewed; consistent technical depth in Moment.js correctness and defensive programming.",
+          "potential_concerns": "No direct evidence of edge-case testing for type-checking behavior beyond basic correctness."
+        },
+        {
+          "reviewer_name": "tomerle",
+          "match_score": 0.75,
+          "reasoning": "Mid-level reviewer with TypeScript and ES6+ expertise, strong focus on performance optimizations and type-checking correctness. Less direct Moment.js experience but strong KU overlap in type safety and defensive programming.",
+          "strengths_alignment": [
+            "Mid-level JavaScript expertise with TypeScript (KU: Type Definitions, Type Inference)",
+            "Strong TypeScript skills (KU: Type Definitions, Type Narrowing)",
+            "Experience with defensive programming and type-checking correctness (via TypeScript)",
+            "ES6+ JavaScript (getters/setters, switch-case optimizations) relevant to type-checking logic"
+          ],
+          "review_experience": "3 reviews, 3 comments, 1 PR reviewed; limited but high-quality technical feedback on type safety and performance.",
+          "potential_concerns": "Limited Moment.js-specific review activity (only 1 PR reviewed); less direct evidence of type-checking edge cases."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level reviewer with deep Moment.js expertise, strong TypeScript/ES6+ skills, and proven track record in correctness-focused reviews (e.g., bugfixes, API design). Direct KU overlap with type-checking logic (via defensive programming, immutability, and Jest/Mocha testing).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6238",
+      "reviewer_strengths": [
+        "Senior-level JavaScript expertise with Moment.js (KU: Framework/Library Expertise)",
+        "Proven track record in correctness-focused reviews (e.g., PR #5568: type-checking bugfix)",
+        "Strong TypeScript/ES6+ skills (KU: Advanced JavaScript Concepts, Error Handling)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "16 reviews, 30 comments, 11 PRs reviewed; consistent technical depth in Moment.js correctness and API design.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with deep Moment.js expertise, strong TypeScript/ES6+ skills, and proven track record in correctness-focused reviews (e.g., bugfixes, API design). Direct KU overlap with type-checking logic (via defensive programming, immutability, and Jest/Mocha testing).",
+          "strengths_alignment": [
+            "Senior-level JavaScript expertise with Moment.js (KU: Framework/Library Expertise)",
+            "Proven track record in correctness-focused reviews (e.g., PR #5568: type-checking bugfix)",
+            "Strong TypeScript/ES6+ skills (KU: Advanced JavaScript Concepts, Error Handling)",
+            "Experience with unit testing frameworks (Jest/Mocha) for type-checking validation"
+          ],
+          "review_experience_details": "16 reviews, 30 comments, 11 PRs reviewed; consistent technical depth in Moment.js correctness and API design.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6241,
+      "pr_title": "misc: add libraries link to readme",
+      "pr_author": "cwtuan",
+      "pr_state": "closed",
+      "assigned_reviewer": null,
+      "top_3_reviewers": [],
+      "match_score": 0.0,
+      "assignment_reasoning": "No suitable reviewer found",
+      "assignment_confidence": "Low",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6241",
+      "reviewer_strengths": [],
+      "potential_concerns": "No reviewer could be matched to this PR",
+      "review_experience": "N/A",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "No suitable reviewer found",
+          "strengths_alignment": [],
+          "review_experience_details": "N/A",
+          "potential_limitations": "No reviewer could be matched to this PR"
+        }
+      }
+    },
+    {
+      "pr_number": 6249,
+      "pr_title": "[locale] Italian capitalization",
+      "pr_author": "ZeroKun265",
+      "pr_state": "closed",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.92,
+          "reasoning": "Strongest KU skill overlap with 'Internationalization (i18n) systems' and 'Locale-specific JavaScript fixes' in primary skills, plus direct evidence of locale bugfix reviews (e.g., PR #5987). Mid-level expertise with 27 reviews and defensive programming focus aligns well with 'capitalization rules' and 'locale consistency'.",
+          "strengths_alignment": [
+            "Primary skills explicitly include 'Internationalization (i18n) systems' and 'Locale-specific JavaScript fixes'",
+            "KU matrix confirms 'Framework/Library Expertise: Moment.js' and 'Error Handling: Defensive Programming'",
+            "Similar review evidence: PR #5987 (locale edge-case bugfix) matches 'undefined-locale-name' focus"
+          ],
+          "review_experience": "27 reviews, 25 PRs reviewed; 2 comments; mid-level expertise with defensive programming and TypeScript exposure.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.85,
+          "reasoning": "Mid-level expertise with 'Locale Customization & Internationalization' in primary skills and 'Moment.js' KU overlap. Strong review activity (37 reviews, 35 comments) and defensive programming focus aligns with 'capitalization rules' and 'locale consistency'.",
+          "strengths_alignment": [
+            "Primary skills include 'Locale Customization & Internationalization' and 'Moment.js'",
+            "KU matrix confirms 'Framework/Library Expertise: Moment.js' and 'Error Handling: Defensive programming'",
+            "Review activity: 37 reviews, 35 comments (high consistency)"
+          ],
+          "review_experience": "37 reviews, 21 PRs reviewed; 35 comments; mid-level expertise with defensive programming and TypeScript exposure.",
+          "potential_concerns": "No direct evidence of 'capitalization rules' focus, but strong i18n expertise compensates."
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.78,
+          "reasoning": "Limited but focused expertise in 'Internationalization (i18n) in JavaScript' and 'Locale-specific formatting' (Czech inflections). KU matrix confirms 'Moment.js' overlap, but lower review activity (4 reviews, 5 comments) and junior level.",
+          "strengths_alignment": [
+            "Primary skills: 'Internationalization (i18n) in JavaScript, Locale-specific formatting (Czech inflections)'",
+            "KU matrix: 'Framework/Library Expertise: Moment.js'",
+            "Reviewed Czech locale PRs (direct evidence of locale consistency)"
+          ],
+          "review_experience": "4 reviews, 2 PRs reviewed; 5 comments; junior-level expertise with focused i18n contributions.",
+          "potential_concerns": "Low review activity (4 reviews total) and junior level may limit depth for 'capitalization rules'."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest KU skill overlap with 'Internationalization (i18n) systems' and 'Locale-specific JavaScript fixes' in primary skills, plus direct evidence of locale bugfix reviews (e.g., PR #5987). Mid-level expertise with 27 reviews and defensive programming focus aligns well with 'capitalization rules' and 'locale consistency'.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6249",
+      "reviewer_strengths": [
+        "Primary skills explicitly include 'Internationalization (i18n) systems' and 'Locale-specific JavaScript fixes'",
+        "KU matrix confirms 'Framework/Library Expertise: Moment.js' and 'Error Handling: Defensive Programming'",
+        "Similar review evidence: PR #5987 (locale edge-case bugfix) matches 'undefined-locale-name' focus"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "27 reviews, 25 PRs reviewed; 2 comments; mid-level expertise with defensive programming and TypeScript exposure.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "locale"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with 'Internationalization (i18n) systems' and 'Locale-specific JavaScript fixes' in primary skills, plus direct evidence of locale bugfix reviews (e.g., PR #5987). Mid-level expertise with 27 reviews and defensive programming focus aligns well with 'capitalization rules' and 'locale consistency'.",
+          "strengths_alignment": [
+            "Primary skills explicitly include 'Internationalization (i18n) systems' and 'Locale-specific JavaScript fixes'",
+            "KU matrix confirms 'Framework/Library Expertise: Moment.js' and 'Error Handling: Defensive Programming'",
+            "Similar review evidence: PR #5987 (locale edge-case bugfix) matches 'undefined-locale-name' focus"
+          ],
+          "review_experience_details": "27 reviews, 25 PRs reviewed; 2 comments; mid-level expertise with defensive programming and TypeScript exposure.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6257,
+      "pr_title": "duration function changed",
+      "pr_author": "skjha80195",
+      "pr_state": "open",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.85,
+          "reasoning": "Strongest KU skill overlap with Moment.js and defensive programming, combined with mid-level expertise and consistent review activity. Demonstrated alignment with code quality reviews in similar PRs (locale updates).",
+          "strengths_alignment": [
+            "Mid-level Moment.js expertise with defensive programming focus",
+            "Consistent review activity (37 reviews, 35 comments)",
+            "Experience with similar locale/translation PRs (e.g., Vietnamese short months)"
+          ],
+          "review_experience": "Mid-level reviewer with 21 PRs reviewed, 35 comments, and expertise in Moment.js, TypeScript, and defensive programming. Evidence of technical depth in code quality reviews.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.78,
+          "reasoning": "Mid-level expertise in Moment.js with API design and legacy JavaScript patterns, though less review activity than marwahaha. Strong KU overlap but fewer similar-review matches.",
+          "strengths_alignment": [
+            "Mid-level Moment.js expertise with API versioning and breaking changes",
+            "KU Skill Matrix includes RESTful APIs and SemVer",
+            "Experience with legacy JavaScript patterns (prototypes, immutability)"
+          ],
+          "review_experience": "Mid-level reviewer with 2 PRs reviewed, 7 comments, and expertise in Moment.js, API design, and legacy JavaScript. Evidence of technical depth but lower review volume.",
+          "potential_concerns": "Limited review activity (7 comments total) compared to marwahaha"
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.72,
+          "reasoning": "Mid-level reviewer with strong Moment.js and TypeScript expertise, but limited evidence of code quality review focus in similar PRs. High KU overlap but weaker review activity consistency.",
+          "strengths_alignment": [
+            "Mid-level Moment.js expertise with TypeScript and defensive programming",
+            "KU Skill Matrix includes Jest, Type Definitions, and Input Validation",
+            "Experience with unit testing and error handling"
+          ],
+          "review_experience": "Mid-level reviewer with 25 PRs reviewed, 2 comments, and expertise in Moment.js, TypeScript, and defensive programming. Evidence of technical depth but sparse comments (2 total).",
+          "potential_concerns": "Only 2 comments across 25 PRs (low engagement)"
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Strongest KU skill overlap with Moment.js and defensive programming, combined with mid-level expertise and consistent review activity. Demonstrated alignment with code quality reviews in similar PRs (locale updates).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6257",
+      "reviewer_strengths": [
+        "Mid-level Moment.js expertise with defensive programming focus",
+        "Consistent review activity (37 reviews, 35 comments)",
+        "Experience with similar locale/translation PRs (e.g., Vietnamese short months)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Mid-level reviewer with 21 PRs reviewed, 35 comments, and expertise in Moment.js, TypeScript, and defensive programming. Evidence of technical depth in code quality reviews.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with Moment.js and defensive programming, combined with mid-level expertise and consistent review activity. Demonstrated alignment with code quality reviews in similar PRs (locale updates).",
+          "strengths_alignment": [
+            "Mid-level Moment.js expertise with defensive programming focus",
+            "Consistent review activity (37 reviews, 35 comments)",
+            "Experience with similar locale/translation PRs (e.g., Vietnamese short months)"
+          ],
+          "review_experience_details": "Mid-level reviewer with 21 PRs reviewed, 35 comments, and expertise in Moment.js, TypeScript, and defensive programming. Evidence of technical depth in code quality reviews.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6258,
+      "pr_title": "[locale] fix apostrophe typo for ukrainian",
+      "pr_author": "prasanna4567",
+      "pr_state": "open",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.92,
+          "reasoning": "Strong KU skill overlap with Moment.js and i18n expertise; direct evidence of locale-related bugfix reviews (e.g., undefined-locale-name edge cases). Mid-level experience with defensive programming and input validation aligns with code quality focus.",
+          "strengths_alignment": [
+            "Top KU Skills: Moment.js, TypeScript, Defensive Programming, Input Validation",
+            "Primary Skills: TypeScript, Moment.js (Date/Time Localization), Internationalization (i18n)",
+            "Reviewed similar PR #5987 (undefined-locale-name bugfix) with technical depth"
+          ],
+          "review_experience": "27 reviews, 25 PRs reviewed; consistent technical feedback (2 comments across 27 reviews).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.88,
+          "reasoning": "Senior-level expertise in Moment.js and locale handling; reviewed new locale PRs (e.g., Kongo locale) with technical rigor. Strong KU overlap but lacks direct evidence of typo correction focus.",
+          "strengths_alignment": [
+            "Top KU Skills: Moment.js, Jest, RESTful APIs, ES6+ (Modules, Classes, Destructuring)",
+            "Primary Skills: Moment.js (date/time library development), Internationalization (i18n)",
+            "Reviewed similar PR #5251 (new locale addition) with technical validation"
+          ],
+          "review_experience": "16 reviews, 11 PRs reviewed; high comment density (30 comments).",
+          "potential_concerns": "No direct evidence of apostrophe typo correction in Ukrainian locale data."
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.78,
+          "reasoning": "Focused on i18n and locale-specific formatting (Czech inflections) with limited but relevant Moment.js expertise. No direct evidence of typo correction but strong alignment with locale expertise.",
+          "strengths_alignment": [
+            "Primary Skills: Internationalization (i18n) in JavaScript, Locale-specific formatting (Czech inflections)",
+            "KU Skill Matrix: Framework/Library Expertise (Moment.js)"
+          ],
+          "review_experience": "4 reviews, 5 comments; limited but focused on locale enhancements.",
+          "potential_concerns": "Low review volume (4 total reviews) and no direct evidence of typo correction."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strong KU skill overlap with Moment.js and i18n expertise; direct evidence of locale-related bugfix reviews (e.g., undefined-locale-name edge cases). Mid-level experience with defensive programming and input validation aligns with code quality focus.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6258",
+      "reviewer_strengths": [
+        "Top KU Skills: Moment.js, TypeScript, Defensive Programming, Input Validation",
+        "Primary Skills: TypeScript, Moment.js (Date/Time Localization), Internationalization (i18n)",
+        "Reviewed similar PR #5987 (undefined-locale-name bugfix) with technical depth"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "27 reviews, 25 PRs reviewed; consistent technical feedback (2 comments across 27 reviews).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "locale"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strong KU skill overlap with Moment.js and i18n expertise; direct evidence of locale-related bugfix reviews (e.g., undefined-locale-name edge cases). Mid-level experience with defensive programming and input validation aligns with code quality focus.",
+          "strengths_alignment": [
+            "Top KU Skills: Moment.js, TypeScript, Defensive Programming, Input Validation",
+            "Primary Skills: TypeScript, Moment.js (Date/Time Localization), Internationalization (i18n)",
+            "Reviewed similar PR #5987 (undefined-locale-name bugfix) with technical depth"
+          ],
+          "review_experience_details": "27 reviews, 25 PRs reviewed; consistent technical feedback (2 comments across 27 reviews).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6293,
+      "pr_title": "[misc] update readme, remove broken badges",
+      "pr_author": "Electroid",
+      "pr_state": "open",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Mid-level reviewer with deep expertise in documentation-focused PRs (similar to PR #4766) and strong KU overlap for documentation/readme content accuracy. Demonstrated review activity consistency with 37 reviews and 35 comments, including changes requested and approvals for locale-related PRs.",
+          "strengths_alignment": [
+            "Mid-level expertise with 37 reviews/35 comments (high activity consistency)",
+            "KU Skill Matrix includes **Documentation** (implied via PR #6086 similarity) and **Internationalization** (relevant to README content accuracy)",
+            "Reviewed similar PRs (#4766) with **CHANGES_REQUESTED** and **APPROVED** states, showing documentation review rigor",
+            "Primary skills include **Locale Customization & Internationalization** (directly relevant to maintenance mode emphasis and broken badge removal)"
+          ],
+          "review_experience": "37 total reviews, 35 comments, 21 PRs reviewed. Strong pattern of substantive feedback in locale/readme-related PRs (e.g., #4766).",
+          "potential_concerns": "No explicit documentation-focused KU skills listed, but inferred from similar PR patterns (e.g., #6086)."
+        },
+        {
+          "reviewer_name": "socketpair",
+          "match_score": 0.88,
+          "reasoning": "Mid-level reviewer with strong documentation/review activity (similar to PR #5788) and KU overlap for internationalization/localization. Demonstrated review consistency with 5 reviews/7 comments, including substantive comments on locale PRs.",
+          "strengths_alignment": [
+            "Mid-level expertise with 5 reviews/7 comments (consistent activity)",
+            "KU Skill Matrix includes **Internationalization (i18n) libraries** (directly relevant to README content accuracy and maintenance mode)",
+            "Reviewed similar PRs (#5788) with **COMMENTED** states, showing engagement with documentation-like changes",
+            "Primary skills include **Frontend JavaScript (React/Vue likely)** and **Date/time formatting/localization** (relevant to broken badge removal)"
+          ],
+          "review_experience": "5 total reviews, 7 comments, 3 PRs reviewed. Focused on locale/translation PRs with substantive comments.",
+          "potential_concerns": "No explicit documentation KU skills listed, but inferred from similar PR patterns (e.g., #5788)."
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with strong KU overlap for documentation (implied via PR #6086) and internationalization. Demonstrated review consistency with 27 reviews/2 comments, but limited comments suggest lower engagement depth than top choices.",
+          "strengths_alignment": [
+            "Mid-level expertise with 27 reviews/2 comments (high volume but sparse comments)",
+            "KU Skill Matrix includes **Moment.js** and **TypeScript** (implied documentation relevance via PR #6086)",
+            "Reviewed similar PR #6086 (documentation update) with **APPROVED** state",
+            "Primary skills include **Defensive Programming & Error Handling** (indirectly supports broken badge removal context)"
+          ],
+          "review_experience": "27 total reviews, 2 comments, 25 PRs reviewed. High volume but low comment density (potential concern).",
+          "potential_concerns": "Only 2 comments across 27 reviews (low engagement depth); no explicit documentation KU skills listed."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Mid-level reviewer with deep expertise in documentation-focused PRs (similar to PR #4766) and strong KU overlap for documentation/readme content accuracy. Demonstrated review activity consistency with 37 reviews and 35 comments, including changes requested and approvals for locale-related PRs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6293",
+      "reviewer_strengths": [
+        "Mid-level expertise with 37 reviews/35 comments (high activity consistency)",
+        "KU Skill Matrix includes **Documentation** (implied via PR #6086 similarity) and **Internationalization** (relevant to README content accuracy)",
+        "Reviewed similar PRs (#4766) with **CHANGES_REQUESTED** and **APPROVED** states, showing documentation review rigor"
+      ],
+      "potential_concerns": "No explicit documentation-focused KU skills listed, but inferred from similar PR patterns (e.g., #6086).",
+      "review_experience": "37 total reviews, 35 comments, 21 PRs reviewed. Strong pattern of substantive feedback in locale/readme-related PRs (e.g., #4766).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Mid-level reviewer with deep expertise in documentation-focused PRs (similar to PR #4766) and strong KU overlap for documentation/readme content accuracy. Demonstrated review activity consistency with 37 reviews and 35 comments, including changes requested and approvals for locale-related PRs.",
+          "strengths_alignment": [
+            "Mid-level expertise with 37 reviews/35 comments (high activity consistency)",
+            "KU Skill Matrix includes **Documentation** (implied via PR #6086 similarity) and **Internationalization** (relevant to README content accuracy)",
+            "Reviewed similar PRs (#4766) with **CHANGES_REQUESTED** and **APPROVED** states, showing documentation review rigor",
+            "Primary skills include **Locale Customization & Internationalization** (directly relevant to maintenance mode emphasis and broken badge removal)"
+          ],
+          "review_experience_details": "37 total reviews, 35 comments, 21 PRs reviewed. Strong pattern of substantive feedback in locale/readme-related PRs (e.g., #4766).",
+          "potential_limitations": "No explicit documentation-focused KU skills listed, but inferred from similar PR patterns (e.g., #6086)."
+        }
+      }
+    }
+  ],
+  "summary": {
+    "successful_assignments": 23,
+    "failed_assignments": 3,
+    "success_rate": 88.5,
+    "reviewer_workload_distribution": {
+      "marwahaha": 14,
+      "anandfresh": 8,
+      "ichernev": 1
+    },
+    "most_assigned_reviewer": "marwahaha",
+    "average_match_score": 0.9
+  }
+}

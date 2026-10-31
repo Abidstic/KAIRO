@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "developer_name": "eternityduck",
+    "generation_timestamp": "2026-09-18T02:29:35.847667",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "eternityduck",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Core JavaScript optimizations",
+      "Object property manipulation",
+      "Axios internals",
+      "ES5/ES2022 compatibility",
+      "Performance-focused refactoring"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES2022)"
+    ],
+    "summary": "eternityduck is a mid-level JavaScript developer with a strong focus on performance optimization and core JavaScript utilities. Their contributions to Axios demonstrate deep expertise in object property access patterns, micro-optimizations, and maintaining backward compatibility. The developer specializes in refining utility functions like `findKey` for efficiency while ensuring compatibility across JavaScript versions. Their work is primarily centered on improving runtime performance rather than framework-specific development or full-stack systems.",
+    "identified_skills": {
+      "Core JavaScript": [
+        "Object property access",
+        "Own property checking (hasOwnProperty/Object.hasOwn)",
+        "Utility function development",
+        "Performance optimization"
+      ],
+      "JavaScript Version Awareness": [
+        "ES5 compatibility",
+        "ES2022 features (Object.hasOwn)"
+      ],
+      "Library Contributions": [
+        "Axios internals",
+        "Configuration/object manipulation"
+      ],
+      "Code Quality": [
+        "Refactoring",
+        "Prototype chain avoidance"
+      ],
+      "Testing & Validation": [],
+      "Asynchronous Programming": [],
+      "Backend Frameworks": [],
+      "Frontend Frameworks": [],
+      "Build Tools & Bundlers": [],
+      "Type Systems": [],
+      "Testing Frameworks": [],
+      "Package Management": []
+    },
+    "skill_evidence": [
+      "Replaced `in` operator with `Object.hasOwn()` to avoid prototype chain checks in `findKey` (PR 2)",
+      "Suggested using `hasOwnProperty` for safer key validation in object utilities (PR 3)",
+      "Explicitly noted performance improvements for `findKey` function in all PRs",
+      "Mentioned compatibility considerations between ES5 (`hasOwnProperty`) and ES2022 (`Object.hasOwn`)",
+      "Focused PRs solely on improving a single utility function (`findKey`) in Axios",
+      "All contributions demonstrate deep understanding of object property traversal patterns",
+      "Optimizations targeted micro-performance gains rather than architectural changes"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

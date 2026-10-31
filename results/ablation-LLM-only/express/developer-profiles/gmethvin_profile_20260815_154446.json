@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "gmethvin",
+    "generation_timestamp": "2026-08-15T15:41:12.908745",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 7,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 7
+  },
+  "profile": {
+    "developer_name": "gmethvin",
+    "raw_response": "```json\n{\n  \"developer_name\": \"gmethvin\",\n  \"experience_level\": \"Mid-Level\",\n  \"primary_skills\": [\n    \"Express.js Backend Development\",\n    \"HTTP Protocol & Security\",\n    \"JavaScript Core (Strings, Objects, Edge Cases)\",\n    \"API Design & Extensibility\",\n    \"Defensive Programming & Security Fixes\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES5/ES6)\",\n    \"TypeScript (inferred from Express.js ecosystem familiarity)\"\n  ],\n  \"summary\": \"gmethvin is a **Mid-Level JavaScript developer** specializing in **Express.js backend development**, with a strong focus on **HTTP protocol nuances, security hardening, and API extensibility**. Their contributions demonstrate **deep expertise in handling edge cases** (e.g., subdomains, headers, authentication) and **defensive programming practices** to prevent vulnerabilities. The developer’s work is **precise, security-conscious, and centered on improving Express’s robustness** for real-world applications. While primarily backend-focused, their **JavaScript fundamentals** (string manipulation, object mutation safety, and type coercion) are applied rigorously in a Node.js context.\",\n  \"identified_skills\": {\n    \"Backend Frameworks\": [\"Express.js\"],\n    \"HTTP & Web Protocols\": [\"HTTP Basic Auth (RFC2617)\", \"Content-Type sniffing\", \"Subdomain parsing\", \"Virtual hosting\", \"Content negotiation (Accept headers)\"],\n    \"Security\": [\"XSS prevention (Content-Type handling)\", \"Defensive programming (object cloning)\", \"Auth credential parsing\"],\n    \"JavaScript Core\": [\"String encoding (encodeURIComponent)\", \"Object mutation safety\", \"Type coercion\", \"Edge-case handling\"],\n    \"API Design\": [\"Configurable subdomain offset\", \"Header value arrays\", \"Request parsing improvements\"],\n    \"Testing & QA\": [\"Test-driven mindset (explicit test mention)\"],\n    \"Node.js Ecosystem\": [\"Middleware pattern\", \"Cookie serialization\", \"Response handling\"],\n    \"Web Server Configuration\": [\"localhost-specific fixes\", \"vhost middleware\"]\n  },\n  \"skill_evidence\": [\n    \"PR 1: 'Escape URLs in text/plain res.redirect response' → Demonstrates **Content-Type sniffing security fix** and **URL encoding** (XSS prevention).\",\n    \"PR 2: 'Don’t mangle the options object in res.cookie' → Shows **defensive programming** (object cloning) and **cookie serialization safety**.\",\n    \"PR 3: 'Make vhost example work on localhost' → Involves **subdomain parsing** and **virtual hosting** for Express middleware.\",\n    \"PR 4: 'Allow colons in passwords for req.auth' → Corrects **HTTP Basic Auth parsing** (RFC2617 compliance).\",\n    \"PR 5: 'Allow setting an array of header values in the response' → Extends **header handling** for modern APIs (e.g., multiple Set-Cookie values).\",\n    \"PR 5: 'Add subdomain offset setting' → Improves **subdomain parsing flexibility** for multi-domain setups (e.g., example.co.uk).\",\n    \"PR 6: 'Make req.accepts take an argument list' → Enhances **content negotiation** (Accept headers) for API design.\",\n    \"PR 2 description: 'add a test to verify that the options object does not change' → Evidence of **test-driven mindset** and **QA awareness**.\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 35 column 3 (char 3115)"
+  },
+  "statistics": {
+    "total_prs": 7,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

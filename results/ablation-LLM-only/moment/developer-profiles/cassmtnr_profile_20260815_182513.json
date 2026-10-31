@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "developer_name": "cassmtnr",
+    "generation_timestamp": "2026-08-15T18:10:30.839076",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "cassmtnr",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Internationalization (i18n) for Portuguese-Brazilian (pt-br)",
+      "Moment.js locale management",
+      "Jest-based testing for localized content",
+      "JavaScript object/array manipulation for locale data",
+      "Cultural/linguistic localization rules in software"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)"
+    ],
+    "summary": "cassmtnr demonstrates a specialized focus on internationalization (i18n) within the JavaScript ecosystem, with deep expertise in Portuguese-Brazilian locale handling for Moment.js. Their contributions are narrowly concentrated on refining locale-specific capitalization rules, updating test suites, and maintaining cultural accuracy in localized date/time formatting. While their JavaScript skills are highly targeted—primarily involving object/array manipulation for locale data and Jest-based testing—they lack evidence of broader JavaScript framework or modern tooling experience. This profile suggests a role as a localization engineer or i18n specialist rather than a generalist JavaScript developer.",
+    "identified_skills": {
+      "Internationalization & Localization": [
+        "Portuguese-Brazilian (pt-br) locale capitalization",
+        "Locale-specific date/time formatting",
+        "Cultural localization rules in software",
+        "Test-driven localization adjustments"
+      ],
+      "JavaScript Core": [
+        "Object/array manipulation for locale data",
+        "String manipulation (capitalization logic)",
+        "JSON/YAML-based configuration editing"
+      ],
+      "Testing": [
+        "Jest test suite updates for pt-br locales",
+        "Locale-specific test coverage"
+      ],
+      "Libraries & Frameworks": [
+        "Moment.js locale internals",
+        "Moment.js testing patterns"
+      ],
+      "Collaboration & Process": [
+        "PR-focused localization contributions"
+      ]
+    },
+    "skill_evidence": [
+      "PR titles explicitly mention 'Capitalization of pt-br locale' and 'Updated pt-br tests'",
+      "All PRs involve Portuguese-Brazilian (pt-br) locale adjustments with no other language/localization work",
+      "PR descriptions reference 'month names capitalization' and 'shortnames pt-br' in Moment.js context",
+      "No evidence of frontend frameworks, backend systems, or modern JS features (e.g., async/await, classes) in PRs",
+      "PRs show `files_changed: 0` but likely involved locale metadata files (e.g., JSON/YAML) for pt-br",
+      "Test updates imply familiarity with Jest assertions for localized content validation",
+      "Contributions are repetitive and focused solely on pt-br capitalization rules in Moment.js",
+      "No collaboration labels (e.g., 'good first issue') or discussions in PRs, suggesting niche expertise"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

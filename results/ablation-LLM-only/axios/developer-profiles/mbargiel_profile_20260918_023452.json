@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "developer_name": "mbargiel",
+    "generation_timestamp": "2026-09-18T02:27:35.432348",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "mbargiel",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js HTTP client development",
+      "HTTP networking debugging",
+      "Test debugging and regression resolution",
+      "Environment variable integration in HTTP clients"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "mbargiel is a mid-level JavaScript developer with specialized expertise in Node.js HTTP client libraries, particularly axios. Their contributions focus on debugging HTTP-related test failures, proxy configurations, and redirect handling. The developer demonstrates strong skills in environment-based proxy resolution, test flakiness resolution, and regression debugging within HTTP networking contexts. While primarily backend-focused, their contributions are confined to testing and debugging rather than core application logic or frontend development.",
+    "identified_skills": {
+      "HTTP Client Development": [
+        "axios internals",
+        "HTTP request lifecycle",
+        "Proxy configuration"
+      ],
+      "Testing & Debugging": [
+        "Test flakiness resolution",
+        "Regression debugging",
+        "Hanging test fixes",
+        "Assertion failure handling"
+      ],
+      "Environment Integration": [
+        "Environment variable proxy resolution",
+        "Process.env usage"
+      ],
+      "Networking": [
+        "HTTP redirects",
+        "Proxy middleware",
+        "Network request debugging"
+      ],
+      "Node.js Ecosystem": [
+        "Node.js HTTP client libraries"
+      ],
+      "Code Quality": [
+        "Test suite maintenance"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'Fixing http tests to avoid hanging when assertions fail' indicates debugging test flakiness and assertion failures in HTTP-related tests",
+      "PR title 'Resolving proxy from env on redirect' shows environment variable integration for proxy configuration in HTTP requests",
+      "PR title 'Fixing proxy beforeRedirect regression' demonstrates debugging proxy-related logic and regression testing in HTTP client internals",
+      "All PRs involve axios repository, confirming specialization in Node.js HTTP client development",
+      "No evidence of frontend frameworks or advanced JavaScript features, reinforcing backend-focused expertise",
+      "PRs focus exclusively on test fixes and debugging, with no new feature implementations",
+      "Environment-based proxy resolution suggests familiarity with process.env or similar Node.js environment variable patterns",
+      "HTTP redirect and proxy handling indicates deep knowledge of HTTP/1.1 networking protocols"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

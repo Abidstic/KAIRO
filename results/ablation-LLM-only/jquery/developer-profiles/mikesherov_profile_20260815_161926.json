@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "mikesherov",
+    "generation_timestamp": "2026-08-15T16:06:56.107902",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 87,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "mikesherov",
+    "raw_response": "```json\n{\n  \"developer_name\": \"mikesherov\",\n  \"experience_level\": \"Senior\",\n  \"primary_skills\": [\n    \"DOM measurement and layout calculations\",\n    \"jQuery core DOM manipulation\",\n    \"CSS box model and dimension handling\",\n    \"Browser compatibility fixes (IE<9, Opera)\",\n    \"Unit testing with QUnit\",\n    \"Performance optimization in JavaScript\",\n    \"Edge-case debugging for hidden elements\",\n    \"Legacy JavaScript and jQuery internals\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES5)\",\n    \"jQuery\"\n  ],\n  \"summary\": \"mikesherov is a senior JavaScript developer with deep expertise in jQuery core DOM manipulation, particularly focused on dimension calculations, CSS box model interactions, and browser compatibility fixes. Their contributions demonstrate advanced debugging skills for edge cases (e.g., hidden elements, disconnected nodes) and a strong emphasis on performance optimization. The developer shows mastery of jQuery internals, QUnit testing, and legacy browser quirks, with a commitment to code quality and minimal invasive changes. Their work is specialized in ensuring accurate DOM measurements across browsers, making them a key contributor to jQuery's layout and dimension APIs.\",\n  \"identified_skills\": {\n    \"DOM Measurement & Layout\": [\n      \"outerWidth() and innerWidth() calculations\",\n      \"offsetWidth/offsetHeight handling\",\n      \"box-sizing:border-box compatibility\",\n      \"hidden element dimension resolution\",\n      \"disconnected node state awareness\"\n    ],\n    \"Browser Compatibility\": [\n      \"IE<9 currentStyle fallbacks\",\n      \"Opera disconnected node behavior\",\n      \"legacy jQuery API support\",\n      \"CSS url() string handling in tests\"\n    ],\n    \"Testing & Debugging\": [\n      \"QUnit unit test maintenance\",\n      \"edge-case test coverage\",\n      \"deprecated QUnit function removal\",\n      \"performance benchmarking (jsperf.com)\"\n    ],\n    \"Performance Optimization\": [\n      \"for loop vs. jQuery.each optimizations\",\n      \"fallback avoidance in dimension APIs\",\n      \"minimal invasive performance fixes\"\n    ],\n    \"CSS & Layout Engineering\": [\n      \"box-sizing interactions with margins/padding\",\n      \"display:none and visibility:hidden handling\",\n      \"nested hidden element dimension fixes\",\n      \"runtimeStyle and computed values\"\n    ],\n    \"Code Quality Practices\": [\n      \"JSLint compliance\",\n      \"DRY principle considerations\",\n      \"clear commit message discipline\",\n      \"minimal invasive changes\"\n    ],\n    \"Tooling & Workflow\": [\n      \"QUnit testing framework\",\n      \"JSLint/JSHint usage\",\n      \"performance testing (jsperf.com)\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"\\\"Fixes #9300 OUTERWIDTH(TRUE) ISSUE\\\" - outerWidth() and innerWidth() edge-case fixes for hidden parents and box-sizing:border-box (PR #9300)\",\n    \"\\\"don’t unnecessarily fallback from offsetWidth/offsetHeight\\\" - performance optimization for dimension APIs (PR #9598)\",\n    \"\\\"disconnected nodes don’t have currentStyle in IE<9!\\\" - IE<9 compatibility fix for disconnected nodes (PR #10254)\",\n    \"\\\"remove all instances of equals() and same() in unit tests\\\" - QUnit deprecation awareness and test maintenance (PR #10691)\",\n    \"\\\"I tried to stay mindful of correct styling, commit messages, and of JSLint\\\" - code quality discipline (PR #9300)\",\n    \"\\\"perf results are here: http://jsperf.com/each-vs-for-loop-in-css-js\\\" - performance benchmarking with jsperf.com (PR #9233)\",\n    \"\\\"make sure box-sizing:border-box children of a hidden div report inner/outer/Width()/Height() correctly\\\" - nested hidden element dimension fixes (PR #10413)\",\n    \"\\\"in Opera, currentStyle works for disconnected nodes, and uses computed values\\\" - Opera-specific behavior handling (PR #8388)\"\n  ]\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 68 column 43 (char 3342)"
+  },
+  "statistics": {
+    "total_prs": 87,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

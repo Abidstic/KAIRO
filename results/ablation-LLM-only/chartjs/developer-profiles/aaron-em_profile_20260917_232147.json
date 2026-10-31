@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "developer_name": "aaron-em",
+    "generation_timestamp": "2026-09-17T23:06:03.772983",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "aaron-em",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js internals",
+      "Radar chart visualization",
+      "JavaScript configuration systems",
+      "Open-source contribution",
+      "Feature enhancement design"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "aaron-em is a specialized JavaScript developer with demonstrated expertise in charting library development, particularly within Chart.js. Their contributions focus on enhancing visualization features (e.g., radar charts and scale configurations) while maintaining backward compatibility. The developer shows strong skills in iterative feature design, issue triage, and documentation improvement, indicating a mid-level proficiency in JavaScript/TypeScript with a deep focus on frontend visualization libraries. While contributions are currently limited to Chart.js, their work suggests familiarity with modular JavaScript design and configuration systems, likely leveraging TypeScript given the library's ecosystem.",
+    "identified_skills": {
+      "Charting Library Development": [
+        "Radar chart implementation",
+        "Scale configuration options",
+        "Feature completeness documentation"
+      ],
+      "JavaScript Configuration Systems": [
+        "Option-based API design",
+        "Backward-compatible enhancements",
+        "Configuration object patterns"
+      ],
+      "Open-Source Contribution": [
+        "Issue triage and refinement",
+        "Documentation improvements",
+        "Iterative feature proposals"
+      ],
+      "TypeScript (Inferred)": [
+        "Type-safe configuration options"
+      ],
+      "Modular JavaScript": [
+        "Feature encapsulation",
+        "Non-breaking API extensions"
+      ],
+      "Community Engagement": [
+        "Contributor onboarding",
+        "Project state clarification"
+      ]
+    },
+    "skill_evidence": [
+      "PRs explicitly reference radar chart features ('angleLineInterval', 'scaleShowXTicks') indicating deep knowledge of Chart.js internals",
+      "Multiple sequential PRs (#2058 follow-ups) show iterative refinement of a single feature, demonstrating iterative development and collaboration",
+      "PR #2 ('Mention that 1.x is feature-complete') improves documentation and contributor onboarding without code changes",
+      "PR titles/descriptions focus on configuration options ('Add angleLineInterval option'), proving expertise in JavaScript configuration systems",
+      "No direct code changes in some PRs (#2) suggest strong issue triage and documentation skills",
+      "Feature enhancements are labeled 'type: enhancement', showing awareness of backward compatibility in JavaScript library development",
+      "Context implies TypeScript usage (Chart.js is TypeScript-first) for new option implementations",
+      "Contributions are focused on frontend visualization, with no backend or testing framework evidence"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

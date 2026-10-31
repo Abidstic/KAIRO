@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "davidfou",
+    "generation_timestamp": "2026-09-18T02:20:04.174961",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "davidfou",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios configuration & extensibility",
+      "URL parameter serialization",
+      "HTTP client customization",
+      "Dependency management",
+      "Cross-browser/server URL encoding compatibility"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (implied by Axios ecosystem)"
+    ],
+    "summary": "davidfou demonstrates a strong mid-level JavaScript expertise with a focus on HTTP client customization, particularly through Axios. Their contributions show deep technical understanding of URL parameter serialization, cross-browser/server compatibility, and dependency management. While primarily evidenced in Axios-related PRs, their skills are highly relevant to both frontend and backend JavaScript development. The developer exhibits problem-solving abilities for real-world edge cases and collaborates effectively through clear PR documentation.",
+    "identified_skills": {
+      "HTTP Clients & Networking": [
+        "Axios configuration",
+        "URL parameter serialization",
+        "paramsSerializer customization",
+        "cross-browser URL encoding compatibility"
+      ],
+      "JavaScript Core": [
+        "object serialization",
+        "URL encoding (encodeURIComponent)",
+        "deep object parameter handling"
+      ],
+      "Dependency Management": [
+        "npm/yarn/pnpm dependency updates",
+        "version conflict resolution",
+        "CI/CD test failures"
+      ],
+      "Testing & Debugging": [
+        "CI/CD pipeline debugging",
+        "test task execution"
+      ],
+      "Code Extensibility": [
+        "third-party library integration",
+        "customizable request configuration"
+      ],
+      "Technical Communication": [
+        "PR description clarity",
+        "issue reference linking",
+        "collaborative code review"
+      ],
+      "Backend/Node.js (Inferred)": [],
+      "Frontend Frameworks (Inferred)": []
+    },
+    "skill_evidence": [
+      "PR 2: 'Fixing encoding object params and adding support of deep object params' — demonstrates object serialization and URL encoding for nested objects",
+      "PR 3: 'Add support third-party library to serialize url params' — shows customizable paramsSerializer implementation for Axios",
+      "PR 3: 'Because servers don't parse url params the same way' — highlights cross-browser/server compatibility awareness",
+      "PR 1: 'Fixing dependencies version' — indicates dependency management and CI/CD test failure debugging",
+      "PR 1: 'task test fails' — shows involvement in testing workflows and CI/CD pipelines",
+      "PR 3: 'This pull request is related to #101' — demonstrates issue tracking and documentation practices",
+      "PR 2: 'I tried to keep it as simple as possible' — reflects code clarity and maintainability focus"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

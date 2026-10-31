@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "developer_name": "maggiepint",
+    "generation_timestamp": "2026-08-15T17:59:59.852616",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 20,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "maggiepint",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "JavaScript Date Object manipulation",
+      "Moment.js core logic",
+      "Deprecation management",
+      "Precision arithmetic handling",
+      "JavaScript prototype-based OOP",
+      "Input validation and sanitization",
+      "JavaScript tooling (Babel, JSCS)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5+)",
+      "JavaScript (ES6+ via Babel)"
+    ],
+    "summary": "maggiepint is a Senior JavaScript developer with deep expertise in date/time manipulation, specializing in Moment.js. Their contributions demonstrate advanced proficiency in JavaScript's Date object, precision handling, deprecation strategies, and library maintenance. The developer shows strong debugging skills for edge cases (e.g., -0 handling, floating-point arithmetic) and a focus on developer experience through clear deprecation warnings and extensible API design. While primarily focused on library-level work, their tooling awareness (Babel, JSCS) and input validation practices highlight a robust engineering approach.",
+    "identified_skills": {
+      "DateTime Systems": [
+        "JavaScript Date object",
+        "Timezone-aware calculations",
+        "Moment.js parsing logic",
+        "Date arithmetic (add/subtract/diff)",
+        "Strict parsing modes",
+        "Floating-point precision handling"
+      ],
+      "JavaScript Core": [
+        "Prototype-based inheritance",
+        "Method chaining",
+        "Object setter patterns",
+        "Input validation",
+        "Error handling strategies",
+        "Deprecation policies"
+      ],
+      "Library Maintenance": [
+        "API design refinement",
+        "Backward compatibility",
+        "Extensibility patterns",
+        "Deprecation warnings",
+        "Documentation improvements"
+      ],
+      "JavaScript Tooling": [
+        "Babel transpilation",
+        "JSCS linting",
+        "Build system awareness"
+      ],
+      "Debugging": [
+        "Edge-case handling",
+        "Floating-point quirks",
+        "Negative-zero detection",
+        "Input sanitization"
+      ],
+      "Developer Experience": [
+        "Deprecation clarity",
+        "Issue template improvements",
+        "Warning message refinement"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'change add subtract to handle decimal values by rounding' — demonstrates floating-point precision handling in Date arithmetic",
+      "PR: 'fix bug where diff returns -0 in month-related diffs' — shows debugging of JavaScript's -0 vs. 0 quirk",
+      "PR: 'strict parsing mode accepts period at end of months where idiomatic' — evidence of Moment.js parsing logic expertise",
+      "PR: 'deprecate isDSTShifted' — demonstrates deprecation management and API design refinement",
+      "PR: 'Object setter orders sets based on size of unit' — prototype-based OOP pattern in Moment.js",
+      "PR: 'make moment calendar extensible with ad-hoc options' — extensibility work in library maintenance",
+      "PR: 'Convert to Babel (Do Not Merge!)' — tooling awareness for ES6+ transpilation",
+      "PR: 'correct typo in min/max deprecation warnings' — developer experience focus on clear messaging"
+    ]
+  },
+  "statistics": {
+    "total_prs": 20,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

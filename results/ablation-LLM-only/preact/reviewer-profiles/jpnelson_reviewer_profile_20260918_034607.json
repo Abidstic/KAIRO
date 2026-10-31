@@ -1,0 +1,67 @@
+{
+  "reviewer_name": "jpnelson",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 3,
+    "total_prs": 2,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "jpnelson",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "React.js (Context API, Lifecycle Management)",
+      "JavaScript Performance Optimization",
+      "Frontend Debugging & Problem-Solving"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (implied but not confirmed)"
+    ],
+    "summary": "jpnelson demonstrates a strong proficiency in React.js, particularly in handling advanced features like the Context API and component lifecycle management. Their reviews focus on debugging performance bottlenecks related to unmounting and routing transitions, indicating deep expertise in frontend optimization and problem-solving. While evidence is limited to React-focused work, their analytical approach and hypothesis-driven debugging suggest a Mid-level JavaScript engineer with a frontend specialization.",
+    "identified_skills": {
+      "Frontend Frameworks": [
+        "React.js",
+        "React Context API",
+        "React Router"
+      ],
+      "Performance Optimization": [
+        "Component lifecycle debugging",
+        "Unmounting optimization",
+        "Benchmarking"
+      ],
+      "Debugging & Testing": [
+        "Hypothesis-driven debugging",
+        "Edge case identification",
+        "Performance profiling"
+      ],
+      "JavaScript Patterns": [
+        "Async cleanup in useEffect",
+        "Event-driven patterns"
+      ],
+      "Code Review": [
+        "Analytical review engagement",
+        "Experiment-based fixes"
+      ],
+      "Backend Frameworks": [],
+      "Build Tools": [],
+      "Testing Frameworks": [],
+      "Programming Languages": [
+        "JavaScript (ES6+)"
+      ]
+    },
+    "skill_evidence": [
+      "\"Add a fix for context unmounting, from experimenting with our application\" - Indicates deep React Context API knowledge and debugging focus",
+      "\"this ended up being a fair bit faster than how it was during client routing transitions\" - Demonstrates performance optimization and benchmarking awareness",
+      "\"context subscribers unmounting\" - Confirms expertise in React lifecycle and unmount-related issues",
+      "\"we need a benchmark\" - Suggests familiarity with performance testing tools and methodologies",
+      "\"COMMENTED\" review state (repeated) - Shows analytical engagement and iterative debugging approach",
+      "No backend or TypeScript evidence found in PR titles/descriptions - Confirms frontend specialization"
+    ]
+  }
+}

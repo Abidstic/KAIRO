@@ -1,0 +1,68 @@
+{
+  "reviewer_name": "gnoff",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 4,
+    "total_prs": 1,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "gnoff",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "React Context API optimization",
+      "Functional component performance tuning",
+      "Preact ecosystem engagement",
+      "React rendering optimization strategies"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (implied by modern patterns)"
+    ],
+    "summary": "gnoff is a Senior-level JavaScript engineer with deep expertise in React/functional component optimization, particularly focusing on Context API performance improvements and cross-framework strategies (including Preact). Their work demonstrates advanced understanding of React internals, rendering optimization techniques, and selective state updates to minimize unnecessary re-renders. The reviewer specializes in frontend performance tuning and engages actively with the React ecosystem through Preact contributions.",
+    "identified_skills": {
+      "Frontend Architecture": [
+        "React Context API",
+        "Functional component patterns",
+        "Rendering optimization"
+      ],
+      "Performance Engineering": [
+        "Reconciliation optimization",
+        "Selective state updates",
+        "Bail-out rendering strategies"
+      ],
+      "React Ecosystem": [
+        "Preact compatibility",
+        "Cross-framework optimization",
+        "React internals awareness"
+      ],
+      "Code Review Patterns": [
+        "POC-driven feedback",
+        "Technical deep-dive reviews",
+        "Iterative optimization discussions"
+      ],
+      "Modern JavaScript": [
+        "Hooks-based patterns",
+        "Closure-based optimizations"
+      ],
+      "Backend/Tooling": [],
+      "Testing": [],
+      "Documentation": []
+    },
+    "skill_evidence": [
+      "PR titles/descriptions repeatedly reference 'selective context option' and 'Provider children' optimization",
+      "Mentions of 'bail out of Provider children' indicating deep reconciliation knowledge",
+      "Explicit exclusion of 'contextType' on class components, favoring functional components",
+      "All PRs are POCs targeting Preact #2386, showing engagement with React ecosystem discussions",
+      "Focus on avoiding unnecessary re-renders via Context API optimizations",
+      "References to Preact PR #2386 and issue #2425 demonstrating cross-framework awareness",
+      "Iterative review process with 'COMMENTED' PR state indicating technical feedback focus",
+      "Optimization discussions imply understanding of React's rendering pipeline and hooks"
+    ]
+  }
+}

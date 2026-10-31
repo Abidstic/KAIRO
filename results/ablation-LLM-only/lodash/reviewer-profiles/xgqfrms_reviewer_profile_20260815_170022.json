@@ -1,0 +1,42 @@
+{
+  "reviewer_name": "xgqfrms",
+  "generated_at": "20260815_170022",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 3,
+    "total_prs": 1,
+    "repos": [
+      "lodash"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "xgqfrms",
+    "experience_level": "Unknown",
+    "primary_skills": [],
+    "programming_languages": [
+      "JavaScript"
+    ],
+    "summary": "The reviewer profile for xgqfrms is insufficiently supported by the provided data, which consists of three identical PR review entries with no substantive comments, code analysis, or technical discussion. The only discernible signal is a PR focused on adding BigInt type checking, but without actual review content or context, no meaningful assessment of their JavaScript skills or experience level can be made. The dataset appears to be either incomplete or synthetic, lacking evidence of diverse contributions, frameworks, or deeper technical engagement.",
+    "identified_skills": {
+      "Core JavaScript Language": [
+        "BigInt type checking"
+      ],
+      "Type Classification": [],
+      "Code Review Workflow": [
+        "PR approval"
+      ],
+      "Repository Context": [
+        "lodash"
+      ]
+    },
+    "skill_evidence": [
+      "PR title/description mentions 'BigInt' type checking (isBigInt) in a utility function context",
+      "All three review entries are marked 'COMMENTED' with no visible feedback or code changes",
+      "Repository field indicates association with 'lodash', but no framework/library-specific details are provided",
+      "No evidence of testing, documentation, or architectural feedback in reviews",
+      "Same PR entry appears three times, suggesting potential data duplication or placeholder entries"
+    ]
+  }
+}

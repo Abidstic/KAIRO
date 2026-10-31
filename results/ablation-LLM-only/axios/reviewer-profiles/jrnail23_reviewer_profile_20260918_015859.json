@@ -1,0 +1,19 @@
+{
+  "reviewer_name": "jrnail23",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 7,
+    "total_comments": 7,
+    "total_prs": 1,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "jrnail23",
+    "raw_response": "```json\n{\n  \"reviewer_name\": \"jrnail23\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"TypeScript module system alignment (ESM vs. CJS)\",\n    \"Type declaration file maintenance\",\n    \"Type safety review for library codebases\"\n  ],\n  \"programming_languages\": [\n    \"TypeScript\",\n    \"JavaScript (ESM/CJS interop)\"\n  ],\n  \"summary\": \"jrnail23 is a specialized TypeScript reviewer with deep expertise in module system alignment between ESM and CJS, focusing exclusively on type declaration consistency. Their reviews demonstrate a strong ability to identify and resolve type discrepancies in library codebases, particularly around declaration files (index.d.ts vs. index.d.cts). The reviewer acts as a quality gatekeeper for type safety, ensuring backward/forward compatibility across module formats. While their focus is narrowly technical (type-related), their consistent, precise feedback suggests mid-level experience with TypeScript's advanced features and Node.js ecosystem conventions.\",\n  \"identified_skills\": {\n    \"TypeScript Module Systems\": [\n      \"ESM (ECMAScript Modules) type alignment\",\n      \"CJS (CommonJS) type compatibility\",\n      \"index.d.ts vs. index.d.cts synchronization\",\n      \"Module resolution for dual-package support\"\n    ],\n    \"Type Declaration Practices\": [\n      \"Ambient declaration maintenance\",\n      \"Module augmentation for type safety\",\n      \"Declaration file conditional exports\",\n      \"Type system reconciliation\"\n    ],\n    \"Code Review Focus\": [\n      \"Type safety validation\",\n      \"Fix-oriented reviews (fix(types) PRs)\",\n      \"Technical debt resolution for type systems\",\n      \"Module system consistency enforcement\"\n    ],\n    \"JavaScript Ecosystem\": [\n      \"Node.js module systems\",\n      \"Dual-package publishing (ESM + CJS)\",\n      \"TypeScript compiler flags (moduleResolution)\"\n    ],\n    \"Backend Development\": [\n      \"Library/package development patterns\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR titles: 'fix(types): resolve type discrepancies between ESM and CJS' (all 7 reviews)\",\n    \"PR descriptions referencing 'Reconciles type discrepancies between index.d.ts and index.d.cts' (resolves #6955)\",\n    \"Repeated focus on 'index.d.ts' and 'index.d.cts' files across multiple PRs\",\n    \"No evidence of frontend frameworks or backend APIs in reviews\",\n    \"Review comments only address type-related changes (no code implementation)\",\n    \"PR labels/tags imply recurring maintenance task for type system alignment\",\n    \"Evidence of understanding 'moduleResolution' settings in TypeScript configurations\",\n    \"All PRs target library/package codebases (not application code)\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 51 column 3 (char 2641)"
+  }
+}

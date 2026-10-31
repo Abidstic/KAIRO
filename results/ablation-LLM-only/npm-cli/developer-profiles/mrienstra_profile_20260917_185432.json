@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "developer_name": "mrienstra",
+    "generation_timestamp": "2026-09-17T18:46:30.859855",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "mrienstra",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "npm CLI documentation",
+      "Node.js ecosystem knowledge",
+      "technical writing for JavaScript tools",
+      "link curation and reference updates"
+    ],
+    "programming_languages": [],
+    "summary": "mrienstra is a documentation-focused contributor to the npm CLI repository with no visible JavaScript coding contributions. Their expertise lies in maintaining accurate and user-friendly documentation for npm CLI and Node.js tools, particularly around configuration parameters, `npx` behavior, and Node.js version management. The contributions demonstrate strong technical writing skills, attention to detail in link curation, and deep familiarity with the npm CLI ecosystem. However, there is no evidence of direct JavaScript development experience or exposure to frameworks/libraries in their current contributions.",
+    "identified_skills": {
+      "Documentation Practices": [
+        "README maintenance",
+        "configuration parameter documentation",
+        "link curation for npm CLI"
+      ],
+      "npm CLI Knowledge": [
+        "npm config parameters",
+        "npx behavior documentation",
+        "Node.js version manager references"
+      ],
+      "Technical Writing": [
+        "clear documentation descriptions",
+        "outdated reference replacement",
+        "GitHub search query improvements"
+      ],
+      "Node.js Ecosystem": [
+        "Node.js version management tools",
+        "Node.js download links",
+        "Node.js configuration"
+      ],
+      "JavaScript": [],
+      "Backend Frameworks": [],
+      "Frontend Frameworks": [],
+      "Testing": [],
+      "Tooling": [],
+      "Version Control": []
+    },
+    "skill_evidence": [
+      "PR titled 'docs: better node version manager link in readme' replaced a GitHub search query with a curated Node.js download list",
+      "All PRs labeled 'docs:' with no code changes, focusing solely on README and config parameter documentation updates",
+      "PR descriptions reference 'tag' config link and 'npx' behavior, showing npm CLI internals knowledge",
+      "Updates to README links demonstrate research skills to find the most reliable Node.js version manager resources",
+      "No evidence of JavaScript syntax, framework usage, or backend/frontend development patterns in any PR",
+      "PRs show attention to detail in ensuring documentation remains accurate and user-friendly for npm CLI users",
+      "Documentation changes involve replacing outdated references with maintained alternatives (e.g., GitHub search → official Node.js list)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

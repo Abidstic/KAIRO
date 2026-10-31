@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "developer_name": "zhangwinning",
+    "generation_timestamp": "2026-09-18T13:52:36.527018",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "zhangwinning",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify framework internals",
+      "JavaScript error handling & debugging",
+      "TypeScript Symbols & internals",
+      "Fastify schema validation",
+      "Node.js runtime awareness",
+      "Version maintenance & backporting"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "zhangwinning is a Mid-level JavaScript developer with specialized expertise in Fastify framework internals, focusing on debugging, schema validation, and version maintenance. Their contributions demonstrate strong skills in JavaScript error handling, TypeScript Symbol usage, and maintaining compatibility across Fastify versions. While primarily backend-focused, their work reflects deep familiarity with Fastify's plugin system, logger configuration, and internal state management patterns.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Fastify plugins",
+        "Fastify schema validation"
+      ],
+      "JavaScript Core": [
+        "Error handling",
+        "Symbol usage",
+        "State management"
+      ],
+      "TypeScript": [
+        "Symbol-based internals",
+        "TypeScript compatibility"
+      ],
+      "Version Control & Maintenance": [
+        "Version backporting",
+        "Multi-version support"
+      ],
+      "Configuration & Logging": [
+        "Fastify logger options",
+        "Runtime configuration"
+      ],
+      "Debugging & Testing": [
+        "Bugfixing",
+        "Edge case handling"
+      ],
+      "Asynchronous Patterns": [
+        "Non-ready app handling"
+      ],
+      "Node.js": [
+        "Runtime awareness",
+        "Event-driven patterns"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'reopened server show more detail error msg' demonstrates JavaScript error handling and debugging skills",
+      "'add missing kSchemaVisited symbol var' shows TypeScript Symbol usage in Fastify's schema validation system",
+      "PRs labeled 'v2.x' and 'v3.x' indicate experience with Fastify version maintenance and backporting",
+      "'support unWritable props in the logger option' reflects familiarity with Fastify's logger configuration",
+      "'Refactor overload' suggests deep knowledge of Fastify's plugin system and overload handling",
+      "Multiple bugfix PRs imply strong debugging skills and attention to edge cases (e.g., non-ready app handling)",
+      "No frontend or testing framework evidence visible in PRs, focusing solely on Fastify backend internals"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

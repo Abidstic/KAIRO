@@ -1,0 +1,61 @@
+{
+  "reviewer_name": "DouglasdeMoura",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 5,
+    "total_comments": 5,
+    "total_prs": 1,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "DouglasdeMoura",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Backend JavaScript",
+      "HTTP Content-Type Handling",
+      "Serializer Logic"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)"
+    ],
+    "summary": "DouglasdeMoura shows evidence of backend JavaScript expertise, particularly in serialization and HTTP content-type handling. While the review data lacks direct code changes or detailed comments, the PR titles suggest familiarity with Node.js backend patterns, likely involving Express, Fastify, or similar frameworks. Their contributions appear focused on backend concerns rather than frontend or testing domains. The lack of visible review comments or code modifications limits deeper technical insight, but their involvement in serialization-related PRs indicates proficiency in backend JavaScript runtime and HTTP-related logic.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Node.js",
+        "Express.js",
+        "Fastify"
+      ],
+      "HTTP & Networking": [
+        "Content-Type Handling",
+        "Serializer Functions"
+      ],
+      "Backend Patterns": [
+        "Middleware Logic",
+        "HTTP Response Serialization"
+      ],
+      "Code Review": [
+        "PR Discussion"
+      ],
+      "Asynchronous Programming": [],
+      "Testing": [],
+      "Frontend Frameworks": [],
+      "Build Tools": [],
+      "TypeScript": [],
+      "API Design": [
+        "Serializer Function Design"
+      ]
+    },
+    "skill_evidence": [
+      "PR title mentions 'serializer function' indicating backend serialization expertise",
+      "Content-Type handling suggests familiarity with HTTP response formatting",
+      "All PRs have 'files_changed: 0' but discuss backend concerns (likely middleware or serializer logic)",
+      "Repetitive PR titles imply focus on a specific backend component (serialization)",
+      "No frontend or testing-related PRs visible, confirming backend specialization",
+      "Repository 'fastify' suggests involvement with a high-performance Node.js framework"
+    ]
+  }
+}

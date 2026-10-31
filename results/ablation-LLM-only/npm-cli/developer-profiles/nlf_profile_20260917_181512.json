@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "developer_name": "nlf",
+    "generation_timestamp": "2026-09-17T18:15:12.457277",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 153,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "nlf",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Node.js CLI internals",
+      "npm CLI development",
+      "Testing and test coverage",
+      "Configuration management",
+      "CI/CD optimization",
+      "JavaScript error handling",
+      "Environment variable handling",
+      "Shell/TTY-aware scripting"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "Bash/Shell scripting"
+    ],
+    "summary": "nlf is a senior-level JavaScript developer with deep expertise in Node.js and npm CLI internals. Their contributions focus on core npm functionality, testing, configuration systems, and CI/CD improvements. The developer demonstrates strong debugging skills, particularly in handling edge cases and regressions within npm's command-line tooling. While primarily backend-focused, their work spans npm's build system, registry interactions, and script execution logic. No frontend or framework involvement is evident in their contributions.",
+    "identified_skills": {
+      "Node.js Ecosystem": [
+        "npm CLI internals",
+        "npm command execution",
+        "npx behavior",
+        "npm run script handling",
+        "npm token command",
+        "npm cache management",
+        "npm publish/unpublish workflows",
+        "npm config system",
+        "npm-registry-fetch integration"
+      ],
+      "Testing Practices": [
+        "Unit/integration testing for CLI tools",
+        "Test-driven development (TDD)",
+        "Mocking strategies",
+        "Test coverage for npm commands",
+        "Regression testing"
+      ],
+      "JavaScript Patterns": [
+        "Async/await patterns",
+        "Error handling and user feedback",
+        "Environment variable management",
+        "Shell/TTY detection logic",
+        "Callback-based vs. promise patterns",
+        "Configuration module patterns"
+      ],
+      "DevOps & Build Systems": [
+        "CI environment detection",
+        "Build script optimization",
+        "node_modules management",
+        "Makefile-based builds",
+        "Bash scripting for npm tools",
+        "Release process improvements"
+      ],
+      "Domain-Specific npm Knowledge": [
+        "npm versioning and releases",
+        "Registry interaction patterns",
+        "Behavioral consistency (npm6 vs. npm7)",
+        "Edge case handling for CLI commands",
+        "Dependency resolution"
+      ],
+      "Debugging & Maintenance": [
+        "Regression handling",
+        "Edge case debugging",
+        "Behavioral consistency fixes",
+        "Subtle bug resolution"
+      ],
+      "Tooling & Scripting": [
+        "npm install/build scripts",
+        "Shell scripting for npm",
+        "TTY-aware command logic"
+      ]
+    },
+    "skill_evidence": [
+      "PRs for 'npx run existing bins' and 'fix npx for non-interactive shells' demonstrate deep npm CLI command execution knowledge",
+      "'adds test coverage for the npm token command' shows focus on testing npm's core functionality",
+      "Fixes for 'npm run' empty scripts behavior highlight script execution pattern expertise",
+      "'ci: delete the contents of node_modules only, not the directory' reflects CI/CD optimization skills",
+      "'restores the old npx foo behavior' indicates strong regression handling and behavioral consistency expertise",
+      "PRs referencing '@npmcli/config' and 'npm-registry-fetch' prove domain-specific npm knowledge",
+      "Environment variable handling in 'npm_config_user_agent' and CI detection PRs show JavaScript patterns mastery",
+      "Shell scripting fixes in 'install.sh' and 'make release' scripts demonstrate tooling expertise"
+    ]
+  },
+  "statistics": {
+    "total_prs": 153,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

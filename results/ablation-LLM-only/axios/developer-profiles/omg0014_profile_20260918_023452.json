@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "developer_name": "omg0014",
+    "generation_timestamp": "2026-09-18T02:33:06.687717",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "omg0014",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "JavaScript/TypeScript fundamentals",
+      "Axios library usage",
+      "Error handling in HTTP clients",
+      "Asynchronous JavaScript (Promises)",
+      "Technical documentation"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "omg0014 demonstrates limited but focused JavaScript contributions primarily within the Axios repository. Their contributions are documentation-focused and minor code consistency fixes, suggesting familiarity with JavaScript/TypeScript fundamentals, Axios-specific error handling, and asynchronous programming patterns. While no advanced frameworks or testing frameworks are evident, their involvement with Axios indicates backend/Node.js experience and basic error handling skills. The contributions are primarily low-level and do not demonstrate complex architectural or framework-level expertise.",
+    "identified_skills": {
+      "JavaScript Core": [
+        "Error handling",
+        "Asynchronous operations (Promises)",
+        "Code consistency practices"
+      ],
+      "HTTP/API Libraries": [
+        "Axios",
+        "HTTP request timeouts"
+      ],
+      "Documentation": [
+        "Readme documentation",
+        "Technical examples"
+      ],
+      "Code Quality": [
+        "Syntax fixes (semicolons)",
+        "Error message improvements"
+      ],
+      "Backend/Node.js": [],
+      "Frontend Frameworks": [],
+      "Testing": [],
+      "Build Tools": [],
+      "DevOps/Tooling": []
+    },
+    "skill_evidence": [
+      "PR #3 ('Docs/add timeout example readme only') demonstrates understanding of Axios' timeout feature and asynchronous JavaScript (Promises) through documentation contributions",
+      "PR #2 ('Fix/code consistency and error message fixes') suggests attention to error handling and code quality in Axios' error response system",
+      "PR #1 ('chore: add missing semicolon') indicates basic JavaScript syntax awareness and adherence to code style conventions",
+      "All PRs involve Axios, confirming backend/Node.js JavaScript/TypeScript proficiency",
+      "No visible code changes in PRs prevent deeper technical assessment of implementation skills",
+      "Documentation PR (#3) requires understanding of Axios' internal timeout mechanism, implying familiarity with async patterns",
+      "Error message fixes (#2) suggest experience with Axios' error response structure and debugging"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "developer_name": "lmammino",
+    "generation_timestamp": "2026-09-18T13:39:11.580717",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 9,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 9
+  },
+  "profile": {
+    "developer_name": "lmammino",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify framework documentation",
+      "Static site generation (SSG)",
+      "Node.js middleware patterns",
+      "Technical writing for APIs",
+      "npm package ecosystem awareness",
+      "Build system debugging"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "Markdown"
+    ],
+    "summary": "lmammino is a Mid-level JavaScript developer with specialized expertise in Fastify framework documentation and static site generation for technical documentation. Their contributions focus on improving Fastify's plugin system documentation, website build processes, and ecosystem awareness. While primarily a documentation specialist, their work with Fastify's middleware patterns and npm package integrations (e.g., serve-static) demonstrates strong Node.js backend knowledge. Their ability to debug build systems and maintain semantic documentation suggests attention to detail and technical precision.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify"
+      ],
+      "Documentation Systems": [
+        "Markdown documentation",
+        "API reference guides",
+        "Static site generation"
+      ],
+      "Build Tools": [
+        "Static site build systems",
+        "Parser flexibility improvements"
+      ],
+      "npm Ecosystem": [
+        "serve-static package",
+        "Plugin ecosystem parsing"
+      ],
+      "Technical Writing": [
+        "Semantic documentation",
+        "Link maintenance",
+        "Table of contents"
+      ],
+      "Debugging": [
+        "Build failure resolution",
+        "Formatting error fixes"
+      ],
+      "Collaboration": [
+        "GitHub issue tracking",
+        "Cross-repository coordination"
+      ],
+      "Middleware Patterns": [
+        "Fastify plugin system",
+        "Server method documentation"
+      ],
+      "Static File Handling": [
+        "Static file serving documentation"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Updated Server-Methods.md with Fastify plugin system documentation",
+      "PR #2: Improved Middlewares.md with serve-static npm package examples",
+      "PR #3: Built complete Fastify website with homepage, documentation, and ecosystem listings",
+      "PR #4: Fixed ecosystem parser for plugin discovery documentation",
+      "PR #5: Added LTS to Table of Contents for semantic navigation",
+      "PR #6: Added missing documentation links for Fastify plugins",
+      "PR #7: Fixed broken Reply link preview in documentation",
+      "PR #8: Debugged and fixed formatting error causing website build failure"
+    ]
+  },
+  "statistics": {
+    "total_prs": 9,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

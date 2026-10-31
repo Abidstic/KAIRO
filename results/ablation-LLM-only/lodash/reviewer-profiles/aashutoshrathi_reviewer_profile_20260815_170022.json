@@ -1,0 +1,71 @@
+{
+  "reviewer_name": "aashutoshrathi",
+  "generated_at": "20260815_170022",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 2,
+    "total_prs": 1,
+    "repos": [
+      "lodash"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "aashutoshrathi",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript primitive type classification",
+      "ES2020+ feature implementation",
+      "Utility function development",
+      "Code review precision for type-checking logic",
+      "Runtime environment type safety"
+    ],
+    "programming_languages": [
+      "JavaScript (ES2020+)",
+      "TypeScript (implied by type-checking focus)"
+    ],
+    "summary": "aashutoshrathi demonstrates a specialized focus on JavaScript's primitive type system, particularly BigInt, with evidence of precise code review and utility function development. Their contributions indicate deep expertise in type classification and runtime correctness, likely within a Node.js or library/tooling context. The reviewer shows strong ability to evaluate minimal, focused changes with high technical precision, though their broader JavaScript ecosystem experience remains unconfirmed by the available data.",
+    "identified_skills": {
+      "Type System & Primitives": [
+        "BigInt primitive type detection",
+        "Primitive type classification utilities",
+        "ES2020 feature implementation"
+      ],
+      "Code Review Practices": [
+        "Minimal change evaluation",
+        "Correctness-focused review",
+        "Edge case consideration in type checks"
+      ],
+      "Utility Function Development": [
+        "Library/tooling utility functions",
+        "Type-checking helper functions",
+        "Runtime environment utilities"
+      ],
+      "Testing Awareness": [
+        "Correctness validation (implied)",
+        "Type-checking validation patterns"
+      ],
+      "JavaScript Ecosystem": [
+        "Node.js runtime context (inferred)",
+        "Library/tooling development"
+      ],
+      "Backend/JavaScript": [
+        "Runtime environment expertise"
+      ],
+      "Code Quality": [
+        "Precision in type safety implementations"
+      ]
+    },
+    "skill_evidence": [
+      "PR titles focused on 'Checks if value is classified as a BigInt primitive' and 'add isBigInt'",
+      "Three consecutive PRs approved with no further changes required, indicating correctness validation",
+      "Review comments implied by 'COMMENTED' state (though no text shown, approval suggests technical discussion)",
+      "ES2020 feature usage (BigInt) demonstrates modern JavaScript standards compliance",
+      "Minimalistic PRs (no file deletions/additions) suggest focused utility function additions",
+      "Likely exposure to Lodash-style utility libraries based on repository context",
+      "No evidence of frontend frameworks or async/await patterns in review data",
+      "Type-checking function development implies awareness of testing validation practices"
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "developer_name": "louisremi",
+    "generation_timestamp": "2026-08-15T16:09:13.823297",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 22,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "louisremi",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "jQuery Core Development",
+      "CSS Property Handling & Animation Systems",
+      "Cross-Browser Compatibility (IE-Specific Fixes)",
+      "Performance Optimization (DOM & Animation Loops)",
+      "Regex-Based CSS Value Parsing",
+      "Debugging & Bug Reproduction",
+      "Code Refactoring & Maintainability"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "CSS (Property Parsing & Hooks)"
+    ],
+    "summary": "Louis Remi is a **Senior JavaScript developer** with deep expertise in **jQuery’s core internals**, particularly its animation system, CSS property handling, and cross-browser compatibility. His contributions focus on **fixing IE-specific rendering quirks**, optimizing animation performance (e.g., replacing `setInterval` with `requestAnimationFrame`), and refining `cssHooks` for properties like `opacity`, `transform`, and `rotate`. The developer demonstrates **precision in debugging**, **minimal but impactful refactoring**, and a strong understanding of **regex-based CSS value parsing**. While not a generalist, his work is **highly specialized in jQuery’s legacy codebase**, making him a valuable contributor for maintaining and optimizing the library’s animation and CSS systems.",
+    "identified_skills": {
+      "jQuery Core Systems": [
+        "jQuery Animation Engine (`$.fn.animate`, `$.fx`)",
+        "CSS Hooks (`cssHooks` implementation)",
+        "`cur()` Method Overrides",
+        "`effects.js` Refactoring"
+      ],
+      "Cross-Browser & IE-Specific Fixes": [
+        "IE9/IE8 Filter Stacking Bugs",
+        "Vendor Prefix Handling (`-webkit-`, `-moz-`)",
+        "CSS Property Incompatibility Resolutions",
+        "Progressive Enhancement Fallbacks"
+      ],
+      "Performance Optimization": [
+        "Animation Loop Modernization (`requestAnimationFrame`)",
+        "DOM Access Reduction",
+        "Synchronized Parallel Animations"
+      ],
+      "CSS & String Manipulation": [
+        "Regex-Based CSS Value Parsing (`rfxnum`)",
+        "String Quoting & Escaping",
+        "Multi-Value Property Handling (`scale(0.5,2)`)"
+      ],
+      "Debugging & Testing": [
+        "Bug Reproduction via JSFiddle Demos",
+        "Minimal Fix Validation",
+        "Cross-Browser Test Coverage"
+      ],
+      "Code Quality & Refactoring": [
+        "Variable Scoping Improvements",
+        "Private Function Organization",
+        "Reducing Technical Debt"
+      ],
+      "Contribution Patterns": [
+        "Precision-Focused PRs (2-line fixes)",
+        "Bug Report Integration",
+        "Self-Documenting Changes"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Fix #7912: $.fx.prototype.cur() is incompatible with cssHooks' → Debugged and patched jQuery’s core CSS property resolution logic",
+      "PR: 'Fix #8101: use requestAnimationFrame instead of setInterval' → Modernized legacy animation loops for better performance",
+      "PR: 'Fix 8346: jQuery.css() incompatible with vendor prefixed properties in IE9' → Resolved IE9-specific CSS property parsing bugs",
+      "PR: 'Fix 8403: jQuery “bulldozes” other IE filters when setting opacity' → Fixed IE filter stacking quirks in opacity animations",
+      "PR: 'effects.js cleanup' → Refactored jQuery’s effects system to reduce function calls and simplify easing logic",
+      "PR: 'move some var to the top of the scope' → Improved code organization and variable scoping",
+      "PR: 'First attempt at fixing #7912: $.fx.prototype.cur()' → Demonstrated deep debugging of jQuery’s internal animation pipeline",
+      "PR: 'Wraps strings with double quotes in sources and tests' → Addressed string formatting for CSS property strings"
+    ]
+  },
+  "statistics": {
+    "total_prs": 22,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

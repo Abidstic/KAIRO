@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "developer_name": "Spiralis",
+    "generation_timestamp": "2026-08-15T18:24:56.417444",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "Spiralis",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Moment.js locale customization",
+      "Internationalization (i18n) in JavaScript",
+      "String manipulation and formatting",
+      "JavaScript object/JSON manipulation",
+      "Precision debugging in localization"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "Spiralis is a mid-level JavaScript developer with specialized expertise in Moment.js localization, particularly for Norwegian/Nynorsk date formatting. Their contributions demonstrate deep precision in handling string concatenation, punctuation, and dialect-specific edge cases within JavaScript libraries. While their work is highly focused on internationalization and locale customization, their ability to identify subtle bugs and collaborate with maintainers indicates strong debugging and code review skills. The developer shows mastery of JavaScript fundamentals (objects, strings) applied within a niche but critical domain of date/time libraries.",
+    "identified_skills": {
+      "Date/Time Libraries": [
+        "Moment.js",
+        "Locale customization",
+        "Internationalization (i18n)"
+      ],
+      "String Processing": [
+        "String concatenation debugging",
+        "Punctuation handling",
+        "Locale-specific formatting"
+      ],
+      "Data Structures": [
+        "JavaScript objects",
+        "JSON manipulation",
+        "Locale definition structures"
+      ],
+      "Collaboration": [
+        "Maintainer collaboration",
+        "Community-driven localization",
+        "Code review integration"
+      ],
+      "Debugging": [
+        "Edge case identification",
+        "Precision bug fixing",
+        "Locale validation"
+      ],
+      "Language-Specific": [
+        "Norwegian/Nynorsk localization",
+        "Dialect-specific corrections"
+      ],
+      "Tooling Awareness": [
+        "Locale approval workflows"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed 'weird concatenation' in short day/month formats for Norwegian locale",
+      "Corrected 'faulty short version of Saturday for Nynorsk' (locale-specific linguistic error)",
+      "Adjusted 'short formats (without punctuation)' in Moment.js locale definitions",
+      "PR labeled 'locale approval needed' indicating collaboration with maintainers",
+      "All changes focused on modifying JavaScript object properties defining date formats",
+      "Evidence of handling edge cases in punctuation and string structure within locale files",
+      "Precise string manipulation fixes without broader architectural changes",
+      "Specialized work on Norwegian/Nynorsk dialect variations in date formatting"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

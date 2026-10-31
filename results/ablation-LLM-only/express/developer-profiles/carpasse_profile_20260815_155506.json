@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "carpasse",
+    "generation_timestamp": "2026-08-15T15:47:30.040631",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "carpasse",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Express.js dependency management",
+      "Node.js core utilities",
+      "Semantic Versioning (SemVer)",
+      "Open-source dependency refactoring",
+      "Backend JavaScript/TypeScript"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "Carpasse is a mid-level JavaScript developer with specialized expertise in Node.js dependency management and Express.js internals. Their contributions focus on upgrading and refactoring dependencies within the Express.js ecosystem, demonstrating strong skills in semantic versioning, dependency hygiene, and open-source collaboration. While contributions are currently limited to backend-focused dependency updates, the precision and discipline in changes suggest a methodical approach to maintaining robust backend systems. No frontend or testing contributions are visible in the analyzed PRs.",
+    "identified_skills": {
+      "Dependency Management": [
+        "npm/yarn package upgrades",
+        "dependency refactoring",
+        "external-to-native dependency replacement",
+        "version pinning"
+      ],
+      "Express.js Ecosystem": [
+        "Express.js core dependencies",
+        "middleware utility dependencies",
+        "Express 5.x compatibility"
+      ],
+      "Version Control & Semantics": [
+        "Semantic Versioning (SemVer)",
+        "backward-compatible upgrades",
+        "version compatibility testing"
+      ],
+      "Open-Source Practices": [
+        "community discussion integration",
+        "contributor-focused PRs",
+        "minimalist change discipline"
+      ],
+      "Backend JavaScript": [
+        "Node.js core APIs",
+        "URL/query parsing utilities",
+        "cookie security handling"
+      ],
+      "Code Discipline": [
+        "zero-unnecessary-change PRs",
+        "dependency hygiene",
+        "targeted refactoring"
+      ],
+      "Tooling Awareness": [
+        "package.json management",
+        "lockfile maintenance"
+      ]
+    },
+    "skill_evidence": [
+      "PR replacing `path-is-absolute` with `node:path.isAbsolute` (native Node.js API)",
+      "Dependency upgrades for `qs` (query string parsing) with 5.x label indicating Express 5.x compatibility",
+      "All PRs reference GitHub discussions (e.g., 'https:\n    "
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

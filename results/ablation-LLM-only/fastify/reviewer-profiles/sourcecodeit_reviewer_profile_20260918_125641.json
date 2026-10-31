@@ -1,0 +1,72 @@
+{
+  "reviewer_name": "sourcecodeit",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 4,
+    "total_prs": 1,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "sourcecodeit",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify framework",
+      "Node.js runtime",
+      "Null/undefined debugging",
+      "Testing and benchmarking",
+      "Version control (Git)",
+      "Backporting practices"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Fastify ecosystem)"
+    ],
+    "summary": "sourcecodeit demonstrates a strong technical foundation in Fastify and Node.js, with clear expertise in debugging nullish host-related issues, maintaining version compatibility through backporting, and ensuring code quality through testing and benchmarking. Their reviews focus on backend performance and reliability, particularly in networking and connection handling. While the available data is limited to a single PR type, the evidence suggests a Mid-level reviewer with specialized knowledge of Fastify's internal patterns and Node.js runtime behaviors.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify"
+      ],
+      "Node.js Runtime": [
+        "npm scripts",
+        "benchmarking",
+        "version compatibility"
+      ],
+      "Debugging Patterns": [
+        "null/undefined handling",
+        "networking edge cases"
+      ],
+      "Testing Practices": [
+        "test execution",
+        "benchmark validation"
+      ],
+      "Version Control": [
+        "backporting",
+        "semantic versioning"
+      ],
+      "Code Quality": [
+        "Developer's Certification of Origin compliance"
+      ],
+      "Asynchronous Patterns": [
+        "inferred async/await usage"
+      ],
+      "Documentation": [
+        "PR checklist adherence"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'fix: nullish host' indicates debugging null/undefined values in Fastify's networking layer",
+      "Label 'backport 4.x' demonstrates familiarity with maintaining older Node.js versions and semantic versioning",
+      "Checklist items 'run `npm run test` and `npm run benchmark`' show structured testing and performance validation",
+      "Reference to 'Developer's Certification of Origin' implies adherence to Fastify's internal coding standards",
+      "Repeated PR entries suggest experience with version control workflows and backporting practices",
+      "No frontend or build tool references indicate backend-focused specialization in Fastify ecosystem",
+      "Inferred async/await usage from Fastify's typical HTTP request handling patterns",
+      "Empty repository field suggests focus on core framework rather than plugin development"
+    ]
+  }
+}

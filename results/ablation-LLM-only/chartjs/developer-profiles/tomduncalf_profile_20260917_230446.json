@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "developer_name": "tomduncalf",
+    "generation_timestamp": "2026-09-17T22:58:24.028501",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "tomduncalf",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Chart.js Core Development",
+      "Time-Series Data Visualization",
+      "JavaScript API Design & Extensibility",
+      "Interactive Chart Rendering Optimizations",
+      "JavaScript Date/Time Handling",
+      "Callback & Event-Driven Patterns"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Chart.js ecosystem)"
+    ],
+    "summary": "tomduncalf is a Mid-Level JavaScript developer with specialized expertise in Chart.js, focusing on data visualization, time-series charting, and UX-driven feature enhancements. Their contributions demonstrate deep knowledge of JavaScript APIs, time-based data handling, and visual rendering optimizations. While primarily frontend-focused, their work aligns with developers building interactive dashboards or analytics tools. The contributions show strong problem-solving skills in debugging rendering issues and extending library functionality while maintaining backward compatibility.",
+    "identified_skills": {
+      "Charting & Visualization": [
+        "Chart.js Core Contributions",
+        "Time-Series Chart Algorithms",
+        "Interactive Chart Rendering",
+        "Label Placement & Overlap Prevention",
+        "Gradient Color Support",
+        "Axis Customization (ISO Weekday Alignment)"
+      ],
+      "JavaScript API Design": [
+        "Configurable Chart Options",
+        "Backward Compatibility Maintenance",
+        "Callback Function Patterns",
+        "User-Facing API Extensions"
+      ],
+      "Date/Time Handling": [
+        "ISO Weekday Calculations",
+        "Time-Based Chart Scaling",
+        "Date Object Manipulation"
+      ],
+      "JavaScript Language Patterns": [
+        "ES6+ Class Methods",
+        "Callback-Based Event Handling",
+        "Object-Oriented Extensibility"
+      ],
+      "Debugging & Error Handling": [
+        "Rendering Bug Fixes",
+        "Edge Case Handling (Gradient Colors)",
+        "Visual Regression Testing (Screenshots)"
+      ],
+      "UX & Visual Design": [
+        "Pixel-Perfect Adjustments",
+        "User-Friendly Feature Design",
+        "Visual Comparison Documentation"
+      ],
+      "Data-Driven Development": [
+        "Business Logic Integration (Weekday Alignment)",
+        "Data Visualization Best Practices"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Fixed gradient color parsing error in Chart.js color helpers, demonstrating debugging of complex rendering logic and CSS/JS color system knowledge.",
+      "PR #2: Corrected `userCallback` behavior for time axes, showing deep understanding of callback patterns and asynchronous data handling in time-series charts.",
+      "PR #3: Added `minRotation` option for angular scaling, indicating familiarity with canvas-based rendering and user-controlled chart interactions.",
+      "PR #4: Implemented `isoWeekday` for aligning grid lines with Wednesday-based data, proving expertise in JavaScript `Date` object and ISO standards.",
+      "PR #5: Introduced `labelOffset` with visual comparison screenshots, highlighting UX-focused feature development and attention to visual clarity.",
+      "PR descriptions mention 'works for my use case' but also note limitations, showing awareness of real-world constraints and API design trade-offs.",
+      "All PRs involve extending Chart.js’s public API with new configurable options, demonstrating intentional API design and backward compatibility considerations.",
+      "The `isoWeekday` PR references business cycle alignment, suggesting familiarity with how data visualization should align with real-world scheduling patterns."
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

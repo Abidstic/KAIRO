@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "developer_name": "ryhinchey",
+    "generation_timestamp": "2026-09-18T14:13:21.438685",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "ryhinchey",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify Framework",
+      "Node.js Backend Development",
+      "Semantic Versioning",
+      "Request/Response Lifecycle Extensions"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript (likely)"
+    ],
+    "summary": "ryhinchey demonstrates **mid-level expertise** in Fastify, a high-performance Node.js framework, with contributions focused on core framework internals such as `FastifyInstance`, request object extensions, and configuration systems. While the PR evidence is limited to metadata-only entries, the context strongly suggests familiarity with Fastify’s architecture, Node.js backend patterns, and semantic versioning practices. Without concrete code changes, deeper JavaScript patterns (e.g., decorators, advanced async/await) cannot be confirmed, but their involvement in Fastify’s core suggests a strong backend focus. The `semver-minor` label indicates awareness of backward-compatible changes, reinforcing their role in maintaining framework stability.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify"
+      ],
+      "Node.js Core": [
+        "Event-driven architecture",
+        "Middleware systems",
+        "Configuration management"
+      ],
+      "Request/Response Handling": [
+        "Request object extensions",
+        "Response lifecycle"
+      ],
+      "Version Control": [
+        "Semantic Versioning (semver-minor)"
+      ],
+      "Code Maintenance": [
+        "Chore tasks (refactoring)"
+      ],
+      "TypeScript (Inferred)": [],
+      "Asynchronous Programming": [],
+      "Error Handling": [],
+      "Performance Optimization": []
+    },
+    "skill_evidence": [
+      "PR titled 'Add referrer to request object' suggests modifications to Fastify’s request lifecycle, indicating familiarity with request/response extensions.",
+      "PR labeled 'semver-minor' demonstrates awareness of semantic versioning and backward-compatible changes in Fastify’s core.",
+      "PR labeled 'chore' (rename next to done) implies involvement in code maintenance and refactoring tasks.",
+      "All PRs in Fastify repository confirm deep engagement with Fastify’s internals, including `FastifyInstance` and `initialConfig` references.",
+      "No file changes listed in PRs, but context implies contributions to Fastify’s core framework rather than plugins or third-party integrations."
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

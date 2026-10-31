@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "developer_name": "jasonsaayman",
+    "generation_timestamp": "2026-09-18T01:02:53.367981",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 68,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "jasonsaayman",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios (HTTP client)",
+      "Node.js backend development",
+      "Dependency management (npm/yarn)",
+      "HTTP request handling",
+      "Cross-browser testing (Sauce Labs)",
+      "CI/CD pipeline configuration (Travis CI)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (indirect experience via Axios)"
+    ],
+    "summary": "\nJason Saayman demonstrates **mid-level JavaScript expertise** with a strong focus on **Axios, Node.js backend development, and HTTP client patterns**. His contributions primarily involve **dependency updates, debugging HTTP-related issues, and documentation improvements** for Axios—a popular HTTP client library used across both frontend and backend ecosystems.\n\nWhile his contributions are **maintenance-oriented** (documentation updates, dependency patches, and CI/CD tweaks), they reveal **deep technical understanding** of:\n- **Node.js backend environments** (Axios is primarily a Node.js library).\n- **HTTP request/response handling** (adapters, redirects, CORS).\n- **Cross-environment compatibility** (browser vs. Node.js differences).\n- **Testing and debugging** (Sauce Labs, Karma.js, memory leak fixes).\n- **Dependency security and versioning** (npm/yarn, semantic versioning).\n\nHis work suggests **strong backend JavaScript skills** with **indirect frontend awareness** (since Axios is widely used in frontend apps). There is **no direct evidence of frontend frameworks (React/Vue)**, but his contributions imply familiarity with **how Axios integrates with modern frontend architectures**.\n\nThe absence of **TypeScript in recent PRs** does not rule out prior experience, as Axios has supported TypeScript for years. His **debugging and documentation contributions** indicate **attention to code clarity and maintainability**, which are hallmarks of a **mid-level developer** with **specialized expertise in HTTP clients and backend JavaScript**.\n\nOverall, Jason is a **practical, detail-oriented developer** with **deep expertise in Axios and Node.js**, making him a valuable asset for **backend systems, API integrations, and HTTP-related debugging**.\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise": [
+        "Node.js",
+        "Axios",
+        "npm/yarn",
+        "Sauce Labs",
+        "Karma.js"
+      ],
+      "Asynchronous Programming": [
+        "Promises"
+      ],
+      "API Design & Consumption": [
+        "RESTful APIs"
+      ],
+      "Error Handling": [
+        "Custom Error Clarity",
+        "Memory Leak Debugging"
+      ],
+      "Frontend Development Skills": [],
+      "Backend Development Skills": [
+        "Server-Side Logic",
+        "Dependency Management",
+        "CI/CD Pipelines"
+      ],
+      "DevOps & Deployment": [
+        "CI/CD Pipelines",
+        "Travis CI"
+      ],
+      "Advanced JavaScript Concepts": [],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Dependency Management": [
+        "npm/yarn",
+        "Semantic Versioning"
+      ],
+      "Graphical Data Visualization": []
+    }
+  },
+  "statistics": {
+    "total_prs": 68,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

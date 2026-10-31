@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "developer_name": "btea",
+    "generation_timestamp": "2026-09-17T18:47:49.374835",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "btea",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js CLI development",
+      "npm internals",
+      "JavaScript runtime optimizations",
+      "Semantic Versioning (SemVer)",
+      "CLI data processing and formatting",
+      "Error handling and defensive programming",
+      "Documentation and tooling improvements"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Node.js ecosystem)"
+    ],
+    "summary": "btea is a mid-level JavaScript developer with specialized expertise in Node.js CLI and npm internals. Their contributions focus on maintaining and optimizing the npm CLI, demonstrating deep knowledge of Node.js runtime behavior, version compatibility, and data processing. The developer shows strong skills in code quality improvements, error handling, and documentation enhancements, with a particular emphasis on Semantic Versioning and CLI output formatting. While their contributions are primarily backend/CLI-focused, the precision and technical depth of their fixes indicate a solid understanding of JavaScript runtime systems and maintenance practices.",
+    "identified_skills": {
+      "Node.js Ecosystem": [
+        "npm CLI internals",
+        "Node.js version compatibility checks",
+        "process.versions API usage"
+      ],
+      "Versioning & Compatibility": [
+        "Semantic Versioning (SemVer)",
+        "pre-release version handling",
+        "Node.js version badges"
+      ],
+      "Code Quality & Refactoring": [
+        "unused parameter removal",
+        "defensive error handling",
+        "code maintainability improvements"
+      ],
+      "Data Processing & Output": [
+        "JSON parsing and sorting",
+        "CLI output formatting",
+        "time object manipulation"
+      ],
+      "Documentation & Tooling": [
+        "technical documentation enhancements",
+        "version compatibility metadata",
+        "engines field improvements"
+      ],
+      "JavaScript Runtime": [
+        "Node.js runtime behavior",
+        "catch block optimizations",
+        "asynchronous data processing"
+      ],
+      "CLI Development": [
+        "npm view command improvements",
+        "CLI user experience optimizations"
+      ]
+    },
+    "skill_evidence": [
+      "\"chore: check node version using includePrerelease option\" – Demonstrates Node.js version compatibility checks and SemVer pre-release handling",
+      "\"fix: remove unused parameters catch statements\" – Shows focus on defensive programming and code quality in Node.js runtime",
+      "\"fix: the information time object output by `npm view` should sorted\" – Indicates CLI data processing and JSON formatting improvements",
+      "\"chore: add node badge\" – Supports documentation and tooling improvements for version compatibility",
+      "All PRs in `npm_cli` – Confirms specialization in npm CLI development and Node.js ecosystem",
+      "Refactoring unused parameters in catch blocks – Evidence of runtime optimization focus",
+      "Sorting time objects in CLI output – Demonstrates attention to data processing and user experience",
+      "Chore-type contributions – Indicates maintenance-oriented, high-quality contributions"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

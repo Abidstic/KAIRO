@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "developer_name": "triallax",
+    "generation_timestamp": "2026-09-18T04:16:22.074705",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 7,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 7
+  },
+  "profile": {
+    "developer_name": "triallax",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript optimization",
+      "Preact framework internals",
+      "React compatibility layer",
+      "Code minification techniques",
+      "String manipulation optimizations",
+      "TypeScript-compatible React APIs"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred via React typings)"
+    ],
+    "summary": "Mid-level JavaScript developer with specialized expertise in Preact and React-compatible optimization patterns. Demonstrates deep knowledge of JavaScript core behaviors (e.g., `typeof` + `==` optimizations) and performance-focused contributions to frontend libraries. Focuses on bundle size reduction, string manipulation efficiency, and React/Preact compatibility quirks. Experience primarily in frontend optimization rather than backend or DevOps.",
+    "identified_skills": {
+      "Frontend Frameworks": [
+        "Preact",
+        "React compatibility layer",
+        "React.Children API"
+      ],
+      "JavaScript Core": [
+        "Type checking (`typeof` + `==` vs `===`)",
+        "String concatenation optimization",
+        "Array iteration patterns"
+      ],
+      "Performance Optimization": [
+        "Code minification",
+        "Bundle size reduction",
+        "Brotli/Gzip compression"
+      ],
+      "Tooling & Build": [
+        "Minifiers (Terser-like)",
+        "JavaScript compression"
+      ],
+      "Code Quality": [
+        "Readability improvements",
+        "Documentation comments"
+      ],
+      "TypeScript": [
+        "React DefinitelyTyped compatibility"
+      ],
+      "Backend Frameworks": [],
+      "Testing": [],
+      "Package Management": [],
+      "Asynchronous Programming": [],
+      "State Management": [],
+      "UI Component Libraries": []
+    },
+    "skill_evidence": [
+      "PR: 'Always use ==/!= for typeof instead of ===/!==' — Demonstrates understanding of `typeof` + `==` optimization for minification",
+      "PR: 'Golfed render' — Shows 2-byte reduction in Preact's minified output (3657B → 3655B) via Brotli/Gzip",
+      "PR: 'Remove array provided to fn in React.Children map and forEach' — References Preact's `compat` module and React typings differences",
+      "PR: 'Remove unnecessary string concatenation' — Targets micro-optimizations in string handling for bundle size",
+      "PR: 'Add comment to clarify seemingly redundant string concatenation' — Focuses on code clarity while maintaining performance",
+      "File size changes in `.js.gz` and `.br` formats — Indicates involvement in compression tooling (Brotli/Gzip)",
+      "Mentions DefinitelyTyped compatibility — Shows awareness of React's TypeScript definitions"
+    ]
+  },
+  "statistics": {
+    "total_prs": 7,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

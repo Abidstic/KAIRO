@@ -1,0 +1,72 @@
+{
+  "reviewer_name": "mhassan1",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 3,
+    "total_prs": 2,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "mhassan1",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Axios internals (URL resolution, config handling)",
+      "JavaScript runtime debugging (TypeError handling)",
+      "Backporting and version compatibility",
+      "Defensive programming in JavaScript",
+      "Code review for correctness and edge cases"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6+)",
+      "TypeScript (inferred from Axios ecosystem, though not directly shown)"
+    ],
+    "summary": "mhassan1 is a Senior-level JavaScript reviewer with deep expertise in Axios internals, runtime debugging, and backporting fixes across versions. Their reviews demonstrate a strong focus on correctness, particularly in handling edge cases like undefined properties and boolean flag configurations. The reviewer excels at ensuring cross-version compatibility and maintaining robust error handling in JavaScript backend code, primarily within the Axios HTTP client ecosystem. Their attention to detail in code reviews and backporting strategies suggests significant experience in maintaining large-scale JavaScript libraries.",
+    "identified_skills": {
+      "HTTP Client & Networking": [
+        "Axios",
+        "URL path resolution",
+        "baseURL configuration",
+        "allowAbsoluteUrls"
+      ],
+      "JavaScript Core": [
+        "runtime error handling",
+        "TypeError debugging",
+        "undefined/null checks",
+        "defensive programming"
+      ],
+      "Version Control & Releases": [
+        "backporting",
+        "semantic versioning",
+        "cross-version compatibility",
+        "regression testing"
+      ],
+      "Code Review & Quality": [
+        "PR comment feedback",
+        "edge case validation",
+        "correctness-focused reviews"
+      ],
+      "Backend JavaScript": [
+        "Node.js (inferred)",
+        "HTTP request configuration"
+      ],
+      "Problem-Solving": [
+        "debugging runtime failures",
+        "logical refinement in functions"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: 'fix(buildFullPath): handle `allowAbsoluteUrls: false` without `baseURL`' — demonstrates runtime error handling and defensive checks",
+      "PR description: 'TypeError when allowAbsoluteUrls is false and baseURL is undefined' — explicit evidence of debugging JavaScript runtime issues",
+      "PR labels: 'backport', 'v0.x', 'v1.x' — shows expertise in version compatibility and backporting strategies",
+      "PR state: 'CHANGES_REQUESTED' — indicates reviewer provided detailed feedback on correctness before approval",
+      "Issue references: 'axios/issues/6824', 'axios/issues/6832' — confirms deep familiarity with Axios internals and configuration",
+      "PR title: 'Backport allowAbsoluteUrls vuln fix to v0.x' — highlights version-specific fix application and compatibility focus",
+      "PR description: 'Ensure fix works for both v0.x and v1.x' — demonstrates awareness of semantic versioning and regression testing"
+    ]
+  }
+}

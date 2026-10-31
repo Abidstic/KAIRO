@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "developer_name": "spirytoos",
+    "generation_timestamp": "2026-08-15T18:22:49.038147",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "spirytoos",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript Prototype System",
+      "Immutable Programming Patterns",
+      "Library Internals & API Design",
+      "Runtime Method Injection",
+      "Method Chaining Optimization",
+      "Defensive Object Cloning"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "JavaScript (Prototype-based)"
+    ],
+    "summary": "spirytoos is a mid-level JavaScript developer with specialized expertise in prototype-based library extension, immutable programming patterns, and runtime behavior modification. Their contributions focus on enhancing `moment.js` by dynamically injecting immutable method variants without altering the original source code. This work demonstrates deep understanding of JavaScript’s prototype system, method chaining, and object cloning techniques, with a strong emphasis on backward compatibility and API design. The developer’s approach combines core JavaScript internals with practical library optimization, making them well-suited for roles involving JavaScript library development, performance tuning, or architectural improvements in large-scale projects.",
+    "identified_skills": {
+      "Prototype & Object System": [
+        "JavaScript Prototype Manipulation",
+        "Prototype Method Injection",
+        "Dynamic Object Extension",
+        "Method Chaining Preservation"
+      ],
+      "Immutable Patterns": [
+        "Defensive Object Cloning",
+        "Immutable Method Generation",
+        "Side-Effect-Free API Design",
+        "Clone-Based State Management"
+      ],
+      "Library Architecture": [
+        "Prototype-Based Library Extension",
+        "API Backward Compatibility",
+        "Runtime Behavior Modification",
+        "Method Variant Generation"
+      ],
+      "Core JavaScript": [
+        "Prototype Chain Awareness",
+        "Object.create() Usage",
+        "Method Resolution Order",
+        "Runtime Property Definition"
+      ],
+      "Performance Considerations": [
+        "Cloning Overhead Mitigation",
+        "Prototype Lookup Optimization",
+        "Immutable vs. Mutable Trade-offs"
+      ],
+      "Build & Tooling (Inferred)": [
+        "Runtime Injection Techniques",
+        "No-File-Change Modifications",
+        "Potential Babel Plugin Usage"
+      ]
+    },
+    "skill_evidence": [
+      "PRs describe 'automatic generation of immutable methods on proto' via runtime prototype manipulation (no file changes)",
+      "Methods like `startOfImmu()` and `isoWeekImmu()` clone original objects before applying mutations, demonstrating defensive cloning",
+      "PRs emphasize preserving original object state while enabling immutable alternatives, aligning with immutable programming principles",
+      "Changes involve extending `moment.js` prototype dynamically without modifying source files, indicating prototype method injection",
+      "Method chaining is preserved in immutable variants, showing awareness of `moment.js`'s chaining-based API",
+      "PRs highlight 'cloning the original object then running the original method on it,' proving deep understanding of object cloning",
+      "No file changes (`files_changed: 0`) suggest runtime injection via techniques like `Object.defineProperty` or prototype patching",
+      "Immutable methods are named with `*Immu()` suffix, indicating deliberate API design for clarity and separation of concerns"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

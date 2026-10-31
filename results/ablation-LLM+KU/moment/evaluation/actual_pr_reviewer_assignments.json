@@ -1,0 +1,809 @@
+{
+  "summary": {
+    "extraction_metadata": {
+      "extraction_date": "2026-08-14 02:24:17",
+      "source_file": "../PR data for Reviewers/moment_moment_reviewer_data_test.json",
+      "total_prs_analyzed": 26
+    },
+    "overall_statistics": {
+      "total_prs": 26,
+      "prs_with_reviews": 26,
+      "prs_without_reviews": 0,
+      "total_reviews": 32,
+      "average_reviews_per_pr": 1.23,
+      "unique_reviewers_count": 9
+    },
+    "reviewer_activity": {
+      "by_prs_reviewed": {
+        "anandfresh": 15,
+        "rksp25": 5,
+        "suyundukov": 3,
+        "danielschuetter": 1,
+        "bs-divy-jain": 1,
+        "Anjaa84": 1,
+        "youneshenniwrites": 1,
+        "zemlanin": 1,
+        "KristjanESPERANTO": 1
+      },
+      "by_total_reviews": {
+        "anandfresh": 16,
+        "rksp25": 6,
+        "suyundukov": 3,
+        "Anjaa84": 2,
+        "danielschuetter": 1,
+        "bs-divy-jain": 1,
+        "youneshenniwrites": 1,
+        "zemlanin": 1,
+        "KristjanESPERANTO": 1
+      }
+    },
+    "top_reviewers": {
+      "most_prs_reviewed": [
+        "anandfresh",
+        15
+      ],
+      "most_total_reviews": [
+        "anandfresh",
+        16
+      ]
+    }
+  },
+  "pr_reviewer_assignments": [
+    {
+      "pr_number": 6123,
+      "pr_title": "Gigwell",
+      "pr_author": "danielschuetter",
+      "pr_state": "closed",
+      "created_at": "2023-04-25T18:55:49Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6123",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "danielschuetter",
+          "reviewer_id": 5623328,
+          "review_state": "COMMENTED",
+          "review_body": "Sorry this was accidental. Can you please delete the pr?",
+          "submitted_at": "2023-04-25T19:03:42Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "danielschuetter"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "danielschuetter"
+      ]
+    },
+    {
+      "pr_number": 6125,
+      "pr_title": "Italian days and months with capital letter",
+      "pr_author": "federicocappellotto97",
+      "pr_state": "closed",
+      "created_at": "2023-05-04T13:08:14Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6125",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "suyundukov",
+          "reviewer_id": 14142638,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "Are they capitalised in Italian? What are the rules? In English days, months, and holidays are always capitalised as these are proper nouns, but for example in French they are not capitalised, because of the rules regarding capitalisation.",
+          "submitted_at": "2023-05-29T08:29:51Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "suyundukov"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "suyundukov"
+      ]
+    },
+    {
+      "pr_number": 6127,
+      "pr_title": "feat: add support for getting month name with moment",
+      "pr_author": "Tobi-Adeneye",
+      "pr_state": "closed",
+      "created_at": "2023-05-08T21:19:31Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6127",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "suyundukov",
+          "reviewer_id": 14142638,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "What is the use case for it? What are you trying to accomplish?\r\n\r\nYou can use `format('MMMM')` if you want to get the month for a date.\r\n\r\nOr use `localeData` for it, like `moment.localeData().months(date)`.",
+          "submitted_at": "2023-05-29T08:18:11Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "suyundukov"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "suyundukov"
+      ]
+    },
+    {
+      "pr_number": 6128,
+      "pr_title": "[feature] Graceful handling of undefined locale name",
+      "pr_author": "Tobi-Adeneye",
+      "pr_state": "closed",
+      "created_at": "2023-05-08T21:27:34Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6128",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "suyundukov",
+          "reviewer_id": 14142638,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "Why are you passing undefined value here? What is the use case? I think it's up to user to check for the existence of the value before calling `isLocaleNameSane`.",
+          "submitted_at": "2023-05-29T08:10:53Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "suyundukov"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "suyundukov"
+      ]
+    },
+    {
+      "pr_number": 6129,
+      "pr_title": "Capital letter months in language Ukraine - uk.js",
+      "pr_author": "martinjack",
+      "pr_state": "closed",
+      "created_at": "2023-05-09T17:29:01Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6129",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "bs-divy-jain",
+          "reviewer_id": 99812914,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2023-07-07T05:49:36Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "bs-divy-jain"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "bs-divy-jain"
+      ]
+    },
+    {
+      "pr_number": 6151,
+      "pr_title": "Commiting into the moment/locale/guj.js folder ",
+      "pr_author": "levinbaria",
+      "pr_state": "open",
+      "created_at": "2023-08-16T06:19:24Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6151",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "anandfresh",
+          "reviewer_id": 45815625,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2023-09-19T04:50:01Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "anandfresh"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "anandfresh"
+      ]
+    },
+    {
+      "pr_number": 6155,
+      "pr_title": "PM and AM in dutch",
+      "pr_author": "reyostallenberg",
+      "pr_state": "open",
+      "created_at": "2023-08-24T15:19:48Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6155",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "anandfresh",
+          "reviewer_id": 45815625,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2023-09-23T08:27:21Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "rksp25",
+          "reviewer_id": 1412099,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2023-10-21T02:47:48Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "rksp25",
+        "anandfresh"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rksp25",
+        "anandfresh"
+      ]
+    },
+    {
+      "pr_number": 6156,
+      "pr_title": "feat: consider string number as milliseconds",
+      "pr_author": "0Ncoder0",
+      "pr_state": "closed",
+      "created_at": "2023-08-25T03:11:26Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6156",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "anandfresh",
+          "reviewer_id": 45815625,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2023-09-14T05:01:43Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "rksp25",
+          "reviewer_id": 1412099,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2023-10-21T02:47:29Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "rksp25",
+        "anandfresh"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rksp25",
+        "anandfresh"
+      ]
+    },
+    {
+      "pr_number": 6164,
+      "pr_title": "Create or.js",
+      "pr_author": "Ajinkya-2607",
+      "pr_state": "closed",
+      "created_at": "2023-08-29T12:26:09Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6164",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "anandfresh",
+          "reviewer_id": 45815625,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2023-09-05T08:50:03Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "anandfresh"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "anandfresh"
+      ]
+    },
+    {
+      "pr_number": 6166,
+      "pr_title": "[new locale] od: Odia",
+      "pr_author": "Ajinkya-2607",
+      "pr_state": "open",
+      "created_at": "2023-08-31T10:57:45Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6166",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "anandfresh",
+          "reviewer_id": 45815625,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2023-09-21T03:29:28Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "rksp25",
+          "reviewer_id": 1412099,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2023-10-21T02:47:03Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "rksp25",
+        "anandfresh"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rksp25",
+        "anandfresh"
+      ]
+    },
+    {
+      "pr_number": 6169,
+      "pr_title": "[bugfix] Access default year month date from moment instance",
+      "pr_author": "yulodl",
+      "pr_state": "closed",
+      "created_at": "2023-09-06T16:48:33Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6169",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "anandfresh",
+          "reviewer_id": 45815625,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2023-09-16T02:18:23Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "anandfresh",
+          "reviewer_id": 45815625,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2023-12-25T21:18:21Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "anandfresh"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "anandfresh"
+      ]
+    },
+    {
+      "pr_number": 6175,
+      "pr_title": "Create od-ind.js",
+      "pr_author": "SiDD-sIngH",
+      "pr_state": "open",
+      "created_at": "2023-10-04T21:18:44Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6175",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rksp25",
+          "reviewer_id": 1412099,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2023-10-21T02:46:39Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "rksp25"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rksp25"
+      ]
+    },
+    {
+      "pr_number": 6176,
+      "pr_title": "Update locale/vi.js to capitalize the first letter of months and weekdays",
+      "pr_author": "thanhminhmr",
+      "pr_state": "closed",
+      "created_at": "2023-10-11T10:18:37Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6176",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "rksp25",
+          "reviewer_id": 1412099,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2023-10-21T02:45:24Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "rksp25",
+          "reviewer_id": 1412099,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2023-10-21T02:46:11Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "rksp25"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "rksp25"
+      ]
+    },
+    {
+      "pr_number": 6195,
+      "pr_title": "ci: add Azure Static Web Apps workflow file",
+      "pr_author": "dhirenofficial",
+      "pr_state": "open",
+      "created_at": "2023-12-30T03:14:58Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6195",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "Anjaa84",
+          "reviewer_id": 49702955,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-01-24T09:26:19Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "Anjaa84",
+          "reviewer_id": 49702955,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-01-24T09:28:36Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "Anjaa84"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "Anjaa84"
+      ]
+    },
+    {
+      "pr_number": 6200,
+      "pr_title": "En-gi",
+      "pr_author": "nathannorrisfairsailcom",
+      "pr_state": "open",
+      "created_at": "2024-01-10T12:08:02Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6200",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "anandfresh",
+          "reviewer_id": 45815625,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-07-12T05:26:27Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "anandfresh"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "anandfresh"
+      ]
+    },
+    {
+      "pr_number": 6208,
+      "pr_title": "[bugfix] KO L date format",
+      "pr_author": "michalbencur",
+      "pr_state": "closed",
+      "created_at": "2024-02-15T12:39:04Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6208",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "anandfresh",
+          "reviewer_id": 45815625,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-02-23T05:55:00Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "anandfresh"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "anandfresh"
+      ]
+    },
+    {
+      "pr_number": 6217,
+      "pr_title": "[locale] Fixed ('L') format for Georgian and Flemish (Belgium Dutch).",
+      "pr_author": "adidaslevy",
+      "pr_state": "open",
+      "created_at": "2024-03-11T11:19:59Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6217",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "anandfresh",
+          "reviewer_id": 45815625,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-07-10T05:19:01Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "anandfresh"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "anandfresh"
+      ]
+    },
+    {
+      "pr_number": 6219,
+      "pr_title": "[locale] Change Saat to Saa in dist/locale/sw.js",
+      "pr_author": "Louq-Tech",
+      "pr_state": "closed",
+      "created_at": "2024-03-14T13:41:05Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6219",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "anandfresh",
+          "reviewer_id": 45815625,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-07-09T04:54:45Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "anandfresh"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "anandfresh"
+      ]
+    },
+    {
+      "pr_number": 6221,
+      "pr_title": "Fix for issue #6202: Append 'null' as Return Type for toJSON Method in TypeScript Definitions",
+      "pr_author": "utf26",
+      "pr_state": "open",
+      "created_at": "2024-03-21T07:28:32Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6221",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "anandfresh",
+          "reviewer_id": 45815625,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-07-19T04:16:49Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "anandfresh"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "anandfresh"
+      ]
+    },
+    {
+      "pr_number": 6227,
+      "pr_title": "bugfix/#6143",
+      "pr_author": "AKHILREDDY1636",
+      "pr_state": "open",
+      "created_at": "2024-04-02T12:56:01Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6227",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "anandfresh",
+          "reviewer_id": 45815625,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-07-07T17:09:45Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "anandfresh"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "anandfresh"
+      ]
+    },
+    {
+      "pr_number": 6238,
+      "pr_title": "[misc] refactor all object type checks in single file",
+      "pr_author": "qzoke",
+      "pr_state": "open",
+      "created_at": "2024-06-19T07:37:27Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6238",
+      "total_reviews": 1,
+      "total_review_comments": 1,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "youneshenniwrites",
+          "reviewer_id": 26605247,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-12-06T18:39:31Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "youneshenniwrites"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "youneshenniwrites"
+      ]
+    },
+    {
+      "pr_number": 6241,
+      "pr_title": "misc: add libraries link to readme",
+      "pr_author": "cwtuan",
+      "pr_state": "closed",
+      "created_at": "2024-06-28T12:54:09Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6241",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "anandfresh",
+          "reviewer_id": 45815625,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-07-07T17:08:31Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "anandfresh"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "anandfresh"
+      ]
+    },
+    {
+      "pr_number": 6249,
+      "pr_title": "[locale] Italian capitalization",
+      "pr_author": "ZeroKun265",
+      "pr_state": "closed",
+      "created_at": "2024-08-14T17:12:19Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6249",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "anandfresh",
+          "reviewer_id": 45815625,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-09-09T03:42:29Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "anandfresh"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "anandfresh"
+      ]
+    },
+    {
+      "pr_number": 6257,
+      "pr_title": "duration function changed",
+      "pr_author": "skjha80195",
+      "pr_state": "open",
+      "created_at": "2024-09-29T09:26:12Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6257",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "anandfresh",
+          "reviewer_id": 45815625,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-10-13T17:24:03Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "anandfresh"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "anandfresh"
+      ]
+    },
+    {
+      "pr_number": 6258,
+      "pr_title": "[locale] fix apostrophe typo for ukrainian",
+      "pr_author": "prasanna4567",
+      "pr_state": "open",
+      "created_at": "2024-10-04T12:14:56Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6258",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "zemlanin",
+          "reviewer_id": 711514,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-10-04T13:01:43Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "zemlanin"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "zemlanin"
+      ]
+    },
+    {
+      "pr_number": 6293,
+      "pr_title": "[misc] update readme, remove broken badges",
+      "pr_author": "Electroid",
+      "pr_state": "open",
+      "created_at": "2025-03-08T00:20:40Z",
+      "pr_url": "https://github.com/expressjs/express/pull/6293",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "KristjanESPERANTO",
+          "reviewer_id": 35647502,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-03-16T00:34:44Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "KristjanESPERANTO"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "KristjanESPERANTO"
+      ]
+    }
+  ]
+}

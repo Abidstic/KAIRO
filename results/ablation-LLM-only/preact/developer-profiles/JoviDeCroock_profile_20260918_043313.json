@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "JoviDeCroock",
+    "generation_timestamp": "2026-09-18T04:07:26.320524",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 541,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "JoviDeCroock",
+    "raw_response": "```json\n{\n  \"developer_name\": \"JoviDeCroock\",\n  \"experience_level\": \"Senior\",\n  \"primary_skills\": [\n    \"Preact internals (VDOM, event system, reactivity)\",\n    \"React API compatibility\",\n    \"Testing utilities (Jest, React Testing Library, `act`)\",\n    \"DOM manipulation and event handling\",\n    \"State management and render optimization\",\n    \"TypeScript integration and typing\",\n    \"Build system and bundling optimizations\",\n    \"Debugging and edge-case resolution\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript\"\n  ],\n  \"summary\": \"JoviDeCroock is a senior JavaScript developer with deep expertise in Preact, specializing in core virtual DOM manipulation, React API compatibility, and testing utilities. Their contributions focus on debugging edge cases in state management, DOM events, and form elements (e.g., multi-select support), as well as optimizing build systems (tree-shaking, ESM/CJS compatibility). Strong proficiency in TypeScript and asynchronous testing frameworks (Jest) is evident, alongside a commitment to backward compatibility and performance. The developer demonstrates exceptional debugging skills, root-cause analysis, and incremental improvements to Preact’s core functionality.\",\n  \"identified_skills\": {\n    \"Virtual DOM & Rendering\": [\n      \"VDOM normalization for every VNode\",\n      \"Render bailouts for performance\",\n      \"SVG attribute support in VDOM\",\n      \"CSS Grid and Flexbox compatibility\"\n    ],\n    \"Event Systems\": [\n      \"DOM event validation (non-function `on*` props)\",\n      \"Select element multi-select logic\",\n      \"Event handler debugging and runtime checks\"\n    ],\n    \"State Management\": [\n      \"State transition optimizations\",\n      \"Constructor `setState` anti-pattern fixes\",\n      \"Async state update debugging\"\n    ],\n    \"Testing & Test Utilities\": [\n      \"React Testing Library (`act` synchronization)\",\n      \"Jest async test debugging\",\n      \"Test-utils package maintenance\",\n      \"Compatibility testing for test utilities\"\n    ],\n    \"TypeScript & Typing\": [\n      \"TypeScript type fixes in test-utils\",\n      \"Prop type validation alignment\",\n      \"Runtime type safety improvements\"\n    ],\n    \"Build & Bundling\": [\n      \"Tree-shaking debug tools\",\n      \"ESM/CJS module system considerations\",\n      \"Post-build compatibility scripts\"\n    ],\n    \"Debugging & Edge Cases\": [\n      \"Non-function event handler validation\",\n      \"State update synchronization issues\",\n      \"Legacy browser compatibility fixes\"\n    ],\n    \"API Compatibility\": [\n      \"React API parity (e.g., `<select>` multi-select)\",\n      \"No-breaking change enforcement\",\n      \"Legacy browser polyfills (e.g., IE CSS Grid)\"\n    ],\n    \"Code Quality\": [\n      \"Incremental refactoring\",\n      \"Small, focused changes\",\n      \"Defensive programming patterns\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"(fix) - don't execute non-function events and debug them (Event Systems)\",\n    \"Render bailout on equal state transition (State Management)\",\n    \"(Test) - testutils package with act for hooks (Testing & Test Utilities)\",\n    \"Fix/inconsistent act (Testing & Test Utilities)\",\n    \"Multi-select support for `<select>` with arrays of `selected` values (Event Systems)\",\n    \"(chore) - allow debug to be tree-shaken in production (Build & Bundling)\",\n    \"Fixes for the typings in test-utils (TypeScript & Typing)\",\n    \"Prevent passing tagName to DOM (Debugging & Edge Cases)\",\n    \"Chore/support compat testutils (API Compatibility)\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 78 column 3 (char 3499)"
+  },
+  "statistics": {
+    "total_prs": 541,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

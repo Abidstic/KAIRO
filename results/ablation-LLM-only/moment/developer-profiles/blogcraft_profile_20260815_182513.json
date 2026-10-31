@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "developer_name": "blogcraft",
+    "generation_timestamp": "2026-08-15T18:20:39.199358",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "blogcraft",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "JavaScript static analysis (JSLint)",
+      "Moment.js locale customization",
+      "JavaScript control flow optimization",
+      "Internationalization (i18n) in JS libraries",
+      "Code refactoring for maintainability"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "Node.js"
+    ],
+    "summary": "blogcraft is a disciplined JavaScript developer with demonstrated expertise in Moment.js's locale system and JavaScript static analysis. Their contributions focus on code quality improvements (JSLint fixes) and internationalization-specific customizations (e.g., Chilean locale formatting). The developer shows strong attention to detail, collaborative contribution patterns, and deep familiarity with date/time library internals. While contributions are limited to Moment.js, the precision in fixing subtle syntax issues and locale configurations suggests a mid-level proficiency in JavaScript fundamentals and library maintenance.",
+    "identified_skills": {
+      "Static Analysis & Linting": [
+        "JSLint",
+        "Unreachable code detection",
+        "Control flow optimization"
+      ],
+      "Internationalization": [
+        "Moment.js locale customization",
+        "Date/time formatting conventions",
+        "Regional locale configuration"
+      ],
+      "JavaScript Language": [
+        "ES5/ES6 syntax",
+        "Object manipulation",
+        "Module patterns"
+      ],
+      "Code Quality Practices": [
+        "Incremental refactoring",
+        "Linter-driven improvements",
+        "Discussion-based contributions"
+      ],
+      "Library Maintenance": [
+        "Moment.js internals",
+        "Locale file management",
+        "Library-specific configurations"
+      ],
+      "Collaborative Workflow": [
+        "PR discussion labels",
+        "Minimal, focused changes",
+        "Code review engagement"
+      ]
+    },
+    "skill_evidence": [
+      "PR #2 title '[misc] jslint: Refactor to avoid unreachable 'break' after 'return'"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

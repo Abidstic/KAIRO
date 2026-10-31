@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "developer_name": "andrewiggins",
+    "generation_timestamp": "2026-09-18T04:08:22.770675",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 233,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "andrewiggins",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "React-compatible component patterns",
+      "TypeScript generics and interfaces",
+      "Test-driven development (TDD)",
+      "Virtual DOM (VNode) implementation",
+      "React lifecycle method replication",
+      "Babel + TypeScript build tooling",
+      "Performance optimization (byte-level)",
+      "Cross-framework compatibility testing"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "Babel (JSX/TSX compilation)"
+    ],
+    "summary": "Senior JavaScript developer specializing in React-compatible ecosystems with deep expertise in TypeScript, testing, and performance optimization. Demonstrates advanced knowledge of React internals (lifecycle, VNode, hooks) and their replication in lightweight alternatives like Preact. Skilled in tooling (Babel, TypeScript compilation) and debugging edge cases with rigorous test coverage. Focuses on maintaining compatibility while improving performance and type safety.",
+    "identified_skills": {
+      "React Ecosystem": [
+        "React lifecycle methods",
+        "VNode (Virtual DOM Node) typing",
+        "Props and children handling",
+        "Hooks compatibility (useEffect)",
+        "React-like component patterns"
+      ],
+      "TypeScript Advanced": [
+        "Generics (VNode<T>)",
+        "Interface extensibility",
+        "TypeScript→JavaScript conversion",
+        "Default type parameters",
+        "Type compatibility validation"
+      ],
+      "Testing Practices": [
+        "Unit testing for lifecycle methods",
+        "Referential equality validation",
+        "Children diffing efficiency tests",
+        "Test-driven behavior documentation",
+        "Edge-case test coverage"
+      ],
+      "Build Tooling": [
+        "Babel presets for TypeScript",
+        "Code mangle configurations",
+        "Babel compilation optimizations",
+        "Private property mangling"
+      ],
+      "Performance Optimization": [
+        "Byte-level micro-optimizations",
+        "Function inlining",
+        "Diffing algorithm efficiency",
+        "Size reduction techniques"
+      ],
+      "Documentation": [
+        "PR description clarity",
+        "Test-driven behavior explanation",
+        "Code readability improvements"
+      ],
+      "JavaScript Language": [
+        "Modern JS/TS features (generics, interfaces)",
+        "ES6+ syntax awareness"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Extends `RenderableProps` interface for library compatibility (TypeScript)",
+      "PR #2: Provides default types for generic `VNode<T>` parameters (TypeScript generics)",
+      "PR #4: Implements `getDerivedStateFromProps` with React-like behavior (lifecycle methods)",
+      "PR #6: Inlines unused functions to reduce byte size (performance optimization)",
+      "PR #7: Adds unit test for `getDerivedStateFromProps` behavior (TDD)",
+      "PR #8: Tests `props.children` with different child types (props handling)",
+      "PR #11: Validates referential equality in `componentDidUpdate` (edge-case testing)",
+      "PR #13: Configures Babel mangle for hooks (e.g., `_parentDom`) (build tooling)",
+      "PR #14: Adds demo to catch children diffing inefficiencies (performance testing)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 233,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "developer_name": "adampbragg",
+    "generation_timestamp": "2026-09-17T23:17:56.184593",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "adampbragg",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js API customization",
+      "JavaScript callback architecture",
+      "Frontend data visualization",
+      "Tooltip interaction patterns"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "Mid-level JavaScript developer with specialized expertise in Chart.js API design, particularly focused on enhancing tooltip customization and callback-based data passing. Contributions demonstrate deep understanding of frontend library extensibility and structured data handling in JavaScript. Experience primarily in frontend JavaScript ecosystems, with contributions to open-source projects following collaborative PR workflows. No evidence of backend or testing-related work in this dataset.",
+    "identified_skills": {
+      "Charting Libraries": [
+        "Chart.js tooltip API",
+        "Custom tooltip callback extensions",
+        "Data visualization interaction patterns"
+      ],
+      "JavaScript Patterns": [
+        "Callback-based architecture",
+        "Structured data object passing",
+        "Optional function arguments"
+      ],
+      "Frontend Development": [
+        "Library extensibility",
+        "Developer experience (DX) improvements",
+        "Frontend UX patterns"
+      ],
+      "Collaboration": [
+        "GitHub PR workflow",
+        "Open-source contribution",
+        "Technical documentation"
+      ],
+      "Data Structures": [
+        "Nested JavaScript objects",
+        "Array manipulation for visualization"
+      ]
+    },
+    "skill_evidence": [
+      "PR #2927: Added `tooltipItems` argument to custom tooltip callback, enabling structured data access for tooltip customization",
+      "PR #2944: Extended tooltip callback with `graph.data` parameter to provide additional chart context to tooltip logic",
+      "All PRs demonstrate passing complex data objects (`tooltipItems`, `graph.data`) to callbacks for dynamic rendering",
+      "PR descriptions consistently explain API changes with clear examples for frontend developers",
+      "Contributions focus on improving tooltip UX without breaking existing Chart.js functionality",
+      "PRs show awareness of backward compatibility when extending public API surfaces",
+      "No backend-related code changes or Node.js dependencies visible in PR metadata",
+      "All contributions involve frontend JavaScript patterns, specifically callback-based data handling"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

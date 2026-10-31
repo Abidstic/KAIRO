@@ -1,0 +1,70 @@
+{
+  "reviewer_name": "piranna",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 4,
+    "total_prs": 2,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "piranna",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Asynchronous JavaScript (Promises/Thenables)",
+      "Node.js backend development",
+      "Error handling in async code",
+      "API design and compatibility",
+      "Code review for robustness"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (implied by API design focus)"
+    ],
+    "summary": "piranna demonstrates strong expertise in asynchronous JavaScript patterns, particularly Promises and Thenables, within a Node.js backend context. Their reviews focus on improving error handling, API compatibility, and internal system robustness. The evidence suggests a mid-level reviewer with deep technical depth in backend JavaScript, specializing in core utilities and response handling systems. Their contributions emphasize correctness over feature development, indicating a focus on technical debt reduction and API stability.",
+    "identified_skills": {
+      "Asynchronous Programming": [
+        "Promises",
+        "Thenables",
+        "Error handling in async flows"
+      ],
+      "Backend Systems": [
+        "Node.js internals",
+        "HTTP response handling",
+        "ContentTypeParser",
+        "Reply objects"
+      ],
+      "API Design": [
+        "API compatibility",
+        "Semantic versioning (semver-minor)",
+        "Backward compatibility"
+      ],
+      "Code Quality": [
+        "Code review feedback",
+        "Technical debt reduction",
+        "Robustness improvements"
+      ],
+      "Error Handling": [
+        "Promise rejection handling",
+        "Graceful error propagation"
+      ],
+      "Modular JavaScript": [
+        "Internal API design",
+        "Modular utilities"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'Properly implement Thenable API on Reply objects' explicitly references Promise-like objects and error handling in async contexts",
+      "Label 'semver-minor' indicates awareness of versioning and API stability considerations during implementation",
+      "PR title 'Improve errors handling in ContentTypeParser.run()' shows focus on error resilience in parsing/async operations",
+      "Multiple commented PRs with 'internals' label suggest deep engagement with backend core systems and utility APIs",
+      "Review state indicates repeated technical scrutiny without bulk refactoring, implying detailed feedback on subtle bugs",
+      "Concepts like 'Reply' objects and 'ContentTypeParser' align with HTTP response handling and backend frameworks like Fastify/Express",
+      "Emphasis on 'proper implementation' suggests attention to edge cases and legacy compatibility in async patterns"
+    ]
+  }
+}

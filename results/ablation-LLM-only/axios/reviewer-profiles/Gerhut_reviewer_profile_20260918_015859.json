@@ -1,0 +1,55 @@
+{
+  "reviewer_name": "Gerhut",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 2,
+    "total_prs": 1,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "Gerhut",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Axios library internals",
+      "TypeScript/JavaScript typing",
+      "Basic code review engagement"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "Gerhut's review profile is based on two identical PR entries with no visible review comments or file changes, limiting confidence in their skills. The only discernible signal is a PR title suggesting familiarity with Axios and TypeScript typing. Without additional evidence (e.g., review comments, code changes, or repo context), their expertise cannot be confidently assessed beyond basic awareness of Axios and TypeScript. Their engagement in reviews is noted but lacks substantive technical feedback.",
+    "identified_skills": {
+      "HTTP Clients & Libraries": [
+        "Axios"
+      ],
+      "Type Systems & Typing": [
+        "TypeScript annotations",
+        "API method refactoring"
+      ],
+      "Code Review Practices": [
+        "Review engagement"
+      ],
+      "Backend/Node.js": [],
+      "Frontend Frameworks": [],
+      "Testing & Tooling": [],
+      "Asynchronous Patterns": [],
+      "Error Handling": [],
+      "Performance Optimization": [],
+      "Security": [],
+      "Documentation": []
+    },
+    "skill_evidence": [
+      "PR title '[typing] move AxiosStatic#create to AxiosInstance#create' indicates awareness of Axios and TypeScript typing",
+      "Review state 'COMMENTED' suggests engagement in code review but lacks visible feedback",
+      "No file changes or comments provided, limiting evidence of technical depth",
+      "Axios library context implies potential Node.js or frontend usage, though unconfirmed",
+      "Limited dataset (only 2 identical entries) prevents meaningful skill inference"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "reviewer_name": "gfyoung",
+  "generated_at": "20260917_181205",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 2,
+    "total_prs": 1,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "gfyoung",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "npm CLI internals",
+      "Node.js command-line development",
+      "npm dependency management",
+      "version control and release workflows",
+      "technical regression debugging"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)",
+      "TypeScript (inferred from npm ecosystem)"
+    ],
+    "summary": "gfyoung demonstrates strong expertise in npm's command-line internals and Node.js-based package management systems. Their review focuses on debugging regressions in npm's CLI behavior, particularly around exit codes, versioning, and dependency checks. While evidence is limited to a single PR, their analysis of branch targeting (e.g., release-latest) and behavioral changes suggests deep familiarity with npm's release engineering processes. No frontend or advanced JavaScript patterns are visible in this sample, but their technical review acumen indicates a Mid-level Node.js specialist with specialized knowledge of npm's internals.",
+    "identified_skills": {
+      "Package Management Systems": [
+        "npm CLI internals",
+        "npm outdated command",
+        "exit code handling",
+        "dependency versioning"
+      ],
+      "Node.js Ecosystem": [
+        "Node.js CLI development",
+        "npm release workflows",
+        "release-latest branch targeting"
+      ],
+      "Debugging & Regression Analysis": [
+        "behavioral regression tracking",
+        "cross-reference PR analysis",
+        "fix placement strategy"
+      ],
+      "Version Control & Releases": [
+        "npm versioning systems",
+        "branch-specific fixes",
+        "release cycle awareness"
+      ],
+      "Technical Review": [
+        "scope impact assessment",
+        "strategic fix placement",
+        "technical justification"
+      ],
+      "JavaScript Language": [],
+      "Frontend Frameworks": [],
+      "Testing": [],
+      "Build Systems": []
+    },
+    "skill_evidence": [
+      "PR references 'npm outdated' and 'npm/cli/issues/2556', indicating deep npm CLI knowledge",
+      "Discussion of 'release-latest' branch targeting shows awareness of npm's release workflows",
+      "Mentions 'dropped this behavior without any explanation' demonstrates regression debugging skills",
+      "Questions about 'where to wr...' (likely fix placement) indicate strategic technical review",
+      "Exit code handling implied by CLI behavior regression context",
+      "Cross-references another PR ('xref'ed PR') to trace behavioral changes",
+      "Debates fix placement between branches, showing release engineering understanding"
+    ]
+  }
+}

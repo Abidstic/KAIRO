@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "developer_name": "fbonzon",
+    "generation_timestamp": "2026-08-15T18:21:20.362939",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "fbonzon",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Moment.js localization",
+      "JavaScript date/time parsing",
+      "Unicode character handling",
+      "JavaScript code refactoring",
+      "Grunt-based build systems",
+      "French language-specific date formatting"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "TypeScript (indirect evidence)"
+    ],
+    "summary": "fbonzon is a mid-level JavaScript developer with specialized expertise in Moment.js's localization system, particularly French language-specific date/time formatting. Their contributions demonstrate deep knowledge of locale-specific parsing rules, Unicode character handling, and code refactoring for improved clarity. While their experience is focused on legacy JavaScript (ES5/ES6) and Moment.js internals, they show strong attention to detail in code quality, testing workflows, and internationalization best practices. Their work is primarily in the domain of date/time libraries rather than modern frontend or backend frameworks.",
+    "identified_skills": {
+      "Date/Time Libraries": [
+        "Moment.js internals",
+        "Locale-specific date parsing",
+        "Ordinal date formatting (French)",
+        "Day-of-month ordinal parsing"
+      ],
+      "Internationalization": [
+        "Unicode character handling (’)",
+        "French language-specific formatting",
+        "Locale alignment and consistency",
+        "Ordinal number parsing rules"
+      ],
+      "Code Quality & Refactoring": [
+        "Function naming improvements",
+        "Code formatting alignment",
+        "Semantic refactoring",
+        "Readability-focused changes"
+      ],
+      "Build & Testing Systems": [
+        "Grunt task execution",
+        "Test suite execution",
+        "Build script awareness"
+      ],
+      "JavaScript Language": [
+        "ES5/ES6 syntax",
+        "Basic TypeScript compatibility (indirect)"
+      ],
+      "Collaboration & Documentation": [
+        "Clear PR descriptions",
+        "Technical justification for changes",
+        "GitHub PR workflow familiarity"
+      ],
+      "Legacy JavaScript Ecosystem": [
+        "Moment.js-specific patterns",
+        "Grunt-based build tooling"
+      ]
+    },
+    "skill_evidence": [
+      "PR #2: Replaced straight quotes ('') with Unicode curly quotes (’) in French locale strings, demonstrating Unicode handling expertise",
+      "PR #3: Renamed `ordinalParse` to `dayOfMonthOrdinalParse` to clarify function purpose, showing strong code refactoring skills",
+      "PR #2: Aligned French locale code formatting for better readability, indicating attention to code quality standards",
+      "PR #2: Explicitly stated 'Ran all tests' before merging, proving familiarity with test execution workflows",
+      "PR #3: Included justification for function rename ('ordinalParse was misleading'), showing technical communication skills",
+      "All PRs: Focused exclusively on Moment.js locale files, confirming deep specialization in date/time library internals",
+      "PR #3: Ran `grunt` before merging, demonstrating awareness of Moment.js's legacy build system",
+      "PR #2: Addressed French-specific ordinal parsing rules (e.g., '1er', '2e'), proving expertise in language-specific date formatting"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

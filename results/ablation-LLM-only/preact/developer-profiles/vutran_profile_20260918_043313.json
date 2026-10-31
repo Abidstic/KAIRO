@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "vutran",
+    "generation_timestamp": "2026-09-18T04:20:30.794513",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "vutran",
+    "raw_response": "```json\n{\n  \"developer_name\": \"vutran\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Preact (Virtual DOM, State Management, Lifecycle Methods)\",\n    \"TypeScript (Type Definitions, API Contracts)\",\n    \"DOM Attribute Handling & Normalization\",\n    \"Code Transformation & Codemods (React → Preact Migration)\",\n    \"JavaScript Functional State Updates\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript\"\n  ],\n  \"summary\": \"vutran is a mid-level JavaScript developer specializing in Preact’s frontend ecosystem, with deep expertise in TypeScript integration, virtual DOM behavior, and code migration tooling. Their contributions focus on refining Preact’s API correctness, improving type safety, and enabling seamless React-to-Preact transitions through codemods. The developer demonstrates precision in handling edge cases like DOM attribute normalization and functional state updates, indicating a strong grasp of both Preact’s internals and TypeScript’s type system. While contributions are narrowly focused on Preact and its tooling, the depth of technical precision suggests experience beyond junior levels but without broad frontend or backend exposure.\",\n  \"identified_skills\": {\n    \"Frontend Frameworks & Libraries\": [\n      \"Preact (Virtual DOM Implementation)\",\n      \"Preact State Management (setState)\",\n      \"Preact Component Lifecycle Methods\",\n      \"React-to-Preact Migration Patterns\"\n    ],\n    \"TypeScript & Typings\": [\n      \"TypeScript Type Definitions (Component Lifecycle)\",\n      \"Functional State Update Typings\",\n      \"API Contract Refinements (nextProps vs. props)\"\n    ],\n    \"DOM & Browser APIs\": [\n      \"DOM Attribute Normalization\",\n      \"Custom Element Attribute Handling\"\n    ],\n    \"Tooling & Build Systems\": [\n      \"Code Transformation (JSCodeshift-like Tools)\",\n      \"Preact Codemod Development\",\n      \"Library Interoperability (React ↔ Preact)\"\n    ],\n    \"JavaScript Core Patterns\": [\n      \"Functional State Updates\",\n      \"Attribute Spread Handling\"\n    ],\n    \"Documentation & API Design\": [\n      \"Type Safety Improvements\",\n      \"API Clarity Enhancements\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR: 'allow input's list to pass through as an attribute' → Demonstrates DOM attribute normalization knowledge in Preact’s virtual DOM.\",\n    \"PR: 'update setState def. to support func.' → Shows TypeScript support for functional state updates, aligning with React’s `setState` patterns.\",\n    \"PR: 'add more typescript typings - component lifecycle methods' → Extends type definitions for lifecycle hooks (e.g., `componentDidUpdate`), improving type safety.\",\n    \"PR: 'add preact-codemod to libs' → Indicates involvement in React-to-Preact migration tooling, requiring deep understanding of both libraries’ APIs.\",\n    \"Renaming `props` to `nextProps` in lifecycle methods → Reflects API design focus on clarity and type safety.\",\n    \"Targeted typings for `setState` function signatures → Proves awareness of TypeScript’s type system and Preact’s runtime behavior.\",\n    \"Minimal, precision-focused PRs → Suggests a specialist role in correctness and edge-case handling over broad feature development.\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 54 column 3 (char 3177)"
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

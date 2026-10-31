@@ -1,0 +1,19 @@
+{
+  "reviewer_name": "ovangle",
+  "generated_at": "20260815_172449",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 2,
+    "total_prs": 1,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "ovangle",
+    "raw_response": "```json\n{\n  \"reviewer_name\": \"ovangle\",\n  \"experience_level\": \"Unknown\",\n  \"primary_skills\": [],\n  \"programming_languages\": [],\n  \"summary\": \"The provided data for reviewer 'ovangle' contains no actionable evidence to assess their JavaScript technical skills. The dataset consists of two identical PR entries with no review comments, code changes, or technical context, making it impossible to infer expertise in JavaScript, frameworks, or related technologies. The PR title suggests potential exposure to internationalization features (e.g., locale detection), but without concrete review activity or code context, this remains speculative and unconfirmed.\",\n  \"identified_skills\": {\n    \"Internationalization\": [],\n    \"Browser APIs\": [],\n    \"Code Review\": [],\n    \"Frontend JavaScript\": [],\n    \"Backend JavaScript\": [],\n    \"Testing\": [],\n    \"Build Tools\": [],\n    \"DevOps\": []\n  },\n  \"skill_evidence\": [\n    \"PR title '[feature] Add \\'default\\' locale that detects browser setting' suggests potential exposure to JavaScript's Intl API or navigator APIs, but no review comments or code changes confirm this.\",\n    \"Review state is 'COMMENTED' but no comments or feedback are provided, making it impossible to assess review quality or technical depth.\",\n    \"Files changed: 0, additions: 0, deletions: 0 indicate no code context or technical discussion in the PR entries.\",\n    \"Labels 'Enhancement' and 'Up-For-Grabs' are non-technical and do not provide insight into JavaScript expertise.\",\n    \"No evidence of framework-specific discussions (e.g., React, Vue, Node.js) or library usage (e.g., Lodash, Axios) in the dataset.\"\n  ]\n}\n```",
+    "parsing_error": "Invalid \\escape: line 18 column 30 (char 932)"
+  }
+}

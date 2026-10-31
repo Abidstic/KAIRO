@@ -1,0 +1,62 @@
+{
+  "reviewer_name": "erhangundogan",
+  "generated_at": "20260815_171336",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 1,
+    "total_prs": 3,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "erhangundogan",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Internationalization (i18n) in JavaScript",
+      "Turkish localization (l10n)",
+      "Intl API usage (RelativeTimeFormat, DateTimeFormat)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "erhangundogan demonstrates strong expertise in JavaScript internationalization and Turkish localization, with a focus on reviewing translation correctness and localized time/date formatting. Their reviews are narrowly specialized in i18n-related tasks, showing deep familiarity with Intl API patterns and cultural/linguistic nuances for Turkish. While no evidence of broader JavaScript ecosystem skills (e.g., frameworks, backend systems) is present, their localization-specific reviews indicate a Mid-level proficiency in JavaScript for i18n tasks. The reviewer excels in validating translations and providing constructive feedback on localized content but lacks visibility into general JavaScript development patterns or system architecture discussions.",
+    "identified_skills": {
+      "Internationalization & Localization": [
+        "Turkish (tr) localization",
+        "Intl.RelativeTimeFormat",
+        "Intl.DateTimeFormat (meridiem support)",
+        "Day name localization (Turkish)",
+        "Translation file review (JSON/YAML)"
+      ],
+      "JavaScript Language Features": [
+        "Intl API integration"
+      ],
+      "Code Review Patterns": [
+        "Translation correctness validation",
+        "Cultural/linguistic accuracy feedback"
+      ],
+      "Collaboration & Workflow": [
+        "Localization PR review",
+        "Hacktoberfest participation (contextual)"
+      ],
+      "Backend/Frontend": [],
+      "Testing & Tooling": [],
+      "Performance Optimization": [],
+      "Asynchronous Programming": [],
+      "Dependency Management": []
+    },
+    "skill_evidence": [
+      "PR title '[locale] tr: Add meridiem support' indicates familiarity with Turkish time formatting and Intl.DateTimeFormat",
+      "PR title '[locale] tr: update translation of Monday and Saturday' shows review of Turkish day names and localization correctness",
+      "All PRs have `files_changed=0`, confirming focus on translation files (JSON/YAML) rather than code logic",
+      "Review state 'APPROVED' or 'COMMENTED' suggests confident validation of Turkish-specific translations without code changes",
+      "No evidence of framework/library usage (e.g., React, Vue, i18next) in PR titles or comments",
+      "Hacktoberfest label on one PR indicates participation in open-source localization tasks but not broader JS ecosystem",
+      "Comments imply discussion of translation accuracy (e.g., fixing 'Meridem' → 'Meridiem') rather than technical JS patterns",
+      "No references to async/await, Promises, or modern JS features in review data"
+    ]
+  }
+}

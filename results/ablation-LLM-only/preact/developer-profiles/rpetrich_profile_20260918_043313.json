@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "rpetrich",
+    "generation_timestamp": "2026-09-18T04:26:47.794786",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "rpetrich",
+    "raw_response": "```json\n{\n  \"developer_name\": \"rpetrich\",\n  \"experience_level\": \"Senior\",\n  \"primary_skills\": [\n    \"React/Preact Virtual DOM internals\",\n    \"Performance optimization for rendering\",\n    \"Component lifecycle methods\",\n    \"DOM diffing and batching\",\n    \"Error boundary implementation\",\n    \"Microtask scheduling for async rendering\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (inferred from Preact ecosystem)\"\n  ],\n  \"summary\": \"rpetrich is a Senior JavaScript developer with deep expertise in React/Preact virtual DOM implementation and frontend performance optimization. Their contributions focus on low-level rendering optimizations, lifecycle method enhancements, and DOM consistency fixes. The developer demonstrates strong proficiency in asynchronous rendering patterns, error handling in component lifecycles, and intentional API design decisions that balance React compatibility with performance. Contributions are highly technical, targeting core rendering performance rather than application-layer concerns.\",\n  \"identified_skills\": {\n    \"Virtual_DOM_Implementation\": [\n      \"React/Preact virtual DOM diffing\",\n      \"Rendering queue management\",\n      \"Microtask-based rendering batching\"\n    ],\n    \"Component_Lifecycle\": [\n      \"componentDidCatch implementation\",\n      \"Lifecycle method error handling\",\n      \"DOM consistency during lifecycle transitions\"\n    ],\n    \"Performance_Optimization\": [\n      \"DOM update batching\",\n      \"Avoiding redundant re-renders\",\n      \"dangerouslySetInnerHTML optimization\",\n      \"Performance benchmarking (perf-review labels)\"\n    ],\n    \"React_API_Adaptation\": [\n      \"Intentional API simplifications\",\n      \"React compatibility considerations\",\n      \"Error boundary pattern adaptation\"\n    ],\n    \"Asynchronous_Programming\": [\n      \"Microtask scheduling\",\n      \"Render queue draining\",\n      \"Asynchronous DOM updates\"\n    ],\n    \"DOM_Manipulation\": [\n      \"Virtual DOM diffing algorithms\",\n      \"DOM state consistency fixes\",\n      \"dangerouslySetInnerHTML handling\"\n    ],\n    \"Testing_and_Review\": [\n      \"Performance-focused code reviews\",\n      \"DOM consistency validation\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR 1: Added 'componentDidCatch' support with note about React's second 'info' argument, showing React API awareness and error boundary implementation\",\n    \"PR 1: Explicit mention of 'does not pass a second \\'info\\' argument like React does', demonstrating intentional API design decisions\",\n    \"PR 2: Fixed 'dangerouslySetInnerHTML' being reapplied repeatedly with 'needs-perf-review' label, proving performance optimization focus and DOM diffing knowledge\",\n    \"PR 2: Reference to 'DOM will be left in an inconsistent state as it is in React 8', showing React version compatibility awareness\",\n    \"PR 3: 'Drain entire render queue in a single microtask' title indicates microtask scheduling expertise for rendering batching\",\n    \"PR 3: 'needs-perf-review' label confirms performance testing and benchmarking practices\",\n    \"All PRs demonstrate deep understanding of React's rendering model through Preact implementation choices\",\n    \"No backend or testing framework evidence found, confirming frontend specialization\"\n  }\n}\n```",
+    "parsing_error": "Invalid \\escape: line 56 column 56 (char 2416)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

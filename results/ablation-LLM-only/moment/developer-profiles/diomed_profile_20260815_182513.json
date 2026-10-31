@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "diomed",
+    "generation_timestamp": "2026-08-15T18:12:18.052836",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "diomed",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Moment.js localization",
+      "Croatian/Serbian date formatting",
+      "Internationalization (i18n) patterns",
+      "Unicode-aware string handling",
+      "Library maintenance contributions"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "JSON (locale configuration)"
+    ],
+    "summary": "diomed is a Mid-level JavaScript developer with specialized expertise in Moment.js's localization system, particularly for Croatian and Serbian language support. Their contributions focus on ensuring accurate date formatting and cultural conventions in regional locales, demonstrating deep knowledge of internationalization patterns and Unicode handling. While their work is confined to library maintenance and localization quality improvements, their attention to detail and cultural sensitivity in language-specific formatting suggests strong problem-solving skills in niche technical areas. No evidence exists of frontend/backend frameworks or modern JavaScript features in their contributions.",
+    "identified_skills": {
+      "Library Localization": [
+        "Moment.js locale files",
+        "Croatian (hr.js) localization",
+        "Serbian (sr.js) localization",
+        "Date formatting conventions"
+      ],
+      "Internationalization": [
+        "Unicode normalization",
+        "Language-specific date patterns",
+        "Regional calendar systems",
+        "Month name standardization"
+      ],
+      "String Processing": [
+        "Diacritic handling",
+        "String validation",
+        "Cultural date formatting rules"
+      ],
+      "Documentation & Quality": [
+        "Locale documentation corrections",
+        "Testing awareness (Needs tests label)",
+        "Non-functional code improvements"
+      ],
+      "Modular Architecture": [
+        "Standalone locale modules",
+        "Configuration file patterns"
+      ],
+      "Language Awareness": [
+        "Croatian language rules",
+        "Serbian language rules",
+        "Regional spelling standards"
+      ],
+      "Testing": [],
+      "Build Tools": [],
+      "Frontend Frameworks": [],
+      "Backend Frameworks": []
+    },
+    "skill_evidence": [
+      "PRs reference `hr.js` and `sr.js` files for Croatian/Serbian locale corrections, demonstrating focused work on specific locale modules in Moment.js",
+      "PR descriptions include examples of correct Croatian date formatting (`14. veljače 3. ožujka`), showing practical application of language-specific rules",
+      "One PR labeled 'Needs tests' indicates awareness of testing gaps in locale files, suggesting familiarity with testing concepts even if not implemented",
+      "Unicode characters (e.g., `č`, `š`, `ž`) appear in PR descriptions, proving attention to diacritic handling in non-Latin scripts",
+      "All PRs involve correcting informal or incorrect month name spellings (e.g., `sijećdanj` → `siječanj`), highlighting deep language knowledge",
+      "No code changes are shown in PRs (`files_changed = 0`), but descriptions imply internal understanding of how Moment.js processes locale strings",
+      "PRs focus exclusively on date formatting conventions rather than core functionality, indicating specialization in i18n quality assurance"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

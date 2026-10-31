@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "developer_name": "zkat",
+    "generation_timestamp": "2026-09-17T18:22:16.812489",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 32,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "zkat",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Node.js internals",
+      "npm CLI architecture",
+      "Dependency resolution",
+      "Package management systems",
+      "Semantic versioning",
+      "CLI tooling",
+      "Git integration",
+      "Release workflows",
+      "Offline dependency caching"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from npm ecosystem)",
+      "Bash (for npm scripts)"
+    ],
+    "summary": "zkat is a senior-level JavaScript developer with deep expertise in Node.js and npm internals. Their contributions focus on npm's core package management system, CLI tooling, dependency resolution, and release workflows. The developer demonstrates strong skills in extending npm's functionality, optimizing dependency management (including offline scenarios), and maintaining robust release processes. Evidence from PRs shows hands-on experience with npm's registry interactions, versioning systems, and integration with Git tools. While primarily backend-focused, their work reflects a comprehensive understanding of npm's ecosystem and its underlying mechanics.",
+    "identified_skills": {
+      "Core Node.js": [
+        "Node.js runtime APIs",
+        "Child processes",
+        "File system operations",
+        "Stream handling"
+      ],
+      "npm Architecture": [
+        "npm CLI command extensions",
+        "Dependency graph manipulation",
+        "Registry client interactions",
+        "Offline dependency archiving"
+      ],
+      "Versioning Systems": [
+        "Semantic versioning (semver)",
+        "Release workflow automation",
+        "Version bumping scripts",
+        "Changelog maintenance"
+      ],
+      "Package Management": [
+        "Dependency resolution algorithms",
+        "Package alias support",
+        "Time-traveling installs",
+        "Offline dependency caching"
+      ],
+      "CLI Development": [
+        "Command-line argument parsing",
+        "Custom npm commands",
+        "Git integration (sign-git-commit)",
+        "CI/CD pipeline optimizations"
+      ],
+      "Testing Practices": [
+        "Bug reproduction",
+        "Test suite contributions",
+        "Debugging npm internals"
+      ],
+      "Documentation": [
+        "Changelog updates",
+        "Documentation maintenance",
+        "Community issue tracking"
+      ],
+      "Ecosystem Integration": [
+        "Third-party npm library adoption",
+        "Dependency migration",
+        "Registry protocol awareness"
+      ],
+      "Performance Optimization": [
+        "CI build optimizations",
+        "Dependency caching strategies"
+      ],
+      "Version Control": [
+        "Git branch management",
+        "Commit signing",
+        "Release branch workflows"
+      ]
+    },
+    "skill_evidence": [
+      "PRs in `npm_cli` repository demonstrate deep familiarity with npm's core architecture and CLI command extensions",
+      "Multiple `semver:minor`/`semver:major` PRs show strict adherence to semantic versioning and release workflows (e.g., 'release: npm@6.2.0')",
+      "PRs like 'archive: committable offline dependency archive' and 'Add support for time-traveling installs' prove expertise in offline dependency systems and dependency graph manipulation",
+      "'integrated with libprecious' indicates knowledge of third-party npm libraries and their integration into npm's core",
+      "'version: fix -S argument passing for sign-git-commit' shows Git integration and CLI argument parsing skills",
+      "'ci: backronym ci to clean-install' hints at CI/CD pipeline optimizations and performance-focused contributions",
+      "Documentation PRs like 'docs: replace references to the old repo' demonstrate technical writing and community engagement",
+      "Bug fix PRs (e.g., 'testing branch dupe bug') indicate debugging experience with npm's internal systems"
+    ]
+  },
+  "statistics": {
+    "total_prs": 32,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

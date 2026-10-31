@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "garybernhardt",
+    "generation_timestamp": "2026-09-18T04:28:33.394146",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "garybernhardt",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Preact framework internals",
+      "TypeScript/JavaScript type system",
+      "Frontend build systems (npm scripts, Webpack-like)",
+      "JSX/HTML attribute handling",
+      "Debugging type-related issues",
+      "Open-source contribution patterns"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "Garybernhardt is a Mid-level JavaScript developer with specialized expertise in Preact’s core functionality, particularly its JSX compiler, TypeScript integration, and build system. Their contributions focus on resolving type-related issues, extending JSX type definitions, and optimizing build workflows. The developer demonstrates strong debugging skills, a deep understanding of frontend attribute handling (e.g., `autocorrect`), and a collaborative open-source mindset centered on incremental improvements. While primarily frontend-focused, their work aligns well with React-like ecosystems and TypeScript-heavy projects.",
+    "identified_skills": {
+      "Frontend Frameworks": [
+        "Preact",
+        "JSX compiler internals"
+      ],
+      "TypeScript Advanced": [
+        "type overloads",
+        "JSX type extensions",
+        "static type checking"
+      ],
+      "Build Systems": [
+        "npm scripts (`prepare`)",
+        "package installation workflows",
+        "build automation"
+      ],
+      "HTML/JSX Attributes": [
+        "HTML attribute handling",
+        "autocorrect attribute support"
+      ],
+      "Debugging": [
+        "type error resolution",
+        "code quality fixes"
+      ],
+      "Open-Source Practices": [
+        "focused PR contributions",
+        "clear documentation"
+      ],
+      "JavaScript Language": [
+        "function overloading (TypeScript)",
+        "template literals"
+      ],
+      "Frontend Tooling": [
+        "build system configuration"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed confusing type errors by reversing overload order in Preact’s `h()` function (PR 1)",
+      "Added `autocorrect` HTML attribute support to Preact’s JSX types (PR 3)",
+      "Ensured builds run during git installation via `prepare` npm script (PR 2)",
+      "Extended Preact’s JSX type definitions for broader HTML attribute compatibility",
+      "Resolved subtle installation workflow issues in package.json configuration",
+      "Contributed well-documented PRs focusing on incremental improvements",
+      "Demonstrated research into frontend-specific attributes (e.g., `autocorrect`)",
+      "Showed awareness of TypeScript’s overload signatures in framework contexts"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

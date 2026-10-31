@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "howtoclient",
+    "generation_timestamp": "2026-08-15T15:46:18.796050",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "howtoclient",
+    "raw_response": "```json\n{\n  \"developer_name\": \"howtoclient\",\n  \"experience_level\": \"Senior\",\n  \"primary_skills\": [\n    \"Express.js middleware architecture\",\n    \"Async/Await in callback-based systems\",\n    \"Non-breaking API design\",\n    \"Node.js runtime compatibility\",\n    \"Feature proposal and community engagement\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"Node.js\"\n  ],\n  \"summary\": \"howtoclient is a senior JavaScript developer with deep expertise in Express.js backend architecture, specializing in integrating modern async/await patterns into callback-heavy systems. Their contributions demonstrate strong skills in middleware design, backward compatibility, and feature proposal justification. The developer shows particular proficiency in enabling async/await support in Express handlers while maintaining non-breaking changes and considering Node.js versioning constraints. Their work reflects both technical depth and collaborative problem-solving in the Node.js ecosystem.\",\n  \"identified_skills\": {\n    \"Backend Frameworks\": [\"Express.js\", \"Express middleware\", \"Router internals\"],\n    \"Asynchronous Programming\": [\"async/await\", \"Promise-based middleware\", \"Callback-to-promise conversion\"],\n    \"Node.js Runtime\": [\"Node.js version compatibility\", \"AWS Lambda support\", \"Runtime feature adoption\"],\n    \"Design Patterns\": [\"Wrapper patterns\", \"Abstraction layers\", \"Non-breaking changes\"],\n    \"Feature Development\": [\"Feature proposals\", \"Community discussion\", \"Gradual adoption strategies\"],\n    \"API Design\": [\"Backward compatibility\", \"API evolution\", \"Legacy system integration\"],\n    \"Performance Considerations\": [\"Middleware efficiency\", \"Async overhead reduction\"]\n  },\n  \"skill_evidence\": [\n    \"PR 1: 'enable async/await on handlers' – Direct async/await integration in Express middleware\",\n    \"PR 2: 'enable async/await on handlers (old school)' – Proposes backward-compatible async solution\",\n    \"PR 3: 'Enable async (non-breaking change)' – Explicit focus on maintaining compatibility\",\n    \"PR 4: 'add set option \\'handler-wrapper\\'' – Introduces wrapper pattern for async abstraction\",\n    \"PR 1 mentions Node.js 7.6 → 10.5.0 compatibility and AWS Lambda support\",\n    \"PR 2 discusses 'old school' solutions for maintaining compatibility with legacy code\",\n    \"PR 4 starts as a 'proposition' indicating collaborative feature proposal process\",\n    \"All PRs target Express router/middleware with focus on async middleware execution\"\n  }\n}\n```",
+    "parsing_error": "Invalid \\escape: line 29 column 28 (char 2045)"
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

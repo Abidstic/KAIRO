@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "developer_name": "joelmheim",
+    "generation_timestamp": "2026-08-15T18:08:25.023860",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "joelmheim",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript date/time library development",
+      "Internationalization (i18n) and localization",
+      "Testing for date parsing/formatting",
+      "Git workflows and issue triage",
+      "CLDR-compliant time formatting"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "JavaScript (legacy library context)"
+    ],
+    "summary": "Joelmheim is a mid-level JavaScript developer with specialized expertise in date/time handling, localization, and testing within the Moment.js ecosystem. Their contributions demonstrate deep knowledge of JavaScript date parsing/formatting, internationalization standards (CLDR), and test-driven development for time-related edge cases. While their work is focused on legacy JavaScript libraries, their problem-solving skills and attention to detail in locale-specific formatting make them a valuable contributor to time-sensitive JavaScript projects.",
+    "identified_skills": {
+      "DateTimeLibraryDevelopment": [
+        "Moment.js core contributions",
+        "Time format adjustments",
+        "Date parsing improvements"
+      ],
+      "Internationalization": [
+        "CLDR-compliant locale updates",
+        "Time separator adjustments",
+        "Locale-specific time formatting"
+      ],
+      "Testing": [
+        "Test-driven development for date parsing",
+        "Ordinal format test cases",
+        "Locale edge case testing"
+      ],
+      "GitWorkflow": [
+        "Historical commit cleanup",
+        "Release-pending PR labeling"
+      ],
+      "ProblemSolving": [
+        "Ordinal quarter formatting research",
+        "Issue triage and solution proposals"
+      ],
+      "CommunityCollaboration": [
+        "Moment.js contributor workflows",
+        "Standard alignment (CLDR references)"
+      ],
+      "LegacyJavaScript": [
+        "ES5/ES6 compatibility patterns",
+        "Legacy date API familiarity"
+      ],
+      "Documentation": [
+        "PR labeling conventions",
+        "External standard references"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: '[locale] Fix 4189: Updated time separator for German-Swiss locale' - demonstrates CLDR-compliant i18n adjustments",
+      "PR description: 'Attempt to add support for ordinal format for quarters. Fixes issue #2559' - shows problem-solving for edge cases",
+      "PR label: '[tests] Add strict parsing month name tests for all locales' - indicates test-driven development focus",
+      "PR mention: 'problems removing historical commits' - evidence of Git workflow experience",
+      "PR label: 'Pending Next Release' - demonstrates familiarity with release processes",
+      "PR reference: 'timeandunits.com' - shows research into external standards for time formatting",
+      "PR title: '[locale] es-us: Updated time format...' - confirms locale-specific time format expertise",
+      "PR title: '[locale] Russian LT/LTS: Updated time format...' - further i18n evidence"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

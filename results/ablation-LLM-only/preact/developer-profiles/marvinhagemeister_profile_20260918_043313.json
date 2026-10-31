@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "developer_name": "marvinhagemeister",
+    "generation_timestamp": "2026-09-18T04:07:55.664522",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 354,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "marvinhagemeister",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "TypeScript",
+      "Preact",
+      "JavaScript Runtime Optimization",
+      "Build Tooling (Minification & Bundling)",
+      "Testing Infrastructure",
+      "CI/CD Pipeline Debugging",
+      "Performance Profiling",
+      "TypeScript Type Declarations"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)"
+    ],
+    "summary": "Senior JavaScript developer specializing in TypeScript and Preact, with deep expertise in runtime environments, build tooling, and performance optimization. Proven ability to enhance type safety, debug CI/CD pipelines, and optimize frontend performance through meticulous code reviews and targeted fixes. Contributions focus on ensuring backward compatibility, improving build reliability, and maintaining high standards in type definitions and testing infrastructure.",
+    "identified_skills": {
+      "TypeScript Ecosystem": [
+        "TypeScript strict mode configuration",
+        "Missing type declarations for DOM elements",
+        "Lifecycle method optional declarations",
+        "TypeScript interface extensions"
+      ],
+      "Preact Implementation": [
+        "React-like lifecycle method declarations",
+        "Fragment support implementation",
+        "Preact component model optimizations",
+        "React compatibility layer fixes"
+      ],
+      "Build System Optimization": [
+        "Minification pipeline debugging",
+        "UglifyJS version rollbacks",
+        "npm script deprecation handling",
+        "Module export mangling fixes"
+      ],
+      "Testing Infrastructure": [
+        "PhantomJS to Chrome headless migration",
+        "Sauce Labs CI debugging",
+        "Source mapping corrections",
+        "Test environment upgrades"
+      ],
+      "Performance Engineering": [
+        "Performance regression reversal",
+        "Node.js version optimization for CI",
+        "Runtime benchmarking",
+        "Memory usage profiling"
+      ],
+      "CI/CD Pipeline": [
+        "Travis CI configuration",
+        "Dependency conflict resolution",
+        "Build tool version upgrades",
+        "Sauce Labs connection troubleshooting"
+      ],
+      "JavaScript Language Features": [
+        "Optional method declarations",
+        "Generic type support",
+        "ES6+ pattern implementation",
+        "DOM API augmentation"
+      ],
+      "Documentation Practices": [
+        "Release notes drafting",
+        "Technical decision explanations",
+        "PR description clarity",
+        "WIP PR documentation"
+      ],
+      "Debugging Techniques": [
+        "Toolchain issue root-cause analysis",
+        "Mangling regression identification",
+        "CI failure pattern recognition",
+        "Legacy system compatibility debugging"
+      ]
+    },
+    "skill_evidence": [
+      "\"TS: Add missing onLoad event declaration\" - TypeScript type safety for DOM elements",
+      "\"Revert 'Set component instance constructor...' - Performance regression reversal with 15% improvement",
+      "\"Replace PhantomJS with Chrome headless in tests\" - Modern testing infrastructure upgrade",
+      "\"Rollback uglify3 -> uglify2\" - Build tool debugging for mangling issues",
+      "\"Fix wrong source mapping in tests for src/\" - Test environment reliability improvement",
+      "\"WIP: Try to fix failing saucelabs connections\" - CI/CD pipeline debugging",
+      "\"Add support for strict mode in TypeScript\" - TypeScript ecosystem enhancement",
+      "\"Fix npm script deprecation warning\" - Build system maintenance"
+    ]
+  },
+  "statistics": {
+    "total_prs": 354,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "reviewer_name": "wesleytodd",
+  "generated_at": "20260815_155647",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 83,
+    "total_comments": 35,
+    "total_prs": 60,
+    "repos": [
+      "express"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "wesleytodd",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Express.js internals",
+      "JavaScript backend development",
+      "Testing and CI debugging",
+      "Code refactoring",
+      "Dependency management"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (implied via Express.js ecosystem)"
+    ],
+    "summary": "wesleytodd is a senior-level JavaScript developer with deep expertise in Express.js internals, demonstrating strong backend development skills, rigorous testing practices, and a focus on code quality and maintainability. Their contributions span core framework modifications, dependency management, and process improvements, with a particular emphasis on ensuring Express's robustness and clarity. Their reviews reflect both technical depth and leadership in maintaining a large-scale Node.js framework.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Middleware",
+        "HTTP response handling",
+        "File serving"
+      ],
+      "Testing & Debugging": [
+        "CI failure resolution",
+        "Test coverage analysis",
+        "Jest-like testing patterns"
+      ],
+      "Code Quality & Refactoring": [
+        "Modern JavaScript patterns",
+        "Code readability improvements",
+        "Function simplification"
+      ],
+      "Dependency Management": [
+        "npm package updates",
+        "Dependabot integration",
+        "Semantic versioning"
+      ],
+      "Documentation & Process": [
+        "Documentation restructuring",
+        "Release notes",
+        "Team governance"
+      ],
+      "Code Review": [
+        "PR approvals",
+        "Constructive feedback",
+        "Architectural considerations"
+      ],
+      "Asynchronous JavaScript": [
+        "Middleware chaining",
+        "Async/await patterns"
+      ],
+      "System Design": [
+        "Response lifecycle",
+        "Configuration systems",
+        "Deprecation handling"
+      ]
+    },
+    "skill_evidence": [
+      "Modified `res.redirect()` HTML structure, showing deep HTTP response handling knowledge",
+      "Added deprecation warning for 'Referrer' special-casing, demonstrating framework internals awareness",
+      "Refactored `normalizeTypes` function using `Array.map`, proving modern JS pattern application",
+      "Debugged CI failures related to JavaScript in dependency updates (PRs #6–7)",
+      "Approved documentation restructuring to Admin repository, showing process improvement focus",
+      "Added test for discarded middleware behavior, indicating test suite contribution",
+      "Discussed default behavior implications for new Express features (PR #16)",
+      "Upgraded `supertest` dependency, demonstrating dependency management expertise"
+    ]
+  }
+}

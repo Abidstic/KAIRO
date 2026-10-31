@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "developer_name": "nitin-999-code",
+    "generation_timestamp": "2026-09-18T02:32:41.536095",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "nitin-999-code",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios HTTP client internals",
+      "JavaScript Promises and async/await",
+      "API request/response handling",
+      "Technical documentation for APIs",
+      "HTTP headers and file download mechanisms",
+      "Frontend UI/UX adjustments (likely React/Vue)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Axios ecosystem)"
+    ],
+    "summary": "nitin-999-code is a mid-level JavaScript developer with specialized expertise in Axios, the popular HTTP client library. Their contributions focus on refining API behavior, HTTP headers, and documentation, with indirect evidence suggesting familiarity with frontend UI/UX adjustments (likely in React/Vue demos) and backend HTTP handling. While their contributions are limited to Axios, the depth of their involvement in PRs indicates strong problem-solving skills in asynchronous request handling, technical writing, and HTTP protocol nuances. The developer demonstrates proficiency in JavaScript's core asynchronous patterns and has likely worked with TypeScript given Axios' ecosystem. However, their experience lacks depth in broader frontend frameworks, backend systems, or testing practices beyond Axios' context.",
+    "identified_skills": {
+      "HTTP_Client_Libraries": [
+        "Axios",
+        "HTTP request/response handling"
+      ],
+      "Asynchronous_Programming": [
+        "Promises",
+        "async/await",
+        "request chaining"
+      ],
+      "API_Documentation": [
+        "Markdown documentation",
+        "API behavior clarification"
+      ],
+      "Frontend_UI_UX": [
+        "mobile responsiveness",
+        "UI adjustments (React/Vue-like)"
+      ],
+      "HTTP_Headers_and_Protocols": [
+        "Content-Disposition header",
+        "CORS",
+        "file downloads"
+      ],
+      "JavaScript_Core": [
+        "object manipulation",
+        "configurable request objects"
+      ],
+      "Technical_Writing": [
+        "technical documentation",
+        "API reference explanations"
+      ],
+      "Backend_HTTP_Handling": [
+        "Node.js HTTP modules (inferred)",
+        "streaming responses"
+      ],
+      "Testing": [],
+      "Frontend_Frameworks": [
+        "React (inferred)",
+        "Vue.js (possible)"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1 title 'fix: improve mobile responsiveness in demo' suggests involvement in frontend UI adjustments, likely using React/Vue components or CSS Flexbox/Grid for responsive layouts.",
+      "PR #2 title 'fix: content disposition header access' indicates debugging HTTP header issues, demonstrating knowledge of Node.js HTTP modules or backend file download mechanisms.",
+      "PR #3 title 'docs: clarify instance auth override behavior' shows strong technical writing skills, involving Markdown documentation and API behavior explanations for Axios' request config.",
+      "All PRs are for Axios repository, implying deep familiarity with its internals, including Promises, async/await, and request/response transformations.",
+      "No file changes visible in PRs, but titles imply working with Axios' demo pages or documentation, suggesting exposure to frontend frameworks like React or Vue.",
+      "PR #2's focus on 'content disposition' suggests experience with file downloads and HTTP headers, likely involving Node.js or similar backend environments.",
+      "PR #1's UI/UX focus hints at potential use of modern frontend practices, though no direct code evidence is available.",
+      "No evidence of testing frameworks or CI/CD tools, indicating limited exposure beyond Axios' core functionality."
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

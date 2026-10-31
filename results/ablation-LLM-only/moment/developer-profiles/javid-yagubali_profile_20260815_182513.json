@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "developer_name": "javid-yagubali",
+    "generation_timestamp": "2026-08-15T18:21:57.279475",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "javid-yagubali",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "JavaScript localization (i18n)",
+      "Locale file maintenance",
+      "Azerbaijani (az) translation corrections",
+      "Open-source contribution to Moment.js",
+      "Basic JavaScript file editing"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)"
+    ],
+    "summary": "javid-yagubali demonstrates specialized expertise in JavaScript localization, specifically within the Moment.js library. Their contributions focus on Azerbaijani (az) locale file corrections, including orthographic fixes and relative time formatting adjustments. The developer shows proficiency in navigating and modifying JavaScript locale files but lacks evidence of broader JavaScript development experience (e.g., frameworks, testing, or modern ES6+ features). Their contributions are limited to low-level, targeted edits in a single open-source project, indicating a junior-level skill set with a niche focus on internationalization.",
+    "identified_skills": {
+      "Localization & Internationalization": [
+        "JavaScript i18n",
+        "Locale file maintenance",
+        "Azerbaijani (az) translations",
+        "Relative time formatting corrections"
+      ],
+      "Codebase Navigation": [
+        "JavaScript file path navigation",
+        "Test file awareness"
+      ],
+      "Language-Specific Corrections": [
+        "Orthographic error fixes",
+        "String-based corrections in JavaScript"
+      ],
+      "Open-Source Contribution": [
+        "Moment.js PR workflow",
+        "Community guideline adherence"
+      ],
+      "Basic JavaScript Editing": [
+        "Minor syntax adjustments",
+        "String replacements in .js files"
+      ],
+      "Testing": [],
+      "Advanced JavaScript": [],
+      "Frontend Frameworks": [],
+      "Backend Systems": [],
+      "Build Tools": [],
+      "Dependency Management": []
+    },
+    "skill_evidence": [
+      "PRs reference `src/locale/az.js` and `src/test/locale/az.js`, demonstrating familiarity with Moment.js's directory structure and locale file organization",
+      "PR titles/descriptions mention 'Orthographic error' in Azerbaijani translations, confirming language-specific corrections in JavaScript files",
+      "All PRs involve additions/deletions in locale files (e.g., `az.js`), proving direct editing of JavaScript localization files",
+      "PRs include labels like 'locale approval needed,' indicating adherence to Moment.js's open-source contribution process",
+      "No evidence of ES6+ features, frameworks, or testing frameworks in PRs, confirming limited scope to basic JavaScript file edits",
+      "Multiple iterations of the same PR suggest persistent engagement in fixing a specific i18n issue for Azerbaijani users",
+      "Mentions of 'relative time' translations imply understanding of date/time library-specific localization patterns"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

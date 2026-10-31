@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "developer_name": "Eomm",
+    "generation_timestamp": "2026-09-18T13:24:33.818500",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 174,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "Eomm",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify Framework",
+      "JSON Schema Validation",
+      "Node.js Backend Development",
+      "Plugin Development",
+      "Serialization & Data Transformation",
+      "Testing & Benchmarking",
+      "Semantic Versioning & Backporting"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (implied, though not explicitly shown in PRs)"
+    ],
+    "summary": "Eomm is a highly specialized **Senior JavaScript backend engineer** with deep expertise in **Fastify**, particularly in **JSON Schema validation, serialization, and plugin development**. Their contributions focus on **core framework improvements**, including **schema resolution, circular reference handling, and performance optimizations**. With **174 PRs** in the Fastify repository, they demonstrate **strong ownership of Fastify’s validation and serialization subsystems**, as well as **version management, documentation, and community engagement**. Their work reflects **advanced Node.js backend patterns**, **benchmarking-driven development**, and **collaborative governance** within the Fastify ecosystem. While primarily a **backend specialist**, their contributions imply familiarity with **async/await, streaming, and Fastify’s plugin architecture**—making them a valuable asset for **high-performance Node.js applications**.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js"
+      ],
+      "Data Validation & Serialization": [
+        "JSON Schema (Draft 7/2020)",
+        "$schema",
+        "$ref",
+        "$id",
+        "schema encapsulation",
+        "fast-json-stringify"
+      ],
+      "Plugin Development": [
+        "Fastify plugin system",
+        "fastify-405 plugin"
+      ],
+      "Version Control & Releases": [
+        "semantic versioning (semver)",
+        "backporting",
+        "v1.x/v2.x compatibility"
+      ],
+      "Testing & Performance": [
+        "benchmarking",
+        "Jest/Mocha (implied)",
+        "test-driven development"
+      ],
+      "Documentation & Community": [
+        "Fastify contributor",
+        "technical documentation",
+        "schema examples"
+      ],
+      "Asynchronous JavaScript": [
+        "async/await",
+        "non-blocking I/O",
+        "streaming"
+      ],
+      "Dependency Management": [
+        "npm scripts",
+        "Fastify’s build system"
+      ],
+      "Schema Resolution": [
+        "circular reference handling",
+        "schema tree management",
+        "schema merging"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed JSON Schema `$schema` field evaluation in PR ['fix: #1353 ignore evaluation of $schema field in json-schema']",
+      "Added schema encapsulation feature in ['Feature/encapsulation json schema']",
+      "Resolved `$ref` with `$id` conflicts in definitions via ['fix: json schema $ref with $id set in definitions']",
+      "Updated `fast-json-stringify` integration in ['update fast-json-stringify']",
+      "Created `fastify-405` plugin for HTTP status handling in ['add fastify-405 plugin']",
+      "Backported serialization fixes between v1.x and v2.x in ['backport 1.x' labeled PRs]",
+      "Added standard JSON Schema examples to Fastify docs in ['Docs/Add standard json schema examples']",
+      "Included benchmarking and testing checklists in multiple PRs (e.g., 'npm run benchmark')"
+    ]
+  },
+  "statistics": {
+    "total_prs": 174,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

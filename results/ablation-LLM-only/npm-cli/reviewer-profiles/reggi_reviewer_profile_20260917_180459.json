@@ -1,0 +1,83 @@
+{
+  "reviewer_name": "reggi",
+  "generated_at": "20260917_180459",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 68,
+    "total_comments": 30,
+    "total_prs": 44,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "reggi",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Node.js internals",
+      "npm CLI",
+      "JavaScript module resolution",
+      "Dependency management",
+      "CI/CD optimization",
+      "Monorepo tooling"
+    ],
+    "programming_languages": [
+      "JavaScript (ESM)",
+      "TypeScript (indirect, via npm tooling)"
+    ],
+    "summary": "reggi is a senior-level JavaScript reviewer with deep expertise in Node.js and npm CLI internals. Their contributions focus on dependency resolution, CI/CD optimizations, and monorepo tooling, particularly around npm's workspace and audit systems. The reviewer demonstrates strong debugging skills, clear code review judgment, and a focus on backend/tooling aspects of JavaScript development. Evidence shows specialized knowledge of npm's native module resolution (node: specifiers), strict install modes (npm ci), and security-related features (audit endpoints). While frontend JavaScript experience is not evident, their backend/tooling proficiency makes them a valuable contributor to Node.js ecosystems.",
+    "identified_skills": {
+      "Node.js Core": [
+        "npm CI/CD workflows",
+        "native module resolution (node: specifiers)",
+        "Node.js dependency resolution"
+      ],
+      "npm CLI & Tooling": [
+        "workspace directory handling",
+        "npm audit security mechanisms",
+        "package.json metadata management",
+        "executable binary resolution"
+      ],
+      "Dependency Management": [
+        "monorepo workspace optimization",
+        "strict dependency installation",
+        "versioned dependency resolution"
+      ],
+      "JavaScript Module Systems": [
+        "ESM (ECMAScript Modules)",
+        "native module loading"
+      ],
+      "CI/CD & Build Systems": [
+        "node_modules cleanup strategies",
+        "CI pipeline optimizations",
+        "build tool integrations"
+      ],
+      "Code Review & Maintenance": [
+        "PR approval patterns",
+        "documentation updates",
+        "technical feedback on security fixes"
+      ],
+      "Debugging & Testing": [
+        "audit endpoint mocking",
+        "fallback mechanism removal",
+        "internal request handling"
+      ],
+      "Backend Tooling": [
+        "package metadata (libc field)",
+        "dependency versioning",
+        "engine-strict compatibility"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: 'fix(ci): rm workspace node_modules' — demonstrates monorepo CI optimization expertise",
+      "PR title: 'fix: adds \\`node:\\` specifier to all native node modules' — shows deep understanding of Node.js native module resolution",
+      "Review comment: 'elegant way of mocking and handling audit endpoints' — indicates debugging and testing skills in npm audit",
+      "PR label: 'fix(exec): look in workspace and root for bin entries' — evidence of executable binary resolution in workspaces",
+      "PR title: 'fix!: remove old audit fallback request' — highlights security-related debugging in npm audit",
+      "Approval comment pattern: 'LTGM' with detailed reasoning — demonstrates senior-level review maturity",
+      "Docs PR: 'docs(package.json): add libc field' — shows involvement in package metadata documentation",
+      "Repeated 'fix(ci):' PRs — indicates CI/CD pipeline optimization focus"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "cmdcarini",
+    "generation_timestamp": "2026-09-17T18:50:15.055892",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "cmdcarini",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js dependency security",
+      "npm CLI maintenance",
+      "CVE vulnerability patching",
+      "semantic versioning (semver)",
+      "Node.js package management"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "cmdcarini is a mid-level JavaScript developer with specialized expertise in Node.js dependency security and npm CLI maintenance. Their contributions focus exclusively on patching critical security vulnerabilities in third-party packages, demonstrating a deep understanding of semantic versioning, release processes, and the npm ecosystem. While their work is narrowly concentrated on dependency management and security fixes, their contributions are highly impactful and reflect a disciplined approach to maintaining secure Node.js packages. There is no evidence of frontend development, backend frameworks, or broader JavaScript application development in their contributions.",
+    "identified_skills": {
+      "Dependency Security": [
+        "CVE vulnerability patching",
+        "npm dependency upgrades",
+        "security-focused dependency updates"
+      ],
+      "Version Control & Releases": [
+        "semantic versioning (semver)",
+        "patch release management",
+        "release cycle coordination"
+      ],
+      "Package Management": [
+        "npm CLI maintenance",
+        "package.json dependency updates",
+        "third-party package vulnerability mitigation"
+      ],
+      "Security Practices": [
+        "CVE research and remediation",
+        "security advisory tracking",
+        "minimal-risk dependency fixes"
+      ],
+      "Node.js Ecosystem": [
+        "npm CLI internals",
+        "Node.js package ecosystem awareness"
+      ],
+      "Backend Frameworks": [],
+      "Frontend Frameworks": [],
+      "Testing": [],
+      "DevOps & CI/CD": [],
+      "Asynchronous Programming": [],
+      "TypeScript": [],
+      "Modern JavaScript": []
+    },
+    "skill_evidence": [
+      "PRs update `ini@1.3.8` to patch CVE-2020-7788, referencing 'security vulnerability' and 'patch release'",
+      "PRs include `semver:patch` labels and mention 'Release 6.x' for version alignment",
+      "All PRs modify only `package.json` dependencies without code changes, focusing on `dot-prop`, `update-notifier`, and `ini`",
+      "PR descriptions explicitly link to security advisories (e.g., 'resolves #1584') and CVE references",
+      "PRs use `release: next` and `Release 6.x` tags, indicating familiarity with npm's release process",
+      "Dependency updates target specific vulnerable versions (e.g., `ini@1.3.8` instead of major/minor bumps)",
+      "PRs avoid breaking changes, demonstrating risk-aware dependency management",
+      "No frontend or backend code changes visible; contributions are purely dependency-focused"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

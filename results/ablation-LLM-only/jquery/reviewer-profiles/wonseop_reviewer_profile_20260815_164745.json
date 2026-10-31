@@ -1,0 +1,63 @@
+{
+  "reviewer_name": "wonseop",
+  "generated_at": "20260815_164745",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 8,
+    "total_comments": 8,
+    "total_prs": 1,
+    "repos": [
+      "jquery"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "wonseop",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery Style Guide enforcement",
+      "JavaScript code formatting",
+      "ESLint/Prettier tooling",
+      "GitHub Actions automation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)"
+    ],
+    "summary": "wonseop is a specialized JavaScript reviewer with deep expertise in enforcing the jQuery Style Guide, particularly indentation consistency. Their reviews focus exclusively on code formatting and style adherence, suggesting a strong emphasis on maintainability and team-wide consistency. Evidence indicates likely familiarity with automated tooling (e.g., ESLint, GitHub Actions) for style enforcement, though their broader JavaScript ecosystem knowledge remains unproven. The reviewer demonstrates precision in style enforcement but lacks evidence of reviewing functional logic, modern JavaScript patterns, or other frameworks/libraries.",
+    "identified_skills": {
+      "Code Formatting & Style": [
+        "jQuery Style Guide adherence",
+        "indentation enforcement",
+        "ESLint configuration",
+        "Prettier integration"
+      ],
+      "Automation & Tooling": [
+        "GitHub Actions workflows",
+        "CI/CD style checks",
+        "Build process integration"
+      ],
+      "JavaScript Language": [
+        "ES5/ES6 syntax awareness",
+        "Minimal functional review"
+      ],
+      "Team Standards": [
+        "Consistency enforcement",
+        "Style guide documentation"
+      ],
+      "Review Patterns": [
+        "Automated PR feedback",
+        "Repetitive style-focused reviews"
+      ]
+    },
+    "skill_evidence": [
+      "All 8 PRs titled 'Build: Correct code indentations based on jQuery Style Guide' indicate strict indentation enforcement",
+      "PRs labeled 'Build' suggest automated or CI-triggered style checks rather than manual code reviews",
+      "Zero additions/deletions/files_changed (0/0/0) implies placeholder or meta-PRs for style violations",
+      "Repetitive PR titles across multiple repositories indicate systematic style enforcement",
+      "Lack of framework/library references (e.g., React, Node.js) confirms narrow focus on jQuery Style Guide",
+      "COMMENTED review state implies detailed feedback was provided (though not visible), likely automated",
+      "No evidence of reviewing functional code, async patterns, or testing strategies",
+      "Focus on 'Build' label aligns with linting/pre-commit hook tooling (e.g., Husky, ESLint)"
+    ]
+  }
+}

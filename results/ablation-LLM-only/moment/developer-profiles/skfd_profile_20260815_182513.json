@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "developer_name": "skfd",
+    "generation_timestamp": "2026-08-15T18:09:11.610353",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "skfd",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Moment.js library internals",
+      "JavaScript locale systems",
+      "Minification and build optimization",
+      "JavaScript debugging and testing",
+      "Open-source contribution workflows",
+      "Grunt.js build automation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "CommonJS/AMD module systems"
+    ],
+    "summary": "skfd demonstrates **mid-level expertise** in JavaScript through focused contributions to the Moment.js library, specializing in locale systems, minification, and build process improvements. Their work shows deep understanding of how Moment.js handles locale dependencies and execution order in minified environments, along with contributions to documentation and release engineering. While evidence is limited to Moment.js-specific patterns, their problem-solving approach and technical communication suggest strong debugging and collaboration skills. No direct evidence of modern frameworks or backend Node.js experience, but strong legacy JavaScript and library maintenance proficiency.",
+    "identified_skills": {
+      "Library-Specific Development": [
+        "Moment.js locale systems",
+        "Locale dependency resolution",
+        "Parent/child locale relationships"
+      ],
+      "Build & Optimization": [
+        "JavaScript minification",
+        "Grunt.js task automation",
+        "Release process improvements",
+        "Minified file handling"
+      ],
+      "Debugging & Testing": [
+        "JavaScript runtime behavior analysis",
+        "Locale loading order debugging",
+        "Crash reproduction and documentation"
+      ],
+      "Documentation & Contribution": [
+        "CONTRIBUTING.md updates",
+        "CLA (Contributor License Agreement) workflows",
+        "Issue triage and reporting"
+      ],
+      "JavaScript Language": [
+        "CommonJS/AMD module systems",
+        "Legacy JavaScript patterns",
+        "Deprecation warning handling"
+      ],
+      "Tooling": [
+        "Grunt.js",
+        "Git include/exclude patterns"
+      ],
+      "Problem-Solving": [
+        "Systemic release process improvements",
+        "Developer experience (DX) enhancements"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Addresses `zh-hk` locale depending on `zh-tw` in minified code, demonstrating locale dependency understanding",
+      "PR #2: Documents a `parentLocale` crash where minification alters execution order, showing runtime behavior awareness",
+      "PR #3: Removes comments from minified Moment.js files, proving minification optimization knowledge",
+      "PR #4: Adds Grunt task to ignore minified files during releases, indicating build automation expertise",
+      "PR #5: Updates `CONTRIBUTING.md` with CLA signing link, showing familiarity with open-source contribution workflows",
+      "PR descriptions mention deprecation warnings and test case creation, implying debugging and testing involvement",
+      "Proposes DX improvements for minified files, demonstrating systemic thinking about contributor pain points",
+      "Engages with Moment.js internals (e.g., `parentLocale` option) without direct code changes, indicating deep conceptual knowledge"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

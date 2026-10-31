@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "developer_name": "timrwood",
+    "generation_timestamp": "2026-08-15T18:04:25.334008",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "timrwood",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Moment.js core development",
+      "ES6 module systems",
+      "JavaScript prototype-based OOP",
+      "Babel transpilation",
+      "Rollup bundling",
+      "Date/time manipulation",
+      "Internationalization (i18n) support",
+      "Build system modernization"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (indirect, via Moment.js ecosystem)"
+    ],
+    "summary": "timrwood is a senior JavaScript developer with deep expertise in Moment.js core development, focusing on date/time manipulation, prototype-based extensibility, and build system modernization. Their contributions demonstrate strong skills in ES6 module systems, Babel transpilation, Rollup bundling, and internationalization support. With experience migrating legacy build tools and architecting extensible library APIs, timrwood exhibits a high level of proficiency in modern JavaScript ecosystems and library development patterns.",
+    "identified_skills": {
+      "JavaScript Language Features": [
+        "ES6 modules (import/export)",
+        "Prototype-based object extension",
+        "Method chaining",
+        "Date object manipulation"
+      ],
+      "Build Tooling & Transpilation": [
+        "Babel configuration",
+        "Rollup bundling",
+        "Tree-shaking optimization",
+        "Legacy build system migration (Grunt → Babel/Rollup)"
+      ],
+      "Library Development": [
+        "Prototype-based API design",
+        "Backward compatibility maintenance",
+        "Locale/language parsing systems",
+        "Timezone interface implementation"
+      ],
+      "Date/Time Systems": [
+        "Timezone-aware operations",
+        "Locale-specific date parsing",
+        "Month/year arithmetic",
+        "String-based date formatting"
+      ],
+      "Internationalization": [
+        "Language-specific parsing rules",
+        "Default locale fallbacks",
+        "String validation for locales"
+      ],
+      "JavaScript Ecosystem": [
+        "Node.js module systems",
+        "ESM/CommonJS interoperability",
+        "Modern build pipeline optimization"
+      ],
+      "Code Maintenance": [
+        "Unused task removal",
+        "Build configuration cleanup",
+        "Performance-oriented refactoring"
+      ]
+    },
+    "skill_evidence": [
+      "PR 'Switch transpiler to babel and rollup' demonstrates Babel configuration for ES6+ transpilation and Rollup for module bundling with tree-shaking",
+      "PR 'Remove old unused grunt tasks' shows legacy build system migration and build configuration cleanup",
+      "PR 'Implement timezone interface' involves extending Date.prototype with timezone-aware methods, proving prototype-based OOP expertise",
+      "PR 'Adding ability to set the parse language' implements locale-specific string parsing with fallback defaults, demonstrating i18n skills",
+      "PR 'Fix month and year diffs' requires precise Date object manipulation and arithmetic, showcasing date/time expertise",
+      "All PRs extend Moment.js API without breaking existing functionality, proving backward compatibility focus in library development",
+      "Use of Babel + Rollup indicates familiarity with modern JavaScript module systems and build optimization patterns",
+      "Contributions to Moment.js core prove deep understanding of date/time systems beyond vanilla JavaScript Date object"
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

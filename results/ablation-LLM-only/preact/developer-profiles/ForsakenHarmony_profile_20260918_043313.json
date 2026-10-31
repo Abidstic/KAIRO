@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "ForsakenHarmony",
+    "generation_timestamp": "2026-09-18T04:18:21.276326",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "ForsakenHarmony",
+    "raw_response": "```json\n{\n  \"developer_name\": \"ForsakenHarmony\",\n  \"experience_level\": \"Junior\",\n  \"primary_skills\": [\n    \"TypeScript\",\n    \"Preact\",\n    \"JavaScript Modules\",\n    \"npm Package Management\",\n    \"Frontend Debugging\"\n  ],\n  \"programming_languages\": [\n    \"TypeScript\",\n    \"JavaScript (ES Modules)\"\n  ],\n  \"summary\": \"ForsakenHarmony demonstrates **limited but focused JavaScript/TypeScript contributions** primarily within the Preact ecosystem. Their activity is centered on **TypeScript-related fixes, module resolution issues, and minor maintenance tasks**, with no evidence of backend development or advanced frontend patterns. While the PR data is sparse and lacks concrete code examples, inferred skills suggest a **frontend-focused developer with TypeScript proficiency** and familiarity with Preact internals. The contributions appear to be **bug fixes and cleanup** rather than feature development, indicating a **Junior-level** experience with a narrow but specialized skill set.\",\n  \"identified_skills\": {\n    \"TypeScript\": [\n      \"TypeScript type system\",\n      \"TypeScript compilation fixes\",\n      \"Type definitions (.d.ts files)\"\n    ],\n    \"Frontend Frameworks\": [\n      \"Preact Virtual DOM (vnode)\",\n      \"Preact component internals\"\n    ],\n    \"Module Systems\": [\n      \"ES Modules (import/export)\",\n      \"Relative path imports\",\n      \"Module resolution debugging\"\n    ],\n    \"Package Management\": [\n      \"npm postinstall scripts\",\n      \"Security-related package fixes\"\n    ],\n    \"Debugging & Maintenance\": [\n      \"Side effect removal\",\n      \"Broken dependency fixes\",\n      \"Runtime behavior corrections\"\n    ],\n    \"Documentation\": [\n      \"TypeScript type definitions\"\n    ],\n    \"Security Awareness\": [\n      \"Malicious npm script removal\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR #2 title 'Ts fixes' explicitly mentions TypeScript, indicating familiarity with TS type system and debugging\",\n    \"PR #1 description 'add hgroup to typings' suggests contributions to TypeScript type definitions (.d.ts files)\",\n    \"PR #3 title 'Inline compat vnode hook' references Preact's Virtual DOM (vnode) internals, showing framework-level knowledge\",\n    \"PR #5 title 'broken relative imports' demonstrates debugging of ES Module resolution issues\",\n    \"PR #4 title 'Remove postinstall \\'ad\\'' shows awareness of npm security risks and package script management\",\n    \"All PRs are in the Preact repository, confirming frontend-focused contributions with no backend evidence\",\n    \"No feature development PRs found; all contributions are maintenance/fix-oriented, supporting Junior-level assessment\"\n  ]\n}\n```",
+    "parsing_error": "Invalid \\escape: line 52 column 38 (char 2298)"
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

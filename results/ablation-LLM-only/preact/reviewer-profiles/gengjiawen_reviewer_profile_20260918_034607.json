@@ -1,0 +1,62 @@
+{
+  "reviewer_name": "gengjiawen",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 3,
+    "total_prs": 1,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "gengjiawen",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Preact framework",
+      "Frontend build tooling (Rollup/Vite)",
+      "Debugging frontend build errors",
+      "Open-source collaboration"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "gengjiawen demonstrates **mid-level expertise** in Preact's demo build system, with evidence of debugging frontend build issues and collaborating with core maintainers. Their contributions are limited to a single repository (Preact) and focus on resolving demo-specific build problems. While no direct code review comments or language-specific patterns are visible, their involvement in Preact's ecosystem suggests familiarity with its component model and build tooling. The lack of broader JavaScript language exposure or backend involvement restricts a more comprehensive assessment.",
+    "identified_skills": {
+      "Frontend Frameworks": [
+        "Preact"
+      ],
+      "Build Systems & Tooling": [
+        "Rollup/Vite",
+        "demo build optimization",
+        "dependency resolution"
+      ],
+      "Debugging & Error Resolution": [
+        "frontend build fixes",
+        "demo environment troubleshooting"
+      ],
+      "Open-Source Collaboration": [
+        "contributor engagement",
+        "CC to core maintainers"
+      ],
+      "Code Review": [],
+      "Testing": [],
+      "Asynchronous Programming": [],
+      "Backend Technologies": [],
+      "Type Systems": [],
+      "Performance Optimization": [
+        "demo build optimization"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'fix demo build' in Preact repository (preactjs/preact) indicates involvement with Preact's demo environment",
+      "PR CC'd to `@marvinhagemeister` (core Preact maintainer) suggests contributor-level collaboration",
+      "Issue #4457 referenced in PR implies debugging of a specific demo build failure",
+      "No visible code changes or review comments, but 'COMMENTED' state suggests technical discussion occurred",
+      "All PRs focus on Preact's demo build, indicating specialized knowledge in that area",
+      "No evidence of backend or Node.js involvement despite Preact's Node.js-based build system"
+    ]
+  }
+}

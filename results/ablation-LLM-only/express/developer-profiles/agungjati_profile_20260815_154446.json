@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "developer_name": "agungjati",
+    "generation_timestamp": "2026-08-15T15:38:51.355674",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 12,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 12
+  },
+  "profile": {
+    "developer_name": "agungjati",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Express.js dependency management",
+      "Node.js security vulnerability handling",
+      "JavaScript testing (Mocha, Supertest)",
+      "ESLint-based code quality",
+      "npm/yarn dependency upgrades",
+      "CI/CD pipeline testing integration"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (implied via Express.js ecosystem)"
+    ],
+    "summary": "Mid-level JavaScript developer with specialized expertise in Node.js backend systems, particularly Express.js. Demonstrates strong skills in dependency management, security vulnerability handling, and testing tooling. Focuses on maintaining robust backend infrastructure through systematic dependency upgrades and security hardening. Evidence shows deep familiarity with Express.js middleware ecosystem, testing frameworks (Mocha, Supertest), and CI/CD integration practices. Contributions are primarily backend-focused with no visible frontend or architecture-level work.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Middleware (cookie-parser, express-session, debug)"
+      ],
+      "Dependency Management": [
+        "npm dependency upgrades",
+        "semantic versioning",
+        "vulnerability scanning",
+        "security patching"
+      ],
+      "Testing": [
+        "Mocha",
+        "Supertest",
+        "Istanbul (nyc) coverage",
+        "unit testing",
+        "linting"
+      ],
+      "Code Quality": [
+        "ESLint"
+      ],
+      "Security": [
+        "CVE identification",
+        "npm audit-like vulnerability scanning",
+        "security-focused dependency updates"
+      ],
+      "Tooling": [
+        "Node.js v20.18.0 compatibility",
+        "CI/CD test execution"
+      ],
+      "Version Control": [
+        "GitHub PR workflow",
+        "atomic dependency-focused PRs"
+      ],
+      "HTTP Handling": [
+        "HTTP assertions",
+        "request/response middleware"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1 mentions '7 vulnerabilities (3 low, 1 moderate, 3 high)' requiring dependency upgrades",
+      "All 12 PRs follow 'deps: upgrade [package]' pattern targeting Express.js ecosystem dependencies",
+      "PR #1 explicitly tests 'lint' and 'unit test' after security-related dependency changes",
+      "PRs reference Node.js v20.18.0 environment compatibility in upgrade context",
+      "Multiple upgrades to testing tools: Mocha (#10), Supertest (#2), nyc (#18) for coverage",
+      "ESLint upgrade (#16) indicates focus on code quality standards in Express.js",
+      "PRs coordinate with related PR #6103 suggesting batch dependency update strategy",
+      "All PRs lack code changes but demonstrate deep understanding of Express.js dependency graph"
+    ]
+  },
+  "statistics": {
+    "total_prs": 12,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

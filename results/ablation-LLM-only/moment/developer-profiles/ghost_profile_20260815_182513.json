@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "developer_name": "ghost",
+    "generation_timestamp": "2026-08-15T18:02:03.478976",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 9,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 9
+  },
+  "profile": {
+    "developer_name": "ghost",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript date/time libraries (Moment.js)",
+      "Internationalization (i18n) and locale-specific formatting",
+      "JavaScript performance optimization",
+      "Bug fixing and edge-case handling in date parsing",
+      "String and array manipulation for performance",
+      "Cultural and linguistic sensitivity in software"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "JavaScript (for date/time library internals)"
+    ],
+    "summary": "Ghost is a specialized JavaScript developer with deep expertise in date/time libraries, particularly Moment.js. Their contributions focus on internationalization, performance optimization, and precise locale-specific formatting. The developer demonstrates strong skills in debugging, cultural sensitivity, and technical precision, with a niche but impactful impact on date handling in JavaScript ecosystems. Their work is primarily confined to backend/library-level JavaScript, with no evidence of frontend frameworks or broader ecosystem contributions.",
+    "identified_skills": {
+      "DateTime Libraries": [
+        "Moment.js core contributions",
+        "Locale-specific date formatting",
+        "Time zone-aware date handling"
+      ],
+      "Internationalization": [
+        "Japanese (`ja`) date formatting",
+        "Hungarian (`hu`) locale corrections",
+        "Danish (`da`) punctuation rules",
+        "Russian (`ru`) capitalization conventions",
+        "Portuguese (`pt-br`) idiomatic adjustments",
+        "Chinese (`zh-tw`/`zh-hk`) day-of-week support"
+      ],
+      "Performance Optimization": [
+        "JSPerf benchmarking",
+        "Predefined array optimizations",
+        "String splitting performance fixes"
+      ],
+      "String & Array Manipulation": [
+        "Locale-sensitive string formatting",
+        "Array-based month/day optimizations",
+        "Defensive input validation"
+      ],
+      "Bug Fixing": [
+        "Input type checking for format arrays",
+        "Edge-case date parsing fixes",
+        "Locale-specific formatting bugs"
+      ],
+      "Cultural Sensitivity": [
+        "Regional date/time conventions",
+        "Punctuation and capitalization rules",
+        "Language-specific idioms"
+      ],
+      "Tooling & Benchmarking": [
+        "JSPerf performance analysis",
+        "Testing framework awareness"
+      ],
+      "Collaboration": [
+        "Maintainer consultations",
+        "Documentation-based corrections",
+        "Community-driven fixes"
+      ],
+      "Language Awareness": [
+        "Spanish spelling corrections",
+        "Hungarian grammatical adjustments"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Boost performance by using predefined array' — JSPerf benchmark showing 96% faster month name lookup via predefined arrays over `.split()`",
+      "PR: '[feature] Check whether input is date before checking if format is array' — Defensive programming to prevent incorrect format processing",
+      "PR: 'Japanese locale: mm format for minutes' — Added `mm` format support with cultural context for Japanese time notation",
+      "PR: 'Hungarian locale improvements' — Corrected Hungarian date formatting to align with IBM’s official guidelines",
+      "PR: 'Danish locale: abbreviations followed by periods' — Fixed punctuation rules for Danish abbreviations (e.g., 'd.' for 'day')",
+      "PR: 'Russian locale: capitalization of day names' — Adjusted capitalization to match Russian language standards",
+      "PR: 'Chinese (Taiwanese/Hong Kong) day-of-week support' — Added `dow` and `doy` formats for regional Chinese calendars",
+      "PR: 'Portuguese (Brazilian) capitalization norms' — Corrected capitalization in `pt-br` locale to match Brazilian Portuguese conventions"
+    ]
+  },
+  "statistics": {
+    "total_prs": 9,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

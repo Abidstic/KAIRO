@@ -1,0 +1,86 @@
+{
+  "reviewer_name": "bjohansebas",
+  "generated_at": "20260815_155610",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 107,
+    "total_comments": 41,
+    "total_prs": 72,
+    "repos": [
+      "express"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "bjohansebas",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Express.js backend development",
+      "Asynchronous JavaScript (Promises/async-await)",
+      "Modern JavaScript (ES6+ features)",
+      "Code refactoring and optimization",
+      "HTTP response handling and headers",
+      "Testing and test-driven development",
+      "Deprecation management and backward compatibility"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "bjohansebas is a senior-level JavaScript developer with deep expertise in Express.js backend development, specializing in asynchronous I/O optimizations, clean code refactoring, and HTTP response improvements. Their reviews demonstrate strong proficiency in modern JavaScript patterns, testing, and deprecation strategies, with a focus on maintainable and performant backend solutions. The reviewer shows excellent technical depth in Express internals and Node.js tooling, contributing significantly to the framework's quality and evolution.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Node.js middleware"
+      ],
+      "Asynchronous Programming": [
+        "Async I/O elimination",
+        "Promises",
+        "async/await"
+      ],
+      "Modern JavaScript": [
+        "Spread/rest operator",
+        "Arrow functions",
+        "Destructuring"
+      ],
+      "Code Quality & Refactoring": [
+        "Legacy code modernization",
+        "Modularization",
+        "Readability improvements"
+      ],
+      "HTTP & API Design": [
+        "Response headers (Link)",
+        "Redirect handling",
+        "i18n support"
+      ],
+      "Testing & QA": [
+        "Test coverage",
+        "Linting",
+        "Deprecation warnings"
+      ],
+      "Dependency Management": [
+        "npm scripts",
+        "Dependency updates"
+      ],
+      "Collaboration & Review": [
+        "Constructive feedback",
+        "LGTM approvals",
+        "Issue references"
+      ],
+      "Frontend-Aware Backend": [
+        "HTML/response compatibility",
+        "Browser rendering awareness"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Resolve paths for views asynchronously' - eliminating synchronous I/O in Express",
+      "PR: 'Refactor: simplify acceptsLanguages implementation using spread operator' - modern JS adoption",
+      "PR: 'Extend res.links()' - HTTP header improvements for API design",
+      "Review comment: 'LGTM!' - consistent positive approvals with constructive feedback",
+      "PR: 'Polish HTML structure of res.redirect()' - frontend compatibility focus",
+      "PR: 'Added a new test that covers my changes' - explicit test-driven development",
+      "PR: 'Runned linter' - code quality enforcement via linting",
+      "PR: 'deps: upgrade mocha' - Node.js tooling and dependency management"
+    ]
+  }
+}

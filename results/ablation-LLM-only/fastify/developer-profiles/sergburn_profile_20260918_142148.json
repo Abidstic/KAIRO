@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "developer_name": "sergburn",
+    "generation_timestamp": "2026-09-18T14:03:47.652475",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "sergburn",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify (Node.js web framework)",
+      "Node.js backend development",
+      "TypeScript integration",
+      "Stream-based asynchronous processing",
+      "HTTP request/response lifecycle",
+      "Error handling and debugging"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "sergburn is a **Senior JavaScript developer** with deep expertise in **Fastify**, a high-performance Node.js web framework. Their contributions focus on **core framework internals**, including request/response handling, error systems, and stream-based processing. The developer demonstrates strong **debugging skills**, precision in **bug fixes**, and familiarity with **TypeScript type definitions**. Evidence suggests specialized knowledge of **Fastify’s request pipeline**, **async error propagation**, and **performance-critical components** like body limits and request ID generation. While contributions are backend-focused, the developer’s ability to modify **low-level framework behavior** indicates advanced proficiency in Node.js and FastScript architecture.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify"
+      ],
+      "Node.js Core": [
+        "Streams",
+        "Async/Await",
+        "Request/Response Lifecycle"
+      ],
+      "Error Handling": [
+        "Framework Error Systems",
+        "Stream Error Propagation",
+        "Status Code Handling"
+      ],
+      "TypeScript": [
+        "Type Definitions",
+        "Runtime Type Safety"
+      ],
+      "HTTP & Web Server": [
+        "Body Limits",
+        "Request ID Generation",
+        "Pre-Handler Processing"
+      ],
+      "Debugging & Bug Fixes": [
+        "Edge Case Resolution",
+        "Logging Control",
+        "Precision Fixes"
+      ],
+      "Middleware & Plugins": [
+        "Request Body Processing",
+        "Pre-Handler Hooks"
+      ],
+      "Performance Optimization": [
+        "Memory Efficiency",
+        "Stream Backpressure"
+      ]
+    },
+    "skill_evidence": [
+      "PR modifying `genReqId` generation, showing deep Fastify request ID system knowledge",
+      "TypeScript PR correcting `genReqId` argument type, proving TypeScript integration expertise",
+      "Bug fix for `bodyLimit` applied on fully decoded body, demonstrating HTTP body handling mastery",
+      "Framework error handling PR (`pass Fastify request to frameworkErrors`), indicating error system internals",
+      "Stream error handling PR (`statusCode from stream error`), confirming async/stream debugging skills",
+      "Logging control PR (`omit logging if disabled`), showing awareness of logging mechanisms",
+      "All PRs labeled `bugfix`, reinforcing focus on stability and correctness over features",
+      "Core Fastify internals modified, not just surface-level APIs, proving deep framework knowledge"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

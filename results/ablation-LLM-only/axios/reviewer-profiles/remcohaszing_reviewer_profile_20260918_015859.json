@@ -1,0 +1,77 @@
+{
+  "reviewer_name": "remcohaszing",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 3,
+    "total_prs": 2,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "remcohaszing",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "CommonJS/ES Module Compatibility",
+      "Type Definition Maintenance",
+      "Static Type Checking",
+      "Node.js Module Systems"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "remcohaszing demonstrates a strong focus on TypeScript type safety and module system compatibility, particularly between CommonJS and ES Modules. Their reviews emphasize compile-time correctness over runtime behavior, with evidence of deep knowledge in TypeScript declaration files (.d.ts/.cts) and version-specific syntax. The reviewer’s contributions are primarily technical and documentation-focused, with no visible involvement in frontend frameworks or backend frameworks beyond Node.js module systems. Their experience level is assessed as Mid based on the technical depth of type-related fixes and the clarity of PR descriptions, though no evidence of leading complex architectural discussions is present.",
+    "identified_skills": {
+      "Type Systems & Static Analysis": [
+        "TypeScript type definitions",
+        "Declaration files (.d.ts, .cts)",
+        "TypeScript version-specific features (4.7+)",
+        "Static type checking"
+      ],
+      "Module Systems": [
+        "CommonJS compatibility",
+        "ES Modules vs. CommonJS",
+        "Module resolution strategies",
+        "Hybrid module environments"
+      ],
+      "Tooling & Build Systems": [
+        "TypeScript compiler configuration",
+        "Build system integration (type definitions)",
+        "Tooling version awareness"
+      ],
+      "Code Quality & Documentation": [
+        "Technical PR descriptions",
+        "Backward compatibility considerations",
+        "Type safety-focused reviews"
+      ],
+      "Node.js Ecosystem": [
+        "CommonJS (Node.js module system)",
+        "Library development patterns"
+      ],
+      "Review Patterns": [
+        "Meta-level discussions (type definitions)",
+        "Asynchronous review communication",
+        "Constructive feedback (inferred)"
+      ],
+      "Backend Development": [],
+      "Frontend Development": [],
+      "Testing & QA": [],
+      "Performance Optimization": [],
+      "Security": []
+    },
+    "skill_evidence": [
+      "PR title: 'fix: fix TypeScript type definitions for commonjs' explicitly references TypeScript and CommonJS compatibility",
+      "PR description mentions duplicating 'index.d.ts' into 'index.d.cts' for CommonJS-specific types",
+      "Requires TypeScript 4.7+ for testing, indicating awareness of version-specific syntax (e.g., .cts files)",
+      "No runtime JavaScript changes in PRs; focus entirely on type-level fixes",
+      "PR description includes test requirements ('To test this, a minimum TypeScript version of 4.7 is needed')",
+      "Lack of frontend framework references (React, Vue, etc.) in any PRs or comments",
+      "All PRs are in 'COMMENTED' state, suggesting detailed asynchronous review discussions"
+    ]
+  }
+}

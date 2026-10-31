@@ -1,0 +1,63 @@
+{
+  "reviewer_name": "rkuykendall",
+  "generated_at": "20260815_170022",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 0,
+    "total_prs": 2,
+    "repos": [
+      "lodash"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "rkuykendall",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript core language (BigInt, numeric operations)",
+      "Lodash internals and utility optimizations",
+      "Memory allocation and performance tuning"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "rkuykendall demonstrates specialized expertise in JavaScript core language features, particularly BigInt handling and memory optimization, with deep familiarity with Lodash's internals. Their contributions focus on fixing critical performance and correctness issues, suggesting a mid-level reviewer with rigorous attention to low-level JavaScript behavior and utility library optimizations. The profile lacks evidence of broader framework or tooling experience, indicating a narrow but highly technical focus on JavaScript's underlying mechanics within utility libraries.",
+    "identified_skills": {
+      "Core JavaScript Language": [
+        "BigInt handling",
+        "Numeric type coercion",
+        "Memory allocation optimization",
+        "Primitive vs object performance"
+      ],
+      "Library/Utility Expertise": [
+        "Lodash internals",
+        "Utility function edge cases",
+        "Performance-critical path review"
+      ],
+      "Code Review Practices": [
+        "Critical issue triaging",
+        "Minimal but thorough approvals",
+        "Bug fix validation"
+      ],
+      "JavaScript Runtime Awareness": [
+        "V8 engine considerations",
+        "Garbage collection implications"
+      ],
+      "Testing": [],
+      "Frontend Frameworks": [],
+      "Backend Frameworks": [],
+      "Build Tools": [],
+      "Type Systems": [],
+      "Asynchronous Patterns": []
+    },
+    "skill_evidence": [
+      "PR #2 titled 'fix big int issue' referencing Lodash #5541 (demonstrates BigInt expertise)",
+      "PR #1 titled 'Remove meaningless allocation' (indicates memory optimization focus)",
+      "Both PRs labeled 'issue bankruptcy' (suggests handling of critical, high-impact bugs)",
+      "Approved PRs with no review comments or changes (implies rigorous internal validation)",
+      "No framework/tooling references in PR titles or descriptions (confirms narrow focus)",
+      "Lodash repository context for both PRs (confirms utility/library specialization)"
+    ]
+  }
+}

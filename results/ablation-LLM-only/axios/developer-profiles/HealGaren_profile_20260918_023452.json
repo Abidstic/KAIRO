@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "developer_name": "HealGaren",
+    "generation_timestamp": "2026-09-18T02:26:14.004310",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "HealGaren",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "URL Encoding & RFC 3986 Compliance",
+      "Axios HTTP Client Internals",
+      "JavaScript Runtime Debugging",
+      "Test Environment Awareness (Karma)",
+      "Low-Level JavaScript Refactoring",
+      "Technical Documentation & RFC Citations"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Axios ecosystem)"
+    ],
+    "summary": "HealGaren is a Mid-Level JavaScript developer with specialized expertise in URL handling and HTTP standards compliance, demonstrated through contributions to the Axios library. Their work focuses on low-level adjustments to URL encoding logic, RFC 3986 adherence, and debugging test environment quirks. While primarily contributing to backend HTTP client functionality, their contributions reflect deep understanding of JavaScript runtime behavior and library internals. Evidence suggests familiarity with Node.js and browser environments, as well as technical writing skills for explaining complex standards-based decisions. No frontend framework experience is visible in the PR data, but their skills are highly transferable to other JavaScript libraries or backend systems.",
+    "identified_skills": {
+      "URL & HTTP Standards": [
+        "RFC 3986 URL Syntax",
+        "URL Encoding (encodeURIComponent)",
+        "Square Bracket Encoding in URLs"
+      ],
+      "Library Development": [
+        "Axios HTTP Client Internals",
+        "Request Processing Logic",
+        "Low-Level JavaScript Refactoring"
+      ],
+      "Debugging & Testing": [
+        "Test Environment Awareness (Karma)",
+        "External Service Dependency Debugging",
+        "Test Failure Isolation"
+      ],
+      "Version Control & Code Maintenance": [
+        "PR Re-creation Due to Major Changes",
+        "Backward Compatibility Maintenance",
+        "Git Workflow Awareness"
+      ],
+      "Technical Communication": [
+        "RFC Documentation Citations",
+        "Technical PR Descriptions",
+        "Standard-Compliance Justification"
+      ],
+      "JavaScript Runtime": [
+        "Built-in Function Behavior (encodeURIComponent)",
+        "URL Handling in JavaScript"
+      ],
+      "Node.js & Browser JS": [
+        "Cross-Environment Library Development"
+      ]
+    },
+    "skill_evidence": [
+      "PR #3 explicitly cites RFC 3986: 'According to RFC 3986, square brackets in URLs must be encoded.'",
+      "All PRs modify URL encoding behavior in Axios, demonstrating deep knowledge of request processing internals",
+      "PR #2 is a re-creation of PR #3380 due to 'major changes,' showing attention to backward compatibility",
+      "PR #3 notes Karma test failures are due to 'external service' issues, not code, proving test environment awareness",
+      "PR descriptions include technical rationale for RFC compliance changes, showing strong documentation skills",
+      "Changes involve modifying how `encodeURIComponent`-like logic works in Axios, proving JavaScript runtime expertise",
+      "No frontend framework code visible; contributions are purely backend HTTP client functionality",
+      "PRs focus on correctness over new features, indicating precision in low-level adjustments"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "wi-ski",
+    "generation_timestamp": "2026-08-15T18:20:14.882254",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "wi-ski",
+    "raw_response": "```json\n{\n  \"developer_name\": \"wi-ski\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Moment.js date/time parsing\",\n    \"JavaScript input validation\",\n    \"Edge-case testing for date libraries\",\n    \"Timezone handling in JavaScript\",\n    \"Defensive programming patterns\",\n    \"Test-driven development (TDD) for date logic\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES5/ES6)\",\n    \"Node.js\"\n  ],\n  \"summary\": \"wi-ski is a mid-level JavaScript developer with specialized expertise in date/time handling, particularly within the Moment.js library. Their contributions demonstrate deep knowledge of timezone parsing, input validation for date setters, and edge-case debugging. The developer shows strong test-driven development skills, defensive programming practices, and a critical approach to code quality. While their experience is primarily backend-focused (Node.js), their contributions highlight precision in handling subtle JavaScript language quirks (e.g., truthiness, type coercion) in a domain where correctness is paramount. Ideal for roles requiring robust date/time systems or library maintenance.\",\n  \"identified_skills\": {\n    \"Date/Time Systems\": [\n      \"Moment.js timezone parsing (parseZone)\",\n      \"ISO 8601 date validation\",\n      \"UTC offset handling\",\n      \"NaN/garbage input sanitization\"\n    ],\n    \"JavaScript Core\": [\n      \"Truthiness evaluation (0 vs falsy)\",\n      \"Type coercion handling\",\n      \"Custom numeric validation helpers\",\n      \"Defensive input checks\"\n    ],\n    \"Testing & Debugging\": [\n      \"Test-driven date logic fixes\",\n      \"Edge-case test coverage\",\n      \"Debugging failing test suites\",\n      \"Intentional \"gimped\" implementations for correctness\"\n    ],\n    \"Code Quality & Review\": [\n      \"Self-critical code critiques\",\n      \"Trade-off awareness (correctness vs simplicity)\",\n      \"Open-source contribution etiquette\"\n    ],\n    \"Node.js Environment\": [\n      \"Moment.js library internals\",\n      \"Node.js date/time module patterns\"\n    ],\n    \"Version Control & Collaboration\": [\n      \"Pending release labeling\",\n      \"PR-based code review engagement\"\n    ],\n    \"Modern JavaScript\": [],\n    \"Frontend Frameworks\": [],\n    \"Tooling & Build Systems\": []\n  },\n  \"skill_evidence\": [\n    \"PR #1: Fixes `parseZone` misinterpreting `Z` (Zulu time) and `0` offsets as falsy, demonstrating timezone parsing expertise\",\n    \"PR #2: Adds numeric input validation helper for setters, showing defensive programming and type coercion awareness\",\n    \"PR #2: Describes helper as 'garish' but seeks critiques, proving self-aware code review engagement\",\n    \"PR #3: Struggles to make tests pass due to NaN handling, proving edge-case debugging experience\",\n    \"PR #3: Mentions 'intentionally gimped' implementation to avoid breaking tests, showing trade-off reasoning\",\n    \"All PRs reference 'tests only' or failing tests, proving TDD mindset for date logic\",\n    \"PR labels include 'Pending Next Release', indicating familiarity with open-source release processes\",\n    \"Discusses falsy checks for `0` offsets, proving nuanced understanding of JavaScript truthiness\"\n  ]\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 34 column 21 (char 1671)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

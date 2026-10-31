@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "developer_name": "david-mark",
+    "generation_timestamp": "2026-08-15T16:18:25.540932",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "david-mark",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery internals",
+      "Cross-environment JavaScript (browser/Node.js)",
+      "Legacy DOM manipulation",
+      "Global object vs. window object handling",
+      "Code optimization and minification debugging",
+      "Integration test debugging"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "Node.js JavaScript"
+    ],
+    "summary": "david-mark is a mid-level JavaScript developer with specialized expertise in jQuery's core internals, particularly focused on cross-environment compatibility between browser and Node.js runtimes. Their contributions demonstrate deep familiarity with legacy DOM manipulation patterns, global object vs. window object handling, and debugging minification/integration test issues. The developer's work is narrowly concentrated on maintaining and optimizing jQuery's compatibility layer rather than modern frontend or backend development.",
+    "identified_skills": {
+      "Legacy JavaScript Patterns": [
+        "Global object vs. window object handling",
+        "Legacy DOM manipulation",
+        "Global scope pollution avoidance"
+      ],
+      "Cross-Environment Compatibility": [
+        "Node.js browser compatibility",
+        "Environment detection patterns",
+        "Polyfill implementation"
+      ],
+      "Build System Debugging": [
+        "Minification tooling (Terser/UglifyJS)",
+        "Integration test debugging",
+        "Build artifact validation"
+      ],
+      "Code Optimization": [
+        "Redundant reference removal",
+        "Logic simplification",
+        "Code golfing"
+      ],
+      "Testing Practices": [
+        "Integration test debugging",
+        "Environment-specific test failures",
+        "Test suite validation"
+      ],
+      "jQuery Architecture": [
+        "Core DOM manipulation patterns",
+        "Global object management",
+        "Legacy code refactoring"
+      ],
+      "Version Control Workflow": [
+        "Git PR submission",
+        "Code review-ready contributions"
+      ]
+    },
+    "skill_evidence": [
+      "PR #2: 'Add NodeJS support to wrapper.js' explicitly addresses Node.js compatibility, showing environment detection and polyfill implementation",
+      "PR #4: 'Put back window reference where painted into corner (should be using global object, but can't at mom)' demonstrates debugging Node.js vs. browser differences in global object handling",
+      "PR #5: 'Single quotes not allowed. Should finally pass integration tests' indicates experience with minification tooling and integration test debugging",
+      "All PRs involve `window`/`document`/`global` object references, proving deep knowledge of jQuery's core DOM manipulation patterns",
+      "PR #3 and PR #6 show code simplification and redundant reference removal, indicating code optimization skills",
+      "Multiple PRs reference 'global object' vs. 'window' object, confirming expertise in cross-environment compatibility patterns",
+      "PR titles and descriptions consistently focus on jQuery's core architecture rather than modern frameworks or tooling",
+      "No evidence of modern JavaScript features (async/await, modules) in any PR, confirming ES5/ES6 focus"
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

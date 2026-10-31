@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "isaacs",
+    "generation_timestamp": "2026-09-17T18:19:57.884204",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 133,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "isaacs",
+    "raw_response": "```json\n{\n  \"developer_name\": \"isaacs\",\n  \"experience_level\": \"Senior\",\n  \"primary_skills\": [\n    \"Node.js core internals\",\n    \"npm package management\",\n    \"JavaScript async error handling\",\n    \"Cross-platform JavaScript development\",\n    \"CI/CD pipeline configuration\",\n    \"Test suite optimization\",\n    \"Defensive programming patterns\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"Node.js (LTS versions)\",\n    \"Bash (for CI/CD scripts)\"\n  ],\n  \"summary\": \"Isaacs is a highly experienced Node.js and npm core developer with deep expertise in npm's package management system and Node.js runtime internals. Their contributions focus on stabilizing npm's core functionality, improving cross-platform compatibility, and enhancing async error handling. The developer demonstrates exceptional proficiency in debugging complex edge cases, optimizing test reliability, and configuring CI/CD pipelines. While primarily backend-focused, their work spans npm's versioning system, registry interactions, and dependency resolution logic. Evidence shows strong defensive programming practices and a focus on making npm more robust across different operating systems and environments.\",\n  \"identified_skills\": {\n    \"Node.js Runtime Systems\": [\n      \"Node.js event loop\",\n      \"Unhandled rejection handling\",\n      \"Registry configuration management\",\n      \"Windows/Linux/macOS filesystem interactions\"\n    ],\n    \"npm Core Architecture\": [\n      \"Dist-tag management\",\n      \"Dependency tree resolution\",\n      \"CI/CD integration with npm\",\n      \"Registry interaction protocols\",\n      \"Semantic versioning enforcement\"\n    ],\n    \"Asynchronous Programming\": [\n      \"Promise-based error handling\",\n      \"Async/await patterns\",\n      \"Uncaught exception propagation\"\n    ],\n    \"Testing & Reliability\": [\n      \"Flaky test debugging\",\n      \"Parallel test execution\",\n      \"Cross-platform test compatibility\",\n      \"Test suite optimization\"\n    ],\n    \"DevOps & CI/CD\": [\n      \"Travis CI configuration\",\n      \"Environment variable handling\",\n      \"Cross-platform CI compatibility\",\n      \"CI environment variable injection\"\n    ],\n    \"Defensive Programming\": [\n      \"Edge case handling\",\n      \"Crash prevention\",\n      \"Missing configuration safeguards\",\n      \"Defensive module loading\"\n    ],\n    \"Configuration Management\": [\n      \"Registry configuration validation\",\n      \"CI/CD environment variables\",\n      \"File/directory mode handling\"\n    ],\n    \"JavaScript Module Systems\": [\n      \"CommonJS module resolution\",\n      \"Dependency tree traversal\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR 'dist-tag: make \\'ls\\' the default action' shows npm CLI usability improvements and dist-tag management expertise\",\n    \"PR 'Isaacs/fix crash if registry config unset' demonstrates deep knowledge of registry configuration validation and crash prevention\",\n    \"PR 'Handle unhandledRejections' proves mastery of Node.js async error handling patterns and Promise-based safety mechanisms\",\n    \"PR 'Pass tests on Windows (and run them on travis)' reveals cross-platform compatibility expertise and CI/CD configuration skills\",\n    \"PR 'tests: parallel tests' indicates test suite optimization capabilities and parallel execution implementation\",\n    \"PR 'clean up flaky tests' shows test reliability improvements through defensive programming and test utility cleanup\",\n    \"PR 'ci: pass appropriate configs for file/dir modes' demonstrates CI environment variable handling and cross-platform configuration\",\n    \"PR 'Revert \\'install: do not descend into directory deps\\' child modules' proves understanding of npm's dependency tree resolution logic\"\n  ]\n}\n```",
+    "parsing_error": "Invalid \\escape: line 67 column 25 (char 2630)"
+  },
+  "statistics": {
+    "total_prs": 133,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

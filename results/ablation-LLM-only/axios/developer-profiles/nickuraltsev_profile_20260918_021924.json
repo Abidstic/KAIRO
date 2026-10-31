@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "developer_name": "nickuraltsev",
+    "generation_timestamp": "2026-09-18T02:00:36.817124",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 16,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "nickuraltsev",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "HTTP client development (axios)",
+      "Modern JavaScript (Promises, async/await)",
+      "TypeScript integration",
+      "Configuration & defaults handling",
+      "Cross-environment compatibility (Node.js/browser)",
+      "Error handling & HTTP status customization",
+      "Stream support in HTTP requests",
+      "CI/CD & testing tooling (Karma, Travis)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "nickuraltsev is a senior JavaScript developer with deep expertise in HTTP client development, demonstrated through significant contributions to the axios library. Their work spans core JavaScript language features (Promises, async/await), TypeScript integration, configuration systems, and cross-environment compatibility. They exhibit strong skills in error handling, stream support, and CI/CD tooling, with a focus on maintaining backward compatibility and improving developer experience. Their contributions reflect a senior-level ability to refactor complex systems while addressing edge cases and browser/environment quirks.",
+    "identified_skills": {
+      "HTTP & Networking": [
+        "HTTP status code customization",
+        "Stream support in HTTP requests",
+        "ArrayBuffer handling",
+        "URLSearchParams integration",
+        "Cross-environment HTTP compatibility"
+      ],
+      "Asynchronous Programming": [
+        "Promise rejection patterns",
+        "Async/await error handling",
+        "Breaking change management in async workflows"
+      ],
+      "Configuration Systems": [
+        "Deep object merging (config defaults)",
+        "Customizable request defaults (baseURL)",
+        "Peer dependency resolution"
+      ],
+      "TypeScript": [
+        "Type definition updates",
+        "TypeScript type improvements"
+      ],
+      "Testing & CI/CD": [
+        "Karma configuration fixes",
+        "Travis CI debugging",
+        "Dependency conflict resolution"
+      ],
+      "Documentation": [
+        "README maintenance",
+        "ECOSYSTEM.md updates",
+        "Community resource organization"
+      ],
+      "Code Refactoring": [
+        "Config merging optimization",
+        "Cleaner request method structure"
+      ],
+      "Browser Compatibility": [
+        "IE11 support fixes",
+        "Deprecated API handling",
+        "Progressive enhancement strategies"
+      ],
+      "Dependency Management": [
+        "Peer dependency conflict resolution"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Improve error handling' - Promise rejection with Error objects instead of response objects (async/await)",
+      "PR: 'Fix issue with ArrayBuffer' - IE11 compatibility and deprecated XMLHttpRequest.send(ArrayBuffer) (HTTP & Networking)",
+      "PR: 'Merge defaults, request config, and instance config' - Deep object merging for config systems (Configuration Systems)",
+      "PR: 'Updating TypeScript definitions' - Type definition updates (TypeScript)",
+      "PR: 'Fixing issue with Travis' - CI/CD debugging (Testing & CI/CD)",
+      "PR: 'Allow custom HTTP status code error ranges' - Fine-grained error handling (HTTP & Networking)",
+      "PR: 'Add support for Stream' - Stream support in HTTP requests (HTTP & Networking)",
+      "PR: 'Fixing incorrect message in karma config' - Testing framework configuration (Testing & CI/CD)",
+      "PR: 'Update README.md: instantiation' - Documentation maintenance (Documentation)",
+      "PR: 'Fixing issues with peer deps' - Peer dependency conflict resolution (Dependency Management)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 16,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

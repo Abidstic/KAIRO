@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "developer_name": "wenz",
+    "generation_timestamp": "2026-08-15T16:18:43.668676",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "wenz",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery core development",
+      "Legacy JavaScript (ES5)",
+      "AJAX/HTTP request handling",
+      "Open-source contribution workflows"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "jQuery"
+    ],
+    "summary": "wenz is a mid-level JavaScript developer with specialized expertise in jQuery's core AJAX module, particularly URL construction and HTTP request handling. Their contributions focus on fixing edge cases in legacy JavaScript (ES5) within jQuery's mature codebase. While their experience is deeply rooted in jQuery internals and open-source maintenance processes, there is no evidence of involvement in modern JavaScript frameworks or contemporary tooling ecosystems. Their work demonstrates strong debugging skills for asynchronous operations and a clear understanding of HTTP caching mechanisms.",
+    "identified_skills": {
+      "Legacy Frontend Frameworks": [
+        "jQuery",
+        "jQuery.ajax()"
+      ],
+      "HTTP/AJAX Patterns": [
+        "URL query parameter manipulation",
+        "cache-busting techniques",
+        "XHR request handling"
+      ],
+      "Legacy JavaScript": [
+        "ES5 syntax",
+        "prototype-based OOP",
+        "legacy testing patterns"
+      ],
+      "Open-Source Processes": [
+        "CLA compliance",
+        "iterative PR refinement",
+        "foundation contribution guidelines"
+      ],
+      "Debugging & Edge Cases": [
+        "HTTP caching headers",
+        "asynchronous operation debugging",
+        "URL construction bugs"
+      ],
+      "Testing": [
+        "acknowledgment of missing tests"
+      ],
+      "Modern JavaScript Ecosystem": [],
+      "Backend Systems": [],
+      "Build Tools & Bundlers": [],
+      "Type Systems": []
+    },
+    "skill_evidence": [
+      "PRs targeting `jQuery.ajax()` URL construction with `cache: false` parameter (bug gh-3682)",
+      "Iterative PR submissions for the same issue until merged, showing persistence in debugging",
+      "CLA compliance checklist included in PR description (`https:\n    "
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

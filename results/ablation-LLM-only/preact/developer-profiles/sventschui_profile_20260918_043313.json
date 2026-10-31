@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "developer_name": "sventschui",
+    "generation_timestamp": "2026-09-18T04:10:57.547931",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 29,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "sventschui",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "React/Preact Core",
+      "Virtual DOM (vnode) manipulation",
+      "Suspense and async rendering",
+      "Component lifecycle management",
+      "Performance optimization (byte golfing)",
+      "DOM attribute handling",
+      "Concurrent rendering patterns",
+      "Context API internals",
+      "Debugging and testing edge cases"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "sventschui is a senior JavaScript developer with deep expertise in React/Preact core systems, specializing in virtual DOM manipulation, Suspense-based async rendering, and performance optimizations. Their contributions focus on fixing edge cases in component lifecycle, vnode structure, and concurrent rendering features. The developer demonstrates precision in targeted code changes, particularly around byte reduction and debugging complex rendering scenarios. While primarily working with Preact—a lightweight React-compatible library—they exhibit advanced knowledge of React internals, including Suspense, Context API, and experimental concurrency features like two-phase rendering. Their work is characterized by a strong emphasis on performance, correctness, and compatibility with React’s behavior.",
+    "identified_skills": {
+      "React_Preact_Internals": [
+        "Virtual DOM (vnode) manipulation",
+        "Component lifecycle hooks",
+        "Suspense implementation and debugging",
+        "Fragment and vnode ordering",
+        "React.memo optimization",
+        "Context API Consumer lifecycle fixes",
+        "Two-phase rendering experimentation"
+      ],
+      "Async_Rendering": [
+        "Suspense fallback mounting/unmounting",
+        "Async data loading patterns",
+        "Error handling in Suspense",
+        "Concurrent rendering transitions"
+      ],
+      "Performance_Optimization": [
+        "Byte code reduction (golfing)",
+        "Redundant code elimination",
+        "DOM attribute compatibility tweaks",
+        "vnode structure optimizations"
+      ],
+      "DOM_API_Extensions": [
+        "Form attribute support (buttons/inputs)",
+        "Touch event handling",
+        "HTML feature parity with React"
+      ],
+      "Debugging_and_Testing": [
+        "Bug reproduction and test case creation",
+        "Issue triage and GitHub issue linking",
+        "Debugging Suspense edge cases",
+        "DOM property inspection"
+      ],
+      "Concurrency_Features": [
+        "Suspense and transitions",
+        "Two-phase rendering",
+        "StartTransition patterns"
+      ],
+      "Code_Quality": [
+        "Precision-focused PRs",
+        "Minimal, targeted changes",
+        "CI/CD awareness (Coveralls)"
+      ],
+      "Language_Features": [
+        "ES6+ syntax (arrow functions, destructuring)"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: 'Introduce Suspense and lazy' – Suspense implementation and async rendering patterns",
+      "PR #2: 'Order issue when setState changes vnode type in Fragment' – vnode structure debugging and lifecycle fixes",
+      "PR #4: 'Fix this value in componentWillUnmount under createContext Consumer' – Context API Consumer lifecycle awareness",
+      "PR #5: 'Better suspense' – Suspense fallback mounting/unmounting logic",
+      "PR #7: 'Golf bytes' – Byte code reduction and performance optimization",
+      "PR #12: 'Allow fallback of Suspense to be mounted multiple times' – Debugging Suspense edge cases and DOM property handling",
+      "PR #14: 'Support adding refs to memo'ed components' – React.memo optimization and ref attachment",
+      "PR #15: 'Add support for the form attribute on buttons and inputs' – DOM API extensions for feature parity",
+      "PR #16: 'Remove redundant if clause in suspense _catchError' – Error handling in Suspense and redundant code elimination",
+      "PR #19: 'Always use lower cased touch events in compat' – DOM attribute compatibility tweaks"
+    ]
+  },
+  "statistics": {
+    "total_prs": 29,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

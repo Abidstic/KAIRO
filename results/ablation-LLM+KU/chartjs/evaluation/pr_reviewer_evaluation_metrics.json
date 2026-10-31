@@ -1,0 +1,58 @@
+{
+  "evaluation_metadata": {
+    "total_prs_evaluated": 86,
+    "unique_actual_reviewers": 14,
+    "unique_predicted_reviewers": 9
+  },
+  "precision_at_k": {
+    "precision_at_1": 72.09302325581395,
+    "precision_at_3": 47.28682170542635,
+    "precision_at_5": 28.372093023255808,
+    "precision_at_10": 14.186046511627904
+  },
+  "recall_at_k": {
+    "recall_at_1": 43.4108527131783,
+    "recall_at_3": 82.1705426356589,
+    "recall_at_5": 82.1705426356589,
+    "recall_at_10": 82.1705426356589
+  },
+  "f1_score_at_k": {
+    "f1_at_1": 52.519379844961236,
+    "f1_at_3": 58.3001107419712,
+    "f1_at_5": 41.18678479143595,
+    "f1_at_10": 23.819784866296494
+  },
+  "hit_rate_at_k": {
+    "hit_at_1": 72.09302325581395,
+    "hit_at_3": 100.0,
+    "hit_at_5": 100.0,
+    "hit_at_10": 100.0
+  },
+  "mean_reciprocal_rank": {
+    "mrr": 0.8430232558139533,
+    "mrr_percentage": 84.30232558139534
+  },
+  "mean_average_precision_at_k": {
+    "map_at_1": 72.09302325581395,
+    "map_at_3": 67.08656330749353,
+    "map_at_5": 66.97351421188631,
+    "map_at_10": 66.97351421188631
+  },
+  "dcg_at_k": {
+    "dcg_at_1": 0.7209302325581395,
+    "dcg_at_3": 1.1093508557309057,
+    "dcg_at_5": 1.1093508557309057,
+    "dcg_at_10": 1.1093508557309057
+  },
+  "ndcg_at_k": {
+    "ndcg_at_1": 72.09302325581395,
+    "ndcg_at_3": 75.40186037702591,
+    "ndcg_at_5": 75.2981058883742,
+    "ndcg_at_10": 75.2981058883742
+  },
+  "stability_metrics": {
+    "coverage": 21.428571428571427,
+    "exact_match_rate": 100.0,
+    "diversity_ratio": 0.6428571428571429
+  }
+}

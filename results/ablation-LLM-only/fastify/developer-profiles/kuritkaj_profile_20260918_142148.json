@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "kuritkaj",
+    "generation_timestamp": "2026-09-18T14:07:14.033673",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "kuritkaj",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify (Node.js framework)",
+      "TypeScript type definitions",
+      "JSON Schema validation",
+      "Semantic Versioning (SemVer)",
+      "Backend API design"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "kuritkaj is a backend-focused JavaScript/TypeScript developer with specialized expertise in Fastify, particularly in enhancing its TypeScript type definitions and schema validation system. Their contributions demonstrate deep knowledge of Fastify's core internals, including response schema validation for keys like '2xx', and ensuring type safety in the framework's public API. The developer follows semantic versioning best practices and has strong debugging skills for complex TypeScript ecosystems. Their work is primarily centered on backend framework development rather than frontend or general-purpose JavaScript.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js"
+      ],
+      "TypeScript": [
+        "Type definitions",
+        "TypeScript symbol-based method signatures",
+        "TypeScript interface/extension",
+        "TypeScript debugging",
+        "Schema typing"
+      ],
+      "API Design": [
+        "Response schema validation",
+        "JSON Schema composition",
+        "Dynamic key validation",
+        "FastifyInstance method extensions"
+      ],
+      "Version Control & Releases": [
+        "Semantic Versioning (semver-minor)",
+        "Backward-compatible changes"
+      ],
+      "Debugging & Refactoring": [
+        "Type error identification",
+        "Self-correction of type issues",
+        "Framework-level type safety"
+      ],
+      "Open Source Contributions": [
+        "Core framework contributions",
+        "Type provider extensions",
+        "Fastify ecosystem"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Added key signature for string keys ('2xx') in response schema, demonstrating JSON Schema validation expertise in Fastify's type provider system",
+      "PR #2: Fixed TypeScript typing issues, showing debugging skills for complex TypeScript ecosystems and self-correction of type errors",
+      "PR #3: Added FastifyInstance::inject method typings, proving deep knowledge of Fastify's core API and TypeScript symbol-based method signatures",
+      "All PRs labeled 'semver-minor', indicating adherence to semantic versioning and backward-compatible type additions",
+      "PRs focus exclusively on Fastify's backend framework rather than frontend or general JavaScript",
+      "Type definitions added extend FastifyInstance's public API, demonstrating framework-level type safety expertise",
+      "Mention of 'FastifyInstance::inject' method typings shows familiarity with Fastify's internal method signature system"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

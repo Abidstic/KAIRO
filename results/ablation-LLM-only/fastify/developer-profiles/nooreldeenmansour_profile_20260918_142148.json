@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "nooreldeenmansour",
+    "generation_timestamp": "2026-09-18T14:02:26.566829",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "nooreldeenmansour",
+    "raw_response": "```json\n{\n  \"developer_name\": \"nooreldeenmansour\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Fastify plugin documentation\",\n    \"Fastify ecosystem tooling\",\n    \"JavaScript-based documentation linters\",\n    \"Markdown technical writing\",\n    \"Fastify plugin system architecture\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript\",\n    \"Node.js\"\n  ],\n  \"summary\": \"A JavaScript developer with specialized expertise in Fastify's plugin ecosystem and documentation tooling. Their contributions focus on improving Fastify's plugin documentation and maintaining custom linters for the ecosystem file, demonstrating strong skills in JavaScript-based automation and technical writing for developer tools. While not directly involved in core Fastify backend development, their work shows deep familiarity with Fastify's plugin architecture and documentation standards.\",\n  \"identified_skills\": {\n    \"Fastify Ecosystem\": [\n      \"Fastify plugin documentation\",\n      \"Fastify plugin system\",\n      \"Fastify ecosystem file maintenance\",\n      \"Fastify plugin naming conventions\"\n    ],\n    \"Documentation & Technical Writing\": [\n      \"Markdown documentation\",\n      \"Technical writing for developer tools\",\n      \"Documentation consistency standards\",\n      \"Ecosystem documentation validation\"\n    ],\n    \"JavaScript Tooling\": [\n      \"JavaScript-based linters\",\n      \"Node.js scripting\",\n      \"Pattern validation scripts\",\n      \"Custom documentation tooling\"\n    ],\n    \"Fastify-Specific\": [\n      \"Fastify plugin registration patterns\",\n      \"Fastify decorator usage\",\n      \"Fastify plugin schema validation\"\n    ],\n    \"Automation & Validation\": [\n      \"Documentation linter automation\",\n      \"Regex pattern matching for docs\",\n      \"Fastify internal tooling integration\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR 1: Fixed typo in `/docs/index.md` (direct documentation edit)\",\n    \"PR 2: Added linter rule for 'improper module name patterns' in Ecosystem.md (pattern validation)\",\n    \"PR 3: Expanded linter to check all sections of Ecosystem.md (tooling improvement)\",\n    \"PR 4: Added documentation for `@fastify/one-line-logger` plugin (plugin system knowledge)\",\n    \"PR 3 label: 'plugin' (confirming plugin system familiarity)\",\n    \"PR 2 description: 'Check for improper module name patterns' (regex/validation skill)\",\n    \"All PRs target Fastify's `Ecosystem.md` (specialized ecosystem knowledge)\",\n    \"No visible changes to Fastify's core `.js`/`.ts` files (focus on docs/tooling)\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 55 column 3 (char 2503)"
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

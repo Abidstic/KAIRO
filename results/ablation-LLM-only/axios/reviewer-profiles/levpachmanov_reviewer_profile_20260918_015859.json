@@ -1,0 +1,65 @@
+{
+  "reviewer_name": "levpachmanov",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 2,
+    "total_prs": 1,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "levpachmanov",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Security-focused JavaScript development",
+      "Axios library internals",
+      "Vulnerability mitigation in JavaScript ecosystems"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)",
+      "TypeScript (inferred from axios ecosystem)"
+    ],
+    "summary": "levpachmanov demonstrates specialized expertise in security-related JavaScript development, with a strong focus on identifying and implementing fixes for critical vulnerabilities in the axios library. Their contributions are highly targeted toward secure coding practices, particularly in handling HTTP-related security flaws. While their review dataset is limited to two identical security-focused PRs, the evidence clearly indicates deep technical knowledge of axios internals and vulnerability research. Their experience level is assessed as Mid due to the technical depth of their security contributions, though broader JavaScript ecosystem exposure remains unproven.",
+    "identified_skills": {
+      "Security": [
+        "CVE analysis and mitigation",
+        "OWASP Top 10 awareness",
+        "Security patch implementation"
+      ],
+      "JavaScript Ecosystem": [
+        "Axios library internals",
+        "HTTP request/response handling",
+        "Node.js runtime environment"
+      ],
+      "Open Source Contribution": [
+        "Community-driven vulnerability fixes",
+        "GitHub issue engagement",
+        "Security advisory implementation"
+      ],
+      "Asynchronous Programming": [
+        "Promise-based APIs",
+        "Async/await patterns"
+      ],
+      "Code Review": [
+        "Security-focused PR validation"
+      ],
+      "Testing": [],
+      "Backend Frameworks": [],
+      "Frontend Frameworks": [],
+      "Dependency Management": [],
+      "Tooling": []
+    },
+    "skill_evidence": [
+      "PR title 'fix(sec): CVE-2024-39338 (#6539)' explicitly labels the review as a security fix",
+      "Reference to GitHub issue #6463 and comment #2286538061 demonstrates engagement with community security discussions",
+      "Both PRs are related to axios, indicating deep familiarity with the library's HTTP handling mechanisms",
+      "Security-focused `fix(sec)` prefix in PR title aligns with OWASP Top 10 vulnerability patterns",
+      "Axios is a Node.js/browser library, implying knowledge of asynchronous JavaScript patterns",
+      "No code-level review comments visible, suggesting security validation rather than implementation"
+    ]
+  }
+}

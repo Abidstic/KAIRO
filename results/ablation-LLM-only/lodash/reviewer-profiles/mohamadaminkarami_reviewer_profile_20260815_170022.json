@@ -1,0 +1,63 @@
+{
+  "reviewer_name": "mohamadaminkarami",
+  "generated_at": "20260815_170022",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 2,
+    "total_prs": 1,
+    "repos": [
+      "lodash"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "mohamadaminkarami",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Core JavaScript edge case handling",
+      "Defensive programming in string/array methods",
+      "Bug fixing and correctness-focused reviews"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "TypeScript (inferred from defensive programming patterns)"
+    ],
+    "summary": "mohamadaminkarami demonstrates mid-level JavaScript expertise focused on core language correctness, particularly in handling edge cases like undefined inputs in string/array methods. Their review activity is limited to a single repository (lodash) with two nearly identical PRs that fix subtle behavioral issues in JavaScript's built-in methods. The reviewer shows proficiency in defensive programming and correctness-focused code reviews but lacks evidence of broader ecosystem knowledge (frameworks, testing, or DevOps). Their contributions suggest a backend or utility-focused environment where core JavaScript robustness is prioritized over modern frameworks or architectural patterns.",
+    "identified_skills": {
+      "Core JavaScript": [
+        "String.prototype.split() behavior",
+        "Defensive programming for undefined/null inputs",
+        "Edge case handling in built-in methods"
+      ],
+      "Code Review": [
+        "Correctness-focused feedback",
+        "Minimalist code change review patterns",
+        "Bug fix validation"
+      ],
+      "JavaScript Ecosystem": [
+        "Node.js runtime awareness"
+      ],
+      "Testing": [],
+      "Backend/Utility": [
+        "Shared library utility code",
+        "Core language feature robustness"
+      ],
+      "Frontend": [],
+      "Modern JavaScript": [
+        "Optional chaining (inferred from defensive patterns)"
+      ],
+      "Documentation": [],
+      "Build Tools": []
+    },
+    "skill_evidence": [
+      "PR title 'Fix: Fix split function to return [] whenever string is undefined' demonstrates understanding of split() edge cases",
+      "PR description referencing 'fixed #5322' indicates bug fix validation in a shared utility library context",
+      "PR labeled 'issue bankruptcy' suggests backend or utility-focused codebase where core JS robustness matters",
+      "Commented PR state implies engagement in correctness-focused review discussions",
+      "No evidence of framework-specific (React/Vue/Express) or testing-related terminology in PRs",
+      "Minimal changes (0 additions/deletions) indicate focused, targeted bug fixes rather than architectural reviews",
+      "Lack of async/await, modules, or modern JS syntax in PRs suggests limited exposure to modern JS features"
+    ]
+  }
+}

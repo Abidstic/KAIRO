@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "developer_name": "defunctzombie",
+    "generation_timestamp": "2026-08-15T15:37:17.946523",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 15,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "defunctzombie",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Express.js Backend Development",
+      "Node.js Middleware Architecture",
+      "Async/Await Patterns",
+      "HTTP Routing & Parameter Handling",
+      "API Deprecation & Breaking Changes",
+      "Streaming & Performance Optimization"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from PR context, though not explicitly shown)"
+    ],
+    "summary": "defunctzombie is a senior-level JavaScript developer with deep expertise in Express.js backend architecture. Their contributions focus on core framework enhancements—particularly middleware, routing, and async patterns—demonstrating mastery of Node.js backend development. The developer excels in designing scalable APIs, handling breaking changes, and optimizing performance through streaming and modular middleware. Evidence from PRs shows a strong emphasis on backward compatibility, functional patterns, and architectural improvements in Express.js.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Node.js Middleware"
+      ],
+      "Routing & HTTP": [
+        "Router.all()",
+        "Parameter Handling",
+        "HTTP Method Support"
+      ],
+      "Asynchronous Programming": [
+        "async/await",
+        "Promise-based Middleware"
+      ],
+      "Performance Optimization": [
+        "Streaming Views",
+        "Middleware Efficiency"
+      ],
+      "API Evolution": [
+        "Breaking Changes",
+        "Deprecation Management"
+      ],
+      "Code Quality": [
+        "Dead Code Removal",
+        "Edge Case Debugging"
+      ],
+      "Functional Patterns": [
+        "Middleware Composition",
+        "Modular Router Design"
+      ],
+      "Object & Prototype Manipulation": [
+        "res.locals Refactoring"
+      ]
+    },
+    "skill_evidence": [
+      "Added Router.all() for attaching handlers to all HTTP methods (PR #4)",
+      "Implemented async route handler support with async/await (PR #19)",
+      "Refactored middleware to be more modular and composable (PR #15)",
+      "Changed res.locals to a plain JS object, affecting prototype chains (PR #8)",
+      "Removed deprecated app.configure() and connect integration (PRs #6, #13)",
+      "Optimized streaming view rendering to reduce memory usage (PR #5)",
+      "Fixed edge case in req.param() for named parameters (PR #1)",
+      "Removed unused variables to improve code maintainability (PRs #2, #3)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 15,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "reviewer_name": "metcoder95",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 160,
+    "total_comments": 95,
+    "total_prs": 88,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "metcoder95",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify framework",
+      "Node.js backend development",
+      "HTTP routing (GET/HEAD methods)",
+      "Middleware architecture",
+      "Performance optimization",
+      "Testing advocacy",
+      "API design patterns",
+      "Code review mentorship"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (implied)"
+    ],
+    "summary": "metcoder95 is a highly skilled Senior JavaScript developer with deep expertise in Fastify, specializing in backend architecture, performance tuning, and rigorous code review practices. Their reviews demonstrate advanced knowledge of routing mechanics, middleware design, and testing principles, with a strong focus on maintainable and performant API implementations. The reviewer consistently advocates for comprehensive test coverage and clean code practices while contributing to project documentation. Their collaborative approach and technical depth make them an excellent mentor for backend development teams.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js"
+      ],
+      "Routing & HTTP": [
+        "GET/HEAD route synchronization",
+        "HTTP method handling",
+        "route registration"
+      ],
+      "Middleware & Plugins": [
+        "Fastify middleware",
+        "plugin architecture",
+        "dependency management"
+      ],
+      "Performance Engineering": [
+        "benchmarking",
+        "latency optimization",
+        "memory efficiency"
+      ],
+      "Testing & Quality": [
+        "test coverage advocacy",
+        "unit/integration testing",
+        "code review rigor"
+      ],
+      "API Design": [
+        "RESTful patterns",
+        "API ergonomics",
+        "clean interfaces"
+      ],
+      "Documentation": [
+        "performance guides",
+        "technical documentation"
+      ],
+      "Code Review": [
+        "constructive feedback",
+        "technical discussion",
+        "collaborative approval"
+      ],
+      "Asynchronous Patterns": [
+        "Node.js event loop",
+        "async middleware"
+      ],
+      "Dependency Management": [
+        "package.json maintenance",
+        "plugin dependencies"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'fix: ensure HEAD route will be created per each GET one' shows deep HTTP routing expertise",
+      "Comment 'Although this does the work, the fact that you need to register and deregister the route seems prone to failure' demonstrates API robustness focus",
+      "Request for tests in 'feat: Request Logging Customization' highlights testing advocacy ('Should we add some to cover the feature?')",
+      "'LGTM, just the dependency is lost from package.json' shows familiarity with Fastify's plugin system",
+      "Benchmark labels and comments ('I'm interested in the benchmark results') prove performance optimization focus",
+      "Documentation PR 'docs(recommendations): add Causes Of Performance Degradation section' confirms technical writing skills",
+      "Repetitive engagement with 9 comments on 'feat: Add onListen Hook' demonstrates thorough review process",
+      "Discussion about 'childLoggerOption: childLoggerOption' naming shows attention to API ergonomics"
+    ]
+  }
+}

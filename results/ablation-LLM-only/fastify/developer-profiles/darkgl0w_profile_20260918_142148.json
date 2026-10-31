@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "developer_name": "darkgl0w",
+    "generation_timestamp": "2026-09-18T13:38:04.594627",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 11,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 11
+  },
+  "profile": {
+    "developer_name": "darkgl0w",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Fastify Framework",
+      "TypeScript",
+      "Backend Plugin Development",
+      "API Documentation",
+      "Node.js Backend Patterns",
+      "Testing & Debugging",
+      "CI/CD Optimization"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "darkgl0w is a specialized JavaScript developer with deep expertise in the Fastify framework, focusing on TypeScript integration, plugin ecosystem development, and backend optimization. Their contributions demonstrate strong skills in maintaining Fastify’s core functionality, enhancing type safety, and improving documentation for the plugin ecosystem. With a mid-level experience assessment based on 11 PRs, they show proficiency in backend patterns, testing stability, and CI/CD tooling within the Fastify ecosystem.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Fastify v2.x"
+      ],
+      "TypeScript & Typing": [
+        "TypeScript type definitions",
+        "this typing",
+        "generics"
+      ],
+      "Plugin Development": [
+        "Fastify plugin ecosystem",
+        "plugin documentation",
+        "plugin vetting"
+      ],
+      "Documentation": [
+        "Fastify ecosystem documentation",
+        "plugin READMEs",
+        "API contract docs"
+      ],
+      "Testing": [
+        "flaky test debugging",
+        "test suite stability"
+      ],
+      "CI/CD & Tooling": [
+        "CI pipeline optimization",
+        "linting improvements"
+      ],
+      "Backend Patterns": [
+        "Node.js async/await",
+        "Fastify middleware",
+        "configuration management"
+      ],
+      "Bug Fixing": [
+        "TypeScript type fixes",
+        "bug resolution"
+      ],
+      "Ecosystem Integration": [
+        "Apollo Server Fastify",
+        "Stripe Fastify",
+        "Supabase Fastify"
+      ]
+    },
+    "skill_evidence": [
+      "PR labeled `typescript` with title 'feat (types): add complete `fastify.listen()` typescript definitions'",
+      "PR labeled `plugin` with title 'Add apollo-server-fastify to the ecosystem'",
+      "PR labeled `documentation` with title 'docs: add `fastify-supabase` to fastify ecosystem'",
+      "PR labeled `test` with title 'fix (test): `custom-parser.test.js` flaky test'",
+      "PR labeled `chore (ci)` with title 'run lint only once'",
+      "PR labeled `v2.x` with internal Fastify core improvements",
+      "PR labeled `bugfix` with TypeScript `this` typing corrections",
+      "Multiple PRs adding `fastify-mailer` and `fastify-stripe` to community ecosystem lists"
+    ]
+  },
+  "statistics": {
+    "total_prs": 11,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

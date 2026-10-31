@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "developer_name": "captbaritone",
+    "generation_timestamp": "2026-08-15T18:20:57.476888",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "captbaritone",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Core JavaScript language mastery",
+      "Defensive programming techniques",
+      "Type safety and type guards",
+      "Code refactoring and cleanup",
+      "Moment.js library contributions"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)"
+    ],
+    "summary": "captbaritone is a meticulous JavaScript developer with a strong focus on language correctness and defensive programming. Their contributions demonstrate deep expertise in JavaScript syntax, type safety, and utility function design within the Moment.js ecosystem. The developer shows a collaborative approach by aligning with maintainer preferences and addressing prior feedback. While their contributions are primarily in core JavaScript and utility libraries, their work highlights precision, maintainability, and a commitment to robust code practices. Experience level is assessed as Mid due to the depth of language-level contributions and cleanup work, though limited to a single repository.",
+    "identified_skills": {
+      "JavaScript Language Fundamentals": [
+        "typeof operator usage",
+        "strict boolean equality checks",
+        "custom type guard functions",
+        "defensive programming patterns"
+      ],
+      "Code Quality Practices": [
+        "refactoring for clarity",
+        "removing redundant syntax",
+        "consistency alignment with maintainers",
+        "edge-case handling in utilities"
+      ],
+      "Library-Specific Contributions": [
+        "Moment.js utility functions",
+        "input validation for date/time libraries"
+      ],
+      "Collaboration & Code Review": [
+        "addressing maintainer feedback",
+        "respecting team conventions"
+      ],
+      "Utility Development": [
+        "reusable type-checking utilities",
+        "robust number type validation"
+      ]
+    },
+    "skill_evidence": [
+      "'typeof is an operator not a function. Removing the unneeded parenthesis makes this clear.' (PR 1) — Demonstrates precise JavaScript syntax awareness",
+      "'Using typeof to check for undefined values rather than checking equality to undefined is safer.' (PR 1) — Shows defensive programming against window.undefined edge cases",
+      "'In #3559 @ichernev stated that he would prefer two strict comparisons (to true and false) over checking the type.' (PR 2) — Evidence of strict boolean equality preference",
+      "'Our new isNumber function is slightly more robust than a simple type check.' (PR 3) — Custom type guard implementation with edge-case handling",
+      "'It will also correctly identify wrapped numbers.' (PR 3) — Robustness in distinguishing primitives from wrapped objects",
+      "'This pull request actualizes that preference.' (PR 2) — Directly addresses maintainer feedback for code consistency",
+      "All PRs are cleanup/enhancements with no new features — Focus on maintainability and code quality over feature development"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

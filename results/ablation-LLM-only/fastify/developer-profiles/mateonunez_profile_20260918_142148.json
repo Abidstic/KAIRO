@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "developer_name": "mateonunez",
+    "generation_timestamp": "2026-09-18T13:54:26.833315",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "mateonunez",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify framework",
+      "Fastify plugin development",
+      "Node.js backend development",
+      "JavaScript ES Modules",
+      "Database plugin integrations (MySQL/PostgreSQL)",
+      "Authentication plugin systems",
+      "Search plugin systems",
+      "Technical documentation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Fastify ecosystem)"
+    ],
+    "summary": "mateonunez is a Mid-level JavaScript developer with specialized expertise in the Fastify ecosystem. Their contributions focus on maintaining and documenting Fastify plugins, particularly those related to authentication, database integration, and search functionality. While their PRs are documentation-only, they demonstrate deep familiarity with Fastify's plugin architecture, Node.js backend patterns, and modern JavaScript features like ES Modules and decorators. The developer follows Fastify's contribution guidelines rigorously and has a strong understanding of plugin metadata management within the Fastify ecosystem.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js"
+      ],
+      "Plugin Development": [
+        "Fastify plugin architecture",
+        "Plugin registration systems",
+        "Plugin metadata standards"
+      ],
+      "Database Integrations": [
+        "MySQL plugin integration",
+        "PostgreSQL plugin integration"
+      ],
+      "Authentication Systems": [
+        "Fastify-Lyra integration"
+      ],
+      "Search Systems": [
+        "Fastify-Orama integration"
+      ],
+      "Documentation Practices": [
+        "README maintenance",
+        "plugin registry documentation",
+        "GitHub documentation labels"
+      ],
+      "JavaScript Language": [
+        "ES Modules",
+        "Decorators",
+        "Async/Await"
+      ],
+      "Ecosystem Maintenance": [
+        "Plugin naming conventions",
+        "Plugin dependency management"
+      ],
+      "GitHub Workflow": [
+        "PR labeling",
+        "Documentation-focused contributions"
+      ]
+    },
+    "skill_evidence": [
+      "All PRs labeled 'documentation' with no code changes, indicating focus on plugin metadata updates",
+      "PR titles explicitly reference Fastify plugins ('fastify-lyra', 'fastify-at-mysql', 'fastify-orama')",
+      "Plugin names suggest database integration expertise ('fastify-at-postgres', 'fastify-at-mysql')",
+      "Authentication plugin ('fastify-lyra') contributions indicate familiarity with auth systems",
+      "Search plugin ('fastify-orama') contributions demonstrate knowledge of search integrations",
+      "No code changes but consistent plugin naming/description updates show deep ecosystem knowledge",
+      "PRs closed with 'merged' status indicate adherence to Fastify's contribution process",
+      "Documentation-only PRs suggest specialized role in maintaining plugin registry standards"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

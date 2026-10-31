@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "developer_name": "ethomson",
+    "generation_timestamp": "2026-09-17T18:28:27.553277",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 10,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 10
+  },
+  "profile": {
+    "developer_name": "ethomson",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "npm CLI documentation systems",
+      "MDX/Markdown documentation tooling",
+      "GitHub Actions workflow configuration",
+      "JavaScript ecosystem documentation practices",
+      "Semantic versioning for documentation updates",
+      "Cross-platform CI/CD scripting (PowerShell/bash)"
+    ],
+    "programming_languages": [
+      "JavaScript (indirect via npm CLI ecosystem)",
+      "Markdown (MDX)",
+      "YAML (GitHub Actions workflows)"
+    ],
+    "summary": "ethomson is a mid-level JavaScript developer with specialized expertise in npm CLI documentation systems and CI/CD tooling. Their contributions focus on improving documentation quality, MDX compatibility, and cross-platform CI workflows for the npm CLI repository. While not writing application code, their work demonstrates deep knowledge of JavaScript ecosystem tooling, semantic versioning practices, and technical writing for command-line tools. The developer shows strong attention to detail in documentation rendering, platform-specific CI configurations, and maintaining backward compatibility in documentation updates.",
+    "identified_skills": {
+      "Documentation Systems": [
+        "MDX (Markdown + JSX)",
+        "Markdown parsing validation",
+        "HTML rendering best practices",
+        "Smart quotes removal",
+        "Code block formatting rules",
+        "Cross-referencing documentation"
+      ],
+      "npm CLI Internals": [
+        "npm install documentation",
+        "npm-diff documentation",
+        "Release versioned documentation",
+        "CLI help system documentation"
+      ],
+      "CI/CD & Tooling": [
+        "GitHub Actions workflow configuration",
+        "Cross-platform scripting (PowerShell/bash)",
+        "Windows-compatible CI environments",
+        "Semantic versioning in CI"
+      ],
+      "Versioning & Releases": [
+        "Semantic versioning (semver:patch)",
+        "Release 6.x/7.x documentation alignment",
+        "Documentation-only release changes"
+      ],
+      "Technical Writing": [
+        "Technical documentation for CLI tools",
+        "Documentation framework updates",
+        "Deprecated content removal",
+        "Documentation parsing validation"
+      ],
+      "JavaScript Ecosystem": [
+        "npm CLI ecosystem knowledge",
+        "JavaScript documentation toolchains",
+        "Node.js CI integration"
+      ]
+    },
+    "skill_evidence": [
+      "PR 'docs: validate that the docs can be parsed by mdx' shows MDX parsing validation expertise",
+      "'docs: turn off smart quotes, update doctype and charset' demonstrates HTML rendering best practices",
+      "'Documentation update for `install`' indicates CLI help system documentation maintenance",
+      "'GitHub Actions: add a win32 bash workflow' proves cross-platform CI scripting knowledge",
+      "'Release 6.x' labeled PRs show alignment with npm CLI versioned documentation",
+      "'semver:patch' labels demonstrate semantic versioning for documentation updates",
+      "'docs: don’t wrap code block' reflects attention to code block formatting rules",
+      "'docs: update npm-diff to exclude angle brackets' shows documentation parsing validation"
+    ]
+  },
+  "statistics": {
+    "total_prs": 10,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "developer_name": "adityaanurag0219",
+    "generation_timestamp": "2026-09-18T01:22:27.735693",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "adityaanurag0219",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios (HTTP client library)",
+      "Error handling in asynchronous operations",
+      "HTTP header parsing and decoding",
+      "JSON parsing and error handling",
+      "Modern JavaScript (ES6+ features)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (indirect familiarity)"
+    ],
+    "summary": "\nAditya Anurag demonstrates **mid-level JavaScript expertise**, primarily evidenced through contributions to the **Axios** library—a popular HTTP client for both Node.js and browser environments. Their work focuses on **robust error handling**, particularly in asynchronous contexts, including preserving stack traces in AxiosError objects and improving JSON parsing error messages. This indicates a strong grasp of **async/await**, **Promise-based error propagation**, and **defensive programming** practices.\n\nWhile contributions are backend-focused (Node.js), their familiarity with Axios suggests they understand its integration with frontend frameworks like React or Vue, though no direct frontend contributions are visible. Their fixes are **minimal, targeted, and production-ready**, reflecting a disciplined approach to code quality and robustness. The absence of large-scale architectural changes or framework-specific work suggests a **specialized but deep** skill set in HTTP client libraries and error resilience.\n\nOverall, Aditya’s profile aligns with a **mid-level developer** who excels in **backend JavaScript**, **API consumption patterns**, and **asynchronous error handling**, with implicit knowledge of TypeScript due to Axios’s TypeScript support.\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise": [
+        "Axios"
+      ],
+      "Asynchronous Programming": [
+        "Promises",
+        "async/await"
+      ],
+      "API Design & Consumption": [
+        "RESTful APIs"
+      ],
+      "Error Handling": [
+        "Error wrapping",
+        "Stack trace preservation",
+        "JSON parsing errors"
+      ],
+      "Frontend Development Skills": [],
+      "Backend Development Skills": [
+        "Node.js"
+      ],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts": [
+        "Arrow functions",
+        "Destructuring",
+        "Template literals",
+        "Optional chaining"
+      ],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Dependency Management": [
+        "npm/yarn"
+      ],
+      "Graphical Data Visualization": []
+    }
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

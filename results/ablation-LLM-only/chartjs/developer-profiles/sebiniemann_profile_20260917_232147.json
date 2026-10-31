@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "developer_name": "sebiniemann",
+    "generation_timestamp": "2026-09-17T23:12:36.999818",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "sebiniemann",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "ES6 Modules (import/export)",
+      "Content Security Policy (CSP) compliance",
+      "DOM Event API (removeEventListener)",
+      "Chart.js library internals",
+      "Package.json configuration",
+      "API cleanup and refinement",
+      "Backward compatibility maintenance"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Chart.js context)"
+    ],
+    "summary": "sebiniemann is a Mid-level JavaScript developer with demonstrated expertise in modernizing and refining Chart.js, a popular data visualization library. Their contributions focus on improving security (CSP compliance), API consistency (DOM Event API fixes), and build tooling (ES6 module support). The developer shows strong problem-solving skills in debugging subtle issues and maintaining backward compatibility while introducing modern features. Their work highlights a balance of language-level knowledge (ES6+) and domain-specific expertise in charting libraries.",
+    "identified_skills": {
+      "JavaScript Language Features": [
+        "ES6 Modules (import/export syntax)",
+        "ES6+ API cleanup (removeEventListener)",
+        "Default behavior design (interpolation off by default)"
+      ],
+      "Security & Compliance": [
+        "Content Security Policy (CSP) asset serving",
+        "Legacy security compliance (v2.0 CSP support)"
+      ],
+      "Library Development": [
+        "Chart.js rendering engine",
+        "Chart.js event system",
+        "Chart.js CSS/asset handling"
+      ],
+      "Build & Tooling": [
+        "package.json module field configuration",
+        "Bundler compatibility (ES Modules)",
+        "Semantic versioning awareness"
+      ],
+      "Debugging & Issue Resolution": [
+        "GitHub issue triage",
+        "API inconsistency fixes",
+        "Collaborative debugging (discussion-driven fixes)"
+      ],
+      "API Design": [
+        "Backward compatibility maintenance",
+        "Redundant parameter removal"
+      ],
+      "User Experience": [
+        "Misleading default behavior avoidance"
+      ]
+    },
+    "skill_evidence": [
+      "PR #3: Added 'module' field to package.json for ES6 module support, referencing bundler compatibility discussions",
+      "PR #1: Served CSS definitions with CSP headers to comply with security policies while maintaining v2.0 compatibility",
+      "PR #2: Removed extra argument from removeEventListener to align with standard API, fixing inconsistency in Chart.js event system",
+      "PR #4: Turned off interpolation by default to prevent misleading charts, referencing prior design discussions (#5939)",
+      "All PRs reference specific GitHub issues (#5303, #5179, #6598) showing collaborative debugging and problem-solving",
+      "PR #3 updates package.json with dual CommonJS/ES Module support, demonstrating build tooling awareness",
+      "PR #1 maintains v2.0 support while modernizing asset handling, proving backward compatibility focus",
+      "PR #2's fix aligns with standard DOM Event API, showing API design refinement expertise"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

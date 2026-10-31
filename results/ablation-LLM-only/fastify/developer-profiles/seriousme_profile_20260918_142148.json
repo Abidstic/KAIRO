@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "seriousme",
+    "generation_timestamp": "2026-09-18T14:09:04.692728",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "seriousme",
+    "raw_response": "```json\n{\n  \"developer_name\": \"seriousme\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Fastify plugin development\",\n    \"TypeScript in Node.js\",\n    \"OpenAPI/Swagger tooling\",\n    \"Backend API content-type handling\",\n    \"Fastify core debugging\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript\"\n  ],\n  \"summary\": \"seriousme is a Mid-level JavaScript developer with specialized expertise in Fastify backend development, TypeScript integration, and API documentation tooling. Their contributions focus on enhancing Fastify's plugin ecosystem, debugging TypeScript-related issues in core components, and improving OpenAPI/Swagger documentation. The developer demonstrates strong backend skills with a particular focus on Fastify's versioned branches (v3.x) and its plugin architecture. While contributions are limited to Fastify, the depth of work in plugin development, TypeScript debugging, and API tooling suggests a capable backend engineer with ecosystem awareness.\",\n  \"identified_skills\": {\n    \"Backend Frameworks\": [\"Fastify\", \"Fastify plugin system\"],\n    \"TypeScript\": [\"TypeScript debugging\", \"Native TypeScript type handling\", \"TypeScript in Node.js\"],\n    \"API Documentation\": [\"OpenAPI/Swagger\", \"fastify-swaggergen\", \"Ecosystem documentation\"],\n    \"Content Handling\": [\"Content-type parsing\", \"Request/response middleware\"],\n    \"Versioned Development\": [\"Fastify v3.x\", \"Version-specific bug fixes\"],\n    \"Code Maintenance\": [\"Bug fixes\", \"Code refactoring\"],\n    \"Documentation\": [\"Ecosystem.md updates\", \"Plugin documentation\"],\n    \"Tooling\": [\"Fastify plugins\", \"OpenAPI glue\"]\n  },\n  \"skill_evidence\": [\n    \"Added fastify-swaggergen plugin to Fastify's ecosystem documentation (PR #1)\",\n    \"Renamed swaggergen to openapi glue, indicating deep plugin system knowledge (PR #2)\",\n    \"Fixed TypeScript bug in hasContentTypeParser for native type handling (PR #3, labeled 'typescript')\",\n    \"Updated docs/Ecosystem.md with plugin recommendations (PR #1)\",\n    \"Bug fix labeled 'v3.x' showing Fastify v3.x version-specific expertise (PR #3)\",\n    \"Content-type parser debugging in Fastify's core (PR #3 description)\",\n    \"TypeScript label on PR #2 indicating TypeScript-specific contributions\",\n    \"Plugin development evidenced by renaming and adding Fastify plugins\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 35 column 3 (char 2321)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

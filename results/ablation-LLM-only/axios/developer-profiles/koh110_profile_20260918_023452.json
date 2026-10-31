@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "developer_name": "koh110",
+    "generation_timestamp": "2026-09-18T02:27:06.090667",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "koh110",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js event-driven programming",
+      "Axios HTTP client internals",
+      "GitHub Actions CI/CD configuration",
+      "Asynchronous request handling"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript (inferred)"
+    ],
+    "summary": "koh110 is a mid-level JavaScript developer with specialized expertise in Node.js event-driven programming and the axios HTTP client library. Their contributions focus on core request lifecycle features, particularly event handling for request cancellation (e.g., `aborted` events). While primarily backend-oriented, their work demonstrates strong asynchronous programming patterns and basic CI/CD tooling (GitHub Actions). The developer shows deep familiarity with axios internals but lacks visible evidence of broader JavaScript ecosystem involvement or frontend frameworks.",
+    "identified_skills": {
+      "Node.js Core": [
+        "EventEmitter-based systems",
+        "AbortController integration",
+        "Node.js v14+ compatibility"
+      ],
+      "HTTP Client Development": [
+        "Axios request lifecycle",
+        "Event-based request cancellation",
+        "HTTP request abortion handling"
+      ],
+      "CI/CD Tooling": [
+        "GitHub Actions workflows",
+        "Basic CI pipeline configuration"
+      ],
+      "Asynchronous Patterns": [
+        "Promise-based request handling",
+        "Event-driven architecture"
+      ],
+      "Backend Systems": [
+        "Node.js runtime environment"
+      ],
+      "Configuration Management": [
+        "CI/CD setup"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1 ('Adding aborted event handler'): References Node.js v14's `aborted` event for HTTP requests, indicating familiarity with EventEmitter-based systems and AbortController patterns in Node.js.",
+      "PR 1 description: '`aborted` event is emitted when a request is aborted with Node.js v14', confirming direct work with axios's request lifecycle and Node.js event-driven programming.",
+      "PR 2 and PR 3 titles ('Adding CI' and 'Adding CI on Github Actions'): Show involvement in GitHub Actions workflow configuration, demonstrating basic CI/CD tooling skills.",
+      "Axios repository context: All PRs are for axios, a Node.js/front-end HTTP client, implying deep knowledge of its internals (e.g., event system, request cancellation).",
+      "No frontend framework or library references: PRs lack React/Vue/Angular context, confirming backend-focused specialization.",
+      "Minimalistic PR changes: Suggests internal refactoring (e.g., adding event handlers) rather than broad architectural contributions.",
+      "Event-based focus: PR 1 explicitly targets `aborted` event, a critical part of axios's request cancellation mechanism, showcasing specialized HTTP client development skills."
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

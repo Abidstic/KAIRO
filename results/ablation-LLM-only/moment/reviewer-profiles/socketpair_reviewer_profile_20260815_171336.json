@@ -1,0 +1,54 @@
+{
+  "reviewer_name": "socketpair",
+  "generated_at": "20260815_171336",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 5,
+    "total_comments": 7,
+    "total_prs": 3,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "socketpair",
+    "experience_level": "N/A (No JavaScript technical evidence)",
+    "primary_skills": [],
+    "programming_languages": [],
+    "summary": "The reviewer 'socketpair' has no visible JavaScript technical skills or contributions based on the provided GitHub PR data. All reviewed PRs are localization-related with no code changes, JavaScript syntax, or framework usage. The activity appears to be non-technical (e.g., i18n approvals) and does not reflect JavaScript expertise or code review experience in that domain.",
+    "identified_skills": {
+      "Localization & Internationalization": [
+        "i18n translations",
+        "locale approvals"
+      ],
+      "Non-Technical PR Review": [
+        "meta-discussion oversight",
+        "non-code PR comments"
+      ],
+      "Repository Maintenance": [
+        "PR labeling",
+        "locale-specific metadata"
+      ],
+      "JavaScript": [],
+      "Backend Frameworks": [],
+      "Frontend Frameworks": [],
+      "Testing": [],
+      "Tooling & Build Systems": [],
+      "Code Quality & Review": [],
+      "Asynchronous Programming": [],
+      "Data Structures & Algorithms": [],
+      "API Design": [],
+      "Performance Optimization": []
+    },
+    "skill_evidence": [
+      "All PRs have `files_changed: 0` indicating no code was reviewed or modified",
+      "PR titles focus on localization (e.g., '[locale] ru: fix months abbreviations')",
+      "Labels include 'locale approval needed' with no JavaScript context",
+      "No references to JavaScript frameworks, libraries, or language features in PR descriptions",
+      "Review state is 'COMMENTED' but no technical feedback or code examples provided",
+      "No evidence of testing, documentation, or backend/frontend development discussions",
+      "PRs appear to be non-technical approvals rather than technical reviews"
+    ]
+  }
+}

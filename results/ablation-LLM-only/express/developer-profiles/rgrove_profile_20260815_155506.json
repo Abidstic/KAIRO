@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "rgrove",
+    "generation_timestamp": "2026-08-15T15:48:01.417237",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "rgrove",
+    "raw_response": "```json\n{\n  \"developer_name\": \"rgrove\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Express.js internals\",\n    \"Node.js backend development\",\n    \"JavaScript security (XSS mitigation)\",\n    \"HTTP protocol compliance\",\n    \"Backporting and version maintenance\",\n    \"Edge-case debugging\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES5/ES6)\",\n    \"Node.js runtime\"\n  ],\n  \"summary\": \"rgrove is a Mid-level JavaScript developer with specialized expertise in Express.js backend development. Their contributions focus on security hardening, HTTP protocol compliance, and maintaining cross-version compatibility. The developer demonstrates strong skills in mitigating XSS vulnerabilities in JSONP responses, preserving HTTP header case sensitivity, and backporting fixes to legacy branches. While primarily backend-focused, their work shows deep technical understanding of Express internals and subtle edge cases in web protocols.\",\n  \"identified_skills\": {\n    \"Backend Frameworks\": [\"Express.js\"],\n    \"Security\": [\"XSS mitigation\", \"Input sanitization\"],\n    \"HTTP Protocol\": [\"Header case sensitivity\", \"JSONP security\", \"RFC 7230 compliance\"],\n    \"Version Control\": [\"Backporting\", \"Semantic versioning\"],\n    \"Debugging\": [\"Edge-case identification\", \"Client compatibility testing\"],\n    \"Technical Communication\": [\"PR documentation\", \"Technical justification\"],\n    \"Node.js Runtime\": [\"Asynchronous processing\"],\n    \"Web Standards\": [\"HTTP header handling\"]\n  },\n  \"skill_evidence\": [\n    \"PR #1: 'Strip unsafe characters out of JSONP callbacks to prevent XSS' - Demonstrates XSS mitigation and input sanitization in JSONP responses\",\n    \"PR #1 description: 'Fixes XSS vulnerability by removing unsafe characters from callback names' - Shows security awareness and technical justification\",\n    \"PR #2: '1.x: Strip unsafe characters out of JSONP callbacks to prevent XSS' - Backporting security fix to maintain compatibility across branches\",\n    \"PR #2 label: 'Backport' - Explicit version maintenance work\",\n    \"PR #3: 'Don't convert header names to lowercase in res.set()' - Addresses HTTP header case sensitivity per RFC 7230\",\n    \"PR #3 description: 'Preserves case sensitivity for headers to maintain compatibility with \"dumb clients\"' - Shows client compatibility debugging\",\n    \"All PRs: Focus on Express internals with no frontend or testing framework contributions - Confirms backend specialization\",\n    \"PR descriptions consistently explain technical decisions with RFC references and client behavior context - Demonstrates technical communication skills\"\n  ]\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 33 column 97 (char 2247)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

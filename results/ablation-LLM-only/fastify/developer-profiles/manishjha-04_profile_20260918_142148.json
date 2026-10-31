@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "developer_name": "manishjha-04",
+    "generation_timestamp": "2026-09-18T14:21:48.057886",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "manishjha-04",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify framework",
+      "JavaScript codemods",
+      "Node.js runtime",
+      "Test-driven development for tooling",
+      "Open-source documentation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Fastify ecosystem)"
+    ],
+    "summary": "Manishjha-04 is a Mid-level JavaScript developer with specialized expertise in Fastify's backend ecosystem. Their contributions focus on migration tooling (codemods for Fastify v5 upgrades), testing automated refactoring scripts, and improving documentation. The developer demonstrates strong practical skills in JavaScript AST manipulation (likely via Babel/JSCodeshift) and has contributed meaningfully to Fastify's open-source community through low-code but high-impact PRs. Experience is primarily backend-focused, with a proven ability to handle framework version upgrades and maintain migration tooling.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify"
+      ],
+      "Migration & Refactoring": [
+        "codemods",
+        "version upgrade tooling",
+        "AST transformation"
+      ],
+      "Testing": [
+        "codemod validation tests",
+        "test-driven tooling",
+        "Jest/Mocha (inferred)"
+      ],
+      "Documentation": [
+        "Fastify migration guides",
+        "open-source documentation"
+      ],
+      "Tooling & Automation": [
+        "JSCodeshift/Babel (inferred)",
+        "CI/CD pipeline configuration"
+      ],
+      "Open-Source Contribution": [
+        "good first issue",
+        "community onboarding",
+        "test case contributions"
+      ],
+      "JavaScript Language": [
+        "ES6+ features",
+        "Node.js module system"
+      ],
+      "Version Management": [
+        "semantic versioning awareness"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'docs: Codemods for Upgrading to fastify v5' with 'documentation' label",
+      "PRs labeled 'good first issue' indicating community onboarding contributions",
+      "Three PRs all associated with Fastify repository demonstrating framework specialization",
+      "PRs with titles 'Codemod Testing PR!' and 'Test Pr for Codemods' showing test-driven tooling focus",
+      "Zero file changes in PRs suggesting documentation/test case additions rather than code modifications",
+      "Explicit mention of codemods in PR titles/descriptions indicating AST manipulation experience",
+      "All PRs labeled 'test' demonstrating involvement in validation and quality assurance",
+      "Low-code changes (0 additions/deletions) across all PRs showing focus on tooling setup/documentation"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

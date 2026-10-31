@@ -1,0 +1,19 @@
+{
+  "reviewer_name": "Yatin-kathuria",
+  "generated_at": "20260815_170022",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 3,
+    "total_prs": 1,
+    "repos": [
+      "lodash"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "Yatin-kathuria",
+    "raw_response": "```json\n{\n  \"reviewer_name\": \"Yatin-kathuria\",\n  \"experience_level\": \"Junior\",\n  \"primary_skills\": [\n    \"Basic array manipulation\",\n    \"Vanilla JavaScript (ES5/ES6)\",\n    \"Code review participation\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript\"\n  ],\n  \"summary\": \"Yatin-kathuria demonstrates minimal and repetitive JavaScript expertise primarily focused on basic array operations (e.g., finding the longest element in an array). The review data consists of four identical PRs with no evidence of advanced language features, frameworks, or backend/frontend ecosystems. The reviewer's contributions are limited to trivial array manipulations with no substantive feedback or complex technical discussions. The lack of code snippets, file changes, or meaningful labels further undermines the reliability of this profile as a true reflection of their skills.\",\n  \"identified_skills\": {\n    \"Array Operations\": [\n      \"Basic iteration (for...of, forEach)\",\n      \"Element comparison (string length, nested properties)\"\n    ],\n    \"Core JavaScript\": [\n      \"Vanilla JavaScript syntax\",\n      \"Control flow (conditional logic)\"\n    ],\n    \"Code Review\": [\n      \"PR approval (commented state)\",\n      \"No substantive feedback\"\n    ],\n    \"Review Metadata\": [\n      \"Empty repository context\",\n      \"Irrelevant labels ('issue bankruptcy')\"\n    ],\n    \"Backend/Frontend\": [],\n    \"Testing\": [],\n    \"Asynchronous Programming\": [],\n    \"Error Handling\": [],\n    \"Object-Oriented Programming\": [],\n    \"Modern JavaScript Features\": [],\n    \"Libraries/Frameworks\": []\n  },\n  \"skill_evidence\": [\n    \"All four PRs titled 'added findLongest function' with identical descriptions about finding the longest element in an array\",\n    \"No evidence of ES6+ features (arrow functions, destructuring, etc.) in PR titles or descriptions\",\n    \"Review state is 'COMMENTED' with no visible comments or approvals\",\n    \"Empty repository field ('repo: \"\"') and zero files changed ('files_changed: 0')\",\n    \"Label 'issue bankruptcy' has no technical relevance to JavaScript or code review\",\n    \"No mention of frameworks, testing, or async/await in any PR metadata\",\n    \"No commit messages, diffs, or code snippets provided for analysis\"\n  ]\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 42 column 38 (char 1928)"
+  }
+}

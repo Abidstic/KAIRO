@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "developer_name": "rahulio96",
+    "generation_timestamp": "2026-09-17T18:52:52.104899",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "rahulio96",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "npm CLI internals",
+      "Node.js package management",
+      "dependency resolution algorithms",
+      "npm configuration parsing",
+      "error handling in CLI tools",
+      "lockfile generation (package-lock.json)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "Node.js"
+    ],
+    "summary": "rahulio96 is a mid-level JavaScript developer with specialized expertise in npm CLI internals and Node.js package management. Their contributions focus on fixing bugs related to npm configuration parsing, dependency management, and error handling—particularly in the context of `npx` and `package-lock.json`. The developer demonstrates deep knowledge of npm’s internals, including how it resolves paths, handles optional dependencies, and generates lockfiles. While their contributions are narrowly focused on npm’s backend systems, they show strong problem-solving skills in stability and user experience improvements. There is no evidence of frontend development, modern JavaScript features, or broader JavaScript ecosystem involvement beyond npm.",
+    "identified_skills": {
+      "Package Management": [
+        "npm CLI internals",
+        "package-lock.json generation",
+        "optional dependency handling",
+        "dependency resolution algorithms"
+      ],
+      "Configuration Systems": [
+        ".npmrc parsing",
+        "configuration path resolution",
+        "user-facing error logging"
+      ],
+      "Error Handling": [
+        "custom error messages for npm CLI",
+        "async cancellation handling (npx)",
+        "user-friendly error communication"
+      ],
+      "Node.js Core": [
+        "fs module usage",
+        "path module usage",
+        "child_process (npx execution)"
+      ],
+      "Testing": [],
+      "Frontend Development": [],
+      "Backend Frameworks": [],
+      "Asynchronous Programming": [
+        "async cancellation patterns"
+      ],
+      "Documentation": [],
+      "Build Tools": []
+    },
+    "skill_evidence": [
+      "PR 1: 'fix: much clearer npx 'canceled' error' – demonstrates async cancellation handling and user-facing error improvements in `npx` (child_process-based).",
+      "PR 2: 'fix: prefix in .npmrc error log' – shows .npmrc parsing and path resolution fixes, with focus on error logging clarity.",
+      "PR 3: 'fix: stop optional dependencies from being added to prod inside lockfile' – reveals deep understanding of lockfile generation and optional dependency behavior in npm.",
+      "All PRs involve npm CLI internals, confirming specialization in Node.js package management rather than broader JavaScript.",
+      "No evidence of frontend frameworks (React/Vue) or modern JS features (async/await, decorators) in PRs or files.",
+      "Error handling patterns include custom error messages and stack traces for end-user clarity (PR 1 and PR 2).",
+      "Dependency management skills evident through lockfile logic (PR 3) and configuration parsing (PR 2)."
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

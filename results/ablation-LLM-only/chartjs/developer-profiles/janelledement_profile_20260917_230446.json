@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "developer_name": "janelledement",
+    "generation_timestamp": "2026-09-17T23:01:04.998694",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "janelledement",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js API & Configuration",
+      "JavaScript Documentation",
+      "Scriptable Chart Properties",
+      "Frontend JavaScript Playgrounds"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "Mid-level JavaScript developer with specialized expertise in Chart.js, focusing on API configuration, scriptable chart properties, and high-quality technical documentation. Demonstrates precision in refining documentation, improving usability through examples, and maintaining code clarity. Familiar with interactive JavaScript development environments (jsbin, jsfiddle) and frontend JavaScript patterns. Contributions are primarily documentation-driven but reveal deep understanding of Chart.js internals and dynamic chart customization.",
+    "identified_skills": {
+      "Charting Libraries": [
+        "Chart.js",
+        "Scriptable Chart Properties",
+        "Configuration Options"
+      ],
+      "Documentation & Technical Writing": [
+        "API Documentation",
+        "Example Code",
+        "Typos & Clarity Fixes",
+        "Broken Link Resolution"
+      ],
+      "Frontend JavaScript Patterns": [
+        "Object-Based Configuration",
+        "Dynamic Property Scripting",
+        "Interactive Testing"
+      ],
+      "Code Quality & Maintenance": [
+        "Precision in Documentation",
+        "Minimal Scope PRs",
+        "Consistency Audits"
+      ],
+      "GitHub Workflow": [
+        "Documentation-Focused PRs",
+        "Closed PRs with Clear Descriptions"
+      ],
+      "Interactive Development Tools": [
+        "jsbin",
+        "jsfiddle"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Fix maintainAspectRatio documentation note' - Updated API description for Chart.js configuration option",
+      "PR: 'Omit inconsistent documentation note' - Removed conflicting examples to improve clarity",
+      "PR: 'Add example of scriptable charts' - Added practical usage examples for dynamic chart customization",
+      "PR: 'Fix broken URL in documentation' - Corrected external links in Chart.js docs",
+      "PR: 'Make line properties scriptable' - Proposed changes to allow runtime modification of chart elements",
+      "PR description references 'jsbin' for testing scriptable chart behavior",
+      "PRs consistently labeled 'type: documentation' with focused, minimal changes",
+      "Evidence of attention to detail in fixing typos and inconsistent notes across multiple PRs"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

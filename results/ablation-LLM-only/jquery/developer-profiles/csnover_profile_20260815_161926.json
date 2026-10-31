@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "developer_name": "csnover",
+    "generation_timestamp": "2026-08-15T16:08:52.612308",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 22,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "csnover",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "jQuery Core Development",
+      "Cross-Browser Compatibility (IE7+)",
+      "DOM Manipulation & Feature Detection",
+      "AJAX & Asynchronous Error Handling",
+      "Unit Testing (QUnit)",
+      "JavaScript Type Coercion & Edge-Case Debugging",
+      "Code Optimization (Minification, Memory Leaks)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "jQuery"
+    ],
+    "summary": "csnover is a **senior JavaScript developer** with deep expertise in **jQuery core development**, specializing in **bug fixes, cross-browser compatibility, and testing**. Their contributions focus on **legacy browser support (particularly IE7)**, **DOM manipulation**, **AJAX robustness**, and **performance optimizations**. The developer demonstrates **advanced debugging skills**, **defensive programming**, and **test suite maintenance**, with a strong emphasis on **stability and edge-case handling**. While primarily a **frontend specialist**, their work reflects a **laser focus on jQuery internals** and **real-world browser quirks** rather than modern frameworks or backend systems.",
+    "identified_skills": {
+      "jQuery Internals": [
+        "DOM attribute handling",
+        "jQuery.attr() internals",
+        "jQuery.style() removal",
+        "$.support.rgba feature detection",
+        "AJAX abort mechanics",
+        "Memory leak cleanup"
+      ],
+      "Cross-Browser Debugging": [
+        "IE7-specific fixes",
+        "RGBA support detection",
+        "Location.replace() coercion",
+        "Implicit type coercion handling",
+        "Defensive programming for legacy browsers"
+      ],
+      "Testing & Validation": [
+        "QUnit test suite updates",
+        "Regression testing",
+        "Minified code validation",
+        "Gzipped filesize optimization",
+        "Try/catch error handling in tests"
+      ],
+      "JavaScript Language": [
+        "Type coercion (String() vs + operator)",
+        "Try/catch error handling",
+        "JSLint compliance",
+        "Implicit vs. explicit type conversion"
+      ],
+      "Code Optimization": [
+        "Memory leak mitigation",
+        "Redundant code path removal",
+        "Local variable optimizations",
+        "Build process awareness (minification)"
+      ],
+      "Documentation & Communication": [
+        "Clear PR descriptions with context",
+        "Bug triage notes",
+        "Humorous yet informative comments",
+        "Detailed diff explanations"
+      ],
+      "Tooling & Build Systems": [
+        "Minification testing",
+        "Gzipped size metrics",
+        "GitHub CI/CD awareness"
+      ],
+      "Asynchronous Programming": [
+        "AJAX abort handlers",
+        "Memory leak cleanup in async ops",
+        "IE7 async behavior fixes"
+      ]
+    },
+    "skill_evidence": [
+      "PR #5509: Introduces $.support.rgba with try/catch for IE7 compatibility, demonstrating DOM feature detection and error handling",
+      "PR #7451: Fixes jQuery.attr() incorrectly calling jQuery.style() on non-Element nodes, showing deep jQuery internals knowledge",
+      "PR #7018: Resolves IE7 unit test failures in AJAX abort, proving cross-browser async debugging expertise",
+      "PR #6242: Patches memory leak in $.ajax custom abort handlers, highlighting async state management and cleanup",
+      "PR #7650: Optimizes gzipped filesize by 16 bytes via local variable refactoring, indicating build process awareness",
+      "PR #7531: Addresses location.replace() misuse with explicit type coercion, showing defensive programming for real-world edge cases",
+      "PR #7150: Includes humorous yet informative note about future patch quality, reflecting strong documentation/communication skills",
+      "PR #6298: Mentions passing QUnit tests and references duplicate bug reports, demonstrating test suite maintenance and triage experience"
+    ]
+  },
+  "statistics": {
+    "total_prs": 22,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

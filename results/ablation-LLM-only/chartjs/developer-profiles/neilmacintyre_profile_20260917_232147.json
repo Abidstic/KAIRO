@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "neilmacintyre",
+    "generation_timestamp": "2026-09-17T23:17:19.218529",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "neilmacintyre",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript performance optimization",
+      "Chart.js internals",
+      "Canvas API rendering",
+      "Data visualization debugging",
+      "Loop optimization techniques"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "Mid-level JavaScript developer with specialized expertise in Chart.js, focusing on performance optimization and rendering precision. Demonstrates strong debugging skills for visual bugs and experience with low-level JavaScript optimizations, particularly in loop efficiency and canvas-based rendering. Contributions are concentrated in data visualization libraries, showing deep technical knowledge of how data transforms into visual elements. While contributions are limited to Chart.js, the precision and impact of fixes suggest a developer who understands the intricacies of frontend performance and rendering pipelines.",
+    "identified_skills": {
+      "Performance Optimization": [
+        "Loop optimization (caching loop variables)",
+        "Reducing redundant computations",
+        "JavaScript engine-aware coding"
+      ],
+      "Charting Libraries": [
+        "Chart.js pie chart rendering",
+        "Canvas-based visualization",
+        "Border/segment rendering fixes"
+      ],
+      "Rendering & Graphics": [
+        "Canvas API usage",
+        "Subpixel rendering adjustments",
+        "Visual fidelity debugging"
+      ],
+      "Debugging": [
+        "Subtle bug identification",
+        "Rendering edge-case resolution",
+        "Iterative problem-solving"
+      ],
+      "JavaScript Language": [
+        "ES6+ features (modules, arrow functions)",
+        "Scope and variable optimization"
+      ],
+      "Frontend Development": [
+        "DOM/Canvas manipulation",
+        "Data visualization principles"
+      ],
+      "Collaboration": [
+        "GitHub PR workflow",
+        "Issue triage and refinement"
+      ]
+    },
+    "skill_evidence": [
+      "PR #3: Fixed performance issue by caching 'index' and 'length' outside for loop, demonstrating loop optimization knowledge",
+      "PR #1 & #2: Addressed 'Pie chart borders truncated' issue, showing deep Canvas API and rendering precision debugging",
+      "All PRs in Chart.js repository indicate specialized expertise in data visualization library internals",
+      "Performance fix (#3) implies understanding of Chart.js's internal data structures and rendering loops",
+      "Sequential PRs (#1 and #2) for same issue (#2844) demonstrate iterative problem-solving and collaboration",
+      "No backend or Node.js evidence suggests frontend-focused JavaScript specialization",
+      "ES6+ usage implied by Chart.js's modern JavaScript codebase (modules, arrow functions)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

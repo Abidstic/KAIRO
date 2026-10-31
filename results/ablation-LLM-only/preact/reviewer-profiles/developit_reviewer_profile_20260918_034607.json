@@ -1,0 +1,79 @@
+{
+  "reviewer_name": "developit",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 33,
+    "total_comments": 35,
+    "total_prs": 18,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "developit",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "React/Preact Core Architecture",
+      "JavaScript Performance Optimization",
+      "TypeScript Integration",
+      "ES Modules (ESM) Implementation",
+      "Server-Side Rendering (SSR) & Hydration",
+      "Code Review & Technical Feedback"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "developit is a Senior JavaScript engineer with deep expertise in React/Preact internals, performance optimization, and TypeScript integration. Their reviews demonstrate a strong focus on low-level rendering mechanics, SSR hydration, and iterative performance improvements. They excel at balancing technical correctness with practical optimizations, particularly in array handling and bundle size reduction. Their contributions to Preact-compat and related libraries highlight a nuanced understanding of React’s core systems and modern JavaScript tooling.",
+    "identified_skills": {
+      "Frontend Frameworks & Libraries": [
+        "React/Preact Core",
+        "Preact-compat API",
+        "React Context System",
+        "SSR Hydration Strategies"
+      ],
+      "JavaScript Performance": [
+        "Array Method Optimizations",
+        "Bundle Size Reduction",
+        "Micro-optimizations (slice.call, splice)",
+        "Iterable Children Handling"
+      ],
+      "TypeScript & Static Typing": [
+        "Component Interface Extensions",
+        "TypeScript Compiler Integration",
+        "Type Parameter Design"
+      ],
+      "Modern JavaScript": [
+        "ES Modules (ESM)",
+        "Jest ESM Support",
+        "Dynamic Import Patterns"
+      ],
+      "Code Review & Quality": [
+        "API Consistency Feedback",
+        "Edge Case Discussion",
+        "Performance Bottleneck Identification"
+      ],
+      "Rendering & DOM": [
+        "HTML Comment Handling",
+        "DOM Reconciliation",
+        "Virtual DOM Stack Management"
+      ],
+      "Tooling & Build Systems": [
+        "Jest Configuration",
+        "ESM Distribution Strategies"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: 'Add support for all iterable children, not just Arrays' (Preact-compat API compatibility)",
+      "Review comment: 'I wanted to have a discussion on the best way to push the children on to the stack' (React rendering stack understanding)",
+      "PR label: 'performance' with title 'Use Array.prototype.slice.call for children arguments' (Array optimization focus)",
+      "PR description: 'Skip HTML comments during hydration' (SSR hydration edge case handling)",
+      "PR title: 'typings: add context as 3rd type parameter for the Component interface' (TypeScript integration)",
+      "Review state: 'APPROVED' for 'Add support for all iterable children' (high technical approval rate)",
+      "PR title: 'Switch all ESM dist to `.mjs`' (Modern JavaScript tooling awareness)",
+      "Review comment: 'I will definitely play with things to try and get file size down' (Bundle size optimization focus)"
+    ]
+  }
+}

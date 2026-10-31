@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "loicbourgois",
+    "generation_timestamp": "2026-09-17T22:59:50.515876",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "loicbourgois",
+    "raw_response": "```json\n{\n  \"developer_name\": \"loicbourgois\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Chart.js core development\",\n    \"JavaScript charting libraries\",\n    \"Testing infrastructure for JavaScript\",\n    \"JavaScript debugging and bug fixes\",\n    \"Build system automation (Gulp)\",\n    \"ESLint and code quality tools\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (inferred from Chart.js ecosystem)\"\n  ],\n  \"summary\": \"loicbourgois demonstrates **mid-level JavaScript expertise** primarily focused on **Chart.js**, a popular data visualization library. Their contributions span **core charting logic**, **testing infrastructure**, and **build system improvements**, with evidence of deep familiarity with Chart.js's internal architecture (e.g., scatter chart rendering, hover state management). While PRs in this sample lack visible code changes, the **titles, labels, and references to other PRs** indicate strong **debugging, testing, and collaborative development skills**. The developer shows proficiency in **JavaScript testing frameworks** (likely Jest) and **build automation tools** (Gulp), as well as **code quality practices** (e.g., linter setup). The absence of frontend UI changes or backend work in this sample suggests a **specialized focus on library internals and tooling** rather than full-stack development.\",\n  \"identified_skills\": {\n    \"Charting Libraries\": [\"Chart.js\", \"Scatter chart rendering\", \"Hover state styling\"],\n    \"Testing\": [\"Test suite additions\", \"Test-driven development\", \"Jest (inferred)\"],\n    \"Debugging & Bug Fixes\": [\"Hover state bug resolution\", \"Option inheritance fixes\"],\n    \"Build Systems & Automation\": [\"Gulp\", \"Error handling/logging\", \"Linter configuration\"],\n    \"Code Quality\": [\"ESLint\", \"HTML linter setup\", \"Infrastructure improvements\"],\n    \"JavaScript Language\": [\"ES6+ features\", \"Prototype-based inheritance\", \"Option handling\"],\n    \"Collaboration\": [\"PR references\", \"Discussion-based contributions\"]\n  },\n  \"skill_evidence\": [\n    \"PR #3: 'Add tests related to showLines for controller.scatter' – evidence of test suite contributions and Chart.js scatter chart internals\",\n    \"PR #4: 'Use element options for removeHoverStyle()' – labeled 'type: bug' and references hover state styling, demonstrating debugging expertise\",\n    \"PR #2: 'Log gulp error to Chart.js' – labeled 'type: infrastructure', indicating Gulp build system work\",\n    \"PR #5: 'Setup linter for HTML' – evidence of code quality tooling (ESLint/Stylelint) and infrastructure focus\",\n    \"PR #3 description references PR #5134 – shows collaborative discussion and TDD alignment\",\n    \"Labels 'type: infrastructure' on multiple PRs – confirms build system and automation contributions\",\n    \"No visible frontend UI changes – all PRs are metadata, testing, or infrastructure-related\",\n    \"PR titles imply familiarity with Chart.js core logic (e.g., 'controller.scatter', 'removeHoverStyle()')\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 35 column 3 (char 2961)"
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "reviewer_name": "luisorbaiceta",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 0,
+    "total_prs": 4,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "luisorbaiceta",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Fastify plugin ecosystem documentation",
+      "Documentation maintenance",
+      "Plugin label management"
+    ],
+    "programming_languages": [
+      "JavaScript (limited direct evidence)"
+    ],
+    "summary": "luisorbaiceta demonstrates limited direct JavaScript coding expertise but shows proficiency in Fastify plugin ecosystem documentation and maintenance. Their reviews focus exclusively on documentation-related changes, with no evidence of backend, frontend, or testing skills. The reviewer's contributions are confined to approving plugin integrations and guide pages, indicating a role more aligned with documentation and ecosystem management rather than technical development.",
+    "identified_skills": {
+      "Documentation & Ecosystem": [
+        "Fastify plugin documentation",
+        "Plugin label management",
+        "Documentation guide creation"
+      ],
+      "Backend Frameworks": [
+        "Fastify plugin ecosystem"
+      ],
+      "Code Review": [
+        "Documentation-focused approvals"
+      ],
+      "JavaScript": [],
+      "Testing": [],
+      "Frontend Frameworks": [],
+      "Dependency Management": []
+    },
+    "skill_evidence": [
+      "PR labeled 'docs(ecosystem): adds @immobiliarelabs/fastify-sentry' — indicates familiarity with Fastify plugin ecosystem",
+      "PR labeled 'docs: add database guide page' — confirms documentation maintenance focus",
+      "Review comment 'lgtm' on all PRs — no technical feedback or code changes",
+      "No additions/deletions in any PR — zero direct JavaScript code contributions",
+      "Plugin-related PRs approved without discussion — suggests passive review role",
+      "Fastify-specific plugin documentation changes — limited to ecosystem, not framework internals"
+    ]
+  }
+}

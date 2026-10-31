@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "alemagio",
+    "generation_timestamp": "2026-09-18T13:51:16.270373",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "alemagio",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify framework",
+      "Fastify plugin ecosystem",
+      "Technical documentation",
+      "API design and callback systems",
+      "Semantic versioning"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "alemagio is a Mid-level JavaScript developer with specialized expertise in the Fastify framework, particularly focused on its plugin system and ecosystem documentation. Their contributions demonstrate deep knowledge of Fastify's architecture, plugin integration, and API design, though primarily through documentation updates rather than code changes. They exhibit strong technical writing skills and familiarity with Fastify's versioning strategy and community tooling.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify"
+      ],
+      "Plugin Systems": [
+        "Fastify plugin architecture",
+        "Plugin ecosystem documentation",
+        "Plugin API design"
+      ],
+      "Documentation": [
+        "Technical documentation",
+        "Ecosystem catalogs",
+        "API reference updates"
+      ],
+      "Versioning": [
+        "Semantic versioning",
+        "Versioned releases (v2.x, v3.x)"
+      ],
+      "API Design": [
+        "Callback-based APIs",
+        "Error handling systems",
+        "Request/response lifecycle"
+      ],
+      "Community Contributions": [
+        "Ecosystem curation",
+        "Plugin promotion"
+      ],
+      "Language Features": [
+        "ES Modules",
+        "Async/Await"
+      ],
+      "Code Organization": [
+        "Plugin metadata",
+        "Decorator patterns"
+      ]
+    },
+    "skill_evidence": [
+      "All PRs target the Fastify repository with labels like 'documentation' and 'v2.x', 'v3.x' indicating deep framework familiarity",
+      "PR titles reference specific Fastify plugins ('fastify-socket.io', 'fastify-postgraphile', 'fastify-envalid') in ecosystem documentation updates",
+      "PR labeled 'semver-minor' shows awareness of semantic versioning and release processes",
+      "'feat(#1930): added option to override onBadUrl callback' demonstrates understanding of Fastify's error handling and middleware systems",
+      "Documentation PRs add plugin links to Fastify's Ecosystem section, proving knowledge of plugin discovery and integration patterns",
+      "No code changes in PRs but extensive documentation updates imply deep technical understanding of Fastify's plugin system",
+      "PRs consistently update Fastify's official documentation, showing expertise in technical writing for complex frameworks",
+      "Plugin references in documentation suggest familiarity with Fastify's decorator system and plugin metadata patterns"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

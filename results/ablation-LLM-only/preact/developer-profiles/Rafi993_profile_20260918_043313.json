@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "Rafi993",
+    "generation_timestamp": "2026-09-18T04:18:54.808134",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "Rafi993",
+    "raw_response": "```json\n{\n  \"developer_name\": \"Rafi993\",\n  \"experience_level\": \"Mid-Level\",\n  \"primary_skills\": [\n    \"Preact Framework\",\n    \"React-like DOM Attribute Handling\",\n    \"TypeScript for JavaScript Frameworks\",\n    \"Cross-Browser DOM Debugging\",\n    \"Frontend Documentation\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript\"\n  ],\n  \"summary\": \"Rafi993 is a mid-level frontend JavaScript developer with specialized expertise in Preact and React-compatible DOM behavior. Their contributions focus on extending Preact’s functionality to align with React’s API, particularly in handling HTML form elements and DOM attributes. Strong skills in TypeScript typings, cross-browser compatibility (including IE11 fixes), and documentation improvement are evident. While contributions are frontend-focused, the developer demonstrates a deep understanding of virtual DOM patterns, legacy browser quirks, and framework internals. No backend or DevOps experience is visible in their PR activity.\",\n  \"identified_skills\": {\n    \"Frontend Frameworks\": [\"Preact\", \"React-compatible DOM behavior\"],\n    \"DOM & HTML\": [\"HTML form element attributes\", \"defaultValue support\", \"setAttribute debugging\", \"cross-browser DOM fixes\"],\n    \"TypeScript\": [\"TypeScript typings\", \"HTMLElement extensions\", \"React-like type definitions\"],\n    \"Debugging\": [\"IE11 crash resolution\", \"DOM attribute assignment pitfalls\"],\n    \"Documentation\": [\"codebase documentation\", \"contributor onboarding guides\"],\n    \"Build Tooling\": [\"Babel ecosystem awareness\"],\n    \"Missing (Inferred)\": [\"frontend testing frameworks\", \"backend JavaScript\", \"advanced CI/CD\"]\n  },\n  \"skill_evidence\": [\n    \"PR 1: Added markdown documentation for Preact’s code structure, showing ability to analyze and improve contributor onboarding\",\n    \"PR 2: Fixed IE11 crash caused by `setAttribute` on type attributes, demonstrating cross-browser DOM debugging skills\",\n    \"PR 3: Upgraded @babel/core, indicating familiarity with Babel’s role in JavaScript compilation\",\n    \"PR 4: Added `defaultValue` support for `<select>` elements to match React’s behavior, proving React-compatibility focus\",\n    \"PR 4: Extended Preact’s DOM handling to align with React’s API for form elements\",\n    \"PR 5: Added `defaultValue` to Preact’s TypeScript typings for `HTMLElement`, showing TypeScript extension expertise\",\n    \"PR 5: Included TypeScript project setup instructions, confirming hands-on TypeScript experience\",\n    \"All PRs: Contributions to Preact’s core DOM and attribute handling logic, proving deep framework internals knowledge\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 34 column 3 (char 2588)"
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

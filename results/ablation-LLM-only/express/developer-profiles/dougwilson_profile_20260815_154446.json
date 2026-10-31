@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "developer_name": "dougwilson",
+    "generation_timestamp": "2026-08-15T15:37:52.428906",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 15,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "dougwilson",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Express.js middleware development",
+      "Node.js backend architecture",
+      "Semantic versioning and releases",
+      "HTTP testing with supertest",
+      "Dependency management in npm"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Express.js ecosystem)"
+    ],
+    "summary": "dougwilson is a mid-level JavaScript developer with specialized expertise in Express.js backend development. Their contributions focus on core framework improvements, release management, and testing infrastructure. The developer demonstrates strong proficiency in Node.js runtime patterns, middleware systems, and dependency lifecycle management, with evidence of active collaboration in the Express.js maintainer community. While primarily backend-focused, their work reflects deep understanding of JavaScript's asynchronous capabilities and modular design principles as applied through Express's architecture.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Node.js middleware"
+      ],
+      "Version Control & Releases": [
+        "semantic versioning",
+        "release PRs",
+        "dependency updates"
+      ],
+      "Testing Infrastructure": [
+        "supertest",
+        "HTTP response validation"
+      ],
+      "Dependency Management": [
+        "npm dependency upgrades",
+        "package.json scripting"
+      ],
+      "Asynchronous JavaScript": [
+        "async/await patterns",
+        "event-driven architecture"
+      ],
+      "Community Contributions": [
+        "Express.js maintainer collaboration"
+      ],
+      "API Development": [
+        "HTTP routing",
+        "response header handling"
+      ],
+      "Release Workflows": [
+        "changelog management",
+        "version bumping"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1 ('Update deps') demonstrates npm dependency management with explicit version updates",
+      "PR #9 ('tests: use supertest') shows HTTP response validation testing with supertest library",
+      "Multiple release PRs (#2–#18) indicate structured versioning following semantic versioning practices",
+      "All PRs focus exclusively on Express.js core, proving deep framework-specific expertise",
+      "Release PRs include version bumps from 4.x to 5.0, showing mastery of release workflows",
+      "Dependency updates in PR #1 suggest familiarity with security/compatibility considerations",
+      "Supertest usage in PR #9 confirms testing of HTTP headers and response behavior",
+      "High-priority labels on release PRs indicate active collaboration with Express maintainers"
+    ]
+  },
+  "statistics": {
+    "total_prs": 15,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

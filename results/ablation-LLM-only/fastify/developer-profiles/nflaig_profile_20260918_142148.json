@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "developer_name": "nflaig",
+    "generation_timestamp": "2026-09-18T14:04:11.416275",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "nflaig",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify framework",
+      "HTTP protocol compliance",
+      "TypeScript integration in Fastify",
+      "Schema validation (JSDoc/TypeBox)",
+      "Content-Type-specific request handling",
+      "HTTP status code management",
+      "Backward compatibility maintenance"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "nflaig is a specialized Fastify contributor with deep expertise in the framework's core mechanics, including routing, schema validation, and HTTP protocol handling. Their contributions focus on improving Fastify's request parsing, content-type support, and error handling (e.g., HTTP 431 status codes). Evidence suggests strong JavaScript/TypeScript runtime knowledge, particularly in schema validation, optional values, and default parameter handling. While primarily backend-focused, the profile lacks frontend or DevOps experience. The developer demonstrates proficiency in maintaining Fastify's backward compatibility and documentation, though testing contributions are not visible in the PR data.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify"
+      ],
+      "HTTP & Protocol Compliance": [
+        "HTTP status codes",
+        "Content-Type handling",
+        "Request header validation"
+      ],
+      "Schema Validation": [
+        "JSDoc annotations",
+        "TypeBox/zod schemas",
+        "Optional/undefined handling"
+      ],
+      "TypeScript Patterns": [
+        "Default value assignment",
+        "Runtime type checking"
+      ],
+      "Version Maintenance": [
+        "Backporting",
+        "Backward compatibility"
+      ],
+      "Documentation": [
+        "Technical documentation updates"
+      ],
+      "Error Handling": [
+        "HTTP 431 status code fixes",
+        "Edge case validation"
+      ],
+      "API Design": [
+        "Content-Type-specific request schemas"
+      ],
+      "Asynchronous Patterns": [
+        "Node.js runtime behaviors (inferred)"
+      ],
+      "Testing": [],
+      "Frontend Frameworks": [],
+      "DevOps/Tooling": []
+    },
+    "skill_evidence": [
+      "\"fix: return 431 status code on HTTP header overflow error\" – Demonstrates HTTP protocol compliance and error handling expertise",
+      "\"feat: support different body schema per content type\" – Shows TypeScript/JavaScript schema validation and Content-Type-specific parsing",
+      "\"documentation\" label – Indicates involvement in updating Fastify’s technical documentation",
+      "\"backport 4.x\" label – Proves experience with version maintenance and backward compatibility",
+      "\"set default value for route schema to match type\" – Highlights JavaScript/TypeScript default parameter handling",
+      "\"request route schema might be undefined\" – Evidence of optional/undefined value management in schemas",
+      "\"files_changed: 0\" (meta-level PRs) – Suggests deep understanding of Fastify’s internal architecture without direct code changes"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

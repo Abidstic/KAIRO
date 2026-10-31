@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "MPierre9",
+    "generation_timestamp": "2026-09-17T23:11:33.459995",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "MPierre9",
+    "raw_response": "```json\n{\n  \"developer_name\": \"MPierre9\",\n  \"experience_level\": \"Mid-Level\",\n  \"primary_skills\": [\n    \"Chart.js Core Development\",\n    \"DOM/Canvas-Based UI Rendering\",\n    \"JavaScript Event-Driven UI Logic\",\n    \"Visual Debugging & Reproducible Bug Fixes\",\n    \"Coordinate & Boundary Condition Handling\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (inferred from Chart.js ecosystem)\"\n  ],\n  \"summary\": \"MPierre9 is a Mid-Level JavaScript developer with specialized expertise in Chart.js, focusing on visual rendering, tooltip behavior, and data point interactions. Their contributions demonstrate strong debugging skills, iterative problem-solving, and clear technical communication through visual demonstrations. The developer has hands-on experience with DOM/Canvas manipulation, coordinate-based logic, and edge-case handling for charting libraries. While primarily frontend-focused, their contributions highlight deep familiarity with Chart.js's core mechanics and UI event systems.\",\n  \"identified_skills\": {\n    \"Charting Libraries\": [\n      \"Chart.js Core Mechanics\",\n      \"Tooltip Positioning & Boundaries\",\n      \"Data Point Hover Logic\",\n      \"Visual Rendering Fixes\"\n    ],\n    \"DOM & Rendering\": [\n      \"Canvas-Based Rendering\",\n      \"Coordinate Boundary Checks\",\n      \"DOM Event Handling (Hover/Click)\",\n      \"Conditional UI Rendering\"\n    ],\n    \"Debugging & Testing\": [\n      \"Reproducible Bug Fixes\",\n      \"Visual Debugging (JSFiddle/GIFs)\",\n      \"Edge-Case Testing\",\n      \"Iterative Code Refinement\"\n    ],\n    \"Technical Communication\": [\n      \"Visual Documentation (GIFs/JSFiddles)\",\n      \"Contextual PR References\",\n      \"Clear Technical Descriptions\"\n    ],\n    \"JavaScript Patterns\": [\n      \"Event-Driven UI Logic\",\n      \"Modular Plugin/System Interactions\",\n      \"Conditional Rendering Logic\"\n    ],\n    \"Performance Awareness\": [\n      \"Hover State Optimization\",\n      \"Boundary-Condition Handling\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR #2: Fixes tooltip appearing outside graph bounds with coordinate checks ('x is outside the minimum border of the graph')\",\n    \"PR #2: Includes JSFiddle and GIF to demonstrate visual issue and fix\",\n    \"PR #4: Refines previous fix for tooltip positioning, labeled 'status: stale' indicating iterative debugging\",\n    \"PR #2: References 'minimum time bounds' and 'too many datapoints hovered' for edge-case handling\",\n    \"PR #4: Mentions 'needs test case' showing awareness of testing gaps but no test code provided\",\n    \"All PRs: Focus on Chart.js-specific concerns (e.g., 'tooltip behavior', 'data point hover logic')\",\n    \"PR #2: Debugging involves checking DOM/Canvas rendering boundaries for visual alignment\",\n    \"PR #4: Follow-up on #5287 with updated logic, demonstrating modular plugin/system interaction\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 59 column 3 (char 2825)"
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

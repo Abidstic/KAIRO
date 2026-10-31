@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "developer_name": "salmanm",
+    "generation_timestamp": "2026-09-18T13:37:37.216744",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 12,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 12
+  },
+  "profile": {
+    "developer_name": "salmanm",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify Framework",
+      "TypeScript for Node.js",
+      "Error Handling & Validation",
+      "Testing & Benchmarking",
+      "Documentation & Developer Experience",
+      "GitHub Actions & CI/CD Automation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "salmanm is a Mid-level JavaScript developer with deep expertise in Fastify's backend ecosystem. Their contributions focus on core framework improvements, TypeScript integration, error handling, and maintainability. They demonstrate strong skills in testing, documentation, and CI/CD automation, with a particular emphasis on Fastify's v2.x and v3.x versions. Their work reflects a balance of reliability-focused bug fixes, feature additions, and process improvements within a collaborative open-source environment.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Fastify v2.x",
+        "Fastify v3.x"
+      ],
+      "TypeScript": [
+        "TypeScript type definitions",
+        "Runtime type safety",
+        "TypeScript integration"
+      ],
+      "Error Handling": [
+        "Custom error handling",
+        "AJV (JSON Schema validation)",
+        "Error middleware"
+      ],
+      "Testing": [
+        "Unit testing",
+        "Test coverage",
+        "Benchmarking"
+      ],
+      "Documentation": [
+        "Usage examples",
+        "Developer experience improvements"
+      ],
+      "CI/CD & Automation": [
+        "GitHub Actions",
+        "Dependabot",
+        "Automated merges",
+        "Dependency upgrades"
+      ],
+      "Routing & Middleware": [
+        "Route prefixing",
+        "Pre-handlers",
+        "Middleware hooks"
+      ],
+      "Version Management": [
+        "Semantic versioning",
+        "Backporting fixes"
+      ],
+      "Node.js Patterns": [
+        "Async/await",
+        "Event-driven programming"
+      ]
+    },
+    "skill_evidence": [
+      "PR `fix(2711): expose instance.errorHandler in types` - TypeScript type definitions for Fastify's errorHandler",
+      "PR `fix(2767): prevent calling onRoute while prefixing` - Routing middleware logic and edge cases",
+      "PR `doc: doc example to use ajv-errors` - Documentation for AJV integration and error handling patterns",
+      "Checklist items requiring `run npm run test` and `npm run benchmark` - Testing and performance validation",
+      "Labels `typescript`, `v3.x`, and `backport 2.x` - Version-specific TypeScript and cross-version maintenance",
+      "PR `chore: auto-merge dependabot updates` - GitHub Actions and dependency management automation",
+      "PR `test: add some coverage` - Explicit focus on improving test coverage in Fastify's core",
+      "Mentions of `ajv-errors` and `ajv-i18n` - Integration with JSON Schema validation libraries"
+    ]
+  },
+  "statistics": {
+    "total_prs": 12,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

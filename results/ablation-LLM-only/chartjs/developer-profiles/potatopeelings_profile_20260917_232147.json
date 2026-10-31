@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "potatopeelings",
+    "generation_timestamp": "2026-09-17T23:07:07.192568",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "potatopeelings",
+    "raw_response": "```json\n{\n  \"developer_name\": \"potatopeelings\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Chart.js API customization\",\n    \"JavaScript data visualization\",\n    \"Frontend debugging with JSFiddle\",\n    \"Technical documentation for JS libraries\",\n    \"Interactive chart rendering optimizations\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (inferred from Chart.js ecosystem)\"\n  ],\n  \"summary\": \"potatopeelings is a Mid-level JavaScript developer with specialized expertise in Chart.js, focusing on advanced charting features like 3D/stacked bar charts. Their contributions demonstrate strong frontend debugging skills (via JSFiddle), code refactoring, and documentation maintenance. While primarily frontend-focused, their work shows deep understanding of JavaScript's rendering capabilities and data visualization patterns. No backend or framework-specific experience (e.g., React/Vue) is evident in their contributions.\",\n  \"identified_skills\": {\n    \"Charting Libraries\": [\"Chart.js API\", \"3D chart rendering\", \"Stacked bar charts\", \"Interactive chart events\"],\n    \"Frontend Debugging\": [\"JSFiddle debugging\", \"DOM manipulation\", \"Rendering bug fixes\", \"Live demo verification\"],\n    \"Code Quality\": [\"Code refactoring\", \"Cleanup operations\", \"Functionality verification\"],\n    \"Documentation Practices\": [\"Technical documentation updates\", \"Sample code development\", \"Issue-linked documentation\"],\n    \"JavaScript Core\": [\"Vanilla JavaScript\", \"Event handling\", \"Canvas/SVG rendering\"],\n    \"Issue Triage\": [\"GitHub issue referencing\", \"Bug reproduction\", \"Fix validation\"],\n    \"Visualization Patterns\": [\"Data series handling\", \"Label rendering\", \"Responsive chart design\"]\n  },\n  \"skill_evidence\": [\n    \"PR #1: Added support for '3D stacking' in bar charts with JSFiddle demo showing before/after states\",\n    \"PR #2: Updated documentation for 'horizontal bar charts' with sample code and issue reference (#73)\",\n    \"PR #3: Fixed rendering bug in stacked bar charts ('type: bug') verified via JSFiddle link\",\n    \"PR #4: Cleaned up code and verified functionality for 'stacked bar chart' feature with documentation update\",\n    \"All PRs reference JSFiddle links for live testing and demonstration of fixes\",\n    \"PR descriptions mention 'code changes' and 'documentation update' without direct code changes in files\",\n    \"Multiple PRs include explicit references to GitHub issues (#2643, #3849) for context\",\n    \"No backend or framework-specific code changes (e.g., no React/Vue/Node.js references)\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 34 column 3 (char 2547)"
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

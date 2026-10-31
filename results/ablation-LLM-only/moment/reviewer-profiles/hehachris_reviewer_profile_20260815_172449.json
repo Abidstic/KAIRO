@@ -1,0 +1,65 @@
+{
+  "reviewer_name": "hehachris",
+  "generated_at": "20260815_172449",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 1,
+    "total_prs": 2,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "hehachris",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript Internationalization (i18n)",
+      "Locale-Specific Time/Date Formatting",
+      "PR Review for Non-Technical Adjustments",
+      "Cultural/Linguistic Validation"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript (inferred from modern JS ecosystem)"
+    ],
+    "summary": "hehachris is a mid-level JavaScript reviewer with specialized expertise in internationalization, particularly Chinese locale adjustments for time/date formatting. Their reviews focus on validating locale-specific cultural correctness rather than broader JavaScript development. Evidence suggests familiarity with JavaScript's built-in Intl API or similar libraries (e.g., date-fns, moment.js) but lacks visible evidence of general JS development skills or framework-specific knowledge. Their role appears to be more of a technical reviewer for localization changes than a core JavaScript engineer.",
+    "identified_skills": {
+      "Internationalization & Localization": [
+        "Intl API (JavaScript built-in)",
+        "Locale-Specific Time Formatting",
+        "Meridiem Hour Range Adjustments",
+        "Cultural/Linguistic Validation"
+      ],
+      "Review Process": [
+        "PR Approval for Non-Code Changes",
+        "Locale-Related Review Feedback",
+        "Government Source Validation"
+      ],
+      "JavaScript Ecosystem": [
+        "date-fns (inferred)",
+        "moment.js (inferred)",
+        "React i18n (inferred)"
+      ],
+      "Code Quality & Standards": [],
+      "Testing & Debugging": [],
+      "Performance Optimization": [],
+      "Backend Development": [],
+      "Frontend Development": [],
+      "API Design": [],
+      "System Design": [],
+      "DevOps & Deployment": [],
+      "Security": []
+    },
+    "skill_evidence": [
+      "PR labeled '[locale]' with adjustments for 'zh-hk' meridiem hour ranges",
+      "PR references 'Legislative Council' and 'Hong Kong government' for cultural correctness",
+      "Approved PR '[locale] Update zh-hk meridiem hour range' with no code changes",
+      "PR '[locale] zh-cn: Improve next/prev week' involved time/date formatting adjustments",
+      "No visible JavaScript syntax, framework, or library-specific code changes in reviews",
+      "Review comments focus on locale-specific terminology (e.g., '中午', '下午') rather than JS patterns",
+      "Repository context shows 'moment' as a dependency, suggesting familiarity with i18n libraries"
+    ]
+  }
+}

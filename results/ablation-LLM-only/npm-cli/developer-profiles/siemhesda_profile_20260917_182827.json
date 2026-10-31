@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "developer_name": "siemhesda",
+    "generation_timestamp": "2026-09-17T18:27:46.130892",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 11,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 11
+  },
+  "profile": {
+    "developer_name": "siemhesda",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "npm CLI internals",
+      "Dependency resolution (arborist)",
+      "Lockfile management (v1→v2 upgrades)",
+      "Technical documentation",
+      "Debugging complex dependency conflicts",
+      "JavaScript object/array manipulation",
+      "CLI argument parsing"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "Node.js (CommonJS/ESM)"
+    ],
+    "summary": "siemhesda is a **Senior JavaScript developer** with deep expertise in **npm CLI internals**, specializing in dependency resolution, lockfile handling, and documentation. Their contributions focus on fixing critical issues in npm's arborist engine, resolving peer dependency conflicts, and improving documentation for CLI behavior. While PRs do not show direct code changes, the developer demonstrates strong **debugging skills**, **technical writing**, and **JavaScript language awareness** (e.g., object/array manipulation) within the npm ecosystem. No frontend or framework experience is visible; contributions are **backend/tooling-focused** with a strong emphasis on **npm's core functionality**.",
+    "identified_skills": {
+      "npm Ecosystem": [
+        "npm CLI internals",
+        "Dependency resolution (arborist)",
+        "Lockfile v1→v2 upgrades",
+        "npm ci vs. npm install behavior",
+        "Peer dependency handling",
+        "npm scripts (indirect exposure)"
+      ],
+      "Debugging & Issue Resolution": [
+        "Dependency conflict debugging",
+        "Regression testing (array behavior changes)",
+        "Root-cause analysis for lockfile issues",
+        "Crash handling in arborist",
+        "Peer dependency mismatch resolution"
+      ],
+      "Technical Documentation": [
+        "CLI parameter documentation",
+        "Behavior change explanations",
+        "npm-doctor documentation updates",
+        "Installation process clarifications"
+      ],
+      "JavaScript Language Patterns": [
+        "Object/array manipulation",
+        "CLI argument parsing",
+        "Versioning logic (semver-aware)",
+        "Async/await (inferred from npm internals)"
+      ],
+      "Node.js Tooling": [
+        "Node.js package management",
+        "CommonJS/ESM awareness",
+        "npm's internal toolchain"
+      ],
+      "Version Control & Releases": [
+        "Lockfile upgrade handling",
+        "Dependency versioning fixes"
+      ]
+    },
+    "skill_evidence": [
+      "PR titles like 'fix(arborist): crash on conflict #5151' show deep debugging of npm's dependency resolution engine.",
+      "'docs: add --include param to commands that have --omit param' indicates strong CLI documentation expertise.",
+      "Issue references (e.g., 'Closes #5051 - incorrect peer dependencies on v1 lockfile upgrade') prove hands-on experience with lockfile upgrades.",
+      "'issue/3775 array changed behaviour' demonstrates debugging of JavaScript object/array manipulation in package.json handling.",
+      "Frequent 'docs:' labels across PRs (e.g., 'docs: update npm-doctor.md') confirm technical writing as a core skill.",
+      "PRs like 'docs: remove submodules part from the install docs' show precision in updating npm's technical documentation.",
+      "Arborist-related PRs (e.g., 'fix(arborist): crash on conflict') indicate specialized knowledge of npm's internal dependency resolver.",
+      "No frontend frameworks or libraries appear in PRs, confirming backend/tooling specialization in npm CLI."
+    ]
+  },
+  "statistics": {
+    "total_prs": 11,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

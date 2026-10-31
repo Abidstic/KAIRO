@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "developer_name": "davidmurdoch",
+    "generation_timestamp": "2026-08-15T16:28:02.325313",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "davidmurdoch",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery internals optimization",
+      "Legacy JavaScript debugging",
+      "Memory leak detection and mitigation",
+      "DOM/script manipulation",
+      "Codebase maintenance and cleanup"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/pre-ES6)",
+      "jQuery"
+    ],
+    "summary": "David Murdoch demonstrates a strong proficiency in optimizing and maintaining legacy JavaScript codebases, with a deep focus on jQuery internals. His contributions highlight expertise in memory management, debugging subtle performance issues, and refining code for better maintainability. While his work is heavily centered on pre-modern JavaScript and jQuery-specific patterns, his precision editing and attention to detail suggest a mid-level developer with specialized knowledge in legacy frontend ecosystems. The absence of modern JavaScript features or frameworks indicates a niche focus on jQuery maintenance rather than broader frontend development.",
+    "identified_skills": {
+      "Legacy JavaScript Optimization": [
+        "Memory leak debugging",
+        "Garbage collection awareness",
+        "Deprecated syntax removal",
+        "Code cleanup and minification"
+      ],
+      "jQuery-Specific Patterns": [
+        "$.support object manipulation",
+        "Private variable encapsulation",
+        "DOM/script tag optimization",
+        "Browser compatibility fixes"
+      ],
+      "Code Quality Practices": [
+        "Precision editing",
+        "Code review awareness",
+        "Documentation clarity",
+        "Minimalist refactoring"
+      ],
+      "Debugging Techniques": [
+        "Memory leak identification",
+        "Regression testing",
+        "Legacy code analysis"
+      ],
+      "Browser Compatibility": [
+        "Script tag MIME type handling",
+        "Feature detection patterns"
+      ],
+      "Modern JavaScript": [],
+      "Frontend Frameworks": [],
+      "Backend/Node.js": [],
+      "Testing Frameworks": []
+    },
+    "skill_evidence": [
+      "PR 8203: Explicit mention of 'memory leak lines' and 'memory leaks' in jQuery internals, indicating deep debugging of garbage collection issues",
+      "PR 8200: Renaming variables to private scope (`$.support._scriptEval`), demonstrating understanding of jQuery's encapsulation patterns",
+      "PR 8198: Removal of deprecated `script.type = 'text/javascript'` syntax, showing awareness of legacy JavaScript quirks",
+      "PR 8203: Comment about 'extensive testing' for regressions, highlighting manual debugging and code review rigor",
+      "PR 8200: Focus on 'code organization' in PR description, indicating attention to maintainability in legacy code",
+      "All PRs: Zero file changes but meaningful textual modifications, proving precision editing and efficiency in debugging",
+      "PR 8198: Targeting legacy script loading patterns, reflecting expertise in DOM/script manipulation within jQuery",
+      "PR 8203: Reference to 'offset' and 'support' objects, showing familiarity with jQuery's core feature detection mechanisms"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

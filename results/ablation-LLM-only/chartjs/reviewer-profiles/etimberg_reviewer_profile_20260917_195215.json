@@ -1,0 +1,94 @@
+{
+  "reviewer_name": "etimberg",
+  "generated_at": "20260917_195215",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 390,
+    "total_comments": 68,
+    "total_prs": 288,
+    "repos": [
+      "chartjs"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "etimberg",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Chart.js core development",
+      "TypeScript implementation",
+      "JavaScript visualization rendering",
+      "DOM/Canvas manipulation",
+      "Error handling and debugging",
+      "JavaScript configuration systems",
+      "JavaScript functional programming patterns"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "JavaScript (Core)"
+    ],
+    "summary": "etimberg is a senior-level JavaScript reviewer with deep expertise in Chart.js, specializing in visualization rendering, TypeScript integration, and robust error handling. Their reviews demonstrate a strong focus on stability, performance optimization, and UX improvements within data visualization libraries. The reviewer exhibits excellent debugging skills, a keen eye for edge cases, and a collaborative approach to code review, particularly in the context of breaking changes and type safety. Their work spans core Chart.js features like scales, tooltips, legends, and bar charts, with a particular emphasis on ensuring backward compatibility and clean API design.",
+    "identified_skills": {
+      "Visualization Libraries": [
+        "Chart.js core architecture",
+        "Scale engines (linear, logarithmic, categorical)",
+        "Rendering pipelines",
+        "Interactive features (tooltips, legends, hover states)",
+        "Bar chart rendering optimizations",
+        "Plugin development (e.g., streaming data)"
+      ],
+      "TypeScript & JavaScript": [
+        "TypeScript type safety",
+        "Undefined/null handling in dynamic contexts",
+        "JavaScript object-oriented patterns",
+        "Modular design and helper functions",
+        "Configurable APIs and option inheritance"
+      ],
+      "DOM & Rendering": [
+        "Canvas API manipulation",
+        "Text rendering (stroke, strikethrough, underlines)",
+        "Path rendering and gradient fills",
+        "Tick generation for scales",
+        "Visual scaling algorithms"
+      ],
+      "Error Handling & Debugging": [
+        "Crash condition fixes",
+        "Infinite loop prevention",
+        "Input validation (e.g., stepSize, grace amounts)",
+        "Edge-case testing",
+        "Sanity checks for numerical options"
+      ],
+      "Performance Optimization": [
+        "MinBarLength dataset property",
+        "Grace period calculations",
+        "Visual clarity improvements",
+        "Rendering efficiency"
+      ],
+      "Code Review & Quality": [
+        "Breaking change management",
+        "Backward compatibility considerations",
+        "Documentation updates",
+        "Constructive feedback",
+        "Bug fix focus"
+      ],
+      "JavaScript Patterns": [
+        "Functional programming helpers",
+        "Modular design",
+        "Code reuse strategies",
+        "Option-based configuration"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Fix some typings issues' - Approved; updated samples to return 'undefined' instead of 'null' for TypeScript compatibility",
+      "PR: 'Create standardized text render method' - Commented; proposed helper function 'renderText' for text rendering patterns",
+      "PR: 'Fix chart crashing when only min is defined' - Approved; direct crash condition fix demonstrating debugging expertise",
+      "PR: 'Prevent infinite resize when vertical scrollbar appears' - Approved; layout/rendering bug resolution",
+      "PR: 'Refine logarithmic scaling / tick generation' - Approved; hands-on Canvas API and visual scaling algorithm work",
+      "PR: 'Allow filling above and below with different colors' - Approved; path rendering and gradient fills using Canvas",
+      "PR: 'Add maxWidth/maxHeight options for legend' - Approved; option-based configuration demonstrating API design knowledge",
+      "PR: 'Linear: determine grace amount from range' - Approved; optimization of data-to-visual-mapping logic",
+      "Review comment: 'Concerned that this might be too breaking' - Demonstrated breaking change awareness and collaborative discussion"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "developer_name": "dr-js",
+    "generation_timestamp": "2026-09-17T18:51:45.945375",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "dr-js",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js CLI internals",
+      "npm command execution",
+      "Asynchronous JavaScript (async/await)",
+      "Semantic Versioning (semver)",
+      "CLI documentation",
+      "Debugging race conditions in async workflows"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "Node.js"
+    ],
+    "summary": "dr-js is a Mid-level JavaScript developer with specialized expertise in Node.js CLI tooling, particularly the npm command-line interface. Their contributions focus on fixing subtle bugs in npm's core command execution (e.g., `npm exec` and `publish`), improving documentation for CLI behavior, and ensuring proper async workflows (e.g., authentication and registry interactions). While their experience is primarily backend-focused within npm's ecosystem, their ability to debug complex CLI internals and maintain release-cycle awareness demonstrates strong technical depth in Node.js environments. No evidence of frontend or testing frameworks is present in their contributions.",
+    "identified_skills": {
+      "Node.js Core & CLI": [
+        "npm CLI internals",
+        "Node.js module system (CommonJS/ESM)",
+        "Command execution (exec.js)",
+        "Registry interactions",
+        "Authentication flows (login/publishConfig)"
+      ],
+      "Asynchronous Programming": [
+        "Async/await patterns",
+        "Promise-based workflows",
+        "Race condition debugging"
+      ],
+      "Version Control & Releases": [
+        "Semantic Versioning (semver:patch)",
+        "Release cycle awareness (7.x)",
+        "Pre-release testing (release: next)"
+      ],
+      "Documentation & UX": [
+        "CLI documentation maintenance",
+        "User-facing flag explanations",
+        "Technical writing for npm tools"
+      ],
+      "Debugging & Fixes": [
+        "Async state management",
+        "Dependency loading order fixes",
+        "Edge-case handling in publish workflows"
+      ],
+      "Configuration Management": [
+        "publishConfig handling",
+        "Registry check timing"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Updated `npm-exec.md` to clarify `-p` flag behavior, showing CLI documentation expertise",
+      "PR #2: Fixed auto-picking binaries in `exec.js`, demonstrating deep knowledge of npm's command resolution",
+      "PR #3: Resolved race condition in `publish --dry-run` requiring login/publishConfig before registry checks, proving async debugging skills",
+      "All PRs labeled with `Release 7.x` and `semver:patch`, indicating strict version control adherence",
+      "PRs reference `exec.js` and `publish` command internals, confirming Node.js CLI internals mastery",
+      "Documentation updates align with code changes, showing attention to UX clarity in CLI tools",
+      "Fixes involve async workflows (e.g., auth/config loading order), supported by PR descriptions"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

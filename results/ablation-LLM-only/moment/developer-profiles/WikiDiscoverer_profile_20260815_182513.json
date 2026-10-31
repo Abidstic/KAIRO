@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "WikiDiscoverer",
+    "generation_timestamp": "2026-08-15T18:05:05.607662",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "WikiDiscoverer",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript Internationalization (i18n)",
+      "Moment.js locale development",
+      "Pluralization rule implementation",
+      "Relative time formatting",
+      "Test-driven localization",
+      "Open-source contribution workflow"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "JSON/YAML for locale configuration"
+    ],
+    "summary": "WikiDiscoverer is a JavaScript developer with specialized expertise in internationalization (i18n) systems, demonstrated through contributions to Moment.js's locale features. Their work focuses on adding and refining language-specific date/time formatting, particularly for Konkani (both Latin and Devanagari scripts), including pluralization rules and relative time expressions. The developer shows strong proficiency in Moment.js's internal locale architecture, testing frameworks for i18n features, and open-source contribution processes. While contributions are limited to Moment.js's i18n subsystem, the depth of technical understanding in this domain suggests mid-level experience with JavaScript's functional patterns, module systems, and testing practices.",
+    "identified_skills": {
+      "Internationalization & Localization": [
+        "Moment.js locale implementation",
+        "Pluralization rules (language-specific)",
+        "Relative time formatting (processRelativeTime)",
+        "Script-specific handling (Latin/Devanagari)",
+        "Locale test suite integration"
+      ],
+      "JavaScript Language Features": [
+        "ES6+ JavaScript (objects, modules)",
+        "Functional programming patterns",
+        "JSON/YAML configuration"
+      ],
+      "Testing & Quality Assurance": [
+        "Unit testing for i18n features",
+        "Test-driven development (TDD)",
+        "Locale validation tests"
+      ],
+      "Open-Source Contribution": [
+        "GitHub PR workflow",
+        "Moment.js contribution guidelines",
+        "Community engagement (labels, descriptions)",
+        "Pending release coordination"
+      ],
+      "Tooling & Workflow": [
+        "GitHub Actions (indirect)",
+        "Moment.js test suite",
+        "Locale configuration files"
+      ],
+      "Language-Specific Knowledge": [
+        "Konkani language rules",
+        "Pluralization dialects",
+        "Script normalization"
+      ]
+    },
+    "skill_evidence": [
+      "PR titles explicitly mention adding Konkani locales ('gom-latn', 'gom-deva') and correcting plural rules ('Hour Plural')",
+      "PR descriptions reference 'processRelativeTime' function corrections and test file additions for new locales",
+      "Labels like 'Pending Next Release' indicate adherence to Moment.js's official release cycle and testing standards",
+      "Explicit mention of 'adding a test' for each locale change (e.g., PR 3: 'Correct Hour Plural in Konkani and add a test')",
+      "PRs demonstrate understanding of Moment.js's locale structure and how new scripts/dialects are integrated",
+      "No direct code changes in PRs, but detailed PR descriptions imply deep knowledge of Moment.js's internal i18n logic",
+      "Work involves JSON-based locale configuration and test files, showing familiarity with Moment.js's data-driven approach",
+      "Contributions align with Moment.js's testing framework, suggesting experience with test-driven localization development"
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

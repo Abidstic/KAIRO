@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "developer_name": "zekth",
+    "generation_timestamp": "2026-09-18T13:31:27.119628",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 32,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "zekth",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify framework internals",
+      "TypeScript",
+      "Node.js backend development",
+      "Testing & benchmarking",
+      "CI/CD optimization",
+      "ESLint configuration"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "zekth is a senior-level JavaScript developer with deep expertise in Fastify, specializing in backend framework internals, TypeScript integration, and performance optimization. Their contributions focus on Fastify's core systems—hooks, plugins, versioning, and typing—demonstrating strong proficiency in async Node.js development, testing, and CI/CD improvements. While primarily backend-focused, their work reflects advanced skills in modular design, type safety, and developer experience enhancements.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js async patterns"
+      ],
+      "TypeScript": [
+        "TypeScript typing improvements",
+        "TypeScript ESLint integration",
+        "FastifyRequest typing"
+      ],
+      "Testing & Benchmarking": [
+        "test performance optimization",
+        "benchmarking",
+        "CI test optimization"
+      ],
+      "Hooks & Event Systems": [
+        "Fastify hooks (onTimeout, conditional loading)",
+        "event-driven patterns"
+      ],
+      "Plugin & Modular Systems": [
+        "plugin version checks",
+        "conditional plugin loading"
+      ],
+      "Documentation & DX": [
+        "documentation improvements",
+        "contributor badges"
+      ],
+      "ESLint & Linting": [
+        "ESLint configuration fixes",
+        "TypeScript ESLint support"
+      ],
+      "Versioning & Dependencies": [
+        "version checks",
+        "plugin versioning"
+      ],
+      "Debugging & Edge Cases": [
+        "file reference fixes",
+        "conditional logic debugging"
+      ],
+      "CI/CD": [
+        "redundant test run avoidance",
+        "CI optimization"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'feat: add hook onTimeout' – demonstrates Fastify hooks system expertise",
+      "PR: 'Typescript: Improve FastifyRequest typing' – shows deep TypeScript typing knowledge",
+      "PR: 'fix: test slowness on windows' – evidence of performance testing and benchmarking",
+      "PR: 'Bring eslint back' (typescript label) – confirms ESLint + TypeScript integration",
+      "PR: 'feat: add conditional load of version' – plugin system and versioning skills",
+      "PR: 'doc: add discord badge' – documentation and community engagement",
+      "PR: 'fix: typings for hooks' – type safety in hooks and plugin systems",
+      "PR: 'ci: avoid unnecessary runs' – CI/CD optimization and test efficiency improvements"
+    ]
+  },
+  "statistics": {
+    "total_prs": 32,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

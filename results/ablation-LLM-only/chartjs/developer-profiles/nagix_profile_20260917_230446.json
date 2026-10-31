@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "developer_name": "nagix",
+    "generation_timestamp": "2026-09-17T22:43:18.585386",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 78,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "nagix",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Chart.js internals",
+      "Canvas rendering optimizations",
+      "Plugin system architecture",
+      "Scale and axis calculations",
+      "JavaScript functional patterns",
+      "API documentation improvements",
+      "Debugging complex rendering bugs",
+      "Temporal data visualization"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from PR context)"
+    ],
+    "summary": "nagix is a senior JavaScript developer with deep expertise in Chart.js, specializing in rendering optimizations, plugin systems, and scale/axis calculations. Their contributions demonstrate advanced debugging skills, functional programming patterns, and a strong focus on improving developer experience through clear documentation. The developer's work is highly technical and domain-specific to Chart.js, with no evidence of broader JavaScript ecosystem involvement beyond this library.",
+    "identified_skills": {
+      "Charting Libraries": [
+        "Chart.js core rendering",
+        "Plugin hook implementations",
+        "Scale system optimizations",
+        "Time series visualization",
+        "Bar/line chart spatial logic"
+      ],
+      "Rendering Techniques": [
+        "Canvas path generation",
+        "Clipping and unclipping operations",
+        "Offset calculations",
+        "Stepped line rendering",
+        "Bar overlap resolution"
+      ],
+      "JavaScript Patterns": [
+        "Callback-based systems",
+        "Higher-order functions",
+        "Config object refactoring",
+        "No-op function optimization",
+        "Closure-based systems"
+      ],
+      "Data Processing": [
+        "Dataset sorting algorithms",
+        "Temporal data handling",
+        "Unordered data alignment",
+        "Pixel-to-value conversions"
+      ],
+      "Documentation Practices": [
+        "API hook documentation",
+        "Scale option descriptions",
+        "Example table formatting",
+        "Plugin interface clarity"
+      ],
+      "Debugging Methods": [
+        "Visual regression testing (JSFiddle)",
+        "Edge case boundary handling",
+        "Performance profiling",
+        "Root cause analysis for rendering bugs"
+      ],
+      "Collaboration Tools": [
+        "GitHub issue triage",
+        "Pull request review processes",
+        "Interactive demo creation"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed plugin hook descriptions for `beforeDatasetUpdate` and `afterDatasetDraw` (PRs with type: documentation)",
+      "Optimized `getPixelForTick()` to be a no-op for consistency (refactoring PRs)",
+      "Resolved bar chart overlap issues with unordered labels (visual demo in JSFiddle)",
+      "Improved offset calculations for time scales to prevent margin inconsistencies (bugfix PRs)",
+      "Added external plugin links to documentation (e.g., chartjs-plugin-streaming)",
+      "Made legend appearance consistent with chart elements (UI/UX improvement)",
+      "Debugged stepped line rendering in filler plugin (canvas path generation fix)",
+      "Clarified scale option descriptions for `barThickness` and `offsetGridLines`"
+    ]
+  },
+  "statistics": {
+    "total_prs": 78,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

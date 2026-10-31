@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "developer_name": "jonrimmer",
+    "generation_timestamp": "2026-09-17T23:01:43.070763",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "jonrimmer",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js plugin development",
+      "TypeScript type system refinement",
+      "JavaScript module bundling optimization",
+      "Frontend visualization APIs",
+      "API documentation improvement"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "jonrimmer is a Mid-level JavaScript developer with specialized expertise in Chart.js, focusing on plugin architecture, type safety, and frontend visualization APIs. Their contributions demonstrate deep knowledge of TypeScript interfaces, JavaScript module bundling, and documentation clarity. The developer has a strong ability to refine existing codebases by adding missing features, fixing subtle bugs, and improving developer experience through precise typing and API completeness. Their work aligns with frontend-heavy projects requiring robust visualization libraries and clean, maintainable code.",
+    "identified_skills": {
+      "Charting Libraries": [
+        "Chart.js plugin systems",
+        "Legend and tooltip callbacks",
+        "ChartArea type definitions"
+      ],
+      "TypeScript": [
+        "Interface extension",
+        "Generic type handling",
+        "Callback type safety"
+      ],
+      "JavaScript Modules": [
+        "Browser field configuration",
+        "Dependency exclusion strategies",
+        "Webpack/Rollup compatibility"
+      ],
+      "API Design": [
+        "Missing API documentation",
+        "Callback signature refinement",
+        "ExtendedPlugin interface"
+      ],
+      "Build Optimization": [
+        "Moment.js exclusion via browser field",
+        "Bundler dependency handling"
+      ],
+      "Debugging": [
+        "Subtle type/dependency bugs",
+        "Callback argument validation"
+      ],
+      "Documentation": [
+        "API documentation updates",
+        "User-facing feature clarity"
+      ],
+      "ES6+ Features": [
+        "Arrow functions",
+        "Destructuring",
+        "Spread operator"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Add onLeave to legend config docs' — Added missing API documentation for `onLeave` callback, improving developer experience",
+      "PR: 'Correctly extend ExtendedPlugin interface' — Refined TypeScript interface to ensure type safety in plugin callbacks",
+      "PR: 'Tighten check for Moment' — Fixed bundling issue by excluding Moment.js via `browser field`, optimizing build output",
+      "PR: 'Add missing props to ChartArea type' — Extended TypeScript type definitions for ChartArea, ensuring plugin compatibility",
+      "PR: 'Correctly type options in tooltip callbacks' — Fixed type inconsistency where `options` were incorrectly typed as `AnyObject`",
+      "PR: 'Fix type for ExtendedPlugin' — Ensured generic type `O` was properly applied to plugin options, improving type inference",
+      "PR: 'Legend plugin: add onLeave' — Implemented and documented a new callback for legend interactions, enhancing plugin extensibility"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

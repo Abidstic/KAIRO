@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "developer_name": "mbtools",
+    "generation_timestamp": "2026-09-17T18:34:07.200275",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 9,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 9
+  },
+  "profile": {
+    "developer_name": "mbtools",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "npm CLI internals",
+      "Node.js asynchronous programming",
+      "JavaScript error handling and logging",
+      "Markdown documentation",
+      "Interactive CLI design (spinners, prompts)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "Node.js"
+    ],
+    "summary": "mbtools is a mid-level JavaScript developer with specialized expertise in npm's CLI tooling and internals. Their contributions focus on refining npm's command-line behavior, improving error handling, and enhancing user-facing documentation. The developer demonstrates strong skills in asynchronous JavaScript patterns, interactive CLI design, and technical writing within the npm ecosystem. While primarily backend-focused, their work shows deep familiarity with Node.js internals and npm's architecture, particularly around error flows, logging systems, and user prompts.",
+    "identified_skills": {
+      "npm CLI Architecture": [
+        "npm command-line behavior",
+        "npm's internal APIs",
+        "npm's event-driven architecture",
+        "npm's Arborist module",
+        "npm's libnpmaccess/libnpmteam"
+      ],
+      "Error Handling & Logging": [
+        "Error-to-warning conversions",
+        "Interactive prompt cancellation handling",
+        "Deprecation warning systems",
+        "Log formatting improvements",
+        "Async error handling patterns"
+      ],
+      "Interactive CLI Features": [
+        "Spinner and prompt integration",
+        "Newline/whitespace handling",
+        "User input validation",
+        "Cancellation flow improvements"
+      ],
+      "Documentation & Technical Writing": [
+        "Markdown table formatting",
+        "README content organization",
+        "Technical documentation clarity",
+        "Example section improvements"
+      ],
+      "Asynchronous JavaScript": [
+        "Async/await patterns",
+        "Callback-based error handling",
+        "Promise-based operations",
+        "Event loop awareness"
+      ],
+      "Node.js Core Features": [
+        "Console API usage",
+        "File system operations",
+        "Process handling",
+        "Child process integration"
+      ],
+      "Version Control & Collaboration": [
+        "GitHub PR workflow",
+        "Issue reference linking",
+        "Iterative fix refinement"
+      ]
+    },
+    "skill_evidence": [
+      "\"fix: typo in `npm access` usage\" - Direct CLI behavior modification in npm internals",
+      "\"chore: log if `npm deprecate` does not match any version\" - Error handling and logging improvement",
+      "\"fix: properly handle newlines with input when using the spinner\" - Interactive CLI feature refinement",
+      "\"fix: change error to warning when canceling `npm login` or `adduser`\" - Cancellation flow improvement",
+      "\"fix(libnpmaccess): formatting of options in README\" - Markdown documentation skill demonstration",
+      "\"fix(arborist): improve README markdown\" - Technical writing and content organization",
+      "\"move warning to new line when `npm init` is canceled\" - Async error handling and log formatting",
+      "\"try again: fix typo in `npm access` usage\" - Iterative fix refinement in GitHub workflow"
+    ]
+  },
+  "statistics": {
+    "total_prs": 9,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

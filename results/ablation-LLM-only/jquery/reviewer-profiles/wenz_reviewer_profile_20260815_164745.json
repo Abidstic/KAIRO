@@ -1,0 +1,64 @@
+{
+  "reviewer_name": "wenz",
+  "generated_at": "20260815_164745",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 6,
+    "total_comments": 6,
+    "total_prs": 1,
+    "repos": [
+      "jquery"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "wenz",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery internals (Ajax module)",
+      "HTTP header manipulation",
+      "Legacy JavaScript testing (unit tests)",
+      "Build automation (Grunt)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "JavaScript (jQuery-specific patterns)"
+    ],
+    "summary": "The reviewer demonstrates focused expertise in jQuery's Ajax internals, particularly header handling and legacy testing practices. Their contributions are limited to a narrow scope within jQuery's build system, with no evidence of broader JavaScript ecosystem involvement or modern practices. The lack of review comments and diverse PRs restricts a deeper technical assessment beyond this specific area.",
+    "identified_skills": {
+      "Library-Specific Expertise": [
+        "jQuery Ajax module",
+        "jQuery content-type header handling"
+      ],
+      "Testing": [
+        "Unit testing (legacy frameworks)",
+        "Test-driven development (TDD)"
+      ],
+      "Build Systems": [
+        "Grunt tasks",
+        "Build pipeline verification"
+      ],
+      "HTTP/Networking": [
+        "HTTP header manipulation",
+        "Asynchronous request lifecycle"
+      ],
+      "Code Quality": [],
+      "Modern JavaScript": [],
+      "Frontend Frameworks": [],
+      "Backend/JavaScript": [],
+      "Tooling": [
+        "Legacy JavaScript tooling"
+      ],
+      "Code Review": []
+    },
+    "skill_evidence": [
+      "All PRs labeled 'Ajax' with focus on modifying `s.contentType` in jQuery's Ajax implementation",
+      "PR description references 'Fixes #4119' indicating a bug fix in jQuery's Ajax header handling",
+      "Mentions of 'Grunt build and unit tests pass' showing familiarity with jQuery's build system and testing framework",
+      "PRs consistently check 'New tests have been added to show the fix or feature works'",
+      "No evidence of review comments or broader JavaScript ecosystem involvement",
+      "All PRs show identical metadata (0 additions/deletions/files_changed) suggesting potential metadata artifact",
+      "No mention of modern JavaScript patterns (async/await, ES6+, TypeScript, or frameworks like React/Vue)"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "developer_name": "indigolain",
+    "generation_timestamp": "2026-09-17T23:02:53.027642",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "indigolain",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js internals",
+      "JavaScript debugging",
+      "TypeScript documentation",
+      "Legacy code maintenance",
+      "JavaScript animation handling",
+      "Charting library documentation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "indigolain is a mid-level JavaScript developer with specialized expertise in Chart.js, demonstrated through targeted contributions to its core functionality. Their work spans bug fixes, animation rendering improvements, scale/legend logic enhancements, and documentation refinement. The developer shows strong debugging skills, particularly in handling edge cases like race conditions and null/undefined values, as well as practical TypeScript awareness in documentation contexts. Contributions are focused on maintaining both current and legacy versions of Chart.js, indicating proficiency in version-specific development. While contributions are limited to a single library, the depth of technical engagement suggests a strong ability to understand complex JavaScript ecosystems.",
+    "identified_skills": {
+      "Charting Libraries": [
+        "Chart.js core rendering",
+        "Chart.js animation systems",
+        "Chart.js scale/axis properties",
+        "Chart.js dataset visibility logic",
+        "Chart.js legend generation",
+        "Chart.js v2.x compatibility"
+      ],
+      "JavaScript Debugging": [
+        "Null/undefined checks",
+        "Array bounds validation",
+        "Race condition resolution",
+        "Event-driven behavior fixes",
+        "Defensive programming patterns"
+      ],
+      "Documentation Practices": [
+        "Technical documentation refinement",
+        "TypeScript syntax highlighting",
+        "Version-specific documentation",
+        "Code example expansion",
+        "Missing feature documentation"
+      ],
+      "TypeScript Integration": [
+        "TypeScript code block formatting",
+        "TypeScript utility function awareness"
+      ],
+      "Version Control & Collaboration": [
+        "GitHub issue linking",
+        "Branch-aware development",
+        "Self-contained PR contributions"
+      ],
+      "JavaScript Core": [
+        "Functional programming patterns",
+        "Conditional logic optimization",
+        "ES6+ method manipulation"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed animation rendering race condition where points weren't drawn during active animations (PR #2)",
+      "Added missing `scale` property documentation with practical examples (PR #1)",
+      "Implemented null checks for `backgroundColor` in legend generation to prevent crashes (PR #4)",
+      "Updated TypeScript syntax highlighting in documentation for better readability (PR #5)",
+      "Fixed dataset visibility bounds check to prevent index errors in `isDatasetVisible` (PR #4)",
+      "Targeted v2.9 branch for legacy version bug fixes, including `generateLegend` fallback logic (PR #3)",
+      "Linked PRs to specific GitHub issues (#7209, #7946, #7985) demonstrating issue triage and validation",
+      "Refined documentation for `valueOrDefault` utility function usage in TypeScript contexts (PR #3)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

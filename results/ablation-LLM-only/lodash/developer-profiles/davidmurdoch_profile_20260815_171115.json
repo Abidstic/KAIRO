@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "developer_name": "davidmurdoch",
+    "generation_timestamp": "2026-08-15T17:03:45.674408",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "lodash"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "davidmurdoch",
+    "experience_level": "Mid/Senior",
+    "primary_skills": [
+      "JavaScript minification optimization",
+      "Lodash internals",
+      "Low-level JavaScript language features",
+      "Gzipped payload reduction",
+      "Strict vs. loose equality tradeoffs",
+      "Backward compatibility in ES5/ES6 code"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "JavaScript (minified/optimized)"
+    ],
+    "summary": "A JavaScript developer with deep expertise in performance-critical optimization, specializing in low-level language features and library internals. Focused on reducing gzipped payload sizes and leveraging JavaScript engine quirks for micro-optimizations, primarily demonstrated through contributions to Lodash. Skilled in understanding how JavaScript is compiled, minified, and executed at a granular level, with a precision-driven approach to code hygiene and backward compatibility.",
+    "identified_skills": {
+      "JavaScript Optimization": [
+        "JavaScript minification strategies",
+        "Gzipped byte reduction techniques",
+        "Strict vs. loose equality optimizations",
+        "Whitespace and formatting for minification"
+      ],
+      "Library Internals": [
+        "Lodash utility function internals",
+        "Backward compatibility in utility libraries",
+        "Legacy `arguments` object handling",
+        "Functional programming optimizations"
+      ],
+      "Low-Level JavaScript": [
+        "ES5 vs. ES6 language feature tradeoffs",
+        "JavaScript engine compression behavior",
+        "Math function argument optimization",
+        "Null/undefined comparison patterns"
+      ],
+      "Code Hygiene": [
+        "Precision-driven code changes",
+        "Stray whitespace removal",
+        "Consistent formatting for optimization"
+      ],
+      "Performance Metrics": [
+        "Gzipped payload size analysis",
+        "Micro-optimization impact assessment"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: 'Save 2 gzipped bytes by flipping args in `Math.max`' — demonstrates Math function argument optimization for minification",
+      "PR 1: 'Also, remove some stray whitespace' — shows attention to whitespace for minified output",
+      "PR 2: 'Use null when comparing null/undefined for non-strict equals. Saves 2 gzipped bytes' — strict vs. loose equality tradeoff for optimization",
+      "PR 3: 'Remove `arguments` object from `_.reduce` and `_.reduceRight`' — legacy `arguments` handling in Lodash internals",
+      "All PRs target Lodash utility functions — indicates deep familiarity with library internals",
+      "Focus on gzipped byte savings in two PRs — performance metrics-driven optimization approach",
+      "Changes involve internal Lodash APIs — suggests expertise in library backward compatibility"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "lodash"
+    ]
+  }
+}

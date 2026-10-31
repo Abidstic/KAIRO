@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "Jnig",
+    "generation_timestamp": "2026-09-18T14:16:33.701259",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "Jnig",
+    "raw_response": "```json\n{\n  \"developer_name\": \"Jnig\",\n  \"experience_level\": \"Junior\",\n  \"primary_skills\": [\n    \"Fastify framework\",\n    \"TypeBox schema validation\",\n    \"JavaScript/TypeScript documentation\",\n    \"Fastify plugin ecosystem\",\n    \"Open-source contribution workflows\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript\",\n    \"TypeScript\"\n  ],\n  \"summary\": \"Jnig is a Junior-level JavaScript developer with specialized expertise in Fastify's documentation and ecosystem. Their contributions focus exclusively on enhancing documentation for Fastify plugins (e.g., fastify-flux) and TypeBox schema validation tools, demonstrating strong technical writing skills and deep familiarity with Fastify's plugin architecture. While no backend logic or frontend code contributions are visible, their work shows proficiency in maintaining technical documentation, following open-source contribution guidelines, and understanding Fastify's schema validation patterns. Potential for deeper involvement in Fastify plugin development or schema validation improvements exists based on their current focus area.\",\n  \"identified_skills\": {\n    \"Backend Frameworks\": [\"Fastify v4\"],\n    \"Schema Validation\": [\"TypeBox\", \"JSON Schema\"],\n    \"Documentation Practices\": [\"technical documentation\", \"contributor guidelines\", \"Code of Conduct compliance\", \"developer certification\"],\n    \"Plugin Development\": [\"fastify-flux\", \"Fastify plugin ecosystem\"],\n    \"TypeScript Integration\": [\"TypeScript-first tooling\"],\n    \"Open-Source Contribution\": [\"PR checklists\", \"issue tracking\", \"community guidelines\"],\n    \"Ecosystem Tools\": [\"Fastify plugins\", \"Fastify v4 compatibility\"],\n    \"Technical Writing\": [\"documentation updates\", \"schema documentation\"],\n    \"Version-Specific Knowledge\": [\"Fastify v4\"]\n  },\n  \"skill_evidence\": [\n    \"All 3 PRs labeled 'documentation' with no code changes (additions=0, deletions=0, files_changed=0)\",\n    \"PR titles include 'Extend TypeBox documentation' and 'add fastify-flux tool'\",\n    \"PR descriptions explicitly state 'documentation is changed or added' and reference Developer’s Certification of Origin\",\n    \"Mentions of Fastify v4 and TypeBox in PR descriptions indicate framework/plugin-specific knowledge\",\n    \"PRs reference 'fastify-flux' plugin, showing familiarity with Fastify's plugin architecture\",\n    \"Checklists in PRs confirm adherence to 'Code of Conduct' and 'contributor guidelines'\",\n    \"No evidence of frontend frameworks, testing libraries, or backend logic contributions\",\n    \"TypeBox documentation PRs imply experience with schema validation and TypeScript interfaces\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 36 column 3 (char 2604)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

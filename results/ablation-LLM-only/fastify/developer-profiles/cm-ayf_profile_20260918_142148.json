@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "developer_name": "cm-ayf",
+    "generation_timestamp": "2026-09-18T14:17:54.109394",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "cm-ayf",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "Fastify",
+      "JSON Schema Validation",
+      "Type System Design",
+      "Backend API Development"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (Node.js)"
+    ],
+    "summary": "cm-ayf is a mid-level JavaScript developer with specialized expertise in TypeScript and the Fastify framework. Their contributions focus on refining type systems, particularly around schema validation and error handling in Fastify's backend API ecosystem. The developer demonstrates strong proficiency in advanced TypeScript features such as unions, type widening, and error type refinement, all within a Node.js backend context. While contributions are currently limited to Fastify, the precision and depth of type-related changes suggest a deep understanding of backend development patterns and type-safe design principles.",
+    "identified_skills": {
+      "TypeScript Advanced Features": [
+        "Unions (type unions)",
+        "Type Widening",
+        "Error Type Refinement",
+        "Type Inference",
+        "Type Narrowing"
+      ],
+      "Backend Frameworks": [
+        "Fastify",
+        "Fastify Schema Validation",
+        "Fastify Error Handling"
+      ],
+      "API Development": [
+        "JSON Schema Validation",
+        "Schema-first Development",
+        "HTTP Response Typing"
+      ],
+      "Type System Design": [
+        "Type System Architecture",
+        "Type Safety Improvements",
+        "Defensive Typing"
+      ],
+      "Error Handling": [
+        "Schema Validation Errors",
+        "Error Type Expansion",
+        "Runtime Type Safety"
+      ],
+      "Node.js Ecosystem": [
+        "Node.js Backend Patterns"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'Make ResolveFastifyReplyType union-aware' demonstrates expertise in TypeScript unions within Fastify's type system",
+      "PR labeled 'typescript' and modifying 'FastifySchemaValidationError.params wider' shows focus on error type refinement and widening",
+      "All PRs involve type-related changes to Fastify's schema validation system, indicating deep familiarity with JSON Schema validation in TypeScript",
+      "Changes to 'Schema error formatter type' reflect experience in type-safe error handling and formatting in Fastify",
+      "No frontend or testing-related PRs visible, confirming backend/API-focused specialization",
+      "Type-focused contributions suggest strong defensive programming practices through type system improvements",
+      "PR titles and labels consistently reference 'typescript' and type system changes, reinforcing TypeScript proficiency"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "developer_name": "simone-sanfratello",
+    "generation_timestamp": "2026-09-18T13:46:41.614544",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "simone-sanfratello",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify framework development",
+      "Node.js backend optimization",
+      "JavaScript/TypeScript testing",
+      "Plugin ecosystem contributions",
+      "Technical documentation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "Mid-level JavaScript developer specializing in Fastify framework contributions, with strong expertise in Node.js backend development, testing optimization, and plugin ecosystem work. Demonstrates deep familiarity with Fastify's core mechanics, async/await patterns, and test suite maintenance. Contributions focus on improving test coverage, debugging asynchronous issues, and enhancing documentation for Fastify plugins and core features. Experience likely extends to modern JavaScript features like decorators and ES modules, with a backend-centric focus on performance-critical web applications.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js runtime"
+      ],
+      "Testing & Quality Assurance": [
+        "Test coverage optimization",
+        "Jest-like testing frameworks",
+        "Async test debugging",
+        "Test timeout resolution"
+      ],
+      "Plugin Development": [
+        "Fastify plugin ecosystem",
+        "Plugin documentation"
+      ],
+      "Documentation": [
+        "Technical documentation updates",
+        "API documentation"
+      ],
+      "Asynchronous Programming": [
+        "async/await",
+        "Promise-based patterns"
+      ],
+      "JavaScript/TypeScript Features": [
+        "ES modules",
+        "Decorators",
+        "TypeScript"
+      ],
+      "CI/CD Optimization": [
+        "Test execution tuning",
+        "CI pipeline awareness"
+      ],
+      "Error Handling": [
+        "Async error debugging",
+        "Test flakiness resolution"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: 'doc: update Request page' - Direct documentation contributions for Fastify's core documentation",
+      "PR #2: 'Add fastify-peekaboo plugin on doc ecosystem' - Plugin ecosystem documentation and integration work",
+      "PR #3: 'test: improve coverage' - Explicit focus on increasing test coverage in Fastify's test suite",
+      "PR #4: 'test: 100% coverage' - Achievement-oriented test coverage improvement PR",
+      "PR #5: 'test' label - Confirmed focus on testing improvements across multiple PRs",
+      "PR #6: 'fix: timeout on citgm tests' - Debugging asynchronous test timeouts in Fastify's test environment",
+      "All PRs in 'fastify' repository - Consistent specialization in Fastify framework development",
+      "Async/await patterns implied by test timeout fixes - Evidence of working with Node.js async programming"
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

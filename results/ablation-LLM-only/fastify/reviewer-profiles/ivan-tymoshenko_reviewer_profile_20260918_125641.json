@@ -1,0 +1,67 @@
+{
+  "reviewer_name": "ivan-tymoshenko",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 2,
+    "total_prs": 4,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "ivan-tymoshenko",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "TypeScript",
+      "Fastify",
+      "Node.js Backend Development",
+      "Schema Validation",
+      "Dependency Management"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (Node.js)"
+    ],
+    "summary": "Ivan-tymoshenko is a highly skilled Senior JavaScript reviewer with deep expertise in TypeScript and Fastify. Their reviews demonstrate strong backend development capabilities, particularly in schema validation, dependency management, and Fastify-specific routing and middleware. The reviewer efficiently approves PRs with minimal feedback, indicating high confidence in their domain knowledge. Their focus is primarily on backend systems, with no visible frontend or testing framework involvement.",
+    "identified_skills": {
+      "TypeScript": [
+        "Type Definitions",
+        "Schema Validation",
+        "Type-Safe Backend Patterns"
+      ],
+      "Backend Frameworks": [
+        "Fastify",
+        "HTTP Routing",
+        "Middleware"
+      ],
+      "Dependency Management": [
+        "Semantic Versioning",
+        "Dependency Bumps",
+        "Backward Compatibility"
+      ],
+      "Code Review": [
+        "PR Approval",
+        "Minimal Feedback",
+        "Issue Triage"
+      ],
+      "Backend Development": [
+        "HTTP Method Handling",
+        "Content-Type Validation",
+        "Router Configuration"
+      ],
+      "Documentation": [
+        "Type Documentation"
+      ]
+    },
+    "skill_evidence": [
+      "PR labeled 'typescript' with type definitions: 'add routeOptions.config to types'",
+      "Fastify-specific fix: 'fix: HEAD route search' referencing Fastify's router",
+      "Schema validation PR: 'feat: support different body schema per content type'",
+      "Dependency update: 'chore: bump find-my-way to v8.0.0' with semver awareness",
+      "Direct Fastify issue reference: 'Fixes https:\n    "
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "developer_name": "frikille",
+    "generation_timestamp": "2026-09-18T14:10:40.430373",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "frikille",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify Framework Development",
+      "Node.js Backend Debugging",
+      "Technical Documentation",
+      "JSON Schema Validation (AJV)",
+      "Git Backporting & Version Control"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "frikille is a mid-level JavaScript developer with specialized expertise in Fastify, a high-performance Node.js framework. Their contributions focus on core framework development, debugging middleware and error handling, and improving documentation for validation systems (AJV). The developer demonstrates strong backend skills in Node.js, async patterns, and semantic versioning workflows, with a particular emphasis on maintaining multiple versions of Fastify through backporting. While their contributions are backend-focused, they show proficiency in technical writing and collaborative code maintenance within the Fastify ecosystem.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js Middleware"
+      ],
+      "Error Handling & Debugging": [
+        "preHandler lifecycle",
+        "reply.callNotFound",
+        "async error propagation"
+      ],
+      "Validation & Schema Systems": [
+        "AJV (Ajv)",
+        "ajv-errors",
+        "JSON Schema"
+      ],
+      "Documentation & Technical Writing": [
+        "API documentation examples",
+        "user-facing guides",
+        "Markdown"
+      ],
+      "Version Control & Releases": [
+        "Git backporting",
+        "semantic versioning",
+        "2.x branch maintenance"
+      ],
+      "Asynchronous Programming": [
+        "async/await patterns",
+        "Node.js event loop"
+      ],
+      "Testing & Quality Assurance": [
+        "bug triage",
+        "documentation correctness validation"
+      ],
+      "Tooling & Ecosystem": [
+        "GitHub PR labels",
+        "Fastify CLI"
+      ]
+    },
+    "skill_evidence": [
+      "PR #2: Fixes preHandler execution in reply.callNotFound, demonstrating Fastify middleware lifecycle debugging",
+      "PR #3: Updates documentation to use ajv-errors, showing AJV validation system integration knowledge",
+      "PR #2 labeled '[Backport 2.x]', confirming experience with semantic versioning and cross-branch maintenance",
+      "Documentation-focused PR #3 with 'doc: doc example' label, indicating technical writing contributions",
+      "All PRs involve Fastify core logic, proving deep framework expertise beyond surface-level usage",
+      "No frontend frameworks or UI tooling mentioned, confirming backend specialization",
+      "PR titles and labels (e.g., 'Fix:', 'doc:') reflect structured contribution patterns"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

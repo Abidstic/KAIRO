@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "developer_name": "lachlancollins",
+    "generation_timestamp": "2026-09-18T13:47:23.161372",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "lachlancollins",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Fastify documentation",
+      "Docusaurus documentation tooling",
+      "Node.js ecosystem",
+      "Technical writing for APIs",
+      "Documentation version compatibility"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "lachlancollins demonstrates a strong focus on **documentation and technical writing** within the Fastify Node.js ecosystem. Their contributions are primarily in improving and maintaining Fastify’s documentation using Docusaurus, with evidence of version compatibility awareness and attention to detail in documentation quality. While no direct JavaScript/TypeScript code changes are visible in the analyzed PRs, the Fastify context strongly suggests familiarity with Node.js backend patterns. The contributions reflect a **Junior-level developer** with expertise in documentation tooling and versioned API documentation, but limited direct coding evidence in the provided PRs.",
+    "identified_skills": {
+      "Documentation & Technical Writing": [
+        "Docusaurus documentation tooling",
+        "Markdown formatting",
+        "API reference documentation",
+        "Versioned documentation (v1.x/v2.x)",
+        "Broken link resolution",
+        "Relative path fixes"
+      ],
+      "Backend Ecosystem": [
+        "Fastify framework",
+        "Node.js backend patterns",
+        "API documentation standards"
+      ],
+      "Documentation Tooling": [
+        "Docusaurus static site generator",
+        "Documentation reorganization",
+        "Documentation compatibility testing"
+      ],
+      "Frontend Markup Awareness": [
+        "HTML semantic markup",
+        "CSS positioning fixes",
+        "Accessibility-aware documentation"
+      ],
+      "Version Management": [
+        "Multi-version documentation support",
+        "Version-specific documentation updates"
+      ],
+      "Code Quality": [
+        "Typos and grammar fixes",
+        "Readability improvements"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: 'Fix typos in Reference' - Evidence of attention to detail in technical writing",
+      "PR 2: 'Fix positioning of `<a>` tags relative to headers' - Basic HTML/CSS markup awareness",
+      "PR 3 & 4: 'Update v1.x/v2.x docs compatibility with Docusaurus' - Version compatibility and documentation tooling",
+      "PR 5 & 6: 'docs-reorg' - Documentation restructuring and reorganization efforts",
+      "All PRs: 'files_changed: 0' - No direct code changes, confirming documentation-focused contributions",
+      "Fastify repository context - Implies Node.js backend framework familiarity",
+      "Docusaurus mentions in multiple PRs - Strong evidence of documentation tooling expertise",
+      "Version-specific documentation updates - Demonstrates awareness of API versioning"
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

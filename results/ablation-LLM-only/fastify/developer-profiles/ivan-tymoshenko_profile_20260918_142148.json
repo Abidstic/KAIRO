@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "developer_name": "ivan-tymoshenko",
+    "generation_timestamp": "2026-09-18T13:37:15.187494",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 13,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 13
+  },
+  "profile": {
+    "developer_name": "ivan-tymoshenko",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify framework internals",
+      "Node.js web framework development",
+      "HTTP routing and URL handling",
+      "JSON Schema validation (AJV)",
+      "Error handling and serialization",
+      "Performance optimizations in JavaScript",
+      "Testing and debugging Fastify core",
+      "Hooks and lifecycle management"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "Ivan Tymoshenko is a Senior JavaScript developer with deep expertise in Fastify, a high-performance Node.js web framework. Their contributions focus on core framework internals—routing, schema validation, error handling, and performance optimizations—demonstrating mastery of Fastify’s architecture. The developer shows strong skills in asynchronous JavaScript patterns, JSON Schema integration (via AJV), and debugging complex edge cases in web server logic. Their work spans performance tuning, test suite improvements, and maintaining backward compatibility, reflecting a high level of technical depth and collaboration in open-source backend development.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js web server internals"
+      ],
+      "HTTP & Routing": [
+        "HEAD method handling",
+        "URL parsing",
+        "querystring parsing",
+        "duplicate slashes handling"
+      ],
+      "Validation & Schema": [
+        "JSON Schema (AJV)",
+        "schema ref resolution",
+        "serialization errors"
+      ],
+      "Error Handling": [
+        "undefined error handling",
+        "serialization errors",
+        "crash prevention"
+      ],
+      "Performance Optimization": [
+        "AJV optimizations",
+        "internal trees for prettyPrint",
+        "performance profiling"
+      ],
+      "Testing & Debugging": [
+        "test suite fixes",
+        "crash prevention",
+        "edge-case handling"
+      ],
+      "Lifecycle & Hooks": [
+        "Fastify hooks",
+        "middleware lifecycle",
+        "async error handling"
+      ],
+      "Documentation": [
+        "semantic versioning (semver-minor)",
+        "docs maintenance"
+      ],
+      "Tooling": [
+        "AJV (JSON Schema validator)",
+        "internal data structures"
+      ]
+    },
+    "skill_evidence": [
+      "PR titles like 'HEAD route search' and 'HEAD route resetting' indicate deep HTTP method and routing expertise",
+      "'use ajv for schema ref resolving' shows integration of AJV for JSON Schema validation optimizations",
+      "'all hooks should handle undefined error' demonstrates mastery of Fastify’s hook system and error handling",
+      "'test: fix request terminated should not crash fastify test' highlights debugging and test suite improvements",
+      "'include origin error message into serialization error' reflects attention to detailed error serialization",
+      "'performances' label and 'use internal trees for prettyPrint' indicate performance-focused optimizations",
+      "'docs: remove unused constraint methods' shows engagement with documentation and versioning",
+      "'semver-minor' label in PRs suggests awareness of semantic versioning and backward compatibility"
+    ]
+  },
+  "statistics": {
+    "total_prs": 13,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

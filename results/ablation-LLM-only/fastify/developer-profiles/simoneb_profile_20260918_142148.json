@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "developer_name": "simoneb",
+    "generation_timestamp": "2026-09-18T13:47:02.882876",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "simoneb",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify framework",
+      "Fastify plugin development",
+      "Fastify decorators & dependency injection",
+      "Node.js asynchronous programming",
+      "JavaScript error handling & debugging",
+      "Open-source documentation",
+      "Casbin policy integration"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "simoneb is a mid-level JavaScript developer with specialized expertise in Fastify, the high-performance Node.js web framework. Their contributions focus on Fastify plugin development, dependency injection systems, and documentation improvements. Evidence from PRs demonstrates strong skills in debugging asynchronous issues (e.g., Promise resolution), Fastify's decorator system, and integrating security-related libraries like Casbin. While contributions are primarily within the Fastify ecosystem, the developer shows proficiency in Node.js core concepts and open-source collaboration practices.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify"
+      ],
+      "Plugin Development": [
+        "Fastify plugin architecture",
+        "Fastify decorators",
+        "Dependency injection"
+      ],
+      "Asynchronous Programming": [
+        "Promises",
+        "async/await",
+        "Debugging unresolved promises"
+      ],
+      "Dependency Management": [
+        "npm/yarn dependencies",
+        "Library integration"
+      ],
+      "Error Handling": [
+        "Runtime error validation",
+        "Dependency type validation"
+      ],
+      "Documentation & Community": [
+        "Plugin documentation",
+        "Maintainer recognition",
+        "DCO compliance"
+      ],
+      "Security & Policy": [
+        "Casbin integration",
+        "Authorization systems"
+      ],
+      "JavaScript Language": [
+        "ES modules",
+        "TypeScript compatibility"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'feat: error on wrong decorator dependency type' – Demonstrates understanding of Fastify's decorator system and runtime validation for dependency types.",
+      "PR: 'fix: inject hangs with undefined promise resolve' – Shows debugging skills for asynchronous issues in Fastify's dependency injection system.",
+      "PR: 'fix: add fast-json-stringify to dependencies' – Indicates knowledge of Fastify's dependency ecosystem and JSON serialization needs.",
+      "PR: 'docs: include casbin plugins' – Confirms involvement with Casbin (policy enforcement) and documentation updates for Fastify plugins.",
+      "PR: 'docs: add Simone Busoli to plugin maintainers' – Demonstrates community engagement and documentation contributions at the maintainer level.",
+      "DCO compliance mentioned in PRs – Indicates adherence to open-source contribution policies.",
+      "All PRs reference Fastify's plugin system – Confirms deep familiarity with Fastify's plugin architecture and decorator patterns."
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

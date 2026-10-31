@@ -1,0 +1,75 @@
+{
+  "reviewer_name": "krzysdz",
+  "generated_at": "20260815_155647",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 8,
+    "total_prs": 3,
+    "repos": [
+      "express"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "krzysdz",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "TypeScript",
+      "Backend JavaScript (Node.js/Express)",
+      "Type-Safe Error Handling",
+      "Code Review & Technical Debt",
+      "API Deprecation Strategies"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES Modules)"
+    ],
+    "summary": "krzysdz is a Senior-level JavaScript reviewer with deep expertise in TypeScript and backend JavaScript, particularly in Node.js/Express environments. Their reviews demonstrate a strong focus on type safety, error handling, and maintainable code practices. The reviewer excels at providing constructive feedback on technical debt, deprecation strategies, and documentation improvements, indicating a high level of experience in project architecture and long-term maintainability.",
+    "identified_skills": {
+      "Type System & Tooling": [
+        "TypeScript",
+        "Type Safety",
+        "Type Guard Validation",
+        "Type Check Correctness",
+        "Error Message Clarity"
+      ],
+      "Backend Frameworks": [
+        "Node.js",
+        "Express.js (HTTP Status Codes)",
+        "Library-Level Code"
+      ],
+      "Code Review & Quality": [
+        "Technical Debt Identification",
+        "Deprecation Strategy",
+        "API Evolution",
+        "Code Clarity Feedback",
+        "Documentation Review"
+      ],
+      "Error Handling": [
+        "Structured Error Responses",
+        "Validation Messages",
+        "Type-Safe Errors"
+      ],
+      "Process & Governance": [
+        "Contributing Guidelines",
+        "Code of Conduct",
+        "Gradual Deprecation"
+      ],
+      "Modular Design": [
+        "Method Refactoring",
+        "Settings API Design"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: 'lib: make response status code error more type safe' (TypeScript, type safety)",
+      "Review comment: 'The type check is already correct' (Type Guard Validation)",
+      "Review comment: 'Your code range validation message change makes it unclear and wrong' (Error Message Clarity)",
+      "PR title: 'Move settings methods to app.settings and deprecate old versions' (Deprecation Strategy)",
+      "Review state: All PRs in 'COMMENTED' (Active Code Review Engagement)",
+      "PR title: 'doc: update contributing guidelines and code of conduct links' (Documentation Review)",
+      "Review comment: 'What are you trying to achieve?' (Technical Debt Identification)",
+      "Focus on 'lib' prefix in PRs (Library-Level Code, Node.js/Express context)"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "developer_name": "mkxml",
+    "generation_timestamp": "2026-09-18T04:12:24.848162",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 13,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 13
+  },
+  "profile": {
+    "developer_name": "mkxml",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Preact framework",
+      "React-like virtual DOM patterns",
+      "Cross-browser testing (IE-specific fixes)",
+      "Test automation (Mocha, Sauce Labs)",
+      "CI/CD pipelines (Travis CI)",
+      "Code optimization (bundle size reduction)",
+      "ESLint and code quality improvements",
+      "Type checking and runtime validation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "JSX (Preact)"
+    ],
+    "summary": "mkxml is a mid-level JavaScript developer specializing in frontend frameworks like Preact, with strong expertise in legacy browser compatibility (particularly IE), test automation, and CI/CD pipelines. Their contributions focus on pragmatic optimizations—such as bundle size reduction, test coverage reporting, and cross-browser debugging—demonstrating a deep understanding of frontend reliability and performance. The developer excels in tooling configuration (Travis CI, Sauce Labs, Coveralls) and code quality practices (ESLint, EditorConfig), with a clear preference for frontend-focused JavaScript ecosystems.",
+    "identified_skills": {
+      "Frontend Frameworks": [
+        "Preact",
+        "Virtual DOM patterns",
+        "JSX",
+        "Component lifecycle management"
+      ],
+      "Cross-Browser Development": [
+        "IE-specific fixes",
+        "Legacy JavaScript quirks",
+        "Text node handling",
+        "Line feed/whitespace issues"
+      ],
+      "Testing & Test Infrastructure": [
+        "Mocha",
+        "Sauce Labs integration",
+        "Coveralls test coverage",
+        "Conditional test execution",
+        "Test reporting optimization"
+      ],
+      "Build Optimization": [
+        "Bundle size reduction",
+        "UglifyJS configuration",
+        "Code reuse (type checking)",
+        "EditorConfig adjustments"
+      ],
+      "CI/CD & DevOps": [
+        "Travis CI configuration",
+        "Branch-based testing logic",
+        "Sauce Labs remote testing",
+        "CI build debugging"
+      ],
+      "Code Quality & Tooling": [
+        "ESLint fixes",
+        "Type checking optimizations",
+        "EditorConfig standardization",
+        "False positive removals"
+      ],
+      "Debugging": [
+        "IE-specific bug resolution",
+        "Test failure debugging",
+        "CI pipeline error resolution",
+        "Tooling issue fixes"
+      ],
+      "JavaScript Language": [
+        "Runtime type validation",
+        "Legacy JavaScript compatibility",
+        "ESLint best practices"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed IE-specific test case for duplicated text nodes (PR #5: 'Fix duplicated text nodes issue in IE')",
+      "Reused type checking functions to reduce bundle size (PR #7: 'Reuse type checking functions')",
+      "Added Coveralls test coverage reporting with single-report submission fix (PR #3, #12)",
+      "Configured Travis CI to run Sauce Labs tests only on master branch (PR #2: 'Run remote tests only when pushing to master')",
+      "Fixed UglifyJS 3 configuration for build optimization (PR #10: 'Proposal to fix config for UglifyJS 3')",
+      "Removed ESLint false positives for code quality (PR #8: 'Fix eslint warnings')",
+      "Debugged Coveralls report duplication issue (PR #12: 'Fix duplicated coveralls report')",
+      "Adjusted EditorConfig for consistent JSON formatting (PR #13: 'Change editorconfig to use 2-space indent for JSON files')",
+      "Conditionalized Sauce Labs testing for IE9/IE10 removal (PR #11: 'Remove IE9 and IE10 from remote testing')"
+    ]
+  },
+  "statistics": {
+    "total_prs": 13,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

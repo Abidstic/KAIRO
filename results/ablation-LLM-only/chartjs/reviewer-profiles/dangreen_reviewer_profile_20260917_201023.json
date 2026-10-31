@@ -1,0 +1,80 @@
+{
+  "reviewer_name": "dangreen",
+  "generated_at": "20260917_201023",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 106,
+    "total_comments": 98,
+    "total_prs": 40,
+    "repos": [
+      "chartjs"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "dangreen",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "ESM (ECMAScript Modules)",
+      "Rollup.js bundler optimizations",
+      "Tree-shaking and code splitting",
+      "JavaScript module interoperability",
+      "Frontend JavaScript (Chart.js)",
+      "Build system debugging",
+      "Code review and impact analysis"
+    ],
+    "programming_languages": [
+      "JavaScript (ESM/CommonJS)",
+      "TypeScript (inferred, likely used in Chart.js)"
+    ],
+    "summary": "dangreen is a senior-level JavaScript reviewer with deep expertise in modern module systems, particularly ESM and Rollup optimizations. Their reviews demonstrate a strong focus on tree-shaking, module interoperability, and build system debugging, primarily within the Chart.js ecosystem. They excel at assessing breaking changes, ensuring API stability, and refining frontend JavaScript rendering (e.g., tooltips, DOM manipulation). Their contributions reflect a rigorous review process and a nuanced understanding of JavaScript tooling, particularly in transitioning legacy CommonJS codebases to ESM.",
+    "identified_skills": {
+      "Module Systems": [
+        "ESM (ECMAScript Modules)",
+        "CommonJS interoperability",
+        "`.cjs`/`.mjs` file extensions",
+        "Module interoperability patterns"
+      ],
+      "Bundling & Optimization": [
+        "Rollup.js configuration",
+        "Tree-shaking",
+        "`sideEffects: false` metadata",
+        "Code splitting",
+        "Bundler output formats (ESM, CommonJS, UMD)"
+      ],
+      "Build System & Tooling": [
+        "Karma testing environment",
+        "Build system debugging",
+        "Testing vs. production build differences",
+        "Breaking change analysis"
+      ],
+      "Frontend JavaScript": [
+        "DOM manipulation (tooltip rendering)",
+        "Canvas-based rendering (Chart.js)",
+        "Visual consistency fixes",
+        "Callback-based patterns"
+      ],
+      "Code Review & Quality": [
+        "Breaking change labeling",
+        "API stability assessment",
+        "Impact analysis for consumers",
+        "Thorough review comments"
+      ],
+      "JavaScript Ecosystem": [
+        "Chart.js library internals",
+        "Frontend JavaScript libraries",
+        "Legacy JS patterns"
+      ]
+    },
+    "skill_evidence": [
+      "PR titles like 'feat: add ESM support' (12x) explicitly reference ESM adoption and `.cjs` extensions for CommonJS ↔ ESM interop",
+      "PR descriptions mention 'To import CommonJS modules in/from ESM project `.cjs` extension is required'—demonstrating deep module interoperability knowledge",
+      "Multiple 'feat: sideEffects false' PRs (5x) address Rollup’s tree-shaking behavior, including false positives in unused code removal for Karma tests",
+      "PRs labeled 'breaking change' show awareness of API stability and consumer impact when migrating to ESM",
+      "Tooltip-related fixes (e.g., 'fix: same-looking tooltips on charts') reveal frontend JavaScript DOM/rendering expertise in Chart.js",
+      "Comments on 'test build for Karma, which has side effects' highlight understanding of testing environment quirks vs. production builds",
+      "All PRs reference Chart.js issues (#10284, #9771), indicating familiarity with the library’s internals and rendering logic",
+      "Review state consistently 'COMMENTED' suggests thorough, detailed feedback beyond mere approval"
+    ]
+  }
+}

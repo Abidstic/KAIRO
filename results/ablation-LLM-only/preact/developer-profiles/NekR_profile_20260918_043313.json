@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "NekR",
+    "generation_timestamp": "2026-09-18T04:14:47.118968",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 7,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 7
+  },
+  "profile": {
+    "developer_name": "NekR",
+    "raw_response": "```json\n{\n  \"developer_name\": \"NekR\",\n  \"experience_level\": \"Mid-Level\",\n  \"primary_skills\": [\n    \"Preact internals (Virtual DOM, component lifecycle)\",\n    \"JavaScript runtime optimization\",\n    \"State management in Preact (setAccessor)\",\n    \"Environment-aware JavaScript (NODE_ENV checks)\",\n    \"Error handling and validation in JSX-like functions\",\n    \"GitHub issue triage and PR collaboration\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (inferred, but no direct evidence)\"\n  ],\n  \"summary\": \"NekR is a Mid-Level JavaScript developer with specialized expertise in Preact's core internals, focusing on performance optimizations, state management, and debugging. Their contributions demonstrate deep knowledge of Preact's Virtual DOM implementation, component recycling, and environment-specific logic. While primarily a frontend contributor, their work shows strong attention to runtime efficiency and error handling. Evidence suggests familiarity with modern JavaScript patterns (ES6+) and React-like component architectures, though backend or TypeScript experience remains unconfirmed from the available data.\",\n  \"identified_skills\": {\n    \"Frontend Frameworks & Libraries\": [\n      \"Preact (Virtual DOM, component lifecycle)\",\n      \"Preact state management (setAccessor)\",\n      \"Preact debugging utilities\",\n      \"React-compatible patterns\"\n    ],\n    \"JavaScript Core\": [\n      \"Runtime optimization (object checks, strict equality)\",\n      \"Error handling (throwing errors for invalid inputs)\",\n      \"Environment-specific code (NODE_ENV checks)\",\n      \"JSX-like function validation (h() function)\"\n    ],\n    \"Development Practices\": [\n      \"GitHub issue triage\",\n      \"PR collaboration (mentions @developit)\",\n      \"Documentation maintenance (README updates)\",\n      \"Testing considerations (discussions about test coverage)\"\n    ],\n    \"Performance\": [\n      \"Component recycling optimizations\",\n      \"Unnecessary check removal\"\n    ],\n    \"Tooling Awareness\": [\n      \"Environment variables (NODE_ENV)\",\n      \"Development vs. production logic\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR title 'Remove unnecessary object check in setAccessor' shows optimization focus and knowledge of Preact's state management system\",\n    \"PR description discussing 'Fixes #401' indicates GitHub issue triage and test-driven development awareness\",\n    \"PR about 'Throw when passing undefined component to h()' demonstrates runtime validation and error handling in Preact's JSX-like function\",\n    \"README update PR ('Rename 'Developer Tools' -> 'Debug Mode') proves documentation maintenance attention\",\n    \"Mentions of '@developit' in PRs indicate active collaboration with Preact maintainers\",\n    \"Discussion about 'process.env.NODE_ENV === \\'development\\'' shows environment-specific code awareness\",\n    \"Optimization PRs ('Remove component recycling') reveal deep understanding of Preact's Virtual DOM implementation\",\n    \"PR question 'do we need tests for this?' suggests testing considerations in code changes\"\n  ]\n}\n```",
+    "parsing_error": "Invalid \\escape: line 51 column 49 (char 2776)"
+  },
+  "statistics": {
+    "total_prs": 7,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

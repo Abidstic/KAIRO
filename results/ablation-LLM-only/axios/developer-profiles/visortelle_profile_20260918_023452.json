@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "visortelle",
+    "generation_timestamp": "2026-09-18T02:28:10.908872",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "visortelle",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript core language (truthy/falsy evaluation, type checking)",
+      "Axios HTTP client internals",
+      "Version-specific code maintenance",
+      "Debugging and issue reproduction",
+      "Node.js environment integration"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred)"
+    ],
+    "summary": "visortelle demonstrates mid-level JavaScript expertise with a focus on core language intricacies and library internals. Their contributions to Axios highlight deep knowledge of HTTP client behavior, particularly around request body handling and edge cases like falsy values. The developer shows strong debugging skills, version-aware maintenance, and an ability to implement precise fixes without over-engineering. While contributions are limited to Axios, the quality and specificity of the fixes suggest experience with asynchronous patterns, type safety, and backward compatibility in JavaScript libraries.",
+    "identified_skills": {
+      "Core JavaScript Patterns": [
+        "truthy/falsy evaluation",
+        "explicit type checking",
+        "value coercion handling"
+      ],
+      "HTTP Client Development": [
+        "Axios request body processing",
+        "HTTP method-specific logic",
+        "environment-specific quirks (Node.js/browser)"
+      ],
+      "Version Management": [
+        "semantic versioning (v0.x, v1.x)",
+        "backporting fixes",
+        "branch-specific maintenance"
+      ],
+      "Debugging Techniques": [
+        "issue reproduction",
+        "edge case testing",
+        "minimal change fixes"
+      ],
+      "Asynchronous Programming": [
+        "Promise-based error handling",
+        "async/await patterns"
+      ],
+      "Code Quality Practices": [
+        "efficient refactoring",
+        "targeted logic adjustments"
+      ],
+      "Testing Awareness": [
+        "test-driven mindset"
+      ]
+    },
+    "skill_evidence": [
+      "PRs address falsy values (`false`, `0`, `''`) being incorrectly ignored as request body values, demonstrating explicit type checking and truthy/falsy awareness",
+      "All PRs target Axios versions (`v0.x`, `v1.x`), showing version-specific maintenance and backward compatibility focus",
+      "No file changes listed but implied fixes for core request body processing logic in Axios internals",
+      "PRs reference specific issues (#4440, #3549) indicating thorough issue reproduction and debugging",
+      "Minimal changes (`additions: 0`, `deletions: 0`) suggest precise, targeted fixes for edge cases",
+      "Axios context implies Node.js environment familiarity, particularly around request body handling quirks",
+      "Inferred TypeScript usage due to Axios's TypeScript-first nature, though not explicitly shown in PR metadata"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

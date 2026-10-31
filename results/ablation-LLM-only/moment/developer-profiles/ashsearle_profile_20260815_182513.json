@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "developer_name": "ashsearle",
+    "generation_timestamp": "2026-08-15T17:59:16.407134",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 25,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "ashsearle",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Moment.js core development",
+      "JavaScript date/time precision handling",
+      "TypeScript integration for JavaScript libraries",
+      "Internationalization (i18n) and locale-specific formatting",
+      "Edge-case debugging in date/time libraries",
+      "Backward compatibility maintenance",
+      "Timezone and DST edge-case resolution"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5+)",
+      "TypeScript"
+    ],
+    "summary": "ashsearle is a senior-level JavaScript developer with deep expertise in date/time library development, specializing in Moment.js. Their contributions focus on core date/time logic, TypeScript integration, edge-case handling (floating-point precision, DST transitions), and internationalization. The developer demonstrates strong debugging skills, backward compatibility awareness, and API design improvements. Their work is narrowly focused on library maintenance rather than application development, with a particular emphasis on precision arithmetic, timezone handling, and locale-aware formatting.",
+    "identified_skills": {
+      "DateTime Library Development": [
+        "Moment.js core functionality",
+        "ISO 8601 duration string handling",
+        "Timezone-aware date arithmetic",
+        "Daylight Saving Time (DST) edge cases",
+        "Locale-specific date formatting"
+      ],
+      "JavaScript Language Features": [
+        "Floating-point precision handling",
+        "Legacy browser compatibility (IE8)",
+        "Prototype-based object extension",
+        "Optional parameters and object options",
+        "Utility function optimization"
+      ],
+      "TypeScript Integration": [
+        "Type signature corrections",
+        "Type narrowing for library methods",
+        "TypeScript compatibility with JavaScript codebase"
+      ],
+      "Testing and Debugging": [
+        "Edge-case reproduction",
+        "Performance profiling (DST optimizations)",
+        "Invalid date handling fixes",
+        "Floating-point error identification"
+      ],
+      "Internationalization": [
+        "Locale-aware formatting (Intl.DateTimeFormat)",
+        "CLDR/Unicode compliance",
+        "Italian/Latvian date formatting fixes"
+      ],
+      "Backward Compatibility": [
+        "IE8-specific utility function patches",
+        "Gradual breaking change management",
+        "Semantic versioning awareness"
+      ],
+      "API Design": [
+        "Optional parameter additions ({ utc: false })",
+        "Timezone-aware ISO string formatting",
+        "Flexible method chaining improvements"
+      ],
+      "Precision Arithmetic": [
+        "Floating-point error mitigation",
+        "ISO duration string validation"
+      ],
+      "Library Maintenance": [
+        "Core logic bug fixes",
+        "Type safety enhancements",
+        "Documentation-in-code improvements"
+      ]
+    },
+    "skill_evidence": [
+      "PR #4145: Fixed floating-point errors in ISO duration format ('123456789 / 1000 % 60' precision issues)",
+      "PR #4072: Added IE8-compatible `indexOf` utility for legacy browser support",
+      "PR #4316: Corrected TypeScript signatures for `min/max` methods to enforce `moment` instance types",
+      "PR #4133: Adjusted Italian locale to remove comma between weekday and date (i18n fix)",
+      "PR #1751: Added `{ utc: false }` option to `toISOString` for timezone-aware ISO formatting",
+      "PR #4390: Fixed `toISOString` offset handling to respect timezone offsets in ISO strings",
+      "PR #4251: Improved `isBetween` to return `false` for invalid date ranges (edge-case handling)",
+      "PR #4012: Optimized DST transition logic to boost performance while maintaining correctness"
+    ]
+  },
+  "statistics": {
+    "total_prs": 25,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "reviewer_name": "kibertoad",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 1,
+    "total_prs": 4,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "kibertoad",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify performance optimization",
+      "Node.js runtime behavior",
+      "Backend JavaScript (Fastify ecosystem)",
+      "CI/CD pipeline configuration",
+      "Data structure selection for performance"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Fastify context)"
+    ],
+    "summary": "kibertoad is a senior-level backend JavaScript engineer specializing in Fastify performance tuning, Node.js runtime optimizations, and CI/CD workflows. Their reviews demonstrate deep expertise in selecting optimal data structures for performance-critical operations, managing Node.js version compatibility, and contributing to Fastify's plugin ecosystem and documentation. The reviewer focuses on infrastructure-level improvements rather than frontend development or general JavaScript language features, indicating a backend-centric specialization within the Fastify framework.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Fastify plugins"
+      ],
+      "Performance Engineering": [
+        "Data structure optimization",
+        "Lookup performance tuning",
+        "Runtime profiling"
+      ],
+      "Node.js Runtime": [
+        "Node.js version compatibility",
+        "Runtime-specific CI adjustments",
+        "Alternative runtimes"
+      ],
+      "CI/CD Systems": [
+        "GitHub Actions workflows",
+        "Runtime testing in CI"
+      ],
+      "Documentation": [
+        "Plugin ecosystem documentation",
+        "Technical writing for Fastify"
+      ],
+      "Code Review": [
+        "Performance-focused feedback",
+        "Constructive approvals"
+      ],
+      "JavaScript Language": [
+        "Map vs Object performance characteristics"
+      ],
+      "Backend Patterns": [
+        "Middleware optimization",
+        "Plugin architecture"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'perf: use FifoMap to check contentType' demonstrates performance optimization focus",
+      "Review comment 'this is great!' on performance-related PR indicates approval of technical depth",
+      "PR label 'performances' and 'internals' show involvement in Fastify core systems",
+      "CI chore PR 'remove node 18 from CI' references runtime compatibility testing",
+      "Documentation PR 'docs(ecosystem): add http-wizard' shows plugin ecosystem contributions",
+      "FifoMap optimization PR shows deep knowledge of JavaScript collection performance",
+      "Node.js 18 CI adjustments indicate understanding of runtime versioning",
+      "Approvals with minimal feedback suggest high-quality technical judgment"
+    ]
+  }
+}

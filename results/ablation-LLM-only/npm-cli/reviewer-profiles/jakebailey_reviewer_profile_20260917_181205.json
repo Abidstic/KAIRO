@@ -1,0 +1,64 @@
+{
+  "reviewer_name": "jakebailey",
+  "generated_at": "20260917_181205",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 3,
+    "total_prs": 1,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "jakebailey",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js dependency management",
+      "npm/yarn package resolution debugging",
+      "Cross-platform compatibility analysis"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js runtime)",
+      "TypeScript (inferred from dependency context)"
+    ],
+    "summary": "jakebailey demonstrates mid-level expertise in Node.js dependency management, particularly around optional dependencies and cross-platform compatibility issues. Their review activity is limited to a single PR type (dependency resolution fixes), showing awareness of npm/yarn behavior and platform-specific package loading. While no frontend or advanced backend skills are visible in the available data, their focus on dependency-related fixes suggests practical experience with package.json configurations and CI/CD environments. More diverse review evidence would be needed to fully assess their broader JavaScript capabilities.",
+    "identified_skills": {
+      "Dependency Management": [
+        "npm/yarn optionalDependencies",
+        "package.json configuration",
+        "Cross-platform dependency resolution"
+      ],
+      "Build Systems": [
+        "npm/yarn install behavior",
+        "Platform-specific package loading"
+      ],
+      "Code Review": [
+        "Dependency-related PR feedback",
+        "Build failure debugging"
+      ],
+      "Environment Awareness": [
+        "Node.js runtime platform checks",
+        "CI/CD environment compatibility"
+      ],
+      "Backend Tools": [],
+      "Frontend Frameworks": [],
+      "Testing": [],
+      "Asynchronous Patterns": [],
+      "Error Handling": [
+        "Dependency resolution failure mitigation"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'fix: don't trash optional dependencies that fail due to incompatible platform' indicates focus on optionalDependencies and platform-specific package resolution",
+      "Review state 'COMMENTED' suggests involvement in dependency-related PR discussions (though no comments are visible)",
+      "Mention of 'incompatible platform' implies awareness of Node.js runtime environment differences across OS/architectures",
+      "No frontend framework references (React, Vue, etc.) in PR title or metadata",
+      "No testing-related terms (Jest, Mocha, etc.) or backend framework references (Express, NestJS) in available data",
+      "Limited to a single repository ('npm_cli') with identical PR patterns, indicating specialized focus on package management",
+      "Potential CI/CD context implied by 'dependency resolution failure' terminology",
+      "No evidence of code changes or review comments prevents deeper skill assessment beyond dependency management"
+    ]
+  }
+}

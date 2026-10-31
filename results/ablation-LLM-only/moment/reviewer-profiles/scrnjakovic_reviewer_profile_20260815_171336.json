@@ -1,0 +1,44 @@
+{
+  "reviewer_name": "scrnjakovic",
+  "generated_at": "20260815_171336",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 5,
+    "total_comments": 3,
+    "total_prs": 1,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "scrnjakovic",
+    "experience_level": "Mid",
+    "primary_skills": [],
+    "programming_languages": [],
+    "summary": "scrnjakovic is a localization specialist with expertise in Serbian script detection and i18n metadata, not a JavaScript developer. Their reviews focus exclusively on correcting script tags (e.g., 'sr-cyrl' vs. 'sr') in localization files, with no evidence of JavaScript technical skills or code review in the JavaScript ecosystem. Their contributions are metadata-focused rather than code-related.",
+    "identified_skills": {
+      "Localization & Internationalization": [
+        "Serbian script detection",
+        "BCP 47 script tags",
+        "Cyrillic/Latin script correction"
+      ],
+      "Code Review": [
+        "PR comment feedback",
+        "metadata validation"
+      ],
+      "Unicode & Script Handling": [
+        "script mixup resolution"
+      ],
+      "JavaScript-Related (Speculative)": []
+    },
+    "skill_evidence": [
+      "PR title: '[locale] Fix Serbian locale (sr, sr-cyrl)'",
+      "Review comment: 'Please correct script mixup in Cyrillic version.'",
+      "All PRs labeled with '[locale]'",
+      "No code changes in PRs (additions=0, deletions=0)",
+      "Review state transitions: COMMENTED → CHANGES_REQUESTED → APPROVED (non-code feedback)",
+      "Focus on script detection (e.g., distinguishing 'sr' vs. 'sr-cyrl')"
+    ]
+  }
+}

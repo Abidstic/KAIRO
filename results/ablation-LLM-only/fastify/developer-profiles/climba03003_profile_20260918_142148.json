@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "developer_name": "climba03003",
+    "generation_timestamp": "2026-09-18T13:26:35.354588",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 86,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "climba03003",
+    "experience_level": "Mid/Senior",
+    "primary_skills": [
+      "Fastify (Node.js framework)",
+      "TypeScript",
+      "JavaScript backend development",
+      "Error handling & debugging",
+      "Plugin system development",
+      "Testing & benchmarking",
+      "Documentation & API improvements"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "climba03003 is a specialized JavaScript developer with deep expertise in Fastify, the high-performance Node.js web framework. Their contributions focus on core framework improvements, TypeScript integration, error handling, and plugin ecosystem enhancements. The developer demonstrates strong debugging skills, rigorous testing practices, and a commitment to type safety. Their work aligns with backend-focused roles requiring expertise in Fastify internals, logging systems (Pino), and stream handling. While not a generalist, their contributions reflect a high level of proficiency in Fastify's architecture and TypeScript's type system.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js"
+      ],
+      "TypeScript": [
+        "Type annotations",
+        "Interface refinements",
+        "TypeScript-specific fixes"
+      ],
+      "Error Handling & Debugging": [
+        "Stream error handling",
+        "Invalid URL validation",
+        "Dependency warnings"
+      ],
+      "Plugin & Extensibility": [
+        "Plugin documentation",
+        "Plugin registration",
+        "Fastify hooks"
+      ],
+      "Testing & Quality Assurance": [
+        "Benchmarking",
+        "Unit testing",
+        "Test checklist compliance"
+      ],
+      "Logging & Observability": [
+        "Pino integration",
+        "Logger argument types",
+        "Logging system fixes"
+      ],
+      "Documentation": [
+        "API documentation",
+        "Plugin documentation",
+        "Import path fixes"
+      ],
+      "Semantic Versioning": [
+        "Semver-major fixes"
+      ],
+      "Asynchronous Programming": [
+        "Stream piping",
+        "Async error handling"
+      ],
+      "URL & Networking": [
+        "URL validation",
+        "URI parsing"
+      ],
+      "Dependency Management": [
+        "Dependency warnings",
+        "Pino compatibility"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed logger argument types with TypeScript annotations in multiple PRs (e.g., 'fix: logger argument type')",
+      "Added missing stream types to Fastify's logger system ('chore: add stream type to logger')",
+      "Implemented URL validation with semver-major impact ('fix: handle invalid url')",
+      "Documented new plugins like fastify-formidable and fastify-bree ('docs: add fastify-formidable')",
+      "Ensured stream safety in error handlers ('fix: pipe stream inside error handler')",
+      "Addressed Pino dependency warnings with TypeScript fixes ('fix(typescript): allow to pass all pino options')",
+      "Consistently ran benchmark tests in PRs ('run npm run benchmark' checklist items)",
+      "Updated Fastify's onReady hook documentation ('docs: update description for onReady hooks')"
+    ]
+  },
+  "statistics": {
+    "total_prs": 86,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

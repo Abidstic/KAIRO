@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "developer_name": "jasonsaayman",
+    "generation_timestamp": "2026-09-18T01:57:28.390670",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 68,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "jasonsaayman",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js HTTP client development",
+      "Dependency management and security",
+      "CI/CD pipeline debugging",
+      "Technical documentation and API clarity",
+      "Asynchronous JavaScript (Promises, HTTP protocols)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (indirect support via axios ecosystem)"
+    ],
+    "summary": "jasonsaayman is a Mid-level JavaScript developer with specialized expertise in Node.js HTTP client libraries, particularly axios. Their contributions focus on dependency upgrades, CI/CD pipeline maintenance, and improving developer experience through clear documentation. Strong evidence of debugging skills in asynchronous JavaScript and HTTP-related issues, with a particular focus on memory management and test stability. While contributions are primarily backend-focused, their work demonstrates a nuanced understanding of environment distinctions (Node.js vs. browser).",
+    "identified_skills": {
+      "HTTP Client Development": [
+        "axios internals",
+        "HTTP redirect handling",
+        "Request cancellation patterns"
+      ],
+      "Dependency Management": [
+        "npm/yarn dependency upgrades",
+        "semver-compliant versioning",
+        "dependency conflict resolution"
+      ],
+      "Testing & CI/CD": [
+        "Sauce Labs browser testing",
+        "Karma test runner configuration",
+        "Travis CI debugging",
+        "GitHub Actions automation"
+      ],
+      "Documentation & DevEx": [
+        "README maintenance",
+        "API feature explanations",
+        "environment-specific clarifications",
+        "issue triage documentation"
+      ],
+      "Asynchronous JavaScript": [
+        "Promise-based error handling",
+        "HTTP adapter patterns",
+        "memory leak diagnostics"
+      ],
+      "Node.js Runtime": [
+        "Node.js version compatibility",
+        "fs module awareness",
+        "non-LTS version exclusion"
+      ],
+      "Collaboration Practices": [
+        "contributor acknowledgments",
+        "issue reference linking",
+        "revert explanations"
+      ]
+    },
+    "skill_evidence": [
+      "PR updating `follow-redirects` to patch memory leaks in axios (dependency management)",
+      "PR referencing Sauce Labs test failures and Karma reporting issues (testing)",
+      "PR clarifying `fs` module limitations in README (environment awareness)",
+      "PR mentioning 'closes #3163' with specific issue context (collaboration)",
+      "PR discussing 'node v15' exclusion for CI stability (Node.js runtime)",
+      "PR updating `karma-sauce-launcher` to fix test reporting (CI/CD)",
+      "PR explaining cancel token behavior in axios documentation (API clarity)",
+      "PR referencing Travis CI failures with node version conflicts (CI debugging)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 68,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

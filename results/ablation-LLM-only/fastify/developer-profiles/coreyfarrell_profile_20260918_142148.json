@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "developer_name": "coreyfarrell",
+    "generation_timestamp": "2026-09-18T13:48:42.276056",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "coreyfarrell",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Fastify Framework",
+      "Node.js Backend Development",
+      "Dependency Management",
+      "Plugin Development",
+      "API Documentation",
+      "JavaScript Async/Await",
+      "Babel Integration"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Fastify ecosystem)"
+    ],
+    "summary": "Coreyfarrell is a Mid-Level JavaScript developer with specialized expertise in Fastify, a high-performance Node.js web framework. Their contributions focus on core API improvements, dependency hygiene, plugin architecture, and documentation clarity. Evidence from PRs demonstrates strong Node.js backend skills—particularly with streams, async I/O, and performance optimization—alongside tooling awareness (e.g., Babel, semantic versioning). While contributions are limited to Fastify, the depth of engagement with its internals and ecosystem suggests a focused but impactful backend developer profile. Collaboration with maintainers and issue-driven development highlight their ability to work within open-source workflows effectively.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js Streams"
+      ],
+      "Dependency Management": [
+        "npm Dependency Updates",
+        "Transitive Dependency Audits",
+        "Semantic Versioning"
+      ],
+      "Plugin Development": [
+        "Fastify Plugin Architecture",
+        "Babel Integration Plugins"
+      ],
+      "API Design & Documentation": [
+        "Callback Handling Clarity",
+        "API Behavior Documentation"
+      ],
+      "Asynchronous Programming": [
+        "Async/Await Patterns",
+        "Stream Piping"
+      ],
+      "Tooling & Build Systems": [
+        "Babel Transpilation",
+        "Live Code Transformation"
+      ],
+      "Open Source Collaboration": [
+        "Issue Tracking",
+        "Maintainer Engagement",
+        "Greenkeeper Awareness"
+      ],
+      "Performance Optimization": [
+        "Stream Efficiency",
+        "Dependency Bloat Reduction"
+      ],
+      "Version Control": [
+        "Semantic Commit Practices",
+        "GitHub Issue Alignment"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Fixed `fastify.listen` callback handling, addressing inconsistent API behavior (API Design & Documentation)",
+      "PR #2: Updated `pump` dependency to v3.0.0, demonstrating transitive dependency management (Dependency Management)",
+      "PR #3: Documented `fastify.listen` without callback usage, clarifying edge cases (API Design & Documentation)",
+      "PR #4: Removed `fastify-cli` dependency, showing dependency hygiene and audit practices (Dependency Management)",
+      "PR #5: Created `fastify-babel` plugin for live Babel transformation, extending Fastify’s tooling ecosystem (Plugin Development)",
+      "PRs referenced `pump` (Node.js streams) and async/await patterns in Fastify’s core (Asynchronous Programming)",
+      "CC @mcollina and issue references (#501, #503) indicate collaborative debugging and maintainer alignment (Open Source Collaboration)",
+      "Semver-minor label on PRs reflects awareness of versioning strategies (Version Control)",
+      "Babel plugin implies familiarity with transpilation workflows and modern JS toolchains (Tooling & Build Systems)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

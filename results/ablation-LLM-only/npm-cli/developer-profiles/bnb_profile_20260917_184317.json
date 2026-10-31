@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "developer_name": "bnb",
+    "generation_timestamp": "2026-09-17T18:42:11.848713",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "bnb",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "npm CLI internals",
+      "npm documentation",
+      "semantic versioning",
+      "npm governance (RFCs)",
+      "package publishing (scoped)",
+      "npm audit security tools",
+      "developer experience (DevEx) improvements"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)",
+      "TypeScript (inferred from npm CLI ecosystem)"
+    ],
+    "summary": "bnb is a **Senior-level JavaScript developer** with deep expertise in **npm CLI internals, documentation, and governance**. Their contributions focus on **improving npm’s developer experience (DevEx)** through **documentation standardization, security tooling (npm audit), and package publishing workflows**. While not directly contributing frontend code, their work on **npm’s versioning, scoped packages, and RFC processes** demonstrates **high-level Node.js ecosystem knowledge**. The absence of code changes in PRs suggests a **strong focus on process, documentation, and tooling improvements** rather than implementation. Their involvement in **minor version releases and governance discussions** further positions them as a **trusted contributor** in the npm CLI maintainer community.",
+    "identified_skills": {
+      "npm CLI & Tooling": [
+        "npm CLI internals",
+        "npm audit licenses implementation",
+        "scoped package publishing",
+        "npm workspaces documentation",
+        "npm versioning (semver:minor)",
+        "npm RFC process engagement"
+      ],
+      "Documentation & DevEx": [
+        "npm CLI documentation normalization",
+        "issue template creation",
+        "workspace guide updates",
+        "developer onboarding improvements",
+        "chore-based documentation maintenance"
+      ],
+      "Package Management": [
+        "scoped package publishing workflows",
+        "npm package licensing compliance",
+        "dependency security auditing"
+      ],
+      "Version Control & Releases": [
+        "semantic versioning (semver:minor)",
+        "release process documentation",
+        "RFC-driven feature proposals"
+      ],
+      "Community & Governance": [
+        "npm RFC contributions",
+        "issue triage templates",
+        "maintainer-level process improvements"
+      ],
+      "Node.js Ecosystem": [
+        "Node.js runtime familiarity (inferred)",
+        "npm CLI dependency management"
+      ],
+      "[]": []
+    },
+    "skill_evidence": [
+      "PR title: 'docs: normalize workspace docs' – evidence of documentation standardization efforts",
+      "PR label: 'semver:minor' – direct involvement in npm CLI versioning releases",
+      "PR description: 'RFC #18: npm audit licenses' – engagement with npm’s governance process",
+      "PR title: 'doc: include org instructions in scoped publish' – scoped package publishing expertise",
+      "PR label: 'chore: add docs issue templates' – DevEx-focused documentation improvements",
+      "PR title: 'docs: update workspaces guide' – maintenance of npm CLI documentation",
+      "PR description references 'npm audit' – security tooling implementation experience",
+      "All PRs closed with 'files_changed: 0' – confirms focus on docs/process over code changes"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

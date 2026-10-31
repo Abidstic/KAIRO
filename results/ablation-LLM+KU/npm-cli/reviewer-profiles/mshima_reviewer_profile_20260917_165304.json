@@ -1,0 +1,53 @@
+{
+  "reviewer_name": "mshima",
+  "generated_at": "20260917_165304",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "stats": {
+    "total_reviews": 5,
+    "total_comments": 5,
+    "total_prs": 2,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "mshima",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js CLI tooling",
+      "Asynchronous programming (Promises, async/await)",
+      "npm/yarn workspace configurations",
+      "stdio handling and stream-based I/O"
+    ],
+    "programming_languages": [
+      "JavaScript"
+    ],
+    "summary": "The reviewer 'mshima' demonstrates **mid-level expertise** in JavaScript, primarily focused on **Node.js CLI tooling and asynchronous programming**. While there is **no direct evidence** of frontend frameworks, modern JavaScript features, or TypeScript usage in the reviewed PRs, their contributions to `libnpmexec` and workspace configurations suggest strong **backend/CLI-specific knowledge**. The reviewer likely understands **async I/O patterns** (streams, promises) and **npm/yarn workspace tooling**, but lacks visible expertise in frontend development, testing frameworks, or advanced JavaScript paradigms. Their contributions are **functional and practical**, with a clear focus on **Node.js internals and CLI workflows** rather than broader JavaScript ecosystems.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise": [
+        "Node.js"
+      ],
+      "Asynchronous Programming": [
+        "Promises",
+        "async/await"
+      ],
+      "API Design & Consumption": [],
+      "Error Handling": [],
+      "Frontend Development Skills": [],
+      "Backend Development Skills": [],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts": [],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Dependency Management": [
+        "npm/yarn"
+      ],
+      "Graphical Data Visualization": []
+    }
+  }
+}

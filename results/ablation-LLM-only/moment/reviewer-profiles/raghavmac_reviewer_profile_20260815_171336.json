@@ -1,0 +1,66 @@
+{
+  "reviewer_name": "raghavmac",
+  "generated_at": "20260815_171336",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 3,
+    "total_prs": 1,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "raghavmac",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript (Vanilla)",
+      "Date/Time Utility Libraries",
+      "Moment.js API Design",
+      "Code Review & Discussion"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "TypeScript (inferred from Moment.js ecosystem)"
+    ],
+    "summary": "raghavmac demonstrates **Mid-level JavaScript expertise** focused on **date/time manipulation and utility library development**, primarily within the Moment.js ecosystem. Their reviews suggest familiarity with **Moment.js internals, prototype-based extensions, and feature-level API design**, though evidence of broader JavaScript frameworks (e.g., React, Node.js) or modern tooling (TypeScript, Jest) is limited. The reviewer engages in **technical discussions** (evidenced by repeated 'COMMENTED' review states) but lacks concrete code review examples to assess deeper architectural or performance-related skills. Their contributions align with **feature development and correctness validation** in a well-established JS library.",
+    "identified_skills": {
+      "Date & Time Handling": [
+        "JavaScript Date object manipulation",
+        "Weekend/holiday logic implementation",
+        "Timezone-aware date utilities"
+      ],
+      "JavaScript Core Patterns": [
+        "Prototype method extensions",
+        "Immutable utility function design",
+        "Consistent API naming conventions"
+      ],
+      "Library-Specific Knowledge": [
+        "Moment.js architecture",
+        "Moment.js method chaining",
+        "Moment.js locale/timezone systems"
+      ],
+      "Code Review & Collaboration": [
+        "PR discussion facilitation",
+        "Feature proposal validation",
+        "Edge-case awareness in reviews"
+      ],
+      "Testing & Quality": [],
+      "Build & Tooling": [],
+      "Asynchronous Programming": [],
+      "Backend/Node.js": [],
+      "Frontend Frameworks": [],
+      "TypeScript": []
+    },
+    "skill_evidence": [
+      "PR title '[feature] Added isWeekend support (#5134)' indicates **date/time utility development** in Moment.js, a core JS skill.",
+      "'New Feature' and 'todo' labels suggest **feature-level API design** and **prototype-based extensions** (Moment.js uses Date.prototype).",
+      "Repeated 'COMMENTED' review state implies **engagement in technical discussions**, though no comments are visible to assess depth.",
+      "Link to issue #5134 implies **collaboration on feature proposals**, requiring **Moment.js internals knowledge** for validation.",
+      "No code changes or diffs visible, but **Moment.js’s reliance on vanilla JS** suggests **ES5/ES6 proficiency** in date manipulation.",
+      "Absence of framework-related labels (e.g., React, Node.js) confirms **focus on utility libraries over frameworks**.",
+      "Lack of testing frameworks (Jest/QUnit) or CI/CD references in data suggests **limited exposure to modern JS tooling**."
+    ]
+  }
+}

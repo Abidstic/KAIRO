@@ -1,0 +1,1952 @@
+{
+  "metadata": {
+    "total_prs_processed": 24,
+    "processing_date": "2025-10-21",
+    "available_reviewers": [
+      "0xflotus",
+      "aarifkhamdi",
+      "aashutoshrathi",
+      "aminya",
+      "armano2",
+      "ballonura",
+      "behnammodi",
+      "blikblum",
+      "canscaw28",
+      "Cassieminkus1",
+      "Chantouch",
+      "cikay",
+      "danimajo",
+      "ekkis",
+      "elizatlawy",
+      "Ephigenia",
+      "Gauravms2143",
+      "HaseebIjaz",
+      "hexiaokang",
+      "Hovakimyan",
+      "imadx",
+      "JakeerC",
+      "jdalton",
+      "JLHwung",
+      "Kirill89",
+      "lonewarrior556",
+      "mohamadaminkarami",
+      "nickserv",
+      "phapdinh",
+      "qiudaoermu",
+      "rifler",
+      "rkuykendall",
+      "spencer17x",
+      "TheJaredWilcurt",
+      "Toxicable",
+      "whiteand",
+      "xgqfrms",
+      "Yatin-kathuria"
+    ],
+    "total_available_reviewers": 38
+  },
+  "pr_assignments": [
+    {
+      "pr_number": 5866,
+      "pr_title": "Clarify what arguments goes where.",
+      "pr_author": "SimonLandeholm",
+      "pr_state": "open",
+      "assigned_reviewer": "Ephigenia",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Ephigenia",
+          "match_score": 0.85,
+          "reasoning": "Direct evidence of JSDoc documentation expertise and ESLint code formatting experience, with clear focus on improving code clarity and adherence to documentation standards. No functional programming overlap but strong alignment with documentation review focus areas.",
+          "strengths_alignment": [
+            "JSDoc documentation expertise (Top KU Skill)",
+            "ESLint code formatting (Primary Skill)",
+            "Code clarity and modularity awareness (Primary Skills)",
+            "Reviewed similar documentation-focused PRs (similar_review_relevance)"
+          ],
+          "review_experience": "2 reviews, 0 comments, 2 PRs reviewed (limited but focused on documentation-related changes).",
+          "potential_concerns": "No evidence of functional programming or API signature argument placement expertise; limited review activity."
+        },
+        {
+          "reviewer_name": "Cassieminkus1",
+          "match_score": 0.78,
+          "reasoning": "Strong functional programming and ES6+ syntax expertise (rest/spread, destructuring) with no direct documentation evidence but potential for API signature argument placement feedback. Limited review activity but relevant KU skills.",
+          "strengths_alignment": [
+            "Functional programming patterns (Top KU Skills: Function composition, Immutability, Pure functions)",
+            "ES6+ syntax (Rest parameters, Destructuring assignment)",
+            "Testing (Jest) and code quality principles (Primary Skills)",
+            "Potential for argument placement feedback via functional patterns"
+          ],
+          "review_experience": "2 reviews, 0 comments, 2 PRs reviewed (limited but focused on functional programming and syntax).",
+          "potential_concerns": "No explicit documentation expertise; review activity is minimal."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.75,
+          "reasoning": "Mid-level expertise in Lodash utility functions and TypeScript, with functional programming and ES6+ skills. No direct documentation evidence but strong potential for API signature feedback via functional patterns and testing experience.",
+          "strengths_alignment": [
+            "Lodash utility functions (Top KU Skill)",
+            "TypeScript and Jest expertise (Top KU Skills)",
+            "Functional programming (Higher-Order Functions, Immutability)",
+            "Testing frameworks (Jest) for code quality feedback"
+          ],
+          "review_experience": "6 reviews, 3 comments, 6 PRs reviewed (moderate activity with diverse PRs).",
+          "potential_concerns": "No explicit documentation expertise; focus on utility functions and testing."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Direct evidence of JSDoc documentation expertise and ESLint code formatting experience, with clear focus on improving code clarity and adherence to documentation standards. No functional programming overlap but strong alignment with documentation review focus areas.",
+      "assignment_confidence": "Medium",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/5866",
+      "reviewer_strengths": [
+        "JSDoc documentation expertise (Top KU Skill)",
+        "ESLint code formatting (Primary Skill)",
+        "Code clarity and modularity awareness (Primary Skills)"
+      ],
+      "potential_concerns": "No evidence of functional programming or API signature argument placement expertise; limited review activity.",
+      "review_experience": "2 reviews, 0 comments, 2 PRs reviewed (limited but focused on documentation-related changes).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Direct evidence of JSDoc documentation expertise and ESLint code formatting experience, with clear focus on improving code clarity and adherence to documentation standards. No functional programming overlap but strong alignment with documentation review focus areas.",
+          "strengths_alignment": [
+            "JSDoc documentation expertise (Top KU Skill)",
+            "ESLint code formatting (Primary Skill)",
+            "Code clarity and modularity awareness (Primary Skills)",
+            "Reviewed similar documentation-focused PRs (similar_review_relevance)"
+          ],
+          "review_experience_details": "2 reviews, 0 comments, 2 PRs reviewed (limited but focused on documentation-related changes).",
+          "potential_limitations": "No evidence of functional programming or API signature argument placement expertise; limited review activity."
+        }
+      }
+    },
+    {
+      "pr_number": 5874,
+      "pr_title": "fix: reduce when we use object with 'length' attribute",
+      "pr_author": "baguse",
+      "pr_state": "open",
+      "assigned_reviewer": "armano2",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.85,
+          "reasoning": "Strongest KU skill overlap with functional programming, Lodash internals, and async/await—directly relevant to core JavaScript utility library review. Demonstrated consistency in code quality reviews with 4 PRs and 1 comment, despite low comment volume. No similar-review evidence but high KU alignment.",
+          "strengths_alignment": [
+            "Framework/Library Expertise: Lodash (Top KU Skill)",
+            "Asynchronous Programming: async/await, Promises (Top KU Skill)",
+            "Functional Programming: Pure Functions, Utility Functions (Top KU Skill)",
+            "Backend Development Skills: Server-Side Logic, Middleware (Top KU Skill)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 PRs reviewed and 1 comment, showing consistent engagement in Lodash utility library refactoring and async patterns. No evidence of similar-review patterns but strong KU evidence.",
+          "potential_concerns": "No direct evidence of similar-review relevance (similar PRs were non-technical or issue-bankruptcy). Low comment volume (1 comment across 4 PRs)."
+        },
+        {
+          "reviewer_name": "ballonura",
+          "match_score": 0.78,
+          "reasoning": "Strong functional programming and Lodash expertise with 4 PRs reviewed and 4 comments, showing consistent engagement. No direct KU overlap with async/await but strong utility library and functional patterns alignment. Similar-review relevance is unknown but KU evidence is robust.",
+          "strengths_alignment": [
+            "Framework/Library Expertise: Lodash/Underscore.js (Top KU Skill)",
+            "Functional Programming: Higher-Order Functions, Immutability, Pure Functions (Top KU Skill)",
+            "ES6+ Array Methods (Primary Skill)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 PRs reviewed and 4 comments, showing consistent engagement in Lodash utility library design and functional programming patterns. No evidence of similar-review relevance.",
+          "potential_concerns": "No direct KU overlap with async/await or backend patterns (PR requirements are low-complexity but unspecified)."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.75,
+          "reasoning": "Mid-level reviewer with strong Lodash and TypeScript expertise, showing 6 PRs reviewed and 3 comments. KU overlap with Lodash and functional programming is strong, though no direct async/await evidence. Review activity is consistent but lacks similar-review relevance.",
+          "strengths_alignment": [
+            "Framework/Library Expertise: Lodash, Jest (Top KU Skill)",
+            "Functional Programming: Higher-Order Functions, Immutability (Top KU Skill)",
+            "TypeScript: Type Definitions, Modules & Namespaces (Primary Skill)"
+          ],
+          "review_experience": "Mid-level reviewer with 6 PRs reviewed and 3 comments, showing consistent engagement in Lodash utility functions and TypeScript. No evidence of similar-review relevance.",
+          "potential_concerns": "No direct KU overlap with async/await or backend patterns. Review comments are sparse (3 across 6 PRs)."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Strongest KU skill overlap with functional programming, Lodash internals, and async/await—directly relevant to core JavaScript utility library review. Demonstrated consistency in code quality reviews with 4 PRs and 1 comment, despite low comment volume. No similar-review evidence but high KU alignment.",
+      "assignment_confidence": "Medium",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/5874",
+      "reviewer_strengths": [
+        "Framework/Library Expertise: Lodash (Top KU Skill)",
+        "Asynchronous Programming: async/await, Promises (Top KU Skill)",
+        "Functional Programming: Pure Functions, Utility Functions (Top KU Skill)"
+      ],
+      "potential_concerns": "No direct evidence of similar-review relevance (similar PRs were non-technical or issue-bankruptcy). Low comment volume (1 comment across 4 PRs).",
+      "review_experience": "Mid-level reviewer with 4 PRs reviewed and 1 comment, showing consistent engagement in Lodash utility library refactoring and async patterns. No evidence of similar-review patterns but strong KU evidence.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with functional programming, Lodash internals, and async/await—directly relevant to core JavaScript utility library review. Demonstrated consistency in code quality reviews with 4 PRs and 1 comment, despite low comment volume. No similar-review evidence but high KU alignment.",
+          "strengths_alignment": [
+            "Framework/Library Expertise: Lodash (Top KU Skill)",
+            "Asynchronous Programming: async/await, Promises (Top KU Skill)",
+            "Functional Programming: Pure Functions, Utility Functions (Top KU Skill)",
+            "Backend Development Skills: Server-Side Logic, Middleware (Top KU Skill)"
+          ],
+          "review_experience_details": "Mid-level reviewer with 4 PRs reviewed and 1 comment, showing consistent engagement in Lodash utility library refactoring and async patterns. No evidence of similar-review patterns but strong KU evidence.",
+          "potential_limitations": "No direct evidence of similar-review relevance (similar PRs were non-technical or issue-bankruptcy). Low comment volume (1 comment across 4 PRs)."
+        }
+      }
+    },
+    {
+      "pr_number": 5887,
+      "pr_title": "feat: toPercent()",
+      "pr_author": "ianzone",
+      "pr_state": "closed",
+      "assigned_reviewer": "0xflotus",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "0xflotus",
+          "match_score": 0.92,
+          "reasoning": "Strongest KU skill overlap with edge case handling, functional programming, and utility function design. Direct match for 'functionality correctness' and 'API design' via Lodash expertise. Review activity shows consistent focus on core JS concepts and edge cases.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash, Object.keys, truthy/falsy evaluation, Pure functions, edge case handling",
+            "Primary Skills: Utility function design, Functional programming principles, Edge case handling in JavaScript",
+            "KU Skill Matrix: Advanced JavaScript Concepts (truthy/falsy evaluation), Functional Programming (pure functions, edge case handling)"
+          ],
+          "review_experience": "2 PRs reviewed with 1 comment, demonstrating focused feedback on utility function behavior and functional programming patterns.",
+          "potential_concerns": "Limited total reviews/comments (2 total), but evidence is highly specific and relevant."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.88,
+          "reasoning": "Mid-level expertise with Lodash, Jest, and functional programming. Strong TypeScript/ESM overlap for 'API design' and 'functionality correctness.' Review activity shows consistent code quality focus.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash, Jest, Arrow Functions, Module Systems, Higher-Order Functions, Immutability",
+            "Primary Skills: Lodash utility functions, Functional programming patterns, ES6+ JavaScript features",
+            "KU Skill Matrix: Framework/Library Expertise (Lodash, Jest), Functional Programming (Higher-Order Functions, Immutability)"
+          ],
+          "review_experience": "6 PRs reviewed with 3 comments, demonstrating consistent engagement in utility library and functional programming reviews.",
+          "potential_concerns": "No explicit mention of 'edge cases' in KU skills, though functional programming patterns imply edge-case awareness."
+        },
+        {
+          "reviewer_name": "Toxicable",
+          "match_score": 0.85,
+          "reasoning": "Strong functional programming and performance optimization expertise, with Lodash and Jest overlap. Top KU Skills include 'Higher-Order Functions,' 'Pure functions,' and 'Function composition,' directly addressing 'edge cases' and 'functionality correctness.'",
+          "strengths_alignment": [
+            "Top KU Skills: Jest, Closures, Higher-Order Functions, Function composition, Immutability, Pure functions",
+            "Primary Skills: Functional programming in JavaScript, Utility function development, Performance optimization",
+            "KU Skill Matrix: Advanced JavaScript Concepts (Closures, Higher-Order Functions), Functional Programming (Function composition, Pure functions)"
+          ],
+          "review_experience": "2 PRs reviewed with 2 comments, showing focused feedback on functional programming and performance.",
+          "potential_concerns": "Limited total reviews (2), but evidence is highly specific and relevant to functional programming and edge cases."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest KU skill overlap with edge case handling, functional programming, and utility function design. Direct match for 'functionality correctness' and 'API design' via Lodash expertise. Review activity shows consistent focus on core JS concepts and edge cases.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/5887",
+      "reviewer_strengths": [
+        "Top KU Skills: Lodash, Object.keys, truthy/falsy evaluation, Pure functions, edge case handling",
+        "Primary Skills: Utility function design, Functional programming principles, Edge case handling in JavaScript",
+        "KU Skill Matrix: Advanced JavaScript Concepts (truthy/falsy evaluation), Functional Programming (pure functions, edge case handling)"
+      ],
+      "potential_concerns": "Limited total reviews/comments (2 total), but evidence is highly specific and relevant.",
+      "review_experience": "2 PRs reviewed with 1 comment, demonstrating focused feedback on utility function behavior and functional programming patterns.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with edge case handling, functional programming, and utility function design. Direct match for 'functionality correctness' and 'API design' via Lodash expertise. Review activity shows consistent focus on core JS concepts and edge cases.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash, Object.keys, truthy/falsy evaluation, Pure functions, edge case handling",
+            "Primary Skills: Utility function design, Functional programming principles, Edge case handling in JavaScript",
+            "KU Skill Matrix: Advanced JavaScript Concepts (truthy/falsy evaluation), Functional Programming (pure functions, edge case handling)"
+          ],
+          "review_experience_details": "2 PRs reviewed with 1 comment, demonstrating focused feedback on utility function behavior and functional programming patterns.",
+          "potential_limitations": "Limited total reviews/comments (2 total), but evidence is highly specific and relevant."
+        }
+      }
+    },
+    {
+      "pr_number": 5915,
+      "pr_title": "test: fix union test grammar errors",
+      "pr_author": "gweesin",
+      "pr_state": "open",
+      "assigned_reviewer": "JakeerC",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.89,
+          "reasoning": "Strongest KU skill overlap with testing frameworks (Jest) and functional programming patterns, combined with direct evidence of reviewing similar low-complexity PRs (e.g., test fixes).",
+          "strengths_alignment": [
+            "KU Skill Matrix: Framework/Library Expertise (Jest), Functional Programming (Immutability, Pure Functions)",
+            "Reviewed low-complexity PRs with test corrections (similar to PR #5815)",
+            "Mid-level experience with 6 PRs reviewed, 3 comments per PR"
+          ],
+          "review_experience": "6 PRs reviewed, 3 comments per PR, 18 total reviews with 17 comments. Focused on Lodash utility functions and TypeScript testing.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "Cassieminkus1",
+          "match_score": 0.78,
+          "reasoning": "Strong functional programming and testing framework (Jest) overlap, though with fewer reviews. Evidence of reviewing low-complexity PRs with functional patterns.",
+          "strengths_alignment": [
+            "KU Skill Matrix: Framework/Library Expertise (Jest), Functional Programming (Function composition, Immutability)",
+            "Reviewed 2 PRs with functional programming patterns (similar to Lodash utility functions)",
+            "Mid-level experience with 2 PRs reviewed, 0 comments (but strong KU overlap)"
+          ],
+          "review_experience": "2 PRs reviewed, 0 comments, 2 total reviews. Focused on functional programming and Jest-like frameworks.",
+          "potential_concerns": "Limited review activity (only 2 PRs reviewed)."
+        },
+        {
+          "reviewer_name": "blikblum",
+          "match_score": 0.72,
+          "reasoning": "Strong Node.js and core JavaScript expertise with defensive programming, though no direct testing framework evidence. Reviewed complex PRs but has relevant KU overlap for readability.",
+          "strengths_alignment": [
+            "KU Skill Matrix: Advanced JavaScript Concepts (Prototypes & Inheritance, Module Systems), Defensive programming",
+            "Reviewed PR #4418 (test adaptation) with Node.js assertions, showing testing awareness.",
+            "Mid-level experience with 3 PRs reviewed, 4 comments per PR."
+          ],
+          "review_experience": "3 PRs reviewed, 4 comments per PR, 4 total reviews. Focused on Node.js backend and core JavaScript.",
+          "potential_concerns": "No explicit testing framework (Jest/Mocha) in KU matrix; less direct evidence for 'Testing' focus."
+        }
+      ],
+      "match_score": 0.89,
+      "assignment_reasoning": "Strongest KU skill overlap with testing frameworks (Jest) and functional programming patterns, combined with direct evidence of reviewing similar low-complexity PRs (e.g., test fixes).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/5915",
+      "reviewer_strengths": [
+        "KU Skill Matrix: Framework/Library Expertise (Jest), Functional Programming (Immutability, Pure Functions)",
+        "Reviewed low-complexity PRs with test corrections (similar to PR #5815)",
+        "Mid-level experience with 6 PRs reviewed, 3 comments per PR"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "6 PRs reviewed, 3 comments per PR, 18 total reviews with 17 comments. Focused on Lodash utility functions and TypeScript testing.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with testing frameworks (Jest) and functional programming patterns, combined with direct evidence of reviewing similar low-complexity PRs (e.g., test fixes).",
+          "strengths_alignment": [
+            "KU Skill Matrix: Framework/Library Expertise (Jest), Functional Programming (Immutability, Pure Functions)",
+            "Reviewed low-complexity PRs with test corrections (similar to PR #5815)",
+            "Mid-level experience with 6 PRs reviewed, 3 comments per PR"
+          ],
+          "review_experience_details": "6 PRs reviewed, 3 comments per PR, 18 total reviews with 17 comments. Focused on Lodash utility functions and TypeScript testing.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 5968,
+      "pr_title": "fix outdated links related to Open JS Foundation",
+      "pr_author": "clarkepeterf",
+      "pr_state": "open",
+      "assigned_reviewer": "Ephigenia",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Ephigenia",
+          "match_score": 0.85,
+          "reasoning": "Explicit JSDoc documentation expertise and ESLint code formatting experience directly align with documentation review needs. Sample reviews show focused attention to content clarity and link validity in markdown files.",
+          "strengths_alignment": [
+            "JSDoc documentation expertise",
+            "ESLint code formatting awareness",
+            "Basic JavaScript modularity awareness",
+            "Content clarity and link validation focus"
+          ],
+          "review_experience": "2 reviews, 0 comments, 2 PRs reviewed (limited but focused on documentation-related tasks).",
+          "potential_concerns": "None identified; evidence is direct and relevant."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.78,
+          "reasoning": "Strong functional programming and utility library experience (Lodash) with TypeScript awareness, though no explicit documentation focus. Review patterns suggest attention to code clarity and correctness, which could extend to documentation content accuracy.",
+          "strengths_alignment": [
+            "Lodash utility function expertise (relevant for documentation context)",
+            "TypeScript awareness (improves content accuracy)",
+            "Functional programming patterns (indirectly supports structured documentation)"
+          ],
+          "review_experience": "6 reviews, 3 comments, 6 PRs reviewed (moderate activity with diverse feedback).",
+          "potential_concerns": "No direct documentation review evidence; relies on inferred alignment with code clarity."
+        },
+        {
+          "reviewer_name": "ballonura",
+          "match_score": 0.72,
+          "reasoning": "Functional programming and Lodash expertise align with utility library documentation needs. Review patterns suggest attention to code behavior, which could translate to content accuracy in documentation.",
+          "strengths_alignment": [
+            "Lodash/Underscore.js expertise (relevant for utility library documentation)",
+            "Functional programming patterns (supports structured content)",
+            "Higher-Order Functions and immutability (indirectly supports documentation correctness)"
+          ],
+          "review_experience": "4 reviews, 4 comments, 2 PRs reviewed (moderate activity with detailed feedback).",
+          "potential_concerns": "No explicit documentation review evidence; relies on inferred alignment with code clarity."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Explicit JSDoc documentation expertise and ESLint code formatting experience directly align with documentation review needs. Sample reviews show focused attention to content clarity and link validity in markdown files.",
+      "assignment_confidence": "Medium",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/5968",
+      "reviewer_strengths": [
+        "JSDoc documentation expertise",
+        "ESLint code formatting awareness",
+        "Basic JavaScript modularity awareness"
+      ],
+      "potential_concerns": "None identified; evidence is direct and relevant.",
+      "review_experience": "2 reviews, 0 comments, 2 PRs reviewed (limited but focused on documentation-related tasks).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Explicit JSDoc documentation expertise and ESLint code formatting experience directly align with documentation review needs. Sample reviews show focused attention to content clarity and link validity in markdown files.",
+          "strengths_alignment": [
+            "JSDoc documentation expertise",
+            "ESLint code formatting awareness",
+            "Basic JavaScript modularity awareness",
+            "Content clarity and link validation focus"
+          ],
+          "review_experience_details": "2 reviews, 0 comments, 2 PRs reviewed (limited but focused on documentation-related tasks).",
+          "potential_limitations": "None identified; evidence is direct and relevant."
+        }
+      }
+    },
+    {
+      "pr_number": 5971,
+      "pr_title": "Docs: Fix inconsistent terminology between reject and unescape functions",
+      "pr_author": "vedant713",
+      "pr_state": "open",
+      "assigned_reviewer": "Ephigenia",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Ephigenia",
+          "match_score": 0.85,
+          "reasoning": "Explicit JSDoc documentation expertise and ESLint code formatting experience align directly with terminology consistency, cross-referencing clarity, and readability precision needs. Reviewed 7 PRs with 2 comments, showing consistent documentation-focused feedback.",
+          "strengths_alignment": [
+            "JSDoc documentation expertise (top KU skill)",
+            "ESLint code formatting (directly supports readability)",
+            "Reviewed 7 PRs with 2 comments (consistent activity)",
+            "No JavaScript implementation focus (avoids code review noise)"
+          ],
+          "review_experience": "Reviewed 7 PRs (3 reviewed, 4 approved) with 2 comments; all documentation-related contributions in Lodash repository.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.78,
+          "reasoning": "Strong functional programming and Lodash utility function expertise, but no explicit documentation focus. TypeScript and Jest experience could indirectly support precision, though no direct evidence of terminology or cross-referencing review patterns.",
+          "strengths_alignment": [
+            "Lodash utility functions (relevant to documentation context)",
+            "TypeScript (supports precision in documentation)",
+            "Functional programming patterns (could aid readability)",
+            "Reviewed 6 PRs with 3 comments (consistent activity)"
+          ],
+          "review_experience": "Reviewed 6 PRs (6 reviewed, 3 approved) with 3 comments; primarily utility function and testing-related contributions in Lodash repository.",
+          "potential_concerns": "No explicit documentation review evidence; focus on implementation over text clarity."
+        },
+        {
+          "reviewer_name": "ballonura",
+          "match_score": 0.72,
+          "reasoning": "Strong functional programming and Lodash expertise, but no explicit documentation focus. Higher-order functions and immutability could indirectly support readability, though no direct evidence of terminology or cross-referencing review patterns.",
+          "strengths_alignment": [
+            "Lodash/Underscore.js expertise (relevant to documentation context)",
+            "Functional programming patterns (could aid readability)",
+            "Reviewed 4 PRs with 4 comments (consistent activity)"
+          ],
+          "review_experience": "Reviewed 4 PRs (2 reviewed, 2 approved) with 4 comments; primarily utility function and functional programming contributions in Lodash repository.",
+          "potential_concerns": "No explicit documentation review evidence; focus on implementation over text clarity."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Explicit JSDoc documentation expertise and ESLint code formatting experience align directly with terminology consistency, cross-referencing clarity, and readability precision needs. Reviewed 7 PRs with 2 comments, showing consistent documentation-focused feedback.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/5971",
+      "reviewer_strengths": [
+        "JSDoc documentation expertise (top KU skill)",
+        "ESLint code formatting (directly supports readability)",
+        "Reviewed 7 PRs with 2 comments (consistent activity)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Reviewed 7 PRs (3 reviewed, 4 approved) with 2 comments; all documentation-related contributions in Lodash repository.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Explicit JSDoc documentation expertise and ESLint code formatting experience align directly with terminology consistency, cross-referencing clarity, and readability precision needs. Reviewed 7 PRs with 2 comments, showing consistent documentation-focused feedback.",
+          "strengths_alignment": [
+            "JSDoc documentation expertise (top KU skill)",
+            "ESLint code formatting (directly supports readability)",
+            "Reviewed 7 PRs with 2 comments (consistent activity)",
+            "No JavaScript implementation focus (avoids code review noise)"
+          ],
+          "review_experience_details": "Reviewed 7 PRs (3 reviewed, 4 approved) with 2 comments; all documentation-related contributions in Lodash repository.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 5978,
+      "pr_title": "Fix for 'Added Whitespace' issue in startCase method",
+      "pr_author": "Rkverma94",
+      "pr_state": "open",
+      "assigned_reviewer": "0xflotus",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "0xflotus",
+          "match_score": 0.92,
+          "reasoning": "Strongest KU skill overlap with 'whitespace handling in string manipulation' via core JavaScript concepts (truthy/falsy evaluation, edge case handling) and functional programming principles. Direct evidence of utility function design and behavior analysis in JavaScript.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash, Object.keys, truthy/falsy evaluation, Pure functions, edge case handling",
+            "Primary Skills: Utility function design and behavior analysis, Functional programming principles, Edge case handling in JavaScript",
+            "KU Skill Matrix: Advanced JavaScript Concepts (Object.keys, truthy/falsy evaluation)"
+          ],
+          "review_experience": "2 PRs reviewed with 1 comment, demonstrating focused technical feedback on utility function behavior and edge cases.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ballonura",
+          "match_score": 0.88,
+          "reasoning": "Strong functional programming and Lodash expertise with direct overlap in utility function design and immutability, though less explicit evidence for whitespace/string manipulation. High review activity consistency.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash/Underscore.js, Higher-Order Functions, Immutability, Pure Functions",
+            "Primary Skills: Functional Programming in JavaScript, Utility Library Design",
+            "KU Skill Matrix: Framework/Library Expertise (Lodash/Underscore.js), Functional Programming (Higher-Order Functions, Immutability)"
+          ],
+          "review_experience": "4 PRs reviewed with 4 comments, showing consistent technical engagement in utility library design.",
+          "potential_concerns": "Lacks explicit evidence for string manipulation or whitespace handling in reviews."
+        },
+        {
+          "reviewer_name": "Toxicable",
+          "match_score": 0.85,
+          "reasoning": "Strong functional programming and performance optimization expertise, with TypeScript and string manipulation (hash maps) relevance. Lower review activity but high technical depth.",
+          "strengths_alignment": [
+            "Top KU Skills: Closures, Higher-Order Functions, Function composition, Immutability, Pure functions",
+            "Primary Skills: JavaScript performance optimization, Functional programming in JavaScript, String manipulation optimizations",
+            "KU Skill Matrix: Advanced JavaScript Concepts (Closures, Higher-Order Functions), Functional Programming (Function composition, Immutability)"
+          ],
+          "review_experience": "2 PRs reviewed with 2 comments, demonstrating high technical depth in functional programming and performance.",
+          "potential_concerns": "Limited review activity (only 2 PRs), but evidence suggests strong expertise in relevant areas."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest KU skill overlap with 'whitespace handling in string manipulation' via core JavaScript concepts (truthy/falsy evaluation, edge case handling) and functional programming principles. Direct evidence of utility function design and behavior analysis in JavaScript.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/5978",
+      "reviewer_strengths": [
+        "Top KU Skills: Lodash, Object.keys, truthy/falsy evaluation, Pure functions, edge case handling",
+        "Primary Skills: Utility function design and behavior analysis, Functional programming principles, Edge case handling in JavaScript",
+        "KU Skill Matrix: Advanced JavaScript Concepts (Object.keys, truthy/falsy evaluation)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "2 PRs reviewed with 1 comment, demonstrating focused technical feedback on utility function behavior and edge cases.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with 'whitespace handling in string manipulation' via core JavaScript concepts (truthy/falsy evaluation, edge case handling) and functional programming principles. Direct evidence of utility function design and behavior analysis in JavaScript.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash, Object.keys, truthy/falsy evaluation, Pure functions, edge case handling",
+            "Primary Skills: Utility function design and behavior analysis, Functional programming principles, Edge case handling in JavaScript",
+            "KU Skill Matrix: Advanced JavaScript Concepts (Object.keys, truthy/falsy evaluation)"
+          ],
+          "review_experience_details": "2 PRs reviewed with 1 comment, demonstrating focused technical feedback on utility function behavior and edge cases.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 5987,
+      "pr_title": "test: add tests for Number constants on isNumber",
+      "pr_author": "frontman-git",
+      "pr_state": "open",
+      "assigned_reviewer": "0xflotus",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "0xflotus",
+          "match_score": 0.92,
+          "reasoning": "Direct KU skill overlap for Lodash, edge case handling, and truthy/falsy evaluation. Strong evidence of testing-focused reviews with functional programming expertise and Lodash internals knowledge.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash, Object.keys, truthy/falsy evaluation, Pure functions, edge case handling",
+            "Primary Skills: Utility function design and behavior analysis, Functional programming principles, Edge case handling in JavaScript",
+            "KU Skill Matrix: Advanced JavaScript Concepts (truthy/falsy evaluation), Functional Programming (pure functions, edge case handling)"
+          ],
+          "review_experience": "2 reviews, 1 comment, 2 PRs reviewed; focused on Lodash utility function behavior and edge cases.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.85,
+          "reasoning": "Strong Lodash and Jest expertise with functional programming and TypeScript awareness. Less direct evidence for edge case handling of `_.isNumber` but broad utility function testing experience.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash, Jest, Arrow Functions, Higher-Order Functions, Immutability, Type Definitions",
+            "Primary Skills: Lodash utility functions, TypeScript, Functional programming patterns, ES6+ JavaScript features",
+            "KU Skill Matrix: Framework/Library Expertise (Lodash, Jest), Functional Programming (Higher-Order Functions, Immutability)"
+          ],
+          "review_experience": "6 reviews, 3 comments, 6 PRs reviewed; extensive Lodash and testing experience.",
+          "potential_concerns": "No explicit mention of NaN/Infinity or `_.isNumber` edge cases in KU Skills or summary."
+        },
+        {
+          "reviewer_name": "blikblum",
+          "match_score": 0.82,
+          "reasoning": "Mid-level Node.js and core JavaScript expertise with falsy value handling and prototype behavior. Limited direct evidence for Lodash-specific edge cases but strong alignment with testing and defensive programming.",
+          "strengths_alignment": [
+            "Top KU Skills: Node.js, Prototypes & Inheritance, Module Systems",
+            "Primary Skills: Defensive programming and edge-case handling, Testing with Node.js assertions",
+            "KU Skill Matrix: Advanced JavaScript Concepts (Prototypes & Inheritance, Module Systems), Backend Development Skills (Server-Side Logic)"
+          ],
+          "review_experience": "4 reviews, 4 comments, 3 PRs reviewed; focused on Node.js and core JavaScript edge cases.",
+          "potential_concerns": "No explicit Lodash or functional programming emphasis in KU Skills; testing experience is Node.js-centric."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Direct KU skill overlap for Lodash, edge case handling, and truthy/falsy evaluation. Strong evidence of testing-focused reviews with functional programming expertise and Lodash internals knowledge.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/5987",
+      "reviewer_strengths": [
+        "Top KU Skills: Lodash, Object.keys, truthy/falsy evaluation, Pure functions, edge case handling",
+        "Primary Skills: Utility function design and behavior analysis, Functional programming principles, Edge case handling in JavaScript",
+        "KU Skill Matrix: Advanced JavaScript Concepts (truthy/falsy evaluation), Functional Programming (pure functions, edge case handling)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "2 reviews, 1 comment, 2 PRs reviewed; focused on Lodash utility function behavior and edge cases.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript"
+        ],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Direct KU skill overlap for Lodash, edge case handling, and truthy/falsy evaluation. Strong evidence of testing-focused reviews with functional programming expertise and Lodash internals knowledge.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash, Object.keys, truthy/falsy evaluation, Pure functions, edge case handling",
+            "Primary Skills: Utility function design and behavior analysis, Functional programming principles, Edge case handling in JavaScript",
+            "KU Skill Matrix: Advanced JavaScript Concepts (truthy/falsy evaluation), Functional Programming (pure functions, edge case handling)"
+          ],
+          "review_experience_details": "2 reviews, 1 comment, 2 PRs reviewed; focused on Lodash utility function behavior and edge cases.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 5996,
+      "pr_title": "test: add test for size with string input",
+      "pr_author": "frontman-git",
+      "pr_state": "open",
+      "assigned_reviewer": "0xflotus",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "0xflotus",
+          "match_score": 0.92,
+          "reasoning": "Strongest KU overlap with Lodash, edge case handling, and functional programming. Direct evidence of Lodash expertise and alignment with test coverage/string input validation needs.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash, Object.keys, truthy/falsy evaluation, Pure functions, edge case handling",
+            "Primary Skills: Utility function design and behavior analysis, Functional programming principles, Edge case handling in JavaScript",
+            "KU Skill Matrix: Framework/Library Expertise: Lodash; Advanced JavaScript Concepts: Object.keys, truthy/falsy evaluation; Functional Programming: Pure functions, edge case handling"
+          ],
+          "review_experience": "2 reviews, 1 comment, 2 PRs reviewed; focused on Lodash utility function behavior and edge cases.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.88,
+          "reasoning": "Strong Lodash and testing (Jest) expertise with functional programming overlap. Less direct evidence on string input edge cases but strong overall alignment.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash, Jest, Arrow Functions, Module Systems, Higher-Order Functions, Immutability",
+            "Primary Skills: Lodash utility functions, TypeScript, Jest-like testing frameworks, Functional programming patterns",
+            "KU Skill Matrix: Framework/Library Expertise: Lodash, Jest; Functional Programming: Higher-Order Functions, Immutability"
+          ],
+          "review_experience": "6 reviews, 3 comments, 6 PRs reviewed; strong Lodash and testing focus.",
+          "potential_concerns": "No explicit mention of string input edge cases or Lodash documentation alignment in KU skills."
+        },
+        {
+          "reviewer_name": "Cassieminkus1",
+          "match_score": 0.82,
+          "reasoning": "Strong functional programming and testing (Jest) expertise with Lodash overlap. Less direct evidence on edge case handling but aligns with core requirements.",
+          "strengths_alignment": [
+            "Top KU Skills: Jest, Rest parameters, Destructuring assignment, Function composition, Immutability, Pure functions",
+            "Primary Skills: Functional Programming, ES6+ Syntax (rest/spread, destructuring), Testing (Jest/Mocha-like frameworks)",
+            "KU Skill Matrix: Framework/Library Expertise: Jest; Functional Programming: Function composition, Immutability, Pure functions"
+          ],
+          "review_experience": "2 reviews, 0 comments, 2 PRs reviewed; focused on functional programming and testing.",
+          "potential_concerns": "No explicit mention of Lodash or edge case handling in KU skills."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest KU overlap with Lodash, edge case handling, and functional programming. Direct evidence of Lodash expertise and alignment with test coverage/string input validation needs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/5996",
+      "reviewer_strengths": [
+        "Top KU Skills: Lodash, Object.keys, truthy/falsy evaluation, Pure functions, edge case handling",
+        "Primary Skills: Utility function design and behavior analysis, Functional programming principles, Edge case handling in JavaScript",
+        "KU Skill Matrix: Framework/Library Expertise: Lodash; Advanced JavaScript Concepts: Object.keys, truthy/falsy evaluation; Functional Programming: Pure functions, edge case handling"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "2 reviews, 1 comment, 2 PRs reviewed; focused on Lodash utility function behavior and edge cases.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript"
+        ],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU overlap with Lodash, edge case handling, and functional programming. Direct evidence of Lodash expertise and alignment with test coverage/string input validation needs.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash, Object.keys, truthy/falsy evaluation, Pure functions, edge case handling",
+            "Primary Skills: Utility function design and behavior analysis, Functional programming principles, Edge case handling in JavaScript",
+            "KU Skill Matrix: Framework/Library Expertise: Lodash; Advanced JavaScript Concepts: Object.keys, truthy/falsy evaluation; Functional Programming: Pure functions, edge case handling"
+          ],
+          "review_experience_details": "2 reviews, 1 comment, 2 PRs reviewed; focused on Lodash utility function behavior and edge cases.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6007,
+      "pr_title": "fix: exclude NaN from isNumber (fixes #5981)",
+      "pr_author": "ThivyaElangovan121121",
+      "pr_state": "open",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.92,
+          "reasoning": "Deep Lodash internals expertise (prototype pollution, recursion prevention, cross-realm safety) and senior-level code quality focus align perfectly with PR requirements. Similar review evidence (PR #4355) confirms practical experience with security-critical edge cases.",
+          "strengths_alignment": [
+            "Lodash internals expertise (prototype pollution, recursion prevention)",
+            "Cross-realm safety (prototype pollution chaining)",
+            "Code quality focus with senior-level review activity",
+            "Defensive programming and edge-case handling"
+          ],
+          "review_experience": "18 reviews, 17 comments, 14 PRs; senior-level activity with deep Lodash expertise",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "0xflotus",
+          "match_score": 0.85,
+          "reasoning": "Strong Lodash expertise with direct focus on utility function behavior, edge cases, and functional programming—critical for NaN exclusion and recursion prevention. Top KU skills align closely with PR focus areas.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash, Object.keys, truthy/falsy evaluation (NaN exclusion), Pure functions (recursion prevention)",
+            "Primary Skills: Utility function design and behavior analysis, Edge case handling in JavaScript",
+            "Lodash repository contributions"
+          ],
+          "review_experience": "2 reviews, 1 comment, 2 PRs; focused on Lodash utility function behavior and edge cases",
+          "potential_concerns": "Limited review activity (only 2 PRs), but evidence is highly relevant"
+        },
+        {
+          "reviewer_name": "ekkis",
+          "match_score": 0.78,
+          "reasoning": "Mid-level Lodash internals expertise with defensive programming and prototype chain behavior knowledge. Strong alignment with recursion prevention and edge-case handling, though less evidence for cross-realm safety.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash, Prototypes & Inheritance (recursion prevention, cross-realm safety)",
+            "Primary Skills: Lodash internals, Defensive programming, Object property inheritance",
+            "KU Skill Matrix: Framework/Library Expertise: Lodash; Advanced JavaScript Concepts: Prototypes & Inheritance"
+          ],
+          "review_experience": "2 reviews, 2 comments, 1 PR; focused on Lodash internals and defensive programming",
+          "potential_concerns": "Limited review activity (only 1 PR), weaker evidence for cross-realm safety"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Deep Lodash internals expertise (prototype pollution, recursion prevention, cross-realm safety) and senior-level code quality focus align perfectly with PR requirements. Similar review evidence (PR #4355) confirms practical experience with security-critical edge cases.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6007",
+      "reviewer_strengths": [
+        "Lodash internals expertise (prototype pollution, recursion prevention)",
+        "Cross-realm safety (prototype pollution chaining)",
+        "Code quality focus with senior-level review activity"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "18 reviews, 17 comments, 14 PRs; senior-level activity with deep Lodash expertise",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Code Quality"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Deep Lodash internals expertise (prototype pollution, recursion prevention, cross-realm safety) and senior-level code quality focus align perfectly with PR requirements. Similar review evidence (PR #4355) confirms practical experience with security-critical edge cases.",
+          "strengths_alignment": [
+            "Lodash internals expertise (prototype pollution, recursion prevention)",
+            "Cross-realm safety (prototype pollution chaining)",
+            "Code quality focus with senior-level review activity",
+            "Defensive programming and edge-case handling"
+          ],
+          "review_experience_details": "18 reviews, 17 comments, 14 PRs; senior-level activity with deep Lodash expertise",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6008,
+      "pr_title": "[Autofic] Security Patch 2025-07-19",
+      "pr_author": "soonnae",
+      "pr_state": "open",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.92,
+          "reasoning": "Strongest KU skill overlap with Semgrep/CodeQL/Snyk Code via security-focused Node.js and utility library expertise; direct evidence of security review patterns (prototype pollution) in similar PRs.",
+          "strengths_alignment": [
+            "Node.js backend development (relevant for security tooling)",
+            "Security awareness (prototype pollution vulnerabilities)",
+            "Lodash internals (utility function design)",
+            "Jest testing (relevant for automated tool validation)",
+            "Functional programming (pure functions, immutability)"
+          ],
+          "review_experience": "18 reviews, 17 comments, 14 PRs; consistent security-focused feedback in utility libraries (e.g., prototype pollution fixes).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "JLHwung",
+          "match_score": 0.85,
+          "reasoning": "Mid-level TypeScript/Node.js expertise with ESM and security-relevant tooling (Jest/Mocha); strong functional programming background for sanitization logic.",
+          "strengths_alignment": [
+            "TypeScript (relevant for static analysis tools like Snyk/CodeQL)",
+            "ES Modules (ESM) and Node.js backend (security tooling context)",
+            "Functional programming (pure functions, immutability)",
+            "Lodash internals (utility function correctness)"
+          ],
+          "review_experience": "2 reviews, 2 comments; limited but focused on TypeScript and ESM contributions to Lodash.",
+          "potential_concerns": "Low review volume; no explicit security review evidence beyond tooling."
+        },
+        {
+          "reviewer_name": "Toxicable",
+          "match_score": 0.78,
+          "reasoning": "Performance-optimized functional programming expertise with Jest; potential for security logic validation via pure function correctness.",
+          "strengths_alignment": [
+            "Functional programming (pure functions, immutability)",
+            "Jest testing (relevant for automated tool validation)",
+            "TypeScript (static analysis potential)",
+            "Lodash utility function optimization (sanitization context)"
+          ],
+          "review_experience": "2 reviews, 2 comments; focused on Lodash performance and functional patterns.",
+          "potential_concerns": "No explicit security review history; limited review volume."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest KU skill overlap with Semgrep/CodeQL/Snyk Code via security-focused Node.js and utility library expertise; direct evidence of security review patterns (prototype pollution) in similar PRs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6008",
+      "reviewer_strengths": [
+        "Node.js backend development (relevant for security tooling)",
+        "Security awareness (prototype pollution vulnerabilities)",
+        "Lodash internals (utility function design)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "18 reviews, 17 comments, 14 PRs; consistent security-focused feedback in utility libraries (e.g., prototype pollution fixes).",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "Cross-Site Scripting (XSS) vulnerability analysis",
+          "HTML sanitization techniques",
+          "Semgrep",
+          "CodeQL",
+          "Snyk Code"
+        ],
+        "review_expertise_areas": [
+          "Security"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Security",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with Semgrep/CodeQL/Snyk Code via security-focused Node.js and utility library expertise; direct evidence of security review patterns (prototype pollution) in similar PRs.",
+          "strengths_alignment": [
+            "Node.js backend development (relevant for security tooling)",
+            "Security awareness (prototype pollution vulnerabilities)",
+            "Lodash internals (utility function design)",
+            "Jest testing (relevant for automated tool validation)",
+            "Functional programming (pure functions, immutability)"
+          ],
+          "review_experience_details": "18 reviews, 17 comments, 14 PRs; consistent security-focused feedback in utility libraries (e.g., prototype pollution fixes).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6009,
+      "pr_title": "docs: document behavior of zip functions with arrays of different lengths",
+      "pr_author": "gingeekrishna",
+      "pr_state": "open",
+      "assigned_reviewer": "0xflotus",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "0xflotus",
+          "match_score": 0.89,
+          "reasoning": "Strongest KU skill overlap with Lodash utility function design and edge-case handling, directly addressing zip() behavior, array length handling, and missing element documentation. Mid-level activity with consistent review patterns.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash, Object.keys, edge case handling",
+            "Primary Skills: Utility function design and behavior analysis, Functional programming principles",
+            "KU Skill Matrix: Framework/Library Expertise (Lodash), Advanced JavaScript Concepts (truthy/falsy evaluation)"
+          ],
+          "review_experience": "Mid-level reviewer with 2 PRs reviewed, 1 comment, and clear focus on utility function behavior and edge cases in Lodash.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ballonura",
+          "match_score": 0.82,
+          "reasoning": "Mid-level expertise in Lodash/Underscore.js and functional programming, with strong alignment to zip()/zipObject() documentation needs. Lower activity but consistent focus on utility library design.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash/Underscore.js, Higher-Order Functions, Immutability",
+            "Primary Skills: Functional Programming in JavaScript, Utility Library Design",
+            "KU Skill Matrix: Framework/Library Expertise (Lodash/Underscore.js), Functional Programming (Higher-Order Functions)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 PRs reviewed, 4 comments, and clear focus on functional programming patterns in Lodash.",
+          "potential_concerns": "No direct evidence of prior documentation-focused reviews (only utility function reviews)."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with Lodash expertise and TypeScript/functional programming skills, but weaker direct evidence for zip()/zipObject() documentation specifics. Stronger in utility function extension.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash, Higher-Order Functions, Immutability",
+            "Primary Skills: Lodash utility functions, Functional programming patterns",
+            "KU Skill Matrix: Framework/Library Expertise (Lodash), Functional Programming (Higher-Order Functions)"
+          ],
+          "review_experience": "Mid-level reviewer with 6 PRs reviewed, 3 comments, and broad Lodash utility function experience.",
+          "potential_concerns": "Less direct evidence of documentation-focused reviews; TypeScript focus may not align with primary_language=Unknown."
+        }
+      ],
+      "match_score": 0.89,
+      "assignment_reasoning": "Strongest KU skill overlap with Lodash utility function design and edge-case handling, directly addressing zip() behavior, array length handling, and missing element documentation. Mid-level activity with consistent review patterns.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6009",
+      "reviewer_strengths": [
+        "Top KU Skills: Lodash, Object.keys, edge case handling",
+        "Primary Skills: Utility function design and behavior analysis, Functional programming principles",
+        "KU Skill Matrix: Framework/Library Expertise (Lodash), Advanced JavaScript Concepts (truthy/falsy evaluation)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Mid-level reviewer with 2 PRs reviewed, 1 comment, and clear focus on utility function behavior and edge cases in Lodash.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with Lodash utility function design and edge-case handling, directly addressing zip() behavior, array length handling, and missing element documentation. Mid-level activity with consistent review patterns.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash, Object.keys, edge case handling",
+            "Primary Skills: Utility function design and behavior analysis, Functional programming principles",
+            "KU Skill Matrix: Framework/Library Expertise (Lodash), Advanced JavaScript Concepts (truthy/falsy evaluation)"
+          ],
+          "review_experience_details": "Mid-level reviewer with 2 PRs reviewed, 1 comment, and clear focus on utility function behavior and edge cases in Lodash.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6012,
+      "pr_title": "Fix make _.isNumber(NaN) return false and update tests",
+      "pr_author": "Rishiyaduwanshi",
+      "pr_state": "open",
+      "assigned_reviewer": "0xflotus",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "0xflotus",
+          "match_score": 0.92,
+          "reasoning": "Strongest KU skill overlap with 'lodash internals' and 'edge case handling' in JavaScript, plus explicit focus on utility function behavior analysis. Direct evidence of reviewing primitive/boxed NaN edge cases in Lodash context.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash, edge case handling, truthy/falsy evaluation",
+            "Primary Skills: Utility function design and behavior analysis, Functional programming principles",
+            "KU Skill Matrix: Framework/Library Expertise: Lodash; Advanced JavaScript Concepts: Object.keys, truthy/falsy evaluation"
+          ],
+          "review_experience": "2 PRs reviewed with 1 comment, demonstrating focused technical feedback on utility function correctness.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "aminya",
+          "match_score": 0.88,
+          "reasoning": "Strong expertise in 'ECMAScript type checking' and 'strict equality' with Lodash utility function experience. Reviewed similar type-checking optimizations (PR #4905), showing alignment with testing focus.",
+          "strengths_alignment": [
+            "Top KU Skills: Strict equality (`===`), Prototypes & Inheritance",
+            "Primary Skills: Type-checking and strict equality (`===`), Utility library development (Lodash-like)",
+            "KU Skill Matrix: Advanced JavaScript Concepts: Strict equality (`===`), Prototypes & Inheritance"
+          ],
+          "review_experience": "7 reviews with 2 comments, including 2 reviews on type-checking optimizations (PR #4905).",
+          "potential_concerns": "No direct evidence of reviewing `_.isNumber` specifically, but strong type-checking expertise."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.85,
+          "reasoning": "Mid-level Lodash/Jest expertise with TypeScript and functional programming, but weaker direct evidence on ECMAScript type-checking internals compared to top choices. Strong testing background.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash, Jest, Arrow Functions, Type Definitions",
+            "Primary Skills: Lodash utility functions, TypeScript, Functional programming patterns",
+            "KU Skill Matrix: Framework/Library Expertise: Lodash, Jest; Advanced JavaScript Concepts: Arrow Functions"
+          ],
+          "review_experience": "6 PRs reviewed with 3 comments, including testing-related contributions.",
+          "potential_concerns": "No explicit evidence of reviewing primitive/boxed NaN edge cases or Lodash internals beyond utility functions."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest KU skill overlap with 'lodash internals' and 'edge case handling' in JavaScript, plus explicit focus on utility function behavior analysis. Direct evidence of reviewing primitive/boxed NaN edge cases in Lodash context.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6012",
+      "reviewer_strengths": [
+        "Top KU Skills: Lodash, edge case handling, truthy/falsy evaluation",
+        "Primary Skills: Utility function design and behavior analysis, Functional programming principles",
+        "KU Skill Matrix: Framework/Library Expertise: Lodash; Advanced JavaScript Concepts: Object.keys, truthy/falsy evaluation"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "2 PRs reviewed with 1 comment, demonstrating focused technical feedback on utility function correctness.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "lodash internals",
+          "ECMAScript type checking"
+        ],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with 'lodash internals' and 'edge case handling' in JavaScript, plus explicit focus on utility function behavior analysis. Direct evidence of reviewing primitive/boxed NaN edge cases in Lodash context.",
+          "strengths_alignment": [
+            "Top KU Skills: Lodash, edge case handling, truthy/falsy evaluation",
+            "Primary Skills: Utility function design and behavior analysis, Functional programming principles",
+            "KU Skill Matrix: Framework/Library Expertise: Lodash; Advanced JavaScript Concepts: Object.keys, truthy/falsy evaluation"
+          ],
+          "review_experience_details": "2 PRs reviewed with 1 comment, demonstrating focused technical feedback on utility function correctness.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6021,
+      "pr_title": "Add  CI pipeline to run tests on modern browsers",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "assigned_reviewer": "JakeerC",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.89,
+          "reasoning": "Strongest KU skill overlap with Playwright testing frameworks (Jest) and testing expertise. Direct evidence of testing-focused reviews (e.g., PR #5759) and functional programming patterns relevant to test correctness.",
+          "strengths_alignment": [
+            "Jest expertise (testing framework overlap)",
+            "Functional programming (immutability, pure functions)",
+            "TypeScript awareness (type definitions, interfaces)",
+            "Reviewed test-related PRs (similar_review_relevance)"
+          ],
+          "review_experience": "6 PRs reviewed, 3 comments; consistent testing-focused feedback (e.g., Jest-like frameworks).",
+          "potential_concerns": "No direct Playwright evidence, but Jest overlap suggests transferable testing skills."
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.78,
+          "reasoning": "Mid-level expertise in Node.js testing (Mocha) and CI pipeline awareness (ESLint, automated code quality). Limited direct Playwright evidence but strong testing framework overlap.",
+          "strengths_alignment": [
+            "Mocha expertise (testing framework)",
+            "Asynchronous programming (async/await, Promises)",
+            "CI pipeline awareness (ESLint, automated quality tools)",
+            "Reviewed linting-related PRs (similar_review_relevance)"
+          ],
+          "review_experience": "4 PRs reviewed, 1 comment; consistent Node.js backend and testing focus.",
+          "potential_concerns": "No direct Playwright or browser matrix validation evidence."
+        },
+        {
+          "reviewer_name": "Cassieminkus1",
+          "match_score": 0.72,
+          "reasoning": "Functional programming and Jest-like testing framework expertise (Jest). Limited review activity but strong alignment with testing patterns and functional correctness.",
+          "strengths_alignment": [
+            "Jest expertise (testing framework)",
+            "Functional programming (immutability, pure functions)",
+            "ES6+ syntax (rest/spread, destructuring)"
+          ],
+          "review_experience": "2 PRs reviewed, 0 comments; limited but focused testing framework exposure.",
+          "potential_concerns": "No direct Playwright or browser testing evidence; minimal review activity."
+        }
+      ],
+      "match_score": 0.89,
+      "assignment_reasoning": "Strongest KU skill overlap with Playwright testing frameworks (Jest) and testing expertise. Direct evidence of testing-focused reviews (e.g., PR #5759) and functional programming patterns relevant to test correctness.",
+      "assignment_confidence": "Medium",
+      "current_reviews_count": 4,
+      "pr_url": "https://github.com/expressjs/express/pull/6021",
+      "reviewer_strengths": [
+        "Jest expertise (testing framework overlap)",
+        "Functional programming (immutability, pure functions)",
+        "TypeScript awareness (type definitions, interfaces)"
+      ],
+      "potential_concerns": "No direct Playwright evidence, but Jest overlap suggests transferable testing skills.",
+      "review_experience": "6 PRs reviewed, 3 comments; consistent testing-focused feedback (e.g., Jest-like frameworks).",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "Playwright"
+        ],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with Playwright testing frameworks (Jest) and testing expertise. Direct evidence of testing-focused reviews (e.g., PR #5759) and functional programming patterns relevant to test correctness.",
+          "strengths_alignment": [
+            "Jest expertise (testing framework overlap)",
+            "Functional programming (immutability, pure functions)",
+            "TypeScript awareness (type definitions, interfaces)",
+            "Reviewed test-related PRs (similar_review_relevance)"
+          ],
+          "review_experience_details": "6 PRs reviewed, 3 comments; consistent testing-focused feedback (e.g., Jest-like frameworks).",
+          "potential_limitations": "No direct Playwright evidence, but Jest overlap suggests transferable testing skills."
+        }
+      }
+    },
+    {
+      "pr_number": 6022,
+      "pr_title": "Add CI pipeline for Node",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "assigned_reviewer": "armano2",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.92,
+          "reasoning": "Strongest KU skill overlap for CI/CD pipelines (npm/yarn), Node.js, and testing (Mocha). Direct evidence of Node.js backend development, dependency management, and integration with automated tools. Reviewed similar linting PRs (PR #4419) and demonstrated expertise in configuration and testing.",
+          "strengths_alignment": [
+            "KU Skill Matrix: Node.js, Mocha, npm/yarn (dependency management)",
+            "Reviewed linting PRs (PR #4419) with CI/ESLint integration",
+            "Testing expertise (Mocha) and configuration validation"
+          ],
+          "review_experience": "4 reviews, 1 comment, 4 PRs reviewed; consistent but sparse comment activity. Focused on Node.js backend and utility libraries.",
+          "potential_concerns": "Limited comments in reviews (only 1 comment across 4 PRs)."
+        },
+        {
+          "reviewer_name": "JLHwung",
+          "match_score": 0.88,
+          "reasoning": "Strong KU overlap for Node.js, npm/yarn, and testing (Jest/Mocha). Evidence of TypeScript/ESM proficiency (relevant for configuration) and Node.js module systems. Reviewed similar dependency management PRs (PR #5540).",
+          "strengths_alignment": [
+            "KU Skill Matrix: Node.js, Jest, Mocha, npm/yarn, Module Systems",
+            "Reviewed npm lockfile updates (PR #5540)",
+            "TypeScript/ESM expertise (relevant for configuration validation)"
+          ],
+          "review_experience": "2 reviews, 2 comments, 1 PR reviewed; limited but focused on Node.js and testing.",
+          "potential_concerns": "Very few reviews (only 2) and no direct evidence of CI/CD pipeline validation."
+        },
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.85,
+          "reasoning": "Senior-level expertise in Node.js, Jest, and npm/yarn with strong evidence of CI/CD and testing. Reviewed complex utility libraries (Lodash) and demonstrated Node.js backend development. No direct CI/CD pipeline validation evidence but highest seniority and breadth of skills.",
+          "strengths_alignment": [
+            "KU Skill Matrix: Node.js, Jest, npm/yarn, Middleware, API Endpoints",
+            "Senior-level expertise in Node.js backend and testing",
+            "Reviewed 14 PRs (highest activity) with utility library focus"
+          ],
+          "review_experience": "18 reviews, 17 comments, 14 PRs reviewed; extensive experience but no direct CI/CD pipeline validation evidence.",
+          "potential_concerns": "No explicit evidence of CI/CD pipeline validation or npm version pinning expertise."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest KU skill overlap for CI/CD pipelines (npm/yarn), Node.js, and testing (Mocha). Direct evidence of Node.js backend development, dependency management, and integration with automated tools. Reviewed similar linting PRs (PR #4419) and demonstrated expertise in configuration and testing.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 3,
+      "pr_url": "https://github.com/expressjs/express/pull/6022",
+      "reviewer_strengths": [
+        "KU Skill Matrix: Node.js, Mocha, npm/yarn (dependency management)",
+        "Reviewed linting PRs (PR #4419) with CI/ESLint integration",
+        "Testing expertise (Mocha) and configuration validation"
+      ],
+      "potential_concerns": "Limited comments in reviews (only 1 comment across 4 PRs).",
+      "review_experience": "4 reviews, 1 comment, 4 PRs reviewed; consistent but sparse comment activity. Focused on Node.js backend and utility libraries.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "CI/CD pipelines",
+          "Node.js version matrix configuration",
+          "npm version pinning"
+        ],
+        "review_expertise_areas": [
+          "Testing",
+          "Configuration"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "Unknown",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap for CI/CD pipelines (npm/yarn), Node.js, and testing (Mocha). Direct evidence of Node.js backend development, dependency management, and integration with automated tools. Reviewed similar linting PRs (PR #4419) and demonstrated expertise in configuration and testing.",
+          "strengths_alignment": [
+            "KU Skill Matrix: Node.js, Mocha, npm/yarn (dependency management)",
+            "Reviewed linting PRs (PR #4419) with CI/ESLint integration",
+            "Testing expertise (Mocha) and configuration validation"
+          ],
+          "review_experience_details": "4 reviews, 1 comment, 4 PRs reviewed; consistent but sparse comment activity. Focused on Node.js backend and utility libraries.",
+          "potential_limitations": "Limited comments in reviews (only 1 comment across 4 PRs)."
+        }
+      }
+    },
+    {
+      "pr_number": 6023,
+      "pr_title": "Add CI pipeline for Bun",
+      "pr_author": "UlisesGascon",
+      "pr_state": "open",
+      "assigned_reviewer": "JLHwung",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "JLHwung",
+          "match_score": 0.89,
+          "reasoning": "Strongest KU overlap with Node.js, Jest, and TypeScript expertise; direct evidence of CI/testing pipeline familiarity via similar PRs (linting/ESM).",
+          "strengths_alignment": [
+            "Node.js backend development (matches Ubuntu CI environment assumptions)",
+            "Jest/Mocha testing framework experience (aligns with Testing review focus)",
+            "ES Modules (ESM) and TypeScript (relevant for CI pipeline correctness)",
+            "Bun runtime compatibility via Node.js runtime overlap (indirect but plausible)"
+          ],
+          "review_experience": "Mid-level reviewer with 2 reviews, 2 comments, and 1 PR reviewed. Demonstrates technical depth in CI/testing via similar PRs (e.g., linting validation).",
+          "potential_concerns": "No direct Bun runtime evidence, but Node.js expertise is a strong proxy."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.82,
+          "reasoning": "Mid-level expertise in Jest, Lodash, and TypeScript with direct testing pipeline evidence. Strong functional programming and CI awareness from similar PRs.",
+          "strengths_alignment": [
+            "Jest testing framework (direct Testing expertise)",
+            "TypeScript (relevant for CI pipeline correctness)",
+            "Lodash internals (functional programming patterns align with Bun runtime)",
+            "ES Modules (ESM) and Arrow Functions (relevant for CI environment assumptions)"
+          ],
+          "review_experience": "Mid-level reviewer with 6 reviews, 3 comments, and 6 PRs reviewed. Demonstrates CI/testing pipeline familiarity via similar PRs (e.g., Jest-like fixes).",
+          "potential_concerns": "No explicit Bun runtime or Ubuntu-specific CI evidence, but Node.js overlap is strong."
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.78,
+          "reasoning": "Mid-level Node.js/Lodash reviewer with direct CI/linting evidence from similar PRs. Strong functional programming and testing awareness, but weaker KU overlap for Bun runtime.",
+          "strengths_alignment": [
+            "Node.js backend development (matches Ubuntu CI environment)",
+            "Mocha/Jest testing (aligns with Testing review focus)",
+            "ESLint and automated code quality tools (relevant for linting validation)",
+            "Lodash utility functions (functional programming patterns)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 1 comment, and 4 PRs reviewed. Demonstrates CI/linting expertise via similar PR #4419 (lint tests).",
+          "potential_concerns": "No direct Bun runtime evidence; limited comments (1/4 reviews)."
+        }
+      ],
+      "match_score": 0.89,
+      "assignment_reasoning": "Strongest KU overlap with Node.js, Jest, and TypeScript expertise; direct evidence of CI/testing pipeline familiarity via similar PRs (linting/ESM).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 8,
+      "pr_url": "https://github.com/expressjs/express/pull/6023",
+      "reviewer_strengths": [
+        "Node.js backend development (matches Ubuntu CI environment assumptions)",
+        "Jest/Mocha testing framework experience (aligns with Testing review focus)",
+        "ES Modules (ESM) and TypeScript (relevant for CI pipeline correctness)"
+      ],
+      "potential_concerns": "No direct Bun runtime evidence, but Node.js expertise is a strong proxy.",
+      "review_experience": "Mid-level reviewer with 2 reviews, 2 comments, and 1 PR reviewed. Demonstrates technical depth in CI/testing via similar PRs (e.g., linting validation).",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "CI pipeline configuration",
+          "Bun runtime"
+        ],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU overlap with Node.js, Jest, and TypeScript expertise; direct evidence of CI/testing pipeline familiarity via similar PRs (linting/ESM).",
+          "strengths_alignment": [
+            "Node.js backend development (matches Ubuntu CI environment assumptions)",
+            "Jest/Mocha testing framework experience (aligns with Testing review focus)",
+            "ES Modules (ESM) and TypeScript (relevant for CI pipeline correctness)",
+            "Bun runtime compatibility via Node.js runtime overlap (indirect but plausible)"
+          ],
+          "review_experience_details": "Mid-level reviewer with 2 reviews, 2 comments, and 1 PR reviewed. Demonstrates technical depth in CI/testing via similar PRs (e.g., linting validation).",
+          "potential_limitations": "No direct Bun runtime evidence, but Node.js expertise is a strong proxy."
+        }
+      }
+    },
+    {
+      "pr_number": 6025,
+      "pr_title": "docs: add security escalation policy",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "assigned_reviewer": "Ephigenia",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Ephigenia",
+          "match_score": 0.85,
+          "reasoning": "Strong JSDoc and ESLint expertise directly aligns with policy documentation accuracy and security escalation policy compliance needs. No JavaScript code review evidence, but explicit focus on documentation and linting in profile.",
+          "strengths_alignment": [
+            "JSDoc documentation expertise",
+            "ESLint code formatting (policy compliance)",
+            "Basic JavaScript modularity awareness"
+          ],
+          "review_experience": "2 reviews, 0 comments, 2 PRs reviewed (limited but focused on documentation).",
+          "potential_concerns": "No evidence of security policy review experience beyond linting."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.78,
+          "reasoning": "TypeScript and Lodash utility function expertise suggests potential for policy documentation accuracy (via type definitions) and security compliance (via functional patterns). No direct documentation evidence but strong utility library focus.",
+          "strengths_alignment": [
+            "Lodash utility functions (policy documentation relevance)",
+            "TypeScript type definitions (structured documentation)",
+            "Functional programming patterns (security compliance)"
+          ],
+          "review_experience": "6 reviews, 3 comments, 6 PRs reviewed (moderate activity).",
+          "potential_concerns": "No explicit documentation review history; focus on utility functions."
+        },
+        {
+          "reviewer_name": "nickserv",
+          "match_score": 0.75,
+          "reasoning": "TypeScript and ESM expertise aligns with structured documentation needs, and Lodash utility function knowledge suggests potential for policy compliance. Limited review activity but strong skill overlap.",
+          "strengths_alignment": [
+            "TypeScript (structured documentation)",
+            "ES Modules (ESM) (modern documentation standards)",
+            "Lodash utility functions (policy relevance)"
+          ],
+          "review_experience": "3 reviews, 2 comments, 1 PR reviewed (low activity).",
+          "potential_concerns": "Very limited review history; no explicit documentation focus."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Strong JSDoc and ESLint expertise directly aligns with policy documentation accuracy and security escalation policy compliance needs. No JavaScript code review evidence, but explicit focus on documentation and linting in profile.",
+      "assignment_confidence": "Medium",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6025",
+      "reviewer_strengths": [
+        "JSDoc documentation expertise",
+        "ESLint code formatting (policy compliance)",
+        "Basic JavaScript modularity awareness"
+      ],
+      "potential_concerns": "No evidence of security policy review experience beyond linting.",
+      "review_experience": "2 reviews, 0 comments, 2 PRs reviewed (limited but focused on documentation).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Strong JSDoc and ESLint expertise directly aligns with policy documentation accuracy and security escalation policy compliance needs. No JavaScript code review evidence, but explicit focus on documentation and linting in profile.",
+          "strengths_alignment": [
+            "JSDoc documentation expertise",
+            "ESLint code formatting (policy compliance)",
+            "Basic JavaScript modularity awareness"
+          ],
+          "review_experience_details": "2 reviews, 0 comments, 2 PRs reviewed (limited but focused on documentation).",
+          "potential_limitations": "No evidence of security policy review experience beyond linting."
+        }
+      }
+    },
+    {
+      "pr_number": 6026,
+      "pr_title": "security: Include a threat model",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.85,
+          "reasoning": "Strongest KU overlap with Node.js backend development and security-related JavaScript expertise (prototype pollution). Highest domain alignment for security reviews, with evidence of defensive programming and utility library security. No direct security KU skills listed, but Node.js backend and functional programming align with referenced threat models (Webpack/Express).",
+          "strengths_alignment": [
+            "Node.js backend development (directly relevant to Webpack/Express threat models)",
+            "Prototype pollution vulnerability awareness (security expertise)",
+            "Functional programming and defensive programming (aligns with threat model completeness)",
+            "18 reviews with 17 comments (high activity consistency)"
+          ],
+          "review_experience": "Senior-level reviewer with 14 PRs reviewed, 17 comments, and deep expertise in utility libraries (Lodash) and Node.js backend security patterns. Demonstrated ability to analyze complex security issues (e.g., prototype pollution).",
+          "potential_concerns": "No explicit KU skills listed for security documentation (SECURITY.md) or triage processes, but Node.js backend experience suggests capability to infer security documentation gaps."
+        },
+        {
+          "reviewer_name": "JLHwung",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with TypeScript and Node.js expertise, strong functional programming skills, and exposure to security-relevant frameworks (Jest, Mocha). TypeScript and ESM proficiency suggest attention to documentation correctness. Limited direct security KU skills but aligns with threat model completeness via modular systems.",
+          "strengths_alignment": [
+            "TypeScript and ESM expertise (aligns with SECURITY.md documentation rigor)",
+            "Node.js backend development (relevant to Webpack/Express threat models)",
+            "Functional programming and immutability (supports threat model accuracy)",
+            "Jest/Mocha testing frameworks (indirectly relevant to security triage processes)"
+          ],
+          "review_experience": "Mid-level reviewer with 2 PRs reviewed and 2 comments, demonstrating focused expertise in Lodash internals, TypeScript, and ESM. Evidence of deep technical contributions to utility libraries.",
+          "potential_concerns": "Limited review activity (only 2 PRs reviewed) and no explicit security KU skills. TypeScript focus may not directly translate to security documentation correctness."
+        },
+        {
+          "reviewer_name": "ekkis",
+          "match_score": 0.72,
+          "reasoning": "Mid-level reviewer with Lodash internals and defensive programming expertise, strong KU overlap with Node.js backend and prototype inheritance (security-relevant). Limited review activity but clear focus on utility library security patterns. No explicit security documentation KU skills but aligns with threat model completeness via defensive programming.",
+          "strengths_alignment": [
+            "Lodash internals and defensive programming (directly relevant to threat model accuracy)",
+            "Node.js backend development (aligns with Webpack/Express threat models)",
+            "Prototype inheritance expertise (security-critical)",
+            "1 PR reviewed with 2 comments (focused feedback)"
+          ],
+          "review_experience": "Mid-level reviewer with 1 PR reviewed and 2 comments, demonstrating deep knowledge of Lodash utility functions and defensive programming. Evidence of technical depth in object property inheritance and prototype chain behavior.",
+          "potential_concerns": "Only 1 PR reviewed with limited comments; no explicit KU skills for security documentation or triage processes. Focused on utility libraries rather than broader security frameworks."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Strongest KU overlap with Node.js backend development and security-related JavaScript expertise (prototype pollution). Highest domain alignment for security reviews, with evidence of defensive programming and utility library security. No direct security KU skills listed, but Node.js backend and functional programming align with referenced threat models (Webpack/Express).",
+      "assignment_confidence": "Medium",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6026",
+      "reviewer_strengths": [
+        "Node.js backend development (directly relevant to Webpack/Express threat models)",
+        "Prototype pollution vulnerability awareness (security expertise)",
+        "Functional programming and defensive programming (aligns with threat model completeness)"
+      ],
+      "potential_concerns": "No explicit KU skills listed for security documentation (SECURITY.md) or triage processes, but Node.js backend experience suggests capability to infer security documentation gaps.",
+      "review_experience": "Senior-level reviewer with 14 PRs reviewed, 17 comments, and deep expertise in utility libraries (Lodash) and Node.js backend security patterns. Demonstrated ability to analyze complex security issues (e.g., prototype pollution).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Security"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Security",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU overlap with Node.js backend development and security-related JavaScript expertise (prototype pollution). Highest domain alignment for security reviews, with evidence of defensive programming and utility library security. No direct security KU skills listed, but Node.js backend and functional programming align with referenced threat models (Webpack/Express).",
+          "strengths_alignment": [
+            "Node.js backend development (directly relevant to Webpack/Express threat models)",
+            "Prototype pollution vulnerability awareness (security expertise)",
+            "Functional programming and defensive programming (aligns with threat model completeness)",
+            "18 reviews with 17 comments (high activity consistency)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 14 PRs reviewed, 17 comments, and deep expertise in utility libraries (Lodash) and Node.js backend security patterns. Demonstrated ability to analyze complex security issues (e.g., prototype pollution).",
+          "potential_limitations": "No explicit KU skills listed for security documentation (SECURITY.md) or triage processes, but Node.js backend experience suggests capability to infer security documentation gaps."
+        }
+      }
+    },
+    {
+      "pr_number": 6028,
+      "pr_title": "Incident Response Plan",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with deep Node.js and security-related JavaScript expertise (prototype pollution), strong functional programming and defensive programming skills. Direct KU overlap with backend development, middleware, and security-relevant concepts. High review activity consistency and complexity fit for security-focused PRs.",
+          "strengths_alignment": [
+            "Node.js backend development (directly relevant to security infrastructure)",
+            "Prototype pollution vulnerability awareness (security expertise)",
+            "Functional programming and defensive programming (aligns with incident response and triage)",
+            "Testing and debugging utility libraries (relevant to security triage processes)"
+          ],
+          "review_experience": "18 reviews, 17 comments, 14 PRs reviewed; extensive experience with security-sensitive codebases (Lodash internals, Node.js middleware).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "JLHwung",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with TypeScript and Node.js expertise, strong functional programming and security-adjacent skills (Jest, middleware). KU overlap with backend development and defensive programming. Lower review activity but high technical depth.",
+          "strengths_alignment": [
+            "TypeScript and ESM proficiency (relevant to modern security infrastructure)",
+            "Node.js middleware and API endpoints (security integration)",
+            "Functional programming patterns (immutability, pure functions) for incident response clarity",
+            "Jest testing framework (relevant to security triage processes)"
+          ],
+          "review_experience": "2 reviews, 2 comments, 1 PR reviewed; limited activity but high technical depth in backend and security-adjacent areas.",
+          "potential_concerns": "Low review volume; no direct evidence of security-specific reviews"
+        },
+        {
+          "reviewer_name": "ekkis",
+          "match_score": 0.72,
+          "reasoning": "Mid-level reviewer with Lodash internals and defensive programming expertise. Strong KU overlap with backend development and object property inheritance (security-relevant). Limited review activity but focused on utility libraries and security-sensitive patterns.",
+          "strengths_alignment": [
+            "Lodash internals and defensive programming (relevant to incident response and security triage)",
+            "Object property inheritance and prototype chain behavior (security vulnerability awareness)",
+            "Server-side logic (backend integration with security infrastructure)",
+            "npm/yarn dependency management (relevant to security tooling)"
+          ],
+          "review_experience": "2 reviews, 2 comments, 1 PR reviewed; limited activity but deep focus on utility libraries and defensive programming.",
+          "potential_concerns": "Low review volume; no explicit security review history"
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Senior-level reviewer with deep Node.js and security-related JavaScript expertise (prototype pollution), strong functional programming and defensive programming skills. Direct KU overlap with backend development, middleware, and security-relevant concepts. High review activity consistency and complexity fit for security-focused PRs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6028",
+      "reviewer_strengths": [
+        "Node.js backend development (directly relevant to security infrastructure)",
+        "Prototype pollution vulnerability awareness (security expertise)",
+        "Functional programming and defensive programming (aligns with incident response and triage)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "18 reviews, 17 comments, 14 PRs reviewed; extensive experience with security-sensitive codebases (Lodash internals, Node.js middleware).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Security"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Security",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with deep Node.js and security-related JavaScript expertise (prototype pollution), strong functional programming and defensive programming skills. Direct KU overlap with backend development, middleware, and security-relevant concepts. High review activity consistency and complexity fit for security-focused PRs.",
+          "strengths_alignment": [
+            "Node.js backend development (directly relevant to security infrastructure)",
+            "Prototype pollution vulnerability awareness (security expertise)",
+            "Functional programming and defensive programming (aligns with incident response and triage)",
+            "Testing and debugging utility libraries (relevant to security triage processes)"
+          ],
+          "review_experience_details": "18 reviews, 17 comments, 14 PRs reviewed; extensive experience with security-sensitive codebases (Lodash internals, Node.js middleware).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6030,
+      "pr_title": "Add support for OSSF scorecard reporting",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.89,
+          "reasoning": "Strongest KU overlap with Node.js backend development and security-relevant skills (prototype pollution awareness). Highest domain alignment for OSSF Scorecard and automated pipeline review focus. No direct security expertise listed, but Node.js backend and defensive programming align with compliance tracking needs.",
+          "strengths_alignment": [
+            "Node.js backend development (directly relevant to cron jobs, automation)",
+            "Security awareness (prototype pollution vulnerabilities in past reviews)",
+            "Defensive programming and functional patterns (aligns with compliance tracking)",
+            "Jest expertise (testing framework for automated pipeline validation)"
+          ],
+          "review_experience": "Senior-level reviewer with 14 PRs reviewed, 17 comments, and deep Lodash internals knowledge. Demonstrates consistent, high-quality feedback with focus on utility library correctness and security edge cases.",
+          "potential_concerns": "No explicit mention of OSSF Scorecard or CI-Tests/Contributors/Dependency-Update-Tool compliance in past reviews. Security focus is prototype pollution (not OSSF-specific)."
+        },
+        {
+          "reviewer_name": "JLHwung",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with TypeScript/ESM expertise and Node.js backend skills. Strong functional programming background aligns with compliance pipeline automation. No direct security evidence but Node.js + TypeScript suggest robustness for OSSF compliance.",
+          "strengths_alignment": [
+            "TypeScript expertise (aligns with structured compliance tracking)",
+            "Node.js backend development (cron jobs, automation)",
+            "ES Modules (ESM) and functional programming (immutability, pure functions)",
+            "Lodash utility function knowledge (relevant to OSSF Scorecard reporting)"
+          ],
+          "review_experience": "Mid-level reviewer with 2 PRs reviewed and 2 comments. Focus on Lodash type modules and ESM integration. Limited but targeted expertise in modern JavaScript tooling.",
+          "potential_concerns": "Only 2 PRs reviewed (low sample size). No explicit security or compliance-related reviews. TypeScript focus may not directly address CI-Tests/Contributors fields."
+        },
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.72,
+          "reasoning": "Mid-level reviewer with Node.js backend and Lodash utility function expertise. Asynchronous programming skills (Promises, async generators) align with cron job integration. No direct security evidence but backend focus suggests robustness for compliance pipelines.",
+          "strengths_alignment": [
+            "Node.js backend development (cron jobs, automation)",
+            "Asynchronous programming (Promises, async generators) for automated tracking",
+            "Lodash utility function knowledge (relevant to OSSF Scorecard reporting)",
+            "ESLint and automated code quality tools (aligns with compliance tracking)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 PRs reviewed and 1 comment. Focus on Lodash refactoring and Node.js middleware. Demonstrates consistent feedback on utility library correctness.",
+          "potential_concerns": "No explicit security or compliance-related reviews. Limited comments (only 1). Async focus may not directly address CI-Tests/Contributors fields."
+        }
+      ],
+      "match_score": 0.89,
+      "assignment_reasoning": "Strongest KU overlap with Node.js backend development and security-relevant skills (prototype pollution awareness). Highest domain alignment for OSSF Scorecard and automated pipeline review focus. No direct security expertise listed, but Node.js backend and defensive programming align with compliance tracking needs.",
+      "assignment_confidence": "Medium",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6030",
+      "reviewer_strengths": [
+        "Node.js backend development (directly relevant to cron jobs, automation)",
+        "Security awareness (prototype pollution vulnerabilities in past reviews)",
+        "Defensive programming and functional patterns (aligns with compliance tracking)"
+      ],
+      "potential_concerns": "No explicit mention of OSSF Scorecard or CI-Tests/Contributors/Dependency-Update-Tool compliance in past reviews. Security focus is prototype pollution (not OSSF-specific).",
+      "review_experience": "Senior-level reviewer with 14 PRs reviewed, 17 comments, and deep Lodash internals knowledge. Demonstrates consistent, high-quality feedback with focus on utility library correctness and security edge cases.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Security"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Security",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU overlap with Node.js backend development and security-relevant skills (prototype pollution awareness). Highest domain alignment for OSSF Scorecard and automated pipeline review focus. No direct security expertise listed, but Node.js backend and defensive programming align with compliance tracking needs.",
+          "strengths_alignment": [
+            "Node.js backend development (directly relevant to cron jobs, automation)",
+            "Security awareness (prototype pollution vulnerabilities in past reviews)",
+            "Defensive programming and functional patterns (aligns with compliance tracking)",
+            "Jest expertise (testing framework for automated pipeline validation)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 14 PRs reviewed, 17 comments, and deep Lodash internals knowledge. Demonstrates consistent, high-quality feedback with focus on utility library correctness and security edge cases.",
+          "potential_limitations": "No explicit mention of OSSF Scorecard or CI-Tests/Contributors/Dependency-Update-Tool compliance in past reviews. Security focus is prototype pollution (not OSSF-specific)."
+        }
+      }
+    },
+    {
+      "pr_number": 6032,
+      "pr_title": "feat: add CodeQL",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "assigned_reviewer": "jdalton",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "jdalton",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with explicit security expertise (prototype pollution) and CodeQL-related skills implied via Node.js/Jest backend security patterns. Strongest KU overlap for security-focused JavaScript and functional programming.",
+          "strengths_alignment": [
+            "Node.js backend development with security focus (prototype pollution)",
+            "Jest testing framework (relevant for CodeQL integration correctness)",
+            "Functional programming (immutability, pure functions) for security implications",
+            "14 PRs reviewed (high activity consistency)"
+          ],
+          "review_experience": "18 reviews, 17 comments, 14 PRs reviewed; senior-level expertise in utility libraries and Node.js security.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "JLHwung",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with TypeScript/Node.js expertise and functional programming patterns, aligning with CodeQL's static analysis needs. Strong KU overlap for backend security and modularity.",
+          "strengths_alignment": [
+            "TypeScript expertise (relevant for CodeQL's type system)",
+            "Node.js middleware/API endpoints (security-relevant)",
+            "Functional programming (immutability, pure functions) for query correctness",
+            "ES Modules (ESM) for modern JavaScript security patterns"
+          ],
+          "review_experience": "2 reviews, 2 comments, 1 PR reviewed; mid-level with TypeScript and Lodash internals focus.",
+          "potential_concerns": "Limited review activity (only 2 PRs), but strong KU overlap for security-relevant skills."
+        },
+        {
+          "reviewer_name": "blikblum",
+          "match_score": 0.72,
+          "reasoning": "Mid-level reviewer with Node.js security focus (prototype pollution) and defensive programming, though no explicit CodeQL experience. Strongest security alignment among available reviewers.",
+          "strengths_alignment": [
+            "Node.js core behavior (security-relevant)",
+            "Prototype-based object systems (security implications)",
+            "Defensive programming (edge-case handling for false positives)",
+            "3 PRs reviewed (consistent activity)"
+          ],
+          "review_experience": "4 reviews, 4 comments, 3 PRs reviewed; mid-level with Node.js security focus.",
+          "potential_concerns": "No explicit CodeQL or functional programming KU overlap; security focus is Node.js-specific."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with explicit security expertise (prototype pollution) and CodeQL-related skills implied via Node.js/Jest backend security patterns. Strongest KU overlap for security-focused JavaScript and functional programming.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6032",
+      "reviewer_strengths": [
+        "Node.js backend development with security focus (prototype pollution)",
+        "Jest testing framework (relevant for CodeQL integration correctness)",
+        "Functional programming (immutability, pure functions) for security implications"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "18 reviews, 17 comments, 14 PRs reviewed; senior-level expertise in utility libraries and Node.js security.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "CodeQL"
+        ],
+        "review_expertise_areas": [
+          "Security"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Security",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with explicit security expertise (prototype pollution) and CodeQL-related skills implied via Node.js/Jest backend security patterns. Strongest KU overlap for security-focused JavaScript and functional programming.",
+          "strengths_alignment": [
+            "Node.js backend development with security focus (prototype pollution)",
+            "Jest testing framework (relevant for CodeQL integration correctness)",
+            "Functional programming (immutability, pure functions) for security implications",
+            "14 PRs reviewed (high activity consistency)"
+          ],
+          "review_experience_details": "18 reviews, 17 comments, 14 PRs reviewed; senior-level expertise in utility libraries and Node.js security.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6033,
+      "pr_title": "Make the CI green again",
+      "pr_author": "UlisesGascon",
+      "pr_state": "closed",
+      "assigned_reviewer": "armano2",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "armano2",
+          "match_score": 0.85,
+          "reasoning": "Strongest KU skill overlap with functional programming, Lodash internals, and async/await patterns. Reviewed similar PRs (e.g., #4705) with functional/utility focus and demonstrated consistent code quality review activity.",
+          "strengths_alignment": [
+            "Lodash utility library refactoring expertise",
+            "Asynchronous programming (async generators, Promises) alignment with functional patterns",
+            "ESLint and automated code quality tool familiarity",
+            "Reviewed similar PRs with functional/utility focus (e.g., #4705)"
+          ],
+          "review_experience": "4 PRs reviewed, 4 total reviews, 1 comment per review (consistent but concise feedback). Approved PR #4705 with functional/utility focus.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ballonura",
+          "match_score": 0.78,
+          "reasoning": "Strong functional programming and Lodash/Underscore.js expertise with 4 comments in similar PRs. Top KU skills align well with utility function design and immutability patterns.",
+          "strengths_alignment": [
+            "Lodash/Underscore.js framework expertise",
+            "Functional programming (Higher-Order Functions, Immutability, Pure Functions)",
+            "4 comments in PRs (higher engagement than armano2)",
+            "ES6+ Array Methods and utility library design"
+          ],
+          "review_experience": "4 PRs reviewed, 4 comments, 2 PRs approved. Demonstrated deep functional programming patterns in Lodash reviews.",
+          "potential_concerns": "No direct evidence of async/await or backend Node.js focus (unlike armano2)."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.72,
+          "reasoning": "Mid-level expertise with Lodash, Jest, and TypeScript, but lower review activity (6 PRs reviewed, 3 comments). Strong functional programming and utility function focus, though less direct evidence of async/await.",
+          "strengths_alignment": [
+            "Lodash utility functions and TypeScript expertise",
+            "Functional programming (Higher-Order Functions, Immutability)",
+            "Jest testing framework familiarity (relevant for code quality)",
+            "6 PRs reviewed (highest activity among top 3)"
+          ],
+          "review_experience": "6 PRs reviewed, 3 comments, 6 total reviews. Strong TypeScript and Lodash utility function focus.",
+          "potential_concerns": "No direct evidence of async/await or backend Node.js focus (unlike armano2). Lower comment density (3 comments across 6 PRs)."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Strongest KU skill overlap with functional programming, Lodash internals, and async/await patterns. Reviewed similar PRs (e.g., #4705) with functional/utility focus and demonstrated consistent code quality review activity.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6033",
+      "reviewer_strengths": [
+        "Lodash utility library refactoring expertise",
+        "Asynchronous programming (async generators, Promises) alignment with functional patterns",
+        "ESLint and automated code quality tool familiarity"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "4 PRs reviewed, 4 total reviews, 1 comment per review (consistent but concise feedback). Approved PR #4705 with functional/utility focus.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest KU skill overlap with functional programming, Lodash internals, and async/await patterns. Reviewed similar PRs (e.g., #4705) with functional/utility focus and demonstrated consistent code quality review activity.",
+          "strengths_alignment": [
+            "Lodash utility library refactoring expertise",
+            "Asynchronous programming (async generators, Promises) alignment with functional patterns",
+            "ESLint and automated code quality tool familiarity",
+            "Reviewed similar PRs with functional/utility focus (e.g., #4705)"
+          ],
+          "review_experience_details": "4 PRs reviewed, 4 total reviews, 1 comment per review (consistent but concise feedback). Approved PR #4705 with functional/utility focus.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6035,
+      "pr_title": "Add contributors section to README",
+      "pr_author": "bensternthal",
+      "pr_state": "open",
+      "assigned_reviewer": "Ephigenia",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Ephigenia",
+          "match_score": 0.85,
+          "reasoning": "Direct evidence of JSDoc documentation expertise and ESLint formatting experience, which aligns perfectly with README/contributors section accuracy and formatting needs. Strong similarity to PR #4829 (link updates in CONTRIBUTING.md/README.md) and no technical JavaScript overlap conflicts.",
+          "strengths_alignment": [
+            "JSDoc documentation expertise (top KU skill)",
+            "ESLint code formatting (directly relevant to formatting)",
+            "Reviewed similar link/update PRs in lodash (evidence from similar_review_relevance)"
+          ],
+          "review_experience": "2 reviews, 0 comments (limited but focused on documentation/quality tools). Reviewed 2 PRs with clear documentation focus.",
+          "potential_concerns": "No direct evidence of contributors list completeness review experience, but JSDoc/ESLint skills imply attention to detail in documentation."
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.78,
+          "reasoning": "Strong TypeScript/Lodash expertise with functional programming patterns, but no direct documentation evidence. Highest KU overlap for utility libraries (relevant for contributors list completeness). Limited similar-review evidence but strong domain alignment for low-complexity PRs.",
+          "strengths_alignment": [
+            "Lodash utility function expertise (implies contributors list familiarity)",
+            "TypeScript (implies attention to metadata/definitions)",
+            "Functional programming (suggests structured documentation patterns)"
+          ],
+          "review_experience": "6 reviews, 3 comments (moderate activity). Reviewed 6 PRs with utility library focus.",
+          "potential_concerns": "No explicit documentation review history; KU skills lean toward code, not metadata."
+        },
+        {
+          "reviewer_name": "ballonura",
+          "match_score": 0.72,
+          "reasoning": "Functional programming and Lodash expertise with higher review activity, but no explicit documentation evidence. Strongest KU overlap for utility libraries (potential for contributors list completeness). Lower similarity to documentation-focused PRs.",
+          "strengths_alignment": [
+            "Lodash/Underscore.js expertise (relevant for contributors list)",
+            "Functional programming (implies structured metadata handling)",
+            "Higher review activity (4 reviews, 4 comments)"
+          ],
+          "review_experience": "4 reviews, 4 comments (highest activity among top 3). Reviewed 2 PRs with functional programming focus.",
+          "potential_concerns": "No direct documentation review evidence; KU skills focus on code, not metadata."
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Direct evidence of JSDoc documentation expertise and ESLint formatting experience, which aligns perfectly with README/contributors section accuracy and formatting needs. Strong similarity to PR #4829 (link updates in CONTRIBUTING.md/README.md) and no technical JavaScript overlap conflicts.",
+      "assignment_confidence": "Medium",
+      "current_reviews_count": 4,
+      "pr_url": "https://github.com/expressjs/express/pull/6035",
+      "reviewer_strengths": [
+        "JSDoc documentation expertise (top KU skill)",
+        "ESLint code formatting (directly relevant to formatting)",
+        "Reviewed similar link/update PRs in lodash (evidence from similar_review_relevance)"
+      ],
+      "potential_concerns": "No direct evidence of contributors list completeness review experience, but JSDoc/ESLint skills imply attention to detail in documentation.",
+      "review_experience": "2 reviews, 0 comments (limited but focused on documentation/quality tools). Reviewed 2 PRs with clear documentation focus.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Direct evidence of JSDoc documentation expertise and ESLint formatting experience, which aligns perfectly with README/contributors section accuracy and formatting needs. Strong similarity to PR #4829 (link updates in CONTRIBUTING.md/README.md) and no technical JavaScript overlap conflicts.",
+          "strengths_alignment": [
+            "JSDoc documentation expertise (top KU skill)",
+            "ESLint code formatting (directly relevant to formatting)",
+            "Reviewed similar link/update PRs in lodash (evidence from similar_review_relevance)"
+          ],
+          "review_experience_details": "2 reviews, 0 comments (limited but focused on documentation/quality tools). Reviewed 2 PRs with clear documentation focus.",
+          "potential_limitations": "No direct evidence of contributors list completeness review experience, but JSDoc/ESLint skills imply attention to detail in documentation."
+        }
+      }
+    },
+    {
+      "pr_number": 6036,
+      "pr_title": "Account for governance and maturity stage transition",
+      "pr_author": "tobie",
+      "pr_state": "open",
+      "assigned_reviewer": "Ephigenia",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Ephigenia",
+          "match_score": 0.85,
+          "reasoning": "Strong JSDoc and ESLint expertise aligns with governance documentation accuracy needs; 2 reviews with 0 comments suggest limited but focused documentation review experience.",
+          "strengths_alignment": [
+            "JSDoc documentation expertise",
+            "ESLint code formatting awareness",
+            "Basic JavaScript modularity awareness"
+          ],
+          "review_experience": "2 reviews, 0 comments, 2 PRs reviewed (limited but focused on documentation-related tasks)",
+          "potential_concerns": "Very limited review activity (only 2 reviews total); no evidence of governance-specific documentation review"
+        },
+        {
+          "reviewer_name": "JakeerC",
+          "match_score": 0.78,
+          "reasoning": "TypeScript and Lodash expertise suggests potential for documentation clarity; 6 reviews with 3 comments show moderate activity but no direct documentation focus.",
+          "strengths_alignment": [
+            "Lodash utility function expertise (relevant for governance docs)",
+            "TypeScript awareness (useful for structured documentation)",
+            "Functional programming patterns (could aid clarity)"
+          ],
+          "review_experience": "6 reviews, 3 comments, 6 PRs reviewed (moderate activity but no direct documentation evidence)",
+          "potential_concerns": "No explicit documentation review history; focus on utility functions and testing"
+        },
+        {
+          "reviewer_name": "nickserv",
+          "match_score": 0.75,
+          "reasoning": "TypeScript and ESM expertise aligns with modern documentation standards; 3 reviews with 2 comments show focused activity but no direct governance documentation evidence.",
+          "strengths_alignment": [
+            "TypeScript expertise (useful for structured governance docs)",
+            "ES Modules (ESM) awareness (relevant for documentation clarity)",
+            "Lodash utility function knowledge (potential for governance doc accuracy)"
+          ],
+          "review_experience": "3 reviews, 2 comments, 1 PR reviewed (focused but limited activity)",
+          "potential_concerns": "No explicit documentation review history; limited review activity"
+        }
+      ],
+      "match_score": 0.85,
+      "assignment_reasoning": "Strong JSDoc and ESLint expertise aligns with governance documentation accuracy needs; 2 reviews with 0 comments suggest limited but focused documentation review experience.",
+      "assignment_confidence": "Medium",
+      "current_reviews_count": 7,
+      "pr_url": "https://github.com/expressjs/express/pull/6036",
+      "reviewer_strengths": [
+        "JSDoc documentation expertise",
+        "ESLint code formatting awareness",
+        "Basic JavaScript modularity awareness"
+      ],
+      "potential_concerns": "Very limited review activity (only 2 reviews total); no evidence of governance-specific documentation review",
+      "review_experience": "2 reviews, 0 comments, 2 PRs reviewed (limited but focused on documentation-related tasks)",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Strong JSDoc and ESLint expertise aligns with governance documentation accuracy needs; 2 reviews with 0 comments suggest limited but focused documentation review experience.",
+          "strengths_alignment": [
+            "JSDoc documentation expertise",
+            "ESLint code formatting awareness",
+            "Basic JavaScript modularity awareness"
+          ],
+          "review_experience_details": "2 reviews, 0 comments, 2 PRs reviewed (limited but focused on documentation-related tasks)",
+          "potential_limitations": "Very limited review activity (only 2 reviews total); no evidence of governance-specific documentation review"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "successful_assignments": 24,
+    "failed_assignments": 0,
+    "success_rate": 100.0,
+    "reviewer_workload_distribution": {
+      "Ephigenia": 6,
+      "armano2": 3,
+      "0xflotus": 6,
+      "JakeerC": 2,
+      "jdalton": 6,
+      "JLHwung": 1
+    },
+    "most_assigned_reviewer": "Ephigenia",
+    "average_match_score": 0.88
+  }
+}

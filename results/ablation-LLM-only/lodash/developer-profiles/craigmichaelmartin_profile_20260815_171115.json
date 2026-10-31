@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "developer_name": "craigmichaelmartin",
+    "generation_timestamp": "2026-08-15T17:07:06.431944",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "lodash"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "craigmichaelmartin",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js concurrency control",
+      "Asynchronous JavaScript debugging",
+      "Concurrent test execution",
+      "Background job synchronization"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Lodash ecosystem)"
+    ],
+    "summary": "Mid-level JavaScript developer with specialized expertise in Node.js concurrency patterns, asynchronous debugging, and test orchestration. Demonstrates strong ability to manage background job synchronization and concurrent script execution in utility library contexts. Contributions to Lodash indicate familiarity with functional programming patterns and performance-critical utility implementations. Experience primarily focused on backend systems with no visible frontend involvement. Skilled in resolving race conditions and timing issues in asynchronous workflows.",
+    "identified_skills": {
+      "Concurrency & Asynchronous Patterns": [
+        "Node.js background job execution",
+        "Foreground/background script synchronization",
+        "Concurrent test execution strategies"
+      ],
+      "Debugging & Testing": [
+        "Race condition resolution",
+        "Asynchronous timing bugs",
+        "Parallel test orchestration"
+      ],
+      "Utility Library Development": [
+        "Lodash functional utilities",
+        "Immutable data patterns",
+        "Performance-optimized utility functions"
+      ],
+      "Script Execution Control": [
+        "Synchronous vs. asynchronous execution",
+        "Script dependency management",
+        "Concurrency-aware script scheduling"
+      ],
+      "Node.js Runtime": [
+        "Event loop awareness",
+        "Worker thread patterns",
+        "Background process management"
+      ],
+      "Build System Scripting": [
+        "npm/yarn script configuration",
+        "Concurrent script execution flags"
+      ],
+      "Backend Systems": [
+        "Node.js utility library contributions"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1 title 'run tests concurrently' demonstrates knowledge of parallel test execution strategies in Node.js environments",
+      "PR #2 title 'ensure all background jobs finish before continuing' shows debugging of race conditions in asynchronous workflows",
+      "PR #3 title 'run scripts synchronous in foreground' indicates expertise in controlling script execution synchronization",
+      "All contributions to Lodash imply familiarity with functional programming patterns and utility library development",
+      "Concurrency-related PRs suggest awareness of Node.js event loop and background process management",
+      "Lack of frontend framework involvement visible in PRs confirms backend-focused specialization",
+      "PR labels and titles indicate focus on build system scripting (npm/yarn concurrent execution)",
+      "Background job synchronization fixes demonstrate deep understanding of asynchronous timing in Node.js"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "lodash"
+    ]
+  }
+}

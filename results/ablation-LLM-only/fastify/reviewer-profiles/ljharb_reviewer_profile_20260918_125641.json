@@ -1,0 +1,38 @@
+{
+  "reviewer_name": "ljharb",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 6,
+    "total_comments": 6,
+    "total_prs": 1,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "ljharb",
+    "experience_level": "N/A",
+    "primary_skills": [],
+    "programming_languages": [],
+    "summary": "The provided review data for ljharb does not contain any evidence of JavaScript technical skills or expertise. All PRs reviewed are purely documentation updates related to security best practices (OpenSSF CII Badges) with no code changes, comments, or technical discussions involving JavaScript. Without access to actual review comments, code modifications, or repository context, no JavaScript-related skills can be inferred from this dataset.",
+    "identified_skills": {
+      "Documentation": [
+        "Security Documentation",
+        "OpenSSF CII Best Practices"
+      ],
+      "Review Process": [
+        "PR Commenting"
+      ],
+      "No JavaScript Evidence": []
+    },
+    "skill_evidence": [
+      "All PRs have `files_changed: 0`, indicating no code modifications in JavaScript or related files",
+      "PR titles consistently reference 'docs(security)' without any JavaScript technical context",
+      "No review comments or technical feedback on JavaScript syntax, patterns, or frameworks",
+      "Repository context is missing, preventing assessment of JavaScript relevance to the project",
+      "OpenSSF CII Badges are security-focused documentation, not JavaScript technical content"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "Ayoub-Mabrouk",
+    "generation_timestamp": "2026-08-15T15:37:01.564642",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 16,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "Ayoub-Mabrouk",
+    "raw_response": "```json\n{\n  \"developer_name\": \"Ayoub-Mabrouk\",\n  \"experience_level\": \"Mid-Level\",\n  \"primary_skills\": [\n    \"Modern JavaScript Refactoring\",\n    \"Express.js Core Development\",\n    \"Middleware Optimization\",\n    \"ETag Generation Logic\",\n    \"Code Clarity Improvements\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\"\n  ],\n  \"summary\": \"Ayoub-Mabrouk is a Mid-Level JavaScript developer with deep expertise in Express.js core functionality. Their contributions focus on modernizing JavaScript syntax, optimizing middleware and request/response handling, and improving code readability through refactoring. Evidence from 16 PRs demonstrates strong proficiency in Express internals, particularly in ETag generation, view engine resolution, and performance-oriented optimizations. The developer consistently adopts modern JS patterns (arrow functions, destructuring, optional chaining) while maintaining backward compatibility across Express versions.\",\n  \"identified_skills\": {\n    \"JavaScript Language Features\": [\n      \"Arrow Functions\",\n      \"Destructuring Assignment\",\n      \"Optional Chaining\",\n      \"Spread/Rest Parameters\",\n      \"Const/Let Over Var\",\n      \"Ternary Operator Refactoring\",\n      \"Array Methods (map, forEach, from)\"\n    ],\n    \"Express.js Core\": [\n      \"Middleware (app.all, app.param, app.engine)\",\n      \"Request/Response Handling (req.fresh, req.is)\",\n      \"ETag Generation (createETagGenerator, compileETag)\",\n      \"View Engine (View.prototype.resolve)\",\n      \"Version-Specific Refactoring (5.x → 6.x)\"\n    ],\n    \"Code Quality Practices\": [\n      \"JSDoc Improvements\",\n      \"Redundancy Removal\",\n      \"Logic Simplification\",\n      \"Immutability Patterns\"\n    ],\n    \"Performance Optimization\": [\n      \"Micro-Optimizations\",\n      \"Built-in Method Adoption\",\n      \"Memory Efficiency\"\n    ],\n    \"GitHub Workflow\": [\n      \"PR Labeling (performance:zap)\",\n      \"Related PR Cross-Referencing\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"Replaced traditional functions with arrow functions in `createETagGenerator` and `app.all` (PRs 3, 12)\",\n    \"Used `const`/`let` consistently in `hostname` getter and `req.fresh` (PRs 3, 14)\",\n    \"Applied destructuring in `req.fresh` getter for cleaner variable declarations (PR 15)\",\n    \"Adopted optional chaining (`?.`) in `View.prototype.resolve` for safer property access (PR 6)\",\n    \"Refactored `app.all` to use spread operator and rest parameters (PR 12)\",\n    \"Replaced manual loops with `Array.map` and `Array.forEach` in `normalizeTypes` and `req.is` (PRs 4, 7)\",\n    \"Simplified ternary operators in `createETagGenerator` for improved readability (PR 3)\",\n    \"Updated JSDoc comments for type consistency in `View.prototype.resolve` and `compileETag` (PRs 5, 6)\",\n    \"Optimized `compileETag` and `req.is` by removing redundant checks (PRs 5, 7)\",\n    \"Maintained backward compatibility during Express 5.x → 6.x refactors (PRs 2, 4, 6, 7, 9, 11)\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 59 column 3 (char 2929)"
+  },
+  "statistics": {
+    "total_prs": 16,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

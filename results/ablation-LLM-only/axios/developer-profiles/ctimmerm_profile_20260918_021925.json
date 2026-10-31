@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "ctimmerm",
+    "generation_timestamp": "2026-09-18T02:11:56.231487",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "ctimmerm",
+    "raw_response": "```json\n{\n  \"developer_name\": \"ctimmerm\",\n  \"experience_level\": \"Senior\",\n  \"primary_skills\": [\n    \"JavaScript Core (Edge Cases & Legacy Support)\",\n    \"Axios HTTP Client Internals\",\n    \"Cross-Browser Compatibility (IE8)\",\n    \"JavaScript Engine Optimizations\",\n    \"Debugging & Edge Case Validation\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES5/ES6)\",\n    \"TypeScript (inferred from Axios ecosystem)\"\n  ],\n  \"summary\": \"ctimmerm is a senior-level JavaScript developer with deep expertise in core JavaScript behavior, particularly around `arguments` objects, legacy browser support (IE8), and JavaScript engine optimizations. Their contributions to Axios demonstrate strong knowledge of HTTP client internals, XHR lifecycle management, and cross-browser compatibility fixes. The developer excels in identifying and resolving subtle bugs, optimizing performance-critical code, and maintaining backward compatibility in large-scale JavaScript libraries. Their work suggests a focus on maintainability, internal tooling, and low-level JavaScript quirks rather than frontend frameworks.\",\n  \"identified_skills\": {\n    \"JavaScript Core\": [\n      \"arguments object handling\",\n      \"IE8 compatibility quirks\",\n      \"JavaScript engine optimizations\",\n      \"XHR (XMLHttpRequest) internals\",\n      \"onreadystatechange vs. onerror handling\"\n    ],\n    \"Axios-Specific\": [\n      \"custom instance configuration\",\n      \"HTTP client request lifecycle\",\n      \"XHR fallback mechanisms\",\n      \"default configuration merging\"\n    ],\n    \"Debugging & Testing\": [\n      \"cross-browser testing strategies\",\n      \"edge case validation\",\n      \"MDN documentation research\",\n      \"performance profiling\"\n    ],\n    \"Code Quality & Best Practices\": [\n      \"anti-pattern avoidance\",\n      \"performance-conscious coding\",\n      \"legacy browser polyfills\"\n    ],\n    \"Configuration & Defaults\": [\n      \"Axios instance defaults\",\n      \"custom instance initialization\"\n    ],\n    \"Browser-Specific\": [\n      \"IE8-specific fixes\",\n      \"XHR behavior differences\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR #1: 'Don't use utils.forEach to loop over arguments' — references IE8 compatibility issues with `arguments` object detection, showing deep knowledge of legacy browser quirks\",\n    \"PR #2: 'Don't call slice on arguments' — warns about JS engine optimizations being blocked, demonstrating awareness of low-level engine behavior\",\n    \"PR #3: 'Fixing missing defaults for custom instances' — indicates familiarity with Axios's internal configuration system and default merging logic\",\n    \"PR #4: 'Fixing IE8 support by bringing back onreadystatechange' — shows hands-on experience with XHR lifecycle and legacy browser error handling\",\n    \"PR #4 description mentions 'testing it in a few browsers' — evidence of cross-browser testing discipline for compatibility fixes\",\n    \"PR #1 and #2 explicitly warn against common anti-patterns, reflecting a strong focus on code quality and best practices\",\n    \"PR #2 references MDN documentation for `arguments` behavior, indicating thorough research for edge case resolution\",\n    \"All PRs involve meta-fixes (no code changes) but address critical internal optimizations, suggesting involvement in Axios's core maintainership\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 59 column 3 (char 3259)"
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

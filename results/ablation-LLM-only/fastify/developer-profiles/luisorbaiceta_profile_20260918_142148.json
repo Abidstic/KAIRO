@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "developer_name": "luisorbaiceta",
+    "generation_timestamp": "2026-09-18T13:38:24.360683",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 10,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 10
+  },
+  "profile": {
+    "developer_name": "luisorbaiceta",
+    "experience_level": "Mid",
+    "primary_skills": [],
+    "programming_languages": [],
+    "summary": "luisorbaiceta’s contributions to the Fastify repository do not demonstrate JavaScript technical skills. Their PR activity is focused on GitHub Actions workflows, documentation maintenance, and repository administration, with no evidence of JavaScript code changes or framework-specific work. While they appear familiar with the Fastify ecosystem due to repository context, their contributions lack direct technical involvement in JavaScript development. Their experience level is estimated as Mid based on administrative and workflow expertise, but this does not reflect JavaScript proficiency.",
+    "identified_skills": {
+      "GitHub Actions & CI/CD": [
+        "GitHub Actions workflows",
+        "CircleCI integration",
+        "workflow automation"
+      ],
+      "Repository Administration": [
+        "contributor management",
+        "label management",
+        "repository permissions"
+      ],
+      "Documentation": [
+        "documentation fixes",
+        "broken link resolution"
+      ],
+      "Fastify Ecosystem": [
+        "Fastify repository contributions"
+      ],
+      "JavaScript": [],
+      "Backend Frameworks": [],
+      "Testing": [],
+      "Asynchronous Programming": []
+    },
+    "skill_evidence": [
+      "PR: 'Prevent labeler from removing existing labels' — demonstrates repository administration and GitHub Actions knowledge",
+      "PR: 'Chore(Workflow): Update website.yml' — shows GitHub Actions workflow updates and CI/CD familiarity",
+      "PR: 'Fix docs broken links' — indicates documentation maintenance without JavaScript involvement",
+      "All PRs have 'files_changed: 0' — confirms no JavaScript files were modified",
+      "PRs labeled 'documentation' or 'chore' — no JavaScript-related labels or changes",
+      "Fastify repository context — implies familiarity with Fastify but no code contributions",
+      "No evidence of JavaScript file modifications in any PR — no 'languages' field populated",
+      "PRs focus on administrative tasks (e.g., 'Add Luis Orbaiceta as a contributor') — no technical JavaScript work"
+    ]
+  },
+  "statistics": {
+    "total_prs": 10,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

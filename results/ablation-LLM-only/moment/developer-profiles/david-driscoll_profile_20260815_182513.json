@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "developer_name": "david-driscoll",
+    "generation_timestamp": "2026-08-15T18:13:37.348957",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "david-driscoll",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "Type Guards",
+      "Moment.js Type Safety",
+      "JavaScript Date/Time Manipulation",
+      "Type System Design"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)"
+    ],
+    "summary": "David-driscoll is a mid-level JavaScript developer with specialized expertise in TypeScript, particularly in advanced type systems and type guards. Their contributions to Moment.js focus on enhancing type safety and clarity for date/time manipulation APIs. The developer demonstrates strong skills in designing robust type definitions and optimizing type systems for library-level use. While their contributions are confined to Moment.js and TypeScript, they show deep understanding of type narrowing, unit typing, and API design clarity. No evidence of frontend frameworks, backend systems, or broader JavaScript ecosystem involvement is observed.",
+    "identified_skills": {
+      "TypeScript Advanced Features": [
+        "Type Guards",
+        "Type Narrowing",
+        "Custom Type Definitions"
+      ],
+      "Library-Level Type Safety": [
+        "Moment.js Type Extensions",
+        "UnitOfTime Typing",
+        "DurationUnit/MomentUnit Separation"
+      ],
+      "JavaScript Date/Time": [
+        "Moment.js Internals",
+        "Date Unit Manipulation"
+      ],
+      "API Design": [
+        "Semantic Type Naming",
+        "Self-Documenting Code"
+      ],
+      "Collaboration Practices": [
+        "Feedback-Seeking PRs",
+        "Code Clarity Improvements"
+      ],
+      "No Evidence Of": [
+        "Frontend Frameworks",
+        "Backend Systems",
+        "Testing Frameworks",
+        "Build Tools",
+        "Performance Optimization"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Introduces `isMoment`, `isDate`, `isDuration` type guards for runtime type narrowing in Moment.js",
+      "PR #2: Adds `UnitOfTime` type to enforce type safety in Moment.js date unit accessors",
+      "PR #4: Splits `UnitOfTime` into `DurationUnit` and `MomentUnit` for granular type clarity, with self-documenting notes",
+      "PR titles/descriptions explicitly label contributions as TypeScript-related improvements",
+      "All PRs modify type definitions rather than runtime behavior, indicating library-level focus",
+      "PR #4 includes a note about seeking feedback on type naming, showing API design awareness",
+      "No evidence of React/Vue/Node.js/Express/etc. in PRs or repository context",
+      "Type guards demonstrated via `if (moment.isMoment(m)) { ... }` pattern in PR #1"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

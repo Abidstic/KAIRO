@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "developer_name": "icksky",
+    "generation_timestamp": "2026-09-18T02:25:08.017638",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "icksky",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript URL API debugging",
+      "Axios internals and HTTP client libraries",
+      "Environment-specific JavaScript runtime quirks",
+      "Defensive programming for edge cases",
+      "Cross-origin resource sharing (CORS) logic"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Axios ecosystem)"
+    ],
+    "summary": "icksky is a mid-level JavaScript developer with specialized expertise in debugging environment-specific bugs in HTTP client libraries like Axios. Their contributions focus on JavaScript's URL API, particularly handling edge cases where properties like `pathname` may be undefined in non-standard environments. The developer demonstrates strong debugging skills, persistent issue resolution, and deep familiarity with Axios's internal URL parsing and cross-origin validation logic. While contributions are currently limited to Axios, their work reveals a nuanced understanding of JavaScript runtime behaviors across different environments (browser vs. Node.js).",
+    "identified_skills": {
+      "JavaScript Runtime Environment": [
+        "URL object property handling",
+        "Environment-specific JavaScript quirks",
+        "Non-standard environment debugging"
+      ],
+      "HTTP Client Libraries": [
+        "Axios internals",
+        "Cross-origin validation logic",
+        "URL parsing and normalization"
+      ],
+      "Debugging Techniques": [
+        "Root-cause analysis for environment bugs",
+        "Defensive property access patterns",
+        "Issue persistence and reopening"
+      ],
+      "JavaScript Web APIs": [
+        "URL API (`URL` constructor)",
+        "Same-origin policy checks"
+      ],
+      "Collaboration Patterns": [
+        "Issue tracking and linking",
+        "Follow-up on closed PRs"
+      ],
+      "Asynchronous Patterns": [],
+      "Testing Frameworks": [],
+      "Backend Systems": [],
+      "Frontend Frameworks": [],
+      "Build Tools": [],
+      "Package Management": []
+    },
+    "skill_evidence": [
+      "PRs address `pathname` being undefined in non-standard environments, demonstrating JavaScript runtime environment debugging",
+      "All PRs reference `isURLSameOrigin` function, showing deep knowledge of Axios's cross-origin validation logic",
+      "Issue reopened (#2799) and new PR created (#2801) indicates persistent debugging of environment-specific URL handling bugs",
+      "PRs imply defensive checks for missing `pathname` property in URL objects across environments",
+      "Contributions focus exclusively on Axios, indicating specialized HTTP client library expertise",
+      "Evidence of tracking URL parsing normalization across browser and Node.js environments",
+      "No frontend framework code visible, but URL API work suggests web-focused JavaScript",
+      "PR descriptions link to related issues, showing structured issue tracking and collaboration"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

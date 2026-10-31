@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "developer_name": "zcei",
+    "generation_timestamp": "2026-09-18T02:07:08.146727",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 8,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 8
+  },
+  "profile": {
+    "developer_name": "zcei",
+    "experience_level": "Mid/Senior",
+    "primary_skills": [
+      "Modern JavaScript Module Systems (ESM, Webpack)",
+      "TypeScript API Design & Typing",
+      "Babel & Webpack Configuration",
+      "ESLint & Code Quality Enforcement",
+      "Testing & Build Optimization (Karma, Polyfills)",
+      "Dependency Migration & Utility Replacement",
+      "Backward Compatibility & API Deprecation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "Babel Transpilation Targets"
+    ],
+    "summary": "zcei is a **Mid/Senior JavaScript developer** with deep expertise in modern JavaScript tooling, particularly **ESM, Webpack, and TypeScript**. Their contributions to Axios demonstrate strong skills in **build system optimization, API design, and dependency modernization**, including migrating from CommonJS to ESM, replacing custom utilities with Lodash, and enforcing code quality via ESLint. The developer shows **careful attention to backward compatibility** and **release process alignment**, with evidence of **type system manipulation** and **test suite maintenance**. Their work spans **build configuration, testing environments, and utility libraries**, indicating a **backend-focused utility developer** with **advanced tooling proficiency**.",
+    "identified_skills": {
+      "Module Systems & Bundling": [
+        "ES Modules (ESM) Conversion",
+        "Webpack Configuration (v3)",
+        "Babel Plugin Integration",
+        "Tree-Shaking & Code Splitting"
+      ],
+      "TypeScript & API Design": [
+        "Custom Return Type Definition",
+        "Interceptor Typing Extensions",
+        "Deprecation Roadmap Documentation",
+        "Type System Manipulation"
+      ],
+      "Build System & Tooling": [
+        "Webpack Dev Server Optimization",
+        "Karma Test Runner Configuration",
+        "Polyfill Removal (IE9 Support)",
+        "Babel 7 Migration"
+      ],
+      "Code Quality & Linting": [
+        "ESLint Standard Enforcement",
+        "Autofix Rules Application",
+        "`no-var`/`prefer-const` Enforcement",
+        "Custom Rule Replacement"
+      ],
+      "Testing & Test Environments": [
+        "Test Suite Modernization",
+        "Legacy Polyfill Deprecation",
+        "Build Emission Reduction",
+        "Spec Alignment with New Interfaces"
+      ],
+      "Dependency & Utility Management": [
+        "Lodash Utility Migration (`merge`, `extend`, `forEach`)",
+        "Custom Utility Replacement",
+        "Semantic Versioning Awareness"
+      ],
+      "Release Process & Documentation": [
+        "Changelog Alignment",
+        "Deprecation Planning (`v0.x` Roadmap)",
+        "Interface Change Documentation"
+      ],
+      "Language Features & Patterns": [
+        "Modern JS Syntax (`const`, Arrow Functions)",
+        "Functional Programming (Lodash)",
+        "Immutable Patterns"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: 'Use Babel 7 & Webpack3' – Explicitly mentions 'Gets Babel into play, so that ESM is working' and 'Upgrades Webpack to v3', showing ESM/Babel/Webpack mastery",
+      "PR 2: 'ESLint Standard' – Replaces custom rules with StandardJS, enforces 'autofixes for free', and adopts `prefer-const` for immutable patterns",
+      "PR 3: 'Adjust karma to use Webpack 3 config' – Aligns test runner with production config, reduces redundant bundle emissions, and improves test environment consistency",
+      "PR 4: 'Adjust specs to work with new lib interface' – Documents deprecation of `axios()` in favor of `axios.request()`, removes `btoa` polyfill, and updates test specs for modern APIs",
+      "PR 5: 'Substitute custom utils with lodash' – Replaces internal `merge`/`extend` with Lodash, acknowledging semantic differences and demonstrating library adoption",
+      "PR 6: 'Move axios core to ESM' – Directly refactors core, defaults, and adapters to ESM, mentions 'deprecate properly in a `v0.x` release', and shows deep module resolution knowledge",
+      "PR 7: 'Allow custom return types' – Extends TypeScript typings for interceptors, demonstrating type system expertise and API design precision",
+      "PR 6: 'Finish adjustments to specs' – Further refines Lodash usage, showing iterative improvement and utility function behavior understanding"
+    ]
+  },
+  "statistics": {
+    "total_prs": 8,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

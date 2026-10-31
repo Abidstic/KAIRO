@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "developer_name": "jsumners",
+    "generation_timestamp": "2026-09-18T13:26:10.751075",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 91,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "jsumners",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify Framework",
+      "JavaScript Language Features (this binding, closures, arrow functions)",
+      "Node.js Backend Development",
+      "Plugin Architecture",
+      "Technical Documentation",
+      "Debugging & Edge Case Handling"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred, though not explicitly shown in PRs)"
+    ],
+    "summary": "jsumners is a **Senior JavaScript developer** with deep expertise in **Fastify**, specializing in backend framework internals, plugin systems, and JavaScript language nuances. Their contributions demonstrate a strong focus on **correctness, maintainability, and ecosystem health**, with a particular emphasis on debugging subtle `this` binding issues in Fastify plugins and improving documentation clarity. While primarily backend-focused, their skills in **JavaScript language features** (e.g., arrow functions, closures) and **Node.js patterns** (async logging, server configuration) make them a valuable asset for high-performance backend systems. Their work reflects **collaborative leadership** (e.g., adding PR guidelines) and **attention to detail** (e.g., alphabetizing contributor lists).",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js Server Lifecycle"
+      ],
+      "JavaScript Language": [
+        "Arrow Functions",
+        "this Binding",
+        "Closures",
+        "Object Extension"
+      ],
+      "Plugin Development": [
+        "Fastify Plugin System",
+        "Plugin Hooks",
+        "Scoped vs. Non-Scoped Plugins"
+      ],
+      "Server Configuration": [
+        "Listening Addresses",
+        "External Loggers",
+        "Reply Object Methods"
+      ],
+      "Documentation & Community": [
+        "Pull Request Guidelines",
+        "Contributor List Maintenance",
+        "Example Clarification"
+      ],
+      "Debugging": [
+        "this Context Fixes",
+        "Plugin Decorator Issues",
+        "Edge Case Handling"
+      ],
+      "Testing": [
+        "Plugin Test Patterns"
+      ],
+      "Ecosystem Management": [
+        "Fastify Plugin Catalog",
+        "Third-Party Plugin Integration"
+      ],
+      "Version Control & Tooling": [
+        "Git Workflows",
+        "Markdown Documentation"
+      ]
+    },
+    "skill_evidence": [
+      "Added support for external loggers (PR 2), demonstrating knowledge of Fastify’s logging integration and async streams.",
+      "Fixed `this` context issues in handlers (PR 18), addressing a subtle plugin decorator bug requiring deep understanding of JavaScript closures.",
+      "Corrected documentation examples for `decorateReply`/`decorateRequest` (PRs 7–8), highlighting awareness of arrow functions vs. regular functions and `this` binding.",
+      "Added `path` alias for `url` in route options (PR 4), showing API design improvements and backward-compatibility considerations.",
+      "Alphabetized contributors list (PR 12), requiring attention to Unicode sorting and metadata management.",
+      "Added pull-request guidelines (PR 10), indicating leadership in process improvement and community engagement.",
+      "Added multiple Fastify plugins to the ecosystem list (PRs 9, 11, 19), proving familiarity with plugin architecture and Fastify’s plugin system.",
+      "Allowed specifying addresses for listening (PR 5), demonstrating knowledge of Node.js server configuration and network hooks."
+    ]
+  },
+  "statistics": {
+    "total_prs": 91,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

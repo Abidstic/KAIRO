@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "developer_name": "crandmck",
+    "generation_timestamp": "2026-08-15T15:41:28.903409",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 7,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 7
+  },
+  "profile": {
+    "developer_name": "crandmck",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Express.js documentation maintenance",
+      "Technical writing for Node.js frameworks",
+      "Open-source community collaboration"
+    ],
+    "programming_languages": [
+      "JavaScript (indirect exposure via Express.js ecosystem)"
+    ],
+    "summary": "crandmck is a **mid-level contributor** specializing in **Express.js documentation and community maintenance**, with strong technical writing skills and moderate awareness of the Node.js ecosystem. Their contributions focus exclusively on improving framework documentation, security policies, and contributor guidelines—demonstrating expertise in keeping open-source projects well-documented and accessible. While their PRs do not show direct JavaScript implementation, their deep engagement with Express.js suggests familiarity with its architecture and Node.js runtime principles. Their role aligns more with **operational and community-driven tasks** than core development.",
+    "identified_skills": {
+      "Framework Documentation": [
+        "Express.js documentation updates",
+        "Security.md policy documentation",
+        "API documentation maintenance",
+        "Contributing guide improvements"
+      ],
+      "Node.js Ecosystem": [
+        "Express.js framework internals (indirect)",
+        "Node.js module system awareness",
+        "StrongLoop → Express branding transitions"
+      ],
+      "Technical Writing": [
+        "Readme.md updates",
+        "Release documentation",
+        "Minor typo and link fixes"
+      ],
+      "Open-Source Collaboration": [
+        "GitHub PR workflows",
+        "Issue triage references",
+        "Collaboration with Express maintainers"
+      ],
+      "Community Maintenance": [
+        "Repository metadata management",
+        "Contributor role guidelines",
+        "Security policy documentation"
+      ],
+      "JavaScript Runtime": [],
+      "Frontend Development": [],
+      "Testing": [],
+      "Build Tools": []
+    },
+    "skill_evidence": [
+      "PR titled 'Add security procedures/policy doc.' with changes to Security.md",
+      "PR labeled 'docs' updating Readme.md with contribution guidelines",
+      "PR referencing issue #2887 and collaborating with @jasnell (Express maintainer)",
+      "Link fixes in Express documentation (e.g., broken URLs in API docs)",
+      "Metadata updates like adding repo captains to Express repository",
+      "Minor typo correction in Contributing Guide with detailed description",
+      "Branding change PR from 'Strongloop' to 'Expressjs' in documentation",
+      "No code changes detected in any JavaScript/TypeScript files across PRs"
+    ]
+  },
+  "statistics": {
+    "total_prs": 7,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

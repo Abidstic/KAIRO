@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "developer_name": "pgilad",
+    "generation_timestamp": "2026-08-15T16:25:48.587652",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "pgilad",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery DOM manipulation",
+      "JavaScript property vs. attribute handling",
+      "Legacy JavaScript code refactoring",
+      "Git-based code maintenance"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "jQuery"
+    ],
+    "summary": "pgilad is a JavaScript developer with specialized expertise in jQuery’s DOM manipulation internals, particularly around property vs. attribute handling. Their contributions focus on code organization, refactoring, and maintaining stability in legacy JavaScript codebases. While their work demonstrates deep familiarity with jQuery’s core patterns and debugging skills, their profile does not reflect modern JavaScript (ES6+) or broader frontend/backend ecosystems. Their contributions are primarily maintenance-oriented, with a strong emphasis on semantic correctness and internal consistency in jQuery’s codebase.",
+    "identified_skills": {
+      "DOM Interaction": [
+        "jQuery property/attribute handling",
+        "DOM element property manipulation",
+        "DOM attribute vs. property semantics"
+      ],
+      "Code Maintenance": [
+        "Legacy JavaScript refactoring",
+        "Code organization and consistency",
+        "Debugging and revert workflows"
+      ],
+      "Version Control": [
+        "Git commit reverts",
+        "Branch-based development",
+        "Commit hash awareness"
+      ],
+      "Legacy Systems": [
+        "jQuery internals",
+        "ES5 JavaScript patterns",
+        "Mature library maintenance"
+      ],
+      "Testing": [],
+      "Modern JavaScript": [],
+      "Frontend Frameworks": [],
+      "Backend Systems": []
+    },
+    "skill_evidence": [
+      "PR titled 'organize prop & attr code to be similar' (multiple instances) — demonstrates deep focus on property/attribute handling in jQuery",
+      "PR referencing commit hash 'd0388e9e806ca3b30e7bbaaa1c336b7c98dc5f88' and 'compat' branch — shows Git workflow familiarity and stability-focused contributions",
+      "No code changes in files (only metadata updates) — indicates structural refactoring and maintenance work rather than new feature development",
+      "PR titled 'Fix: organize prop & attr code...' — confirms debugging and rollback of incorrect changes",
+      "All PRs in jquery repository — confirms specialization in jQuery’s DOM manipulation layer",
+      "No evidence of ES6+ syntax (e.g., arrow functions, modules) — confirms ES5-focused legacy JavaScript work",
+      "No contributions to frontend frameworks (React, Vue) or backend tools (Node.js, Express) — confirms jQuery-centric expertise"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "reviewer_name": "IamLizu",
+  "generated_at": "20260815_155647",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 9,
+    "total_comments": 0,
+    "total_prs": 9,
+    "repos": [
+      "express"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "IamLizu",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Node.js backend development",
+      "Express.js middleware & routing",
+      "Dependency management (npm/yarn/pnpm)",
+      "Testing frameworks (Mocha/Supertest)",
+      "JavaScript module systems (ESM/CJS)",
+      "Open-source governance & triage",
+      "Code refactoring & modularization"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Express ecosystem but not directly evidenced)"
+    ],
+    "summary": "IamLizu is a senior-level Node.js backend developer with deep expertise in Express.js middleware, dependency management, and open-source governance. Their reviews demonstrate strong technical depth in Node.js tooling (npm/yarn/pnpm), testing frameworks (Mocha/Supertest), and modular JavaScript code organization. They contribute significantly to Express.js and related projects, showing leadership in triage, documentation, and package stewardship. While frontend or TypeScript skills are not directly evidenced, their backend-focused contributions highlight a strong command of JavaScript runtime systems and backend web development patterns.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Express middleware",
+        "Request handling"
+      ],
+      "Node.js Runtime": [
+        "CommonJS (CJS)",
+        "ES Modules (ESM)",
+        "Dependency upgrades"
+      ],
+      "Testing": [
+        "Mocha",
+        "Supertest",
+        "Test-driven development"
+      ],
+      "Dependency Management": [
+        "npm",
+        "yarn",
+        "pnpm",
+        "semver",
+        "lockfile conflicts"
+      ],
+      "Code Organization": [
+        "Modularization",
+        "Code splitting",
+        "Module separation"
+      ],
+      "Open-Source Governance": [
+        "Triage team",
+        "Repo captains",
+        "Documentation"
+      ],
+      "DevOps & Tooling": [
+        "yarn.lock",
+        ".npmrc",
+        "CI/CD compatibility"
+      ],
+      "Code Review": [
+        "API design feedback",
+        "Middleware review",
+        "Test coverage"
+      ],
+      "Version Control": [
+        "GitHub PR workflows",
+        "CHANGES_REQUESTED reviews"
+      ]
+    },
+    "skill_evidence": [
+      "PR 'Moves compileQueryParser to separate module' - refactoring to ESM/CJS, added tests, semver-major discussion",
+      "PR 'deps: upgrade supertest' - dependency management, testing framework upgrades",
+      "PR 'chore: ignore yarn.lock file' - yarn/npm/pnpm lockfile conflicts, .npmrc configuration",
+      "PR 'req.back replaces #2692' - Express middleware property handling, linked Express PR",
+      "Review comment on yarn.lock PR - enforcing single package manager via _devEngines",
+      "PR 'docs: add @Phillip9587 to the triage team' - Express.js governance participation",
+      "PR 'Update repo captains' - ownership of Express-related packages, documentation of roles",
+      "PR 'include what is express in the README' - documentation review for onboarding"
+    ]
+  }
+}

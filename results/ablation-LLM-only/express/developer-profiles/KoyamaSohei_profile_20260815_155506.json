@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "developer_name": "KoyamaSohei",
+    "generation_timestamp": "2026-08-15T15:54:14.589155",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "KoyamaSohei",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Express.js",
+      "JavaScript Security (XSS Mitigation)",
+      "Node.js Backend Development",
+      "Open-Source Documentation Improvement"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js runtime)",
+      "Template Engines (EJS/Pug-like)"
+    ],
+    "summary": "KoyamaSohei is a mid-level JavaScript developer with specialized expertise in Express.js backend development, particularly focused on security hardening and documentation quality. Their contributions demonstrate a strong ability to identify and mitigate XSS vulnerabilities in example code, as well as a commitment to improving educational materials for Express users. While primarily backend-oriented, their work shows deep engagement with Node.js ecosystem practices and collaborative open-source contributions.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js"
+      ],
+      "Security Practices": [
+        "XSS Prevention",
+        "Input Sanitization",
+        "Privilege Elevation Defense"
+      ],
+      "Documentation & Examples": [
+        "Example Code Improvement",
+        "Beginner-Friendly Documentation",
+        "Security in Tutorials"
+      ],
+      "Problem Solving": [
+        "Issue Triage",
+        "Security Vulnerability Analysis"
+      ],
+      "Collaboration": [
+        "GitHub Issue Discussions",
+        "Maintainer Engagement"
+      ],
+      "Template Systems": [
+        "Template Engine Security"
+      ],
+      "Node.js Ecosystem": [
+        "Node.js Runtime"
+      ],
+      "Open Source Contributions": [
+        "Example Repository Maintenance"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'Fix: escape the input on example' indicates input sanitization focus in Express templates",
+      "PR description 'defend from xss' explicitly names Cross-Site Scripting mitigation as a priority",
+      "All three PRs reference GitHub Issue #3992, showing sustained engagement with security improvements",
+      "PR labeled 'examples' with note 'Most beginners implement with reference to examples' highlights documentation focus",
+      "No code changes listed but references to 'I think it would be worthwhile to improve the examples' show strategic thinking",
+      "Security-related PRs demonstrate awareness of OWASP Top 10 risks in Express.js applications",
+      "Template engine security patterns visible through XSS defense implementations in example code",
+      "Collaborative discussions in issue comments (#issuecomment-531290081) show active problem-solving approach"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

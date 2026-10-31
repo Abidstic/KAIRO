@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "developer_name": "SerayaEryn",
+    "generation_timestamp": "2026-09-18T13:36:03.052703",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 13,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 13
+  },
+  "profile": {
+    "developer_name": "SerayaEryn",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Fastify Framework",
+      "TypeScript",
+      "Node.js Backend Development",
+      "HTTP Middleware",
+      "Technical Documentation",
+      "Fastify Plugin System"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "SerayaEryn is a Mid-Level JavaScript developer with specialized expertise in Fastify, a high-performance Node.js web framework. Their contributions focus on core Fastify functionality, TypeScript integration, and documentation improvements. Evidence from 13 PRs demonstrates deep knowledge of Fastify's middleware hooks, error handling, serialization, and plugin architecture. They also contribute to Fastify's ecosystem by maintaining documentation and adding community plugins. While primarily backend-focused, their work reflects strong problem-solving skills in Node.js HTTP server internals and TypeScript type safety.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js"
+      ],
+      "TypeScript": [
+        "Type Definitions",
+        "Type-Safe Configurations"
+      ],
+      "HTTP & Middleware": [
+        "Middleware Hooks",
+        "Error Handling (422/415)",
+        "Serialization"
+      ],
+      "Plugin Development": [
+        "Class-Based Plugins",
+        "Fastify Plugin System"
+      ],
+      "Documentation": [
+        "Ecosystem Documentation",
+        "Technical Writing",
+        "Community Plugin Curation"
+      ],
+      "Problem-Solving": [
+        "Debugging Fastify Internals",
+        "Edge Case Fixes",
+        "HTTP Routing"
+      ],
+      "Community Engagement": [
+        "Team Governance",
+        "Plugin Ecosystem Contributions"
+      ],
+      "Tooling": [
+        "ESLint/Standard Linters"
+      ]
+    },
+    "skill_evidence": [
+      "Expose the default json serializer (Fastify serialization access)",
+      "Pass request to the onsend hook on 422 and 415 errors (HTTP error handling)",
+      "Improve default 404 route (Fastify routing system)",
+      "Add support for class-based plugins (Fastify plugin architecture)",
+      "Add typings for disableRequestLogging option (TypeScript type definitions)",
+      "Add fastify-compression to Ecosystem.md (plugin ecosystem contributions)",
+      "Fix typos in Server-Methods.md (technical documentation)",
+      "Update standard (ESLint/Standard linter chore)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 13,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

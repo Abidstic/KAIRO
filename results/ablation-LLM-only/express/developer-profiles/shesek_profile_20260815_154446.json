@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "shesek",
+    "generation_timestamp": "2026-08-15T15:43:57.222436",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "shesek",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Express.js internals",
+      "JavaScript prototype-based inheritance",
+      "Node.js middleware design",
+      "API configuration patterns",
+      "Legacy code cleanup"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "Node.js"
+    ],
+    "summary": "shesek is a mid-level JavaScript developer with specialized expertise in Express.js internals and core JavaScript patterns. Their contributions focus on low-level optimizations, prototype-based inheritance, and API extensibility within the Express framework. The developer demonstrates strong technical precision in handling `this` binding, response formatting, and deprecation management. While contributions are backend-focused (Node.js/Express), the absence of frontend or DevOps-related PRs suggests a concentrated specialization in backend systems and framework development.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Node.js middleware pipeline"
+      ],
+      "JavaScript Core": [
+        "prototype-based inheritance",
+        "this binding strategies",
+        "object prototype manipulation"
+      ],
+      "API Design": [
+        "configurable initialization APIs",
+        "response formatting systems"
+      ],
+      "Code Maintenance": [
+        "deprecation handling",
+        "legacy code removal"
+      ],
+      "Technical Communication": [
+        "clear PR documentation",
+        "code rationale"
+      ],
+      "Runtime Awareness": [
+        "Node.js event loop considerations"
+      ],
+      "Legacy Systems": [
+        "viewCallbacks deprecation"
+      ],
+      "Response Handling": [
+        "content negotiation",
+        "res.format() internals"
+      ]
+    },
+    "skill_evidence": [
+      "PR #2: Used `[[Prototype]]` to simplify inheritance logic in Express, demonstrating deep prototype-based inheritance knowledge",
+      "PR #4: Modified `res.format()` to bind context using `obj`, showing mastery of `this` binding in response methods",
+      "PR #1: Added dynamic configuration function to `express()`, indicating API design and extensibility expertise",
+      "PR #3: Removed obsolete `viewCallbacks` references, proving ability to audit and clean up deprecated code",
+      "PRs involve Express.js internals exclusively, confirming backend-focused specialization",
+      "No frontend frameworks or DevOps tools appear in PR descriptions or changes",
+      "PR descriptions are technical and concise, reflecting strong documentation and communication skills"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

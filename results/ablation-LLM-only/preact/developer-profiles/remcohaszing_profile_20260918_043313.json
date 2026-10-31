@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "remcohaszing",
+    "generation_timestamp": "2026-09-18T04:31:07.795036",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "remcohaszing",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "React/Preact compatibility",
+      "TypeScript generics and type inference",
+      "JSX and DOM element typing",
+      "API maintenance and cleanup",
+      "React lifecycle methods (error handling)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "remcohaszing is a frontend-focused JavaScript/TypeScript developer with specialized expertise in maintaining and refining React-compatible ecosystems, particularly Preact. Their contributions demonstrate a deep understanding of TypeScript typing systems, JSX intrinsic elements, and API alignment between React and Preact. The developer excels in code maintenance, type system optimization, and ensuring backward compatibility while cleaning up unused or redundant types. Their work is primarily focused on frontend development with no visible backend or DevOps involvement. The contributions suggest a Mid-level developer with strong technical precision in type-safe frontend architectures.",
+    "identified_skills": {
+      "Frontend Frameworks": [
+        "React compatibility",
+        "Preact",
+        "JSX intrinsic elements",
+        "React lifecycle methods"
+      ],
+      "TypeScript Advanced": [
+        "TypeScript generics",
+        "Type inference",
+        "ComponentProps typing",
+        "DOM element type mapping",
+        "Type system cleanup"
+      ],
+      "API Design & Maintenance": [
+        "API consistency alignment",
+        "Unused type removal",
+        "Error boundary handling"
+      ],
+      "Documentation & Clarity": [
+        "PR description clarity",
+        "API change justification"
+      ],
+      "Code Maintenance": [
+        "Refactoring",
+        "Type system optimization",
+        "Cleanup of redundant types"
+      ],
+      "Error Handling": [
+        "componentDidCatch",
+        "errorInfo type management"
+      ]
+    },
+    "skill_evidence": [
+      "PRs reference 'componentDidCatch' and 'errorInfo type' removal, demonstrating knowledge of React error handling lifecycle",
+      "TypeScript generics used in `ComponentProps<'button'>` and inferred from `HTMLElementTagNameMap` and `SVGElementTagNameMap`",
+      "Cleanup of unused types like `HTMLMarqueeElement` shows deliberate type system maintenance",
+      "PRs explain API differences between React and Preact, e.g., 'This parameter exists in React but not in Preact'",
+      "Inference of JSX.IntrinsicElements from DOM libraries indicates deep understanding of JSX typing in TypeScript",
+      "Contributions focus on removing redundant types and aligning Preact's API with React's equivalents",
+      "No backend or DevOps-related changes; all PRs are frontend-focused (Preact repository)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

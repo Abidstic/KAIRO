@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "developer_name": "ghost",
+    "generation_timestamp": "2026-09-17T23:19:57.913369",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "ghost",
+    "experience_level": "Junior",
+    "primary_skills": [],
+    "programming_languages": [],
+    "summary": "The GitHub activity for developer 'ghost' does not provide credible evidence of JavaScript technical skills based on the three submitted PRs. All PRs lack code changes, technical discussions, or meaningful contributions to the Chart.js repository. The contributions appear to be non-technical (e.g., meta-discussions, spam, or placeholder submissions) with no interaction with JavaScript code or frameworks. Without additional contributions or code reviews, no JavaScript expertise can be confidently assessed.",
+    "identified_skills": {
+      "JavaScript Ecosystem Awareness": [
+        "Bower",
+        "jsbin.jsfiddle"
+      ],
+      "Open-Source Workflows": [
+        "contribution guidelines",
+        "meta-discussions"
+      ],
+      "Potential Frontend Interest": [
+        "admin dashboard"
+      ],
+      "Spam or Non-Technical Contributions": []
+    },
+    "skill_evidence": [
+      "PR titled 'Auto skip last' with no code changes or technical context",
+      "PR titled 'Remove bower' referencing a deprecated package manager but no file modifications",
+      "PR titled 'admin dashboard' with no code or implementation details",
+      "All PRs have 'files_changed: 0' and empty 'languages' array",
+      "One PR labeled 'type: enhancement' with no actual code changes",
+      "One PR labeled 'spam' indicating low-quality submissions",
+      "PR descriptions include external links (jsbin, jsfiddle) but no technical discussions"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

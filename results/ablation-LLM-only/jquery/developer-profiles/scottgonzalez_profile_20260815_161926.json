@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "developer_name": "scottgonzalez",
+    "generation_timestamp": "2026-08-15T16:09:54.880691",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 16,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "scottgonzalez",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "jQuery Core Development",
+      "DOM Manipulation & Traversal",
+      "Legacy JavaScript (Pre-ES6)",
+      "Cross-Browser Compatibility (IE-Specific Fixes)",
+      "JavaScript Performance Optimization",
+      "QUnit Testing Framework",
+      "jQuery Build System & Release Processes",
+      "DOM Attribute & CSS Property Handling"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5 and earlier)",
+      "jQuery API"
+    ],
+    "summary": "scottgonzalez is a **Mid-Level JavaScript developer** with deep expertise in **jQuery’s core internals**, specializing in **DOM manipulation, animation systems, and cross-browser compatibility fixes**. Their contributions focus on **performance optimizations** (e.g., minification, dead code removal) and **legacy JavaScript patterns** (prototype-based OOP, callback-heavy code). Strong familiarity with **jQuery’s build system, QUnit testing, and IE-specific quirks** demonstrates a niche but highly specialized skill set in maintaining and improving jQuery’s pre-modular codebase. While lacking modern JavaScript (ES6+) or frontend framework experience, their work highlights **practical, hands-on expertise in optimizing and debugging large-scale legacy JavaScript libraries.",
+    "identified_skills": {
+      "DOM & CSS Manipulation": [
+        "DOM traversal optimizations",
+        "CSS property handling (actualDisplay)",
+        "Disconnected node styles",
+        "HTML attribute parsing"
+      ],
+      "jQuery Core Systems": [
+        "Animation easing functions",
+        "Selector engine optimizations",
+        "IE layout bug fixes",
+        "jQuery’s internal event handling"
+      ],
+      "Performance Optimization": [
+        "JavaScript minification (byte savings)",
+        "Dead code elimination",
+        "Unnecessary uniqueness check removal",
+        "CSS property access optimizations"
+      ],
+      "Testing & QA": [
+        "QUnit test runner configuration",
+        "Cross-browser support tests",
+        "IE-specific regression fixes"
+      ],
+      "Build System & Tooling": [
+        "jQuery release scripts",
+        "npm/Bower dependency warnings",
+        "Versioning (pre-release tags)",
+        "JSHint configuration discussions"
+      ],
+      "Legacy JavaScript Patterns": [
+        "Prototype-based OOP",
+        "Callback-heavy async patterns",
+        "IIFE-based utility functions",
+        "Pre-ES6 module patterns"
+      ],
+      "Cross-Browser Compatibility": [
+        "IE rendering quirks",
+        "Legacy browser support tests",
+        "Layout bug fixes"
+      ],
+      "Code Quality & Maintenance": [
+        "Minified build optimizations",
+        "Code golfing techniques",
+        "Legacy codebase refactoring"
+      ]
+    },
+    "skill_evidence": [
+      "\"Fix for #7148 - styles on disconnected nodes\" → DOM manipulation and IE-specific CSS handling",
+      "\"Fix IE layout bug from support tests. #12869\" → Cross-browser debugging and QUnit support tests",
+      "\"Easing: Only use the state to calculate the value\" → jQuery animation system optimizations",
+      "\"Html attr insanity\" → Deep DOM attribute parsing and HTML parsing fixes",
+      "\"Save some bytes in actualDisplay()\" → CSS property access performance optimization",
+      "\"Build: Update release script for new jquery-release API\" → jQuery build system and versioning",
+      "\"Use QUnit's URL configs to simplify custom configuration\" → QUnit test runner expertise",
+      "\"Warn on npm install if Bower isn't installed\" → Dependency management and tooling awareness"
+    ]
+  },
+  "statistics": {
+    "total_prs": 16,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

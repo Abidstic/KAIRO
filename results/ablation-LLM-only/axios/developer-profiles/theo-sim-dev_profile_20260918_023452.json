@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "theo-sim-dev",
+    "generation_timestamp": "2026-09-18T02:30:52.770039",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "theo-sim-dev",
+    "raw_response": "```json\n{\n  \"developer_name\": \"theo-sim-dev\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"HTTP client libraries (axios)\",\n    \"Node.js streams\",\n    \"Debugging asynchronous edge cases\",\n    \"Git hooks (Husky)\",\n    \"Node.js package scripts\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (inferred from axios ecosystem)\"\n  ],\n  \"summary\": \"theo-sim-dev is a mid-level JavaScript developer with specialized expertise in HTTP networking and asynchronous systems. Their contributions to the axios repository demonstrate deep knowledge of HTTP request/response streams, error handling in network requests, and debugging complex edge cases like partial responses during stream aborts. While primarily focused on backend networking, they also show proficiency with Node.js tooling (Husky, package scripts) and asynchronous JavaScript patterns. The developer's work suggests a strong ability to handle low-level HTTP protocol details and implement robust solutions for edge-case scenarios in network communication.\",\n  \"identified_skills\": {\n    \"HTTP Networking\": [\n      \"HTTP request/response streams\",\n      \"Stream abort handling\",\n      \"Partial response preservation\",\n      \"HTTP/1.1 protocol behavior\"\n    ],\n    \"Node.js Core\": [\n      \"Node.js streams (Readable/Writable)\",\n      \"Event-driven programming\",\n      \"Async/await patterns\"\n    ],\n    \"Debugging & Testing\": [\n      \"Edge-case debugging\",\n      \"Error resilience in async systems\",\n      \"Partial data handling\"\n    ],\n    \"Tooling & Automation\": [\n      \"Husky Git hooks\",\n      \"Node.js package scripts\",\n      \"Postinstall hooks\"\n    ],\n    \"Backend Systems\": [\n      \"HTTP client libraries\",\n      \"Cross-environment compatibility (browser/Node.js)\"\n    ],\n    \"Defensive Programming\": [\n      \"State preservation during aborts\",\n      \"Defensive error handling\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR title 'fix(http): preserve partial response when stream is aborted after headers' shows handling of HTTP stream aborts and partial response preservation\",\n    \"PR title 'fix(http): partial response upon stream abort' confirms expertise in HTTP/1.1 stream behavior and error resilience\",\n    \"Husky-related chore PR ('change prepare script to postinstall and add setup script') demonstrates Node.js package script and Git hook automation knowledge\",\n    \"All PRs are HTTP-focused fixes, indicating deep familiarity with axios internals and HTTP protocol details\",\n    \"Stream abort handling implies knowledge of Node.js streams and event-driven programming patterns\",\n    \"Partial response fixes suggest defensive programming to handle incomplete data gracefully\",\n    \"No frontend framework or testing framework PRs visible, confirming backend/networking specialization\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 55 column 3 (char 2780)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

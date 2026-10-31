@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "developer_name": "wonexo",
+    "generation_timestamp": "2026-09-18T14:12:19.742703",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "wonexo",
+    "experience_level": "Junior",
+    "primary_skills": [],
+    "programming_languages": [],
+    "summary": "The GitHub activity for wonexo shows no evidence of JavaScript technical skills based on the provided PR data. All contributions to the Fastify repository are strictly documentation-related, with no code changes or technical implementation work in JavaScript, TypeScript, or related frameworks. While the developer has contributed to a Node.js project, their contributions do not demonstrate hands-on coding experience or expertise in JavaScript development. Their profile is better characterized by technical documentation and community engagement rather than technical implementation.",
+    "identified_skills": {
+      "Documentation": [
+        "Technical Writing",
+        "Style Guides",
+        "Getting Started Documentation"
+      ],
+      "Node.js Ecosystem": [
+        "Fastify Framework"
+      ],
+      "Technical Communication": [
+        "PR Labels",
+        "Documentation Contributions"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'Created content for welcoming users to style guide docs' with label 'documentation'",
+      "PR titled 'Getting Started Documentation [SoD]' with label 'documentation'",
+      "All PRs have `files_changed: 0`, indicating no code modifications",
+      "No references to JavaScript, TypeScript, or framework-specific files in PR descriptions",
+      "PRs focus exclusively on documentation files (e.g., Markdown) in Fastify repo",
+      "No evidence of testing, tooling, or backend/frontend implementation in PRs"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

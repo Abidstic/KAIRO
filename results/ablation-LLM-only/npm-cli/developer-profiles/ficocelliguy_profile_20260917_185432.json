@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "ficocelliguy",
+    "generation_timestamp": "2026-09-17T18:54:32.925658",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "ficocelliguy",
+    "raw_response": "```json\n{\n  \"developer_name\": \"ficocelliguy\",\n  \"experience_level\": \"Senior\",\n  \"primary_skills\": [\n    \"Node.js CLI Development\",\n    \"npm Package Management Internals\",\n    \"JavaScript Debugging (Edge Cases)\",\n    \"Command-Line Tooling\",\n    \"Configuration Systems\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript\",\n    \"TypeScript\"\n  ],\n  \"summary\": \"ficocelliguy is a senior-level JavaScript developer with deep expertise in Node.js CLI tooling, specializing in npm's core package management system. Their contributions focus on fixing subtle bugs in npm's command-line behavior, path resolution, and package.json handling, demonstrating advanced debugging skills and a strong understanding of npm's internal logic. While contributions are limited to npm_cli, the complexity of the issues addressed (e.g., flag precedence, script execution) suggests significant backend experience with Node.js and JavaScript's asynchronous systems.\",\n  \"identified_skills\": {\n    \"npm_cli_internals\": [\n      \"npm command-line argument parsing\",\n      \"package.json save flags (--save-dev, --save-exact)\",\n      \"working directory/path resolution\",\n      \"package script execution logic\",\n      \"npm config precedence system\"\n    ],\n    \"debugging_techniques\": [\n      \"edge-case debugging in CLI tools\",\n      \"state machine analysis for npm's internal logic\",\n      \"reproducing and validating npm CLI behavior\",\n      \"flag precedence resolution\"\n    ],\n    \"javascript_nodejs\": [\n      \"asynchronous file operations\",\n      \"module system (CommonJS/ESM)\",\n      \"error handling in CLI tools\",\n      \"configuration management systems\"\n    ],\n    \"cli_tooling\": [\n      \"command-line interface design\",\n      \"user input validation for npm flags\",\n      \"interactive CLI error reporting\"\n    ],\n    \"documentation_and_triage\": [\n      \"technical issue description\",\n      \"problem reproduction steps\",\n      \"npm CLI behavior documentation\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR: 'feat(run): Optional feature to allow running package scripts without requiring 'run' command' — Demonstrates deep understanding of npm's script execution logic and CLI argument parsing\",\n    \"PR: 'fix: issue-6960 Correctly handle scenario where prefix is the current working directory' — Shows expertise in npm's path resolution and working directory handling\",\n    \"PR: 'fix: issue-5280 Ensure save flags update package.json' — Highlights knowledge of npm's flag precedence system and package.json mutation logic\",\n    \"All PRs are bug fixes targeting npm's core CLI behavior — Indicates focus on debugging complex, low-level npm internals rather than new features\",\n    \"PR descriptions include detailed explanations of npm's internal state — Suggests strong technical writing and issue triage skills\",\n    \"Issues involve subtle edge cases like flag overrides and path mismatches — Demonstrates ability to debug npm's configuration system\",\n    \"No frontend or UI-related contributions — Confirms backend/tooling specialization in Node.js ecosystem\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 55 column 3 (char 3023)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

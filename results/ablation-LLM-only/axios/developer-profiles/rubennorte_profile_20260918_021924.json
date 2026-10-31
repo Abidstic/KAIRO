@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "developer_name": "rubennorte",
+    "generation_timestamp": "2026-09-18T02:06:36.906242",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 8,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 8
+  },
+  "profile": {
+    "developer_name": "rubennorte",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Axios HTTP client internals",
+      "Promise-based asynchronous programming",
+      "HTTP adapter design and implementation",
+      "Error handling and debugging",
+      "Configuration management and refactoring",
+      "TypeScript/JavaScript backend development",
+      "Dependency integration and agent-based HTTP",
+      "Documentation and contributor experience improvements"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "rubennorte is a Senior JavaScript developer with deep expertise in HTTP client architecture, particularly within the Axios ecosystem. Their contributions focus on asynchronous programming, adapter design, error handling, and configuration management. They demonstrate strong skills in refactoring API surfaces, improving debugging experiences, and enhancing contributor onboarding through documentation and templates. The developer's work is primarily backend-focused, specializing in Node.js environments and Promise-based networking patterns.",
+    "identified_skills": {
+      "HTTP Client Architecture": [
+        "Axios adapter patterns",
+        "HTTP request/response cycles",
+        "Redirect handling and state management",
+        "Agent-based HTTP configurations"
+      ],
+      "Asynchronous Programming": [
+        "Promise-based APIs",
+        "Async/await patterns",
+        "Error propagation in async flows"
+      ],
+      "Error Handling & Debugging": [
+        "Enhanced error messages",
+        "Request context in errors",
+        "Global default error configurations"
+      ],
+      "Configuration & API Design": [
+        "Config option refactoring",
+        "Global defaults management",
+        "API surface simplification"
+      ],
+      "Dependency Integration": [
+        "Third-party HTTP libraries (follow-redirects)",
+        "Agent injection (httpAgent, httpsAgent)",
+        "Module interaction patterns"
+      ],
+      "Documentation & DevEx": [
+        "README updates",
+        "Issue/PR templates",
+        "Contributor onboarding improvements"
+      ],
+      "Testing (Inferred)": [
+        "Behavioral change testing",
+        "Error message validation",
+        "Redirect state verification"
+      ],
+      "TypeScript/JavaScript": [
+        "ES6+ module systems",
+        "TypeScript-first development"
+      ]
+    },
+    "skill_evidence": [
+      "PR 2: Adapter signature changed to receive config and return promises, demonstrating deep Promise-based async understanding",
+      "PR 6: Agents (httpAgent/httpsAgent) passed to follow-redirects, showing agent-based HTTP configuration expertise",
+      "PR 1: Enhanced adapter errors with config objects, proving strong error handling and debugging skills",
+      "PR 5: Last request included in axios response, requiring careful state management during redirects",
+      "PR 3: Replaced 'agent' option with httpAgent/httpsAgent, indicating dependency integration and configuration refactoring",
+      "PR 7: Underlying request included in errors, improving debugging with concrete evidence from PR description",
+      "PR 4: Default adapter moved to global defaults, showing configuration management and API design focus",
+      "PR 8: Added issue/PR templates, demonstrating commitment to contributor experience and documentation"
+    ]
+  },
+  "statistics": {
+    "total_prs": 8,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

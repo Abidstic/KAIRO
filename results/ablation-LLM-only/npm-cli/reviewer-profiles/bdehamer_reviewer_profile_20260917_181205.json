@@ -1,0 +1,72 @@
+{
+  "reviewer_name": "bdehamer",
+  "generated_at": "20260917_181205",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 2,
+    "total_prs": 4,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "bdehamer",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "npm internals",
+      "Sigstore/TUF security tools",
+      "Dependency management and auditing",
+      "Node.js CLI tooling",
+      "Software Bill of Materials (SBOM)"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js runtime)",
+      "TypeScript (inferred from Sigstore ecosystem)"
+    ],
+    "summary": "bdehamer is a highly specialized Node.js backend engineer with deep expertise in npm internals, dependency security, and Sigstore/TUF-based tooling. Their reviews focus on backend infrastructure, CLI extensions, and secure dependency workflows rather than frontend development or general JavaScript patterns. The reviewer demonstrates strong technical depth in npm's execution model, virtual workspaces, and security-related dependency resolution, suggesting senior-level experience in Node.js ecosystem tooling and DevSecOps practices.",
+    "identified_skills": {
+      "Node.js Backend Infrastructure": [
+        "npm CLI internals",
+        "package-lock.json modes",
+        "virtual workspaces (execWorkspaces)",
+        "npm exec and execWorkspaces differentiation"
+      ],
+      "Dependency Security": [
+        "npm audit tooling",
+        "Sigstore (cosign, tuf)",
+        "TUF key fetching error handling",
+        "SBOM dependency deduplication"
+      ],
+      "DevSecOps Practices": [
+        "Software Bill of Materials (SBOM)",
+        "Dependency supply chain security",
+        "Cryptographic verification workflows"
+      ],
+      "CLI Tooling": [
+        "npm query/audit command extensions",
+        "custom npm flags (--package-lock-only)",
+        "dependency resolution debugging"
+      ],
+      "JavaScript Ecosystem": [
+        "Node.js runtime features",
+        "npm package management"
+      ],
+      "Code Review Patterns": [
+        "Security-focused approvals",
+        "Infrastructure-level feedback",
+        "Minimal frontend/language-level comments"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1 ('add package-lock modes to query and audit') - reviewed npm's exec/execWorkspaces inconsistency, demonstrating deep CLI internals knowledge",
+      "PR #1 comment on 'loadVirtual' selective application - highlighted logical gaps in npm's execution model",
+      "PR #2 ('deps: bump sigstore from 2.2.0 to 3.0.0') - approved Sigstore dependency update without review comments, indicating security confidence",
+      "PR #3 ('fix(sbom): deduplicate sbom dependencies') - approved SBOM optimization without detailed code review, showing ecosystem familiarity",
+      "PR #4 ('fix: warn when TUF fetching of keys fails') - approved cryptographic key fetching error handling, proving TUF protocol understanding",
+      "No frontend framework (React/Vue/etc.) PRs or comments - confirms backend specialization",
+      "No general JavaScript syntax/pattern discussions - focuses exclusively on tooling and infrastructure"
+    ]
+  }
+}

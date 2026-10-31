@@ -1,0 +1,56 @@
+{
+  "reviewer_name": "PriyaBihani",
+  "generated_at": "20260815_171336",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 4,
+    "total_prs": 1,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "PriyaBihani",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript Internationalization (i18n)",
+      "Locale-specific formatting",
+      "Code review for localization features"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "PriyaBihani demonstrates **mid-level expertise in JavaScript internationalization (i18n)**, particularly in locale-specific formatting (e.g., Hindi locale handling). Their reviews focus on bug fixes related to formatting and localization, though the lack of visible review comments or file changes limits deeper technical assessment. The evidence strongly suggests familiarity with JavaScript's Intl API or similar libraries (e.g., i18next) but does not provide insights into broader JavaScript frameworks or backend systems. Experience level is inferred as mid-level due to the repetitive nature of PRs and the specificity of the i18n focus.",
+    "identified_skills": {
+      "Internationalization & Localization": [
+        "Locale-specific formatting",
+        "Hindi (hi) locale support",
+        "Intl API usage",
+        "i18n framework familiarity"
+      ],
+      "Code Review & Quality": [
+        "Bugfix review for localization",
+        "Standalone formatting validation"
+      ],
+      "JavaScript Core": [
+        "ES6+ syntax awareness"
+      ],
+      "Backend/Utility": [],
+      "Frontend Frameworks": [],
+      "Testing & Debugging": [],
+      "Build Tools & Tooling": [],
+      "Asynchronous Programming": []
+    },
+    "skill_evidence": [
+      "PR title repeatedly mentions 'hi locale' indicating Hindi localization focus",
+      "All PRs labeled 'bugfix' suggest experience in debugging locale/formatting issues",
+      "Review state 'COMMENTED' implies active participation in localization-related discussions",
+      "Term 'format' in PR titles suggests familiarity with JavaScript's Intl API or similar libraries",
+      "Standalone formatting references imply working with locale-aware formatting utilities",
+      "No visible file changes or review comments prevent deeper technical assessment",
+      "Repository context missing (no repo metadata) limits framework/environment inference"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "jeremy-coleman",
+    "generation_timestamp": "2026-09-18T04:22:23.376913",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "jeremy-coleman",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "React/Preact Component Development",
+      "TypeScript for JavaScript Libraries",
+      "JSX and Prop-Driven Architecture",
+      "React Hooks and Error Boundaries",
+      "React Suspense Implementation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "JSX"
+    ],
+    "summary": "Mid-level JavaScript developer with specialized expertise in React/Preact ecosystem development. Strong proficiency in TypeScript type definitions and React-like component patterns, including Suspense, error boundaries, and prop-driven architectures. Contributions focus on extending Preact’s compatibility with React APIs while maintaining lightweight performance characteristics. Experience with debugging utilities and code organization in frontend libraries.",
+    "identified_skills": {
+      "React_Preact_Component_Development": [
+        "SuspenseList component implementation",
+        "Error boundary integration",
+        "Prop forwarding and debugging utilities"
+      ],
+      "TypeScript_Extensions": [
+        "React-specific type definitions (useErrorBoundary, SuspenseList)",
+        "Declaration file (.d.ts) maintenance",
+        "Type compatibility with React APIs"
+      ],
+      "JSX_and_Component_Patterns": [
+        "JSX-like syntax in Preact",
+        "Prop-driven state management",
+        "Component composition and lifecycle"
+      ],
+      "React_Hooks_and_Advanced_Rendering": [
+        "useErrorBoundary hook support",
+        "Suspense-based concurrency patterns",
+        "React DevTools debugging patterns"
+      ],
+      "Code_Organization_and_Documentation": [
+        "Folder structure for CSS types/shims",
+        "WIP discussions for API design",
+        "Modular code contributions"
+      ],
+      "JavaScript_ES6_Features": [
+        "Arrow functions",
+        "Destructuring",
+        "Modules"
+      ],
+      "Library_Development": [
+        "Preact compatibility layer",
+        "React-is WIP integration"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'adding suspenselist component' – Implemented React-like SuspenseList in Preact, demonstrating deep understanding of React’s concurrency model and JSX rendering.",
+      "PR: 'update preact/compat types' – Added TypeScript types for useErrorBoundary and SuspenseList, showing expertise in type compatibility between React and Preact.",
+      "PR: 'pass through props on debugger' – Modified debugger utilities to forward props, indicating familiarity with React DevTools and prop-driven architectures.",
+      "PR: 'added css types and shims folder(react-is WIP for discussion)' – Organized code for CSS type shims and initiated discussions on React-is integration, reflecting collaborative problem-solving.",
+      "TypeScript declaration updates in preact/compat/index.d.ts – Extended type definitions to support React-specific APIs, proving strong TypeScript skills in library contexts.",
+      "WIP comments in PRs – Demonstrated iterative refinement and engagement in API design discussions within the Preact community.",
+      "JSX-like syntax in component implementations – Confirmed experience with JSX and React/Preact’s virtual DOM rendering mechanics."
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

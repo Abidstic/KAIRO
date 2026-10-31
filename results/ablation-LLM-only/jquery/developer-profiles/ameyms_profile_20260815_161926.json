@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "ameyms",
+    "generation_timestamp": "2026-08-15T16:18:07.074488",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "ameyms",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "jQuery Core Optimization",
+      "JavaScript Performance Tuning",
+      "ES5 Compatibility & Polyfills",
+      "Unit Testing (jQuery Test Suite)",
+      "Legacy Code Maintenance",
+      "Array Method Mastery (filter/grep/merge)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "jQuery"
+    ],
+    "summary": "ameyms is a **Senior JavaScript developer** specializing in **optimizing and maintaining legacy jQuery codebases**. With deep expertise in **performance tuning, ES5 compatibility, and unit testing**, they have contributed critical improvements to jQuery’s core array methods (grep, filter, merge) and deprecated API cleanup. Their work focuses on **micro-optimizations** (byte-level savings, native method adoption) and **test-driven development**, ensuring robustness in older browser environments. While their contributions are **ES5-focused**, their **legacy code maintenance** and **build tooling awareness** (e.g., Grunt.js) highlight their ability to work with mature, large-scale JavaScript projects.",
+    "identified_skills": {
+      "Library Core Optimization": [
+        "jQuery Array Methods (grep, filter, merge)",
+        "jQuery Deferred API Deprecation",
+        "jQuery 2.x ES5 Optimization"
+      ],
+      "Performance Engineering": [
+        "Byte-Level Code Size Reduction",
+        "Native Array Method Adoption (filter vs. grep)",
+        "Type Check Optimization (typeof → + operator)"
+      ],
+      "Testing & Quality Assurance": [
+        "Unit Test Expansion (Array Operations)",
+        "Edge Case Testing (Sparse Arrays, Empty Inputs)",
+        "Deprecation Readiness Testing"
+      ],
+      "Legacy Code Maintenance": [
+        "Deprecated API Removal (Deferred.pipe)",
+        "IE-Specific Code Elimination",
+        "Versioned Feature Cleanup"
+      ],
+      "Build & Tooling": [
+        "Grunt.js Automation (Copyright Updates)",
+        "ES5 Polyfill Strategy"
+      ],
+      "JavaScript Fundamentals": [
+        "ES5 Array Prototypes (filter, map, reduce)",
+        "Browser Compatibility Patterns",
+        "Manual Loop vs. Native Method Trade-offs"
+      ],
+      "Documentation & Planning": [
+        "Deprecation Roadmap Discussions",
+        "Version-Specific Cleanup (jQuery 2.1)"
+      ]
+    },
+    "skill_evidence": [
+      "PR #14313: Reduced jQuery’s code size by 22 bytes via simplified condition check (Performance Engineering)",
+      "PR #14332: Replaced custom grep with native Array.prototype.filter for ES5 compatibility (Library Core Optimization)",
+      "PR #14325: Added 7 unit tests for jQuery.grep() covering edge cases (Testing & Quality Assurance)",
+      "PR #14358: Proposed removal of deprecated Deferred.pipe API (Legacy Code Maintenance)",
+      "PR #14332: Noted ES5-only optimizations for jQuery 2.x (ES5 Polyfill Strategy)",
+      "PR #14360: Mentioned copyright year updates via Grunt script (Build & Tooling)",
+      "PR #14313: Eliminated typeof checks in favor of + operator for byte savings (Performance Engineering)",
+      "PR #14358: Discussed candidate removal in jQuery 2.1, indicating versioned planning (Documentation & Planning)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "developer_name": "DanKaplanSES",
+    "generation_timestamp": "2026-09-17T18:33:00.980272",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 10,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 10
+  },
+  "profile": {
+    "developer_name": "DanKaplanSES",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "npm CLI documentation",
+      "Node.js package management",
+      "JavaScript package ecosystem",
+      "Technical writing for developer tools"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js runtime awareness)"
+    ],
+    "summary": "DanKaplanSES is a mid-level contributor specializing in npm CLI documentation with deep expertise in Node.js package management and JavaScript ecosystem behaviors. Their contributions focus exclusively on clarifying npm's configuration, dependency resolution, and script execution behaviors, demonstrating strong technical writing skills and indirect knowledge of Node.js runtime interactions. While there is no evidence of direct JavaScript coding contributions, their work reveals nuanced understanding of npm's internals and JavaScript package management patterns. The profile reflects a documentation specialist with moderate Node.js ecosystem knowledge rather than a general JavaScript developer.",
+    "identified_skills": {
+      "Package Management Systems": [
+        "npm CLI",
+        "package.json schema",
+        "npm config system",
+        "dependency resolution",
+        "local vs. remote package publishing"
+      ],
+      "Node.js Runtime": [
+        "--node-arg handling",
+        "npm run script execution",
+        "Node.js configuration interaction"
+      ],
+      "Semantic Versioning": [
+        "caret (^) dependency behavior",
+        "version range interpretation"
+      ],
+      "Documentation Practices": [
+        "technical writing for developer tools",
+        "ambiguity resolution in docs",
+        "typos and redundant phrasing correction"
+      ],
+      "Scripting Systems": [
+        "npm run scripts",
+        "script execution environments",
+        "alternative command invocation"
+      ],
+      "Configuration Systems": [
+        "npm config set/get",
+        "runtime argument passing"
+      ],
+      "JavaScript Ecosystem": [
+        "package.json metadata",
+        "dependency versioning conventions"
+      ],
+      "Testing and QA": [],
+      "Frontend Frameworks": [],
+      "Backend Frameworks": [],
+      "Build Tools": [],
+      "TypeScript": [],
+      "Asynchronous Programming": [],
+      "Performance Optimization": []
+    },
+    "skill_evidence": [
+      "PR: 'docs(package-json): Reword warning about publishing local dependencies' - Clarified npm's behavior for local package publishing, demonstrating deep understanding of dependency resolution",
+      "PR: 'docs(update): Fix a typo and remove unneeded statement' - Corrected documentation about caret (^) dependencies, showing SemVer knowledge",
+      "PR: 'npx.md: give alternative to --node-arg since it was removed' - Updated docs reflecting Node.js runtime argument handling changes",
+      "PR: 'Docs: --install-links clarifications' - Explained npm's dependency installation behavior, revealing internals knowledge",
+      "PR: 'docs: Rename 'command' to 'script'' - Clarified npm run script execution terminology, showing scripting system awareness",
+      "PR descriptions consistently reference npm config system and package.json metadata, proving configuration system expertise",
+      "All PRs involve fixing ambiguous or incorrect documentation about npm's CLI behavior, demonstrating technical writing precision"
+    ]
+  },
+  "statistics": {
+    "total_prs": 10,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

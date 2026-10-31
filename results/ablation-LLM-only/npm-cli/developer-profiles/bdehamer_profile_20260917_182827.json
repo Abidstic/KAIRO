@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "developer_name": "bdehamer",
+    "generation_timestamp": "2026-09-17T18:22:43.246682",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 31,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "bdehamer",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Node.js internals",
+      "npm CLI development",
+      "Software Supply Chain Security (SLSA, Sigstore, TUF)",
+      "Provenance & transparency logs",
+      "Dependency management in Node.js",
+      "CLI tooling and feature extension",
+      "Debugging complex publishing logic"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)",
+      "TypeScript (inferred from npm ecosystem)"
+    ],
+    "summary": "bdehamer is a **Senior JavaScript/Node.js engineer** with deep expertise in **npm CLI internals, supply chain security, and provenance systems**. Their contributions focus on **enhancing npm's security features** (SLSA compliance, Sigstore integration, TUF transparency logs) and **improving package publishing workflows**. With 31 PRs in the `npm_cli` repository, they demonstrate **strong debugging, dependency management, and CLI feature development skills**, particularly around **provenance statements and cryptographic signing**. Their work bridges **Node.js core systems** with **modern supply chain security practices**, making them a specialized contributor in **secure package distribution ecosystems**.",
+    "identified_skills": {
+      "Node.js Core & Package Management": [
+        "npm CLI internals",
+        "libnpmpublish module",
+        "package publishing logic",
+        "dependency upgrades (sigstore)",
+        "CLI command execution"
+      ],
+      "Supply Chain Security": [
+        "SLSA 1.0 provenance statements",
+        "Sigstore cryptographic signing",
+        "TUF (The Update Framework)",
+        "Rekor transparency logs",
+        "provenance build types",
+        "supply chain integrity checks"
+      ],
+      "CLI Development": [
+        "new CLI flag additions (--provenance-file)",
+        "error handling improvements",
+        "permission error fixes",
+        "user-facing CLI enhancements"
+      ],
+      "Debugging & Testing": [
+        "boolean logic fixes in libnpmpublish",
+        "test mock updates for dependency changes",
+        "debugging public package checks"
+      ],
+      "Versioning & Dependencies": [
+        "semantic versioning (sigstore@1.1.0 → 1.7.0)",
+        "transitive dependency management",
+        "dependency conflict resolution"
+      ],
+      "Documentation & Transparency": [
+        "transparency log URL updates",
+        "Rekor search UI integration",
+        "supply chain documentation fixes"
+      ],
+      "Asynchronous JavaScript Patterns": [
+        "async/await in npm CLI operations"
+      ]
+    },
+    "skill_evidence": [
+      "feat: add --provenance-file flag for publish command (CLI feature extension)",
+      "fix: public package check in libnpmpublish (core publishing logic debugging)",
+      "feat: SLSA 1.0 provenance statement (SLSA compliance implementation)",
+      "deps: sigstore@1.7.0 (dependency upgrade and security tool integration)",
+      "fix: provenance build type v2 (provenance statement updates)",
+      "fix: retrieve registry keys via TUF (TUF protocol integration)",
+      "chore: update libnpmpublish mocks for sigstore@1.2.0 (test dependency updates)",
+      "fix: update provenance transparency log link (documentation/transparency fixes)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 31,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "jeffcarey",
+    "generation_timestamp": "2026-09-17T23:18:18.399836",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "jeffcarey",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Canvas-based rendering (Chart.js)",
+      "Frontend UI/UX layout adjustments",
+      "Build optimization (Gulp.js)",
+      "Dependency management (npm)",
+      "Data visualization tooling"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Chart.js ecosystem)"
+    ],
+    "summary": "jeffcarey is a Mid-level JavaScript developer with specialized expertise in frontend data visualization (Chart.js) and build optimization (Gulp.js). Their contributions focus on precision-oriented improvements—fixing UI alignment issues in canvas-based charts and upgrading build tools for performance gains. The work demonstrates strong frontend JavaScript skills in rendering, layout, and tooling, with an emphasis on maintainability and incremental stability improvements. While contributions are minimal in quantity, the impact and domain-specific focus (e.g., chart legend alignment) indicate deep technical proficiency in visualization tooling and build systems.",
+    "identified_skills": {
+      "Frontend Rendering": [
+        "Canvas text alignment",
+        "DOM/Canvas layout adjustments",
+        "Legend text padding configuration"
+      ],
+      "Data Visualization": [
+        "Chart.js library internals",
+        "Interactive chart UI/UX fixes",
+        "Responsive visualization rendering"
+      ],
+      "Build Tooling": [
+        "Gulp.js task optimization",
+        "Dependency upgrades (gulp-uglify)",
+        "Build performance profiling"
+      ],
+      "JavaScript Language": [
+        "Object property manipulation",
+        "Configuration-driven logic",
+        "ES6+ module systems (inferred)"
+      ],
+      "Performance Engineering": [
+        "Build time reduction (2-second improvement)",
+        "Toolchain optimization",
+        "Quantitative impact analysis"
+      ],
+      "Infrastructure & DevOps": [
+        "Infrastructure-focused PRs",
+        "Package versioning",
+        "Toolchain maintenance"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed vertical alignment in legend text (#3387) by adjusting labelOpts.padding, demonstrating canvas text rendering expertise",
+      "PR labeled 'type: infrastructure' (#3) for dependency upgrades, showing focus on tooling stability",
+      "Upgraded gulp-uglify to v2.0.0 (#2) to reduce build times by ~2 seconds, proving performance optimization skills",
+      "All PRs involve Chart.js, indicating deep knowledge of its rendering engine and UI components",
+      "PR descriptions quantify impact (e.g., 'cuts gulp build times'), highlighting attention to measurable outcomes",
+      "No raw code changes visible, but context implies familiarity with Chart.js's internal object configurations",
+      "Dependency upgrades suggest experience with npm/yarn package ecosystems and versioning",
+      "Focus on small, targeted fixes (e.g., legend alignment) rather than broad feature development"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

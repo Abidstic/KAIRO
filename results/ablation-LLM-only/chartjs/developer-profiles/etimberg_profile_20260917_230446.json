@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "developer_name": "etimberg",
+    "generation_timestamp": "2026-09-17T22:42:06.770748",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 581,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "etimberg",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "JavaScript (ES5/ES6)",
+      "Charting Algorithm Design",
+      "Prototype-Based JavaScript",
+      "Mathematical Calculations for Visualization",
+      "Cross-Browser Testing",
+      "Debugging & Error Handling",
+      "Frontend Data Visualization Libraries"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript (inferred from modern JS patterns)"
+    ],
+    "summary": "etimberg is a Senior JavaScript developer with deep expertise in frontend data visualization, particularly through extensive contributions to Chart.js. Their work demonstrates strong proficiency in mathematical calculations for charting (angles, scaling, padding), debugging complex edge cases (division-by-zero, NaN handling), and architectural refactoring of large-scale JavaScript libraries. Their contributions span core charting mechanics, cross-browser compatibility, and collaborative code improvements, positioning them as an expert in visualization algorithm design and prototype-based JavaScript systems.",
+    "identified_skills": {
+      "Core JavaScript Patterns": [
+        "Prototype-based inheritance",
+        "Method overriding",
+        "Object extension techniques"
+      ],
+      "Mathematical & Geometric Calculations": [
+        "Trigonometric angle calculations",
+        "Coordinate system transformations",
+        "Value width/padding algorithms"
+      ],
+      "Charting Library Architecture": [
+        "Scale system refactoring",
+        "Chart type-specific optimizations",
+        "Nested configuration objects",
+        "Version migration (v1 → v2)"
+      ],
+      "Error Handling & Debugging": [
+        "Division-by-zero fixes",
+        "NaN/undefined state resolution",
+        "Boundary condition validation"
+      ],
+      "Cross-Browser Testing": [
+        "Manual testing across browsers/OSes",
+        "Canvas rendering consistency checks",
+        "Event handling quirk resolution"
+      ],
+      "Collaboration & Code Quality": [
+        "PR merge coordination",
+        "Rebase conflict resolution",
+        "Reviewer feedback integration"
+      ],
+      "Frontend Rendering": [
+        "HTML5 Canvas API usage",
+        "2D rendering context operations",
+        "Coordinate-to-pixel mapping"
+      ],
+      "Testing Practices": [
+        "Edge-case validation",
+        "Manual demo verification"
+      ]
+    },
+    "skill_evidence": [
+      "Fixes division-by-zero errors in scale calculations: 'Line graphs with a single label do not display correctly'",
+      "Refactors scale system for v2.0: 'Scale rewrite for v2.0' with nested configuration objects",
+      "Addresses NaN issues in polar area charts: 'When the dataset scale is not displaying, set the padding correctly'",
+      "Implements angle calculation fixes: 'Fix the angle calculation for slice detection in polar area charts'",
+      "Coordinates cross-browser testing: JSBin demo tested on Firefox, Chrome, Safari, Android/iOS",
+      "Collaborates on major architecture changes: 'This is work by @tannerlinsley and I' for nested configs",
+      "Debugs rendering quirks: 'Improve the rendering of negative values in the bar chart'",
+      "Handles edge cases: 'Only skip when the data is null, not when it is not a number' (jshint warning fix)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 581,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

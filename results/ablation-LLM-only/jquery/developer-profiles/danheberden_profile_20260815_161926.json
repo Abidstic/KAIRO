@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "developer_name": "danheberden",
+    "generation_timestamp": "2026-08-15T16:10:44.664458",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 13,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 13
+  },
+  "profile": {
+    "developer_name": "danheberden",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "jQuery Core Development",
+      "DOM Manipulation & Querying",
+      "AJAX & HTTP Methods",
+      "JSON Parsing & Data Handling",
+      "Cross-Browser Compatibility (IE-Specific Fixes)",
+      "Performance Optimization",
+      "JavaScript Language Features",
+      "Testing & Backward Compatibility"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "CSS (for `.css()` method)"
+    ],
+    "summary": "danheberden is a senior JavaScript developer with deep expertise in jQuery core development, specializing in DOM manipulation, AJAX, JSON handling, and cross-browser compatibility. Their contributions focus on performance optimization, fixing IE-specific bugs, and maintaining backward compatibility. The developer demonstrates strong debugging skills, RFC compliance (e.g., HTTP method standards), and a commitment to clean, maintainable code. While their contributions are jQuery-centric, their foundational knowledge of JavaScript language features, asynchronous operations, and browser quirks makes them highly adaptable to other JavaScript ecosystems.",
+    "identified_skills": {
+      "DOM & Browser APIs": [
+        "jQuery Core Selectors (.get(), .eq())",
+        "Event Delegation & Bubbling",
+        "Disabled Element Event Handling (IE)",
+        "CSS Property Manipulation (.css())",
+        "Direct DOM Access Optimization"
+      ],
+      "Asynchronous & Networking": [
+        "jQuery AJAX Method Flexibility",
+        "HTTP Method Normalization (RFC 2616)",
+        "Backward-Compatible AJAX Syntax"
+      ],
+      "Data Processing": [
+        "JSON Parsing Optimization (.parseJSON())",
+        "Native JSON.parse() Fallback",
+        "Type Checking Extensions (.type())"
+      ],
+      "Performance Engineering": [
+        "Slice() Avoidance in Array Methods",
+        "Performance Benchmarking (jsperf.com)",
+        "Native Method Fallbacks"
+      ],
+      "Cross-Browser & Legacy Support": [
+        "IE-Specific Bug Fixes",
+        "Unicode/UTF-8 Compatibility Awareness",
+        "RFC-Compliant HTTP Methods"
+      ],
+      "Testing & Validation": [
+        "Test Case Addition (delegatetest.html)",
+        "Backward Compatibility Testing",
+        "Error Handling Improvements"
+      ],
+      "Code Quality & Standards": [
+        "Style Guideline Reformatting",
+        "Volatile Fix Rejection (Unicode Hack)",
+        "Upstream Sync Awareness"
+      ],
+      "Debugging & Problem-Solving": [
+        "IE Event Delegation Debugging",
+        "Performance Bottleneck Analysis",
+        "RFC Research (HTTP Method Case)"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed `.get()` and `.eq()` to avoid `slice()` for performance (PR title: '`.get()` and `.eq()` changes')",
+      "Resolved IE disabled elements firing events via `live()`/`delegate()` (Bug #6911)",
+      "Made `.ajax()` support all historical calling conventions (1.4/1.5) (Bug #8107)",
+      "Added support for explicit/relative CSS string values (e.g., `element.css('margin', '+10px')`) (Bug #7345)",
+      "Optimized `.parseJSON()` to use native `JSON.parse()` where available (Bug #7587)",
+      "Rejected a Unicode hack due to locale issues, prioritizing stability (Make fix 2)",
+      "Added test cases for delegated events in `delegatetest.html` (Bug #6911)",
+      "Noted missing upstream sync in PR #2 of Bug #8107 ('Try #2')",
+      "Referenced RFC 2616 for HTTP method casing in Bug #8113",
+      "Reformatted code to match jQuery style guidelines (PR #3: 'Reformatted inline')"
+    ]
+  },
+  "statistics": {
+    "total_prs": 13,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

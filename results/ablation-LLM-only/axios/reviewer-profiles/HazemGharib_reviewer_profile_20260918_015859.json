@@ -1,0 +1,44 @@
+{
+  "reviewer_name": "HazemGharib",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 0,
+    "total_prs": 2,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "HazemGharib",
+    "experience_level": "Unknown",
+    "primary_skills": [],
+    "programming_languages": [],
+    "summary": "The provided GitHub review data for HazemGharib is insufficient to assess JavaScript expertise. Only two PRs are visible, both non-technical (security fix and release) with no code changes, descriptions, or comments related to JavaScript. No evidence of reviewing JavaScript files, frameworks, or language-specific patterns exists in the available dataset. A meaningful analysis requires access to full review history including PR descriptions, review comments, and file changes.",
+    "identified_skills": {
+      "Security": [],
+      "Dependency Management": [],
+      "Release Processes": [],
+      "JavaScript": [],
+      "Code Review": [],
+      "Backend Frameworks": [],
+      "Frontend Frameworks": [],
+      "Testing": [],
+      "Asynchronous Programming": [],
+      "Error Handling": [],
+      "API Design": [],
+      "State Management": [],
+      "Performance Optimization": []
+    },
+    "skill_evidence": [
+      "PR title: 'Fix Critical Security Vulnerability in form-data Dependency' (no JS code changes visible)",
+      "PR title: '[Release] v1.11.0' (no JavaScript-related release notes or changes)",
+      "No visible review comments or descriptions related to JavaScript syntax, patterns, or frameworks",
+      "No JavaScript files (e.g., .js, .jsx, .ts) modified or reviewed in either PR",
+      "No labels or tags indicating JavaScript, frontend, or backend focus",
+      "No evidence of technical feedback on JavaScript code structure, performance, or correctness"
+    ]
+  }
+}

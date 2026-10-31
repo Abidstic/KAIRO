@@ -1,0 +1,36 @@
+{
+  "reviewer_name": "btea",
+  "generated_at": "20260917_181205",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 2,
+    "total_prs": 1,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "btea",
+    "experience_level": "Junior",
+    "primary_skills": [],
+    "programming_languages": [
+      "JavaScript"
+    ],
+    "summary": "The available review data for reviewer 'btea' is insufficient to derive meaningful JavaScript skills or experience level. The only visible signal is a partial PR title referencing 'npm view,' suggesting potential exposure to Node.js/npm tooling, but no concrete evidence of JavaScript expertise (e.g., code changes, review comments, or technical discussions) exists. Without additional context, no reliable assessment of their proficiency or specialization is possible.",
+    "identified_skills": {
+      "Node.js/npm": [],
+      "JavaScript Fundamentals": [],
+      "Code Review": [],
+      "Sorting/Algorithms": [],
+      "CLI Tooling": []
+    },
+    "skill_evidence": [
+      "PR title mentions 'npm view' (Node.js CLI command), but no file changes or review comments are visible",
+      "Review state is 'COMMENTED' with no visible feedback text",
+      "Incomplete PR title ('sorted b…') prevents understanding the technical scope",
+      "No labels, descriptions, or code snippets provided in the review data"
+    ]
+  }
+}

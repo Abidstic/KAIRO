@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "developer_name": "joaoGabriel55",
+    "generation_timestamp": "2026-09-18T02:26:39.179266",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "joaoGabriel55",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios internals (HTTP request handling)",
+      "JavaScript error handling (AxiosError, structured errors)",
+      "HTTP header normalization and manipulation",
+      "Proxy configuration and authentication",
+      "Debugging and issue resolution in asynchronous code",
+      "JavaScript string manipulation (case sensitivity, normalization)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Axios ecosystem)"
+    ],
+    "summary": "joaoGabriel55 is a mid-level JavaScript developer with specialized expertise in Axios, focusing on HTTP request handling, error systems, and header management. Their contributions demonstrate deep knowledge of Axios internals, including proxy configurations, header normalization, and structured error handling. The developer shows strong debugging skills by resolving edge cases in asynchronous JavaScript code, particularly in the context of HTTP requests. While primarily backend-focused (given Axios usage), their contributions align well with roles requiring robust HTTP handling and JavaScript error management. Potential growth areas include frontend frameworks and formal testing practices, though these are not evident in the current PR data.",
+    "identified_skills": {
+      "HTTP_Client_Libraries": [
+        "Axios",
+        "HTTP header manipulation",
+        "Proxy configuration"
+      ],
+      "Error_Handling_Systems": [
+        "AxiosError",
+        "Structured error objects",
+        "Edge-case debugging"
+      ],
+      "String_And_Data_Processing": [
+        "Header normalization",
+        "Case-sensitive string handling",
+        "Content-Type formatting"
+      ],
+      "Debugging_And_Testing": [
+        "Issue-driven PRs",
+        "Edge-case resolution",
+        "GitHub issue linking"
+      ],
+      "Open_Source_Contribution": [
+        "Collaborative PR workflow",
+        "Issue triage",
+        "Structured contributions"
+      ],
+      "JavaScript_Language_Features": [
+        "Error inheritance",
+        "String methods (.toLowerCase(), .trim())"
+      ],
+      "Networking_Fundamentals": [
+        "HTTP headers",
+        "Proxy authentication",
+        "Request lifecycle"
+      ]
+    },
+    "skill_evidence": [
+      "PR #2: Added AxiosError to clarify proxy authorization errors, demonstrating structured error handling",
+      "PR #2: Normalized content-type headers in dispatchRequest.js, showing header manipulation expertise",
+      "PR #3: Discussed using validator.js for input validation, indicating awareness of validation libraries",
+      "All PRs reference GitHub issues (#4616, #5614) with precise fixes, proving debugging and issue resolution skills",
+      "PRs modify core Axios files like dispatchRequest.js, indicating deep knowledge of Axios internals",
+      "PR #2 mentions lowercase normalization for headers, highlighting string manipulation proficiency",
+      "Proxy authorization edge cases addressed in PR #2 show expertise in proxy configuration",
+      "PRs are closed and linked to specific issues, demonstrating structured open-source contribution"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

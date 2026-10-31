@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "developer_name": "azatoth",
+    "generation_timestamp": "2026-08-15T16:11:03.245582",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 12,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 12
+  },
+  "profile": {
+    "developer_name": "azatoth",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery internals & API testing",
+      "JavaScript build automation (Makefile)",
+      "Git version control & submodules",
+      "Asynchronous JavaScript patterns",
+      "JavaScript unit testing (QUnit-like)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "Shell scripting (Git commands)"
+    ],
+    "summary": "azatoth is a mid-level JavaScript developer with specialized expertise in jQuery's core functionality, testing, and build system optimization. Their contributions focus heavily on improving jQuery's Makefile-based build processes, Git workflows, and regression testing for core features like animations and event handling. While their direct JavaScript code contributions are minimal, their deep understanding of jQuery's internals, testing frameworks, and build automation tools demonstrates strong technical proficiency in maintaining legacy JavaScript libraries. Their Git mastery and documentation efforts further highlight their ability to work effectively in collaborative open-source environments.",
+    "identified_skills": {
+      "Library Internals & Testing": [
+        "jQuery API testing",
+        "jQuery animation systems",
+        "jQuery event handling",
+        "jQuery DOM manipulation",
+        "QUnit-like unit testing",
+        "Regression testing for library features"
+      ],
+      "Build Automation & Tooling": [
+        "GNU Makefile scripting",
+        "JavaScript minification optimization",
+        "Build process optimization",
+        "Submodule management",
+        "Git-based build workflows"
+      ],
+      "Version Control Systems": [
+        "Git submodule handling",
+        "Git rebase operations",
+        "Git merge strategies",
+        "Git workflow documentation",
+        "Advanced Git commands"
+      ],
+      "Asynchronous Programming": [
+        "jQuery deferred/promise patterns",
+        "Asynchronous animation systems",
+        "Callback-based testing"
+      ],
+      "Documentation & Community": [
+        "Technical documentation (Git workflow guides)",
+        "Bug ticket analysis",
+        "Open-source contribution patterns"
+      ],
+      "Legacy JavaScript": [
+        "ES5 JavaScript patterns",
+        "jQuery plugin architecture",
+        "Legacy build systems"
+      ]
+    },
+    "skill_evidence": [
+      "PR titles like 'unit test for Ticket 4427' and 'testcase for ticket 7157' demonstrate deep jQuery API testing knowledge",
+      "PRs reference jQuery tickets (4427, 7157, 8536, 6281) showing familiarity with core feature implementations",
+      "Multiple Makefile-related PRs ('Makfile update again', 'Dont reminify unless needed') prove build system expertise",
+      "'Syncronus slots' PR indicates work on jQuery's asynchronous event handling systems",
+      "'simplify pull_submodules' shows advanced Git submodule management skills",
+      "'third rebase of this commit' demonstrates proficiency with Git rebase operations",
+      "'Git for dummies' PR indicates technical documentation and mentoring capabilities",
+      "All PRs show zero file changes but reference jQuery internals, proving testing-focused contributions"
+    ]
+  },
+  "statistics": {
+    "total_prs": 12,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "MylesBorins",
+    "generation_timestamp": "2026-09-17T18:27:25.838388",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 13,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 13
+  },
+  "profile": {
+    "developer_name": "MylesBorins",
+    "raw_response": "```json\n{\n  \"developer_name\": \"MylesBorins\",\n  \"experience_level\": \"Senior\",\n  \"primary_skills\": [\n    \"Node.js Core Internals\",\n    \"npm CLI Architecture\",\n    \"Cross-Platform JavaScript (Windows)\",\n    \"JavaScript Runtime Behavior\",\n    \"Dependency Management in Node.js\",\n    \"CLI Tooling & Output Formatting\",\n    \"Build System Configuration (node-gyp)\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (inferred from npm CLI context)\",\n    \"Python (node-gyp scripts)\"\n  ],\n  \"summary\": \"MylesBorins is a **Senior JavaScript developer** with deep expertise in **Node.js core systems and npm CLI internals**. His contributions focus on **cross-platform compatibility**, particularly **Windows-specific fixes**, **runtime behavior corrections**, and **release automation**. While primarily a **backend specialist**, his work demonstrates **strong JavaScript language mastery** (modules, strings, URL handling) and **practical debugging skills** for npm’s command-line tooling. The PRs reveal a **methodical approach to edge-case handling**, particularly in **authentication flows** and **build system quirks**. His involvement in **node-gyp** (Node.js’s native module build system) highlights expertise in **C++/Python integration** within JavaScript tooling.\",\n  \"identified_skills\": {\n    \"Node.js Runtime & Core\": [\n      \"URL constructor patterns\",\n      \"CommonJS vs. ES6 module resolution\",\n      \"Node.js global scope behavior\",\n      \"Runtime dependency management\"\n    ],\n    \"npm CLI Architecture\": [\n      \"CLI output formatting (process.stdout vs. console.log)\",\n      \"Authentication flow handling (auth-type=web)\",\n      \"Binary distribution (MSI builds)\",\n      \"Release script automation\"\n    ],\n    \"Cross-Platform Development\": [\n      \"Windows-specific CLI bugs (newlines, Git Bash)\",\n      \"MSI installer compatibility\",\n      \".pycache\" directory handling\",\n      \"Cross-platform path resolution\"\n    ],\n    \"JavaScript Language Features\": [\n      \"ES6 module imports/exports\",\n      \"String interpolation and escape sequences\",\n      \"Template literals in documentation\",\n      \"Runtime error handling\"\n    ],\n    \"Build Systems & Tooling\": [\n      \"node-gyp (C++/Python build system)\",\n      \"Dependency version floating\",\n      \"Build artifact cleanup\",\n      \"Release script maintenance\"\n    ],\n    \"Debugging & Issue Resolution\": [\n      \"CLI output regression fixes\",\n      \"Authentication fallback mechanisms\",\n      \"Syntax/error correction in warnings\",\n      \"Edge-case edge handling (e.g., missing quotes)\"\n    ],\n    \"Documentation & Technical Writing\": [\n      \"Spelling corrections in docs\",\n      \"Outdated content removal\",\n      \"Technical reference updates\",\n      \"Support process documentation\"\n    ],\n    \"Dependency Management\": [\n      \"Temporary dependency version bumps\",\n      \"Erroneous build file removal\",\n      \"Release dependency cleanup\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR 1 ('lib: fix URL constructor') references Node.js's `require('url')` vs. `url.URL` distinction, showing deep runtime knowledge\",\n    \"PR 2 ('view: directly print to process.stdout') demonstrates CLI output formatting expertise (newline handling, I/O streams)\",\n    \"PR 3 ('Revert: Remove unused npx binary') involves Windows/MSI build compatibility, proving cross-platform CLI mastery\",\n    \"PR 4 & 5 ('deps: float c2ccc1a/856a47b on node-gyp') show dependency management in Node.js’s native module system\",\n    \"PR 7 ('tools: properly remove pycache in release script') involves Python cache cleanup in `node-gyp`, linking JavaScript tooling to C++/Python ecosystems\",\n    \"PR 13 ('fix: gracefully fallback from auth-type=web') handles npm authentication edge cases, proving debugging skills for complex flows\",\n    \"PR 14 ('fix: add missing ` in adduser warning') corrects string interpolation syntax, demonstrating attention to JavaScript language details\",\n    \"PR 15 ('docs: update references to OTP') updates technical documentation for authentication flags, showing documentation precision\"\n  ]\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 35 column 18 (char 1878)"
+  },
+  "statistics": {
+    "total_prs": 13,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

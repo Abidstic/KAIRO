@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "arthurfiorette",
+    "generation_timestamp": "2026-09-18T02:14:48.890637",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "arthurfiorette",
+    "raw_response": "```json\n{\n  \"developer_name\": \"arthurfiorette\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Axios internals\",\n    \"TypeScript\",\n    \"JavaScript error handling\",\n    \"HTTP request lifecycle\",\n    \"Webpack configuration\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript\"\n  ],\n  \"summary\": \"arthurfiorette is a mid-level JavaScript developer with specialized expertise in Axios, demonstrating strong proficiency in TypeScript, error handling systems, and HTTP request lifecycle management. Their contributions focus on refining Axios's core functionality, particularly around error augmentation, type safety, and build tooling (Webpack). The developer shows precision in fixing edge cases and maintaining code quality, with a clear understanding of Axios's configuration and cancellation patterns. While contributions are limited to a single repository, the depth of technical engagement suggests a backend-focused developer comfortable with asynchronous operations and runtime configurations.\",\n  \"identified_skills\": {\n    \"HTTP Client Libraries\": [\"Axios\", \"HTTP cancellation patterns\", \"Request/response lifecycle\"],\n    \"TypeScript Advanced\": [\"Custom error classes\", \"Type exports\", \"Static typing\"],\n    \"Error Handling\": [\"Custom error augmentation\", \"Error object augmentation\", \"CanceledError implementation\"],\n    \"Build Tooling\": [\"Webpack version upgrades\", \"Module bundler configuration\"],\n    \"Configuration Systems\": [\"Axios config objects\", \"Runtime configuration injection\"],\n    \"Code Quality\": [\"Edge-case fixes\", \"Incremental improvements\", \"Documentation clarity\"],\n    \"Backend JavaScript\": [\"Node.js runtime patterns\", \"Async HTTP operations\"],\n    \"Module Systems\": [\"Named type exports\", \"Re-exporting types\"]\n  },\n  \"skill_evidence\": [\n    \"PR #1: Updated Webpack version to 5 (evidence of build tooling awareness)\",\n    \"PR #2: Included request/config in CanceledError (error handling + Axios internals)\",\n    \"PR #3: Fixed missing error case for CanceledError (edge-case precision)\",\n    \"PR #3: Added request/config to error objects (configuration system understanding)\",\n    \"PR #4: Exported AxiosHeaderValue as a type (TypeScript type exports)\",\n    \"PR #4: Discussed hardcoding risks (TypeScript type safety awareness)\",\n    \"All PRs: Focused on Axios core error system (deep library expertise)\",\n    \"PR #2/3: Error augmentation patterns (custom error classes)\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 35 column 3 (char 2425)"
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

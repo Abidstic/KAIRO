@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "djs113",
+    "generation_timestamp": "2026-09-18T02:10:53.188223",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "djs113",
+    "experience_level": "Mid/Senior",
+    "primary_skills": [
+      "Axios internals",
+      "Node.js streams",
+      "HTTP protocol handling",
+      "Asynchronous error handling",
+      "Stream-based HTTP clients",
+      "Debugging edge cases in networking"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Axios ecosystem)"
+    ],
+    "summary": "djs113 is a mid-to-senior JavaScript developer with deep expertise in Axios's core request/response pipeline, particularly in asynchronous stream handling and HTTP protocol compliance. Their contributions focus on fixing critical edge cases in Node.js streams, HTTP headers, and compression, demonstrating strong debugging skills and a focus on robustness. The developer works at a low-level internals level, addressing issues like stream destruction, error propagation, and malformed HTTP responses. While frontend experience is not visible, their backend-focused contributions to Axios suggest strong Node.js and asynchronous programming proficiency.",
+    "identified_skills": {
+      "HTTP_Client_Implementation": [
+        "Axios internals",
+        "HTTP header management",
+        "Query string parsing",
+        "Compression/decompression (deflate/gzip)"
+      ],
+      "Asynchronous_Programming": [
+        "Node.js streams",
+        "Stream lifecycle management",
+        "Error handling in async callbacks",
+        "Promise-based error recovery"
+      ],
+      "Debugging_and_Reliability": [
+        "Stream destruction handling",
+        "Error message improvement",
+        "Edge-case reproduction",
+        "Resource leak prevention"
+      ],
+      "Protocol_Compliance": [
+        "HTTP/1.1 header standards",
+        "Deflate compression handling",
+        "Malformed stream recovery"
+      ],
+      "Node_js_Ecosystem": [
+        "Stream API",
+        "zlib integration (inferred)",
+        "Node.js error propagation"
+      ],
+      "Testing_and_Debugging_Practices": [
+        "Issue reproduction",
+        "Clear technical descriptions",
+        "Focused incremental fixes"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1 modifies `Accept` header defaults, showing HTTP header management expertise",
+      "PR #2 fixes query parsing errors with improved error messages, demonstrating debugging focus",
+      "PR #3 addresses stream destruction mid-read, proving deep Node.js stream knowledge",
+      "PR #4 handles errors in stream end callbacks, showing async error handling mastery",
+      "PR #5 implements deflate stream inflation without zlib headers, proving protocol compliance",
+      "All PRs reference existing issues (#3606, #3780, etc.), showing alignment with community needs",
+      "No frontend code changes visible, confirming backend-focused specialization",
+      "Contributions focus on preventing hangs and leaks, indicating performance awareness"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

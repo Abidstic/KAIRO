@@ -1,0 +1,100 @@
+{
+  "reviewer_name": "anandfresh",
+  "generated_at": "20260815_171336",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 27,
+    "total_comments": 2,
+    "total_prs": 25,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "anandfresh",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "TypeScript",
+      "JavaScript localization (i18n)",
+      "Moment.js internals",
+      "Date/time handling",
+      "Testing and debugging",
+      "Code review for correctness"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "anandfresh is a highly specialized Senior JavaScript reviewer with deep expertise in TypeScript, localization (i18n), and Moment.js internals. Their reviews demonstrate rigorous attention to type safety, linguistic accuracy in locales, and robust testing practices. They focus on correctness, edge-case handling, and maintainability, with a particular strength in fixing TypeScript warnings and improving locale-specific date/time formatting. While their contributions are primarily within the Moment.js ecosystem, their technical depth in JavaScript/TypeScript and debugging makes them a valuable reviewer for projects requiring precise internationalization and type-safe implementations.",
+    "identified_skills": {
+      "TypeScript": [
+        "TypeScript interface definitions",
+        "TypeScript compiler warnings",
+        "TypeScript type safety fixes",
+        "Type definition files (moment.d.ts)",
+        "TypeScript error handling"
+      ],
+      "Localization & Internationalization": [
+        "Locale file structure",
+        "Pluralization rules",
+        "Time/date formatting localization",
+        "Locale validation (isLocaleNameSane)",
+        "Past tense and ordinal localization",
+        "ISO8601 vs. locale-specific formatting"
+      ],
+      "Date/Time Handling": [
+        "Moment.js core methods",
+        "Relative time phrases",
+        "Weekday and month name localization",
+        "ISO8601 string handling",
+        "Time unit aliases"
+      ],
+      "Testing & Debugging": [
+        "Unit test fixes",
+        "Edge-case testing",
+        "WebKit-specific test failures",
+        "Runtime error handling",
+        "Test coverage improvements"
+      ],
+      "Code Quality & Refactoring": [
+        "Code readability improvements",
+        "Refactoring unit aliases",
+        "Consistent formatting",
+        "Defensive programming",
+        "Error boundary improvements"
+      ],
+      "Moment.js Architecture": [
+        "Locale loading system",
+        "Core method extensions",
+        "Type definition integration",
+        "Build system interactions"
+      ],
+      "Error Handling": [
+        "Custom error creation (createError method)",
+        "Exception suppression hooks",
+        "Input validation",
+        "Undefined locale handling"
+      ],
+      "Documentation": [
+        "Security documentation (SECURITY.md)"
+      ],
+      "JavaScript Core": [
+        "Function design and hooks",
+        "Prototype method additions",
+        "Exception handling patterns"
+      ]
+    },
+    "skill_evidence": [
+      "[bugfix] Fix TypeScript warning - mentions rewriting moment.d.ts and adding test cases",
+      "[locale] pt-br: Fix wrong plural usage for time - demonstrates deep pluralization rule knowledge",
+      "[bugfix] undefined-locale-name - fixes isLocaleNameSane validation edge cases",
+      "[tests] Fix unit test that fails on WebKit - shows debugging of platform-specific failures",
+      "[feature] Fix issue #4985 and add createError method - introduces error handling improvements",
+      "[misc] add readonly typescript interface - adds TypeScript type safety to core files",
+      "[bugfix] ts: toISOString function also return null - resolves TypeScript/JS type mismatch",
+      "Auto build fixes - indicates familiarity with Moment.js build system",
+      "Create SECURITY.md - shows basic documentation contribution"
+    ]
+  }
+}

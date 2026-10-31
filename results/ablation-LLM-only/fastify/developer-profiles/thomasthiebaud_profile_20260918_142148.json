@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "developer_name": "thomasthiebaud",
+    "generation_timestamp": "2026-09-18T14:12:03.845007",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "thomasthiebaud",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "Fastify (Node.js framework)",
+      "Type system design",
+      "Backend web development",
+      "Testing and benchmarking"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (Node.js)"
+    ],
+    "summary": "Mid-level JavaScript developer with specialized expertise in TypeScript and Fastify's type system. Demonstrates strong ability to design robust type definitions, improve type inference, and contribute to backend web frameworks. Proven experience with testing, benchmarking, and maintaining code quality standards in open-source projects. Contributions focus on enhancing developer experience through precise type system improvements and performance-aware changes.",
+    "identified_skills": {
+      "TypeScript": [
+        "Generic type definitions",
+        "Interface extensions",
+        "Type system optimization",
+        "Payload typing",
+        "Type inference improvements"
+      ],
+      "Backend Frameworks": [
+        "Fastify",
+        "Request/response lifecycle",
+        "Middleware patterns",
+        "Plugin system"
+      ],
+      "Testing and Quality Assurance": [
+        "Unit testing",
+        "Performance benchmarking",
+        "CI/CD workflows",
+        "Test-driven contributions"
+      ],
+      "Code Quality and Standards": [
+        "Code of Conduct adherence",
+        "Clean commit messages",
+        "Type safety improvements"
+      ],
+      "API Design": [
+        "Type-safe API contracts",
+        "Generic parameter ordering",
+        "Missing type fixes"
+      ],
+      "Node.js Ecosystem": [
+        "Async/await patterns",
+        "Event-driven architecture",
+        "Module design"
+      ],
+      "Documentation and Ecosystem": [
+        "Tooling references",
+        "Ecosystem contributions"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1 title 'Reorder generic parameter of FastifyRequest' shows manipulation of TypeScript generic types for improved usability",
+      "PR #1 description references 'RequestGeneric extends RequestGenericInterface = RequestGenericInterface' demonstrating TypeScript generic expertise",
+      "PR #2 labeled 'typescript' and titled 'Add type for Reply payload' directly addresses TypeScript type definition contributions",
+      "Both PRs include checklists verifying 'npm run test' and 'npm run benchmark' indicating rigorous testing and performance validation",
+      "PR #2 checklist includes 'commit message and code follows [Code of Conduct]' showing adherence to Fastify's quality standards",
+      "All PRs in Fastify repository demonstrate deep knowledge of Fastify's request/response handling and type system internals",
+      "PR #3 title 'docs: add fastify-schema-to-typescript to ecosystem' indicates involvement in Fastify's broader tooling ecosystem",
+      "Type system improvements in PRs show focus on fixing type safety gaps and improving developer experience through better type hints"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

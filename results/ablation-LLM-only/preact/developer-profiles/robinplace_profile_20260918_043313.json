@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "robinplace",
+    "generation_timestamp": "2026-09-18T04:24:34.555172",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "robinplace",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Preact",
+      "Virtual DOM rendering",
+      "SVG DOM manipulation",
+      "DOM recycling optimization",
+      "JSX/TSX attribute serialization",
+      "Regression testing",
+      "Frontend performance debugging"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript (inferred from JSX object syntax)"
+    ],
+    "summary": "robinplace is a Mid-level frontend JavaScript developer specializing in Preact, with a strong focus on DOM rendering optimizations, SVG attribute handling, and preventing memory leaks through recycled DOM elements. Their contributions demonstrate precision in fixing subtle rendering regressions and a deep understanding of JSX/TSX attribute serialization. While primarily frontend-focused, their work suggests familiarity with React-like patterns and testing frameworks, though no backend or Node.js experience is evident from the available PR data.",
+    "identified_skills": {
+      "Frontend Frameworks": [
+        "Preact",
+        "Virtual DOM"
+      ],
+      "DOM Manipulation": [
+        "SVG attribute serialization",
+        "DOM recycling",
+        "Image element lifecycle management"
+      ],
+      "Rendering & Performance": [
+        "JSX/TSX object attribute handling",
+        "Memory leak prevention",
+        "Rendering regression fixes"
+      ],
+      "Testing": [
+        "Unit/integration tests for DOM behavior",
+        "Regression test verification"
+      ],
+      "Debugging": [
+        "Subtle browser quirk identification",
+        "Edge case handling"
+      ],
+      "JavaScript Language": [
+        "JSX/TSX syntax",
+        "Object serialization"
+      ],
+      "Backend/Node.js": [],
+      "Build Tools": [],
+      "Documentation": []
+    },
+    "skill_evidence": [
+      "Fixed SVG class attribute serialization for `class={{ }}` objects in Preact's rendering engine (PR 1)",
+      "Added test verifying proper SVG behavior after the fix (PR 1 description)",
+      "Cleared `src` attribute on recycled `<img>` elements to prevent memory leaks (PR 2, 3)",
+      "Addressed DOM recycling edge cases in Preact's lightweight rendering system",
+      "Demonstrated precision in fixing rendering regressions without code additions/deletions",
+      "Worked with JSX object syntax (`class={{ }}`) indicating familiarity with TSX/JSX attribute handling",
+      "Focused on performance-critical DOM operations (SVG, image elements) in a virtual DOM context"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

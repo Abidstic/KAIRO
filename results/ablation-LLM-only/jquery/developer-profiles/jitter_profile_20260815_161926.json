@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "developer_name": "jitter",
+    "generation_timestamp": "2026-08-15T16:13:25.747513",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 9,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 9
+  },
+  "profile": {
+    "developer_name": "jitter",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "jQuery DOM manipulation",
+      "IE6-8 compatibility fixes",
+      "DOM attribute and property handling",
+      "Unit test maintenance in jQuery test suite",
+      "DOM performance optimization",
+      "Prototype-based JavaScript",
+      "Edge-case DOM behavior resolution"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "jQuery API"
+    ],
+    "summary": "jitter is a specialized JavaScript developer with deep expertise in jQuery's core DOM manipulation layer. Their contributions focus on fixing cross-browser inconsistencies—particularly in IE6-8—and optimizing performance in fundamental DOM operations like attribute handling, cloning, and array-like traversal. The developer demonstrates strong debugging skills for legacy browser quirks and maintains jQuery's unit test suite with targeted fixes. While their work is confined to jQuery's legacy DOM layer, their contributions highlight precision in handling edge cases and cross-browser compatibility. No evidence exists of modern JavaScript (ES6+) or frontend frameworks in their contributions.",
+    "identified_skills": {
+      "DOM Manipulation": [
+        "jQuery attribute manipulation (attr())",
+        "DOM property vs. attribute handling",
+        "DOM cloning (clone())",
+        "DOM traversal (get() method)",
+        "className property manipulation",
+        "negative index handling in DOM collections"
+      ],
+      "Cross-Browser Compatibility": [
+        "IE6-8 DOM quirks resolution",
+        "IE-specific event handling",
+        "IE attribute node limitations",
+        "DOM cloning inconsistencies in IE"
+      ],
+      "Testing & Debugging": [
+        "jQuery unit test maintenance",
+        "cross-browser test failure debugging",
+        "performance test validation",
+        "edge-case test assertion updates"
+      ],
+      "Performance Optimization": [
+        "DOM traversal performance improvements",
+        "array-like collection optimizations"
+      ],
+      "Legacy JavaScript Patterns": [
+        "prototype-based method chaining",
+        "ES5 JavaScript (no ES6+)",
+        "legacy DOM property access"
+      ],
+      "String & Data Handling": [
+        "className parsing (carriage return handling)",
+        "DOM attribute value manipulation"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed `attr()` to work for non-DOM element nodes (e.g., comments, text nodes) in PR 'Make attr() work for non DOM element nodes'",
+      "Resolved IE6/7/8 `clone()` bug where nested elements were discarded (bug 4386 fix)",
+      "Optimized `get()` method to handle negative indices like native arrays (performance improvement)",
+      "Updated unit test expectations for `addClass(Function)` and `removeClass(Function)` in 'Fixattrexpect'",
+      "Enabled custom 'submit' events in IE for non-DOM elements (bug 6398 fix)",
+      "Handled carriage return characters in `className` property parsing (string manipulation fix)",
+      "Adapted `attr()` behavior for IE’s attribute node limitations in 'Fix attr() test failures in IE'",
+      "Fixed adjacent sibling combinator (`+`) selector behavior in 'Fix selector-unit test (adjacent)'"
+    ]
+  },
+  "statistics": {
+    "total_prs": 9,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

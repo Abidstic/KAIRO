@@ -1,0 +1,79 @@
+{
+  "reviewer_name": "igorlukanin",
+  "generated_at": "20260917_201023",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 22,
+    "total_comments": 20,
+    "total_prs": 7,
+    "repos": [
+      "chartjs"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "igorlukanin",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js core development",
+      "JavaScript documentation",
+      "ESM migration guidance",
+      "JavaScript plugin architecture"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (indirect exposure via Chart.js ecosystem)"
+    ],
+    "summary": "igorlukanin is a Mid-level JavaScript reviewer with specialized expertise in Chart.js, focusing primarily on documentation improvements, plugin architecture, and migration guidance. Their contributions demonstrate deep technical understanding of Chart.js's core rendering logic and modern JavaScript module systems (ESM). While their review activity is concentrated on documentation and plugin-related PRs, their work implies strong frontend JavaScript proficiency, particularly in DOM-based rendering and interactive data visualization. Their review process emphasizes technical accuracy and user clarity, making them a valuable contributor to open-source JavaScript libraries.",
+    "identified_skills": {
+      "Charting Libraries": [
+        "Chart.js core",
+        "Chart.js plugins",
+        "Chart.js rendering"
+      ],
+      "Documentation": [
+        "API documentation",
+        "migration guides",
+        "ESM documentation",
+        "version warnings",
+        "getting-started guides"
+      ],
+      "JavaScript Module Systems": [
+        "ESM (ECMAScript Modules)",
+        "CommonJS compatibility"
+      ],
+      "Versioning & Dependencies": [
+        "semantic versioning",
+        "breaking change documentation",
+        "dependency migration"
+      ],
+      "Code Review & Quality": [
+        "documentation review",
+        "technical feedback",
+        "stale content identification"
+      ],
+      "Frontend JavaScript": [
+        "DOM-based rendering",
+        "interactive visualization"
+      ],
+      "Plugin Development": [
+        "plugin architecture",
+        "plugin registration"
+      ],
+      "Technical Writing": [
+        "technical accuracy",
+        "user-facing explanations"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'Introduce Colors plugin' demonstrates plugin architecture knowledge",
+      "'docs: add info about ESM into migration guide' shows explicit ESM expertise",
+      "Multiple 'Updated docs' PRs with 'why Chart.js' and 'getting started' focus indicate deep API documentation familiarity",
+      "'Add a stale version warning + a link to the latest version of docs' shows versioning awareness",
+      "All PRs in 'COMMENTED' state imply detailed technical feedback on documentation",
+      "'feat: remove line element from scatter controller' indicates core rendering logic involvement",
+      "Migration guide updates reference breaking changes and backward compatibility",
+      "Documentation PRs include interactive website examples, suggesting frontend tooling familiarity"
+    ]
+  }
+}

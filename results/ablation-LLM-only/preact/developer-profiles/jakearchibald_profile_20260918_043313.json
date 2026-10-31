@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "jakearchibald",
+    "generation_timestamp": "2026-09-18T04:28:06.918090",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "jakearchibald",
+    "raw_response": "```json\n{\n  \"developer_name\": \"jakearchibald\",\n  \"experience_level\": \"Mid-Level\",\n  \"primary_skills\": [\n    \"TypeScript type definitions\",\n    \"Web standards compliance (WHATWG/W3C)\",\n    \"Preact framework\",\n    \"DOM event handling (pointer events, capture phases)\",\n    \"HTML attribute typing\",\n    \"Spec-driven development\"\n  ],\n  \"programming_languages\": [\n    \"TypeScript\",\n    \"JavaScript\"\n  ],\n  \"summary\": \"jakearchibald demonstrates a strong focus on frontend JavaScript development with deep expertise in TypeScript type definitions, particularly for web standards and DOM events. Their contributions to Preact highlight precision in aligning type definitions with WHATWG/W3C specifications, including pointer events and HTML attributes. The developer exhibits meticulous debugging practices and a commitment to correctness, evidenced by self-questioning and verification of type definitions against runtime behavior. While primarily frontend-focused, their work suggests a specialized role in ensuring type safety and standards compliance within JavaScript frameworks.\",\n  \"identified_skills\": {\n    \"TypeScript\": [\n      \"Type definitions for DOM events\",\n      \"HTML attribute typing (e.g., 'as' attribute)\",\n      \"Spec-compliant type definitions\",\n      \"Type inference and correctness verification\"\n    ],\n    \"Web Standards\": [\n      \"WHATWG HTML spec alignment\",\n      \"W3C Pointer Events spec knowledge\",\n      \"Edge-case handling for event variants\",\n      \"Standardized web API typing\"\n    ],\n    \"Frontend Frameworks\": [\n      \"Preact event system\",\n      \"DOM event capture/bubble phases\",\n      \"Framework-specific type definitions\"\n    ],\n    \"Debugging & Verification\": [\n      \"Runtime behavior validation\",\n      \"Self-doubt and verification questions\",\n      \"Fixing lost/broken type definitions\",\n      \"Edge-case testing\"\n    ],\n    \"Technical Documentation\": [\n      \"Spec references in PR descriptions\",\n      \"Clear technical communication\",\n      \"Transparency in implementation gaps\"\n    ],\n    \"GitHub Workflow\": [\n      \"Atomic PR contributions\",\n      \"Focused, small-scale changes\",\n      \"Type-focused PRs without test files\"\n    ],\n    \"JavaScript Core\": [\n      \"DOM event mechanics\",\n      \"JavaScript/TypeScript interoperability\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR: 'Adding capture TS definitions' — Added TypeScript types for DOM event capture phases (e.g., 'onGotPointerCaptureCapture').\",\n    \"PR: 'Adding pointer event definitions' — Included self-questioning ('Does this even work?') and verified type correctness against runtime behavior.\",\n    \"PR: 'Add \\'as\\' html attribute to TypeScript defs' — Referenced WHATWG HTML spec for `<link as>` attribute typing, ensuring compliance.\",\n    \"PR: 'Recovering lost definitions' — Fixed missing TypeScript types from a previous commit, demonstrating code hygiene and historical awareness.\",\n    \"PRs consistently focused on Preact’s event system, showing deep familiarity with framework-specific typing.\",\n    \"All PRs avoided runtime changes, targeting only type definitions, indicating a specialization in type safety.\",\n    \"PR descriptions included direct links to specs (e.g., WHATWG HTML), proving standards-driven development.\",\n    \"No backend or testing-related changes visible, confirming frontend/TypeScript specialization.\"\n  }\n}\n```",
+    "parsing_error": "Invalid \\escape: line 59 column 15 (char 2603)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

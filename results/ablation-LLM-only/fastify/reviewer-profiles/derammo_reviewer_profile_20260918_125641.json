@@ -1,0 +1,69 @@
+{
+  "reviewer_name": "derammo",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 15,
+    "total_comments": 15,
+    "total_prs": 1,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "derammo",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "JSON Schema Validation (AJV)",
+      "Node.js Testing (TAP)",
+      "Debugging Runtime Behavior",
+      "Schema Compilation & Registration",
+      "Edge Case Testing"
+    ],
+    "programming_languages": [
+      "JavaScript (ES Modules/CommonJS)",
+      "TypeScript (inferred from AJV ecosystem)"
+    ],
+    "summary": "Derammo is a Senior-level JavaScript reviewer with deep expertise in JSON Schema validation using AJV, specializing in schema compilation, runtime behavior debugging, and edge case testing. Their contributions focus on ensuring robust validation logic, particularly around schema registration and external validator interactions. The reviewer demonstrates strong Node.js testing proficiency with TAP and a meticulous approach to debugging complex validation issues. While primarily focused on backend validation tooling, their skills align with senior-level contributions in JavaScript ecosystems.",
+    "identified_skills": {
+      "Validation & Schema": [
+        "JSON Schema Validation",
+        "AJV (Ajv) Library",
+        "Schema Registration",
+        "Validation Compiler",
+        "External Validator Integration"
+      ],
+      "Testing & Debugging": [
+        "Node.js Testing (TAP)",
+        "Test-Driven Debugging",
+        "Edge Case Validation",
+        "Runtime Behavior Analysis"
+      ],
+      "JavaScript Runtime": [
+        "Module System Awareness",
+        "Closure-Based Patterns",
+        "Event-Driven Validation Logic"
+      ],
+      "Code Quality & Review": [
+        "Bug Fix Validation",
+        "Issue Tracing",
+        "Iterative Testing"
+      ],
+      "Tooling & Ecosystem": [
+        "npm/yarn (via npx)",
+        "Node.js Backend"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'fix: setValidatorCompiler with addSchema' indicates deep AJV validation logic knowledge",
+      "Test command 'npx tap test/schema-validation.test.js -g \"External AJV instance\"' shows TAP framework usage for AJV-specific tests",
+      "Issue #5178 references schema registration not triggering compiler calls, demonstrating debugging of runtime behavior",
+      "Repetitive PR entries imply iterative testing and refinement of validation compiler interactions",
+      "Focus on 'External AJV instance' tests reveals expertise in edge case validation scenarios",
+      "Review state 'COMMENTED' suggests consistent technical feedback (though not shown in data)",
+      "Schema compilation logic ('addSchema' + 'setValidatorCompiler') indicates mastery of AJV internals",
+      "Test filtering by AJV instance type shows precision in validation testing approaches"
+    ]
+  }
+}

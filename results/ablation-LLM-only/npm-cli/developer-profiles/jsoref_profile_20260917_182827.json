@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "developer_name": "jsoref",
+    "generation_timestamp": "2026-09-17T18:23:02.439181",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 28,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "jsoref",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js CLI internals",
+      "npm documentation maintenance",
+      "JavaScript tooling ecosystem",
+      "Technical debt management",
+      "Accessibility-focused documentation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "JavaScript (Node.js runtime)"
+    ],
+    "summary": "jsoref is a mid-level JavaScript developer with specialized expertise in the Node.js and npm CLI ecosystem. Their contributions focus on maintaining documentation, cleaning up legacy code, and ensuring accessibility in npm's command-line interface. While not directly writing new JavaScript features, their work demonstrates deep understanding of npm's internal architecture, workspace management, and deprecation handling. Their skills are best suited for roles involving technical documentation, maintenance of large-scale JavaScript tooling, and ensuring long-term stability of JavaScript ecosystems.",
+    "identified_skills": {
+      "JavaScript Tooling & Ecosystem": [
+        "npm CLI internals",
+        "Node.js workspace management",
+        "npm package dependency resolution",
+        "npm deprecated command handling",
+        "npm Arborist (workspace tooling)",
+        "npmdiff (version comparison tool)"
+      ],
+      "Documentation & Maintenance": [
+        "JavaScript tooling documentation",
+        "technical debt cleanup",
+        "deprecated feature documentation",
+        "spelling and grammar corrections",
+        "accessibility-focused documentation",
+        "CLI command reference updates"
+      ],
+      "Code Quality & Hygiene": [
+        "legacy code cleanup",
+        "stale comment removal",
+        "permission-related documentation",
+        "outdated reference removal",
+        "codebase documentation maintenance"
+      ],
+      "JavaScript Accessibility": [
+        "screen reader accessibility improvements",
+        "WCAG-compliant documentation practices"
+      ],
+      "JavaScript Testing (Indirect Exposure)": [
+        "test directory references"
+      ],
+      "JavaScript Language Features": [
+        "ES6+ syntax awareness"
+      ]
+    },
+    "skill_evidence": [
+      "PRs in `npm/cli` repository focusing on CLI documentation and cleanup",
+      "'docs:' labeled PRs improving link accessibility for screen readers",
+      "Removal of deprecated `npm access` commands with clear documentation updates",
+      "Cleanup of stale references in `lib/utils/update-notifier.js`",
+      "Spelling corrections in permission-related documentation",
+      "References to `workspaces/arborist` indicating workspace management familiarity",
+      "Removal of outdated comments and references in `libnpmdiff` files",
+      "PRs labeled 'chore:' for maintaining code hygiene in npm's internal tools"
+    ]
+  },
+  "statistics": {
+    "total_prs": 28,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

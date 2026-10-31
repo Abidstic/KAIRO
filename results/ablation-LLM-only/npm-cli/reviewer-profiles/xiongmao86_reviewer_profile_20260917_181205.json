@@ -1,0 +1,62 @@
+{
+  "reviewer_name": "xiongmao86",
+  "generated_at": "20260917_181205",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 2,
+    "total_prs": 1,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "xiongmao86",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "npm package management",
+      "Node.js dependency resolution",
+      "package-lock.json behavior"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)"
+    ],
+    "summary": "xiongmao86 demonstrates specialized expertise in npm's package management system, particularly around `package-lock.json` generation and `npm install` behavior. Their reviews focus narrowly on fixing npm-related edge cases, indicating deep familiarity with Node.js dependency handling. However, there is no evidence of broader JavaScript ecosystem knowledge (e.g., frameworks, testing, or modern JS patterns). Their contributions are limited to two identical PRs addressing npm's default behavior, suggesting a focused but limited technical profile.",
+    "identified_skills": {
+      "Package Management": [
+        "npm CLI behavior",
+        "package-lock.json generation rules",
+        "dependency resolution edge cases"
+      ],
+      "Node.js Ecosystem": [
+        "Node.js package management",
+        "package.json schema awareness"
+      ],
+      "Debugging & Fixes": [
+        "npm bug resolution",
+        "edge case handling"
+      ],
+      "GitHub Workflow": [
+        "PR issue referencing",
+        "commented review state"
+      ],
+      "Backend Frameworks": [],
+      "Frontend Frameworks": [],
+      "Testing": [],
+      "Build Tools": [],
+      "Asynchronous Programming": [],
+      "Code Quality": []
+    },
+    "skill_evidence": [
+      "PR title/description mentions 'fix npm install behavior when package.json is missing'",
+      "References GitHub issue '#6986' indicating npm-specific bug tracking",
+      "Both PRs discuss `package-lock.json` generation rules in npm",
+      "PRs are in 'COMMENTED' state suggesting review focused on npm behavior discussion",
+      "No code changes shown (additions=0, deletions=0) implies meta-level npm review",
+      "Evidence of understanding why `package-lock.json` should not be created without `package.json`",
+      "No frontend/backend framework references in PR titles or descriptions",
+      "No testing, async/await, or modern JS patterns mentioned in reviews"
+    ]
+  }
+}

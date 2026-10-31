@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "developer_name": "Gerhut",
+    "generation_timestamp": "2026-09-18T02:10:05.823667",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "Gerhut",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "TypeScript",
+      "Axios internals",
+      "HTTP request/response handling",
+      "Blob/File type management",
+      "Browser JavaScript",
+      "API refactoring",
+      "Documentation maintenance",
+      "Git revert practices"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "Gerhut is a Mid-Level JavaScript developer with specialized expertise in TypeScript and the Axios HTTP client library. Their contributions focus on deep technical areas like HTTP request/response handling, Blob/File type management in browsers, and TypeScript API refactoring. The developer demonstrates strong debugging skills through careful reverts and maintains awareness of the Axios ecosystem by documenting related tools. While primarily backend-focused (Axios internals), their work shows proficiency in browser-specific JavaScript behaviors and responsible Git workflow practices. No evidence of frontend frameworks or testing frameworks is present in their contributions.",
+    "identified_skills": {
+      "TypeScript": [
+        "TypeScript type system manipulation",
+        "API refactoring for TypeScript",
+        "Type definitions movement"
+      ],
+      "HTTP Client Libraries": [
+        "Axios internals",
+        "Blob/File type handling",
+        "Content-Type header management",
+        "HTTP request/response processing"
+      ],
+      "Browser JavaScript": [
+        "Blob/File object manipulation",
+        "Browser-specific runtime behavior",
+        "Content-Type handling in browsers"
+      ],
+      "Documentation & Ecosystem": [
+        "ECOSYSTEM.md maintenance",
+        "Community tooling documentation",
+        "Axios ecosystem awareness"
+      ],
+      "Version Control Practices": [
+        "Git revert operations",
+        "Issue linking in PRs",
+        "Backward compatibility considerations"
+      ],
+      "Debugging & Issue Resolution": [
+        "Fix-and-revert cycle",
+        "Content-Type debugging",
+        "Edge-case handling"
+      ],
+      "Open Source Contribution": [
+        "Tooling documentation",
+        "Ecosystem engagement",
+        "Personal project linking"
+      ]
+    },
+    "skill_evidence": [
+      "[typing] move AxiosStatic#create to AxiosInstance#create (PR #4) - Demonstrates TypeScript type system manipulation and API refactoring",
+      "Fixing overwrite Blob/File type as Content-Type in browser (PR #3) - Shows deep HTTP client internals knowledge and browser-specific Blob/File handling",
+      "Revert \"Fixing overwrite Blob/File type as Content-Type in browser\" (PR #5) - Illustrates careful debugging and backward compatibility consideration",
+      "Add axios-debug-log to ECOSYSTEM.md (PR #1) - Indicates ecosystem awareness and documentation maintenance",
+      "Add axiosist to ECOSYSTEM.md (PR #2) - Shows engagement with Axios ecosystem beyond core contributions",
+      "Closes #3232 in revert PR (PR #5) - Demonstrates proper Git issue linking and workflow",
+      "Browser-specific mention in PR titles - Confirms browser JavaScript expertise",
+      "TypeScript-specific prefix in PR titles - Confirms TypeScript specialization"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

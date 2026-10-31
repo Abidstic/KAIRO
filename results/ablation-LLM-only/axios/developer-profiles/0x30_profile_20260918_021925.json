@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "developer_name": "0x30",
+    "generation_timestamp": "2026-09-18T02:15:17.056747",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "0x30",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Browser JavaScript (ES6+)",
+      "Axios HTTP Client Internals",
+      "Web Worker API",
+      "Platform-Specific JavaScript Debugging",
+      "Versioned Code Maintenance"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Axios ecosystem)"
+    ],
+    "summary": "0x30 is a Mid-level JavaScript developer with specialized expertise in browser JavaScript, particularly Web Worker APIs and platform-specific HTTP handling within the Axios ecosystem. Their contributions demonstrate deep debugging skills for edge cases like non-serializable data (e.g., FormData in Web Workers) and versioned compatibility fixes across Axios branches (v0.x/v1.x). While primarily focused on browser environments, their work with Axios suggests familiarity with Node.js environments as well. The developer excels in resolving subtle runtime exceptions and maintaining backward compatibility, indicating strong attention to detail and platform-aware development practices.",
+    "identified_skills": {
+      "Browser JavaScript Patterns": [
+        "Web Worker API",
+        "data: protocol handling",
+        "FormData serialization",
+        "Browser-specific async patterns"
+      ],
+      "HTTP Client Development": [
+        "Axios internals",
+        "Platform-specific request handling",
+        "Environment-aware code paths"
+      ],
+      "Debugging & Error Handling": [
+        "Non-serializable data fixes",
+        "Exception boundary analysis",
+        "Edge case testing"
+      ],
+      "Versioning & Compatibility": [
+        "v0.x/v1.x branch maintenance",
+        "Legacy support fixes",
+        "Semantic versioning awareness"
+      ],
+      "Asynchronous JavaScript": [
+        "Web Worker async patterns",
+        "Promise-based error handling"
+      ],
+      "Tooling & Workflow": [
+        "GitHub PR collaboration",
+        "Cross-referenced PR resolution"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'fix: exception to sending formdata in webworker' addresses non-serializable data in Web Workers, demonstrating deep Web Worker API knowledge",
+      "Reference to 'data:' protocol in PRs indicates browser-specific protocol handling expertise",
+      "Fixes for v0.x and v1.x branches show versioned code maintenance and backward compatibility awareness",
+      "Cross-referenced PRs (e.g., '[pull#4808]') suggest familiarity with GitHub PR workflow and collaborative debugging",
+      "Platform-specific fixes imply conditional logic for browser vs. Node.js environments (e.g., checking `typeof window` or `typeof Worker`)",
+      "Exception fixes for FormData in Web Workers highlight ability to debug subtle runtime errors in asynchronous contexts",
+      "PR titles and labels focus on 'fix' actions, indicating strong debugging and error resolution skills"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

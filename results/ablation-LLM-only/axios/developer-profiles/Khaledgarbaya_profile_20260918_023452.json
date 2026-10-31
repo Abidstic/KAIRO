@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "Khaledgarbaya",
+    "generation_timestamp": "2026-09-18T02:21:45.010117",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "Khaledgarbaya",
+    "raw_response": "```json\n{\n  \"developer_name\": \"Khaledgarbaya\",\n  \"experience_level\": \"Mid-Level\",\n  \"primary_skills\": [\n    \"Axios HTTP client internals\",\n    \"Node.js HTTP/HTTPS adapter logic\",\n    \"Technical documentation\",\n    \"HTTP networking debugging\",\n    \"JavaScript configuration systems\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript\"\n  ],\n  \"summary\": \"Khaledgarbaya demonstrates a strong focus on Axios' core HTTP client functionality, with contributions spanning configuration systems, HTTP adapter logic, and technical documentation. Their work reveals deep expertise in Node.js backend networking (HTTPS/HTTP handling, proxy configurations) and a meticulous approach to debugging edge cases. While contributions are currently limited to Axios, the quality and specificity of their PRs indicate a mid-level JavaScript engineer with specialized knowledge of HTTP clients and backend networking patterns. The absence of frontend framework contributions or testing-related PRs suggests this profile is currently backend-focused.\",\n  \"identified_skills\": {\n    \"HTTP Client Libraries\": [\"Axios\", \"HTTP adapter mechanisms\"],\n    \"Backend Networking\": [\"Node.js HTTP/HTTPS modules\", \"Proxy handling\", \"HTTPS connection debugging\"],\n    \"Configuration Systems\": [\"Axios config objects\", \"Custom request configuration\"],\n    \"Technical Writing\": [\"README documentation\", \"Edge-case explanations\"],\n    \"Debugging\": [\"HTTP connection edge cases\", \"Bug triage\"],\n    \"JavaScript Language\": [\"Object configuration patterns\", \"Case-insensitive property handling\"],\n    \"Open Source Contribution\": [\"Targeted bug fixes\", \"Documentation improvements\"],\n    \"TypeScript\": [\"Configuration interfaces\"],\n    \"Asynchronous Patterns\": [\"HTTP request lifecycle\"]\n  },\n  \"skill_evidence\": [\n    \"PR 1: Updated README to clarify header case-insensitivity behavior (documentation + HTTP protocol knowledge)\",\n    \"PR 2: Fixed HTTPS connection forcing HTTP in adapter logic (Node.js HTTP/HTTPS module expertise)\",\n    \"PR 2: Debugged proxy/redirect misconfiguration in adapter (networking debugging)\",\n    \"PR 3: Added custom config feature with environment-aware defaults (configuration system design)\",\n    \"PR 3: Referenced issue #1718 for bug context (collaborative debugging)\",\n    \"All PRs: Targeted core Axios functionality (config, adapters) rather than UI/UX (backend focus)\",\n    \"PR 1: Explained subtle HTTP header behavior to end users (technical communication)\",\n    \"PRs: No frontend framework or testing contributions visible (backend specialization)\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 36 column 3 (char 2564)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

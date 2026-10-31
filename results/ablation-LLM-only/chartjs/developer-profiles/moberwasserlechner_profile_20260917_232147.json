@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "developer_name": "moberwasserlechner",
+    "generation_timestamp": "2026-09-17T23:09:09.022879",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "moberwasserlechner",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Chart.js API Development",
+      "JavaScript Documentation",
+      "Frontend JavaScript",
+      "GitHub Contribution Workflow",
+      "Bug Fixing in JavaScript Libraries"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5+)"
+    ],
+    "summary": "moberwasserlechner is a Junior-level JavaScript developer with specialized expertise in Chart.js, focusing primarily on documentation improvements, API consistency, and minor bug fixes. Their contributions demonstrate strong attention to detail in frontend JavaScript libraries, particularly in fixing typos, removing deprecated properties, and ensuring accurate documentation. While their experience is limited to frontend development (no backend or testing frameworks visible), their work shows proficiency in GitHub PR workflows and live demo testing using JSFiddle. The contributions are documentation-focused with no evidence of core logic or advanced JavaScript patterns.",
+    "identified_skills": {
+      "Charting Libraries": [
+        "Chart.js API",
+        "Chart Property Management",
+        "Chart Documentation"
+      ],
+      "JavaScript Documentation": [
+        "Technical Writing",
+        "Typo Correction",
+        "API Documentation"
+      ],
+      "Code Quality": [
+        "Deprecated Property Removal",
+        "Naming Consistency",
+        "API Refactoring"
+      ],
+      "Frontend Development": [
+        "Browser-Based JavaScript",
+        "Interactive Chart Rendering"
+      ],
+      "Version Control & Collaboration": [
+        "GitHub PR Workflow",
+        "Issue Linking",
+        "Live Demo Testing (JSFiddle)"
+      ],
+      "Testing": [],
+      "Backend Development": [],
+      "Build Tools": [],
+      "Modern JavaScript Features": []
+    },
+    "skill_evidence": [
+      "PR titled 'Documentation fixes for Title and Legend position' showing attention to chart-specific documentation",
+      "PR removing `pointHighlightStroke` property with explanation that it didn't exist, demonstrating API consistency knowledge",
+      "PR correcting `hoverPointBackgroundColor` to `pointHoverBackgroundColor` typo in Chart.js documentation",
+      "PR referencing issue #2894 and linking it to the PR, showing GitHub workflow familiarity",
+      "JSFiddle demo included in PR #3 to verify chart behavior changes before submission",
+      "Multiple PRs labeled as 'documentation' with no code changes, indicating specialization in docs over implementation",
+      "No evidence of backend frameworks, testing tools, or modern JS features in PR descriptions or changes"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

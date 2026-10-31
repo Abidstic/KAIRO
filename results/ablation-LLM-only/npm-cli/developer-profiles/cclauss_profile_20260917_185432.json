@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "cclauss",
+    "generation_timestamp": "2026-09-17T18:49:33.929858",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "cclauss",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js CLI tooling (npm)",
+      "CI/CD configuration (Travis CI)",
+      "Node.js build systems (Node-gyp)",
+      "Semantic versioning (semver)",
+      "Documentation maintenance",
+      "Node.js ecosystem alignment"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "Python (interoperability with Node-gyp)"
+    ],
+    "summary": "cclauss demonstrates specialized expertise in Node.js infrastructure and tooling, particularly within the npm CLI ecosystem. Their contributions focus on maintaining build system compatibility, CI/CD pipeline updates, and documentation alignment with Node.js release cycles. While their PRs show no direct code changes, the evidence indicates strong familiarity with Node.js tooling, versioning practices, and ecosystem-wide standards. The contributions are process-oriented, suggesting a role in infrastructure maintenance or release management rather than application development. Experience level is assessed as Mid due to the depth of ecosystem knowledge and process-driven contributions, though the lack of code-level examples limits a higher Senior/Lead classification.",
+    "identified_skills": {
+      "Node.js Ecosystem Infrastructure": [
+        "npm CLI internals",
+        "Node.js version alignment",
+        "Node-gyp build system",
+        "Python 2 → Python 3 migration support"
+      ],
+      "CI/CD Tooling": [
+        "Travis CI configuration",
+        "Deprecation management (sudo: tag)",
+        "Build system compatibility"
+      ],
+      "Versioning & Releases": [
+        "semantic versioning (patch releases)",
+        "Node.js 6.x release coordination",
+        "semver:patch labeling"
+      ],
+      "Documentation & Process": [
+        "Technical documentation updates",
+        "Process documentation for build systems",
+        "Ecosystem-wide deprecation notes"
+      ],
+      "Build System Knowledge": [
+        "Native module compilation (Node-gyp)",
+        "Dependency resolution (npm)",
+        "Cross-platform build compatibility"
+      ],
+      "Ecosystem Standards": [
+        "Node.js release policies",
+        "Python interoperability in Node.js",
+        "CI/CD best practices"
+      ]
+    },
+    "skill_evidence": [
+      "PR title/description references 'Travis CI: Deprecate sudo:' tag' indicating CI/CD configuration expertise",
+      "PR mentions 'Node-gyp: Update Python 2 deprecation notes' showing build system and Python interop knowledge",
+      "Label 'semver:patch' in PR suggests involvement in versioning and release management",
+      "PR description explains 'Aligning with Node.js 6.x releases' demonstrating ecosystem alignment",
+      "All PRs have 'files_changed: 0' but include detailed process explanations for build system updates",
+      "Reference to 'https:\n    "
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

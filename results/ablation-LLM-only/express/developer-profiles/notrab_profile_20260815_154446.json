@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "notrab",
+    "generation_timestamp": "2026-08-15T15:38:28.069004",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 12,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 12
+  },
+  "profile": {
+    "developer_name": "notrab",
+    "raw_response": "```json\n{\n  \"developer_name\": \"notrab\",\n  \"experience_level\": \"Mid-Level\",\n  \"primary_skills\": [\n    \"Express.js\",\n    \"Template Engine Migration (Jade → Pug → EJS)\",\n    \"Dependency Management (npm/yarn)\",\n    \"Backend Documentation & Maintenance\",\n    \"JavaScript Templating Systems\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"Markdown\"\n  ],\n  \"summary\": \"notrab is a Mid-Level JavaScript developer with specialized expertise in Express.js backend development. Their contributions focus on strategic template engine upgrades (Jade → EJS), dependency cleanup, and maintaining project documentation. The developer demonstrates deep familiarity with Express's templating system, dependency management, and legacy code migration while showing strong attention to detail in documentation improvements. Their work suggests proficiency in backend JavaScript ecosystems without direct evidence of frontend JavaScript or testing frameworks.\",\n  \"identified_skills\": {\n    \"Backend Frameworks\": [\"Express.js\"],\n    \"Template Engines\": [\"Jade\", \"Pug\", \"EJS\", \"Template Inheritance\", \"Partials\"],\n    \"Dependency Management\": [\"npm/yarn\", \"package.json modifications\", \"Dependency Removal\"],\n    \"Documentation & Maintenance\": [\"README improvements\", \"Example Directory Updates\", \"Dead Link Removal\"],\n    \"JavaScript Patterns\": [\"Module Systems\", \"Template Syntax\"],\n    \"Legacy Code Migration\": [\"Strategic Engine Replacement\", \"Backward Compatibility\"],\n    \"Collaboration\": [\"PR Coordination\", \"Issue References\"]\n  },\n  \"skill_evidence\": [\n    \"PRs reference 'Replace Jade with Pug' and 'Remove jade as a dev dependency' showing template engine migration expertise\",\n    \"Multiple PRs mention 'examples/' directory updates indicating familiarity with Express's documentation structure\",\n    \"PR descriptions include 'This is the last PR that should allow the safe removal of Jade' demonstrating strategic planning\",\n    \"PRs reference Express-specific features like 'view-locals' and 'MVC patterns' in example updates\",\n    \"Dependency removal PRs show `package.json` modifications and npm/yarn command awareness\",\n    \"PRs include 'fix spacing in README heading' and 'remove dead links' showing documentation maintenance skills\",\n    \"PRs reference other PRs (#3181, #3241) indicating collaboration and issue tracking familiarity\",\n    \"PR titles like '[examples] Replace Jade with Pug' demonstrate hands-on experience with template systems\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 34 column 3 (char 2453)"
+  },
+  "statistics": {
+    "total_prs": 12,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

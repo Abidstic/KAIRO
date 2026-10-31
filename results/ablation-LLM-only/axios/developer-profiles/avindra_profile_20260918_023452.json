@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "avindra",
+    "generation_timestamp": "2026-09-18T02:23:39.261378",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "avindra",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios internals (interceptors, validateStatus, eject mechanism)",
+      "Webpack configuration and dependency management",
+      "Legacy browser compatibility (IE11 polyfills)",
+      "Documentation and technical writing",
+      "CI/CD pipeline debugging"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Axios ecosystem, though not directly shown in PRs)"
+    ],
+    "summary": "avindra is a mid-level JavaScript developer with specialized expertise in HTTP client libraries, particularly Axios. Their contributions focus on core library internals, build system optimization (Webpack), dependency updates, and maintaining documentation. Strong proficiency in legacy browser compatibility (IE11) and CI/CD pipeline debugging is evident. While primarily a backend/library specialist, their work demonstrates deep technical writing skills and attention to detail in API clarity and example organization. No visible frontend framework or advanced backend Node.js experience in these contributions.",
+    "identified_skills": {
+      "HTTP Client Development": [
+        "Axios interceptors",
+        "Request/response validation (validateStatus)",
+        "Library eject mechanism"
+      ],
+      "Build System & Tooling": [
+        "Webpack configuration",
+        "Dependency upgrades (npm/yarn)",
+        "Polyfill handling and removal",
+        "Legacy browser builds (IE11)"
+      ],
+      "Documentation & Examples": [
+        "API documentation clarification",
+        "Example project organization (ECOSYSTEM buckets)",
+        "Technical writing for cookbooks"
+      ],
+      "CI/CD & Debugging": [
+        "PR build environment quirks",
+        "Regression testing awareness",
+        "CI pipeline debugging (IE test failures)"
+      ],
+      "Dependency Management": [
+        "Semantic versioning updates",
+        "Transitive dependency resolution",
+        "Polyfill dependency optimization"
+      ],
+      "JavaScript Language Features": [
+        "ES6+ module systems",
+        "Asynchronous patterns (Promises)"
+      ],
+      "Frontend Compatibility": [
+        "Bootstrap 4 integration",
+        "Polyfill shimming for legacy browsers"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: 'Doc fixes, minor examples cleanup' → API documentation clarification and example organization",
+      "PR #1: 'clarify docs around `validateStatus` and `eject`' → Axios internals and technical writing",
+      "PR #1: 'update to bootstrap 4 build in examples files' → Frontend compatibility and example maintenance",
+      "PR #2: 'Update Webpack + deps' → Webpack configuration and dependency management",
+      "PR #2: 'remove unnecessary polyfills' → Polyfill handling and legacy browser optimization",
+      "PR #3: 'Dep updates, update polyfill handling' → Dependency upgrades and polyfill dependency optimization",
+      "PR #3: 'IE builds, for some reason, don’t run on PR builds' → CI/CD pipeline debugging and regression awareness",
+      "PR #3: 'remove now unnecessary polyfills' → Build system optimization for modern environments"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

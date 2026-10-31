@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "Nico-DF",
+    "generation_timestamp": "2026-09-17T23:25:59.666902",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "Nico-DF",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js plugin development",
+      "Data decimation algorithms (LTTB, min-max)",
+      "JavaScript algorithm optimization",
+      "Charting performance improvements",
+      "Unit testing in JavaScript (Jest)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (likely familiar, given Chart.js ecosystem)"
+    ],
+    "summary": "Nico-DF is a mid-level JavaScript developer with specialized expertise in Chart.js, particularly focused on data visualization performance optimizations. Their contributions demonstrate deep knowledge of decimation algorithms (LTTB and min-max), threshold-based processing, and rendering optimizations for large datasets. While their contributions are highly concentrated in Chart.js's core algorithmic logic, they also show proficiency in JavaScript functional programming patterns, debugging complex algorithms, and adding unit tests. Nico-DF's work bridges algorithm design and practical implementation, making them a valuable contributor to performance-critical visualization libraries.",
+    "identified_skills": {
+      "Data Visualization": [
+        "Chart.js plugin architecture",
+        "Data decimation algorithms",
+        "Threshold-based processing",
+        "Visible points optimization",
+        "Time-series chart rendering"
+      ],
+      "JavaScript Core": [
+        "Functional programming patterns",
+        "Algorithm optimization",
+        "Error handling and debugging",
+        "Pure functions and side-effect management"
+      ],
+      "Testing": [
+        "Jest unit testing",
+        "Edge-case testing",
+        "Algorithm correctness verification"
+      ],
+      "Algorithm Design": [
+        "Linear Time Threshold-Based (LTTB) algorithm",
+        "Min-max decimation strategy",
+        "Data preprocessing pipelines",
+        "Performance profiling techniques"
+      ],
+      "Code Quality": [
+        "Code duplication removal",
+        "Refactoring algorithmic logic",
+        "Bug fixing in complex systems"
+      ],
+      "Chart.js Ecosystem": [
+        "Decimation plugin development",
+        "Rendering optimization techniques",
+        "Data parsing pipelines"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: 'Fix duplication of getStartAndCountOfVisiblePoints function' → Demonstrates algorithmic debugging and refactoring in Chart.js core logic",
+      "PR #2: 'Setting correct decimated values when below threshold' → Shows deep understanding of LTTB algorithm edge cases and threshold-based processing",
+      "PR #3: 'Adding threshold option to decimation plugin' → Feature development with algorithmic considerations for Chart.js plugin system",
+      "PR descriptions mention 'LTTB algorithm' and 'min-max algorithm' → Evidence of specialized knowledge in data decimation strategies",
+      "'Added simple tests' in PR #1 → Indicates familiarity with Jest-based unit testing for charting logic",
+      "References to '_sorted' and 'parsing is disabled' → Demonstrates understanding of Chart.js's internal data processing pipelines",
+      "Bug fixes for 'LTTB algorithm' errors → Shows debugging expertise in complex algorithmic implementations",
+      "Modifications to 'decimation plugin' → Evidence of plugin development experience within Chart.js ecosystem"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

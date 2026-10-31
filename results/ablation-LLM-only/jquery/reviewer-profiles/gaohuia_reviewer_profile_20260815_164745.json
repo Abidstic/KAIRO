@@ -1,0 +1,62 @@
+{
+  "reviewer_name": "gaohuia",
+  "generated_at": "20260815_164745",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 1,
+    "total_prs": 1,
+    "repos": [
+      "jquery"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "gaohuia",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "DOM manipulation and script tag behavior",
+      "Browser security (CORS and crossorigin attribute handling)",
+      "Behavioral changes in JavaScript execution"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5+)",
+      "HTML/CSS (DOM API interaction)"
+    ],
+    "summary": "gaohuia demonstrates a strong focus on low-level DOM scripting and browser security, particularly around script tag behavior and cross-origin restrictions. Their reviews indicate deep expertise in how scripts interact with the DOM and network, with a security-conscious approach. The limited but repetitive review activity suggests specialized knowledge in this niche area, likely contributing to a core library or framework (e.g., jQuery) where script loading and DOM manipulation are critical. While no backend or modern JS features are evident, their technical depth in DOM APIs and security makes them a valuable reviewer for browser-focused JavaScript code.",
+    "identified_skills": {
+      "DOM Scripting": [
+        "Script element manipulation",
+        "Dynamic script injection",
+        "crossOrigin attribute handling"
+      ],
+      "Browser Security": [
+        "CORS policy enforcement",
+        "Cross-origin script loading",
+        "Security attribute validation"
+      ],
+      "Behavioral JavaScript": [
+        "Script execution behavior",
+        "DOM event-driven interactions",
+        "Asynchronous script loading"
+      ],
+      "Code Review": [
+        "Behavioral change validation",
+        "Security-critical code scrutiny"
+      ],
+      "JavaScript Language": [
+        "DOM API usage",
+        "Attribute-based configuration"
+      ]
+    },
+    "skill_evidence": [
+      "PR labeled 'Manipulation' and 'Behavior Change' focusing on script tag behavior",
+      "Title 'Respect script crossorigin attribute in DOM manipulation' explicitly references crossorigin and DOM APIs",
+      "Repeated review of the same PR suggests deep familiarity with script loading security edge cases",
+      "No evidence of backend JavaScript or testing frameworks in reviews",
+      "Comments imply validation of behavioral changes in script execution",
+      "Focus on ensuring cross-origin restrictions are respected in DOM operations",
+      "No mention of modern JS features (e.g., fetch, async/await) in PR titles or labels"
+    ]
+  }
+}

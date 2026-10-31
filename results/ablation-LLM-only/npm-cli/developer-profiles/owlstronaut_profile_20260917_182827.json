@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "owlstronaut",
+    "generation_timestamp": "2026-09-17T18:21:25.356384",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 38,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "owlstronaut",
+    "raw_response": "```json\n{\n  \"developer_name\": \"owlstronaut\",\n  \"experience_level\": \"Senior\",\n  \"primary_skills\": [\n    \"npm CLI internals\",\n    \"Node.js dependency resolution (Arborist)\",\n    \"npm workspaces implementation\",\n    \"npm package execution (`npx`)\",\n    \"npm configuration and versioning\",\n    \"registry URL handling and HTTP protocols\",\n    \"test-driven development for npm core\",\n    \"asynchronous JavaScript (Promises/async-await)\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (likely, given npm CLI migration)\",\n    \"Node.js API (fs, path, http, url modules)\"\n  ],\n  \"summary\": \"owlstronaut is a senior-level Node.js developer with deep expertise in npm's core internals, specializing in dependency resolution, package execution (`npx`), and workspace support. Their contributions focus on fixing critical bugs in npm's Arborist engine, optimizing registry interactions, and enhancing test coverage for edge cases like optional dependencies and version conflicts. The developer demonstrates strong asynchronous programming skills, robust error handling, and a collaborative approach to maintaining npm's CLI tooling. While primarily focused on backend systems, their knowledge of npm's internals makes them highly valuable for package management and dependency resolution systems.\",\n  \"identified_skills\": {\n    \"npm Core Architecture\": [\n      \"npm CLI internals\",\n      \"Arborist dependency resolution\",\n      \"Reifier package installation logic\",\n      \"npm workspaces path resolution\",\n      \"package.json metadata handling\"\n    ],\n    \"Dependency Management\": [\n      \"npm version resolution conflicts\",\n      \"optional dependency fallbacks\",\n      \"dependency override mechanisms\",\n      \"semantic versioning (semver) compliance\",\n      \"registry URL manipulation\"\n    ],\n    \"Package Execution\": [\n      \"npx command implementation\",\n      \"package cache management\",\n      \"stale version reuse prevention\",\n      \"command-line argument parsing\"\n    ],\n    \"Testing Practices\": [\n      \"test-driven bug fixes\",\n      \"edge case test coverage\",\n      \"integration tests for npm CLI\",\n      \"Jest/Node.js assert usage\"\n    ],\n    \"Asynchronous Patterns\": [\n      \"Promise-based registry requests\",\n      \"async/await for file I/O operations\",\n      \"error handling in async workflows\",\n      \"callback-based legacy code\"\n    ],\n    \"Configuration Systems\": [\n      \"npm config parsing\",\n      \"save types (exclusive/optional)\",\n      \"registry path preservation\",\n      \"cross-platform configuration\"\n    ],\n    \"Performance Optimization\": [\n      \"CI test optimization\",\n      \"cache stale version fixes\",\n      \"platform-specific performance tuning\",\n      \"dependency resolution optimizations\"\n    ],\n    \"Debugging Techniques\": [\n      \"registry URL handling fixes\",\n      \"workspace path resolution debugging\",\n      \"optional dependency fallback logic\",\n      \"cross-platform compatibility fixes\"\n    ],\n    \"Community Contributions\": [\n      \"GitHub issue triage\",\n      \"collaborative PR reviews\",\n      \"npm maintainer collaboration\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR: \\\"fix(arborist): workspaces respect overrides on subsequent installs\\\" — demonstrates deep Arborist knowledge and workspace path resolution\",\n    \"PR: \\\"fix(arborist): safely fallback on unresolved $ dependency references\\\" — shows expertise in optional dependency fallbacks and error handling\",\n    \"PR: \\\"add `npm cache npx` command and fix stale-version reuse in npx\\\" — highlights npx internals and cache management\",\n    \"PR: \\\"fix: preserve registry path when replacing a host\\\" — evidence of registry URL handling and HTTP protocol fixes\",\n    \"PR: \\\"chore: add load-virtual and reify tests for workspace override test coverage\\\" — indicates test-driven development and integration test writing\",\n    \"PR: \\\"fixes: https://github.com/npm/cli/issues/5584 (file: paths in workspaces)\\\" — shows debugging of edge cases in workspace resolution\",\n    \"PR: \\\"fix(config): use exclusive for save types\\\" — demonstrates npm configuration system understanding\",\n    \"PR: \\\"fix: resolve override conflicts and apply correct versions\\\" — evidence of version resolution conflict resolution\"\n  ]\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 83 column 32 (char 3847)"
+  },
+  "statistics": {
+    "total_prs": 38,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

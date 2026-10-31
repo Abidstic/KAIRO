@@ -1,0 +1,86 @@
+{
+  "reviewer_name": "jsumners",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 130,
+    "total_comments": 80,
+    "total_prs": 83,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "jsumners",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify framework internals",
+      "Node.js backend development",
+      "API design and contract specification",
+      "Testing and test-driven development",
+      "Technical documentation",
+      "Semantic versioning and release management",
+      "Dependency management and ecosystem awareness"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (implied via Fastify ecosystem)"
+    ],
+    "summary": "jsumners is a highly skilled senior JavaScript backend engineer with deep expertise in Fastify's core internals, API design, and release processes. Their contributions demonstrate a strong focus on testing, documentation quality, and semantic versioning compliance. The reviewer excels in reviewing complex backend changes, providing constructive feedback on technical correctness, user experience, and backward compatibility. While primarily focused on backend frameworks, their API design feedback suggests awareness of frontend integration needs. The profile reflects a mature contributor with rigorous review standards and a clear understanding of Fastify's ecosystem.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js HTTP server internals"
+      ],
+      "API Design & Contracts": [
+        "Thenable API implementation",
+        "Reply object extensions",
+        "Content-Type parsing"
+      ],
+      "Testing Practices": [
+        "Test coverage requirements",
+        "Debugging test output",
+        "Test-driven bug fixes"
+      ],
+      "Documentation & UX": [
+        "Technical guide expansion",
+        "Plugin ecosystem categorization",
+        "Documentation critique"
+      ],
+      "Version Control & Releases": [
+        "Semantic versioning labels",
+        "Dependency bump approvals",
+        "Deprecation management"
+      ],
+      "Code Review": [
+        "Constructive feedback on PRs",
+        "API design critiques",
+        "Test coverage requests"
+      ],
+      "Networking & HTTP": [
+        "Content-Type validation",
+        "Network interface testing",
+        "HTTP response handling"
+      ],
+      "Dependency Management": [
+        "Safe version bumps",
+        "Plugin ecosystem documentation"
+      ],
+      "Tooling & DevOps": [
+        "GitHub Actions workflow awareness",
+        "Benchmarking practices"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Properly implement Thenable API on Reply objects' - demonstrates deep API design knowledge",
+      "Review comment: 'Please add a test that fails without this change' - shows emphasis on test-driven development",
+      "PR label: 'semver-minor' on dependency bump PRs - indicates versioning expertise",
+      "PR: 'docs: add database guide page' with critique: 'I think this is a good start, but as a reader I would expect more guide than just install this plugin' - reflects UX-focused documentation review",
+      "Approval of 'fix: potential bug in content type parser' with request for failing test case - combines bug fixing with testing rigor",
+      "Comment on 'Tests should pass on a host with only a single network interface' - shows networking awareness",
+      "PR: 'lib: deprecate the default route and improve its documentation' - demonstrates release management skills",
+      "Approval of 'build(deps): bump fastify-error from 0.3.1 to 1.0.0' - indicates dependency management expertise"
+    ]
+  }
+}

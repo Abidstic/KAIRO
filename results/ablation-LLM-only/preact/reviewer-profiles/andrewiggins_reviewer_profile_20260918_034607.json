@@ -1,0 +1,82 @@
+{
+  "reviewer_name": "andrewiggins",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 17,
+    "total_comments": 13,
+    "total_prs": 14,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "andrewiggins",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "React/Preact internals",
+      "TypeScript runtime safety",
+      "Virtual DOM optimizations",
+      "SSR/streaming SSR",
+      "JavaScript runtime debugging",
+      "Context API implementation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "JSX/TSX"
+    ],
+    "summary": "Senior JavaScript engineer with deep expertise in React/Preact framework internals, TypeScript runtime behavior, and performance-critical optimizations. Specializes in virtual DOM transformations, SSR/streaming SSR, and runtime safety checks. Demonstrates strong architectural reasoning in framework design debates and precise debugging of edge cases. Skilled in aligning Preact with React 19 features while maintaining performance and type safety.",
+    "identified_skills": {
+      "Framework Internals": [
+        "React/Preact Virtual DOM",
+        "JSX transformation",
+        "Hydration (SSR/streaming SSR)",
+        "Context API implementation",
+        "Boolean prop handling",
+        "React 19 compatibility"
+      ],
+      "TypeScript": [
+        "Type inference",
+        "Prop type validation",
+        "Undefined prop guards",
+        "Cross-language behavior alignment"
+      ],
+      "Performance Optimization": [
+        "SSR comment node skipping",
+        "Memory cleanup (_nextDom removal)",
+        "List rendering stability",
+        "Benchmarking integration",
+        "Context unmounting optimizations"
+      ],
+      "Debugging & Testing": [
+        "Runtime error reproduction",
+        "Test-driven TypeScript examples",
+        "Undefined access tracking",
+        "Async safety checks"
+      ],
+      "Code Review & Architecture": [
+        "Core vs. compat trade-offs",
+        "DOM alignment principles",
+        "React ecosystem alignment",
+        "Benchmarking contributions"
+      ],
+      "JavaScript Language": [
+        "textContent assignment",
+        "Async/await error handling",
+        "VNode prop validation"
+      ]
+    },
+    "skill_evidence": [
+      "\"Skip HTML comments during hydration\" (SSR/streaming SSR optimization)",
+      "\"Allow for Context as JSX\" (React 19 Context API feature alignment)",
+      "\"fix: case where shrinking a list would cause an exception\" (list rendering stability)",
+      "\"Remove _nextDom usage\" (memory cleanup in runtime)",
+      "\"It would appear that sometimes `newVNode.props` may be undefined\" (undefined prop guard)",
+      "\"Not sure it aligns with our 'closer to the DOM' principle\" (architectural debate)",
+      "\"Integrate the new benchmarks repo and update\" (performance benchmarking)",
+      "\"For element nodes with a single text child, directly set `textContent`\" (JSX-to-DOM mapping)"
+    ]
+  }
+}

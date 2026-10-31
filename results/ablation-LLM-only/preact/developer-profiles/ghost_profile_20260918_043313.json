@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "developer_name": "ghost",
+    "generation_timestamp": "2026-09-18T04:29:36.092606",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "ghost",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "React/Preact class components",
+      "TypeScript type definitions",
+      "Dynamic CSS class handling",
+      "React-like lifecycle methods",
+      "Preact-specific optimizations"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "ghost is a mid-level JavaScript developer with specialized expertise in React/Preact class components, TypeScript type definitions, and dynamic frontend patterns. Their contributions focus on Preact’s internals, particularly state management, context API enhancements, and prop handling. While primarily frontend-oriented, their work demonstrates strong debugging and issue-tracking skills within the React ecosystem. Evidence suggests familiarity with modern JavaScript features (e.g., template literals, logical operators) and a deep understanding of Preact’s class component architecture.",
+    "identified_skills": {
+      "React/Preact Architecture": [
+        "class component lifecycle methods",
+        "state management with setState",
+        "componentWillMount",
+        "Preact Context API"
+      ],
+      "TypeScript & Type Safety": [
+        "type definitions",
+        "displayName property",
+        "Context API typing"
+      ],
+      "Frontend Patterns": [
+        "dynamic CSS class arrays",
+        "conditional rendering with logical AND",
+        "template literals"
+      ],
+      "Debugging & Issue Resolution": [
+        "GitHub issue tracking",
+        "lifecycle bug fixes",
+        "type definition corrections"
+      ],
+      "JavaScript Language": [
+        "ES6+ features",
+        "optional chaining (inferred)",
+        "logical operators"
+      ],
+      "Documentation & Tooling": [
+        "TypeScript documentation updates"
+      ],
+      "Virtual DOM": [
+        "Preact rendering optimizations (inferred)"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: References 'componentWillMount' lifecycle method and 'setState' in Preact class component context",
+      "PR 1: Links to GitHub issue #1461, demonstrating debugging and issue resolution workflow",
+      "PR 2: Proposes array-based dynamic class name handling (`class={['panel', ...]}`) for Preact components",
+      "PR 2: Uses ES6+ template literals and logical AND (`isMobile && 'mobile'`) for conditional styling",
+      "PR 3: Adds 'displayName' to Preact Context API type definitions, showing TypeScript expertise",
+      "PR 3: Mentions type definition gaps, indicating familiarity with Preact’s type system",
+      "All PRs show engagement with Preact’s GitHub issue tracking system (#1461, #2454)",
+      "No backend or testing frameworks (Jest/Enzyme) evident in PRs, confirming frontend specialization"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

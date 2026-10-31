@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "domdomegg",
+    "generation_timestamp": "2026-09-18T14:04:39.230650",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "domdomegg",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify framework internals",
+      "JavaScript error handling (sync/async)",
+      "Node.js middleware development",
+      "Testing (unit/integration)",
+      "API documentation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Fastify ecosystem)"
+    ],
+    "summary": "domdomegg is a Mid-level JavaScript developer with specialized expertise in Fastify's core systems, particularly error handling and testing. Their contributions demonstrate deep knowledge of Fastify's synchronous/asynchronous error handling mechanisms, middleware architecture, and documentation practices. While primarily focused on backend frameworks, their skills extend to robust testing strategies and technical writing for API documentation. The developer follows collaborative open-source practices with a focus on incremental, well-scoped improvements.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js middleware"
+      ],
+      "Error Handling": [
+        "synchronous error handlers",
+        "async/await error patterns",
+        "error propagation middleware"
+      ],
+      "Testing": [
+        "unit tests for Fastify plugins",
+        "test automation (npm scripts)",
+        "edge-case testing"
+      ],
+      "Documentation": [
+        "API behavior clarification",
+        "developer-facing documentation",
+        "error handling documentation"
+      ],
+      "JavaScript Language": [
+        "ES6+ features",
+        "promise-based patterns",
+        "callback-based error handling"
+      ],
+      "Debugging": [
+        "root cause analysis for framework internals",
+        "test-driven debugging",
+        "edge-case fixes"
+      ],
+      "Open Source Practices": [
+        "focused PR contributions",
+        "collaborative code review readiness",
+        "incremental improvements"
+      ]
+    },
+    "skill_evidence": [
+      "PR 'fix(#5220): better support encapsulated synchronous error handlers' shows deep Fastify error handling expertise",
+      "'test: add tests for error handling' demonstrates writing Fastify-specific unit tests for core functionality",
+      "'docs: update setErrorHandler to explain not found behaviour' proves strong API documentation skills",
+      "'fix: npm run test:watch' indicates familiarity with Fastify's test suite and automation workflows",
+      "All PRs focus on Fastify's error handling system, proving specialized knowledge of middleware chaining",
+      "Changes are small, focused fixes suggesting experience working with maintainers on large projects",
+      "Documentation PRs clarify complex behavior for developers, showing technical writing ability",
+      "Error handling PRs involve both synchronous and asynchronous patterns, proving versatile JS knowledge"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

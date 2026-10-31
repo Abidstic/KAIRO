@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "developer_name": "Copilot",
+    "generation_timestamp": "2026-09-18T02:31:25.133611",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "Copilot",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "Axios internals",
+      "Type-safe error handling",
+      "Custom error classes",
+      "HTTP client libraries",
+      "GitHub PR workflows",
+      "Release notes documentation"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "summary": "Copilot demonstrates a strong mid-level JavaScript/TypeScript developer profile with specialized expertise in Axios internals, particularly focusing on type safety and error handling. The contributions show precision in refining TypeScript types for AxiosError, handling error chaining with the 'cause' property, and maintaining clean documentation practices. While contributions are limited to a single repository (axios), the depth of technical focus on type refinement and error systems indicates a developer who excels in backend/HTTP-focused JavaScript ecosystems. The PRs reveal proficiency in GitHub collaboration workflows and structured code reviews, though broader frontend/backend framework experience is not directly evidenced in these contributions.",
+    "identified_skills": {
+      "TypeScript Advanced": [
+        "Type refinement",
+        "Generics",
+        "Discriminated unions",
+        "Type-safe error classes",
+        "Error.cause property",
+        "Type annotation corrections"
+      ],
+      "Axios Library": [
+        "AxiosError class",
+        "Response interceptors",
+        "HTTP client error handling",
+        "TypeScript integration"
+      ],
+      "Error Handling Patterns": [
+        "Custom error inheritance",
+        "Error chaining",
+        "Type-safe exceptions",
+        "Unknown → Error type corrections"
+      ],
+      "Documentation": [
+        "Release notes updates",
+        "Version changelog contributions"
+      ],
+      "GitHub Workflow": [
+        "PR structure (titles/labels)",
+        "WIP markers",
+        "Review-ready contributions",
+        "Closed PRs"
+      ],
+      "JavaScript Ecosystem": [
+        "HTTP client libraries",
+        "Asynchronous operations"
+      ],
+      "Backend Systems": [
+        "Node.js HTTP clients"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1 title 'fix: improve AxiosError typing in response interceptors' shows TypeScript type refinement work on AxiosError class",
+      "PR 2 title 'fix(types): restore AxiosError.cause type from unknown to Error' demonstrates precision in type annotation corrections",
+      "PR 2 description implies handling of TypeScript's 'cause' property for error chaining (TS 4.5+ feature)",
+      "All PRs involve AxiosError class, proving deep knowledge of Axios internals and error handling systems",
+      "PR 3 title '[WIP] Update release notes for version changes' indicates involvement in documentation/maintenance tasks",
+      "PR structure includes 'fix' labels and WIP markers, showing adherence to GitHub contribution conventions",
+      "Error handling patterns visible through custom error class modifications and type safety improvements",
+      "No frontend framework code visible, but Axios usage implies backend/HTTP client expertise"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

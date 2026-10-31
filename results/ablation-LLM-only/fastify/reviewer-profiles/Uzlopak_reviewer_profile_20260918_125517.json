@@ -1,0 +1,19 @@
+{
+  "reviewer_name": "Uzlopak",
+  "generated_at": "20260918_125517",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 164,
+    "total_comments": 84,
+    "total_prs": 98,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "Uzlopak",
+    "raw_response": "```json\n{\n  \"reviewer_name\": \"Uzlopak\",\n  \"experience_level\": \"Senior\",\n  \"primary_skills\": [\n    \"Fastify internals\",\n    \"Node.js backend development\",\n    \"JavaScript error handling\",\n    \"Semantic Versioning\",\n    \"Fastify plugin ecosystem\",\n    \"HTTP protocol awareness\",\n    \"Code review & testing practices\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript\",\n    \"TypeScript\"\n  ],\n  \"summary\": \"Uzlopak is a senior-level JavaScript reviewer with deep expertise in Fastify, particularly in its core internals, error handling, and plugin ecosystem. Their reviews demonstrate strong technical depth in Node.js backend development, with a focus on semantic versioning, middleware patterns, and asynchronous programming. Uzlopak exhibits mature code review habits, emphasizing testing coverage and documentation quality while maintaining a balanced feedback approach.\",\n  \"identified_skills\": {\n    \"Backend Frameworks\": [\"Fastify\", \"Node.js\"],\n    \"Error Handling & Debugging\": [\"Thenable API implementation\", \"ContentTypeParser error handling\", \"HTTP version checks\", \"Edge case validation\"],\n    \"Asynchronous Programming\": [\"Promises/Thenables\", \"Async middleware hooks\"],\n    \"Code Review & Quality\": [\"Test coverage requirements\", \"SemVer compliance reviews\", \"Documentation clarity feedback\", \"Nitpick-focused reviews\"],\n    \"API & Protocol Design\": [\"HTTP protocol awareness\", \"Status code handling\", \"Reply object design\"],\n    \"Plugin & Ecosystem Management\": [\"Fastify plugin documentation\", \"@fastify/throttle ecosystem integration\"],\n    \"Version Control & Releases\": [\"Semantic Versioning (semver-minor/major)\", \"Breaking change awareness\"],\n    \"Documentation\": [\"Quick-start guide improvements\", \"Plugin ecosystem documentation\"]\n  },\n  \"skill_evidence\": [\n    \"PR title: 'Properly implement Thenable API on Reply objects' → Demonstrates deep Fastify internals knowledge and Promise/Thenable expertise\",\n    \"Review comment: 'Without further information what use case is broken and/or an unit test which tests for that edge case we have to reject this PR' → Shows strict testing and evidence-based review approach\",\n    \"PR label: 'semver-minor' on multiple PRs → Indicates strong SemVer awareness and versioning discipline\",\n    \"PR title: 'feat: Add onListen Hook' → Involvement in Fastify's hook-based architecture and lifecycle events\",\n    \"Review comment: 'I don’t like to read trivialities and things like: \\'Open your machine.\\' More like \\'Open your preferred terminal application.\\'' → Documentation review focus on clarity and technical accuracy\",\n    \"PR title: 'fix: remove http version check' → Involvement in HTTP protocol handling and version compatibility\",\n    \"PR label: 'internals' on multiple PRs → Consistent engagement with Fastify's core implementation details\",\n    \"Approval on 'docs(ecosystem): add @fastify/throttle to core list' → Active participation in Fastify's plugin ecosystem management\"\n  ]\n}\n```",
+    "parsing_error": "Invalid \\escape: line 33 column 74 (char 2425)"
+  }
+}

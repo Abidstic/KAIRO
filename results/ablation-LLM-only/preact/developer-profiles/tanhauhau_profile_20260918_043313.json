@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "developer_name": "tanhauhau",
+    "generation_timestamp": "2026-09-18T04:16:53.389779",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 7,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 7
+  },
+  "profile": {
+    "developer_name": "tanhauhau",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "React-like Virtual DOM (vnode) manipulation",
+      "Suspense and async rendering",
+      "Component lifecycle management",
+      "Preact framework internals",
+      "DOM traversal and sibling reordering",
+      "Promise-based async handling"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (implied by PR context)"
+    ],
+    "summary": "tanhauhau is a Mid-level JavaScript developer with deep expertise in React-compatible rendering engines, specializing in Preact. Their contributions focus on core React-like features such as virtual DOM manipulation, Suspense-based async rendering, and component lifecycle optimizations. The developer demonstrates strong debugging skills for edge cases in suspended components, promise resolution, and DOM reordering issues. While their contributions are frontend-focused, their technical depth in React/Preact internals suggests potential for growth into broader React ecosystem contributions or advanced frontend patterns.",
+    "identified_skills": {
+      "Rendering Engine Internals": [
+        "Virtual DOM (vnode) manipulation",
+        "Hydration behavior fixes",
+        "Component diffing optimizations"
+      ],
+      "Async Rendering": [
+        "Suspense implementation",
+        "Promise resolution during unmount",
+        "Suspended component cleanup"
+      ],
+      "Lifecycle Management": [
+        "componentWillUnmount overrides",
+        "shouldComponentUpdate optimizations",
+        "Unmount race condition handling"
+      ],
+      "DOM Traversal": [
+        "Sibling reordering fixes",
+        "getDomSibling implementation",
+        "DOM node state management"
+      ],
+      "Performance Optimization": [
+        "Memoization reordering bugs",
+        "Re-render avoidance patterns",
+        "Async cleanup strategies"
+      ],
+      "API Design": [
+        "Lifecycle hook refactoring",
+        "Unmount strategy improvements",
+        "Component update flow adjustments"
+      ],
+      "Debugging": [
+        "Suspense edge case resolution",
+        "Infinite loop prevention",
+        "State inconsistency fixes"
+      ],
+      "Framework-Specific": [
+        "Preact compatibility layer",
+        "React-like component patterns",
+        "Suspense behavior alignment"
+      ]
+    },
+    "skill_evidence": [
+      "\"allow resolve promise after suspense unmounted\" (PR #3) - Demonstrates promise resolution during unmount and Suspense cleanup",
+      "\"fix updating suspended component after hydration\" (PR #6) - Shows deep understanding of hydration and suspended state transitions",
+      "\"suspended vnode is in a weird state where it is the original node, but the `_dom` is null\" (PR #1) - Evidence of vnode internals debugging",
+      "\"oldVNode.vnode._children still points to the oldVNode\" (PR #5) - DOM traversal and sibling reordering fix",
+      "\"use options.unmount instead of overriding componentWillUnmount\" (PR #4) - API design improvement for lifecycle management",
+      "\"not able to find the correct nextSibling through `getDomSibling`\" (PR #5) - DOM traversal implementation challenge",
+      "\"if it rerenders before the promise resolves, the same component gets suspended twice\" (PR #6) - Race condition debugging in async flows",
+      "\"fix reordering issue of memoized component when initially renders null\" (PR #5) - Performance optimization for memoization"
+    ]
+  },
+  "statistics": {
+    "total_prs": 7,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

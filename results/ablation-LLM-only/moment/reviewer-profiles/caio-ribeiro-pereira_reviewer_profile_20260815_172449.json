@@ -1,0 +1,62 @@
+{
+  "reviewer_name": "caio-ribeiro-pereira",
+  "generated_at": "20260815_172449",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 1,
+    "total_prs": 2,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "caio-ribeiro-pereira",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Internationalization (i18n) in JavaScript",
+      "Pluralization rule validation",
+      "JavaScript runtime awareness (browser/Node.js)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from i18n tooling)"
+    ],
+    "summary": "caio-ribeiro-pereira demonstrates **mid-level JavaScript expertise** primarily through their **localization-focused reviews**, where they validate pluralization rules and translations in JavaScript contexts. Their evidence suggests familiarity with JavaScript's built-in `Intl` API and i18n libraries (likely `formatjs` or similar), but lacks deep framework or backend knowledge. Their role appears to be more technical reviewer than core developer, with a specialized focus on ensuring correct internationalization behavior in JavaScript code. The analysis reveals **no direct evidence of advanced JavaScript patterns** or framework-specific skills beyond i18n tooling.",
+    "identified_skills": {
+      "Internationalization & Localization": [
+        "JavaScript `Intl` API (PluralRules, DateTimeFormat)",
+        "Portuguese (pt-br) pluralization validation",
+        "i18n library integration (formatjs-like systems)",
+        "Time/date localization fixes"
+      ],
+      "Code Review Practices": [
+        "Translation correctness validation",
+        "Non-technical PR approvals",
+        "Locale-specific edge case review"
+      ],
+      "JavaScript Runtime Exposure": [
+        "Browser JavaScript execution context",
+        "Node.js runtime awareness (indirect)"
+      ],
+      "JavaScript Ecosystem": [
+        "ES6+ module patterns (inferred)",
+        "Build system interaction (indirect)"
+      ],
+      "Testing & QA": [
+        "i18n functional correctness testing"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: '[locale] pt-br: Fix wrong plural usage for time' (demonstrates `Intl.PluralRules` knowledge)",
+      "PR label: 'locale' (indicates i18n-focused review scope)",
+      "Review comment: 'The translated changes is okay in my opinion' (validates pluralization correctness)",
+      "PR description: 'relativeTime week translation' (shows time/date localization awareness)",
+      "No framework-specific code changes (e.g., React hooks, Express middleware)",
+      "No backend or database-related review comments",
+      "PRs involve only translation strings and pluralization logic (no JS logic modifications)",
+      "Indirect evidence of TypeScript via i18n tooling (e.g., `formatjs` supports TS)"
+    ]
+  }
+}

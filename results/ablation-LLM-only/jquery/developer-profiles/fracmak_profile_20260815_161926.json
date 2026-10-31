@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "developer_name": "fracmak",
+    "generation_timestamp": "2026-08-15T16:16:38.798312",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "fracmak",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "jQuery core optimization",
+      "JavaScript performance tuning",
+      "cross-browser compatibility (IE8/IE9)",
+      "DOM manipulation & layout optimization",
+      "legacy JavaScript debugging",
+      "unit test maintenance for performance fixes"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "jQuery"
+    ],
+    "summary": "fracmak is a senior JavaScript developer with deep expertise in jQuery core optimization and legacy browser compatibility. Their contributions focus on high-impact performance improvements (e.g., 1/3rd runtime reduction in $.parseJSON) and cross-browser fixes for IE8/IE9 quirks. The developer demonstrates advanced skills in DOM manipulation, defensive programming, and test-driven optimization, primarily within the jQuery ecosystem. Their work is characterized by precision-driven micro-optimizations that maintain backward compatibility while avoiding performance pitfalls.",
+    "identified_skills": {
+      "jQuery Core": [
+        "$.parseJSON optimization",
+        "$.fn.position() implementation",
+        "event bubbling detection",
+        "DOM traversal utilities"
+      ],
+      "Performance Optimization": [
+        "runtime benchmarking",
+        "regex elimination for native JSON.parse",
+        "offsetWidth avoidance",
+        "layout thrashing prevention"
+      ],
+      "Cross-Browser Compatibility": [
+        "IE8/IE9-specific fixes",
+        "addEventListener vs. attachEvent handling",
+        "legacy DOM method fallbacks",
+        "feature detection patterns"
+      ],
+      "DOM Manipulation": [
+        "getBoundingClientRect usage",
+        "fixed-position element positioning",
+        "try/catch error resilience",
+        "DOM property optimization"
+      ],
+      "Testing & Validation": [
+        "unit test updates",
+        "performance benchmarking",
+        "error case validation",
+        "legacy environment testing"
+      ],
+      "Legacy JavaScript": [
+        "IE8/IE9 quirk handling",
+        "deprecated API avoidance",
+        "defensive programming patterns",
+        "Windows XP environment testing"
+      ],
+      "Code Quality": [
+        "micro-optimization focus",
+        "closed PRs with no rejections",
+        "refactoring without additions/deletions"
+      ]
+    },
+    "skill_evidence": [
+      "PR #7587: Removed regex-based JSON validation when native JSON.parse is safe, reducing runtime by 1/3rd ('$.parseJSON huge performance optimization')",
+      "PR #12518: Used try/catch to handle IE8/IE9 offsetWidth bugs ('offsetWidth performance hit in IE8/IE9')",
+      "PR #12569: Adjusted IE-only feature detection to avoid redundant checks ('bubbling support checks for IE')",
+      "PR #12749: Replaced legacy DOM methods with getBoundingClientRect for fixed-position elements ('position() accuracy for fixed elements')",
+      "All PRs: Updated unit tests to validate performance and compatibility fixes ('unit tests updated' in descriptions)",
+      "PR #12518: Required IE8 native browser for testing ('There was already a unit test in place to cover this')",
+      "PR #7587: Included performance benchmarks in PR description ('My tests show this reduces runtime to 1/3rd')",
+      "All PRs: Focused on removing expensive operations (regex, offsetWidth) without breaking existing functionality"
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "reviewer_name": "Ephigenia",
+  "generated_at": "20260815_170022",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 0,
+    "total_prs": 2,
+    "repos": [
+      "lodash"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "Ephigenia",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JSDoc documentation",
+      "ESLint configuration",
+      "Code review for documentation quality",
+      "Debugging and local development workflows",
+      "Technical writing for CLI tools"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from JSDoc familiarity)"
+    ],
+    "summary": "Ephigenia is a Mid-level JavaScript reviewer with strong expertise in JSDoc documentation, ESLint integration, and technical writing for CLI tools. Their reviews demonstrate deep debugging skills, attention to documentation quality, and the ability to reason about code correctness without full local execution. Primarily active in Node.js/Backend environments, Ephigenia excels at maintaining consistent documentation standards and identifying edge cases in internal function documentation.",
+    "identified_skills": {
+      "Documentation Standards": [
+        "JSDoc annotations (@param, @returns, @description)",
+        "ESLint JSDoc formatting rules",
+        "Technical documentation for CLI options"
+      ],
+      "Code Quality": [
+        "ESLint configuration and linting",
+        "Code review for documentation consistency",
+        "Outdated documentation identification"
+      ],
+      "Debugging & Development": [
+        "Missing module detection",
+        "Local dependency troubleshooting",
+        "Code correctness reasoning without tests"
+      ],
+      "Technical Writing": [
+        "Markdown formatting for code-like text",
+        "CLI argument documentation",
+        "README.md maintenance"
+      ],
+      "JavaScript Ecosystem": [
+        "Node.js internal modules",
+        "Modular JavaScript codebases"
+      ],
+      "Review Process": [
+        "Confident approval of documentation changes",
+        "Constructive feedback on JSDoc fixes"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'Jsdoc fixes' indicates focus on JSDoc documentation quality",
+      "PR description mentions 'fixed outdated/incorrect internal function JSDocs' showing deep JSDoc expertise",
+      "Review comment 'I was unable to execute tests locally... 95% sure these JSDoc fixes are correct' demonstrates debugging and confidence in reasoning without tests",
+      "PR description 'Fixed ESLint formatting issues' confirms ESLint configuration knowledge",
+      "README.md PR 'Changing font-style to monospace for '--save' option' shows technical writing for CLI tools",
+      "Approved PRs with detailed JSDoc fixes indicate rigorous code review standards",
+      "Mention of 'missing module in ./lib' highlights debugging skills for local development",
+      "ESLint JSDoc formatting fixes imply familiarity with linting plugins like eslint-plugin-jsdoc"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "langpavel",
+    "generation_timestamp": "2026-08-15T15:43:36.379199",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "langpavel",
+    "raw_response": "```json\n{\n  \"developer_name\": \"langpavel\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Express.js\",\n    \"Node.js CLI Tooling\",\n    \"Backend Architecture\",\n    \"Package Configuration\",\n    \"CLI Argument Parsing\",\n    \"Modular Application Design\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\"\n  ],\n  \"summary\": \"langpavel is a mid-level JavaScript developer with specialized expertise in Express.js and Node.js CLI tooling. Their contributions focus on improving Express.js skeleton generation, package.json automation, and backend architecture patterns. The developer demonstrates strong skills in refactoring CLI-driven workflows and separating application logic from HTTP server code, with a particular emphasis on developer experience (DX) enhancements. While contributions are currently limited to high-level architectural and configuration changes, the depth of insight into Express.js internals and Node.js package management suggests a solid foundation in backend development.\",\n  \"identified_skills\": {\n    \"Backend Frameworks\": [\"Express.js\"],\n    \"Node.js Core\": [\"CLI Tooling\", \"npm Scripts\", \"package.json Configuration\"],\n    \"Backend Architecture\": [\"Modular Application Design\", \"Server-App Separation\"],\n    \"Configuration Management\": [\"Dynamic package.json Generation\", \"CLI Argument Handling\"],\n    \"Code Refactoring\": [\"Removing Redundant Methods\", \"Cleanup\"],\n    \"Developer Experience\": [\"Skeleton Generator Enhancements\", \"CLI UX Improvements\"],\n    \"Programming Patterns\": [\"Configuration-Driven Behavior\"]\n  },\n  \"skill_evidence\": [\n    \"PR: 'Refactoring: no need for add \\'del\\' and \\'all\\' to methods' – evidence of cleanup and removing unnecessary complexity in Express.js internals\",\n    \"PR: 'cli: skeleton generator enhancement' – modifying how Express CLI auto-fills package.json fields like 'name' and 'private'\",\n    \"PR: 'cli: skeleton generator enhancement' – changes to CLI argument parsing (e.g., '--public' flag behavior)\",\n    \"PR: 'cli: skeleton generator enhancement' – separating app logic from HTTP server code in Express.js skeleton generation\",\n    \"PR: 'cli: skeleton generator enhancement' – improving npm start script integration with Express apps\",\n    \"PR: 'cli: skeleton generator enhancement' – refactoring to make Express CLI more flexible for different project structures\",\n    \"PR: 'cli: skeleton generator enhancement' – evidence of merging related changes for better DX in Express CLI tooling\"\n  ]\n}\n```",
+    "parsing_error": "Invalid \\escape: line 26 column 40 (char 1612)"
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

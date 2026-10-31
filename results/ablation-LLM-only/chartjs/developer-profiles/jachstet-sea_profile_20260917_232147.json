@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "developer_name": "jachstet-sea",
+    "generation_timestamp": "2026-09-17T23:06:29.560713",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "jachstet-sea",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript testing (Jest)",
+      "Chart.js library internals",
+      "Technical documentation (Markdown)",
+      "JavaScript configuration systems",
+      "Open-source contribution workflow"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Chart.js ecosystem)"
+    ],
+    "summary": "jachstet-sea is a mid-level JavaScript developer with specialized expertise in Chart.js library maintenance, focusing on testing, configuration, and technical documentation. Their contributions demonstrate strong proficiency in JavaScript testing frameworks (likely Jest), configuration systems, and Markdown-based documentation. The developer follows polished open-source contribution practices and shows deep familiarity with Chart.js's internal architecture, particularly its option system and test suite. While their contributions are highly specialized in frontend library maintenance, they exhibit professionalism in code review, collaboration, and maintainability-focused improvements.",
+    "identified_skills": {
+      "Testing": [
+        "Jest test suite maintenance",
+        "Unit test debugging",
+        "Test configuration fixes"
+      ],
+      "Library Development": [
+        "Chart.js plugin configuration",
+        "Option system refactoring",
+        "Library internals modification"
+      ],
+      "Documentation": [
+        "Markdown syntax correction",
+        "Technical documentation formatting",
+        "README/guide improvements"
+      ],
+      "JavaScript Core": [
+        "ES6 module exports/imports",
+        "Configuration option consistency",
+        "JavaScript whitespace/formatting standards"
+      ],
+      "Version Control": [
+        "Git PR workflow",
+        "Atomic commit discipline",
+        "Collaborative review integration"
+      ],
+      "Frontend Ecosystem": [
+        "Chart.js API design",
+        "Frontend library testing patterns"
+      ]
+    },
+    "skill_evidence": [
+      "PR #2: 'Fix test/defaultConfig.tests.js after PR #2308' - references explicit test file modification and debugging",
+      "PR #3: 'Consistent option names pt1' - demonstrates configuration system knowledge (changing `tension` → `lineTension`)",
+      "PR #1: 'Minor fixes in the documentation' - includes 'MarkDown-ify hyperlinks' and whitespace consistency fixes",
+      "PR #4: 'Fix legend.md markdown syntax' - shows detailed Markdown table syntax correction",
+      "All PRs: Small, focused changes with clear descriptions - indicates disciplined Git workflow and review readiness",
+      "PR #3 comment: 'Feel free to comment on stuff you don't like' - demonstrates proactive maintainer communication",
+      "PR #2: Test file reference suggests familiarity with Jest's test runner and test suite structure",
+      "Documentation-focused PRs (1,4) show 100% contribution to maintainability without code changes"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

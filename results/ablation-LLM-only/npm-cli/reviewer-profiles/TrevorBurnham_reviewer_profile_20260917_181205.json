@@ -1,0 +1,70 @@
+{
+  "reviewer_name": "TrevorBurnham",
+  "generated_at": "20260917_181205",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 2,
+    "total_prs": 2,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "TrevorBurnham",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Node.js Dependency Management",
+      "npm/yarn CLI Internals",
+      "JavaScript Module Resolution",
+      "Dependency Tree Validation",
+      "Semantic Versioning & Dependency Updates"
+    ],
+    "programming_languages": [
+      "JavaScript (ES Modules/CommonJS)",
+      "TypeScript (inferred from npm-package-arg context)"
+    ],
+    "summary": "TrevorBurnham demonstrates **Senior-level expertise** in Node.js backend systems, particularly in dependency management and resolution. Their reviews focus on **npm/yarn internals**, including tools like `arborist` for dependency tree validation and `npm-package-arg` for argument parsing. They exhibit deep knowledge of **semantic versioning**, dependency updates, and runtime-level JavaScript module systems. Their **precise code reviews** reveal strong attention to detail, especially in refactors and dependency-related fixes. While frontend frameworks are not evident, their backend-focused skills are highly specialized in **Node.js tooling and dependency ecosystems**.",
+    "identified_skills": {
+      "Dependency Management": [
+        "npm/yarn dependency resolution",
+        "dependency tree validation (arborist)",
+        "semantic versioning (semver)",
+        "npm-package-arg updates",
+        "missing dependency detection"
+      ],
+      "Node.js Ecosystem": [
+        "npm CLI internals",
+        "Node.js module systems (CommonJS/ES Modules)",
+        "dependency working-arounds for bugs",
+        "monorepo-like dependency graphs"
+      ],
+      "Code Review & Quality": [
+        "JavaScript syntax precision (find-and-replace review)",
+        "admitting oversight in refactors",
+        "dependency update validation"
+      ],
+      "Version Control & Releases": [
+        "dependency bump analysis",
+        "breaking change handling"
+      ],
+      "JavaScript Runtime": [
+        "module system debugging",
+        "runtime dependency resolution"
+      ],
+      "Potential Tooling": [
+        "JavaScript transformers (indirect evidence)"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: 'fix(arborist): check placed node children for missing deps' (dependency tree validation)",
+      "PR description: 'deps: npm-package-arg@12.0.2' (semantic versioning and dependency update)",
+      "Review comment: 'I left one nitpick comment inline; I wasn't sure if that was the direction you wanted to go in' (JavaScript syntax precision)",
+      "PR description: 'fix: stop working around bug fixed in npm-package-arg@12.0.2' (dependency resolution logic)",
+      "PR title: 'npm-package-arg update' (npm CLI internals and dependency updates)",
+      "Review context: 'find-and-replace change' in JavaScript (potential transformer/tooling exposure)",
+      "Dependency fix references: '#8112' (npm CLI internal issue tracking)"
+    ]
+  }
+}

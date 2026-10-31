@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "SeppPenner",
+    "generation_timestamp": "2026-09-17T22:52:50.271127",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 7,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 7
+  },
+  "profile": {
+    "developer_name": "SeppPenner",
+    "raw_response": "```json\n{\n  \"developer_name\": \"SeppPenner\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Chart.js internals (pie/doughnut/polar area charts)\",\n    \"JavaScript array/scalar type handling\",\n    \"Chart.js configuration validation\",\n    \"Frontend JavaScript debugging\",\n    \"Documentation maintenance and clarity\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\"\n  ],\n  \"summary\": \"SeppPenner is a specialized frontend JavaScript developer with deep expertise in Chart.js, particularly focused on pie/doughnut/polar area chart rendering, array-based styling validation, and documentation improvements. Their contributions demonstrate strong debugging skills, attention to detail in edge-case handling (e.g., hover states, type coercion), and a focus on maintaining consistency and correctness in charting library behavior. While contributions are narrowly concentrated on Chart.js, the evidence suggests proficiency in JavaScript typing, object/array manipulation, and frontend rendering patterns. No evidence indicates broader frontend frameworks or backend work.\",\n  \"identified_skills\": {\n    \"Charting Libraries\": [\"Chart.js (pie/doughnut/polar area charts)\"],\n    \"JavaScript Typing\": [\"array vs. scalar type handling\", \"type coercion\", \"configuration validation\"],\n    \"Frontend Rendering\": [\"chart rendering pipelines\", \"interactive features (hover states)\"],\n    \"Documentation\": [\"spelling corrections\", \"API documentation clarity\", \"issue consolidation\"],\n    \"Debugging\": [\"edge-case resolution\", \"reproducible bug fixes\", \"input validation\"],\n    \"JavaScript Patterns\": [\"object property manipulation\", \"array-based styling\"],\n    \"Issue Resolution\": [\"multi-issue PRs\", \"backward compatibility fixes\"]\n  },\n  \"skill_evidence\": [\n    \"PRs fix array-based styling for `backgroundColor`, `borderColor`, and `hoverBorderWidth` in pie/doughnut charts (type handling)\",\n    \"PRs labeled 'type: documentation' address spelling and terminology inconsistencies in Chart.js API\",\n    \"Fixes ensure hover states (`hoverBackgroundColor`, `hoverBorderWidth`) work for both arrays and scalars\",\n    \"PRs reference resolving issues across multiple related PRs/issues (e.g., PR #6447 consolidates 4 fixes)\",\n    \"No backend or framework-specific changes (all contributions are frontend-focused)\",\n    \"PRs demonstrate defensive programming for Chart.js configuration validation\",\n    \"Evidence of testing-like reasoning (e.g., 'this should work for both arrays and single values')\",\n    \"Contributions focus on edge cases like inconsistent array/scalar input handling in chart properties\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 33 column 3 (char 2596)"
+  },
+  "statistics": {
+    "total_prs": 7,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

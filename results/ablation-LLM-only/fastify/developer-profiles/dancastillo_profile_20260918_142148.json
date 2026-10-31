@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "developer_name": "dancastillo",
+    "generation_timestamp": "2026-09-18T13:33:45.054835",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 18,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "dancastillo",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "TypeScript",
+      "Fastify (Node.js framework)",
+      "Testing infrastructure",
+      "Documentation",
+      "Node.js tooling",
+      "Semantic versioning"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)"
+    ],
+    "summary": "dancastillo is a Senior JavaScript developer with deep expertise in TypeScript and Fastify, specializing in type safety, framework internals, and testing infrastructure. Their contributions focus on improving Fastify's developer experience through robust type definitions, modern test tooling, and comprehensive documentation. They demonstrate strong skills in semantic versioning, runtime type validation, and Node.js ecosystem tooling, with a collaborative approach to open-source development.",
+    "identified_skills": {
+      "Type Systems & Runtime Validation": [
+        "TypeScript type definitions",
+        "TypeBox runtime validation",
+        "Generics and interfaces",
+        "Type guards"
+      ],
+      "Backend Frameworks": [
+        "Fastify plugin system",
+        "Fastify configuration",
+        "FastifyReply types",
+        "FastifyContextConfig"
+      ],
+      "Testing & Quality Assurance": [
+        "Test suite migration (tap → node:test)",
+        "Test coverage (c8)",
+        "Benchmarking",
+        "Test debugging",
+        "BORP reporter setup"
+      ],
+      "Documentation & Developer Experience": [
+        "API documentation updates",
+        "TypeScript documentation",
+        "Testing guide updates",
+        "Contributor team management"
+      ],
+      "Node.js Ecosystem": [
+        "Node.js built-in test runner (node:test)",
+        "ES Modules",
+        "Configuration objects",
+        "Semantic versioning compliance"
+      ],
+      "Versioning & Backward Compatibility": [
+        "Semantic versioning (major/minor changes)",
+        "Backward compatibility analysis",
+        "API alignment with upstream"
+      ],
+      "Collaboration & Process": [
+        "Developer’s Certificate of Origin compliance",
+        "Issue discussion references",
+        "Checklist-driven PRs",
+        "Community contribution"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'fix: update removeHeader type to be FastifyReply' — demonstrates TypeScript type definition fixes and TypeBox usage",
+      "PR: 'feat: expose method for setGenReqId on FastifyInstance' — shows Fastify plugin system and API extension work",
+      "PR: 'test: migrate tests from tap to node:test and c8' — evidence of Node.js tooling modernization and test infrastructure changes",
+      "PR: 'docs: Update TypeScript docs regarding typebox' — confirms documentation expertise and TypeScript documentation focus",
+      "PR: 'chore: setup borp reporter for switch to node test' — indicates test reporting tooling knowledge and implementation",
+      "PR: 'feat: align fastify.hasRoute to fmw.hasRoute' — labeled semver-major, shows semantic versioning awareness and backward compatibility considerations",
+      "PR: 'docs: add dancastillo to Fastify Plugins team' — demonstrates community engagement and contributor management",
+      "PR descriptions consistently include 'runs npm run test' and 'includes benchmarks' — confirms testing and performance awareness"
+    ]
+  },
+  "statistics": {
+    "total_prs": 18,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

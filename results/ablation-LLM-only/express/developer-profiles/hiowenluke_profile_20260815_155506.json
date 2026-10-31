@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "developer_name": "hiowenluke",
+    "generation_timestamp": "2026-08-15T15:52:16.004269",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "hiowenluke",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Express.js",
+      "Node.js",
+      "Tas.js",
+      "Session/Cookie Management",
+      "JavaScript Modularity",
+      "Backend Debugging",
+      "Example Documentation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (implied, no direct evidence)"
+    ],
+    "summary": "hiowenluke is a mid-level JavaScript developer with strong backend expertise, primarily demonstrated through contributions to the Express.js repository. Their work focuses on modular Express applications, session/cookie management, and educational example development. The developer shows proficiency in Node.js internals, MVC patterns (via Tas.js), and debugging stateful logic. Contributions are primarily backend-focused, with a clear emphasis on maintainability and clarity in documentation. Evidence suggests adaptability to new frameworks and a collaborative approach to PR discussions.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Tas.js"
+      ],
+      "Node.js Core": [
+        "Async I/O",
+        "Event Loop Awareness",
+        "Modular Development"
+      ],
+      "State Management": [
+        "Session/Cookie Handling",
+        "Stateful Debugging"
+      ],
+      "Code Organization": [
+        "JavaScript Modularity",
+        "MVC Architecture"
+      ],
+      "Documentation": [
+        "Example Development",
+        "Pedagogical Clarity"
+      ],
+      "Testing": [
+        "Session Logic Testing"
+      ],
+      "Debugging": [
+        "Edge-Case Resolution",
+        "Race Condition Awareness"
+      ],
+      "Version Control": [
+        "Git PR Workflow",
+        "Collaborative Review"
+      ],
+      "Visualization": [
+        "Documentation Screenshots"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Rewrote Express examples using Tas.js MVC, emphasizing modular structure ('The code structure is clearer')",
+      "PR #1: Explicit mention of 'master modular development in Express and Node.js' in description",
+      "PR #3: Fixed session/cookie counter logic ('fix examples/cookie-sessions and the test'), demonstrating stateful debugging",
+      "PR #3: Included test-related changes ('the test'), implying familiarity with Express test patterns",
+      "All PRs labeled 'examples', showing focus on educational documentation and user clarity",
+      "PR #1 screenshot (`mvc-index.png`) indicates use of Tas.js visualization tools for documentation",
+      "PR #1 discussion label suggests active collaboration and PR review engagement",
+      "Session/cookie fix in PR #3 required understanding of race conditions in stateful operations"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

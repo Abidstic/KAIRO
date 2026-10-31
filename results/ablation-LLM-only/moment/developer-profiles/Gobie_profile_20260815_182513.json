@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "developer_name": "Gobie",
+    "generation_timestamp": "2026-08-15T18:16:24.190400",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "Gobie",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "JavaScript performance optimization",
+      "Moment.js internals",
+      "Date/time edge-case handling",
+      "Code refactoring and cleanup",
+      "JavaScript benchmarking",
+      "Test debugging and assertion refinement"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "JavaScript (Date/Time libraries)"
+    ],
+    "summary": "Gobie is a Senior JavaScript developer with deep expertise in performance optimization and date/time handling, primarily demonstrated through contributions to Moment.js. Their work focuses on micro-optimizations, edge-case debugging (e.g., timezone and leap-year issues), and code refactoring to improve readability and maintainability. Gobie exhibits strong skills in benchmarking and test-driven development, with a specialization in library-level JavaScript rather than full-stack or frontend frameworks. Their contributions are characterized by targeted, high-impact changes that enhance performance and correctness without introducing major architectural shifts.",
+    "identified_skills": {
+      "JavaScript Optimization": [
+        "Performance benchmarking",
+        "Micro-optimizations (e.g., zeroFill speedup)",
+        "Short-circuiting logic",
+        "Undefined checks and consistency"
+      ],
+      "Date/Time Libraries": [
+        "Moment.js internals",
+        "Date formatting (zeroFill)",
+        "Timezone and leap-year edge cases",
+        "Test-driven date logic validation"
+      ],
+      "Code Quality": [
+        "Dead code removal",
+        "Condition restructuring",
+        "Code cleanup and readability improvements"
+      ],
+      "Testing Practices": [
+        "Test assertion refinement",
+        "Test debugging for edge cases",
+        "Benchmarking as part of testing"
+      ],
+      "Tooling": [
+        ".editorconfig"
+      ],
+      "JavaScript Language Features": [
+        "Computed property names",
+        "Short-circuiting operators"
+      ]
+    },
+    "skill_evidence": [
+      "PR 3: 'Code cleanup and speedup' - Optimized zeroFill by ~20% with benchmark added, used undefined consistently, and applied short-circuiting",
+      "PR 3: 'Code cleanup and speedup' - Removed unused code and cleaned condition structure, demonstrating refactoring focus",
+      "PR 1: 'Fix test that fails at the end of the year' - Adjusted test expectations for timezone/year boundary issues, showing edge-case debugging",
+      "PR 1: 'Fix test that fails at the end of the year' - Targeted test assertion refinement for precise date calculations",
+      "PR 3: 'Code cleanup and speedup' - Added benchmarking to measure zeroFill performance improvements",
+      "PR 2: 'Add .editorconfig' - Introduced code style consistency tooling for the repository",
+      "PR 3: 'Code cleanup and speedup' - Used computed values and undefined checks for performance and correctness"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

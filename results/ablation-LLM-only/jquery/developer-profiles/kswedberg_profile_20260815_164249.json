@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "developer_name": "kswedberg",
+    "generation_timestamp": "2026-08-15T16:27:00.703607",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "kswedberg",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery Core DOM Manipulation",
+      "jQuery Selector Engine",
+      "jQuery Animation & Effects System",
+      "QUnit Testing Framework",
+      "Legacy JavaScript Patterns",
+      "JavaScript Debugging & Regression Fixes",
+      "Open-Source Documentation Maintenance"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES3)",
+      "jQuery"
+    ],
+    "summary": "kswedberg is a mid-level JavaScript developer with deep expertise in jQuery's core internals, particularly its selector engine and animation system. Their contributions focus on debugging selector-related regressions, refining animation easing methods, and maintaining jQuery's test suite with QUnit. While their skills are primarily tied to jQuery's legacy JavaScript patterns (prototype-based OOP, callback-based async), they demonstrate strong debugging abilities and attention to documentation quality. The developer's experience is specialized in jQuery maintenance rather than modern JavaScript frameworks or backend systems.",
+    "identified_skills": {
+      "DOM Manipulation & Querying": [
+        "CSS Selector Parsing",
+        "Ancestor/Descendant Selectors",
+        "jQuery Selector Engine",
+        "DOM Traversal Methods"
+      ],
+      "Animation & Visual Effects": [
+        "jQuery Effects System",
+        "Easing Function Implementation",
+        "Callback-Based Animations",
+        "Shorthand Animation Methods"
+      ],
+      "Testing & Debugging": [
+        "QUnit Test Framework",
+        "Regression Debugging",
+        "Test Suite Maintenance",
+        "Selector Test Fixes"
+      ],
+      "Documentation & Community": [
+        "CONTRIBUTING.md Updates",
+        "README Documentation",
+        "Bug Patching Guides",
+        "Contributor Onboarding"
+      ],
+      "Legacy JavaScript Patterns": [
+        "Prototype-Based Inheritance",
+        "Method Chaining",
+        "Callback-Based Async",
+        "ES5/ES3 JavaScript"
+      ],
+      "Version Control & Collaboration": [
+        "GitHub PR Workflow",
+        "Commit History Awareness",
+        "Cross-Repository Debugging"
+      ],
+      "Open-Source Maintenance": [
+        "Library Core Contributions",
+        "Test Suite Stability",
+        "Dependency-Aware Fixes"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed selector tests broken by QUnit commit (abfab1713ccb588aa87136b199a9ddc8d1b56c4b), demonstrating deep knowledge of jQuery's selector engine and interaction with QUnit's test framework",
+      "Addressed inconsistencies in easing shorthand methods for jQuery animations, showing expertise in the animation system's callback and timing mechanisms",
+      "Updated CONTRIBUTING.md to redirect Bug Patching Guide, indicating familiarity with jQuery's contribution processes and documentation structure",
+      "Referenced specific QUnit commit in PR discussion to trace regression, proving ability to debug cross-component issues in large codebases",
+      "Implemented fixes for :only-child and :last-child selectors, demonstrating practical understanding of CSS selector specificity and jQuery's implementation",
+      "Maintained test stability by ensuring selector tests passed after external QUnit changes, showcasing test suite maintenance skills",
+      "Contributed to documentation improvements that enhance developer onboarding for new jQuery contributors",
+      "Worked with jQuery's prototype-based method chaining patterns in animation system fixes, reflecting legacy JavaScript expertise"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

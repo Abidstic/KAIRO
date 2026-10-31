@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "kriskw1999",
+    "generation_timestamp": "2026-09-18T14:05:31.910279",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "kriskw1999",
+    "raw_response": "```json\n{\n  \"developer_name\": \"kriskw1999\",\n  \"experience_level\": \"Junior\",\n  \"primary_skills\": [\n    \"Node.js test runner configuration\",\n    \"Fastify framework testing\",\n    \"Test migration and porting\",\n    \"Hacktoberfest open-source contributions\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\"\n  ],\n  \"summary\": \"kriskw1999 is a Junior JavaScript developer with demonstrated expertise in Node.js test runner configuration and Fastify framework testing. Their contributions focus on migrating and maintaining test suites, particularly in the context of Fastify's routing system. The developer has participated in Hacktoberfest, contributing structured, low-stakes PRs that improve test reliability and maintainability. While their contributions are limited to backend testing and framework-specific work, their experience highlights strong skills in test-driven development and open-source collaboration within the Node.js ecosystem.\",\n  \"identified_skills\": {\n    \"Testing Frameworks & Tools\": [\n      \"Node.js test runner migration\",\n      \"Test suite porting\",\n      \"Fastify test runner integration\"\n    ],\n    \"Backend Frameworks\": [\n      \"Fastify routing tests\",\n      \"Fastify HTTP route testing\"\n    ],\n    \"Test-Driven Development\": [\n      \"Test refactoring\",\n      \"Test reliability improvements\"\n    ],\n    \"Open-Source Contributions\": [\n      \"Hacktoberfest PRs\",\n      \"Community-driven test improvements\"\n    ],\n    \"Asynchronous Testing Patterns\": [\n      \"Route-level async test cases\"\n    ],\n    \"Code Organization\": [\n      \"Test file modularization\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR titled 'feat(test runner node): test porting' indicates direct work with Node.js test runner configuration in Fastify\",\n    \"All PRs labeled 'test' with explicit focus on migrating tests to a Node.js test runner (e.g., 'migrate route.1.test to node test runner')\",\n    \"PR titles like 'route 4' and 'route 3 test' demonstrate familiarity with Fastify's routing system and route-level testing\",\n    \"Hacktoberfest label on all PRs confirms participation in structured open-source contribution programs\",\n    \"PRs reference 'route.X.test' files, showing experience with test file organization and modular testing patterns\",\n    \"No frontend JavaScript or framework-specific PRs visible, limiting scope to backend testing\",\n    \"Test migration PRs suggest familiarity with asynchronous testing patterns common in Fastify route tests\",\n    \"PRs explicitly mention 'test' improvements without code changes, indicating focus on test reliability over feature development\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 48 column 3 (char 2586)"
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

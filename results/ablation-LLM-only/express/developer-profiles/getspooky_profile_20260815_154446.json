@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "getspooky",
+    "generation_timestamp": "2026-08-15T15:42:15.546682",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "getspooky",
+    "raw_response": "```json\n{\n  \"developer_name\": \"getspooky\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Express.js Framework Development\",\n    \"JavaScript Backend Routing\",\n    \"Open-Source Documentation\",\n    \"Contributor Process Improvement\",\n    \"HTTP Method Handling\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES Modules/CommonJS)\",\n    \"TypeScript (implied by Express ecosystem)\"\n  ],\n  \"summary\": \"getspooky demonstrates **mid-level expertise** in **Express.js framework internals**, with a strong focus on **routing, middleware, and HTTP verb handling**. While contributions are primarily **documentation and process improvements** (no direct code changes), the PRs reveal deep understanding of **Express’s core architecture** (e.g., adding a `match` method for multi-verb routes). The developer also excels in **open-source contributor guidance**, improving PR templates, documentation structure, and Code of Conduct clarity. Skills in **Node.js runtime** and **JavaScript ES modules** are implied by the Express context, though no frontend or testing experience is evident. Ideal for **backend-focused roles** in Node.js/JavaScript ecosystems.\",\n  \"identified_skills\": {\n    \"Backend Frameworks\": [\"Express.js\", \"Node.js Runtime\"],\n    \"Routing & Middleware\": [\"HTTP verb matching\", \"Route registration\", \"Middleware patterns\"],\n    \"Documentation & Community\": [\"PR templates\", \"contributor guidelines\", \"Code of Conduct\"],\n    \"Process Improvement\": [\"GitHub workflow\", \"issue triaging\", \"conventional commits\"],\n    \"Technical Writing\": [\"Markdown documentation\", \"developer onboarding\"],\n    \"API Design\": [\"new method addition (app.match)\"],\n    \"Open-Source Contribution\": [\"collaborator guides\", \"process documentation\"]\n  },\n  \"skill_evidence\": [\n    \"PR #1 ('feat: Add match method') introduces `app.match` for multi-verb routes, demonstrating Express.js routing internals and HTTP method handling.\",\n    \"PR #2 ('feat: Add Pull Request Template') improves contributor communication, showing focus on GitHub workflow and onboarding.\",\n    \"PR #3 ('refactor: Including references to Collaborator-Guide.md') refines documentation structure, proving technical writing and process awareness.\",\n    \"PR #4 & #5 ('fix(Contributing): Cannot find Code Of Conduct md file') fix missing files, indicating attention to contributor experience and documentation completeness.\",\n    \"PR #6 ('docs: Add Submitting a Pull Request (PR) section') adds a contributor guide, reinforcing expertise in open-source documentation.\",\n    \"All PRs use conventional commit prefixes (e.g., 'feat:', 'fix:') and labels like 'docs' and 'pr', aligning with JavaScript project conventions.\",\n    \"No direct code changes (`files_changed: 0`) but PR titles/descriptions imply deep knowledge of Express’s middleware and routing mechanisms.\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 33 column 3 (char 2822)"
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

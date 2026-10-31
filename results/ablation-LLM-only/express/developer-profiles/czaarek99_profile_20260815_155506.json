@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "developer_name": "czaarek99",
+    "generation_timestamp": "2026-08-15T15:46:01.430511",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "czaarek99",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Express.js Core Contributions",
+      "Backend Routing Systems",
+      "JavaScript/TypeScript Configuration",
+      "Version-Aware Framework Development",
+      "GitHub Issue Collaboration"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "czaarek99 is a mid-level JavaScript developer with specialized expertise in Express.js internals, particularly the router system and middleware lifecycle. Their contributions demonstrate deep understanding of Express's core architecture, version-specific API changes, and collaborative issue tracking. While the PR data lacks direct file-level evidence, the focus on `app.createRouter` and query parser modifications indicates hands-on work with Express's foundational components. The developer shows strong skills in JavaScript/TypeScript configuration patterns and version-aware development, though testing and broader Node.js ecosystem experience remain unconfirmed in the available data.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Express Router System"
+      ],
+      "JavaScript/TypeScript": [
+        "Functional Configuration",
+        "Module Patterns",
+        "Default Value Management"
+      ],
+      "Backend Development Patterns": [
+        "Middleware Lifecycle",
+        "Query Parsing",
+        "Version-Specific API Design"
+      ],
+      "Collaboration & Process": [
+        "GitHub Issue Tracking",
+        "Modular PR Contributions",
+        "Backward Compatibility Awareness"
+      ],
+      "Testing": [],
+      "Node.js": [
+        "Inferred (via Express.js)"
+      ]
+    },
+    "skill_evidence": [
+      "PRs focus exclusively on Express repository with labels like '5.x' and '4.x', demonstrating version-specific API knowledge",
+      "Multiple PRs reference `app.createRouter`, a core Express API for defining routes, showing deep router system understanding",
+      "PR descriptions mention 'query parser' changes, indicating hands-on work with Express's middleware for URL parsing",
+      "PRs reference other issues (#2564, #3361, etc.), proving active integration with GitHub's issue tracking system",
+      "One PR labeled 'needs tests' suggests awareness of testing gaps in Express's core functionality",
+      "PR titles imply iterative refinement (e.g., multiple contributions to `app.createRouter`), showing modular contribution approach",
+      "Changes to default settings (e.g., query parser defaults) demonstrate JavaScript/TypeScript configuration expertise"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "developer_name": "larsgw",
+    "generation_timestamp": "2026-09-17T18:24:42.580252",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 22,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "larsgw",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Node.js core development",
+      "npm CLI internals",
+      "Dependency resolution algorithms",
+      "Semantic versioning implementation",
+      "Package management tooling",
+      "npm audit subsystem",
+      "Git-based dependency handling",
+      "Lockfile (shrinkwrap) processing"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from npm ecosystem context)"
+    ],
+    "summary": "larsgw is a senior-level JavaScript developer with deep expertise in Node.js and npm's core package management system. Their contributions focus on the npm CLI's internals, particularly dependency resolution, versioning logic, and package distribution workflows. With 22 PRs exclusively in the npm_cli repository, they demonstrate specialized knowledge of how npm handles optional dependencies, scoped packages, Git-based resolutions, and security audits. Their work spans both core functionality and experimental features, showing strong debugging skills and community engagement in npm's development process.",
+    "identified_skills": {
+      "Package Management Systems": [
+        "npm CLI internals",
+        "Dependency resolution algorithms",
+        "Optional/Dev dependency handling",
+        "Scoped package resolution",
+        "File dependency management",
+        "Git-based dependency fetching",
+        "Lockfile (shrinkwrap) processing",
+        "Package deduplication",
+        "Version compatibility checks"
+      ],
+      "Versioning Systems": [
+        "Semantic Versioning (SemVer)",
+        "Version range parsing",
+        "Engine field compatibility",
+        "Git semver range matching",
+        "Lockfile version synchronization"
+      ],
+      "Security & Auditing": [
+        "npm audit subsystem",
+        "Vulnerability scanning",
+        "Audit environment filtering",
+        "Security advisory reporting"
+      ],
+      "Package Distribution": [
+        "Package packing workflows",
+        "pacote integration",
+        "Dry-run operations",
+        "Archive generation",
+        "Post-processing hooks"
+      ],
+      "Debugging & Testing": [
+        "Dependency resolution debugging",
+        "Integration test challenges",
+        "Error handling patterns",
+        "Test environment limitations",
+        "Symlink resolution fixes"
+      ],
+      "Documentation & Community": [
+        "Technical documentation updates",
+        "Community issue triaging",
+        "npm community discussions",
+        "Documentation clarification"
+      ],
+      "Node.js Runtime": [
+        "Node.js filesystem operations",
+        "Asynchronous dependency workflows",
+        "Error handling patterns",
+        "Module system integration"
+      ],
+      "Experimental Features": [
+        "npm internal tooling",
+        "Experimental dependency systems",
+        "pacote integration points"
+      ]
+    },
+    "skill_evidence": [
+      "PR 'install: fix install checks for optional/dev dependencies' demonstrates deep understanding of npm's optional/Dev dependency resolution logic",
+      "'dedupe: get deps from shrinkwrap' shows expertise in lockfile processing and dependency tree optimization",
+      "Multiple 'semver:patch/minor/major' labeled PRs indicate strong SemVer implementation knowledge (e.g., 'meta: add back engines')",
+      "'audit: env selection for report' reveals work on npm's security audit subsystem and environment filtering",
+      "'pack: add dryRun option to packDirectory' indicates familiarity with package distribution workflows and pacote integration",
+      "'fix(packageRelativePath): fix 'where' for file deps' demonstrates handling of file-based dependency resolution edge cases",
+      "'install: match git semver ranges' shows Git-based dependency version matching capabilities",
+      "'docs: scoped names can begin with '.' & '_'' proves engagement with npm's documentation and community discussions",
+      "All PRs reference npm's internal module system and asynchronous workflows despite no code changes, indicating deep runtime knowledge"
+    ]
+  },
+  "statistics": {
+    "total_prs": 22,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

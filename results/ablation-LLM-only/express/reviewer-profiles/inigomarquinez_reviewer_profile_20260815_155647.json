@@ -1,0 +1,69 @@
+{
+  "reviewer_name": "inigomarquinez",
+  "generated_at": "20260815_155647",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 5,
+    "total_prs": 3,
+    "repos": [
+      "express"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "inigomarquinez",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Dependency Management",
+      "GitHub Actions",
+      "CI/CD Pipelines",
+      "Semantic Versioning",
+      "Dependabot"
+    ],
+    "programming_languages": [
+      "JavaScript (indirect exposure via ecosystem tooling)"
+    ],
+    "summary": "The reviewer demonstrates strong expertise in JavaScript ecosystem tooling and DevOps practices, particularly in dependency management, CI/CD automation, and GitHub Actions. While they do not show direct JavaScript coding skills, their contributions focus on ensuring healthy project infrastructure for JavaScript projects. Their reviews are primarily concerned with maintaining secure, up-to-date dependencies and optimizing workflows rather than reviewing JavaScript code or language features.",
+    "identified_skills": {
+      "Dependency Management": [
+        "npm/yarn/pnpm",
+        "semver upgrades",
+        "dependency security",
+        "Dependabot integration"
+      ],
+      "CI/CD & Automation": [
+        "GitHub Actions",
+        "workflow optimization",
+        "action versioning",
+        "CI pipeline improvements"
+      ],
+      "Version Control & Tooling": [
+        "semantic versioning",
+        "lockfile management",
+        "dependency graph analysis"
+      ],
+      "JavaScript Ecosystem": [
+        "package.json management",
+        "JavaScript project infrastructure"
+      ],
+      "Code Review": [
+        "LGTM approvals for tooling changes",
+        "dependency-related PR approvals"
+      ],
+      "Security": [
+        "dependency vulnerability scanning"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'Add Dependency Review Action' with comment: 'Suggested latest versions of pinned dependencies'",
+      "PR titled 'Add dependabot' with approval for dependency management improvements",
+      "Comment: 'Added suggestions for latest versions of pinned GitHub actions' in CI/CD-related PR",
+      "Use of 'semver-ignore' labels in dependency-related PRs",
+      "Approval of PRs with no JavaScript file changes (files_changed: 0)",
+      "Focus on 'Improve pipelines' PR with GitHub Actions workflow optimizations",
+      "No evidence of JavaScript syntax, framework, or language feature feedback in reviews",
+      "Comments validating infrastructure-level changes without JavaScript code scrutiny"
+    ]
+  }
+}

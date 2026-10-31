@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "developer_name": "Bram-dc",
+    "generation_timestamp": "2026-09-18T14:05:06.861088",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "Bram-dc",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript type system design",
+      "Fastify framework internals",
+      "Runtime type safety in Node.js",
+      "Technical documentation for APIs",
+      "Breaking change management"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (Node.js)"
+    ],
+    "summary": "Bram-dc is a Mid-level JavaScript developer with specialized expertise in TypeScript type system architecture, particularly within Fastify's validation and serialization pipelines. Their contributions demonstrate deep knowledge of custom type providers, breaking changes, and framework internals. The developer shows strong documentation skills and collaborative technical leadership through GitHub discussions and breaking change proposals. While primarily focused on backend systems, their work reflects advanced TypeScript patterns and Node.js ecosystem integration.",
+    "identified_skills": {
+      "TypeScript Advanced": [
+        "Custom Type Providers",
+        "TypeScript type definitions",
+        "Breaking changes in type systems",
+        "Runtime type safety",
+        "TypeScript generics",
+        "Type system documentation"
+      ],
+      "Backend Frameworks": [
+        "Fastify",
+        "Fastify validators",
+        "Fastify serializers",
+        "Fastify plugin architecture",
+        "Fastify hooks"
+      ],
+      "Documentation Practices": [
+        "API documentation",
+        "Technical writing for breaking changes",
+        "GitHub discussion engagement",
+        "Type system documentation"
+      ],
+      "Collaboration & Leadership": [
+        "Breaking change proposals",
+        "Technical discussion participation",
+        "Framework architecture decisions"
+      ],
+      "Testing": [
+        "Unit/integration tests (Fastify)",
+        "Test documentation"
+      ],
+      "Version Control & CI/CD": [
+        "GitHub Actions (indirect evidence)"
+      ],
+      "Node.js Ecosystem": [
+        "Node.js runtime",
+        "ESM/CommonJS module systems"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: 'fix(#5311): Added separate type definitions for validator and serializer' - demonstrates custom TypeScript type definitions for Fastify core components",
+      "PR 2: 'fix (types): Added separated TypeProvider' - shows creation of custom type provider architecture in Fastify's type system",
+      "PR 3: 'types: Added separated TypeProvider' - further evidence of TypeScript type system specialization with breaking change implications",
+      "PR 4: 'feat: type definitions and documentation for separated type provider' - includes explicit documentation work and breaking change label",
+      "PR 4 description mentions 'Docs for the new TypeProvider interface' - confirms documentation contribution",
+      "Multiple PRs reference 'Fix for discussion: #5311' - shows engagement in technical design discussions",
+      "PR 4 label 'github actions' - indicates involvement with CI/CD processes",
+      "PR 4 description mentions 'A test' - suggests familiarity with Fastify's testing patterns"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

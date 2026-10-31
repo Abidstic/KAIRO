@@ -1,0 +1,74 @@
+{
+  "reviewer_name": "dancastillo",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 5,
+    "total_comments": 5,
+    "total_prs": 3,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "dancastillo",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify framework development",
+      "Node.js backend architecture",
+      "JavaScript/TypeScript method extension",
+      "Framework API design",
+      "Performance benchmarking"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "dancastillo demonstrates **Senior-level expertise** in Fastify framework development, with deep knowledge of Node.js backend architecture, API design, and performance optimization. Their reviews focus on extending Fastify's core functionality (e.g., adding methods to FastifyInstance, configuring routing), benchmarking, and ensuring robust testing practices. The reviewer also exhibits strong **documentation and DevExp awareness**, contributing to framework usability. Evidence suggests familiarity with async/await patterns and TypeScript integration, though frontend or database skills are not evident from the provided data.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Fastify routing system",
+        "FastifyInstance extension",
+        "Framework API design"
+      ],
+      "Node.js Core": [
+        "Async/await patterns",
+        "Node.js testing (Jest/Mocha)",
+        "npm script workflows",
+        "Performance benchmarking"
+      ],
+      "JavaScript/TypeScript": [
+        "Method extension (prototype/instance)",
+        "Configuration objects",
+        "TypeScript compatibility"
+      ],
+      "Code Review & Quality": [
+        "Framework-level review feedback",
+        "Documentation checklist enforcement",
+        "Testing/benchmarking validation"
+      ],
+      "Tooling & Automation": [
+        "npm scripts (test/benchmark)",
+        "Semantic versioning (semver-major)",
+        "GitHub PR workflows"
+      ],
+      "Configuration & Extensibility": [
+        "Custom delimiter configurations",
+        "Request ID generation methods"
+      ],
+      "[]": []
+    },
+    "skill_evidence": [
+      "PR title: 'feat: align fastify.hasRoute to fmw.hasRoute' → demonstrates Fastify routing system knowledge and framework interoperability",
+      "PR description: 'expose method for setGenReqId on FastifyInstance' → shows deep FastifyInstance extension and API design skills",
+      "PR labels: 'semver-major', 'notable-change' → indicates involvement in breaking changes and architectural decisions",
+      "PR checklist: 'documentation is changed or added' → enforces DevExp and documentation standards",
+      "PR instructions: 'run npm run test and npm run benchmark' → confirms Node.js testing and benchmarking expertise",
+      "Review state: 'COMMENTED' → active engagement in code review with likely technical feedback",
+      "Method exposure: 'add use semicolon delimiter config' → demonstrates JavaScript configuration pattern familiarity",
+      "Async implication: Fastify middleware/route handler context → suggests async/await proficiency"
+    ]
+  }
+}

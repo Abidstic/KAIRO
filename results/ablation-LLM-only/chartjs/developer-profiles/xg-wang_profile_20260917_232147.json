@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "developer_name": "xg-wang",
+    "generation_timestamp": "2026-09-17T23:10:44.908143",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "xg-wang",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js internals",
+      "JavaScript object manipulation",
+      "Bug fixing in data visualization",
+      "JavaScript OOP (prototypes, inheritance)",
+      "Edge-case handling in JavaScript",
+      "GitHub PR contribution workflow"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "xg-wang is a mid-level JavaScript developer with specialized expertise in Chart.js, demonstrating strong skills in JavaScript object manipulation, object-oriented programming, and bug fixing within data-driven systems. Their contributions focus on core Chart.js internals, particularly scales, tooltips, and options systems, with a focus on edge-case handling and performance optimization. The developer exhibits proficiency in GitHub PR workflows and demonstrates attention to documentation quality. While primarily working with vanilla JavaScript, their contributions highlight deep technical understanding of how Chart.js processes data and renders visualizations.",
+    "identified_skills": {
+      "JavaScript Core": [
+        "Object-oriented JavaScript (prototypes, inheritance)",
+        "Deep object merging and default value handling",
+        "Conditional logic and null/undefined checks",
+        "Defensive programming patterns"
+      ],
+      "Chart.js Architecture": [
+        "Scale systems (linear scales, min/max defaults)",
+        "Tooltip lifecycle management",
+        "Options merging and configuration",
+        "Element inheritance and initialization"
+      ],
+      "Bug Fixing": [
+        "Data pipeline debugging",
+        "Visual regression detection",
+        "Edge-case handling for empty datasets",
+        "Redundant logic removal"
+      ],
+      "Documentation": [
+        "API documentation maintenance",
+        "Link validation in documentation"
+      ],
+      "GitHub Workflow": [
+        "PR description best practices",
+        "Issue referencing",
+        "PR labeling and categorization"
+      ],
+      "Data Visualization Fundamentals": [
+        "Scale systems and rendering consistency",
+        "Dataset binding and rendering logic",
+        "Performance-aware rendering"
+      ],
+      "Testing (Indirect Exposure)": [
+        "Bug manifestation analysis",
+        "User-reported issue validation"
+      ]
+    },
+    "skill_evidence": [
+      "PR #3: Extended `Tooltip` from `Element` class, demonstrating prototype-based inheritance in Chart.js",
+      "PR #1: Merged options with defaults before setting, showing deep object manipulation for scale options",
+      "PR #3: Added null checks for `min`/`max` in scales to prevent `[0, NaN]` ticks, proving edge-case handling expertise",
+      "PR #3: Removed redundant `Tooltip` initialization, indicating performance-conscious optimization",
+      "PR #2: Fixed missing link in `area.md`, showing attention to documentation quality",
+      "PRs reference `src/scales/scale.linear.js` and `src/core/core.element.js`, proving deep Chart.js internals knowledge",
+      "All PRs include clear issue references (#4197, #4216) and descriptive explanations of fixes",
+      "PR #1: Addressed options merging error in scales, demonstrating understanding of Chart.js's configuration system"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

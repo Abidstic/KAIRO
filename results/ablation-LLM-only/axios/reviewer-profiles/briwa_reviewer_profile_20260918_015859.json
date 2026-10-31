@@ -1,0 +1,62 @@
+{
+  "reviewer_name": "briwa",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 2,
+    "total_prs": 1,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "briwa",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Legacy JavaScript backporting",
+      "HTTP client configuration",
+      "Basic JavaScript object syntax"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "The reviewer 'briwa' demonstrates limited but focused experience in backporting JavaScript features to legacy versions, specifically within an HTTP client library context. Their contributions are confined to configuring and serializing query parameters, with no evidence of deep technical depth or broader JavaScript ecosystem exposure. The absence of actual review comments or code changes prevents a more comprehensive assessment, but their work suggests familiarity with basic JavaScript syntax and configuration patterns in a Node.js environment. The reviewer's experience level is best categorized as Junior, given the narrow scope and lack of demonstrated expertise in advanced JavaScript practices or broader system architecture.",
+    "identified_skills": {
+      "Legacy Code Maintenance": [
+        "Legacy JavaScript backporting",
+        "Version-specific feature implementation"
+      ],
+      "HTTP & API Configuration": [
+        "Query parameter serialization",
+        "Custom params serializer support",
+        "HTTP client configuration"
+      ],
+      "JavaScript Syntax": [
+        "Object destructuring",
+        "Optional chaining-like patterns"
+      ],
+      "Code Review Process": [
+        "PR backport discussions"
+      ],
+      "Backend Ecosystem": [
+        "Node.js"
+      ],
+      "Testing & Debugging": [],
+      "Frontend Frameworks": [],
+      "Advanced JavaScript": [],
+      "Tooling & DevOps": []
+    },
+    "skill_evidence": [
+      "PR titles 'backport: custom params serializer support for v0.x' indicate focus on legacy JavaScript maintenance",
+      "Reference to 'paramsSerializer' API suggests exposure to HTTP client configuration patterns",
+      "Syntax like '{ serializer? }' demonstrates basic JavaScript object destructuring knowledge",
+      "No visible code changes or review comments in the provided dataset",
+      "Review state 'COMMENTED' implies involvement in PR discussions but lacks substantive evidence",
+      "Backporting context suggests Node.js environment (common for library backports)",
+      "No evidence of frontend frameworks, testing, or advanced JavaScript features"
+    ]
+  }
+}

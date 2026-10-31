@@ -1,0 +1,68 @@
+{
+  "reviewer_name": "GeoffreyBooth",
+  "generated_at": "20260815_164745",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 13,
+    "total_comments": 13,
+    "total_prs": 2,
+    "repos": [
+      "jquery"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "GeoffreyBooth",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "ES Modules (ESM) configuration",
+      "Node.js package.json module resolution",
+      "Build system optimization (tree-shaking)",
+      "Module bundling tooling (Rollup/Webpack/esbuild)"
+    ],
+    "programming_languages": [
+      "JavaScript (ESM/CommonJS)",
+      "TypeScript (no direct evidence, but likely inferred from ESM expertise)"
+    ],
+    "summary": "GeoffreyBooth demonstrates specialized expertise in JavaScript module systems and build tooling, with a strong focus on configuring `exports` and `module` fields in `package.json` for optimized distributions. Their reviews consistently engage with build-related PRs, indicating deep knowledge of module resolution, bundling, and ESM/CommonJS interoperability. While no direct evidence exists for frontend frameworks or backend systems, their technical depth in module configuration suggests a Mid-level JavaScript specialist with a niche focus on build optimization and module systems. The lack of visible code reviews or comments limits broader skill assessment, but their repeated engagement on `exports` and `module` fields underscores their proficiency in this critical area of JavaScript development.",
+    "identified_skills": {
+      "Module_System_Configuration": [
+        "ES Modules (ESM)",
+        "CommonJS interoperability",
+        "package.json exports field",
+        "package.json module field",
+        "Slim builds configuration"
+      ],
+      "Build_Tooling": [
+        "Rollup",
+        "Webpack",
+        "esbuild",
+        "Tree-shaking",
+        "Module bundling"
+      ],
+      "Node_js_Packaging": [
+        "Node.js module resolution",
+        "Optimized JavaScript distributions",
+        "Build system QA"
+      ],
+      "Code_Review_Patterns": [
+        "Consistent build-related review engagement",
+        "COMMENTED review state (no approvals/rejections)"
+      ],
+      "JavaScript_Ecosystem": [
+        "npm package configuration",
+        "ESM vs. CommonJS compatibility"
+      ]
+    },
+    "skill_evidence": [
+      "PR titles repeatedly mention 'Define the `exports` & `module` fields in package.json'",
+      "All PRs labeled 'Build', indicating focus on build system/configuration",
+      "PRs reference 'Add `exports` to package.json, export slim & esm builds'",
+      "Review state is consistently 'COMMENTED' across all PRs (no approvals/rejections)",
+      "No visible code changes or comments in PRs, but repeated engagement on same PRs",
+      "Focus on 'slim & esm builds' suggests familiarity with optimized distributions",
+      "Lack of frontend/backend framework mentions in PR titles or labels",
+      "No evidence of TypeScript, testing, or DevOps-related discussions"
+    ]
+  }
+}

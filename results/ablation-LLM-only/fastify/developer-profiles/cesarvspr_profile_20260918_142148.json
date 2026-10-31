@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "developer_name": "cesarvspr",
+    "generation_timestamp": "2026-09-18T14:19:02.219137",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "cesarvspr",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify Framework",
+      "TypeScript",
+      "Node.js Backend Development",
+      "Request/Response Lifecycle",
+      "Framework Documentation",
+      "Semantic Versioning"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "cesarvspr is a Mid-level JavaScript developer with specialized expertise in Fastify, a high-performance Node.js web framework. Their contributions focus on core framework internals—particularly request/response handling, TypeScript integration, and route configuration—alongside documentation improvements and adherence to semantic versioning practices. The developer demonstrates strong debugging skills (e.g., fixing type mismatches) and familiarity with Fastify’s testing/benchmarking workflows, though their contributions are backend-focused with no evidence of frontend or DevOps experience. Their work adheres to open-source contribution standards, indicating collaboration and attention to code quality.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js Request/Response Lifecycle"
+      ],
+      "TypeScript": [
+        "Type Safety Fixes",
+        "Parameter Typing",
+        "Error Handling"
+      ],
+      "Documentation": [
+        "Server Documentation Updates",
+        "Developer Certification Compliance"
+      ],
+      "Version Control & Releases": [
+        "Semantic Versioning (semver-minor)",
+        "PR Labels"
+      ],
+      "Testing & Quality": [
+        "Test Suite Execution",
+        "Benchmarking Awareness"
+      ],
+      "Core JavaScript Patterns": [
+        "Request Object Manipulation",
+        "Configuration Handling"
+      ],
+      "Open Source Contribution": [
+        "Contributor Guidelines Adherence",
+        "Checklist Compliance"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'feat: access handler name add properties to req route options' shows direct modification of Fastify's request object structure (Core JavaScript Patterns)",
+      "'docs(server): config is lost when reply.call not found()' includes documentation checklist item and Developer's Certification of Origin (Documentation)",
+      "'fix: 'Error' is not assignable to parameter of type 'null'' labeled 'typescript' indicates TypeScript type safety debugging (TypeScript)",
+      "All PRs from Fastify repository with labels like 'semver-minor' demonstrate semantic versioning awareness (Version Control & Releases)",
+      "PR #1 checklist includes 'run npm run test' and 'run npm run benchmark' (Testing & Quality)",
+      "Request/response lifecycle fixes (e.g., 'config is lost when reply.call not found') reflect deep Fastify internals knowledge (Backend Frameworks)",
+      "Adherence to Fastify's contributing guidelines and checklist compliance (Open Source Contribution)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

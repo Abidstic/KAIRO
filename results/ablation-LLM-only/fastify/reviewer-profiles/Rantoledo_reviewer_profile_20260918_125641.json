@@ -1,0 +1,65 @@
+{
+  "reviewer_name": "Rantoledo",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 7,
+    "total_comments": 7,
+    "total_prs": 3,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "Rantoledo",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify (Node.js framework)",
+      "HTTP routing optimization",
+      "Performance benchmarking",
+      "Find-my-way router",
+      "HTTP method handling (GET/HEAD)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (implied by Fastify ecosystem)"
+    ],
+    "summary": "Rantoledo is a Mid-level JavaScript reviewer specializing in backend performance optimization within the Fastify ecosystem. Their expertise focuses on HTTP routing efficiency, particularly around `HEAD` vs. `GET` method handling, and performance benchmarking. Evidence shows deep familiarity with Fastify’s internals and its underlying Find-my-way router, with a strong ability to provide technical feedback on backend-related changes. The reviewer demonstrates a backend-centric skillset without evidence of frontend or testing experience.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js"
+      ],
+      "HTTP Routing": [
+        "Route optimization",
+        "HEAD method handling",
+        "Find-my-way router"
+      ],
+      "Performance Engineering": [
+        "Benchmarking",
+        "Latency optimization",
+        "HTTP method efficiency"
+      ],
+      "Code Review": [
+        "Technical feedback on backend changes"
+      ],
+      "Protocol Knowledge": [
+        "HTTP methods (GET/HEAD)",
+        "HTTP caching"
+      ],
+      "Modular Systems": [
+        "Plugin-based architecture (Fastify)"
+      ]
+    },
+    "skill_evidence": [
+      "PR titles repeatedly reference 'HEAD route' creation alongside 'GET' routes, indicating deep HTTP method knowledge",
+      "Multiple PRs labeled 'benchmark', showing focus on performance testing and optimization",
+      "Direct reference to 'fastify/issues/4866' and 'find-my-way' PRs, confirming Fastify and router expertise",
+      "All reviews are in 'COMMENTED' state, suggesting detailed technical feedback on backend changes",
+      "No frontend or testing-related labels in PRs, confirming backend specialization",
+      "Repeated fixes for ensuring 'HEAD route will be created per each GET', demonstrating router internals knowledge",
+      "Lack of frontend framework mentions (React, Vue, etc.) in any PR titles or descriptions"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "reviewer_name": "HazemGharib",
+  "generated_at": "20260918_010303",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 0,
+    "total_prs": 2,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "HazemGharib",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js backend development",
+      "JavaScript security practices",
+      "Dependency management and security",
+      "Asynchronous programming in Node.js"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (possible exposure, no direct evidence)"
+    ],
+    "summary": "HazemGharib demonstrates **Mid-level expertise** in JavaScript, with a **strong focus on Node.js backend development and security-related practices**. Their contributions primarily involve **dependency security fixes** (e.g., patching vulnerabilities in `form-data`), suggesting deep knowledge of **Node.js ecosystems, asynchronous programming, and dependency management**. While no direct evidence of frontend frameworks or extensive testing frameworks (beyond security-related tools) is visible, their **security-focused PRs indicate proficiency in defensive programming, modularity, and backend JavaScript patterns**. The absence of frontend changes implies a **backend-heavy specialization**, likely with exposure to **Express.js or similar middleware** due to their security work. Their **approach to code quality and security hardening** aligns with **Senior-level practices**, but the limited review sample size (only 2 PRs) prevents a higher experience level classification. Overall, HazemGharib is a **technically strong reviewer** for **Node.js security and backend JavaScript**, with potential gaps in frontend or TypeScript exposure.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise": [
+        "Node.js",
+        "Jest",
+        "form-data"
+      ],
+      "Asynchronous Programming": [
+        "Promises",
+        "async/await"
+      ],
+      "API Design & Consumption": [],
+      "Error Handling": [],
+      "Frontend Development Skills": [],
+      "Backend Development Skills": [
+        "Middleware",
+        "API Endpoints"
+      ],
+      "DevOps & Deployment": [
+        "CI/CD Pipelines"
+      ],
+      "Advanced JavaScript Concepts": [],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Dependency Management": [
+        "npm/yarn"
+      ],
+      "Graphical Data Visualization": []
+    }
+  }
+}

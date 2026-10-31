@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "developer_name": "icambron",
+    "generation_timestamp": "2026-08-15T18:06:51.185502",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "icambron",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Moment.js timezone handling",
+      "UTC and IANA timezone parsing",
+      "JavaScript performance optimization",
+      "Date/time manipulation in JavaScript",
+      "Moment.js internals and API design",
+      "Bug fixing for edge-case date/time scenarios",
+      "Git rebasing and PR management"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "TypeScript (inferred from Moment.js ecosystem)"
+    ],
+    "summary": "icambron is a Mid-level JavaScript developer with specialized expertise in Moment.js' date/time and timezone handling. Their contributions focus on fixing UTC parsing, optimizing performance (e.g., 49x improvement in `clone()`), and implementing RFC-driven timezone features. The developer demonstrates deep knowledge of Moment.js internals, timezone edge cases (e.g., DST, IANA timezones), and collaborative workflows (Git rebasing, PR management). While primarily backend/library-focused, their work highlights strong debugging, testing, and documentation skills within the Moment.js ecosystem.",
+    "identified_skills": {
+      "Date/Time & Timezone": [
+        "UTC timezone parsing",
+        "IANA timezone database handling",
+        "Daylight Saving Time (DST) awareness",
+        "Moment.js `parseZone` implementation",
+        "Moment.js `moment.utc()` logic",
+        "Edge-case date validation (e.g., parsing '0' as timezone offset)"
+      ],
+      "Performance Optimization": [
+        "JavaScript object cloning optimizations",
+        "Memory-efficient date arithmetic",
+        "Benchmarking and profiling",
+        "Reducing redundant local date creation"
+      ],
+      "Moment.js Core": [
+        "Moment.js RFC-driven development",
+        "Moment.js timezone interface implementation",
+        "Moment.js plugin architecture",
+        "Moment.js test suite contributions",
+        "Moment.js backward compatibility fixes"
+      ],
+      "Debugging & Testing": [
+        "Timezone bug reproduction",
+        "Unit test updates for date/time logic",
+        "Edge-case test coverage",
+        "Debugging `parseZone` failures"
+      ],
+      "Collaboration & Tooling": [
+        "Git rebasing and PR rebasing",
+        "Conflict resolution in PRs",
+        "Moment.js RFC process participation",
+        "Documentation simplification"
+      ],
+      "JavaScript Fundamentals": [
+        "Prototype chain optimizations",
+        "Symbol usage for performance",
+        "Low-level JavaScript engine awareness"
+      ]
+    },
+    "skill_evidence": [
+      "PR #2: '[bugfix] parseZone should handle UTC' – Fixes UTC parsing logic, demonstrating deep timezone knowledge and edge-case handling (e.g., parsing '0' as a valid offset).",
+      "PR #1: 'Optimize clone, 49x improvement' – Shows performance profiling, benchmarking, and memory-efficient JavaScript (e.g., avoiding redundant local date creation).",
+      "PR #5: '[bugfix] Fix weekday verification for UTC and offset days' – Optimizes UTC date handling without creating unnecessary local dates, proving efficient date arithmetic skills.",
+      "PR #3: 'Implement timezone interface (redux)' – Involves RFC-driven development, timezone abstraction, and IANA timezone database awareness, indicating modular design expertise.",
+      "PR #4: 'Simplify Meteor Readme' – Demonstrates attention to documentation clarity and avoiding misleading content for non-target audiences.",
+      "Multiple PRs reference issue numbers (#3520, #4227) and mention 'some more tests,' showing test-driven debugging and unit test updates for timezone bugs.",
+      "PR #3 includes rebasing and conflict resolution, proving advanced Git workflow skills and collaborative PR management.",
+      "All PRs involve Moment.js core functionality (timezone parsing, UTC handling) rather than UI or frontend concerns, confirming deep library internals knowledge."
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

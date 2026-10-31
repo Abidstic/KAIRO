@@ -1,0 +1,71 @@
+{
+  "reviewer_name": "JoshuaKGoldberg",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 8,
+    "total_comments": 10,
+    "total_prs": 1,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "JoshuaKGoldberg",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript type definitions",
+      "TypeScript documentation",
+      "Fastify backend patterns",
+      "Promise-based asynchronous programming",
+      "Code review and collaboration"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)"
+    ],
+    "summary": "JoshuaKGoldberg is a Mid-level JavaScript reviewer with strong expertise in TypeScript type definitions and documentation. Their reviews focus on ensuring type safety and clarity for end-user code, particularly in the Fastify ecosystem. They demonstrate deep understanding of Promise patterns and collaborative code review practices. Evidence suggests familiarity with backend JavaScript frameworks and a focus on making type systems discoverable and usable.",
+    "identified_skills": {
+      "Type System Design": [
+        "TypeScript type definitions",
+        "SafePromiseLike implementation",
+        "Type exposure analysis"
+      ],
+      "Documentation Practices": [
+        "TypeScript documentation",
+        "Declaration file clarity",
+        "End-user type visibility"
+      ],
+      "Asynchronous Patterns": [
+        "Promise-like interfaces",
+        "Async safety considerations"
+      ],
+      "Backend Frameworks": [
+        "Fastify",
+        "FastifyInstance type definitions"
+      ],
+      "Code Review": [
+        "Constructive feedback",
+        "Collaborative discussion",
+        "Approval with suggestions"
+      ],
+      "JavaScript Ecosystem": [
+        "Node.js runtime awareness"
+      ],
+      "TypeScript Tooling": [
+        "TypeScript labels in PRs"
+      ]
+    },
+    "skill_evidence": [
+      "All PRs labeled with 'typescript' and 'documentation' indicating focused TypeScript work",
+      "PR title 'feat(types): Introduce SafePromiseLike' shows explicit type definition work",
+      "Comment 'I can't find a way to get (`Safe`)`PromiseLike` showing up for end-user code' highlights type visibility concerns",
+      "Approval comment mentioning 'FastifyInstance' confirms Fastify framework familiarity",
+      "Multiple 'COMMENTED' states before 'APPROVED' demonstrate active code review engagement",
+      "Suggestion to include types in 'suggested list' shows documentation-focused mindset",
+      "Review comments show awareness of how types are exposed to end-user code",
+      "Constructive feedback tone ('Thanks for working on this!') indicates collaborative approach"
+    ]
+  }
+}

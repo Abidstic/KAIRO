@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "developer_name": "kibertoad",
+    "generation_timestamp": "2026-09-18T13:30:08.919935",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 34,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "kibertoad",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify Framework",
+      "TypeScript",
+      "Plugin Ecosystem Management",
+      "Documentation Engineering",
+      "Testing & Benchmarking",
+      "Node.js Dependency Injection"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "kibertoad is a highly specialized Senior JavaScript developer with deep expertise in Fastify, the high-performance Node.js web framework. Their contributions focus on core Fastify architecture (e.g., builder-style injection, plugin system), TypeScript integration, and meticulous documentation. The developer demonstrates strong testing/benchmarking practices, version compatibility awareness, and a commitment to Fastify's community standards. Their work spans multiple Fastify versions (v2.x, v3.x) and includes both architectural improvements and community-focused documentation enhancements. The profile reflects a backend engineer with architectural insight, technical precision, and a focus on maintainability and extensibility.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js Plugin Systems"
+      ],
+      "TypeScript": [
+        "Type Definitions",
+        "Type Safety",
+        "Version-Specific Types"
+      ],
+      "Documentation": [
+        "Ecosystem Documentation",
+        "Plugin Descriptions",
+        "Technical Writing"
+      ],
+      "Testing & Quality Assurance": [
+        "Test Suite Maintenance",
+        "Benchmarking",
+        "Cross-Platform Testing"
+      ],
+      "Version Management": [
+        "Semantic Versioning",
+        "Backward Compatibility",
+        "Multi-Version Support"
+      ],
+      "Architectural Patterns": [
+        "Dependency Injection",
+        "Builder Pattern",
+        "Middleware Design"
+      ],
+      "Community & Onboarding": [
+        "Contributor Mentorship",
+        "Code of Conduct Compliance",
+        "Ecosystem Expansion"
+      ],
+      "Tooling & Workflows": [
+        "CI/CD Integration",
+        "Checklist-Driven Contributions",
+        "Test Benchmark Scripts"
+      ]
+    },
+    "skill_evidence": [
+      "PRs explicitly labeled 'typescript' and focus on adding/updating type definitions (e.g., 'Add missing type for builder-style injection')",
+      "Multiple PRs reference running 'npm run test' and 'npm run benchmark' as part of contribution checklists",
+      "Documentation PRs update `Ecosystem.md` with new plugin entries (e.g., 'Add fastify-awilix to Ecosystem.md')",
+      "Version-specific fixes like 'Fix builder-style injection in v3' demonstrate deep version compatibility knowledge",
+      "PRs clarify Fastify's plugin system (e.g., 'Expose router config via getters on Request')",
+      "Cross-platform benchmarking fixes (e.g., 'Fix support for executing benchmark on Windows')",
+      "Contributions include onboarding new contributors and clarifying documentation (e.g., 'Provide additional clarification for decorated fields')",
+      "Semantic versioning labels (e.g., 'semver-minor') in architectural PRs"
+    ]
+  },
+  "statistics": {
+    "total_prs": 34,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

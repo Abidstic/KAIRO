@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "developer_name": "pbriggs",
+    "generation_timestamp": "2026-08-15T16:34:04.611446",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "pbriggs",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "jQuery internals (string utilities)",
+      "JavaScript syntax (basic)",
+      "jQuery style guide compliance"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6, minimal modern features)"
+    ],
+    "summary": "pbriggs is a junior-level JavaScript developer with highly specialized contributions limited to jQuery's core library. Their work demonstrates deep familiarity with jQuery's string manipulation utilities and adherence to its coding conventions, but lacks broader JavaScript ecosystem experience. Contributions are minimal and focused on low-risk, stylistic improvements rather than architectural or functional enhancements. No evidence of modern JavaScript practices, frontend frameworks, backend development, or testing is present in their GitHub activity.",
+    "identified_skills": {
+      "jQuery Core": [
+        "jQuery string utilities",
+        "jQuery style guide compliance",
+        "jQuery internal string sanitization"
+      ],
+      "JavaScript Syntax": [
+        "basic JavaScript functions",
+        "string manipulation",
+        "argument formatting"
+      ],
+      "Code Quality": [
+        "code formatting adjustments",
+        "redundancy removal"
+      ],
+      "Frontend Frameworks": [],
+      "Backend Development": [],
+      "Testing": [],
+      "Documentation": [],
+      "Build Tools": [],
+      "Asynchronous Programming": [],
+      "Modern JavaScript": [],
+      "Performance Optimization": []
+    },
+    "skill_evidence": [
+      "PR 1: Modified `rmsPrefix` function to remove redundant hyphens ('-') from input strings, demonstrating jQuery string utility knowledge",
+      "PR 2: Identical change to `rmsPrefix` (likely a duplicate or test submission), confirming focus on jQuery internals",
+      "PR 3: Adjusted spacing around function arguments to match jQuery's style guide, showing adherence to coding conventions",
+      "All PRs reference jQuery's internal string handling without introducing new features or complex logic",
+      "No evidence of modern JavaScript features (e.g., arrow functions, destructuring, async/await) in any PR",
+      "Changes are purely syntactic—no DOM manipulation, event binding, or plugin architecture modifications",
+      "No contributions to documentation, test files, or build configuration files",
+      "Contributions are limited to a single repository (jquery) with no evidence of broader JavaScript ecosystem involvement"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

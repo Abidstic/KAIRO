@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "watilde",
+    "generation_timestamp": "2026-09-17T18:33:22.178320",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 9,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 9
+  },
+  "profile": {
+    "developer_name": "watilde",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "npm CLI internals",
+      "ES6+ JavaScript modernization",
+      "Dependency management and security",
+      "Documentation maintenance (Markdown)",
+      "CI/CD transitions (Travis → GitHub Actions)",
+      "Semantic versioning (semver)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "Node.js"
+    ],
+    "summary": "watilde is a mid-level JavaScript developer with specialized expertise in npm CLI maintenance, dependency management, and documentation. Their contributions focus on modernizing JavaScript syntax (e.g., replacing `var` with `const`), improving npm’s dependency security (via `npm audit`), and maintaining high-quality documentation using Markdown-based tools. They demonstrate strong familiarity with npm’s internals, semantic versioning, and CI/CD workflows, particularly the migration from Travis CI to GitHub Actions. While their work is primarily backend-focused (npm CLI), their contributions reflect deep technical knowledge of JavaScript best practices and open-source collaboration.",
+    "identified_skills": {
+      "JavaScript Modernization": [
+        "ES6+ syntax (const/let, arrow functions)",
+        "Immutable patterns"
+      ],
+      "Dependency Management": [
+        "npm audit fixes",
+        "Dependency vulnerability scanning",
+        "Semantic versioning (semver)",
+        "Version bumps and CI/CD tooling updates"
+      ],
+      "Documentation": [
+        "Markdown-based documentation",
+        "Static site generation (marked-man)",
+        "Technical writing and typo fixes",
+        "Documentation tooling (ronn → marked-man)"
+      ],
+      "npm CLI Internals": [
+        "Package metadata fetching",
+        "Package-lock.json handling",
+        "File specifiers and resolution"
+      ],
+      "CI/CD & DevOps": [
+        "Travis CI migration to GitHub Actions",
+        "Dev dependency updates"
+      ],
+      "Open-Source Collaboration": [
+        "Community discussion references",
+        "Incremental, high-impact PRs"
+      ],
+      "Version Control & Releases": [
+        "CHANGELOG updates",
+        "Release notes"
+      ]
+    },
+    "skill_evidence": [
+      "\"chore: replace var with const/let in repo\" – PR explicitly modernizing JavaScript syntax",
+      "\"deps: npm audit fix\" – Direct evidence of dependency security work and vulnerability scanning",
+      "\"docs: fix typo in file-specifiers and package-lock\" – Shows attention to npm CLI internals and documentation",
+      "\"misc: replace ronn with marked-man\" – Demonstrates Markdown tooling expertise and static site generation",
+      "\"semver:patch\" label in PR – Confirms adherence to semantic versioning practices",
+      "\"Replace travis with GitHub Actions\" – CI/CD migration and tooling updates",
+      "\"npm.community/t/replace-var-with-let-const/4083\" – References community discussions, indicating collaboration",
+      "\"fetch-package-metadata.md\" updates – Involvement in npm’s core package resolution logic"
+    ]
+  },
+  "statistics": {
+    "total_prs": 9,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "developer_name": "anthonygauthier",
+    "generation_timestamp": "2026-09-18T02:13:51.016281",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "anthonygauthier",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios interceptor system",
+      "Node.js Buffer handling",
+      "JavaScript functional programming",
+      "HTTP request/response debugging",
+      "JavaScript edge-case handling",
+      "Axios plugin architecture"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Axios ecosystem)"
+    ],
+    "summary": "anthonygauthier is a Mid-level JavaScript developer with specialized expertise in Axios internals, particularly its interceptor system and HTTP request handling. Their contributions demonstrate deep debugging skills for edge cases (e.g., empty Buffer handling), functional programming patterns (e.g., `reverse()` method usage), and plugin system integration. While primarily focused on backend JavaScript and Node.js, their work on Axios suggests familiarity with asynchronous patterns and HTTP protocol nuances. The developer shows strong collaboration skills through issue referencing and documentation improvements, though frontend frameworks or testing frameworks are not evident in their GitHub activity.",
+    "identified_skills": {
+      "HTTP Client Libraries": [
+        "Axios",
+        "Axios interceptors",
+        "Axios plugin system"
+      ],
+      "JavaScript Core": [
+        "Array manipulation (reverse())",
+        "Buffer handling",
+        "Type conversion",
+        "Conditional logic"
+      ],
+      "Node.js": [
+        "Buffer objects",
+        "Node.js debugging"
+      ],
+      "Functional Programming": [
+        "Array methods",
+        "Method chaining"
+      ],
+      "Backend JavaScript": [
+        "HTTP request/response handling",
+        "Edge-case debugging"
+      ],
+      "Documentation": [
+        "README updates",
+        "API documentation"
+      ],
+      "Issue Triage": [
+        "Issue referencing",
+        "Bug fixes"
+      ],
+      "Collaboration": [
+        "Plugin integration",
+        "Community contributions"
+      ]
+    },
+    "skill_evidence": [
+      "Added `reverseInterceptorsOrder` method using `Array.prototype.reverse()` (PR #3), demonstrating functional programming and interceptor system knowledge",
+      "Fixed empty Buffer handling in Axios requests by converting `data.toString()` (PR #2), showing Node.js Buffer expertise and debugging skills",
+      "Referenced open issues (#1701, #1615) in PRs, indicating engagement with community discussions and issue triage",
+      "Updated Axios README with `axios-curlirize` plugin (PR #1), proving familiarity with plugin architecture and documentation practices",
+      "Added method documentation in PR #3, showing attention to API consistency and user-facing improvements",
+      "Handled edge case where `data.length === 0` in HTTP requests (PR #2), reflecting defensive programming practices",
+      "Used `Buffer` type conversion in Node.js environment (PR #2), confirming backend-focused JavaScript skills"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

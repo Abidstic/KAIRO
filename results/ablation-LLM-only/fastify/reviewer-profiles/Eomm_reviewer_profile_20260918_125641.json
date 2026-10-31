@@ -1,0 +1,85 @@
+{
+  "reviewer_name": "Eomm",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 139,
+    "total_comments": 89,
+    "total_prs": 85,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "Eomm",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify Framework",
+      "Node.js Backend Development",
+      "TypeScript",
+      "Error Handling & Debugging",
+      "Fastify Plugin Ecosystem",
+      "Documentation Practices"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "Eomm is a senior-level JavaScript reviewer with deep expertise in Fastify, Node.js backend development, and TypeScript. Their contributions focus on Fastify internals—route handling, error responses, plugin systems, and documentation—demonstrating strong debugging, testing, and semantic versioning skills. The reviewer excels in collaborative code review practices but shows no evidence of frontend JavaScript experience.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js"
+      ],
+      "Error Handling & Debugging": [
+        "uncaught exceptions",
+        "reply.callNotFound",
+        "socket tuning",
+        "network interface testing"
+      ],
+      "TypeScript": [
+        "type validation",
+        "error object extensions",
+        "TypeScript-first framework"
+      ],
+      "Plugin Systems": [
+        "Fastify plugin ecosystem",
+        "@immobiliarelabs/fastify-sentry"
+      ],
+      "Documentation": [
+        "Fastify server docs",
+        "plugin ecosystem documentation",
+        "external resource linking"
+      ],
+      "Testing & CI/CD": [
+        "test environment debugging",
+        "benchmarking",
+        "Coveralls integration"
+      ],
+      "Semantic Versioning": [
+        "semver-minor labeling",
+        "release practices"
+      ],
+      "Code Review": [
+        "detailed feedback",
+        "immutability validation",
+        "checklist-driven reviews"
+      ],
+      "Asynchronous Programming": [
+        "async error handling",
+        "request/response lifecycle"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: 'fix: calling reply.callNotFound uncaught exception' – demonstrates deep Fastify error handling expertise",
+      "Review comment: 'The request.routeOptions should be immutable test is failing' – shows route configuration debugging",
+      "PR label: 'docs(ecosystem): adds @immobiliarelabs/fastify-sentry' – indicates plugin ecosystem knowledge",
+      "PR description: 'feat: access handler name add properties to req route options (semver-minor)' – follows semantic versioning",
+      "Test-related PR: 'Tests should pass on a host with only a single network interface' – network debugging in Node.js",
+      "Review comment: 'We need to update the documentation as well' – emphasizes documentation consistency",
+      "CI/CD PR: 'Remove Coveralls (closes #3720)' – awareness of test coverage tooling",
+      "TypeScript PR: 'Add missing property validationContext on error object' – TypeScript type validation in Fastify"
+    ]
+  }
+}

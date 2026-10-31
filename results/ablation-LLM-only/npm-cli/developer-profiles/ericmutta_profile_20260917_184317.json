@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "developer_name": "ericmutta",
+    "generation_timestamp": "2026-09-17T18:36:46.562251",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "ericmutta",
+    "experience_level": "Junior",
+    "primary_skills": [],
+    "programming_languages": [],
+    "summary": "Based on the provided GitHub Pull Request data, ericmutta has **no demonstrated JavaScript technical skills**. All contributions are limited to **documentation improvements** for the `npm_cli` repository, with no code changes, language usage, or technical implementation work in JavaScript or related technologies. Their contributions reflect **documentation maintenance proficiency** rather than JavaScript development expertise. Without evidence from other repositories or private projects, their JavaScript capabilities cannot be assessed beyond this scope.",
+    "identified_skills": {
+      "Documentation & Clarity": [
+        "Markdown formatting",
+        "Grammar corrections",
+        "Typo fixes"
+      ],
+      "npm CLI Awareness": [
+        "Internal file path references",
+        "Configuration documentation"
+      ],
+      "Tooling Familiarity": [
+        "npm package structure"
+      ],
+      "Low-Effort Contributions": [
+        "Zero-code PRs",
+        "Documentation-only changes"
+      ]
+    },
+    "skill_evidence": [
+      "PR 'docs: broken fragment links' — no files changed, only documentation adjustments",
+      "PR 'docs: fix typos in definitions.js' — corrected text in Markdown, no JS code modified",
+      "All PRs have 'files_changed: 0' and 'languages: []' in metadata",
+      "Updated outdated file path in 'lib/utils/config-defs.js' → 'lib/utils/config/definitions.js' (documentation-only)",
+      "No references to JavaScript syntax, frameworks, or runtime logic in any PR",
+      "No evidence of testing, backend, or frontend contributions in the analyzed PRs",
+      "All contributions are purely textual corrections with no technical implementation"
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

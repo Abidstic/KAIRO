@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "developer_name": "shoonia",
+    "generation_timestamp": "2026-09-18T04:11:30.243001",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 15,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "shoonia",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "Preact",
+      "DOM APIs",
+      "ARIA attributes",
+      "Web Standards Compliance",
+      "SVG DOM Typing",
+      "Modern JavaScript (ES6+)",
+      "Web Platform APIs"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "shoonia is a Mid-level JavaScript developer with deep expertise in TypeScript and frontend web standards compliance. Their contributions focus on expanding Preact’s type definitions to align with modern browser APIs, particularly in ARIA accessibility, SVG DOM, and Web Platform features. The developer demonstrates strong proficiency in static typing, DOM manipulation, and web standards alignment, with a specialized focus on adding missing type definitions rather than runtime code changes. Their work reflects meticulous attention to detail, adherence to W3C/WHATWG specifications, and performance-conscious patterns.",
+    "identified_skills": {
+      "TypeScript & Static Typing": [
+        "TypeScript interface definitions",
+        "MDN Web API typing",
+        "Missing type declarations",
+        "TypeScript declaration merging"
+      ],
+      "DOM & Browser APIs": [
+        "SVG DOM elements",
+        "TransitionEvent typing",
+        "PictureInPictureEvent",
+        "elementTiming API",
+        "contenteditable attribute values",
+        "Text constructor usage"
+      ],
+      "Accessibility (ARIA)": [
+        "ARIA role attribute values",
+        "W3C ARIA 1.1 spec compliance",
+        "ARIA attribute enumeration",
+        "Braille-related ARIA attributes"
+      ],
+      "Frontend Frameworks": [
+        "Preact compatibility",
+        "React-like component patterns",
+        "TypeScript integration in frameworks"
+      ],
+      "Modern JavaScript Patterns": [
+        "ES6+ collections (Set)",
+        "Modern DOM APIs",
+        "Performance-aware coding"
+      ],
+      "Web Standards & Documentation": [
+        "W3C/WHATWG spec alignment",
+        "MDN Web Docs references",
+        "TypeScript declaration maintenance",
+        "HTML Living Standard compliance"
+      ],
+      "Contribution Patterns": [
+        "Type-only PRs (no runtime changes)",
+        "Standards-driven development",
+        "Niche web platform focus"
+      ]
+    },
+    "skill_evidence": [
+      "PRs explicitly add missing ARIA attribute types (e.g., 'aria-braillelabel', 'aria-rowindextext') with direct references to W3C ARIA 1.1 spec",
+      "Type definitions for SVG DOM elements (e.g., SVGAnimateTransformElement) include MDN documentation links for validation",
+      "PR '[v11] use Text constructor' replaces legacy createTextNode with new Text(), demonstrating modern DOM API preference",
+      "PR 'Add missing SVG Elements to types' expands Preact’s TypeScript coverage for SVG-related interfaces",
+      "Multiple PRs reference 'contenteditable' attribute values aligned with HTML Living Standard",
+      "PR 'Add types of PictureInPictureEvent' includes Media API typing with browser compatibility notes",
+      "All PRs have 'files_changed: 0' indicating type-only contributions without runtime code modifications",
+      "PR 'Use Set' suggests optimization awareness for efficient data structure usage in type definitions"
+    ]
+  },
+  "statistics": {
+    "total_prs": 15,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "bartdeslagmulder",
+    "generation_timestamp": "2026-09-17T23:21:26.133419",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "bartdeslagmulder",
+    "raw_response": "```json\n{\n  \"developer_name\": \"bartdeslagmulder\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Chart.js library internals\",\n    \"Frontend JavaScript (vanilla/ES6+)\",\n    \"Technical documentation\",\n    \"Open-source contribution processes\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"HTML (for sample files)\"\n  ],\n  \"summary\": \"bartdeslagmulder is a mid-level JavaScript developer with specialized expertise in Chart.js, primarily contributing through documentation improvements and sample enhancements. Their contributions demonstrate strong technical writing skills, familiarity with Chart.js' dataset and rendering APIs, and a deep understanding of open-source contribution workflows. While their PRs focus on documentation rather than code changes, their work reflects practical frontend JavaScript knowledge within the context of Chart.js' ecosystem.\",\n  \"identified_skills\": {\n    \"Charting Libraries\": [\"Chart.js dataset configuration\", \"Chart.js sample documentation\"],\n    \"Frontend Patterns\": [\"DOM manipulation (canvas-based rendering)\", \"JavaScript object literals for configurations\"],\n    \"Documentation Practices\": [\"Markdown formatting\", \"README.md maintenance\", \"versioning documentation\"],\n    \"Open-Source Contribution\": [\"contribution guidelines adherence\", \"PR review engagement\", \"documentation triage\"],\n    \"Technical Writing\": [\"punctuation and style consistency\", \"user-facing explanations\", \"sample file improvements\"],\n    \"JavaScript Ecosystem\": [\"ES6+ features (implied)\", \"frontend library APIs\"]\n  },\n  \"skill_evidence\": [\n    \"PR #1: Added label for first dataset in samples/advanced/progress-bar.html → Demonstrates Chart.js dataset structure knowledge\",\n    \"PR #2: Updated README.md with consistent versioning (V2.0 → v2.0) → Shows attention to documentation accuracy\",\n    \"PR #2 description referenced Chart.js contribution guidelines → Evidence of open-source workflow familiarity\",\n    \"PR #3: Fixed punctuation and documentation style → Proves technical writing precision\",\n    \"All PRs involved sample HTML files with Chart.js configurations → Implies frontend JavaScript usage\",\n    \"PR descriptions included helpful notes for reviewers → Indicates community engagement\",\n    \"No code changes in PRs but improvements to user experience → Focus on documentation impact over code\",\n    \"Documentation PRs involved multiple files (README.md, sample HTML) → Broad documentation expertise\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 32 column 3 (char 2451)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

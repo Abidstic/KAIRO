@@ -1,0 +1,88 @@
+{
+  "reviewer_name": "gurgunday",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 110,
+    "total_comments": 39,
+    "total_prs": 63,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "gurgunday",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify (Node.js framework)",
+      "Backend JavaScript performance optimization",
+      "HTTP protocol handling",
+      "Modern JavaScript (ES6+ features)",
+      "Async/Await and Promises",
+      "Code refactoring and type safety"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from type safety PRs)"
+    ],
+    "summary": "gurgunday is a senior-level JavaScript reviewer with deep expertise in Fastify, specializing in backend performance optimization, HTTP protocol handling, and modern JavaScript patterns. Their contributions focus on refining Fastify's core functionality, with a strong emphasis on async routing, status code management, and benchmark-driven improvements. The reviewer demonstrates advanced proficiency in JavaScript language features, code refactoring, and community collaboration within the Fastify ecosystem.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js HTTP Server"
+      ],
+      "Performance Optimization": [
+        "Async routing optimizations",
+        "HTTP status code handling",
+        "Benchmarking",
+        "Request/response throughput"
+      ],
+      "JavaScript Language": [
+        "ES6+ features",
+        "Async/Await",
+        "Promises",
+        "Type checking",
+        "Code refactoring"
+      ],
+      "HTTP & Networking": [
+        "HTTP status codes",
+        "Content-Type handling",
+        "Web Stream API",
+        "Streaming in Node.js"
+      ],
+      "Testing & Benchmarking": [
+        "Performance benchmarking",
+        "Test suite engagement"
+      ],
+      "Code Quality & Maintenance": [
+        "Semantic Versioning compliance",
+        "Type safety improvements",
+        "API stability"
+      ],
+      "Collaboration & Community": [
+        "Contributor management",
+        "Documentation updates",
+        "Cross-PR references"
+      ],
+      "Middleware & Plugins": [
+        "Fastify plugin system",
+        "Rate-limiting integration"
+      ],
+      "Routing & Path Handling": [
+        "Route search optimizations",
+        "Parameter splitting"
+      ]
+    },
+    "skill_evidence": [
+      "\"feat: loosen content-type checking\" (HTTP protocol handling)",
+      "\"perf: optimize split params\" (+1k req/sec benchmark claim)",
+      "\"fix: enhance 100 and 200 or 204 handling\" (HTTP status code focus)",
+      "\"refactor(lib/hooks): replace `typeof` undefined check\" (type safety refactoring)",
+      "\"feat: Web Stream API\" (modern Web Platform API integration)",
+      "\"docs: add open-collective\" (community documentation engagement)",
+      "\"add gurgunday and uzlopak as contributors\" (contributor management)",
+      "\"chore: more perf\" (performance optimization PR with explicit throughput claim)"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "reviewer_name": "Grubba27",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 2,
+    "total_prs": 1,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "Grubba27",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "Fastify Framework",
+      "API Schema Validation",
+      "Technical Documentation"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (Node.js)"
+    ],
+    "summary": "Grubba27 demonstrates strong expertise in TypeScript and Fastify, with a focus on backend API development and type safety. Their reviews emphasize adding and refining TypeScript types alongside documentation for Fastify schema validation, indicating a mid-level proficiency in backend systems, type systems, and maintainable code practices. The reviewer’s contributions are primarily centered on ensuring robust API contracts through type definitions and clear documentation, with no visible evidence of frontend or testing experience.",
+    "identified_skills": {
+      "Type Systems": [
+        "TypeScript",
+        "TypeScript type definitions",
+        "TypeScript interfaces",
+        "TypeScript generics"
+      ],
+      "Backend Frameworks": [
+        "Fastify",
+        "FastifyInstance",
+        "Fastify schema validation"
+      ],
+      "API Design": [
+        "API schema validation",
+        "Request/response type definitions",
+        "Schema controllers"
+      ],
+      "Documentation": [
+        "Technical documentation",
+        "JSDoc",
+        "Inline code comments"
+      ],
+      "Code Review": [
+        "TypeScript-focused reviews",
+        "Documentation feedback"
+      ],
+      "Runtime Validation": [
+        "Schema validation",
+        "Type-safe API contracts"
+      ],
+      "Backend Development": [
+        "Node.js backend patterns",
+        "Plugin-based systems"
+      ],
+      "Code Quality": [
+        "Type correctness",
+        "Documentation completeness"
+      ]
+    },
+    "skill_evidence": [
+      "PR labeled with 'typescript' indicating TypeScript expertise",
+      "PR title explicitly mentions 'TS Types' and 'Documentation and TS Types'",
+      "Reference to `FastifyInstance#setSchemaController` showing Fastify framework knowledge",
+      "Focus on adding 'Documentation' alongside TypeScript types in PRs",
+      "Review state 'COMMENTED' suggests thorough engagement with TypeScript-heavy PRs",
+      "No evidence of frontend frameworks or testing libraries in PRs",
+      "Schema validation context implies runtime type checking familiarity"
+    ]
+  }
+}

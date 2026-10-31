@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "developer_name": "zsimo",
+    "generation_timestamp": "2026-09-18T14:19:24.494473",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "zsimo",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify Framework",
+      "JavaScript/TypeScript Core",
+      "Node.js Server Internals",
+      "Semantic Versioning"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "summary": "zsimo is a JavaScript developer with demonstrated expertise in Fastify, a high-performance Node.js web framework. Their contributions focus on core server instance properties and immutable patterns, indicating deep knowledge of Fastify's internals and JavaScript/TypeScript object manipulation. While contributions are limited to Fastify and lack frontend or testing involvement, the PRs suggest strong backend-focused skills with attention to semantic versioning and backward-compatible changes. The evidence base is constrained by metadata-only PRs, but the focus on Fastify's server instance properties (e.g., `listeningOrigin`) and immutable patterns reveals specialized backend expertise.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify"
+      ],
+      "JavaScript/TypeScript Patterns": [
+        "immutable properties",
+        "property descriptors",
+        "object immutability"
+      ],
+      "Node.js Server": [
+        "server instance properties",
+        "listeningOrigin",
+        "HTTP server extensions"
+      ],
+      "Versioning": [
+        "semantic versioning",
+        "semver-minor"
+      ],
+      "Core Language Features": [
+        "TypeScript",
+        "runtime property manipulation"
+      ],
+      "Contribution Focus": [
+        "core framework additions",
+        "feature implementations"
+      ],
+      "Backend Development": [
+        "server-side JavaScript",
+        "Node.js internals"
+      ]
+    },
+    "skill_evidence": [
+      "All three PRs are for the Fastify repository with titles explicitly mentioning 'Fastify' and 'listeningOrigin', indicating deep framework knowledge.",
+      "PRs labeled 'semver-minor' demonstrate awareness of semantic versioning and backward-compatible changes in Fastify's core.",
+      "Mentions of 'immutable instance property' suggest familiarity with JavaScript/TypeScript immutability patterns and property descriptors.",
+      "No code changes or files listed (`files_changed: 0`), but PR titles imply additions to Fastify's server instance properties (e.g., `listeningOrigin`).",
+      "PRs are feature additions (`feat:` prefix), indicating experience with extending built-in objects and runtime property manipulation.",
+      "Contributions are backend-focused with no evidence of frontend frameworks, testing, or documentation updates.",
+      "Three identical PRs suggest focused contributions on Fastify's core server implementation, reinforcing backend specialization."
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "developer_name": "pmkroeker",
+    "generation_timestamp": "2026-09-18T04:13:39.068983",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 9,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 9
+  },
+  "profile": {
+    "developer_name": "pmkroeker",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "Preact",
+      "React-like Component Patterns",
+      "Virtual DOM (VNode) Architecture",
+      "TypeScript Static Typing",
+      "Build Tool Debugging (Webpack)"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)"
+    ],
+    "summary": "pmkroeker is a Mid-level JavaScript developer with deep expertise in TypeScript and Preact. Their contributions focus on enhancing type safety, fixing regressions, and improving compatibility layers for React-like patterns. Strong in debugging build-time issues (e.g., Webpack) and maintaining library ecosystems. Demonstrates proficiency in virtual DOM internals, Suspense/lazy loading, and state management typing. Experience spans versioning, documentation, and collaborative code refinement.",
+    "identified_skills": {
+      "TypeScript": [
+        "TypeScript Static Typing",
+        "TypeScript Generics",
+        "TypeScript Strict Mode",
+        "TypeScript Interface Definitions",
+        "TypeScript Type Inheritance",
+        "TypeScript Return Type Enforcement",
+        "TypeScript Partial Updates",
+        "TypeScript Build-Time Debugging"
+      ],
+      "Frontend Frameworks": [
+        "Preact",
+        "React-like Component Patterns",
+        "Virtual DOM (VNode) Architecture",
+        "Suspense/Lazy Loading",
+        "Compatibility Layers (preact/compat)"
+      ],
+      "Build Tooling": [
+        "Webpack Build Debugging",
+        "TypeScript Compiler Integration"
+      ],
+      "Library Maintenance": [
+        "Semantic Versioning",
+        "Library Deprecation",
+        "Dependency Management"
+      ],
+      "Debugging": [
+        "Regression Fixes",
+        "Type Error Resolution",
+        "Build-Time Issue Triage"
+      ],
+      "Documentation": [
+        "README Contributions",
+        "Community Feedback Integration"
+      ],
+      "JavaScript": [
+        "ES6+ Features",
+        "Module Systems (ESM/CJS)"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Add types to compat' — Extending TypeScript exports for Preact compatibility",
+      "PR: 'Retype style to error on strings' — Enforcing strict TypeScript typing in build",
+      "PR: 'Fix internal vnode typings' — Correcting VNode type inheritance for virtual DOM",
+      "PR: 'Update compat typings' — Updating TypeScript definitions for React-like APIs",
+      "PR: 'Add return type to _childDidSuspend' — Adding `: void` return type for strict TypeScript",
+      "PR: 'The issue showed up in my projects webpack build' — Debugging Webpack build-time type errors",
+      "PR: 'With preact-X now in beta.2, I have moved preact-charts up to version 1!' — Semantic versioning and library maintenance",
+      "PR: 'I had to remove preact-charts from github' — Handling library lifecycle and deprecation",
+      "PR: 'Add Partial to setState' — Fixing TypeScript typing for partial state updates",
+      "PR: 'Fixes #1778' — Directly addressing reported type-related regressions"
+    ]
+  },
+  "statistics": {
+    "total_prs": 9,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

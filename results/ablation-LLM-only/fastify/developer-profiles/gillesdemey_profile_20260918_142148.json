@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "developer_name": "gillesdemey",
+    "generation_timestamp": "2026-09-18T14:06:49.543183",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "gillesdemey",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify framework internals",
+      "Node.js HTTP streaming",
+      "Error handling in streaming responses",
+      "Test suite optimization",
+      "Parallel test execution",
+      "Semantic versioning (semver-minor)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Fastify context)"
+    ],
+    "summary": "gillesdemey is a Mid-level JavaScript developer with specialized expertise in Fastify's core internals, particularly HTTP streaming and error handling. Their contributions focus on improving Fastify's robustness in edge cases (e.g., client aborts during streaming) and optimizing test suite performance through parallel execution. The developer demonstrates strong debugging skills, collaborative problem-solving, and a deep understanding of Node.js backend patterns. While primarily backend-focused, their contributions reflect a strong foundation in asynchronous JavaScript and testing best practices.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js HTTP server internals"
+      ],
+      "Streaming & Asynchronous Handling": [
+        "HTTP streaming",
+        "client abort handling",
+        "headersSent checks",
+        "onSendEnd callbacks"
+      ],
+      "Testing & Optimization": [
+        "parallel test execution",
+        "test suite runtime reduction",
+        "edge case testing",
+        "Jest/Mocha parallel workers"
+      ],
+      "Error Handling & Resilience": [
+        "defensive programming",
+        "race condition prevention",
+        "error recovery in streaming"
+      ],
+      "Versioning & Releases": [
+        "semver-minor",
+        "backward-compatible changes"
+      ],
+      "Debugging & Issue Triage": [
+        "collaborative debugging",
+        "issue referencing",
+        "follow-up fixes"
+      ],
+      "Performance Tuning": [
+        "test suite benchmarking",
+        "parallel execution strategies"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Reduced test suite runtime from 22s to 7s via parallel execution ('Run tests in parallel')",
+      "PR #2: Added headersSent check in onSendEnd to prevent errors during client aborts ('Fix error when client aborts during streaming')",
+      "PR #2: Requested guidance on testing strategies for streaming edge cases ('Any pointers on how to write a test for it?')",
+      "PR #3: Follow-up fix for client abort race condition in handleError ('Ensure handleError doesn’t throw when headersSent')",
+      "PR #2 & #3: Labeled with 'semver-minor' indicating backward-compatible fixes",
+      "PR #1: Explicit mention of parallel test execution tools ('jest' or 'mocha' workers)",
+      "PR #2: References existing issue #371 for context ('Related to #371')",
+      "PR #3: Direct code fix for streaming error recovery in Fastify's core response handling"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

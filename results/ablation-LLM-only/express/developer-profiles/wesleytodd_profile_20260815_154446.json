@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "developer_name": "wesleytodd",
+    "generation_timestamp": "2026-08-15T15:36:06.072284",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 39,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "wesleytodd",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Express.js internals",
+      "Node.js module system",
+      "Breaking change management",
+      "Error handling in Node.js",
+      "Dependency optimization",
+      "Semantic Versioning (SemVer)",
+      "Open-source governance"
+    ],
+    "programming_languages": [
+      "JavaScript (ES Modules & CommonJS)",
+      "TypeScript (indirect evidence via Node.js ecosystem)"
+    ],
+    "summary": "wesleytodd is a senior-level JavaScript developer with deep expertise in Express.js and Node.js internals. Their contributions focus on architectural improvements, breaking change management, and dependency optimization within the Express framework. They demonstrate strong skills in module system design, error handling, and maintaining backward compatibility across Node.js versions. Their work emphasizes stability, maintainability, and adherence to open-source governance standards.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Middleware Architecture",
+        "Request/Response Handling"
+      ],
+      "Node.js Core": [
+        "Node.js Module System",
+        "Event Emitter",
+        "HTTP Server Lifecycle"
+      ],
+      "Dependency Management": [
+        "npm Package Publishing",
+        "Dependency Splitting",
+        "Semantic Versioning"
+      ],
+      "Error Handling & Resilience": [
+        "Error Event Handling",
+        "Duplicate Callback Prevention",
+        "Cross-Version Fixes"
+      ],
+      "Code Organization": [
+        "Module Refactoring",
+        "Deprecation Management",
+        "Code Cleanup"
+      ],
+      "Testing & Quality": [
+        "Unit Testing for Modules",
+        "Cross-Environment Compatibility"
+      ],
+      "Open-Source Governance": [
+        "OpenJS Foundation Compliance",
+        "Documentation Standards",
+        "Community Guidelines"
+      ],
+      "Security": [
+        "Dependency Vulnerability Fixes",
+        "Prototype Pollution Mitigation"
+      ],
+      "Tooling": [
+        ".editorconfig",
+        "Temporary Package Publishing"
+      ]
+    },
+    "skill_evidence": [
+      "Moved `req/res` and `compileQueryParser` into separate npm packages (module splitting)",
+      "Replaced `http.STATUS_CODES` with the `statuses` module (dependency optimization)",
+      "Added `once` module usage to prevent duplicate `listen()` error callbacks (error resilience)",
+      "Labeled PRs as `semver-major` for breaking changes (SemVer compliance)",
+      "Fixed `node >8` auth test errors (cross-version compatibility)",
+      "Added `CODE_OF_CONDUCT.md` and `CHARTER.md` (OpenJS Foundation governance)",
+      "Updated `setprototypeof@1.2.0` for security vulnerability (dependency security)",
+      "Removed deprecated warnings in 5.x cleanup (deprecation management)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 39,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

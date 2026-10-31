@@ -1,0 +1,66 @@
+{
+  "reviewer_name": "jaubourg",
+  "generated_at": "20260815_164745",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 1,
+    "total_prs": 1,
+    "repos": [
+      "jquery"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "jaubourg",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "DOM manipulation and script loading",
+      "CORS and cross-origin security",
+      "Behavioral JavaScript changes",
+      "Unit testing awareness"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (implied by code review context)"
+    ],
+    "summary": "jaubourg is a mid-level JavaScript reviewer with specialized expertise in browser-side DOM manipulation and script execution behavior, particularly focusing on cross-origin security (crossorigin attribute). Their reviews demonstrate strong technical judgment in validating behavioral changes while acknowledging limitations in test-specific styles. The reviewer’s contributions are narrowly but deeply focused on core JavaScript runtime mechanics rather than frameworks or backend systems.",
+    "identified_skills": {
+      "Browser APIs & DOM": [
+        "DOM manipulation",
+        "Script element handling",
+        "crossorigin attribute implementation"
+      ],
+      "Security & CORS": [
+        "Cross-Origin Resource Sharing (CORS)",
+        "Script sandboxing",
+        "Security-conscious script loading"
+      ],
+      "Testing Practices": [
+        "Unit test awareness",
+        "Test style sensitivity"
+      ],
+      "JavaScript Language": [
+        "Modern JavaScript modules",
+        "Asynchronous script loading"
+      ],
+      "Code Review": [
+        "Behavioral change validation",
+        "Logic vs. style differentiation"
+      ],
+      "Tooling": [
+        "GitHub PR workflows"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'Manipulation: Respect script crossorigin attribute in DOM manipulation' (appears twice)",
+      "Label 'Manipulation' and 'Behavior Change' on PRs indicating DOM/script focus",
+      "Comment: 'There are some code styles I'm not sure about in the unit tests. I'm not the best to judge those though.'",
+      "Approval of patch with behavioral change label, suggesting confidence in runtime correctness",
+      "No evidence of framework-specific reviews (React, Angular, etc.)",
+      "Focus on script loading mechanics (e.g., crossorigin attribute handling)",
+      "Reviewer defers test-specific feedback to others, indicating specialized but not comprehensive testing knowledge",
+      "PR context implies familiarity with browser APIs and security implications of script execution"
+    ]
+  }
+}

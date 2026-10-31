@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "marijaselakovic",
+    "generation_timestamp": "2026-08-15T18:11:40.404162",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "marijaselakovic",
+    "raw_response": "```json\n{\n  \"developer_name\": \"marijaselakovic\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"JavaScript performance optimization\",\n    \"Type checking in JavaScript\",\n    \"Moment.js internals\",\n    \"JavaScript benchmarking (JsPerf)\",\n    \"Core JavaScript language features\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES5+)\"\n  ],\n  \"summary\": \"Mid-level JavaScript developer with a strong focus on performance optimization, particularly in type checking and core language features. Demonstrates deep expertise in Moment.js internals and evidence-based optimization techniques using JsPerf. Skilled in identifying and implementing performance improvements through benchmark-driven changes. Experience primarily in library maintenance and optimization rather than frontend frameworks or backend systems.\",\n  \"identified_skills\": {\n    \"JavaScript Internals\": [\n      \"instanceof operator\",\n      \"prototype chain understanding\",\n      \"Object.prototype.toString.call()\",\n      \"Array.isArray optimization\"\n    ],\n    \"Performance Optimization\": [\n      \"JsPerf benchmarking\",\n      \"data-driven optimizations\",\n      \"type checking performance\",\n      \"unit test validation\"\n    ],\n    \"Library Development\": [\n      \"Moment.js utility functions\",\n      \"isArray/isDate/isFunction optimizations\",\n      \"configFromStringAndFormat refactoring\"\n    ],\n    \"Testing Practices\": [\n      \"unit test integration\",\n      \"performance test validation\"\n    ],\n    \"Tooling\": [\n      \"JsPerf\",\n      \"GitHub PR workflow\"\n    ],\n    \"Language Features\": [\n      \"constructor-based type checking\",\n      \"prototype inheritance\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR 1: 'instanceof shows better performance over toString call' - Demonstrates preference for instanceof over toString for type checking, referencing JsPerf benchmarks\",\n    \"PR 2: 'Optimization in isArray' - Replaces slower Object.prototype.toString.call() with instanceof Array for faster array detection\",\n    \"PR 2: 'Performance improvement' label - Explicit focus on performance optimization in Moment.js utility functions\",\n    \"PR 3: 'optimize configFromStringAndFormat' - Includes mention of unit tests to validate performance changes\",\n    \"PR 3: 'isDate/isFunction optimizations' - Shows pattern of replacing slower type checks with instanceof-based alternatives\",\n    \"JsPerf references in PR 1 and 2 - Evidence of using external benchmarking tools to validate performance claims\",\n    \"All PRs target Moment.js - Demonstrates deep familiarity with library internals and utility function optimization\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 54 column 3 (char 2576)"
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

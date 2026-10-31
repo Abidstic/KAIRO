@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "developer_name": "jean-michelet",
+    "generation_timestamp": "2026-09-18T14:21:26.307670",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "jean-michelet",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify Framework",
+      "TypeScript Decorators",
+      "Fastify Plugin System",
+      "Semantic Versioning (SemVer)",
+      "Open-Source Documentation"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "jean-michelet is a Mid-level JavaScript developer with specialized expertise in Fastify, particularly its decorator-based plugin system and TypeScript integration. Their contributions focus on enhancing Fastify’s core features, with a strong emphasis on backward-compatible changes and documentation. The developer demonstrates proficiency in TypeScript decorators, plugin architecture, and semantic versioning, while also engaging in open-source collaboration and community practices. Evidence suggests a deep understanding of Fastify’s plugin ecosystem and its interaction with TypeScript metadata, though broader backend or frontend experience is not yet visible in the available PR data.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify"
+      ],
+      "TypeScript Features": [
+        "Decorators",
+        "Metadata",
+        "TypeScript Plugin Support"
+      ],
+      "Plugin Systems": [
+        "Fastify Plugin System",
+        "Decorator-Based Plugins"
+      ],
+      "Version Control & Releases": [
+        "Semantic Versioning (SemVer)",
+        "Minor Version Bumps"
+      ],
+      "Documentation & Community": [
+        "Documentation Updates",
+        "Contributor Onboarding",
+        "Open-Source Collaboration"
+      ],
+      "JavaScript Advanced Topics": [
+        "Decorators",
+        "Dependency Injection"
+      ],
+      "API Design": [
+        "Fastify Decorator API"
+      ],
+      "Open-Source Practices": [
+        "PR Labeling",
+        "Maintainer Collaboration"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'feat: allow to access decorators' in Fastify, indicating feature development for Fastify’s decorator system with TypeScript support",
+      "PR labeled 'typescript' and 'semver-minor', showing involvement in TypeScript decorator features and backward-compatible changes",
+      "PR labeled 'docs: join plugin team', demonstrating documentation contributions and community engagement",
+      "Multiple PRs with 'semver-minor' tag, confirming adherence to semantic versioning practices in Fastify",
+      "No file changes (`files_changed: 0`) in some PRs, suggesting meta-contributions like discussions or documentation coordination",
+      "PRs closed and labeled collaboratively with maintainers, indicating active participation in Fastify’s open-source workflow",
+      "Focus on Fastify’s decorator system in feature PRs, implying deep knowledge of plugin lifecycle and metadata handling",
+      "Documentation PRs imply familiarity with Fastify’s plugin team structure and onboarding processes"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

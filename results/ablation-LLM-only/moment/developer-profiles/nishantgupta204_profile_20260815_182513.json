@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "developer_name": "nishantgupta204",
+    "generation_timestamp": "2026-08-15T18:06:10.564162",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "nishantgupta204",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript Date/Time Manipulation",
+      "JavaScript Library Debugging",
+      "Edge-Case Bug Resolution",
+      "Locale-Aware Date Handling"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)"
+    ],
+    "summary": "Mid-level JavaScript developer with specialized expertise in date/time manipulation and library maintenance, demonstrated through targeted bug fixes in Moment.js. Skilled in debugging subtle edge cases in JavaScript date arithmetic, particularly around month boundaries and locale state management. Experience extends to maintaining production-grade JavaScript libraries with a focus on backward compatibility and precision debugging. Contributions highlight deep understanding of prototype-based JavaScript and state management in legacy codebases.",
+    "identified_skills": {
+      "DateTime Systems": [
+        "Date arithmetic edge cases",
+        "Month boundary calculations",
+        "Locale-specific date formatting",
+        "Timezone-aware operations"
+      ],
+      "Library Maintenance": [
+        "Moment.js internals",
+        "Prototype extension debugging",
+        "API compatibility fixes",
+        "State management in JS libraries"
+      ],
+      "Debugging Patterns": [
+        "Iterative bug resolution",
+        "Subtle state corruption fixes",
+        "Edge-case test validation",
+        "Closure-based state tracking"
+      ],
+      "JavaScript Language": [
+        "Prototype-based inheritance",
+        "Closures and scope management",
+        "Legacy JavaScript patterns"
+      ],
+      "Testing & Validation": [
+        "Edge-case test scenarios",
+        "Assertion-based validation"
+      ],
+      "Code Quality": [
+        "Backward compatibility preservation"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: 'from()/to() wrong days calculation around a month' → Debugging date arithmetic edge cases in Moment.js",
+      "PR title: 'moment.locale() returns undefined after updating a non-existing locale' → Fixing locale state corruption in JS libraries",
+      "Repeated PRs on issue #4127 → Iterative debugging of the same edge case, indicating deep understanding of the problem",
+      "Focus on Moment.js → Experience with prototype-based JavaScript and legacy library internals",
+      "Fixes involve `from()`/`to()` methods → Knowledge of Moment.js API design and public API tweaks",
+      "No frontend/backend frameworks mentioned → Pure JavaScript/date library focus",
+      "Bugs related to month transitions → Specialized skill in date arithmetic edge cases"
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "reviewer_name": "blakeembrey",
+  "generated_at": "20260815_155647",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 0,
+    "total_prs": 4,
+    "repos": [
+      "express"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "blakeembrey",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Express.js",
+      "Node.js backend development",
+      "JavaScript low-level data handling",
+      "Release engineering",
+      "HTTP response optimization"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Express.js ecosystem)"
+    ],
+    "summary": "blakeembrey is a senior-level JavaScript reviewer with deep expertise in Node.js and Express.js, specializing in backend framework development, low-level JavaScript data handling (e.g., Typed Arrays), and release engineering. Their reviews demonstrate strong technical judgment in optimizing HTTP responses, managing versioning, and maintaining code quality in a high-impact open-source project. The reviewer’s focus is exclusively on backend systems, with particular attention to performance-critical middleware and binary data handling in Express.js.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Node.js"
+      ],
+      "JavaScript Core": [
+        "Typed Arrays",
+        "Uint8Array",
+        "Buffer-like operations"
+      ],
+      "HTTP & Response Handling": [
+        "Binary data streaming",
+        "Response middleware"
+      ],
+      "Versioning & Releases": [
+        "Semantic Versioning",
+        "Release notes",
+        "Dependency updates"
+      ],
+      "Code Review & Quality": [
+        "Release PR approvals",
+        "Stability-focused reviews"
+      ],
+      "Asynchronous Systems": [
+        "HTTP response streaming"
+      ],
+      "Low-Level JavaScript": [
+        "ArrayBuffer",
+        "TypedArray support"
+      ],
+      "Backend Optimization": [
+        "Performance-critical middleware"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: 'Added check to support Uint8Array in response sending' (demonstrates TypedArray handling)",
+      "Approved release PRs: 'Release: 4.21.1', 'Release: 5.0.1' (shows versioning expertise)",
+      "All PRs are for Express.js repositories (confirms backend framework specialization)",
+      "No frontend or testing-related PRs (focused on backend systems)",
+      "Binary data response handling in Express middleware (performance optimization skill)",
+      "Approval of multiple 4.x and 5.x releases (indicates release engineering experience)",
+      "Lack of review comments despite approvals (implies high trust in technical correctness)",
+      "Uint8Array support PR suggests familiarity with WebSocket/binary protocol handling"
+    ]
+  }
+}

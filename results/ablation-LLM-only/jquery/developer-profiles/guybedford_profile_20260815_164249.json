@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "guybedford",
+    "generation_timestamp": "2026-08-15T16:36:00.959458",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "guybedford",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery internals",
+      "AMD module systems",
+      "JavaScript module dependency resolution",
+      "JavaScript linting (JSHint/ESLint)",
+      "Legacy JavaScript debugging",
+      "Code quality improvements"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "jQuery"
+    ],
+    "summary": "guybedford is a mid-level JavaScript developer with specialized expertise in jQuery's legacy module system (AMD) and dependency management. Their contributions focus on resolving circular references, improving code quality through linting, and refining jQuery's internal module organization. While their experience is primarily in older JavaScript ecosystems, they demonstrate strong debugging skills, attention to syntax correctness, and collaborative problem-solving with maintainers. Their work shows deep familiarity with jQuery's build process and testing integration, particularly around linting-related test failures. This profile highlights proficiency in maintaining and optimizing legacy JavaScript projects rather than modern frontend frameworks or backend systems.",
+    "identified_skills": {
+      "Module Systems": [
+        "AMD (Asynchronous Module Definition)",
+        "Circular dependency resolution",
+        "Module loading mechanics"
+      ],
+      "Code Quality": [
+        "JavaScript syntax corrections",
+        "Trailing comma removal",
+        "Linting (JSHint/ESLint)",
+        "Static analysis fixes"
+      ],
+      "Debugging": [
+        "Module system debugging",
+        "Test failure investigation",
+        "Dependency cycle resolution"
+      ],
+      "jQuery-Specific": [
+        "jQuery internals",
+        "AMD module integration",
+        "Legacy jQuery build system"
+      ],
+      "Collaboration": [
+        "Maintainer discussions",
+        "Prior issue referencing",
+        "Code review alignment"
+      ],
+      "Testing": [
+        "Linting-related test failures",
+        "Build system integration"
+      ],
+      "Refactoring": [
+        "Module dependency reorganization",
+        "Code structure improvements"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: 'Remove trailing comma in define array' - Demonstrates attention to JavaScript syntax correctness and AMD module array formatting",
+      "PR 1: 'Great work on the AMD support' - Shows engagement with maintainers about AMD module system improvements",
+      "PR 2 & 3: 'Remove circular reference' - Evidence of debugging circular dependencies in jQuery's AMD module system between css.js and offset.js",
+      "PR 2 & 3: 'I have been unable to work out' - Indicates persistent debugging efforts to resolve complex module loading issues",
+      "PR 3: 'Currently not passing tests due to lint errors' - Shows awareness of linting's impact on test runs and build system integration",
+      "PR 3: 'As discussed in #1348' - Demonstrates referencing prior discussions to align changes with project goals",
+      "All PRs: Contributions in jQuery repository - Confirms deep familiarity with jQuery's internal module architecture and build process"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

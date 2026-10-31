@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "teroman",
+    "generation_timestamp": "2026-09-17T23:00:37.674944",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "teroman",
+    "raw_response": "```json\n{\n  \"developer_name\": \"teroman\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Chart.js (Canvas Rendering)\",\n    \"JavaScript Core (Type Coercion, Trigonometry)\",\n    \"Frontend Performance Optimization\",\n    \"Event Delegation & DOM Manipulation\",\n    \"Text Measurement & Layout Engineering\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES5+)\",\n    \"TypeScript (inferred from Chart.js ecosystem)\"\n  ],\n  \"summary\": \"teroman is a mid-level JavaScript developer with deep expertise in Chart.js, specializing in canvas-based rendering, text measurement, and performance optimizations. Their contributions focus on fixing edge cases in text rotation, event handling, and tooltip rendering—core areas of Chart.js’s visualization engine. The developer demonstrates strong JavaScript core skills (type coercion, trigonometric operations) and a focus on efficient frontend rendering patterns. While contributions are limited to Chart.js, the precision of bug fixes and technical explanations suggests a developer who is detail-oriented and capable of tackling complex UI/UX challenges in visualization libraries.\",\n  \"identified_skills\": {\n    \"Canvas & Visual Rendering\": [\n      \"Canvas API (getContext('2d'))\",\n      \"TextMetrics API\",\n      \"CSS Transforms (rotate)\",\n      \"Trigonometric Functions (sin, cos, abs)\"\n    ],\n    \"JavaScript Core\": [\n      \"Type Coercion (number ↔ boolean)\",\n      \"Truthiness Checks (undefined vs. falsy)\",\n      \"Event Bubbling (target vs. currentTarget)\",\n      \"Mathematical Edge Cases (90° rotation)\"\n    ],\n    \"Frontend Optimization\": [\n      \"Avoiding Unnecessary Redraws (tooltip rendering)\",\n      \"Event Delegation Strategies\",\n      \"Dynamic DOM Updates\"\n    ],\n    \"Bug Fixing & Debugging\": [\n      \"Precision Edge-Case Handling\",\n      \"JSFiddle-Based Reproduction\",\n      \"Root-Cause Analysis (e.g., cos(90) = 0)\"\n    ],\n    \"Chart.js-Specific\": [\n      \"Axis Label Scaling\",\n      \"Tooltip Logic\",\n      \"Text Autoscale for Rotation\"\n    ],\n    \"Technical Communication\": [\n      \"Clear Bug Descriptions\",\n      \"Problem-Solution Explanations\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"\\\"Measure text size for autoscale when rotated\\\" – Demonstrates use of TextMetrics API and trigonometric functions for text positioning in canvas.\",\n    \"\\\"Rotations between 180-360 degrees on x axis labels\\\" – Involves handling edge cases in CSS transforms and canvas text rendering.\",\n    \"\\\"Event handling to use target instead currentTarget\\\" – Shows understanding of event bubbling and DOM event delegation patterns.\",\n    \"\\\"Don't render tooltips when they are disabled\\\" – Evidence of performance optimization by avoiding redundant canvas operations.\",\n    \"\\\"Incorrect conversion of number to boolean\\\" – Highlights awareness of JavaScript type coercion and truthiness checks.\",\n    \"JSFiddle references in PRs – Indicates ability to reproduce and debug issues in isolated environments.\",\n    \"Focus on canvas-based text measurement – Confirms deep knowledge of Chart.js’s rendering engine.\",\n    \"No backend or framework-specific PRs – Confirms frontend specialization in visualization libraries.\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 58 column 3 (char 3148)"
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

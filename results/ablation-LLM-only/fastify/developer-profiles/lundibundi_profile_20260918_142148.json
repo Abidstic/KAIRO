@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "developer_name": "lundibundi",
+    "generation_timestamp": "2026-09-18T13:52:06.510536",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "lundibundi",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify framework development",
+      "TypeScript type system",
+      "Backend plugin architecture",
+      "Technical documentation",
+      "Node.js server internals"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "lundibundi is a specialized JavaScript developer with deep expertise in Fastify framework development and TypeScript type safety. Their contributions focus on improving Fastify's plugin system, type definitions, and documentation, demonstrating strong backend development skills with a focus on framework internals and developer experience. The profile shows evidence of mid-level expertise through targeted technical improvements rather than broad ecosystem contributions.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js server internals"
+      ],
+      "TypeScript Advanced": [
+        "TypeScript overloads",
+        "Custom type definitions",
+        "Plugin type safety"
+      ],
+      "Framework Architecture": [
+        "Plugin systems",
+        "Middleware architecture"
+      ],
+      "Documentation": [
+        "API documentation",
+        "Technical concept explanations"
+      ],
+      "Asynchronous Patterns": [
+        "Promise-based APIs"
+      ],
+      "Code Quality": [
+        "Type safety refactoring",
+        "Bug fixes"
+      ],
+      "Language Features": [
+        "ES6+ JavaScript",
+        "TypeScript generics"
+      ],
+      "Error Handling": [
+        "Stream error handling documentation"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'add Promise version overload for FastifyPlugin' shows work with Promise-based plugin APIs",
+      "'Improve server types' PR indicates custom type definition improvements for Fastify's Server interface",
+      "'fix: fastify plugin types exports' demonstrates debugging and refactoring of type exports",
+      "'docs: fix TS plugin documentation' shows technical writing for TypeScript plugin behavior",
+      "'docs: explain stream error handling' indicates documentation work on complex backend concepts",
+      "All PRs in Fastify repository demonstrate specialized framework knowledge rather than general JS skills",
+      "TypeScript label on multiple PRs confirms primary focus on TypeScript integration",
+      "No frontend or testing-related contributions visible in PR data"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

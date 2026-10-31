@@ -1,0 +1,77 @@
+{
+  "reviewer_name": "ritschwumm",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 5,
+    "total_comments": 5,
+    "total_prs": 3,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "ritschwumm",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "React/Preact Component Architecture",
+      "TypeScript",
+      "Event Handling & DOM Events",
+      "Debugging Edge Cases",
+      "Backporting & Release Engineering"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "ritschwumm is a Mid-level JavaScript reviewer with specialized expertise in React/Preact ecosystems, TypeScript, and debugging complex event handling scenarios. Their contributions focus on maintaining type safety, fixing edge cases in event bubbling, and managing backporting for stable releases. The reviewer demonstrates strong problem-solving skills in asynchronous behavior and test-specific debugging, with a clear understanding of React-like patterns and release engineering workflows. Evidence suggests familiarity with JavaScript closures and module systems, though no backend or DevOps experience is visible in their reviews.",
+    "identified_skills": {
+      "Frontend Frameworks": [
+        "Preact",
+        "React-like Component Patterns"
+      ],
+      "Type Safety & Typing": [
+        "TypeScript",
+        "ReactNode Type Alignment",
+        "ComponentChild Types"
+      ],
+      "Event Systems": [
+        "Event Bubbling",
+        "Event Propagation",
+        "Global Event Counters",
+        "Race Condition Debugging"
+      ],
+      "Testing & Debugging": [
+        "Test-Specific Edge Cases",
+        "Flaky Test Fixes",
+        "Deterministic Event Handling"
+      ],
+      "Release Engineering": [
+        "Backporting",
+        "Release Line Maintenance",
+        "Semantic Versioning"
+      ],
+      "JavaScript Language": [
+        "Closures",
+        "Module Systems",
+        "Asynchronous Patterns"
+      ],
+      "Code Review Practices": [
+        "PR Approval with Minimal Changes",
+        "Issue Triage",
+        "Contextual Review"
+      ]
+    },
+    "skill_evidence": [
+      "PR #3 ('Update ComponentChild types') explicitly references React’s `ReactNode` types, showing TypeScript alignment expertise",
+      "PR #1 ('Fix event bubbling can break in test conditions') involves debugging race conditions in event handling, demonstrating deep event system knowledge",
+      "Global counter mechanism in PR #1 indicates familiarity with event loop mechanics and race condition prevention",
+      "PR #4 ('Backport 10.14 release line') includes selective exclusion of breaking changes, proving release engineering awareness",
+      "Reference to PR #1116 in PR #3 suggests familiarity with tracking type-related issues across releases",
+      "All PRs are in 'COMMENTED' state, implying constructive review focus (though no comments are visible)",
+      "Event bubbling fixes imply understanding of DOM event synchronization in Preact’s virtual DOM",
+      "Type updates in PR #3 show comfort with maintaining compatibility between Preact and React type systems"
+    ]
+  }
+}

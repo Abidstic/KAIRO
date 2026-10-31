@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "developer_name": "mdewilde",
+    "generation_timestamp": "2026-09-17T23:09:33.423478",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "mdewilde",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js library documentation",
+      "JavaScript data visualization tooling",
+      "Technical writing for APIs",
+      "Issue triage and documentation maintenance",
+      "JavaScript animation and easing functions"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Chart.js ecosystem)"
+    ],
+    "summary": "mdewilde is a mid-level JavaScript developer with specialized expertise in Chart.js, focusing primarily on documentation, technical writing, and issue resolution. Their contributions demonstrate deep familiarity with the Chart.js codebase, animation systems, and JavaScript visualization patterns. While their PR activity is limited to documentation improvements, their engagement with the Chart.js community and attention to detail suggest strong technical writing skills and a nuanced understanding of JavaScript-based data visualization tools. No evidence of frontend frameworks or backend development is present in their contributions.",
+    "identified_skills": {
+      "Data Visualization Libraries": [
+        "Chart.js",
+        "JavaScript easing functions"
+      ],
+      "Documentation Practices": [
+        "API documentation",
+        "technical writing",
+        "cross-referencing external resources",
+        "issue-driven fixes"
+      ],
+      "JavaScript Core": [
+        "animation systems",
+        "easing functions",
+        "configuration options"
+      ],
+      "Issue Management": [
+        "GitHub issue triage",
+        "community engagement"
+      ],
+      "Tooling & Ecosystem": [
+        "Java integration references",
+        "GitHub PR workflow"
+      ],
+      "Technical Writing": [
+        "clarifying documentation",
+        "fixing inconsistencies",
+        "adding references"
+      ]
+    },
+    "skill_evidence": [
+      "PR #2: Reference to easing functions from 'robertpenner.com/easing/' in Chart.js animation documentation",
+      "PR #4: Added link to Java integration documentation, showing awareness of Chart.js's cross-language ecosystem",
+      "All PRs: Pure documentation fixes with no code changes, indicating deep familiarity with Chart.js internals",
+      "PR #1: Corrected duplicate property names in Chart.js configuration options, demonstrating attention to detail",
+      "PR #3: Added explicit reference to 'animation.easing' documentation, linking to authoritative easing function sources",
+      "PR #4: Explicitly labeled as 'type: documentation' and referenced issue #4519, showing structured issue engagement",
+      "PR descriptions consistently mention 'List of possible values was taken from the Chart.js code', proving codebase navigation skills",
+      "No code changes in any PR, confirming specialization in documentation over implementation"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

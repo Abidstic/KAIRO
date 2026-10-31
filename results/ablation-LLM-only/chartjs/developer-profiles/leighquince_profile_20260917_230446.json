@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "developer_name": "leighquince",
+    "generation_timestamp": "2026-09-17T22:54:03.856474",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "leighquince",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js API customization",
+      "Data visualization UX improvements",
+      "Canvas-based rendering",
+      "JavaScript DOM manipulation",
+      "Bug resolution in charting libraries",
+      "GitHub pull request workflows"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "TypeScript (implied, but not confirmed)"
+    ],
+    "summary": "leighquince is a mid-level JavaScript developer with specialized expertise in Chart.js, focusing on enhancing data visualization UX through label filtering, tooltip optimizations, and chart rendering fixes. Their contributions demonstrate strong debugging skills, a deep understanding of charting library internals, and proficiency in DOM/Canvas manipulation for interactive visualizations. While their contributions are primarily frontend-focused, the absence of code changes in PRs limits visibility into modern JavaScript patterns or backend frameworks.",
+    "identified_skills": {
+      "Charting & Visualization": [
+        "Chart.js API manipulation",
+        "Tooltip behavior customization",
+        "X-axis label filtering",
+        "Stacked bar chart rendering",
+        "Dataset fill options",
+        "Radar chart styling fixes"
+      ],
+      "Frontend Rendering": [
+        "Canvas element manipulation",
+        "DOM event handling (hover/tooltip)",
+        "Conditional rendering logic",
+        "Performance optimizations for large datasets"
+      ],
+      "Debugging & Issue Resolution": [
+        "Bug reproduction via JSFiddle demos",
+        "Edge-case testing (large scales, complex interactions)",
+        "Clear issue documentation",
+        "Real-world UX pain point identification"
+      ],
+      "Version Control & Collaboration": [
+        "GitHub pull request workflows",
+        "Issue referencing",
+        "Collaborative code review",
+        "PR description clarity"
+      ],
+      "UX & Accessibility": [
+        "Readability improvements for dense data",
+        "Tooltip visibility enhancements",
+        "Large dataset handling strategies"
+      ],
+      "Testing": [
+        "Manual testing via live demos",
+        "Reproducible test case creation"
+      ],
+      "JavaScript Patterns": [
+        "Object-oriented JavaScript",
+        "Configurable behavior via options",
+        "Modular bug fixes"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: Added x-axis label filtering option ('useful when displaying graphs with a large amount of labels')",
+      "PR 2: Fixed stacked bar chart rendering logic (modifying internal dataset handling)",
+      "PR 3: Improved tooltip visibility for bars with large scales ('getting around the issue of not being able to see the tooltip')",
+      "PR 4: Implemented dynamic label exclusion via configuration options (UX-focused enhancement)",
+      "PR 6: Corrected radar chart datasetFill behavior (specific chart type optimization)",
+      "All PRs: Used JSFiddle for live reproduction of bugs before submission",
+      "All PRs: Included clear issue references and reproduction steps in descriptions",
+      "PR 3: Explicitly mentioned testing tooltip behavior across different chart types"
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

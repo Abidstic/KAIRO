@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "manuel-jasso",
+    "generation_timestamp": "2026-08-15T17:08:58.528427",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "lodash"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "manuel-jasso",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript Regex Optimization",
+      "Performance Profiling & Benchmarking",
+      "ReDoS Vulnerability Mitigation",
+      "Lodash Internals",
+      "Unit Testing in JavaScript"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "Manuel-jasso is a mid-level JavaScript developer with specialized expertise in regex optimization, performance profiling, and security-conscious coding. Their contributions to Lodash demonstrate deep knowledge of JavaScript's core regex engine, particularly in preventing ReDoS vulnerabilities and improving runtime efficiency for large Unicode inputs. The developer shows strong debugging skills, proficiency in unit testing, and familiarity with Lodash's internal architecture. While contributions are currently limited to a single library and regex-focused optimizations, the depth of analysis in these areas suggests advanced technical capability in JavaScript's performance-critical domains.",
+    "identified_skills": {
+      "Regex Engineering": [
+        "Greedy vs. Non-Greedy Quantifiers",
+        "ReDoS Vulnerability Analysis",
+        "Performance-Optimized Regex Patterns",
+        "Unicode-Aware Regex"
+      ],
+      "Performance Optimization": [
+        "Runtime Benchmarking",
+        "Catastrophic Backtracking Detection",
+        "1000x+ Performance Improvements",
+        "Large Input Handling"
+      ],
+      "Testing Practices": [
+        "Unit Test Creation",
+        "Performance Test Validation",
+        "Test-Driven Debugging"
+      ],
+      "Security Awareness": [
+        "ReDoS Mitigation Strategies",
+        "Regex Security Vulnerabilities"
+      ],
+      "Library Internals": [
+        "Lodash Core Utilities",
+        "Regex Test Patterns",
+        "Internal String/Unicode Handling"
+      ],
+      "Debugging & Code Review": [
+        "Issue Isolation",
+        "Maintainer Engagement",
+        "Iterative Fix Refinement"
+      ],
+      "JavaScript Ecosystem": [
+        "Lodash Testing Framework",
+        "Node.js Runtime Behavior"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed greedy regex in `reHasUnicodeWord` causing ReDoS (PR description: 'greedy regex issue')",
+      "Reduced runtime from >1000ms to <5ms for 50k+ char Unicode inputs (performance claim)",
+      "Added unit tests to verify fix (PR description: 'Added unit tests')",
+      "Engaged with Lodash maintainers via repeated submissions (3 PRs on same issue)",
+      "Referenced Lodash issue #3359 showing deep library knowledge",
+      "Optimized regex to prevent catastrophic backtracking (security-focused fix)",
+      "Used benchmarking to identify performance bottleneck (implicit in PR context)",
+      "Modified core Lodash utility regex used in string/Unicode operations"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "lodash"
+    ]
+  }
+}

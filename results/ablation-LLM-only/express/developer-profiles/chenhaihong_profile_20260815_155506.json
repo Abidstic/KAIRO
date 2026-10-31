@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "developer_name": "chenhaihong",
+    "generation_timestamp": "2026-08-15T15:54:00.582876",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "chenhaihong",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Webpack module system",
+      "Node.js CommonJS module resolution",
+      "Dynamic import patterns",
+      "Critical dependency warnings",
+      "Technical issue triage"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "Node.js"
+    ],
+    "summary": "chenhaihong demonstrates a strong focus on JavaScript bundling and module resolution, particularly through deep engagement with Webpack's dynamic `require()` behavior and critical dependency warnings. Their contributions highlight expertise in Node.js runtime module handling and technical discussions around bundler internals, though their PRs currently lack direct code changes. The developer shows proficiency in issue triage, documentation referencing, and understanding of Webpack's dependency analysis system. Their work suggests potential for future contributions in Webpack optimization or related tooling ecosystems.",
+    "identified_skills": {
+      "Bundler Configuration": [
+        "Webpack module system",
+        "Dynamic require() patterns",
+        "Critical dependency warnings"
+      ],
+      "Module Resolution": [
+        "Node.js CommonJS",
+        "Dynamic imports",
+        "Dependency analysis"
+      ],
+      "Technical Discussion": [
+        "Issue triage",
+        "Documentation references",
+        "Community engagement"
+      ],
+      "Tooling Awareness": [
+        "Webpack internals",
+        "Bundler warnings"
+      ],
+      "Problem Research": [
+        "Cross-referencing GitHub issues",
+        "Technical problem decomposition"
+      ]
+    },
+    "skill_evidence": [
+      "PRs address 'Critical dependency: the request of a dependency is an expression' warning in Webpack",
+      "All PRs reference Webpack's GitHub issue #196 and comment #354900072 for context",
+      "PRs labeled as 'duplicate' with focus on dynamic require() patterns in Node.js",
+      "One PR labeled 'needs tests', indicating awareness of documentation/testing gaps",
+      "No code changes submitted (files_changed: 0) but detailed technical discussions provided",
+      "Engagement with Webpack's upstream issue tracker demonstrates bundler internals knowledge",
+      "PRs consistently cite Node.js runtime behavior for dynamic require() scenarios",
+      "Technical descriptions reference Webpack's dependency resolution system"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

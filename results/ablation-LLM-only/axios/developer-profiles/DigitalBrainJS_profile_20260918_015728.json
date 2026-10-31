@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "developer_name": "DigitalBrainJS",
+    "generation_timestamp": "2026-09-18T01:57:04.552186",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 208,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "DigitalBrainJS",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Axios internals",
+      "TypeScript",
+      "Asynchronous JavaScript (Promises, AbortController)",
+      "HTTP request cancellation",
+      "JSON handling & serialization",
+      "Node.js environment",
+      "Error handling & custom error classes",
+      "Configuration management",
+      "Performance optimizations"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "JSON"
+    ],
+    "summary": "DigitalBrainJS is a Senior JavaScript developer with deep expertise in Axios internals, asynchronous programming, and TypeScript. Their contributions demonstrate a strong focus on HTTP request cancellation, error handling, and performance optimizations within the Axios ecosystem. The developer shows proficiency in Node.js environment-specific features, JSON handling, and backward compatibility considerations. Their work reflects a high level of attention to detail, particularly in edge cases and deprecation handling, indicating significant experience in maintaining and extending large-scale JavaScript libraries.",
+    "identified_skills": {
+      "Asynchronous Programming": [
+        "Promise cancellation",
+        "AbortController integration",
+        "Async/Await patterns"
+      ],
+      "TypeScript & Static Typing": [
+        "Interface definitions",
+        "Custom error classes",
+        "Generics",
+        "TypeScript class inheritance"
+      ],
+      "HTTP & Networking": [
+        "Axios internals",
+        "Request cancellation",
+        "Progress tracking",
+        "HTTP config merging"
+      ],
+      "Error Handling": [
+        "Custom error classes",
+        "AxiosError refactoring",
+        "Cancellation error propagation"
+      ],
+      "JSON Processing": [
+        "JSON parsing/serialization",
+        "IE11 compatibility fixes",
+        "JSON.stringify optimizations"
+      ],
+      "Node.js Environment": [
+        "File system operations",
+        "Environment-specific features",
+        "Streams",
+        "Auto-generated module files"
+      ],
+      "Configuration & Build": [
+        "Axios instance management",
+        "Config inheritance",
+        "Bundling optimizations",
+        "Tree-shaking awareness"
+      ],
+      "Code Quality & Maintenance": [
+        "ESLint fixes",
+        "Deprecation handling",
+        "Backward compatibility",
+        "Circular dependency resolution"
+      ],
+      "Testing & Debugging": [
+        "Edge case handling",
+        "Test environment fixes",
+        "Regression testing"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: 'An alternative way to cancel requests using promise.cancel method' → Promise cancellation patterns",
+      "PR #2: 'Fixed cancelToken leakage; Added AbortController support' → AbortController integration and error handling",
+      "PR #3: 'Refactored AxiosError to be a constructor' → Custom error classes and TypeScript class inheritance",
+      "PR #4: 'JSON improvements: throw if JSON parsing failed' → JSON parsing/serialization and error handling",
+      "PR #5: 'Feat/json improvements' → IE11 compatibility fixes for JSON handling",
+      "PR #6: 'Fix/safe json stringify to avoid unnecessary string encoding' → JSON.stringify optimizations",
+      "PR #7 & #8: 'Dropped package.json import due to size overhead' → Bundling optimizations and tree-shaking awareness",
+      "PR #9: 'Added progress capturing support for node.js environment' → Node.js streams and environment-specific features",
+      "PR #10: 'Fixed TransitionalOptions typings' → TypeScript interface definitions and config merging",
+      "PR #11: 'Added optional ability for child instances to use actual parent config values' → Axios instance management and config inheritance",
+      "PR #13: 'Added generic AxiosAbortSignal TS interface' → TypeScript generics and AbortController TypeScript support"
+    ]
+  },
+  "statistics": {
+    "total_prs": 208,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

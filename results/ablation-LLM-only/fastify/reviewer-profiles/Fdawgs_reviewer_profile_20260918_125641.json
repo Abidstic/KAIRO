@@ -1,0 +1,77 @@
+{
+  "reviewer_name": "Fdawgs",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 85,
+    "total_comments": 43,
+    "total_prs": 50,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "Fdawgs",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify framework internals",
+      "Fastify plugin ecosystem",
+      "JavaScript async/await and Promise patterns",
+      "Technical documentation and style guides",
+      "API design and response handling"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript (inferred)"
+    ],
+    "summary": "Fdawgs is a senior-level JavaScript reviewer with deep expertise in Fastify's core framework and plugin ecosystem. Their reviews demonstrate strong technical authority in Fastify's API design, documentation standards, and asynchronous programming patterns. The reviewer specializes in maintaining technical consistency across Fastify's documentation and core implementation, with particular attention to Promise/Thenable compliance and style enforcement. While their primary focus is Fastify, their JavaScript skills extend to modern async patterns and TypeScript usage within that ecosystem. Their review patterns show constructive feedback, collaborative communication, and a high level of trust from the Fastify community.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Fastify plugin system"
+      ],
+      "Asynchronous Programming": [
+        "Promises",
+        "Thenable API",
+        "async/await"
+      ],
+      "API Design": [
+        "Reply objects",
+        "HTTP response handling",
+        "Promise/Thenable compliance"
+      ],
+      "Documentation & Technical Writing": [
+        "Fastify documentation style guide",
+        "plugin ecosystem documentation",
+        "minor documentation improvements"
+      ],
+      "Code Review & Quality": [
+        "style guide enforcement",
+        "documentation formatting",
+        "API consistency reviews"
+      ],
+      "Testing & Tooling": [
+        "Fastify benchmarking",
+        "npm test scripts"
+      ],
+      "TypeScript": [
+        "TypeScript-first framework usage"
+      ],
+      "Collaboration & Communication": [
+        "constructive feedback",
+        "collaborative tone"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'Properly implement `Thenable` API on `Reply` objects' (labeled 'internals') showing core Fastify API design involvement",
+      "Review comment: 'Please retain the white space between the header and content' enforcing Fastify documentation style guide",
+      "PR labeled 'docs(ecosystem): add fastify-rabbitmq' demonstrating plugin ecosystem documentation expertise",
+      "Approval of PR 'docs: remove thenable promisesaplus spec references' showing Promise/Thenable spec knowledge",
+      "CHANGES_REQUESTED for documentation style violations (contractions, whitespace) indicating strict style enforcement",
+      "Mention of 'npm run test' and 'npm run benchmark' in PR descriptions showing awareness of Fastify's testing workflows",
+      "Jocular CI-related comment 'Goodnight sweet (CI blocking) prince' indicating familiarity with CI/CD pipelines",
+      "Multiple documentation-only PRs with no code changes (files_changed=0) confirming documentation specialization"
+    ]
+  }
+}

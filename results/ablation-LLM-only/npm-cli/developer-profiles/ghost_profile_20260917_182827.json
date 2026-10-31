@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "developer_name": "ghost",
+    "generation_timestamp": "2026-09-17T18:25:01.917073",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 20,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "ghost",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js internals",
+      "npm CLI development",
+      "JavaScript core (ES6+)",
+      "Testing and debugging",
+      "Code refactoring",
+      "Documentation maintenance",
+      "GitHub workflow automation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from npm CLI ecosystem)"
+    ],
+    "summary": "Mid-level JavaScript developer with deep expertise in Node.js and npm CLI internals. Specializes in debugging core npm functionality, improving testing reliability, and enhancing code consistency. Strong background in JavaScript core features, version compatibility, and automated development workflows. Contributes primarily through targeted fixes, refactoring, and documentation improvements in the npm CLI repository. Demonstrates collaborative problem-solving and attention to detail in both code and technical documentation.",
+    "identified_skills": {
+      "Node.js Ecosystem": [
+        "npm CLI internals",
+        "Node.js version compatibility",
+        "npm hook system",
+        "npm uninstallation logic",
+        "npm dependency management"
+      ],
+      "JavaScript Core": [
+        "ES6+ modules (import/export)",
+        "String manipulation (symbol handling)",
+        "Code organization (import ordering)",
+        "Mocking and testing utilities"
+      ],
+      "Testing Practices": [
+        "Concurrent test execution",
+        "Test case debugging",
+        "Mock implementation fixes",
+        "Test suite optimization"
+      ],
+      "Code Quality": [
+        "Code refactoring (hook name deduplication)",
+        "Consistency improvements (import ordering)",
+        "Documentation corrections",
+        "Readability enhancements"
+      ],
+      "Tooling & Automation": [
+        "Gitpod Dev-Environments-As-Code",
+        "Dependency updates (Dependabot)",
+        "Versioned releases (6.x/7.x)",
+        "CI/CD workflows"
+      ],
+      "Collaboration": [
+        "Issue triage and discussion",
+        "Persistent issue resolution",
+        "Cross-team coordination"
+      ],
+      "Debugging": [
+        "Logical error identification",
+        "Edge case handling",
+        "Test failure analysis"
+      ]
+    },
+    "skill_evidence": [
+      "Fixes npm uninstallation logic with correct local prefix usage ('fix(uninstall): use correct local prefix')",
+      "Debugs and fixes duplicated hook name prefixes in npm CLI ('fix: `npm hook ls` duplicates hook name prefixes')",
+      "Updates npm messages for newer Node.js versions ('Update message for newer node version')",
+      "Optimizes npm test suite with concurrent execution ('Iarna/concurrent tests')",
+      "Reorders imports for consistency in JavaScript modules ('Reordered imports for consistency')",
+      "Fixes mock implementations in npm's testing utilities ('Fixes libnpmhook mocks')",
+      "Corrects documentation errors and improves clarity ('docs: Fix mistakes')",
+      "Automates development setup with Gitpod for reproducible environments ('Fully automate dev setup with Gitpod')",
+      "Addresses open issues with persistent follow-through ('Fixes #243', 'Fixes #4201')",
+      "Engages in technical discussions for complex problem-solving ('Needs Discussion' labels)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 20,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "reviewer_name": "reggi",
+  "generated_at": "20260917_165100",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "stats": {
+    "total_reviews": 68,
+    "total_comments": 30,
+    "total_prs": 44,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "reggi",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Node.js core internals",
+      "npm CLI development",
+      "Dependency resolution",
+      "Async/await patterns",
+      "TypeScript (inferred from npm CLI ecosystem)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "reggi is a highly experienced Senior JavaScript reviewer specializing in Node.js core and npm CLI internals. Their expertise is deeply rooted in backend development, particularly package management, dependency resolution, and asynchronous programming patterns. The reviewer demonstrates strong proficiency in modern JavaScript (ES6+), with likely familiarity with TypeScript given npm's migration to the language. While there is no evidence of frontend development skills, their contributions focus on backend systems, CLI tooling, and performance optimizations within the npm ecosystem. The reviewer consistently approves clean, secure, and efficient fixes related to npm's core functionality, including workspace monorepos, `npm ci`, and native module resolution (`node:` specifier).",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise": [
+        "Node.js",
+        "npm/yarn"
+      ],
+      "Asynchronous Programming": [
+        "async/await",
+        "Promises",
+        "Event Loop"
+      ],
+      "API Design & Consumption": [
+        "npm registry API"
+      ],
+      "Error Handling": [],
+      "Frontend Development Skills": [],
+      "Backend Development Skills": [
+        "Server-Side Logic",
+        "Dependency Management",
+        "Authentication/Authorization"
+      ],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts": [
+        "Module Systems",
+        "Destructuring",
+        "Spread/Rest Operators"
+      ],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [
+        "Type Definitions"
+      ],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [
+        "Event Emitters"
+      ],
+      "Dependency Management": [
+        "npm/yarn",
+        "package-lock.json"
+      ],
+      "Graphical Data Visualization": []
+    }
+  }
+}

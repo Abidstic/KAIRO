@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "developer_name": "dmethvin",
+    "generation_timestamp": "2026-08-15T16:06:08.981071",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 101,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "dmethvin",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "jQuery Core Development",
+      "DOM Event Handling",
+      "Cross-Browser Compatibility",
+      "JavaScript Performance Optimization",
+      "DOM Manipulation",
+      "Legacy JavaScript Patterns"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "jQuery"
+    ],
+    "summary": "dmethvin is a senior JavaScript developer with deep expertise in jQuery's core internals, specializing in DOM event handling, cross-browser compatibility, and performance optimization. Their contributions focus on fixing edge cases in event bubbling, IE-specific quirks, and optimizing jQuery's core methods for better runtime efficiency. The developer demonstrates strong skills in defensive programming, legacy JavaScript patterns, and performance profiling, primarily within the jQuery ecosystem.",
+    "identified_skills": {
+      "DOM Event Systems": [
+        "Event bubbling and capturing",
+        "Namespaced event handling",
+        "isDefaultPrevented logic",
+        "Event propagation fixes"
+      ],
+      "Cross-Browser Compatibility": [
+        "IE-specific DOM fixes",
+        "Frameset document handling",
+        "Augmented Array.prototype avoidance",
+        "Legacy browser quirks"
+      ],
+      "Performance Optimization": [
+        "DOM operation caching avoidance",
+        "Loop optimization (for/in → for)",
+        "Test suite performance improvements",
+        "Memory-efficient string handling"
+      ],
+      "jQuery Core Mechanics": [
+        "Selector API context fixes",
+        "Event triggering system",
+        "Object cloning and deep-extend",
+        "Serialization and encoding"
+      ],
+      "Legacy JavaScript Patterns": [
+        "Prototype-based inheritance",
+        "Closure-based event handlers",
+        "ES5 object manipulation",
+        "Defensive programming practices"
+      ],
+      "Testing and Debugging": [
+        "Unit test case attachments",
+        "Performance benchmarking",
+        "Cross-browser bug reproduction",
+        "Test suite optimizations"
+      ],
+      "Data Handling": [
+        "Deep object cloning",
+        "String encoding (CRLF)",
+        "Form data serialization"
+      ]
+    },
+    "skill_evidence": [
+      "Fix #7793: Correctly implement isDefaultPrevented on bubbling events, ensuring jQuery's Event object reflects defaultPrevented state during propagation",
+      "PR #6913: Move namespace logic from .handle() to .trigger() to prevent namespace loss during event bubbling, addressing cross-browser event handling inconsistencies",
+      "IE-specific fix: Ensure border widths return 0px when border-style is 'none', demonstrating deep knowledge of IE DOM quirks",
+      "Performance optimization #6779: Avoid caching non-HTML strings to reduce memory usage in DOM fragment construction",
+      "Fix #7579: Optimize try/catch usage to prevent unnecessary error handling overhead in jQuery's core methods",
+      "Deep-extend PR: Clone objects recursively to prevent shared references between sub-objects, improving data integrity in DOM manipulations",
+      "Test suite optimization: Reduce unit test overhead by 0.5% to 8% through targeted performance improvements",
+      "Fix #7398: Handle frameset documents correctly, addressing edge cases in non-standard document structures"
+    ]
+  },
+  "statistics": {
+    "total_prs": 101,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

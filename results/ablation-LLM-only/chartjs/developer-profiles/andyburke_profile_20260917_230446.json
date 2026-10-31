@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "developer_name": "andyburke",
+    "generation_timestamp": "2026-09-17T23:03:30.003840",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "andyburke",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js library development",
+      "Canvas API manipulation",
+      "Responsive design patterns",
+      "Dynamic data visualization",
+      "JavaScript configuration systems"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript (inferred)"
+    ],
+    "summary": "andyburke is a mid-level JavaScript developer with specialized expertise in Chart.js, focusing on responsive design, dynamic data visualization, and Canvas-based rendering. Their contributions demonstrate deep knowledge of charting library architecture, including responsive sizing, visual layering, and data binding patterns. While contributions are limited to frontend-focused charting features, the work shows strong proficiency in JavaScript's configurable APIs and event-driven programming for dynamic updates.",
+    "identified_skills": {
+      "Charting Libraries": [
+        "Chart.js core architecture",
+        "Canvas-based rendering",
+        "Responsive chart containers"
+      ],
+      "Frontend Patterns": [
+        "Dynamic DOM manipulation",
+        "Event-driven updates",
+        "Aspect ratio calculations"
+      ],
+      "JavaScript Features": [
+        "Configurable API design",
+        "Object-based options merging",
+        "Prototype/class extensions"
+      ],
+      "Visual Rendering": [
+        "Canvas layer management",
+        "Overlay rendering techniques",
+        "Data visualization algorithms"
+      ],
+      "Responsive Design": [
+        "ResizeObserver integration",
+        "Container-relative sizing",
+        "Aspect ratio preservation"
+      ],
+      "Data Handling": [
+        "Dynamic dataset updates",
+        "Empty state management",
+        "Memory-efficient redraws"
+      ],
+      "Testing (inferred)": [],
+      "Backend (inferred)": [],
+      "Tooling (inferred)": []
+    },
+    "skill_evidence": [
+      "PR: 'Allow for responsive chart to take up its entire container' — Demonstrates Responsive Design with ResizeObserver and aspect ratio calculations",
+      "PR: 'Add option to overlay bars' — Shows Visual Rendering with Canvas layering and overlay techniques",
+      "PR: 'Allow for dynamically adding, removing and clearing datasets' — Proves Data Handling with dynamic data structure manipulation",
+      "PR descriptions imply Configurable API design via options like 'maintainAspectRatio' and 'overlayBars'",
+      "Frontend Patterns evidenced by dynamic DOM updates and event-driven chart resizing",
+      "JavaScript Features used include object-based configuration merging and prototype/class extensions for Chart.js",
+      "No evidence of backend work or testing contributions in the available PRs"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

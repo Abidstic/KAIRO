@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "developer_name": "cope",
+    "generation_timestamp": "2026-08-15T17:01:03.770642",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "lodash"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "cope",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Lodash utility function development",
+      "String manipulation (case conversion, regex)",
+      "Technical documentation",
+      "Functional programming patterns",
+      "GitHub PR workflow"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "TypeScript (inferred from Lodash context)"
+    ],
+    "summary": "cope demonstrates strong foundational JavaScript skills focused on utility function development within the Lodash ecosystem. Their contributions primarily involve proposing new utility functions (e.g., `titleCase`, `sentenceCase`) and improving documentation through research-backed examples. While their PRs show deep familiarity with Lodash’s design patterns and string manipulation techniques, they lack evidence of modern JavaScript frameworks, backend systems, or testing practices. Their experience appears to be concentrated in library-level utility development rather than full-stack or application-level work. The developer exhibits good GitHub collaboration practices but has not yet implemented actual code changes, suggesting they are in the early stages of contributing to open-source projects.",
+    "identified_skills": {
+      "Utility Function Development": [
+        "Lodash utility functions",
+        "Case conversion algorithms",
+        "Deep equality checks"
+      ],
+      "String Processing": [
+        "Title case conversion",
+        "Sentence case conversion",
+        "Regular expression patterns"
+      ],
+      "Documentation Practices": [
+        "Technical writing",
+        "Example-based documentation",
+        "External source citation"
+      ],
+      "Functional Programming": [
+        "Pure function design",
+        "Immutable operations",
+        "Lodash-style modular utilities"
+      ],
+      "GitHub Collaboration": [
+        "PR labeling conventions",
+        "Community feedback integration",
+        "Proposal-based contributions"
+      ],
+      "Research & Knowledge Sharing": [
+        "Wikipedia references",
+        "Stack Overflow citations",
+        "Standardized capitalization rules"
+      ],
+      "JavaScript Core": [
+        "String methods",
+        "Regular expressions",
+        "Functional programming constructs"
+      ],
+      "Backend/Full-Stack": [],
+      "Frontend Frameworks": [],
+      "Testing & CI/CD": [],
+      "Tooling & Build Systems": []
+    },
+    "skill_evidence": [
+      "PR proposing `titleCase` utility function with Wikipedia-cited capitalization rules",
+      "PR labeled `documentation` adding regex pattern examples from Stack Overflow",
+      "PR for `sentenceCase` referencing external capitalization standards",
+      "PRs with no code changes but detailed descriptions of proposed functionality",
+      "Use of `enhancement` and `documentation` labels in PR metadata",
+      "Community feedback requested via `votes needed` label on proposals",
+      "Proposed `same` method implying deep equality comparison logic",
+      "Research into string manipulation edge cases (e.g., hyphenated words)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "lodash"
+    ]
+  }
+}

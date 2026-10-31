@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "developer_name": "KoyoSE",
+    "generation_timestamp": "2026-09-17T22:49:00.546290",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 9,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 9
+  },
+  "profile": {
+    "developer_name": "KoyoSE",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Chart.js internals (scales, tooltips, rendering)",
+      "Vanilla JavaScript DOM manipulation",
+      "jQuery to vanilla JS refactoring",
+      "Frontend debugging (rendering bugs, interactive elements)",
+      "CSS/JS integration for UI components",
+      "Basic testing (unit tests for scales)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "HTML",
+      "CSS"
+    ],
+    "summary": "KoyoSE is a Mid-Level JavaScript developer with specialized expertise in Chart.js, focusing on fixing rendering issues, tooltips, scales, and bar/axis customization. Their contributions demonstrate strong frontend debugging skills, particularly in DOM manipulation, event handling, and jQuery-to-vanilla-JS refactoring. While primarily frontend-focused, their work on Chart.js samples and tests suggests familiarity with testing practices. No backend or modern framework (React/Vue) exposure is evident in the provided PR data.",
+    "identified_skills": {
+      "Data Visualization": [
+        "Chart.js scales",
+        "Tooltip customization",
+        "Bar/axis rendering",
+        "Canvas clipping"
+      ],
+      "Frontend JavaScript": [
+        "DOM manipulation (querySelector, event listeners)",
+        "jQuery migration to vanilla JS",
+        "Event-driven programming",
+        "HTML/CSS integration"
+      ],
+      "Debugging & Testing": [
+        "Rendering bug fixes",
+        "Unit testing (scale tests)",
+        "Sample verification"
+      ],
+      "Code Refactoring": [
+        "Legacy code cleanup (jQuery → JS)",
+        "Typo corrections",
+        "Minor syntax fixes"
+      ],
+      "UI/UX Components": [
+        "Label positioning (axis, tooltip)",
+        "Interactive element fixes (buttons)"
+      ],
+      "Documentation & Communication": [
+        "PR description explanations",
+        "Offering jsfiddle demos"
+      ],
+      "HTML/CSS": [
+        "Sample HTML modifications",
+        "CSS transforms for positioning"
+      ]
+    },
+    "skill_evidence": [
+      "PR #6: Fixed 'x axis label for position = top' not displaying → DOM/CSS label positioning",
+      "PR #7: Changed 'j-query code to JavaScript' → jQuery migration to vanilla JS event handling",
+      "PR #1: 'Fix miscalculation of Bar width' → Data scaling/rendering logic in Chart.js",
+      "PR #2: 'Fix : Tooltip label for category scale' → Tooltip customization in Chart.js",
+      "PR #3: '[TEST PR] New scale test' → Unit testing for Chart.js scales",
+      "PR #4: 'Implement clipping' → Canvas/2D rendering optimizations",
+      "PR #5: 'Fix bar draw issue with borderWidth' → Bar rendering bug fixes",
+      "PR #6: 'Just changed sie to size' → Attention to detail in variable naming"
+    ]
+  },
+  "statistics": {
+    "total_prs": 9,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

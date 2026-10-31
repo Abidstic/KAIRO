@@ -1,0 +1,77 @@
+{
+  "reviewer_name": "thatguyinabeanie",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 3,
+    "total_prs": 2,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "thatguyinabeanie",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Axios internals (URL resolution, configuration validation)",
+      "JavaScript runtime error handling",
+      "Security-focused JavaScript development",
+      "Versioned library maintenance (backporting)",
+      "Defensive programming patterns"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Axios ecosystem)"
+    ],
+    "summary": "thatguyinabeanie demonstrates **Senior-level JavaScript expertise** with deep specialization in Axios' internals, particularly URL handling and security. Their reviews focus on **fixing edge cases, backporting critical fixes across versions, and maintaining robustness** in HTTP client libraries. The reviewer exhibits strong **defensive programming skills**, **version control awareness**, and **concise yet effective code review patterns**, prioritizing stability over feature additions. While frontend frameworks are not visible, their work suggests **Node.js/ES Modules proficiency** and **security-conscious development practices** in backend JavaScript ecosystems.",
+    "identified_skills": {
+      "HTTP Client Libraries": [
+        "Axios internals",
+        "URL resolution logic",
+        "Configuration validation"
+      ],
+      "JavaScript Core": [
+        "Runtime error handling",
+        "TypeError debugging",
+        "Object property access patterns"
+      ],
+      "Security Practices": [
+        "Vulnerability fixes",
+        "URL sanitization",
+        "Defensive URL handling"
+      ],
+      "Version Control": [
+        "Backporting fixes",
+        "Semantic Versioning awareness",
+        "Cross-version compatibility"
+      ],
+      "Code Review": [
+        "Concise feedback",
+        "Edge-case validation",
+        "Stability-focused reviews"
+      ],
+      "Defensive Programming": [
+        "Undefined/null checks",
+        "Edge-case handling",
+        "Crash prevention"
+      ],
+      "Node.js Ecosystem": [
+        "ES Modules/CommonJS",
+        "Library internals",
+        "Backend JavaScript patterns"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: 'fix(buildFullPath): handle `allowAbsoluteUrls: false` without `baseURL`' — demonstrates deep understanding of Axios' URL resolution internals and TypeError handling",
+      "Review comment: '1 smol change' — implies quick validation of targeted edge-case fixes with minimal discussion needed",
+      "PR description referencing 'vuln fix' and backporting from 'github/advisory-database/pull/5356' — shows security vulnerability awareness and versioned library maintenance",
+      "Fix for `allowAbsoluteUrls: false` + missing `baseURL` — requires knowledge of JavaScript object property access and defensive programming",
+      "Backporting fixes between `v0.x` and `v1.x` — indicates experience with Semantic Versioning and cross-version compatibility",
+      "Issue references: 'axios/axios/issues/6824' and 'axios/axios/issues/6832' — confirms specialization in Axios' core functionality",
+      "Focus on 'buildFullPath' method — suggests familiarity with Axios' private/internal request-building logic",
+      "No frontend frameworks or testing frameworks mentioned — scope limited to backend/library internals"
+    ]
+  }
+}

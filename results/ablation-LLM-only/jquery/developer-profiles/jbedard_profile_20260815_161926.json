@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "developer_name": "jbedard",
+    "generation_timestamp": "2026-08-15T16:08:31.220609",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 23,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "jbedard",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "jQuery internals (data API, event system, deferred/promise system)",
+      "JavaScript performance optimization",
+      "ES5/ES6 JavaScript",
+      "Legacy JavaScript debugging",
+      "DOM manipulation and event delegation",
+      "Asynchronous JavaScript (pre-ES6 promises)",
+      "JavaScript API design and usability improvements"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "jQuery (core library)"
+    ],
+    "summary": "jbedard is a senior JavaScript developer with deep expertise in jQuery's core internals, specializing in performance optimization, data handling, event systems, and asynchronous operations. Their contributions focus on micro-optimizations, debugging memory leaks, and improving API usability while maintaining backward compatibility. The developer demonstrates strong skills in legacy JavaScript systems, DOM manipulation, and asynchronous programming patterns, particularly in jQuery's deferred/promise implementation. Their work is characterized by meticulous attention to detail, performance-focused improvements, and collaboration with the jQuery maintainer team.",
+    "identified_skills": {
+      "jQuery Core Systems": [
+        "jQuery data API (expando properties, cleanData)",
+        "jQuery event system (fixHooks, propHooks)",
+        "jQuery deferred/promise system",
+        "jQuery DOM manipulation methods (.val(), .toggle(), .offset())"
+      ],
+      "Performance Optimization": [
+        "JavaScript micro-optimizations",
+        "Bundle size reduction (minification)",
+        "ES5 performance patterns (defineProperty vs. defineProperties)",
+        "DOM node handling optimizations"
+      ],
+      "Legacy JavaScript": [
+        "ES5 compatibility patterns",
+        "Prototype-based OOP (jQuery's $.fn)",
+        "Closure-based data binding",
+        "Legacy promise systems (pre-ES6)"
+      ],
+      "Debugging and Testing": [
+        "Memory leak detection (promise callbacks)",
+        "Behavioral regression testing",
+        "Edge-case DOM handling",
+        "Historical version comparison"
+      ],
+      "API Design": [
+        "Method chaining improvements",
+        "Backward compatibility considerations",
+        "Undocumented API cleanup",
+        "User experience optimizations"
+      ],
+      "Asynchronous Programming": [
+        "Deferred system async execution",
+        "Callback retention patterns",
+        "Async group processing"
+      ],
+      "Build System Awareness": [
+        "Minification artifacts (jquery.js vs. jquery.min.js)",
+        "CI/CD pipeline awareness",
+        "Byte savings tracking"
+      ],
+      "Collaboration": [
+        "Maintainer discussions (GitHub issues)",
+        "Technical documentation references",
+        "Version-specific change analysis"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Data: avoid non-alphanumeric chars in expando properties' - demonstrates deep jQuery data API expertise",
+      "PR: 'Event: change fixHooks, propHooks to ES5 getter methods' - shows ES5 compatibility focus in event system",
+      "PR: 'Deferred: invoke processes in async groups instead of individually' - indicates async execution pattern knowledge",
+      "PR: 'Data: avoid using delete on DOM nodes' - highlights DOM manipulation performance optimizations",
+      "PR: 'Deferred: fix memory leak of promise callbacks' - evidence of debugging async memory leaks",
+      "PR: 'only call jQuery(this) if necessary in $.fn.val' - shows micro-optimization focus in core methods",
+      "PR: 'make toggle(true/false) and toggleClass(... , true/false) shortcut' - demonstrates API design improvements",
+      "PR: 'Data: remove user data in cleanData' - shows historical version comparison and cleanup skills"
+    ]
+  },
+  "statistics": {
+    "total_prs": 23,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

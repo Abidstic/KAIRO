@@ -1,0 +1,68 @@
+{
+  "reviewer_name": "voxpelli",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 3,
+    "total_prs": 1,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "voxpelli",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript tooling",
+      "JavaScript linter configuration",
+      "Code quality automation",
+      "Build process optimization"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "summary": "voxpelli is a mid-level JavaScript/TypeScript developer with demonstrated expertise in TypeScript tooling and JavaScript linter configuration. Their review activity focuses on migrating and maintaining code quality tools (e.g., neostandard), suggesting strong skills in configuration management and automation within JavaScript/TypeScript projects. While no deep framework specialization is evident, their involvement in tooling-related PRs indicates familiarity with modern JavaScript ecosystems and process improvements. The reviewer appears comfortable with review workflows but lacks visible evidence of architectural or advanced technical contributions.",
+    "identified_skills": {
+      "TypeScript Ecosystem": [
+        "TypeScript migration",
+        "TypeScript linters",
+        "TypeScript tooling configuration"
+      ],
+      "JavaScript Tooling": [
+        "neostandard migration",
+        "Code quality automation",
+        "Linting/formatting tools",
+        "Build process integration"
+      ],
+      "Code Review Practices": [
+        "Configuration validation",
+        "Process-oriented feedback",
+        "Tooling-related review comments"
+      ],
+      "Build Systems": [
+        "CI/CD integration",
+        "Chore-based PRs"
+      ],
+      "Configuration Management": [
+        "Linter configuration",
+        "Toolchain setup"
+      ],
+      "JavaScript Language": [
+        "Modern JavaScript features"
+      ]
+    },
+    "skill_evidence": [
+      "All three PRs labeled with 'typescript' indicating TypeScript expertise",
+      "PR title 'chore: Migrate to neostandard' shows focus on TypeScript/JS tooling",
+      "PRs in 'COMMENTED' state suggest engagement in tooling-related discussions",
+      "No visible code changes imply feedback was on configuration/process rather than logic",
+      "Lack of framework-specific mentions (e.g., React, Express) limits framework expertise inference",
+      "Migration to neostandard suggests familiarity with ESLint-like tooling ecosystems",
+      "Chore PRs imply involvement in build/automation improvements",
+      "No evidence of testing, backend frameworks, or advanced JS patterns in reviews"
+    ]
+  }
+}

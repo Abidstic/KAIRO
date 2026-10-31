@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "developer_name": "ziimakc",
+    "generation_timestamp": "2026-09-18T14:09:50.110264",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "ziimakc",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify Framework",
+      "TypeScript",
+      "Node.js HTTP/2 & HTTPS",
+      "Technical Documentation",
+      "Semantic Versioning & Backporting",
+      "Logging Best Practices"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "ziimakc is a mid-level JavaScript developer with specialized expertise in the Fastify framework and TypeScript integration. Their contributions focus on improving Fastify's documentation for HTTP/2, HTTPS, and plugin systems, demonstrating deep knowledge of Node.js backend protocols and TypeScript type safety. The developer also shows proficiency in semantic versioning, backporting, and logging best practices, with a strong emphasis on developer experience through clear, precise documentation updates.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify"
+      ],
+      "TypeScript": [
+        "TypeScript plugin types",
+        "TypeScript documentation",
+        "HTTPS server typings"
+      ],
+      "Node.js Core": [
+        "HTTP/2",
+        "HTTPS (SecureServer)",
+        "http2.Http2SecureServer"
+      ],
+      "Documentation & Community": [
+        "Fastify documentation updates",
+        "Code of Conduct compliance",
+        "checklist-driven PRs"
+      ],
+      "Version Control & Releases": [
+        "semver-minor",
+        "backport 1.x"
+      ],
+      "Logging & Debugging": [
+        "log severity adjustments (error → debug)"
+      ],
+      "Plugin Systems": [
+        "Fastify plugin TypeScript interfaces"
+      ],
+      "Protocol Knowledge": [
+        "TLS/SSL",
+        "HTTP/2 protocol"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Backport labeled 'semver-minor' with log severity adjustment ('move ECONNRESET log from error to debug')",
+      "PR #2: Explicit HTTPS server typing docs update ('Added docs comment for correct use of typings for https server')",
+      "PR #2: Label 'typescript' and reference to 'http2.Http2SecureServer' in documentation",
+      "PR #3: TypeScript plugin example docs update with Code of Conduct checklist confirmation",
+      "PR #3: Label 'typescript' and mention of 'Typescript types plugin example'",
+      "All PRs: Pure documentation changes with structured explanations and checklists",
+      "PR #1: Backport label 'backport 1.x' indicating maintenance workflow familiarity"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

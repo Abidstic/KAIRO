@@ -1,0 +1,97 @@
+{
+  "reviewer_name": "kurkle",
+  "generated_at": "20260917_201023",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 289,
+    "total_comments": 103,
+    "total_prs": 188,
+    "repos": [
+      "chartjs"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "kurkle",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Chart.js",
+      "JavaScript Prototype System",
+      "Frontend Rendering Optimization",
+      "Charting Library Architecture",
+      "JavaScript Performance Profiling",
+      "Technical Documentation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from modern patterns)"
+    ],
+    "summary": "kurkle is a senior-level JavaScript reviewer with deep expertise in Chart.js and frontend rendering systems. Their reviews demonstrate an exceptional understanding of charting library internals, JavaScript prototype systems, and performance optimization. They consistently provide insightful feedback on rendering logic, module optimization, and API design, with a strong focus on user experience and documentation. Their contributions span debugging complex object systems, performance profiling, and breaking change considerations, making them a highly specialized reviewer for charting libraries and frontend optimization.",
+    "identified_skills": {
+      "Charting Libraries": [
+        "Chart.js",
+        "Rendering Engine",
+        "SVG Path Rendering",
+        "Chart Scales (Cartesian/Radial)",
+        "Multi-Series Charts",
+        "Text Rendering (Strikethrough/Stroke)",
+        "Plugin Systems",
+        "Tree-Shaking Optimization"
+      ],
+      "JavaScript Core": [
+        "Prototype Chain Debugging",
+        "Object.getPrototypeOf",
+        "getOwnPropertyDescriptor",
+        "Scope Resolution",
+        "Performance Profiling",
+        "ES6 Modules"
+      ],
+      "Frontend Development": [
+        "Responsive UI Adjustments",
+        "Scrollbar-Triggered Resizing",
+        "Visual Enhancements (Border Styles)",
+        "Canvas/SVG Rendering"
+      ],
+      "Developer Experience": [
+        "Technical Documentation",
+        "Module Import Guidance",
+        "Breaking Change Analysis",
+        "User Samples",
+        "API Design Feedback"
+      ],
+      "Testing & Debugging": [
+        "Edge-Case Handling",
+        "Prototype System Debugging",
+        "Performance Impact Analysis",
+        "Bug Fix Verification"
+      ],
+      "Versioning & Breaking Changes": [
+        "Breaking Change Labels",
+        "API Evolution Planning",
+        "Version-Specific Considerations"
+      ],
+      "Build Systems": [
+        "Tree-Shaking",
+        "Auto-Imports",
+        "Module Optimization"
+      ],
+      "Code Review": [
+        "Constructive Feedback",
+        "Performance Trade-Off Analysis",
+        "Dependency Clarification"
+      ]
+    },
+    "skill_evidence": [
+      "\"Prevent infinite resize when vertical scrollbar appears\" (responsive UI adjustments)",
+      "\"Allow filling above and below with different colors\" (visual enhancements in charting)",
+      "\"Add multi series pie example\" (user documentation and samples)",
+      "\"Cartesian scale tick backdrop\" (SVG/rendering optimizations)",
+      "\"Radial linear scale grid get correct options at index\" (scale logic debugging)",
+      "\"I'm wondering what kind of performance impact this has, in old fill modes.\" (performance profiling)",
+      "\"Only the `BarElement` and `BarController` are strictly required for bar charts.\" (component architecture clarity)",
+      "\"Begin adding tree shaking info to docs\" (module optimization documentation)",
+      "\"Does that make something fail?\" (edge-case debugging in prototype systems)",
+      "\"I think we should re-consider the option names and location for v4\" (versioning and API design)"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "theluckystrike",
+    "generation_timestamp": "2026-09-18T02:34:52.955526",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "theluckystrike",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Axios internals (URL parsing, query string handling)",
+      "JavaScript ES6 modules (import/export)",
+      "Error handling and user-facing error messages",
+      "Code refactoring for reusability",
+      "Markdown/HTML documentation maintenance"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Axios ecosystem)"
+    ],
+    "summary": "theluckystrike is a focused JavaScript developer with deep expertise in Axios internals, specializing in URL parsing, query parameter serialization, and structured error handling. Their contributions demonstrate strong skills in modular JavaScript (ES6 modules), code reuse patterns, and documentation improvements. While their contributions are primarily in the Axios repository, their work suggests familiarity with both browser and Node.js environments. The developer shows attention to developer experience through clear error messages and maintainable code organization, but lacks visible contributions in frontend frameworks or testing frameworks.",
+    "identified_skills": {
+      "HTTP Client Development": [
+        "Axios internals (URL construction)",
+        "HTTP error serialization",
+        "Query parameter serialization"
+      ],
+      "JavaScript Modularity": [
+        "ES6 module exports (import/export)",
+        "Function extraction for reuse",
+        "Code refactoring"
+      ],
+      "Error Handling": [
+        "Structured error messages",
+        "User-facing debugging suggestions",
+        "HTTP status code handling"
+      ],
+      "Documentation Practices": [
+        "Markdown/HTML in READMEs",
+        "Technical documentation fixes"
+      ],
+      "Version Control": [
+        "Git PR workflows",
+        "Atomic commit patterns"
+      ],
+      "Asynchronous Patterns": [
+        "Promise-based HTTP requests (inferred)"
+      ],
+      "Browser APIs": [
+        "URL constructor",
+        "Fetch API (inferred)"
+      ],
+      "Node.js APIs": [
+        "URL module",
+        "Query string parsing (inferred)"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: 'feat: export encode function from buildURL for paramsSerializer reuse' – Demonstrates ES6 module exports and function extraction for code reuse",
+      "PR 1: Modular refactoring of URL parsing logic in Axios internals – Shows deep understanding of Axios internals and query parameter handling",
+      "PR 3: 'fix: improve error messages with URL, method, and suggestions' – Evidence of structured error handling with user-facing improvements",
+      "PR 3: Inclusion of HTTP method and URL context in error messages – Demonstrates attention to debugging experience",
+      "PR 2: 'fix(readme): replace picture tags with img tags' – Shows documentation maintenance skills in Markdown/HTML",
+      "All PRs closed with atomic changes – Indicates familiarity with Git PR workflows and code review practices",
+      "URL parsing and query string manipulation in Axios core – Implies working knowledge of browser's URL constructor and Node.js URL module",
+      "Error message suggestions for users – Reflects consideration of developer experience (DX) in error handling"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

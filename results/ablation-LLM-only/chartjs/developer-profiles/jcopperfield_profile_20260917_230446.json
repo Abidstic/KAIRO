@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "developer_name": "jcopperfield",
+    "generation_timestamp": "2026-09-17T22:47:26.527370",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 15,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "jcopperfield",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Chart.js internals",
+      "JavaScript/TypeScript data visualization",
+      "Mathematical precision in chart rendering",
+      "Plugin architecture for JavaScript libraries",
+      "Debugging complex rendering edge cases",
+      "Performance optimization in visualization libraries"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "jcopperfield is a Senior JavaScript developer with deep expertise in Chart.js, specializing in core rendering logic, mathematical precision for logarithmic/time scales, and plugin development. Their contributions demonstrate advanced problem-solving for visualization edge cases, including infinite loops, visual glitches, and performance optimizations. The developer exhibits strong debugging skills, mathematical rigor in chart calculations, and a focus on UI/UX considerations in data visualization. Experience with TypeScript is strongly inferred from Chart.js's migration context.",
+    "identified_skills": {
+      "Chart.js Core": [
+        "Stacked/Grouped Chart Rendering",
+        "Logarithmic Scale Tick Generation",
+        "Time Series Data Handling",
+        "Axis Alignment & Data Indexing",
+        "Visual Glitch Debugging (e.g., bumpy lines, hidden labels)"
+      ],
+      "JavaScript Patterns": [
+        "Object-Oriented Design in JavaScript",
+        "Asynchronous Event-Driven Logic",
+        "Recursive Algorithm Debugging",
+        "Array Manipulation Optimizations",
+        "State Management for Animations"
+      ],
+      "Mathematical & Algorithmic": [
+        "Logarithmic Function Precision",
+        "Number Rounding & Tick Generation",
+        "Date Arithmetic for Time Scales",
+        "Infinite Loop Detection in Recursive Logic",
+        "Performance-Critical Mathematical Operations"
+      ],
+      "Plugin Development": [
+        "Chart.js Plugin Architecture",
+        "Deprecation Handling & Migration",
+        "New Plugin Registration",
+        "Plugin Documentation & Testing",
+        "Plugin Sample Implementation"
+      ],
+      "Debugging & Testing": [
+        "Edge Case Reproduction",
+        "Visual Bug Identification",
+        "Infinite Loop Analysis",
+        "Test Case Creation for Visual Fixes",
+        "CodePen-Based Debugging"
+      ],
+      "UI/UX in Visualization": [
+        "Tooltip Animation Logic",
+        "Responsive Chart Handling",
+        "Visual Hierarchy Adjustments",
+        "Smooth Transitions for Dynamic Data",
+        "User Experience Considerations in Scales"
+      ],
+      "Performance Optimization": [
+        "Redundant Operation Elimination",
+        "Unnecessary Update Prevention",
+        "Array Manipulation Optimizations",
+        "Memory-Efficient Tick Generation",
+        "Responsive Mode Handling"
+      ],
+      "Documentation & Community": [
+        "Plugin Documentation Samples",
+        "Clear Fix Descriptions with Visual Proofs",
+        "Contribution Guidance (Deprecation Warnings)"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed 'stacked group is not rendered correctly' by adjusting data indexing and axis alignment (#4897)",
+      "Optimized logarithmic scale tick generation to prevent double array reversal (#Optimization: prevent double ticks reverse)",
+      "Debugged infinite loop in time scale calculations by refining recursive logic (#5029)",
+      "Implemented HTML Legend plugin with deprecation warnings and new registration API (#HTML Legend plugin)",
+      "Fixed tooltip animation glitches when target changes during animation (#Fix tooltip animation when target changes)",
+      "Optimized log10 polyfill for mathematical precision in logarithmic scales (#Bugfix: Improve polyfill function of log10)",
+      "Addressed 'bumpy line' issue on smooth datasets by refining interpolation logic (#4704)",
+      "Added time.unit option to handle empty charts and step size calculations (#Use time.unit option)",
+      "Created test cases and documentation samples for the HTML Legend plugin (plugin-related PRs)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 15,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

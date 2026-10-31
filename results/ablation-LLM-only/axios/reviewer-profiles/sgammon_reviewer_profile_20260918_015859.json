@@ -1,0 +1,60 @@
+{
+  "reviewer_name": "sgammon",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 17,
+    "total_prs": 1,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "sgammon",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "HTTP client adapters",
+      "JavaScript runtime (Node.js/browser)",
+      "Build system awareness (dist artifacts)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "sgammon demonstrates limited but focused JavaScript backend experience, primarily around HTTP client adapter patterns (e.g., fetch implementations) and basic build system awareness. Their two visible PR reviews show structured communication about project organization (e.g., dist/ directory management) but lack technical depth in code review or framework-specific knowledge. The evidence suggests familiarity with Node.js/browser JavaScript environments and adapter systems, but no evidence of frontend frameworks, testing, or advanced tooling. Their experience level appears Junior due to the minimal scope of reviewed contributions and lack of complex technical feedback.",
+    "identified_skills": {
+      "Backend/JavaScript Runtime": [
+        "Node.js",
+        "Browser JavaScript",
+        "fetch API"
+      ],
+      "Adapter Patterns": [
+        "HTTP client adapters",
+        "plugin systems"
+      ],
+      "Build System Awareness": [
+        "dist/ directory artifacts",
+        "bundler output"
+      ],
+      "Code Review Process": [
+        "PR comment structure",
+        "future-state acknowledgment"
+      ],
+      "JavaScript Ecosystem": [],
+      "Frontend Frameworks": [],
+      "Testing": [],
+      "TypeScript": [],
+      "DevOps/Tooling": []
+    },
+    "skill_evidence": [
+      "PR title 'feat(adapters): add `fetch` adapter' indicates focus on HTTP client integration in Node.js/browser environments",
+      "Review comment 'by the time this is closer to merge, `dist/*` artifacts won't be in the source tree' demonstrates awareness of build system output directories",
+      "No code changes reviewed (additions=0, deletions=0) limits assessment to PR metadata and comment structure",
+      "PR state 'COMMENTED' shows participation in review process but lacks technical feedback on implementation details",
+      "Empty labels array implies no additional context about project scope or technical domain",
+      "Mention of 'adapters' suggests familiarity with plugin/middleware patterns common in backend frameworks",
+      "No evidence of frontend frameworks (React/Vue/etc.), testing libraries, or TypeScript in review data"
+    ]
+  }
+}

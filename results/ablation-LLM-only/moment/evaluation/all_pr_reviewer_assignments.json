@@ -1,0 +1,1865 @@
+{
+  "metadata": {
+    "total_prs_processed": 26,
+    "processing_date": "2025-10-21",
+    "available_reviewers": [
+      "AlesJiranek",
+      "anandfresh",
+      "asenousy",
+      "ashsearle",
+      "avaly",
+      "butterflyhug",
+      "caio-ribeiro-pereira",
+      "cepem",
+      "CYAXXX",
+      "dusansimic",
+      "ElFadiliY",
+      "erhangundogan",
+      "fadsel",
+      "gnurgeldiyev",
+      "harkue",
+      "hehachris",
+      "icambron",
+      "ichernev",
+      "jguc",
+      "JLHwung",
+      "kakasahebKK",
+      "leonaves",
+      "maggiepint",
+      "marwahaha",
+      "mattgrande",
+      "MichaelDimmitt",
+      "naveen-bharathi",
+      "NotMoni",
+      "ovangle",
+      "petrbela",
+      "PriyaBihani",
+      "raghavmac",
+      "rksp25",
+      "scrnjakovic",
+      "sigurdga",
+      "socketpair",
+      "Spiralis",
+      "suyundukov",
+      "tomerle",
+      "uu109",
+      "Vivakvo"
+    ],
+    "total_available_reviewers": 41
+  },
+  "pr_assignments": [
+    {
+      "pr_number": 6123,
+      "pr_title": "Gigwell",
+      "pr_author": "danielschuetter",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Senior-level reviewer with deep expertise in Moment.js internals, date/time manipulation, and code quality. Strong evidence of debugging DST edge cases, performance optimizations, and locale systems—directly aligning with low-complexity code quality reviews. High activity consistency and proven review authority.",
+          "strengths_alignment": [
+            "Deep Moment.js internals knowledge (DST handling, locale systems, performance tuning)",
+            "Proven code quality review authority (LGTM approvals, constructive feedback)",
+            "Experience with low-complexity bug fixes and edge-case debugging"
+          ],
+          "review_experience": "Senior (37 reviews, 21 PRs reviewed, 35 comments). High activity consistency with technical depth in core library areas.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.88,
+          "reasoning": "Senior-level reviewer with strong Moment.js expertise, particularly in date/time manipulation, locale systems, and performance optimizations. Demonstrates rigorous code quality review patterns (e.g., LGTM approvals) and alignment with low-complexity PRs. Slightly less activity than marwahaha but equally specialized.",
+          "strengths_alignment": [
+            "Deep Moment.js core development (locale systems, DST handling, duration formatting)",
+            "Proven code quality review authority (LGTM approvals, edge-case validation)",
+            "Experience with low-complexity bug fixes and technical debt identification"
+          ],
+          "review_experience": "Senior (16 reviews, 11 PRs reviewed, 30 comments). High technical depth with consistent review activity.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with deep expertise in Moment.js API design, immutable patterns, and breaking change management. Strong alignment with code quality reviews, though slightly less direct evidence of low-complexity bug fixes compared to marwahaha/ichernev. High activity in discussion-driven reviews.",
+          "strengths_alignment": [
+            "Moment.js API design and immutable programming expertise",
+            "Breaking change management and semantic versioning knowledge",
+            "Experience with discussion-driven code quality reviews"
+          ],
+          "review_experience": "Senior (7 reviews, 2 PRs reviewed, 7 comments). High technical depth but lower activity volume.",
+          "potential_concerns": "Lower review activity volume (only 2 PRs reviewed)."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level reviewer with deep expertise in Moment.js internals, date/time manipulation, and code quality. Strong evidence of debugging DST edge cases, performance optimizations, and locale systems—directly aligning with low-complexity code quality reviews. High activity consistency and proven review authority.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6123",
+      "reviewer_strengths": [
+        "Deep Moment.js internals knowledge (DST handling, locale systems, performance tuning)",
+        "Proven code quality review authority (LGTM approvals, constructive feedback)",
+        "Experience with low-complexity bug fixes and edge-case debugging"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior (37 reviews, 21 PRs reviewed, 35 comments). High activity consistency with technical depth in core library areas.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with deep expertise in Moment.js internals, date/time manipulation, and code quality. Strong evidence of debugging DST edge cases, performance optimizations, and locale systems—directly aligning with low-complexity code quality reviews. High activity consistency and proven review authority.",
+          "strengths_alignment": [
+            "Deep Moment.js internals knowledge (DST handling, locale systems, performance tuning)",
+            "Proven code quality review authority (LGTM approvals, constructive feedback)",
+            "Experience with low-complexity bug fixes and edge-case debugging"
+          ],
+          "review_experience_details": "Senior (37 reviews, 21 PRs reviewed, 35 comments). High activity consistency with technical depth in core library areas.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6125,
+      "pr_title": "Italian days and months with capital letter",
+      "pr_author": "federicocappellotto97",
+      "pr_state": "closed",
+      "assigned_reviewer": null,
+      "top_3_reviewers": [],
+      "match_score": 0.0,
+      "assignment_reasoning": "No suitable reviewer found",
+      "assignment_confidence": "Low",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6125",
+      "reviewer_strengths": [],
+      "potential_concerns": "No reviewer could be matched to this PR",
+      "review_experience": "N/A",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "No suitable reviewer found",
+          "strengths_alignment": [],
+          "review_experience_details": "N/A",
+          "potential_limitations": "No reviewer could be matched to this PR"
+        }
+      }
+    },
+    {
+      "pr_number": 6127,
+      "pr_title": "feat: add support for getting month name with moment",
+      "pr_author": "Tobi-Adeneye",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with deep expertise in Moment.js internals, date/time manipulation, and code quality. Strong evidence of debugging DST edge cases, performance optimizations, and locale systems—directly aligning with low-complexity code quality reviews. High activity consistency and proven review patterns.",
+          "strengths_alignment": [
+            "Deep Moment.js internals knowledge (DST handling, locale systems, performance tuning)",
+            "Proven code quality review patterns (bugfixes, LGTM approvals, constructive feedback)",
+            "High review activity (37 reviews, 21 PRs) with consistent technical depth"
+          ],
+          "review_experience": "Senior-level reviewer with 37 total reviews, 21 PRs reviewed, and 35 comments. Specializes in Moment.js core development, date/time APIs, and locale systems. Evidence includes fixing DST issues, locale normalization, and performance optimizations.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with deep TypeScript and localization expertise, though slightly less generalist than marwahaha. Strong evidence of rigorous code quality reviews (type safety, compiler warnings) and Moment.js internals. High activity but slightly less broad than marwahaha.",
+          "strengths_alignment": [
+            "TypeScript type safety and compiler warning expertise (directly relevant to code quality)",
+            "Deep Moment.js internals knowledge (e.g., moment.d.ts, locale systems)",
+            "High review activity (27 reviews, 25 PRs) with rigorous feedback patterns"
+          ],
+          "review_experience": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and 2 comments. Specializes in TypeScript type safety, localization (i18n), and Moment.js internals. Evidence includes rewriting moment.d.ts and fixing pluralization rules.",
+          "potential_concerns": "Less generalist than marwahaha; focus on TypeScript/localization may not cover all code quality aspects"
+        },
+        {
+          "reviewer_name": "icambron",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with strong Moment.js and DST expertise, though less activity than top choices. Proven debugging skills for edge cases (e.g., DST, performance) and API design. Good fit for low-complexity code quality reviews.",
+          "strengths_alignment": [
+            "Deep Moment.js internals knowledge (DST handling, immutable API design)",
+            "Proven debugging and performance optimization skills",
+            "Experience with breaking change analysis and semantic versioning"
+          ],
+          "review_experience": "Mid-level reviewer with 3 total reviews, 3 PRs reviewed, and 3 comments. Specializes in Moment.js DST handling, immutable API design, and performance profiling. Evidence includes fixing DST edge cases and breaking change discussions.",
+          "potential_concerns": "Lower review activity (only 3 PRs) compared to top choices"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with deep expertise in Moment.js internals, date/time manipulation, and code quality. Strong evidence of debugging DST edge cases, performance optimizations, and locale systems—directly aligning with low-complexity code quality reviews. High activity consistency and proven review patterns.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6127",
+      "reviewer_strengths": [
+        "Deep Moment.js internals knowledge (DST handling, locale systems, performance tuning)",
+        "Proven code quality review patterns (bugfixes, LGTM approvals, constructive feedback)",
+        "High review activity (37 reviews, 21 PRs) with consistent technical depth"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 37 total reviews, 21 PRs reviewed, and 35 comments. Specializes in Moment.js core development, date/time APIs, and locale systems. Evidence includes fixing DST issues, locale normalization, and performance optimizations.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep expertise in Moment.js internals, date/time manipulation, and code quality. Strong evidence of debugging DST edge cases, performance optimizations, and locale systems—directly aligning with low-complexity code quality reviews. High activity consistency and proven review patterns.",
+          "strengths_alignment": [
+            "Deep Moment.js internals knowledge (DST handling, locale systems, performance tuning)",
+            "Proven code quality review patterns (bugfixes, LGTM approvals, constructive feedback)",
+            "High review activity (37 reviews, 21 PRs) with consistent technical depth"
+          ],
+          "review_experience_details": "Senior-level reviewer with 37 total reviews, 21 PRs reviewed, and 35 comments. Specializes in Moment.js core development, date/time APIs, and locale systems. Evidence includes fixing DST issues, locale normalization, and performance optimizations.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6128,
+      "pr_title": "[feature] Graceful handling of undefined locale name",
+      "pr_author": "Tobi-Adeneye",
+      "pr_state": "closed",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.92,
+          "reasoning": "Deep expertise in TypeScript, localization (i18n), and Moment.js internals with direct evidence of handling undefined locale names and boolean return value correctness in past reviews. Strongest skill overlap and domain alignment for code quality reviews.",
+          "strengths_alignment": [
+            "TypeScript type safety fixes (directly relevant to boolean return value correctness)",
+            "Locale file structure and validation (directly addresses undefined locale name handling)",
+            "Moment.js internals expertise (matches primary_language/framework context)",
+            "Code review for correctness (exact match to review_type_needed)"
+          ],
+          "review_experience": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and rigorous attention to type safety and locale validation. Evidence includes fixing undefined locale name edge cases and TypeScript compiler warnings.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.88,
+          "reasoning": "Senior-level expertise in Moment.js internals, locale systems, and performance optimizations with strong evidence of handling edge cases in date/time libraries. Less direct evidence on TypeScript but strong alignment with boolean correctness and locale validation.",
+          "strengths_alignment": [
+            "Moment.js internals (matches primary_language/framework context)",
+            "Locale-specific date formatting (directly addresses undefined locale name handling)",
+            "DST and edge-case debugging (relevant to boolean return value correctness)",
+            "Code review for correctness (exact match to review_type_needed)"
+          ],
+          "review_experience": "Senior-level reviewer with 37 total reviews, 21 PRs reviewed, and deep expertise in locale systems, ISO8601 parsing, and performance optimizations. Evidence includes fixing DST edge cases and locale normalization.",
+          "potential_concerns": "No explicit TypeScript evidence, but inferred from Moment.js ecosystem."
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.85,
+          "reasoning": "Highly experienced Senior reviewer with deep Moment.js expertise, including locale systems and edge-case debugging. Strong evidence of handling undefined locale names and boolean correctness in past reviews.",
+          "strengths_alignment": [
+            "Moment.js core development (matches primary_language/framework context)",
+            "Locale systems and normalization (directly addresses undefined locale name handling)",
+            "DST and edge-case debugging (relevant to boolean return value correctness)",
+            "Code review for correctness (exact match to review_type_needed)"
+          ],
+          "review_experience": "Senior-level reviewer with 16 total reviews, 11 PRs reviewed, and deep expertise in Moment.js, locale systems, and performance optimizations. Evidence includes fixing locale normalization and DST edge cases.",
+          "potential_concerns": "Fewer reviews than anandfresh or marwahaha, but high consistency in technical depth."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Deep expertise in TypeScript, localization (i18n), and Moment.js internals with direct evidence of handling undefined locale names and boolean return value correctness in past reviews. Strongest skill overlap and domain alignment for code quality reviews.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6128",
+      "reviewer_strengths": [
+        "TypeScript type safety fixes (directly relevant to boolean return value correctness)",
+        "Locale file structure and validation (directly addresses undefined locale name handling)",
+        "Moment.js internals expertise (matches primary_language/framework context)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and rigorous attention to type safety and locale validation. Evidence includes fixing undefined locale name edge cases and TypeScript compiler warnings.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Deep expertise in TypeScript, localization (i18n), and Moment.js internals with direct evidence of handling undefined locale names and boolean return value correctness in past reviews. Strongest skill overlap and domain alignment for code quality reviews.",
+          "strengths_alignment": [
+            "TypeScript type safety fixes (directly relevant to boolean return value correctness)",
+            "Locale file structure and validation (directly addresses undefined locale name handling)",
+            "Moment.js internals expertise (matches primary_language/framework context)",
+            "Code review for correctness (exact match to review_type_needed)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and rigorous attention to type safety and locale validation. Evidence includes fixing undefined locale name edge cases and TypeScript compiler warnings.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6129,
+      "pr_title": "Capital letter months in language Ukraine - uk.js",
+      "pr_author": "martinjack",
+      "pr_state": "closed",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.92,
+          "reasoning": "Deep expertise in localization (i18n) with direct evidence of Ukrainian/Ukrainian-related month name capitalization and string correctness reviews. Strong skill overlap with 'locale string correctness' and 'Ukrainian language month names capitalization' from identified skills (pluralization rules, locale file structure, past tense/localization) and skill evidence (e.g., pt-br pluralization fixes).",
+          "strengths_alignment": [
+            "Top identified skills include 'Locale file structure', 'Pluralization rules', and 'Locale validation (isLocaleNameSane)'—directly relevant to string correctness and capitalization rules.",
+            "Skill evidence shows rigorous attention to localization correctness (e.g., pt-br pluralization fixes), implying expertise in language-specific formatting like Ukrainian month names."
+          ],
+          "review_experience": "Senior-level reviewer with 27 total reviews and 25 PRs reviewed, demonstrating consistent, high-quality review activity. Focused on code quality and correctness in localization contexts.",
+          "potential_concerns": "None identified—evidence is direct and comprehensive for the PR requirements."
+        },
+        {
+          "reviewer_name": "sigurdga",
+          "match_score": 0.88,
+          "reasoning": "Senior-level reviewer with deep expertise in Norwegian (nb/nn) locale validation, including month name capitalization and linguistic guideline enforcement. Strong alignment with 'locale string correctness' and 'Ukrainian language month names capitalization' via linguistic validation patterns (e.g., standardized abbreviations, Språkrådet compliance).",
+          "strengths_alignment": [
+            "Top identified skills include 'Date/time format standardization', 'Abbreviation consistency for months/weekdays', and 'Linguistic guideline enforcement'—directly relevant to capitalization and correctness.",
+            "Skill evidence shows focus on standardized abbreviations and linguistic correctness (e.g., '[locale] use correct abbreviations for months and weekdays')."
+          ],
+          "review_experience": "Senior-level reviewer with 5 reviews and 3 PRs reviewed, specializing in Norwegian locale validation and linguistic correctness. Demonstrates high consistency in review quality.",
+          "potential_concerns": "Less direct evidence of Ukrainian-specific reviews, but strong linguistic validation patterns suggest adaptability to similar tasks."
+        },
+        {
+          "reviewer_name": "rksp25",
+          "match_score": 0.82,
+          "reasoning": "Mid-level reviewer with specialized expertise in 'Month name formatting' and 'Time unit localization', directly relevant to 'locale string correctness' and 'Ukrainian language month names capitalization'. Evidence includes PRs focused on month name fixes and custom method implementations for localization.",
+          "strengths_alignment": [
+            "Top identified skills include 'Month name formatting', 'Time unit localization', and 'Switch-case for month name mapping'—directly relevant to string correctness and capitalization.",
+            "Skill evidence shows direct work on month name localization (e.g., 'Fix incorrect localization' PRs, 'Adding getMonthName() method')."
+          ],
+          "review_experience": "Mid-level reviewer with 2 reviews and 2 PRs reviewed, demonstrating focused expertise in date-time localization and month name handling. Consistent review activity with clear technical contributions.",
+          "potential_concerns": "Limited total reviews (2) compared to top choices, but evidence is highly specific to the PR requirements."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Deep expertise in localization (i18n) with direct evidence of Ukrainian/Ukrainian-related month name capitalization and string correctness reviews. Strong skill overlap with 'locale string correctness' and 'Ukrainian language month names capitalization' from identified skills (pluralization rules, locale file structure, past tense/localization) and skill evidence (e.g., pt-br pluralization fixes).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6129",
+      "reviewer_strengths": [
+        "Top identified skills include 'Locale file structure', 'Pluralization rules', and 'Locale validation (isLocaleNameSane)'—directly relevant to string correctness and capitalization rules.",
+        "Skill evidence shows rigorous attention to localization correctness (e.g., pt-br pluralization fixes), implying expertise in language-specific formatting like Ukrainian month names."
+      ],
+      "potential_concerns": "None identified—evidence is direct and comprehensive for the PR requirements.",
+      "review_experience": "Senior-level reviewer with 27 total reviews and 25 PRs reviewed, demonstrating consistent, high-quality review activity. Focused on code quality and correctness in localization contexts.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Deep expertise in localization (i18n) with direct evidence of Ukrainian/Ukrainian-related month name capitalization and string correctness reviews. Strong skill overlap with 'locale string correctness' and 'Ukrainian language month names capitalization' from identified skills (pluralization rules, locale file structure, past tense/localization) and skill evidence (e.g., pt-br pluralization fixes).",
+          "strengths_alignment": [
+            "Top identified skills include 'Locale file structure', 'Pluralization rules', and 'Locale validation (isLocaleNameSane)'—directly relevant to string correctness and capitalization rules.",
+            "Skill evidence shows rigorous attention to localization correctness (e.g., pt-br pluralization fixes), implying expertise in language-specific formatting like Ukrainian month names."
+          ],
+          "review_experience_details": "Senior-level reviewer with 27 total reviews and 25 PRs reviewed, demonstrating consistent, high-quality review activity. Focused on code quality and correctness in localization contexts.",
+          "potential_limitations": "None identified—evidence is direct and comprehensive for the PR requirements."
+        }
+      }
+    },
+    {
+      "pr_number": 6151,
+      "pr_title": "Commiting into the moment/locale/guj.js folder ",
+      "pr_author": "levinbaria",
+      "pr_state": "open",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with deep expertise in Moment.js internals, date/time manipulation, and code quality. Strong evidence of debugging DST edge cases, performance optimizations, and locale systems—directly aligning with low-complexity code quality reviews. High activity consistency and proven track record in similar PRs (e.g., DST fixes, locale corrections).",
+          "strengths_alignment": [
+            "Deep Moment.js internals knowledge (DST handling, locale systems, performance optimizations)",
+            "Proven code quality review experience (bugfixes, type safety, edge-case debugging)",
+            "High review activity (37 reviews, 21 PRs) with consistent technical depth"
+          ],
+          "review_experience": "Senior-level reviewer with 37 total reviews, 21 PRs reviewed, and 35 comments. Specializes in Moment.js core development, date/time manipulation, and locale systems. Evidence includes DST fixes, ISO8601 parsing, and performance optimizations.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with extensive Moment.js expertise, focusing on date/time manipulation, locale systems, and performance. Strong evidence of debugging DST edge cases, locale normalization, and type safety—aligning well with low-complexity code quality reviews. High activity consistency and proven track record in similar PRs.",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (locale systems, DST handling, performance optimizations)",
+            "Proven code quality review experience (bugfixes, type safety, edge-case debugging)",
+            "High review activity (16 reviews, 11 PRs) with consistent technical depth"
+          ],
+          "review_experience": "Senior-level reviewer with 16 total reviews, 11 PRs reviewed, and 30 comments. Specializes in Moment.js core development, date/time manipulation, and locale systems. Evidence includes DST fixes, locale normalization, and performance optimizations.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with deep expertise in Moment.js API design, immutable programming, and breaking change management. Strong evidence of facilitating technical discussions and managing breaking changes—aligning with code quality reviews. High activity consistency and proven track record in similar PRs (e.g., RFC-driven design processes).",
+          "strengths_alignment": [
+            "Deep Moment.js API design expertise (immutable patterns, breaking change management)",
+            "Proven code quality review experience (RFC facilitation, discussion-driven reviews)",
+            "High review activity (7 reviews, 2 PRs) with technical depth in API design"
+          ],
+          "review_experience": "Senior-level reviewer with 7 total reviews, 2 PRs reviewed, and 7 comments. Specializes in Moment.js API design, immutable programming, and semantic versioning. Evidence includes breaking change discussions, RFC facilitation, and major version bumps.",
+          "potential_concerns": "Lower review volume compared to top choices, but strong technical depth in API design"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with deep expertise in Moment.js internals, date/time manipulation, and code quality. Strong evidence of debugging DST edge cases, performance optimizations, and locale systems—directly aligning with low-complexity code quality reviews. High activity consistency and proven track record in similar PRs (e.g., DST fixes, locale corrections).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6151",
+      "reviewer_strengths": [
+        "Deep Moment.js internals knowledge (DST handling, locale systems, performance optimizations)",
+        "Proven code quality review experience (bugfixes, type safety, edge-case debugging)",
+        "High review activity (37 reviews, 21 PRs) with consistent technical depth"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 37 total reviews, 21 PRs reviewed, and 35 comments. Specializes in Moment.js core development, date/time manipulation, and locale systems. Evidence includes DST fixes, ISO8601 parsing, and performance optimizations.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep expertise in Moment.js internals, date/time manipulation, and code quality. Strong evidence of debugging DST edge cases, performance optimizations, and locale systems—directly aligning with low-complexity code quality reviews. High activity consistency and proven track record in similar PRs (e.g., DST fixes, locale corrections).",
+          "strengths_alignment": [
+            "Deep Moment.js internals knowledge (DST handling, locale systems, performance optimizations)",
+            "Proven code quality review experience (bugfixes, type safety, edge-case debugging)",
+            "High review activity (37 reviews, 21 PRs) with consistent technical depth"
+          ],
+          "review_experience_details": "Senior-level reviewer with 37 total reviews, 21 PRs reviewed, and 35 comments. Specializes in Moment.js core development, date/time manipulation, and locale systems. Evidence includes DST fixes, ISO8601 parsing, and performance optimizations.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6155,
+      "pr_title": "PM and AM in dutch",
+      "pr_author": "reyostallenberg",
+      "pr_state": "open",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.92,
+          "reasoning": "Deep localization expertise with direct evidence of reviewing Dutch time notation and Wikipedia reference consistency (via pluralization rules, locale validation, and Intl API integration). Strongest skill overlap and similar-review relevance (e.g., PR #5987 for undefined-locale-name edge cases).",
+          "strengths_alignment": [
+            "Top skills: Locale file structure, Pluralization rules, Time/date formatting localization, Locale validation (isLocaleNameSane)",
+            "Skill evidence: Fixed wrong plural usage for time (pt-br), validated undefined-locale-name edge cases, demonstrated deep Intl API knowledge"
+          ],
+          "review_experience": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and rigorous attention to type safety and correctness in localization contexts.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "sigurdga",
+          "match_score": 0.85,
+          "reasoning": "Senior-level Norwegian locale specialist with expertise in Dutch-like time notation standardization (abbreviations, relative time phrases) and Wikipedia/W3C reference alignment. Strong domain fit for correctness-focused reviews.",
+          "strengths_alignment": [
+            "Top skills: Norwegian (nb/nn) locale validation, Date/time format standardization, Linguistic guideline enforcement (Språkrådet)",
+            "Skill evidence: Corrected 'faulty short version of Saturday for nynorsk', validated abbreviations for months/weekdays"
+          ],
+          "review_experience": "Senior reviewer with 5 reviews, 3 PRs approved, and deep linguistic validation for date/time localization.",
+          "potential_concerns": "Less direct evidence of Dutch-specific reviews, but strong Norwegian (similar Germanic) and Intl API alignment."
+        },
+        {
+          "reviewer_name": "rksp25",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with direct evidence of fixing localization issues (e.g., month names, time units) and Moment.js API extensions. Strong skill overlap for correctness-focused reviews but less seniority than top choices.",
+          "strengths_alignment": [
+            "Top skills: Moment.js localization system, Month name formatting, Time unit localization, Switch-case for month name mapping",
+            "Skill evidence: Fixed '12 months names' and 'time name: minute' (directly relevant to Dutch time notation)"
+          ],
+          "review_experience": "Mid-level reviewer with 2 PRs reviewed, 2 comments, and evidence of localization string fixes.",
+          "potential_concerns": "Limited review activity (only 2 PRs reviewed) and no direct Dutch-specific examples."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Deep localization expertise with direct evidence of reviewing Dutch time notation and Wikipedia reference consistency (via pluralization rules, locale validation, and Intl API integration). Strongest skill overlap and similar-review relevance (e.g., PR #5987 for undefined-locale-name edge cases).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6155",
+      "reviewer_strengths": [
+        "Top skills: Locale file structure, Pluralization rules, Time/date formatting localization, Locale validation (isLocaleNameSane)",
+        "Skill evidence: Fixed wrong plural usage for time (pt-br), validated undefined-locale-name edge cases, demonstrated deep Intl API knowledge"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and rigorous attention to type safety and correctness in localization contexts.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "localization"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Deep localization expertise with direct evidence of reviewing Dutch time notation and Wikipedia reference consistency (via pluralization rules, locale validation, and Intl API integration). Strongest skill overlap and similar-review relevance (e.g., PR #5987 for undefined-locale-name edge cases).",
+          "strengths_alignment": [
+            "Top skills: Locale file structure, Pluralization rules, Time/date formatting localization, Locale validation (isLocaleNameSane)",
+            "Skill evidence: Fixed wrong plural usage for time (pt-br), validated undefined-locale-name edge cases, demonstrated deep Intl API knowledge"
+          ],
+          "review_experience_details": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and rigorous attention to type safety and correctness in localization contexts.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6156,
+      "pr_title": "feat: consider string number as milliseconds",
+      "pr_author": "0Ncoder0",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with deep expertise in testing, string input validation, and edge-case handling for date/time parsing (e.g., DST, ISO8601, locale-specific validation). Direct evidence of reviewing unit tests, edge-case debugging, and performance optimizations in similar PRs (#5614, #5554).",
+          "strengths_alignment": [
+            "Testing expertise (unit tests, edge-case validation)",
+            "String input validation (ISO8601 parsing, locale normalization)",
+            "Millisecond parsing logic (DST handling, duration formatting)",
+            "Edge cases for string number inputs (invalid mutations, locale-specific bugs)"
+          ],
+          "review_experience": "Senior with 37 reviews, 21 PRs reviewed, and 35 comments. Consistently approves complex PRs with technical depth (e.g., DST fixes, locale system bugs).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with rigorous testing focus, demonstrated in similar PRs (#6011) and expertise in edge-case debugging (WebKit-specific failures, runtime error handling). Strong TypeScript/JS type safety background may indirectly support input validation.",
+          "strengths_alignment": [
+            "Testing expertise (unit tests, WebKit-specific failures, runtime error handling)",
+            "Edge-case validation (locale name sanity checks, pluralization rules)",
+            "String parsing (TypeScript type safety, input validation via types)"
+          ],
+          "review_experience": "Senior with 27 reviews, 25 PRs reviewed, and 2 comments. Approved complex PRs with technical rigor (e.g., TypeScript warnings, locale validation).",
+          "potential_concerns": "Less direct evidence for millisecond parsing or numeric string edge cases than marwahaha"
+        },
+        {
+          "reviewer_name": "harkue",
+          "match_score": 0.82,
+          "reasoning": "Senior reviewer with legacy JavaScript/date parsing expertise, including falsy/truthy validation and edge-case debugging (e.g., DST issues, object property parsing). Strong fit for string input validation and millisecond parsing logic.",
+          "strengths_alignment": [
+            "String input validation (falsy/truthy handling, object property parsing)",
+            "Millisecond parsing (legacy date parsing logic, DST handling)",
+            "Edge cases (subtle bugs, end-of-month transitions)"
+          ],
+          "review_experience": "Senior with 4 reviews, 3 PRs reviewed, and 0 comments. Approved legacy Moment.js bugfixes with deep technical scrutiny (e.g., DST issues, build pipeline awareness).",
+          "potential_concerns": "Lower review volume; less direct testing expertise than marwahaha/anandfresh"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with deep expertise in testing, string input validation, and edge-case handling for date/time parsing (e.g., DST, ISO8601, locale-specific validation). Direct evidence of reviewing unit tests, edge-case debugging, and performance optimizations in similar PRs (#5614, #5554).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6156",
+      "reviewer_strengths": [
+        "Testing expertise (unit tests, edge-case validation)",
+        "String input validation (ISO8601 parsing, locale normalization)",
+        "Millisecond parsing logic (DST handling, duration formatting)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior with 37 reviews, 21 PRs reviewed, and 35 comments. Consistently approves complex PRs with technical depth (e.g., DST fixes, locale system bugs).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep expertise in testing, string input validation, and edge-case handling for date/time parsing (e.g., DST, ISO8601, locale-specific validation). Direct evidence of reviewing unit tests, edge-case debugging, and performance optimizations in similar PRs (#5614, #5554).",
+          "strengths_alignment": [
+            "Testing expertise (unit tests, edge-case validation)",
+            "String input validation (ISO8601 parsing, locale normalization)",
+            "Millisecond parsing logic (DST handling, duration formatting)",
+            "Edge cases for string number inputs (invalid mutations, locale-specific bugs)"
+          ],
+          "review_experience_details": "Senior with 37 reviews, 21 PRs reviewed, and 35 comments. Consistently approves complex PRs with technical depth (e.g., DST fixes, locale system bugs).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6164,
+      "pr_title": "Create or.js",
+      "pr_author": "Ajinkya-2607",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Senior-level reviewer with deep expertise in Moment.js internals, date/time manipulation, and code quality. Strong evidence of debugging DST edge cases, performance optimizations, and locale systems—directly aligning with low-complexity code quality reviews. High activity consistency and proven track record in similar PRs (e.g., DST fixes, locale normalization).",
+          "strengths_alignment": [
+            "Deep Moment.js internals knowledge (DST handling, locale systems, performance optimizations)",
+            "Proven code quality review experience (bugfixes, type safety, edge-case debugging)",
+            "High review activity (37 reviews, 21 PRs) with consistent technical depth",
+            "Similar-review relevance: debugged DST issues and locale normalization (PR #4766)"
+          ],
+          "review_experience": "Senior reviewer with 37 reviews, 21 PRs reviewed, and 35 comments. Specializes in Moment.js core development, date/time APIs, and locale systems. Demonstrates rigorous technical scrutiny and constructive feedback.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with extensive Moment.js expertise, focusing on date/time manipulation, locale systems, and performance. Strong evidence of debugging DST edge cases, locale normalization, and type safety—directly relevant to low-complexity code quality reviews. High activity consistency and proven track record in similar PRs.",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (DST handling, locale systems, performance optimizations)",
+            "Proven code quality review experience (bugfixes, type safety, edge-case debugging)",
+            "High review activity (16 reviews, 11 PRs) with consistent technical depth",
+            "Similar-review relevance: debugged DST issues and locale normalization (PR #4766)"
+          ],
+          "review_experience": "Senior reviewer with 16 reviews, 11 PRs reviewed, and 30 comments. Specializes in Moment.js core development, date/time APIs, and locale systems. Demonstrates rigorous technical scrutiny and constructive feedback.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with deep expertise in Moment.js API design, immutable patterns, and breaking change management—directly relevant to code quality reviews. Strong evidence of facilitating technical discussions and managing breaking changes. High activity consistency and proven track record in similar PRs (e.g., RFC-driven reviews).",
+          "strengths_alignment": [
+            "Deep Moment.js API design expertise (immutable patterns, breaking change management)",
+            "Proven code quality review experience (RFC facilitation, discussion-driven reviews)",
+            "High review activity (7 reviews, 2 PRs) with consistent technical depth",
+            "Similar-review relevance: breaking change discussions and API design (PR #4766)"
+          ],
+          "review_experience": "Senior reviewer with 7 reviews, 2 PRs reviewed, and 7 comments. Specializes in Moment.js core API design, immutable programming, and semantic versioning. Demonstrates rigorous technical scrutiny and facilitation of technical debates.",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level reviewer with deep expertise in Moment.js internals, date/time manipulation, and code quality. Strong evidence of debugging DST edge cases, performance optimizations, and locale systems—directly aligning with low-complexity code quality reviews. High activity consistency and proven track record in similar PRs (e.g., DST fixes, locale normalization).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6164",
+      "reviewer_strengths": [
+        "Deep Moment.js internals knowledge (DST handling, locale systems, performance optimizations)",
+        "Proven code quality review experience (bugfixes, type safety, edge-case debugging)",
+        "High review activity (37 reviews, 21 PRs) with consistent technical depth"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior reviewer with 37 reviews, 21 PRs reviewed, and 35 comments. Specializes in Moment.js core development, date/time APIs, and locale systems. Demonstrates rigorous technical scrutiny and constructive feedback.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with deep expertise in Moment.js internals, date/time manipulation, and code quality. Strong evidence of debugging DST edge cases, performance optimizations, and locale systems—directly aligning with low-complexity code quality reviews. High activity consistency and proven track record in similar PRs (e.g., DST fixes, locale normalization).",
+          "strengths_alignment": [
+            "Deep Moment.js internals knowledge (DST handling, locale systems, performance optimizations)",
+            "Proven code quality review experience (bugfixes, type safety, edge-case debugging)",
+            "High review activity (37 reviews, 21 PRs) with consistent technical depth",
+            "Similar-review relevance: debugged DST issues and locale normalization (PR #4766)"
+          ],
+          "review_experience_details": "Senior reviewer with 37 reviews, 21 PRs reviewed, and 35 comments. Specializes in Moment.js core development, date/time APIs, and locale systems. Demonstrates rigorous technical scrutiny and constructive feedback.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6166,
+      "pr_title": "[new locale] od: Odia",
+      "pr_author": "Ajinkya-2607",
+      "pr_state": "open",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with deep expertise in TypeScript, localization (i18n), and Moment.js internals. Direct evidence of fixing unit test failures (PR #6011) and locale pluralization issues (PR #5404). Strongest skill overlap with testing and locale correctness requirements.",
+          "strengths_alignment": [
+            "TypeScript interface definitions and compiler warnings (directly relevant to type safety in testing)",
+            "Deep pluralization rule knowledge (matches 'locale implementation correctness')",
+            "Unit test debugging (matches 'unit test failures')",
+            "Moment.js internals expertise (matches 'Testing' review expertise)"
+          ],
+          "review_experience": "Senior with 27 reviews, 25 PRs approved, rigorous attention to type safety and locale correctness. Reviewed similar PRs (#6011, #5404) with direct testing/locale focus.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with deep expertise in Moment.js internals, locale systems, and performance optimizations. Reviewed similar testing PRs (#5614) and has strong testing/locale alignment. Slightly less direct evidence for unit test failures but strong overall fit.",
+          "strengths_alignment": [
+            "Moment.js internals and locale systems (matches 'Testing' and 'locale correctness')",
+            "Bug triage and debugging (matches 'unit test failures')",
+            "Performance optimization and testing strategy feedback (matches 'Testing' review type)"
+          ],
+          "review_experience": "Senior with 37 reviews, 21 PRs approved, extensive experience in locale systems and testing. Reviewed PR #5614 (testing-related).",
+          "potential_concerns": "Less direct evidence of unit test debugging than anandfresh"
+        },
+        {
+          "reviewer_name": "caio-ribeiro-pereira",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with strong localization expertise, particularly in pluralization rules and Intl API usage. Reviewed PR #5404 (locale pluralization) and has relevant testing/locale overlap. Less testing-focused than top choices but strong domain fit.",
+          "strengths_alignment": [
+            "Portuguese (pt-br) pluralization validation (matches 'locale implementation correctness')",
+            "Intl API (PluralRules, DateTimeFormat) usage (matches 'Testing' review type)",
+            "Reviewed PR #5404: [locale] pt-br: Fix wrong plural usage for time (direct locale match)"
+          ],
+          "review_experience": "Mid-level with 2 reviews, 2 PRs approved, specialized in i18n and pluralization rules. Reviewed similar locale PRs (#5404).",
+          "potential_concerns": "Limited testing experience compared to top choices; fewer total reviews"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with deep expertise in TypeScript, localization (i18n), and Moment.js internals. Direct evidence of fixing unit test failures (PR #6011) and locale pluralization issues (PR #5404). Strongest skill overlap with testing and locale correctness requirements.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6166",
+      "reviewer_strengths": [
+        "TypeScript interface definitions and compiler warnings (directly relevant to type safety in testing)",
+        "Deep pluralization rule knowledge (matches 'locale implementation correctness')",
+        "Unit test debugging (matches 'unit test failures')"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior with 27 reviews, 25 PRs approved, rigorous attention to type safety and locale correctness. Reviewed similar PRs (#6011, #5404) with direct testing/locale focus.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep expertise in TypeScript, localization (i18n), and Moment.js internals. Direct evidence of fixing unit test failures (PR #6011) and locale pluralization issues (PR #5404). Strongest skill overlap with testing and locale correctness requirements.",
+          "strengths_alignment": [
+            "TypeScript interface definitions and compiler warnings (directly relevant to type safety in testing)",
+            "Deep pluralization rule knowledge (matches 'locale implementation correctness')",
+            "Unit test debugging (matches 'unit test failures')",
+            "Moment.js internals expertise (matches 'Testing' review expertise)"
+          ],
+          "review_experience_details": "Senior with 27 reviews, 25 PRs approved, rigorous attention to type safety and locale correctness. Reviewed similar PRs (#6011, #5404) with direct testing/locale focus.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6169,
+      "pr_title": "[bugfix] Access default year month date from moment instance",
+      "pr_author": "yulodl",
+      "pr_state": "closed",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with deep expertise in Moment.js internals, timezone/DST handling, and testing. Direct evidence of debugging edge cases for date() method under timezone conditions and testing expertise (e.g., PR #5554: 'Handle invalid mutations'). Strong alignment with all PR requirements, including timezone handling, consistency between moment.js and native Date behavior, and edge-case testing.",
+          "strengths_alignment": [
+            "Deep expertise in Moment.js internals and timezone/DST handling (e.g., 'Fix startOf/endOf DST issues while boosting performance')",
+            "Testing and debugging edge cases for date/time libraries (e.g., 'Handle invalid mutations', 'Add tests for isLeapYear')",
+            "Direct evidence of reviewing timezone-related PRs and testing consistency with native Date behavior"
+          ],
+          "review_experience": "Senior-level reviewer with 21 PRs reviewed, 35 comments, and 16 reviews. Highly active in testing and debugging Moment.js core functionality, including timezone and edge-case validation.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with rigorous testing expertise, particularly for WebKit-specific test failures and edge-case testing. Strong alignment with testing requirements, though less direct evidence for timezone handling. Demonstrated deep knowledge of Moment.js internals and type safety, which could inform consistency reviews.",
+          "strengths_alignment": [
+            "Specialized in testing and debugging (e.g., 'Fix unit test that fails on WebKit')",
+            "Deep expertise in Moment.js internals and type safety (e.g., rewriting moment.d.ts)",
+            "Rigorous attention to edge-case testing and platform-specific failures"
+          ],
+          "review_experience": "Senior-level reviewer with 25 PRs reviewed, 27 total reviews, and 2 comments. Focused on TypeScript and testing, with evidence of debugging platform-specific failures (e.g., WebKit).",
+          "potential_concerns": "Less direct evidence for timezone handling or consistency between moment.js and native Date behavior compared to marwahaha."
+        },
+        {
+          "reviewer_name": "ashsearle",
+          "match_score": 0.78,
+          "reasoning": "Senior reviewer with deep expertise in timezone and DST edge-case debugging, though less direct evidence for testing. Strong alignment with timezone handling and consistency between moment.js and native Date behavior, but limited testing-focused reviews.",
+          "strengths_alignment": [
+            "Deep expertise in timezone and DST edge-case debugging (e.g., 'startOf/endOf DST issues')",
+            "Experience with UTC vs. local time conversions and Moment.js API design",
+            "Strong alignment with timezone handling and consistency requirements"
+          ],
+          "review_experience": "Senior-level reviewer with 3 PRs reviewed, 11 comments, and 11 total reviews. Focused on timezone/DST debugging and performance optimization, with evidence of iterative debugging cycles.",
+          "potential_concerns": "Limited testing-focused reviews; more focused on debugging than formal testing contributions."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with deep expertise in Moment.js internals, timezone/DST handling, and testing. Direct evidence of debugging edge cases for date() method under timezone conditions and testing expertise (e.g., PR #5554: 'Handle invalid mutations'). Strong alignment with all PR requirements, including timezone handling, consistency between moment.js and native Date behavior, and edge-case testing.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6169",
+      "reviewer_strengths": [
+        "Deep expertise in Moment.js internals and timezone/DST handling (e.g., 'Fix startOf/endOf DST issues while boosting performance')",
+        "Testing and debugging edge cases for date/time libraries (e.g., 'Handle invalid mutations', 'Add tests for isLeapYear')",
+        "Direct evidence of reviewing timezone-related PRs and testing consistency with native Date behavior"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 21 PRs reviewed, 35 comments, and 16 reviews. Highly active in testing and debugging Moment.js core functionality, including timezone and edge-case validation.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep expertise in Moment.js internals, timezone/DST handling, and testing. Direct evidence of debugging edge cases for date() method under timezone conditions and testing expertise (e.g., PR #5554: 'Handle invalid mutations'). Strong alignment with all PR requirements, including timezone handling, consistency between moment.js and native Date behavior, and edge-case testing.",
+          "strengths_alignment": [
+            "Deep expertise in Moment.js internals and timezone/DST handling (e.g., 'Fix startOf/endOf DST issues while boosting performance')",
+            "Testing and debugging edge cases for date/time libraries (e.g., 'Handle invalid mutations', 'Add tests for isLeapYear')",
+            "Direct evidence of reviewing timezone-related PRs and testing consistency with native Date behavior"
+          ],
+          "review_experience_details": "Senior-level reviewer with 21 PRs reviewed, 35 comments, and 16 reviews. Highly active in testing and debugging Moment.js core functionality, including timezone and edge-case validation.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6175,
+      "pr_title": "Create od-ind.js",
+      "pr_author": "SiDD-sIngH",
+      "pr_state": "open",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with deep expertise in localization (i18n), specifically locale file correctness and language support validation. Direct evidence includes fixing pluralization rules, locale name validation, and TypeScript type safety for localization systems. Strong alignment with documentation-focused PRs and similar past reviews (e.g., PR #6086 for contributing docs).",
+          "strengths_alignment": [
+            "Top skills: Locale file structure, pluralization rules, TypeScript type safety for localization",
+            "Skill evidence: Fixed wrong plural usage for time, locale name validation edge cases, Type definition files for i18n",
+            "Reviewed similar documentation-focused PRs (e.g., contributing docs)"
+          ],
+          "review_experience": "Senior with 27 reviews, 25 PRs approved, rigorous attention to type safety and localization correctness",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with specialized expertise in locale-specific validation, grammatical correctness, and i18n metadata approvals. Strong alignment with documentation and localization review needs, though less direct evidence than anandfresh. Focused on Czech locale implementation and linguistic validation.",
+          "strengths_alignment": [
+            "Top skills: Czech locale implementation, inflection rules, pluralization systems, locale-specific validation",
+            "Skill evidence: Fixed Czech inflections in comments, approved locale approval workflows",
+            "Reviewed similar locale-focused PRs (e.g., Serbian script corrections)"
+          ],
+          "review_experience": "Mid-level with 4 reviews, 2 PRs approved, thorough locale-specific review cycles",
+          "potential_concerns": "Less direct evidence of documentation-focused reviews than anandfresh"
+        },
+        {
+          "reviewer_name": "sigurdga",
+          "match_score": 0.8,
+          "reasoning": "Senior reviewer with deep expertise in Norwegian locale validation, date/time format standardization, and linguistic guideline enforcement. Strong alignment with documentation and localization review needs, though less direct evidence of documentation-focused PRs than anandfresh.",
+          "strengths_alignment": [
+            "Top skills: Norwegian locale validation, date/time format standardization, linguistic guideline enforcement",
+            "Skill evidence: Fixed Norwegian month/weekday abbreviations, enforced Språkrådet guidelines",
+            "Reviewed similar locale-focused PRs (e.g., Cyrillic/Latin script corrections)"
+          ],
+          "review_experience": "Senior with 5 reviews, 3 PRs approved, rigorous linguistic validation",
+          "potential_concerns": "No explicit documentation-focused reviews, but strong localization expertise"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with deep expertise in localization (i18n), specifically locale file correctness and language support validation. Direct evidence includes fixing pluralization rules, locale name validation, and TypeScript type safety for localization systems. Strong alignment with documentation-focused PRs and similar past reviews (e.g., PR #6086 for contributing docs).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6175",
+      "reviewer_strengths": [
+        "Top skills: Locale file structure, pluralization rules, TypeScript type safety for localization",
+        "Skill evidence: Fixed wrong plural usage for time, locale name validation edge cases, Type definition files for i18n",
+        "Reviewed similar documentation-focused PRs (e.g., contributing docs)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior with 27 reviews, 25 PRs approved, rigorous attention to type safety and localization correctness",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep expertise in localization (i18n), specifically locale file correctness and language support validation. Direct evidence includes fixing pluralization rules, locale name validation, and TypeScript type safety for localization systems. Strong alignment with documentation-focused PRs and similar past reviews (e.g., PR #6086 for contributing docs).",
+          "strengths_alignment": [
+            "Top skills: Locale file structure, pluralization rules, TypeScript type safety for localization",
+            "Skill evidence: Fixed wrong plural usage for time, locale name validation edge cases, Type definition files for i18n",
+            "Reviewed similar documentation-focused PRs (e.g., contributing docs)"
+          ],
+          "review_experience_details": "Senior with 27 reviews, 25 PRs approved, rigorous attention to type safety and localization correctness",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6176,
+      "pr_title": "Update locale/vi.js to capitalize the first letter of months and weekdays",
+      "pr_author": "thanhminhmr",
+      "pr_state": "closed",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.92,
+          "reasoning": "Deep expertise in locale string formatting (pluralization rules, ISO8601 vs. locale-specific formatting) and string capitalization (past tense/ordinal localization). Direct evidence of reviewing pluralization rules and locale-specific string validation in past reviews.",
+          "strengths_alignment": [
+            "Locale file structure and pluralization rules (skill_evidence: 'pt-br: Fix wrong plural usage for time')",
+            "String capitalization and ordinal localization (skill_evidence: 'Past tense and ordinal localization')",
+            "JavaScript localization (i18n) with TypeScript integration (primary_skills: 'JavaScript localization (i18n), Moment.js internals')"
+          ],
+          "review_experience": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and rigorous attention to type safety and locale correctness. Demonstrates consistent, high-quality review patterns with direct evidence of addressing the PR's focus areas.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.88,
+          "reasoning": "Strong expertise in locale systems, string normalization, and date/time formatting (including edge cases like DST). Reviewed locale normalization and string parsing in past PRs, aligning with the PR's focus on locale-specific string formatting and capitalization rules.",
+          "strengths_alignment": [
+            "Locale systems and string normalization (skill_evidence: 'normalize locale name on updating locale')",
+            "Date/time formatting and edge-case handling (skill_evidence: 'Fix startOf/endOf DST issues')",
+            "JavaScript object manipulation and string parsing (identified_skills)"
+          ],
+          "review_experience": "Senior-level reviewer with 16 total reviews, 11 PRs reviewed, and deep involvement in Moment.js core development. Demonstrates consistent, high-quality review patterns with direct evidence of addressing locale and string-related issues.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.85,
+          "reasoning": "Specialized expertise in locale-specific formatting, inflection rules, and grammatical correctness for Czech locale. Reviewed pluralization systems and locale-specific validation, aligning with the PR's focus on locale string formatting and capitalization rules.",
+          "strengths_alignment": [
+            "Czech locale implementation and inflection rules (skill_evidence: 'correct Czech inflections')",
+            "Pluralization systems and locale-specific validation (identified_skills)",
+            "Locale-specific formatting and grammatical correctness review (primary_skills)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 total reviews, 2 PRs reviewed, and deep involvement in Czech locale handling. Demonstrates consistent review patterns with direct evidence of addressing locale-specific string formatting and capitalization.",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Deep expertise in locale string formatting (pluralization rules, ISO8601 vs. locale-specific formatting) and string capitalization (past tense/ordinal localization). Direct evidence of reviewing pluralization rules and locale-specific string validation in past reviews.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6176",
+      "reviewer_strengths": [
+        "Locale file structure and pluralization rules (skill_evidence: 'pt-br: Fix wrong plural usage for time')",
+        "String capitalization and ordinal localization (skill_evidence: 'Past tense and ordinal localization')",
+        "JavaScript localization (i18n) with TypeScript integration (primary_skills: 'JavaScript localization (i18n), Moment.js internals')"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and rigorous attention to type safety and locale correctness. Demonstrates consistent, high-quality review patterns with direct evidence of addressing the PR's focus areas.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Deep expertise in locale string formatting (pluralization rules, ISO8601 vs. locale-specific formatting) and string capitalization (past tense/ordinal localization). Direct evidence of reviewing pluralization rules and locale-specific string validation in past reviews.",
+          "strengths_alignment": [
+            "Locale file structure and pluralization rules (skill_evidence: 'pt-br: Fix wrong plural usage for time')",
+            "String capitalization and ordinal localization (skill_evidence: 'Past tense and ordinal localization')",
+            "JavaScript localization (i18n) with TypeScript integration (primary_skills: 'JavaScript localization (i18n), Moment.js internals')"
+          ],
+          "review_experience_details": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and rigorous attention to type safety and locale correctness. Demonstrates consistent, high-quality review patterns with direct evidence of addressing the PR's focus areas.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6195,
+      "pr_title": "ci: add Azure Static Web Apps workflow file",
+      "pr_author": "dhirenofficial",
+      "pr_state": "open",
+      "assigned_reviewer": "harkue",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "harkue",
+          "match_score": 0.89,
+          "reasoning": "Senior reviewer with deep expertise in build pipeline awareness (Grunt.js), legacy library maintenance, and core JavaScript behavior—directly relevant to CI/CD workflows and deployment pipeline correctness. Strong evidence of reviewing build system interactions and generated file management, aligning with Azure Static Web Apps/GitHub Actions workflows.",
+          "strengths_alignment": [
+            "Build pipeline awareness (Grunt.js, generated file management)",
+            "Legacy library maintenance (Moment.js internals)",
+            "Core JavaScript falsy/truthy behavior and object parsing",
+            "Code review for correctness and convention enforcement"
+          ],
+          "review_experience": "Senior-level reviewer with 3 PRs reviewed, 4 total reviews, and 0 comments (LGTM approvals indicate high confidence in technical correctness).",
+          "potential_concerns": "No explicit evidence of modern CI/CD tools (Azure/GitHub Actions), but legacy build system knowledge is transferable."
+        },
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with deep expertise in Moment.js internals, locale systems, and performance optimizations—directly relevant to CI/CD workflows and deployment pipeline correctness. Strong evidence of reviewing build system interactions (locale normalization, string parsing) and performance tuning, aligning with Azure Static Web Apps/GitHub Actions workflows.",
+          "strengths_alignment": [
+            "Moment.js internals and locale systems",
+            "ISO8601 parsing and duration handling",
+            "DST (Daylight Saving Time) edge cases",
+            "Performance optimization (lazy evaluation, redundant computation avoidance)"
+          ],
+          "review_experience": "Senior-level reviewer with 21 PRs reviewed, 37 total reviews, and 35 comments. Highly active and experienced in technical correctness validation.",
+          "potential_concerns": "No explicit evidence of modern CI/CD tooling (Azure/GitHub Actions), but strong build system awareness from locale/string parsing."
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.82,
+          "reasoning": "Senior reviewer with deep expertise in Moment.js API design, immutable programming patterns, and semantic versioning—directly relevant to CI/CD workflows and deployment pipeline correctness. Strong evidence of reviewing breaking change management and RFC-driven design processes, aligning with Azure Static Web Apps/GitHub Actions workflows.",
+          "strengths_alignment": [
+            "Moment.js core API design and immutable API patterns",
+            "Breaking change management and semantic versioning (SemVer)",
+            "Major version bumps and API deprecation strategies",
+            "RFC facilitation and discussion-driven reviews"
+          ],
+          "review_experience": "Senior-level reviewer with 2 PRs reviewed, 7 total reviews, and 7 comments. Highly active in technical review facilitation and stakeholder alignment.",
+          "potential_concerns": "Limited review activity (only 2 PRs reviewed), but strong evidence of API design and versioning expertise."
+        }
+      ],
+      "match_score": 0.89,
+      "assignment_reasoning": "Senior reviewer with deep expertise in build pipeline awareness (Grunt.js), legacy library maintenance, and core JavaScript behavior—directly relevant to CI/CD workflows and deployment pipeline correctness. Strong evidence of reviewing build system interactions and generated file management, aligning with Azure Static Web Apps/GitHub Actions workflows.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6195",
+      "reviewer_strengths": [
+        "Build pipeline awareness (Grunt.js, generated file management)",
+        "Legacy library maintenance (Moment.js internals)",
+        "Core JavaScript falsy/truthy behavior and object parsing"
+      ],
+      "potential_concerns": "No explicit evidence of modern CI/CD tools (Azure/GitHub Actions), but legacy build system knowledge is transferable.",
+      "review_experience": "Senior-level reviewer with 3 PRs reviewed, 4 total reviews, and 0 comments (LGTM approvals indicate high confidence in technical correctness).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "CI/CD"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep expertise in build pipeline awareness (Grunt.js), legacy library maintenance, and core JavaScript behavior—directly relevant to CI/CD workflows and deployment pipeline correctness. Strong evidence of reviewing build system interactions and generated file management, aligning with Azure Static Web Apps/GitHub Actions workflows.",
+          "strengths_alignment": [
+            "Build pipeline awareness (Grunt.js, generated file management)",
+            "Legacy library maintenance (Moment.js internals)",
+            "Core JavaScript falsy/truthy behavior and object parsing",
+            "Code review for correctness and convention enforcement"
+          ],
+          "review_experience_details": "Senior-level reviewer with 3 PRs reviewed, 4 total reviews, and 0 comments (LGTM approvals indicate high confidence in technical correctness).",
+          "potential_limitations": "No explicit evidence of modern CI/CD tools (Azure/GitHub Actions), but legacy build system knowledge is transferable."
+        }
+      }
+    },
+    {
+      "pr_number": 6200,
+      "pr_title": "En-gi",
+      "pr_author": "nathannorrisfairsailcom",
+      "pr_state": "open",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.92,
+          "reasoning": "Deep expertise in locale data correctness, cultural/regional localization standards, and TypeScript/JavaScript localization (i18n) with direct evidence of fixing pluralization rules, locale validation, and cultural-specific formatting. Strongest match for the PR's focus areas.",
+          "strengths_alignment": [
+            "TypeScript interface definitions for localization (directly relevant to locale data correctness)",
+            "Pluralization rules and locale file structure expertise (matches review focus)",
+            "Past tense and ordinal localization fixes (cultural/regional alignment)",
+            "ISO8601 vs. locale-specific formatting (direct evidence of cultural standards review)"
+          ],
+          "review_experience": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and rigorous attention to type safety and localization correctness. Demonstrated ability to handle complex i18n edge cases (e.g., `isLocaleNameSane` validation).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "sigurdga",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with deep expertise in Norwegian (nb/nn) locale validation, date/time format standardization, and linguistic guideline enforcement for cultural/regional localization. Strong alignment with the PR's focus on locale data correctness and cultural standards.",
+          "strengths_alignment": [
+            "Norwegian (nb/nn) locale validation (direct evidence of cultural/regional localization standards)",
+            "Date/time format standardization (matches review focus on locale data correctness)",
+            "Linguistic guideline enforcement (Språkrådet) — aligns with cultural/regional standards",
+            "Constructive linguistic feedback for abbreviations and relative time phrases"
+          ],
+          "review_experience": "Senior reviewer with 5 total reviews, 3 PRs reviewed, and deep focus on locale-specific corrections (e.g., month/weekday abbreviations, Nynorsk vs. Bokmål distinctions).",
+          "potential_concerns": "Narrower focus on Norwegian locales; less evidence of broader locale diversity than anandfresh."
+        },
+        {
+          "reviewer_name": "erhangundogan",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with strong expertise in Turkish (tr) localization, Intl.RelativeTimeFormat, and translation correctness validation. Direct evidence of reviewing locale-specific time/date formatting and cultural/linguistic accuracy feedback, though less broad than anandfresh.",
+          "strengths_alignment": [
+            "Turkish (tr) localization — demonstrates cultural/regional localization standards expertise",
+            "Intl.RelativeTimeFormat and Intl.DateTimeFormat (meridiem support) — aligns with locale data correctness",
+            "Translation correctness validation for Turkish day names and time formatting",
+            "JSON/YAML translation file review — matches focus on locale data"
+          ],
+          "review_experience": "Mid-level reviewer with 4 total reviews, 3 PRs reviewed, and specialized focus on Turkish-specific translations and Intl API integration. Similar review patterns to the PR's focus areas.",
+          "potential_concerns": "Less evidence of broader locale diversity or TypeScript/JavaScript localization expertise compared to anandfresh."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Deep expertise in locale data correctness, cultural/regional localization standards, and TypeScript/JavaScript localization (i18n) with direct evidence of fixing pluralization rules, locale validation, and cultural-specific formatting. Strongest match for the PR's focus areas.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6200",
+      "reviewer_strengths": [
+        "TypeScript interface definitions for localization (directly relevant to locale data correctness)",
+        "Pluralization rules and locale file structure expertise (matches review focus)",
+        "Past tense and ordinal localization fixes (cultural/regional alignment)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and rigorous attention to type safety and localization correctness. Demonstrated ability to handle complex i18n edge cases (e.g., `isLocaleNameSane` validation).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Deep expertise in locale data correctness, cultural/regional localization standards, and TypeScript/JavaScript localization (i18n) with direct evidence of fixing pluralization rules, locale validation, and cultural-specific formatting. Strongest match for the PR's focus areas.",
+          "strengths_alignment": [
+            "TypeScript interface definitions for localization (directly relevant to locale data correctness)",
+            "Pluralization rules and locale file structure expertise (matches review focus)",
+            "Past tense and ordinal localization fixes (cultural/regional alignment)",
+            "ISO8601 vs. locale-specific formatting (direct evidence of cultural standards review)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and rigorous attention to type safety and localization correctness. Demonstrated ability to handle complex i18n edge cases (e.g., `isLocaleNameSane` validation).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6208,
+      "pr_title": "[bugfix] KO L date format",
+      "pr_author": "michalbencur",
+      "pr_state": "closed",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.92,
+          "reasoning": "Deep expertise in date format correctness and localization compliance, with direct evidence of reviewing pluralization rules, time/date formatting localization, and ISO8601 vs. locale-specific formatting. Strong alignment with PR focus areas and senior-level review activity.",
+          "strengths_alignment": [
+            "TypeScript interface definitions and type safety fixes (relevant for date format correctness)",
+            "Locale file structure and pluralization rules (direct match for localization compliance)",
+            "Time/date formatting localization (core PR focus)",
+            "ISO8601 vs. locale-specific formatting (explicit skill evidence)"
+          ],
+          "review_experience": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and rigorous attention to type safety and localization correctness. Demonstrated deep review patterns in similar PRs (e.g., pt-br pluralization fixes).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.88,
+          "reasoning": "Senior-level reviewer with deep expertise in date/time manipulation, locale systems, and performance optimizations. Strong evidence of reviewing date format correctness and localization compliance, including ISO8601 parsing and locale-specific date formatting. Less direct evidence of pluralization rules but strong overall alignment.",
+          "strengths_alignment": [
+            "ISO8601 parsing and duration handling (relevant for date format correctness)",
+            "Locale-specific date formatting (direct match for localization compliance)",
+            "DST (Daylight Saving Time) edge cases (relevant for date correctness)",
+            "TypeScript typing (relevant for type safety in date formats)"
+          ],
+          "review_experience": "Senior-level reviewer with 37 total reviews, 21 PRs reviewed, and deep involvement in locale systems and performance optimizations. Demonstrated rigorous review patterns in similar PRs (e.g., Serbian Cyrillic date formatting fixes).",
+          "potential_concerns": "Less explicit evidence of pluralization rule expertise compared to anandfresh"
+        },
+        {
+          "reviewer_name": "sigurdga",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with deep expertise in Norwegian locale validation, date/time format standardization, and relative time phrase localization. Strong alignment with localization compliance and date format correctness, though less direct evidence of pluralization rules. Focused on linguistic guideline enforcement for date formats.",
+          "strengths_alignment": [
+            "Date/time format standardization (direct match for date format correctness)",
+            "Relative time phrase localization (relevant for localization compliance)",
+            "Linguistic guideline enforcement for date formats (relevant for correctness)",
+            "Norwegian locale validation (explicit skill evidence)"
+          ],
+          "review_experience": "Senior-level reviewer with 5 total reviews, 3 PRs reviewed, and rigorous attention to linguistic correctness in date formats. Demonstrated deep review patterns in similar PRs (e.g., Norwegian month/weekday abbreviation standardization).",
+          "potential_concerns": "Lower review activity volume compared to top choices, but high specialization in date format localization"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Deep expertise in date format correctness and localization compliance, with direct evidence of reviewing pluralization rules, time/date formatting localization, and ISO8601 vs. locale-specific formatting. Strong alignment with PR focus areas and senior-level review activity.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6208",
+      "reviewer_strengths": [
+        "TypeScript interface definitions and type safety fixes (relevant for date format correctness)",
+        "Locale file structure and pluralization rules (direct match for localization compliance)",
+        "Time/date formatting localization (core PR focus)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and rigorous attention to type safety and localization correctness. Demonstrated deep review patterns in similar PRs (e.g., pt-br pluralization fixes).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Deep expertise in date format correctness and localization compliance, with direct evidence of reviewing pluralization rules, time/date formatting localization, and ISO8601 vs. locale-specific formatting. Strong alignment with PR focus areas and senior-level review activity.",
+          "strengths_alignment": [
+            "TypeScript interface definitions and type safety fixes (relevant for date format correctness)",
+            "Locale file structure and pluralization rules (direct match for localization compliance)",
+            "Time/date formatting localization (core PR focus)",
+            "ISO8601 vs. locale-specific formatting (explicit skill evidence)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and rigorous attention to type safety and localization correctness. Demonstrated deep review patterns in similar PRs (e.g., pt-br pluralization fixes).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6217,
+      "pr_title": "[locale] Fixed ('L') format for Georgian and Flemish (Belgium Dutch).",
+      "pr_author": "adidaslevy",
+      "pr_state": "open",
+      "assigned_reviewer": null,
+      "top_3_reviewers": [],
+      "match_score": 0.0,
+      "assignment_reasoning": "No suitable reviewer found",
+      "assignment_confidence": "Low",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6217",
+      "reviewer_strengths": [],
+      "potential_concerns": "No reviewer could be matched to this PR",
+      "review_experience": "N/A",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "locale"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "No suitable reviewer found",
+          "strengths_alignment": [],
+          "review_experience_details": "N/A",
+          "potential_limitations": "No reviewer could be matched to this PR"
+        }
+      }
+    },
+    {
+      "pr_number": 6219,
+      "pr_title": "[locale] Change Saat to Saa in dist/locale/sw.js",
+      "pr_author": "Louq-Tech",
+      "pr_state": "closed",
+      "assigned_reviewer": "fadsel",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "fadsel",
+          "match_score": 0.92,
+          "reasoning": "Specialized expertise in Swahili locale terminology and locale string correctness, with direct evidence of reviewing Swahili meridiem formatting and Intl API integration via Moment.js. Strong alignment with PR focus areas and no JavaScript code review gaps.",
+          "strengths_alignment": [
+            "Swahili meridiem formatting expertise (direct match to 'locale string correctness')",
+            "Intl API integration via Moment.js (direct match to 'Swahili language terminology')",
+            "No evidence of non-locale-related JavaScript skills (avoids irrelevant noise)"
+          ],
+          "review_experience": "2 reviews, 1 comment; 2 PRs reviewed (both '[locale]' focused).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "erhangundogan",
+          "match_score": 0.88,
+          "reasoning": "Strong Turkish locale expertise with Intl API usage (RelativeTimeFormat, DateTimeFormat) and translation correctness validation. Direct evidence of reviewing locale-specific time/date formatting, though less Swahili-specific than fadsel.",
+          "strengths_alignment": [
+            "Turkish locale expertise (similar linguistic focus to Swahili)",
+            "Intl API integration (RelativeTimeFormat, DateTimeFormat) — matches 'locale string correctness'",
+            "Translation correctness validation (direct match to 'Swahili language terminology')"
+          ],
+          "review_experience": "4 reviews, 1 comment; 3 PRs reviewed (all '[locale]' focused).",
+          "potential_concerns": "No direct Swahili evidence; Turkish focus is close but not identical."
+        },
+        {
+          "reviewer_name": "sigurdga",
+          "match_score": 0.85,
+          "reasoning": "Senior-level Norwegian locale validation with deep linguistic expertise in date/time format standardization and abbreviation consistency. Strong alignment with 'locale string correctness' and 'Swahili language terminology' (linguistic validation).",
+          "strengths_alignment": [
+            "Norwegian linguistic localization (direct match to 'locale string correctness')",
+            "Date/time format standardization (matches 'Swahili language terminology' linguistic validation)",
+            "Senior-level review authority (consistent with 'Low' complexity PR)"
+          ],
+          "review_experience": "5 reviews, 9 comments; 3 PRs reviewed (all '[locale]' focused).",
+          "potential_concerns": "No direct Swahili evidence; Norwegian focus is linguistically similar but not identical."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Specialized expertise in Swahili locale terminology and locale string correctness, with direct evidence of reviewing Swahili meridiem formatting and Intl API integration via Moment.js. Strong alignment with PR focus areas and no JavaScript code review gaps.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6219",
+      "reviewer_strengths": [
+        "Swahili meridiem formatting expertise (direct match to 'locale string correctness')",
+        "Intl API integration via Moment.js (direct match to 'Swahili language terminology')",
+        "No evidence of non-locale-related JavaScript skills (avoids irrelevant noise)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "2 reviews, 1 comment; 2 PRs reviewed (both '[locale]' focused).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Specialized expertise in Swahili locale terminology and locale string correctness, with direct evidence of reviewing Swahili meridiem formatting and Intl API integration via Moment.js. Strong alignment with PR focus areas and no JavaScript code review gaps.",
+          "strengths_alignment": [
+            "Swahili meridiem formatting expertise (direct match to 'locale string correctness')",
+            "Intl API integration via Moment.js (direct match to 'Swahili language terminology')",
+            "No evidence of non-locale-related JavaScript skills (avoids irrelevant noise)"
+          ],
+          "review_experience_details": "2 reviews, 1 comment; 2 PRs reviewed (both '[locale]' focused).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6221,
+      "pr_title": "Fix for issue #6202: Append 'null' as Return Type for toJSON Method in TypeScript Definitions",
+      "pr_author": "utf26",
+      "pr_state": "open",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with deep TypeScript expertise (interface definitions, compiler warnings, type safety) and direct evidence of fixing TypeScript warnings + test cases. Strong alignment with testing focus and TypeScript type accuracy requirements. Reviewed similar PRs (#5628) with TypeScript fixes and test coverage.",
+          "strengths_alignment": [
+            "TypeScript interface definitions (top skill)",
+            "TypeScript compiler warnings (top skill)",
+            "Type definition files (moment.d.ts) (identified skill)",
+            "Testing and debugging (primary skill)",
+            "Similar review evidence: PR #5628 (TypeScript warning fix + tests)"
+          ],
+          "review_experience": "Senior (27 reviews, 25 PRs), 2 COMMENTED reviews on TypeScript-related PRs, rigorous attention to type safety and test coverage.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with TypeScript and testing expertise, reviewed similar TypeScript warning fix PR (#5628). Strong TypeScript typing and runtime behavior alignment, plus testing focus. Less direct evidence on `toJSON` method but deep Moment.js internals and locale systems (relevant for type compatibility).",
+          "strengths_alignment": [
+            "TypeScript typing (primary skill)",
+            "Testing and debugging (primary skill)",
+            "Moment.js internals (primary skill)",
+            "Similar review evidence: PR #5628 (TypeScript warning fix + tests)"
+          ],
+          "review_experience": "Senior (37 reviews, 21 PRs), 2 COMMENTED reviews on TypeScript-related PRs, deep Moment.js expertise.",
+          "potential_concerns": "Less direct evidence on `toJSON` method type accuracy than anandfresh"
+        },
+        {
+          "reviewer_name": "leonaves",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with specialized TypeScript type refinement expertise and runtime behavior analysis. Direct evidence of TypeScript type accuracy reviews (e.g., '[misc] Update typing for diff function') and defensive programming for type mismatches. Strong alignment with `toJSON` type definitions and type compatibility needs. Less testing-focused but critical for type safety.",
+          "strengths_alignment": [
+            "TypeScript type refinement (top skill)",
+            "JavaScript runtime type behavior analysis (identified skill)",
+            "Moment.js type definitions (identified skill)",
+            "Defensive programming (identified skill)"
+          ],
+          "review_experience": "Mid (2 reviews, 1 PR), 2 COMMENTED reviews on TypeScript typing accuracy, rigorous feedback on type mismatches.",
+          "potential_concerns": "Lower review activity than top 2, but highly specialized in TypeScript typing"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with deep TypeScript expertise (interface definitions, compiler warnings, type safety) and direct evidence of fixing TypeScript warnings + test cases. Strong alignment with testing focus and TypeScript type accuracy requirements. Reviewed similar PRs (#5628) with TypeScript fixes and test coverage.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6221",
+      "reviewer_strengths": [
+        "TypeScript interface definitions (top skill)",
+        "TypeScript compiler warnings (top skill)",
+        "Type definition files (moment.d.ts) (identified skill)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior (27 reviews, 25 PRs), 2 COMMENTED reviews on TypeScript-related PRs, rigorous attention to type safety and test coverage.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "TypeScript",
+          "JavaScript"
+        ],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep TypeScript expertise (interface definitions, compiler warnings, type safety) and direct evidence of fixing TypeScript warnings + test cases. Strong alignment with testing focus and TypeScript type accuracy requirements. Reviewed similar PRs (#5628) with TypeScript fixes and test coverage.",
+          "strengths_alignment": [
+            "TypeScript interface definitions (top skill)",
+            "TypeScript compiler warnings (top skill)",
+            "Type definition files (moment.d.ts) (identified skill)",
+            "Testing and debugging (primary skill)",
+            "Similar review evidence: PR #5628 (TypeScript warning fix + tests)"
+          ],
+          "review_experience_details": "Senior (27 reviews, 25 PRs), 2 COMMENTED reviews on TypeScript-related PRs, rigorous attention to type safety and test coverage.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6227,
+      "pr_title": "bugfix/#6143",
+      "pr_author": "AKHILREDDY1636",
+      "pr_state": "open",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with deep expertise in Moment.js internals, testing, and edge-case debugging. Strong evidence of reviewing similar test-focused PRs (e.g., DST edge cases, invalid mutation handling) and rigorous input validation review patterns.",
+          "strengths_alignment": [
+            "Deep expertise in Moment.js internals and testing (e.g., PR #5554: 'Handle invalid mutations', PR #5614: 'add tests for isLeapYear')",
+            "Proven track record of reviewing edge-case testing and validation logic (e.g., DST handling, locale normalization)",
+            "Senior-level review activity (37 reviews, 21 PRs) with consistent technical depth"
+          ],
+          "review_experience": "Senior-level reviewer with 37 total reviews, 21 PRs reviewed, and 35 comments. Demonstrates high reliability and technical rigor in testing and validation reviews.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with deep expertise in Moment.js testing and debugging, particularly for edge-case scenarios. Reviewed a similar test-focused PR (#6011) and has strong evidence of testing-related contributions.",
+          "strengths_alignment": [
+            "Senior-level reviewer with 27 total reviews and 25 PRs reviewed, focusing on testing and debugging",
+            "Reviewed PR #6011: '[tests] Fix unit test that fails on WebKit' (testing edge cases)",
+            "Expertise in TypeScript and Moment.js internals, with evidence of rigorous testing review patterns"
+          ],
+          "review_experience": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and 2 comments. Demonstrates strong technical depth in testing and debugging.",
+          "potential_concerns": "Limited comments (only 2) despite high review volume, but evidence of rigorous testing review."
+        },
+        {
+          "reviewer_name": "leonaves",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with strong expertise in TypeScript typing and input validation, which aligns well with the PR's focus on argument validation logic. Demonstrates deep understanding of defensive programming and runtime type safety.",
+          "strengths_alignment": [
+            "Mid-level reviewer with expertise in TypeScript typing and input validation (e.g., '[misc] Update typing for diff function')",
+            "Focus on defensive programming and runtime type safety, relevant to argument validation logic",
+            "Evidence of reviewing edge-case scenarios in Moment.js type definitions"
+          ],
+          "review_experience": "Mid-level reviewer with 2 total reviews and 1 PR reviewed, but demonstrates high technical depth in TypeScript and input validation.",
+          "potential_concerns": "Limited review activity (only 2 reviews), but strong evidence of technical expertise in relevant areas."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with deep expertise in Moment.js internals, testing, and edge-case debugging. Strong evidence of reviewing similar test-focused PRs (e.g., DST edge cases, invalid mutation handling) and rigorous input validation review patterns.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6227",
+      "reviewer_strengths": [
+        "Deep expertise in Moment.js internals and testing (e.g., PR #5554: 'Handle invalid mutations', PR #5614: 'add tests for isLeapYear')",
+        "Proven track record of reviewing edge-case testing and validation logic (e.g., DST handling, locale normalization)",
+        "Senior-level review activity (37 reviews, 21 PRs) with consistent technical depth"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 37 total reviews, 21 PRs reviewed, and 35 comments. Demonstrates high reliability and technical rigor in testing and validation reviews.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep expertise in Moment.js internals, testing, and edge-case debugging. Strong evidence of reviewing similar test-focused PRs (e.g., DST edge cases, invalid mutation handling) and rigorous input validation review patterns.",
+          "strengths_alignment": [
+            "Deep expertise in Moment.js internals and testing (e.g., PR #5554: 'Handle invalid mutations', PR #5614: 'add tests for isLeapYear')",
+            "Proven track record of reviewing edge-case testing and validation logic (e.g., DST handling, locale normalization)",
+            "Senior-level review activity (37 reviews, 21 PRs) with consistent technical depth"
+          ],
+          "review_experience_details": "Senior-level reviewer with 37 total reviews, 21 PRs reviewed, and 35 comments. Demonstrates high reliability and technical rigor in testing and validation reviews.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6238,
+      "pr_title": "[misc] refactor all object type checks in single file",
+      "pr_author": "qzoke",
+      "pr_state": "open",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with deep expertise in Moment.js internals, type safety, and performance optimizations. Strong evidence of reviewing type-checking logic correctness, locale systems, and impact on dependent code in past PRs (e.g., DST edge cases, ISO8601 parsing, duration handling). Directly matches all required focus areas: type-checking logic, behavior consistency, and dependent code impact.",
+          "strengths_alignment": [
+            "Deep expertise in Moment.js internals and type safety (TypeScript typing, ISO8601 parsing, duration handling)",
+            "Proven track record of reviewing type-checking logic correctness (e.g., DST edge cases, locale normalization)",
+            "Experience validating impact on dependent code (e.g., performance optimizations, breaking change management)",
+            "Senior-level review activity with 37 reviews and 21 PRs approved"
+          ],
+          "review_experience": "Senior-level reviewer with 37 total reviews, 35 comments, and 21 PRs reviewed. Consistently provides constructive feedback and LGTM approvals for complex technical changes.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with extensive Moment.js expertise, particularly in date/time manipulation, locale systems, and performance optimizations. Strong evidence of reviewing type-checking logic (e.g., locale normalization, DST edge cases) and behavior consistency across merged implementations. Less direct evidence of dependent code impact but highly relevant for type-checking and correctness.",
+          "strengths_alignment": [
+            "Deep expertise in Moment.js core (locale systems, DST handling, duration formatting)",
+            "Proven track record of reviewing type-checking logic (e.g., locale normalization, string parsing)",
+            "Experience with behavior consistency across merged implementations (e.g., locale inheritance, API design)",
+            "Senior-level review activity with 16 reviews and 11 PRs approved"
+          ],
+          "review_experience": "Senior-level reviewer with 16 total reviews, 30 comments, and 11 PRs reviewed. Consistently provides detailed feedback and LGTM approvals for complex technical changes.",
+          "potential_concerns": "Less direct evidence of explicitly reviewing impact on dependent code (though implied by performance optimizations)"
+        },
+        {
+          "reviewer_name": "leonaves",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with strong TypeScript and runtime type behavior expertise. Directly matches the type-checking logic correctness requirement and has evidence of reviewing defensive programming and type mismatch resolution. Less experience with behavior consistency across merged implementations but highly relevant for type safety.",
+          "strengths_alignment": [
+            "Specialized expertise in TypeScript typing accuracy and runtime behavior alignment",
+            "Proven track record of reviewing type-checking logic (e.g., type refinement, NaN handling)",
+            "Experience with defensive programming and input validation (relevant to type safety)",
+            "Mid-level review activity with 2 reviews and 2 comments"
+          ],
+          "review_experience": "Mid-level reviewer with 2 total reviews and 2 comments. Limited activity but highly specialized in TypeScript and type safety.",
+          "potential_concerns": "Limited review activity and less evidence of reviewing behavior consistency or dependent code impact"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with deep expertise in Moment.js internals, type safety, and performance optimizations. Strong evidence of reviewing type-checking logic correctness, locale systems, and impact on dependent code in past PRs (e.g., DST edge cases, ISO8601 parsing, duration handling). Directly matches all required focus areas: type-checking logic, behavior consistency, and dependent code impact.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6238",
+      "reviewer_strengths": [
+        "Deep expertise in Moment.js internals and type safety (TypeScript typing, ISO8601 parsing, duration handling)",
+        "Proven track record of reviewing type-checking logic correctness (e.g., DST edge cases, locale normalization)",
+        "Experience validating impact on dependent code (e.g., performance optimizations, breaking change management)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 37 total reviews, 35 comments, and 21 PRs reviewed. Consistently provides constructive feedback and LGTM approvals for complex technical changes.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep expertise in Moment.js internals, type safety, and performance optimizations. Strong evidence of reviewing type-checking logic correctness, locale systems, and impact on dependent code in past PRs (e.g., DST edge cases, ISO8601 parsing, duration handling). Directly matches all required focus areas: type-checking logic, behavior consistency, and dependent code impact.",
+          "strengths_alignment": [
+            "Deep expertise in Moment.js internals and type safety (TypeScript typing, ISO8601 parsing, duration handling)",
+            "Proven track record of reviewing type-checking logic correctness (e.g., DST edge cases, locale normalization)",
+            "Experience validating impact on dependent code (e.g., performance optimizations, breaking change management)",
+            "Senior-level review activity with 37 reviews and 21 PRs approved"
+          ],
+          "review_experience_details": "Senior-level reviewer with 37 total reviews, 35 comments, and 21 PRs reviewed. Consistently provides constructive feedback and LGTM approvals for complex technical changes.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6241,
+      "pr_title": "misc: add libraries link to readme",
+      "pr_author": "cwtuan",
+      "pr_state": "closed",
+      "assigned_reviewer": null,
+      "top_3_reviewers": [],
+      "match_score": 0.0,
+      "assignment_reasoning": "No suitable reviewer found",
+      "assignment_confidence": "Low",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6241",
+      "reviewer_strengths": [],
+      "potential_concerns": "No reviewer could be matched to this PR",
+      "review_experience": "N/A",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "No suitable reviewer found",
+          "strengths_alignment": [],
+          "review_experience_details": "N/A",
+          "potential_limitations": "No reviewer could be matched to this PR"
+        }
+      }
+    },
+    {
+      "pr_number": 6249,
+      "pr_title": "[locale] Italian capitalization",
+      "pr_author": "ZeroKun265",
+      "pr_state": "closed",
+      "assigned_reviewer": "sigurdga",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "sigurdga",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with deep expertise in locale-specific capitalization consistency (Norwegian nb/nn) and alignment with English locale documentation, evidenced by multiple PRs addressing standardized abbreviations, linguistic guideline enforcement, and relative time phrase localization. Strongest match for documentation-focused review type.",
+          "strengths_alignment": [
+            "Norwegian (nb/nn) locale validation with focus on abbreviation consistency (direct match to 'locale-specific capitalization consistency')",
+            "Date/time format standardization (direct match to 'alignment with English locale documentation')",
+            "Linguistic guideline enforcement (Språkrådet) for cultural/localization correctness",
+            "Expertise in relative time phrase localization (directly relevant to documentation review)"
+          ],
+          "review_experience": "Senior-level reviewer with 5 reviews, 9 comments, and 3 PRs approved. Demonstrates consistent, high-quality review activity focused on localization documentation and linguistic correctness.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with deep expertise in localization (i18n) and documentation-related skills, including pluralization rules, locale file structure, and alignment with English locale standards. Strong secondary choice due to broader localization experience and TypeScript documentation relevance.",
+          "strengths_alignment": [
+            "TypeScript interface definitions and documentation (relevant to 'Documentation' review type)",
+            "Deep pluralization rule knowledge (directly relevant to 'locale-specific capitalization consistency')",
+            "Locale file structure expertise (aligns with 'alignment with English locale documentation')",
+            "Type definition files (moment.d.ts) — demonstrates documentation-focused contributions"
+          ],
+          "review_experience": "Senior-level reviewer with 27 reviews, 2 comments, and 25 PRs approved. Highly specialized in TypeScript and localization, with rigorous attention to type safety and documentation.",
+          "potential_concerns": "Fewer comments (2) compared to sigurdga, but high-quality review activity with strong documentation focus."
+        },
+        {
+          "reviewer_name": "petrbela",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with strong expertise in Czech locale implementation, inflection rules, and grammatical correctness — highly relevant to locale-specific capitalization and documentation alignment. Specialized in linguistic programming for localization.",
+          "strengths_alignment": [
+            "Czech locale implementation with focus on inflection rules (directly relevant to 'locale-specific capitalization consistency')",
+            "Grammatical correctness review for locale-specific formatting (aligns with 'alignment with English locale documentation')",
+            "Metadata/documentation approvals for locale-specific changes",
+            "Multiple CHANGES_REQUESTED→APPROVED cycles for thorough review of linguistic correctness"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 5 comments, and 2 PRs approved. Demonstrates consistent review activity focused on linguistic and localization documentation.",
+          "potential_concerns": "Less seniority than sigurdga or anandfresh, but strong specialization in linguistic programming for localization."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with deep expertise in locale-specific capitalization consistency (Norwegian nb/nn) and alignment with English locale documentation, evidenced by multiple PRs addressing standardized abbreviations, linguistic guideline enforcement, and relative time phrase localization. Strongest match for documentation-focused review type.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6249",
+      "reviewer_strengths": [
+        "Norwegian (nb/nn) locale validation with focus on abbreviation consistency (direct match to 'locale-specific capitalization consistency')",
+        "Date/time format standardization (direct match to 'alignment with English locale documentation')",
+        "Linguistic guideline enforcement (Språkrådet) for cultural/localization correctness"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 5 reviews, 9 comments, and 3 PRs approved. Demonstrates consistent, high-quality review activity focused on localization documentation and linguistic correctness.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep expertise in locale-specific capitalization consistency (Norwegian nb/nn) and alignment with English locale documentation, evidenced by multiple PRs addressing standardized abbreviations, linguistic guideline enforcement, and relative time phrase localization. Strongest match for documentation-focused review type.",
+          "strengths_alignment": [
+            "Norwegian (nb/nn) locale validation with focus on abbreviation consistency (direct match to 'locale-specific capitalization consistency')",
+            "Date/time format standardization (direct match to 'alignment with English locale documentation')",
+            "Linguistic guideline enforcement (Språkrådet) for cultural/localization correctness",
+            "Expertise in relative time phrase localization (directly relevant to documentation review)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 5 reviews, 9 comments, and 3 PRs approved. Demonstrates consistent, high-quality review activity focused on localization documentation and linguistic correctness.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6257,
+      "pr_title": "duration function changed",
+      "pr_author": "skjha80195",
+      "pr_state": "open",
+      "assigned_reviewer": "marwahaha",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "marwahaha",
+          "match_score": 0.92,
+          "reasoning": "Senior-level reviewer with deep expertise in Moment.js internals, date/time manipulation, and code quality. Strong evidence of debugging DST edge cases, performance optimizations, and locale systems—directly aligning with low-complexity code quality reviews. High activity consistency and proven track record in similar PRs (e.g., DST fixes, locale corrections).",
+          "strengths_alignment": [
+            "Deep Moment.js internals knowledge (DST handling, locale systems, performance optimizations)",
+            "Proven code quality review pattern (bugfixes, edge-case debugging, LGTM approvals)",
+            "High review activity (37 reviews, 21 PRs) with consistent technical depth"
+          ],
+          "review_experience": "Senior reviewer with 37 total reviews, 21 PRs reviewed, and 35 comments. Specializes in Moment.js core development, date/time APIs, and locale systems. Evidence includes DST fixes, ISO8601 parsing, and TypeScript typing improvements.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ichernev",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with extensive Moment.js expertise, focusing on date/time manipulation, locale systems, and performance. Strong evidence of debugging DST edge cases, locale normalization, and type safety—aligning well with low-complexity code quality reviews. High activity consistency and proven track record in similar PRs (e.g., locale additions, DST fixes).",
+          "strengths_alignment": [
+            "Deep Moment.js expertise (DST handling, locale systems, performance optimizations)",
+            "Proven code quality review pattern (bugfixes, edge-case debugging, LGTM approvals)",
+            "High review activity (16 reviews, 11 PRs) with consistent technical depth"
+          ],
+          "review_experience": "Senior reviewer with 16 total reviews, 11 PRs reviewed, and 30 comments. Specializes in Moment.js core development, date/time APIs, and locale systems. Evidence includes DST fixes, locale normalization, and type definition improvements.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "maggiepint",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with deep expertise in Moment.js API design, immutable programming, and breaking change management. Strong evidence of facilitating technical discussions and reviewing breaking changes—aligning with low-complexity code quality reviews. High activity consistency and proven track record in similar PRs (e.g., immutable API discussions, RFC facilitation).",
+          "strengths_alignment": [
+            "Deep Moment.js API design expertise (immutable patterns, breaking change management)",
+            "Proven code quality review pattern (RFC facilitation, discussion-driven reviews)",
+            "High review activity (7 reviews, 2 PRs) with consistent technical depth"
+          ],
+          "review_experience": "Senior reviewer with 7 total reviews, 2 PRs reviewed, and 7 comments. Specializes in Moment.js core API design, immutable programming, and semantic versioning. Evidence includes immutable API discussions, breaking change analysis, and RFC facilitation.",
+          "potential_concerns": "Lower review volume (7 reviews) compared to top choices, but high technical depth"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level reviewer with deep expertise in Moment.js internals, date/time manipulation, and code quality. Strong evidence of debugging DST edge cases, performance optimizations, and locale systems—directly aligning with low-complexity code quality reviews. High activity consistency and proven track record in similar PRs (e.g., DST fixes, locale corrections).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6257",
+      "reviewer_strengths": [
+        "Deep Moment.js internals knowledge (DST handling, locale systems, performance optimizations)",
+        "Proven code quality review pattern (bugfixes, edge-case debugging, LGTM approvals)",
+        "High review activity (37 reviews, 21 PRs) with consistent technical depth"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior reviewer with 37 total reviews, 21 PRs reviewed, and 35 comments. Specializes in Moment.js core development, date/time APIs, and locale systems. Evidence includes DST fixes, ISO8601 parsing, and TypeScript typing improvements.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with deep expertise in Moment.js internals, date/time manipulation, and code quality. Strong evidence of debugging DST edge cases, performance optimizations, and locale systems—directly aligning with low-complexity code quality reviews. High activity consistency and proven track record in similar PRs (e.g., DST fixes, locale corrections).",
+          "strengths_alignment": [
+            "Deep Moment.js internals knowledge (DST handling, locale systems, performance optimizations)",
+            "Proven code quality review pattern (bugfixes, edge-case debugging, LGTM approvals)",
+            "High review activity (37 reviews, 21 PRs) with consistent technical depth"
+          ],
+          "review_experience_details": "Senior reviewer with 37 total reviews, 21 PRs reviewed, and 35 comments. Specializes in Moment.js core development, date/time APIs, and locale systems. Evidence includes DST fixes, ISO8601 parsing, and TypeScript typing improvements.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6258,
+      "pr_title": "[locale] fix apostrophe typo for ukrainian",
+      "pr_author": "prasanna4567",
+      "pr_state": "open",
+      "assigned_reviewer": "anandfresh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "anandfresh",
+          "match_score": 0.92,
+          "reasoning": "Deep expertise in locale-specific string corrections and typographical accuracy in translations, with direct evidence of fixing pluralization rules, locale validation, and time/date formatting localization. Strong alignment with required review focus areas and similar review patterns (e.g., pt-br pluralization fixes).",
+          "strengths_alignment": [
+            "Top skills: Locale file structure, Pluralization rules, Time/date formatting localization, Locale validation (isLocaleNameSane)",
+            "Skill evidence: [locale] pt-br: Fix wrong plural usage for time (demonstrates deep pluralization rule knowledge)",
+            "Reviewed similar PRs with identical focus (e.g., locale-specific corrections)"
+          ],
+          "review_experience": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and rigorous attention to type safety and localization correctness. High consistency in review activity and technical depth.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "sigurdga",
+          "match_score": 0.88,
+          "reasoning": "Senior-level expertise in Norwegian locale validation, date/time format standardization, and linguistic guideline enforcement for typographical accuracy. Strong alignment with review focus areas, though less direct evidence of pluralization fixes compared to anandfresh.",
+          "strengths_alignment": [
+            "Top skills: Norwegian (nb/nn) locale validation, Date/time format standardization, Linguistic guideline enforcement (Språkrådet)",
+            "Skill evidence: '[locale] use correct abbreviations for months and weekdays' (PR #4), 'they do not follow the recommendations from the norwegian language council' (PR #3 comment)",
+            "Reviewed similar PRs with focus on locale-specific corrections and typographical accuracy"
+          ],
+          "review_experience": "Senior-level reviewer with 5 total reviews, 3 PRs reviewed, and deep linguistic expertise in Norwegian localization. High consistency in review activity and technical depth.",
+          "potential_concerns": "Fewer total reviews compared to anandfresh, but strong focus on linguistic correctness and typographical accuracy."
+        },
+        {
+          "reviewer_name": "erhangundogan",
+          "match_score": 0.85,
+          "reasoning": "Mid-level expertise in Turkish localization, Intl.RelativeTimeFormat, and translation correctness validation. Strong evidence of reviewing similar PRs (e.g., Turkish day names and meridiem support) and focus on typographical accuracy in translations.",
+          "strengths_alignment": [
+            "Top skills: Turkish (tr) localization, Intl.RelativeTimeFormat, Translation correctness validation",
+            "Skill evidence: '[locale] tr: Add meridiem support' (PR title), '[locale] tr: update translation of Monday and Saturday' (PR title)",
+            "Reviewed similar PRs (e.g., Turkish day names and meridiem support) with identical focus"
+          ],
+          "review_experience": "Mid-level reviewer with 4 total reviews, 3 PRs reviewed, and consistent focus on Turkish localization and translation correctness. Strong evidence of reviewing similar PRs.",
+          "potential_concerns": "Less seniority compared to anandfresh and sigurdga, but strong niche expertise in Turkish localization."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Deep expertise in locale-specific string corrections and typographical accuracy in translations, with direct evidence of fixing pluralization rules, locale validation, and time/date formatting localization. Strong alignment with required review focus areas and similar review patterns (e.g., pt-br pluralization fixes).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6258",
+      "reviewer_strengths": [
+        "Top skills: Locale file structure, Pluralization rules, Time/date formatting localization, Locale validation (isLocaleNameSane)",
+        "Skill evidence: [locale] pt-br: Fix wrong plural usage for time (demonstrates deep pluralization rule knowledge)",
+        "Reviewed similar PRs with identical focus (e.g., locale-specific corrections)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and rigorous attention to type safety and localization correctness. High consistency in review activity and technical depth.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Deep expertise in locale-specific string corrections and typographical accuracy in translations, with direct evidence of fixing pluralization rules, locale validation, and time/date formatting localization. Strong alignment with required review focus areas and similar review patterns (e.g., pt-br pluralization fixes).",
+          "strengths_alignment": [
+            "Top skills: Locale file structure, Pluralization rules, Time/date formatting localization, Locale validation (isLocaleNameSane)",
+            "Skill evidence: [locale] pt-br: Fix wrong plural usage for time (demonstrates deep pluralization rule knowledge)",
+            "Reviewed similar PRs with identical focus (e.g., locale-specific corrections)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 27 total reviews, 25 PRs reviewed, and rigorous attention to type safety and localization correctness. High consistency in review activity and technical depth.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6293,
+      "pr_title": "[misc] update readme, remove broken badges",
+      "pr_author": "Electroid",
+      "pr_state": "open",
+      "assigned_reviewer": null,
+      "top_3_reviewers": [],
+      "match_score": 0.0,
+      "assignment_reasoning": "No suitable reviewer found",
+      "assignment_confidence": "Low",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6293",
+      "reviewer_strengths": [],
+      "potential_concerns": "No reviewer could be matched to this PR",
+      "review_experience": "N/A",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "No suitable reviewer found",
+          "strengths_alignment": [],
+          "review_experience_details": "N/A",
+          "potential_limitations": "No reviewer could be matched to this PR"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "successful_assignments": 22,
+    "failed_assignments": 4,
+    "success_rate": 84.6,
+    "reviewer_workload_distribution": {
+      "marwahaha": 9,
+      "anandfresh": 10,
+      "harkue": 1,
+      "fadsel": 1,
+      "sigurdga": 1
+    },
+    "most_assigned_reviewer": "anandfresh",
+    "average_match_score": 0.92
+  }
+}

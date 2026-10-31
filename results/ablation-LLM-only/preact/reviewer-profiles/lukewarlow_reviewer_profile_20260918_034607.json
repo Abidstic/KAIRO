@@ -1,0 +1,19 @@
+{
+  "reviewer_name": "lukewarlow",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 7,
+    "total_comments": 6,
+    "total_prs": 5,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "lukewarlow",
+    "raw_response": "```json\n{\n  \"reviewer_name\": \"lukewarlow\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"TypeScript\",\n    \"Web Components (Custom Elements)\",\n    \"Preact Framework\",\n    \"HTML5 Specifications (MathML, SVG, ToggleEvent)\",\n    \"Event-Driven Programming\",\n    \"Type System Design\",\n    \"Frontend JavaScript Ecosystem\"\n  ],\n  \"programming_languages\": [\n    \"TypeScript\",\n    \"JavaScript (ES6+)\"\n  ],\n  \"summary\": \"lukewarlow is a Mid-level JavaScript reviewer with strong expertise in TypeScript type system design and web standards (particularly Web Components and HTML5 specifications). Their reviews demonstrate deep familiarity with Preact, event-driven programming, and browser APIs, though their exposure to Preact internals appears limited. The reviewer excels at adding and refactoring type definitions, understanding conditional rendering in web components, and providing constructive feedback on testing strategies. Their contributions focus on frontend JavaScript and web platform features, with a clear emphasis on type safety and web standards compliance.\",\n  \"identified_skills\": {\n    \"TypeScript\": [\n      \"Type definitions\",\n      \"Interface refactoring\",\n      \"Generic types\",\n      \"Event type extensions\",\n      \"TypeScript + DOM integration\"\n    ],\n    \"Web Components\": [\n      \"Custom Elements (Details, Popover)\",\n      \"ToggleEvent handling\",\n      \"MathML/SVG namespace support\",\n      \"HTML5 spec compliance\",\n      \"Shadow DOM awareness\"\n    ],\n    \"Frontend Frameworks\": [\n      \"Preact (virtual DOM, conditional rendering)\",\n      \"React-like component patterns\"\n    ],\n    \"Event Systems\": [\n      \"Custom event types\",\n      \"Event lifecycle management\",\n      \"MDN Web API references\"\n    ],\n    \"Browser APIs\": [\n      \"HTML namespace handling\",\n      \"Chrome Intent to Ship features\",\n      \"Browser event standards\"\n    ],\n    \"Code Quality & Review\": [\n      \"Testing strategy suggestions\",\n      \"Edge case awareness\",\n      \"Constructive feedback\"\n    ],\n    \"Testing\": [\n      \"Conditional rendering test cases\"\n    ],\n    \"JavaScript Ecosystem\": [\n      \"Frontend JavaScript best practices\",\n      \"Web platform integration\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR #1: 'feat: Support MathML namespace' — references MathML/SVG namespaces and conditional rendering tests\",\n    \"PR #2: 'feat: Support MathML namespace' — discusses namespace enum for SVG/MathML handling\",\n    \"PR #3: 'feat: Add popover types' — explicit TypeScript type definition for web component event\",\n    \"PR #4: 'feat: Add command invoker types' — references MDN docs for `<button>` command attributes\",\n    \"PR #5: 'feat: Add onBeforeToggle event handler type' — mentions ToggleEvent and Details/Popover elements\",\n    \"PR #6: 'types: Refactor AllHTMLAttributes' — refactors large type system for HTML elements\",\n    \"Review comment: 'Perhaps some tests that handle conditional rendering would ensure context isn\\'t lost' — testing strategy suggestion\",\n    \"Review comment: 'I\\'m not super familiar with Preact internals but this change looks good overall' — acknowledges framework limitations while approving\"\n  ]\n}\n```",
+    "parsing_error": "Invalid \\escape: line 67 column 100 (char 2925)"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "reviewer_name": "Thompson1985",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 20,
+    "total_comments": 0,
+    "total_prs": 17,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "Thompson1985",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "React/React-like virtual DOM optimizations",
+      "TypeScript for React components",
+      "Frontend performance profiling",
+      "Preact internals and rendering",
+      "JavaScript iterable handling in JSX",
+      "Context API optimizations",
+      "Dependency array correctness in hooks"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "JSX/TSX"
+    ],
+    "summary": "Thompson1985 is a senior JavaScript reviewer with deep expertise in React/React-like ecosystems (particularly Preact), specializing in virtual DOM optimizations, TypeScript type safety, and frontend performance. Their reviews demonstrate an advanced understanding of rendering mechanics, hydration, and low-level JavaScript patterns like iterables and ref-based state tracking. The reviewer excels in performance-critical optimizations and type system refinements for React-like frameworks, making them highly valuable for frontend codebases requiring precision and efficiency.",
+    "identified_skills": {
+      "React/React-like Frameworks": [
+        "Preact internals",
+        "Virtual DOM diffing",
+        "Hydration synchronization",
+        "JSX iterable children support",
+        "Context API optimizations",
+        "ComponentChildren typing",
+        "FunctionComponent interfaces"
+      ],
+      "TypeScript": [
+        "React component typing",
+        "TypeScript generics for React",
+        "ComponentChild type refinements",
+        "ReactNode compatibility",
+        "Type-safe JSX transformations"
+      ],
+      "Frontend Performance": [
+        "Virtual DOM micro-optimizations",
+        "useEffect dependency validation",
+        "Context consumer unmounting",
+        "Text node rendering hot paths",
+        "Dependency array NaN handling"
+      ],
+      "JavaScript Core": [
+        "Iterable protocol support",
+        "Ref-based state tracking",
+        "DOM manipulation patterns",
+        "Side-effect management",
+        "Closure handling in hooks"
+      ],
+      "Testing & Debugging": [
+        "Hydration debugging",
+        "Runtime issue resolution",
+        "TypeScript compiler validation",
+        "Edge case fixes",
+        "Performance benchmarking"
+      ],
+      "Tooling & DevOps": [
+        "GitHub workflows",
+        "CI pipeline unification",
+        "Version management",
+        "Backporting strategies"
+      ],
+      "Code Quality": [
+        "Type safety improvements",
+        "Performance-focused refactoring",
+        "API contract validation"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Add support for all iterable children' - Demonstrates deep JSX iterable protocol understanding",
+      "PR: 'typings: add context as 3rd type parameter for the Component interface' - Shows advanced TypeScript React typing expertise",
+      "PR: 'Single text node hot path' - Proves virtual DOM optimization focus",
+      "PR: 'Context consumer unmounting perf' - Evidence of performance-critical context API work",
+      "PR: 'Handle NaN comparison in useEffect dependency array' - Demonstrates dependency array correctness knowledge",
+      "PR: 'Use a ref to track the hydrating state' - Shows ref-based state management in hydration",
+      "PR: 'chore(hydration): Test approach to comment markers' - Indicates hydration debugging experience",
+      "PR: 'ci: Unify workflows into singular pipeline' - Supports tooling/DevOps involvement"
+    ]
+  }
+}

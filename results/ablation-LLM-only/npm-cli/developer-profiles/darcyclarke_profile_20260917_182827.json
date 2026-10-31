@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "developer_name": "darcyclarke",
+    "generation_timestamp": "2026-09-17T18:23:46.439854",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 24,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "darcyclarke",
+    "experience_level": "N/A (No JavaScript technical skills demonstrated in provided PRs)",
+    "primary_skills": [],
+    "programming_languages": [],
+    "summary": "The provided GitHub Pull Request data for darcyclarke in the npm_cli repository does not demonstrate any JavaScript technical skills or expertise. All contributions are limited to non-technical, administrative, or documentation-focused tasks such as dependency updates, documentation improvements, and release management. No code changes, file modifications, or language-specific details related to JavaScript are visible in the PRs. To assess JavaScript skills, additional contributions from other repositories or code-related PRs would be required.",
+    "identified_skills": {
+      "Documentation & Process": [
+        "README.md updates",
+        "CONTRIBUTING.md maintenance",
+        "contributor guidelines clarification"
+      ],
+      "Dependency Management": [
+        "npm dependency updates",
+        "security patch coordination",
+        "unused dependency cleanup"
+      ],
+      "Release & Versioning": [
+        "version bumping",
+        "release notes coordination",
+        "semantic versioning adherence"
+      ],
+      "Administrative Maintenance": [
+        "repository settings standardization",
+        "chore-based cleanup tasks",
+        "process documentation"
+      ],
+      "Community & Collaboration": [
+        "triager role guidance",
+        "contribution policy updates"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: 'docs(npm): update `npm` docs' — no JavaScript code changes, purely documentation-focused",
+      "PR title: 'chore: update contributing.md to explicitly outline dep updates' — process documentation, no code",
+      "PR title: 'Release/v7.0.11' — version bumping with no JavaScript implementation details",
+      "PR title: 'chore: remove unused top level dep tough-cookie' — dependency cleanup, no JavaScript files modified",
+      "PR title: 'docs(readme): add note back about branding/origin' — README updates, no technical content",
+      "All PRs have `files_changed: 0` and empty `languages` field, confirming no JavaScript code involvement",
+      "Dependency updates (e.g., 'ini@1.3.8') are general npm packages, not JavaScript-specific contributions",
+      "No references to JavaScript frameworks, libraries, or runtime environments in PR descriptions or titles"
+    ]
+  },
+  "statistics": {
+    "total_prs": 24,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

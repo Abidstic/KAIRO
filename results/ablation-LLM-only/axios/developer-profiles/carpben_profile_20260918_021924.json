@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "developer_name": "carpben",
+    "generation_timestamp": "2026-09-18T02:09:09.945646",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "carpben",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios HTTP client",
+      "Node.js backend development",
+      "Form-data serialization",
+      "Multipart/form-data handling",
+      "JavaScript utility functions",
+      "Code refactoring",
+      "Testing form-data utilities"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Axios ecosystem)"
+    ],
+    "summary": "carpben is a mid-level JavaScript developer with specialized expertise in Node.js backend development, focusing on Axios and form-data handling. Their contributions demonstrate deep knowledge of HTTP request/response flows, particularly for multipart/form-data uploads and file serialization. They excel at refactoring utility functions, adding Node.js-specific support, and writing targeted tests for form-data edge cases. While their work is primarily backend-focused, their contributions to Axios's form-data utilities showcase strong problem-solving skills in API integration and debugging HTTP payloads.",
+    "identified_skills": {
+      "Backend HTTP Clients": [
+        "Axios",
+        "HTTP request/response handling",
+        "Request interceptors"
+      ],
+      "Form-Data Processing": [
+        "FormData serialization",
+        "multipart/form-data",
+        "File upload support",
+        "Nested primitive handling"
+      ],
+      "Node.js Environment": [
+        "Node.js-specific implementations",
+        "Environment-aware code",
+        "Node.js testing"
+      ],
+      "Code Quality": [
+        "Code refactoring",
+        "Modular utility functions",
+        "ESLint compliance"
+      ],
+      "Testing": [
+        "Unit testing for form-data utilities",
+        "Debugging playgrounds"
+      ],
+      "Debugging": [
+        "HTTP payload inspection",
+        "Request flow debugging"
+      ],
+      "JavaScript Utilities": [
+        "toFormData helper function",
+        "transformRequest separation"
+      ],
+      "Package Ecosystem": [
+        "form-data npm package"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: 'toFormData helper function' - Extending Axios's form-data utility for broader use cases",
+      "PR #2: 'Add `toFormData` Node support and tests' - Adding missing Node.js file upload support with test coverage",
+      "PR #3: 'Env form data' - Refactoring to separate `transformRequest` and `toFormData` responsibilities in Node.js environment",
+      "PR #4: 'multipart/form-data playground' - Creating debugging tool to inspect request payload structures",
+      "PR #5: 'Adding node' - Implementing Node.js-specific `form-data` package integration",
+      "PR #6: 'Env form data' - Removing ESLint ignore comment while improving code modularity",
+      "Multiple PRs mention 'Node support' explicitly, demonstrating environment-specific implementation focus",
+      "All PRs reference form-data handling, proving specialized expertise in this domain"
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

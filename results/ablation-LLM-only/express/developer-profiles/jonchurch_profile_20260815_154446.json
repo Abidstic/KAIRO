@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "developer_name": "jonchurch",
+    "generation_timestamp": "2026-08-15T15:36:43.849405",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 20,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "jonchurch",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Express.js Core Development",
+      "Node.js Versioning & Compatibility",
+      "Semantic Versioning & Deprecation Strategies",
+      "Testing & CI/CD Optimization",
+      "Open Source Community Leadership",
+      "Middleware & Routing Patterns"
+    ],
+    "programming_languages": [
+      "JavaScript (ES Modules & CommonJS)",
+      "TypeScript (inferred from Express ecosystem)"
+    ],
+    "summary": "Jon Church is a senior-level JavaScript developer with deep expertise in Express.js and Node.js. Their contributions focus on core framework development, versioning transitions (v4 → v5), and maintaining backward compatibility. Strong in testing strategies, CI/CD optimization, and open-source leadership, with a focus on architectural decisions and process improvements rather than frontend development. Their work demonstrates advanced knowledge of Node.js internals, middleware patterns, and semantic versioning practices within the Express ecosystem.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Middleware",
+        "Routing (path-to-regexp)",
+        "HTTP Response Handling"
+      ],
+      "Node.js Runtime": [
+        "Node.js Version Compatibility",
+        "QUERY/ETAG API Handling",
+        "Async/Await Patterns"
+      ],
+      "Versioning & Deprecations": [
+        "Semantic Versioning (semver)",
+        "v4 → v5 Transition",
+        "Non-integer Status Code Deprecation"
+      ],
+      "Testing & CI/CD": [
+        "Conditional Test Skipping",
+        "GitHub Actions Migration",
+        "Cross-Platform Test Optimization"
+      ],
+      "Documentation & Governance": [
+        "Contributor Documentation",
+        "Triager Role",
+        "Repo Captain Nominations",
+        "Process Documentation"
+      ],
+      "Dependency Management": [
+        "npm Dependency Bumps",
+        "Router Versioning"
+      ],
+      "Git & DevOps": [
+        "Merge Strategies (Fast-Forward)",
+        "Branch Synchronization"
+      ],
+      "Error Handling": [
+        "Status Code Validation",
+        "Deprecation Warnings"
+      ]
+    },
+    "skill_evidence": [
+      "\"skip QUERY method test\" (Node 21/22 compatibility handling)",
+      "\"ignore ETAG query test on 21 and 22\" (version-specific test adjustments)",
+      "\"Throw on invalid status codes\" (Express response validation)",
+      "\"Deprecate non-integer status codes in v4\" (semantic versioning policy)",
+      "\"bump v5 router to beta.1\" (dependency versioning in Express)",
+      "\"Sync 4.x with master\" (branch synchronization strategy)",
+      "\"Improve host spoof regression test\" (test documentation updates)",
+      "\"add Github Access Structure Overview section\" (community documentation)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 20,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

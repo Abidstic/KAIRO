@@ -1,0 +1,64 @@
+{
+  "reviewer_name": "jduthon",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 2,
+    "total_prs": 1,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "jduthon",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "Preact compatibility",
+      "React type definitions",
+      "Dependency management"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "jduthon is a mid-level JavaScript reviewer with specialized expertise in TypeScript type compatibility, particularly between Preact and React ecosystems. Their reviews focus on ensuring correct type definitions and library interoperability, demonstrating strong attention to detail in frontend JavaScript projects. Evidence is limited to two PRs but suggests proficiency in maintaining type safety and dependency correctness in React/Preact-based applications.",
+    "identified_skills": {
+      "TypeScript": [
+        "TypeScript type definitions",
+        "TypeScript compatibility fixes",
+        "Missing type detection"
+      ],
+      "Frontend Frameworks": [
+        "Preact",
+        "React (via @types/react)",
+        "styled-components"
+      ],
+      "Package Management": [
+        "npm/yarn/pnpm dependency resolution",
+        "Type definition packages (@types)"
+      ],
+      "Code Review Focus": [
+        "Type safety validation",
+        "Library compatibility checks",
+        "Missing dependency identification"
+      ],
+      "JavaScript Ecosystem": [
+        "React-like component systems",
+        "CSS-in-JS integration"
+      ]
+    },
+    "skill_evidence": [
+      "PR title includes 'ts:' prefix indicating TypeScript-specific focus",
+      "PR mentions 'improve preact compat types' showing Preact/React type compatibility work",
+      "PR references '@types/react' addition for styled-components in Preact environment",
+      "Both PRs are in COMMENTED state suggesting technical review focus on type correctness",
+      "No backend or testing-related PRs visible in limited sample",
+      "Evidence of dependency management via missing @types/react package addition",
+      "Frontend JavaScript ecosystem demonstrated through styled-components type integration",
+      "TypeScript type system expertise implied by compatibility-focused PRs"
+    ]
+  }
+}

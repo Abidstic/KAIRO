@@ -1,0 +1,40 @@
+{
+  "reviewer_name": "BrendenInhelder",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 11,
+    "total_comments": 7,
+    "total_prs": 1,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "BrendenInhelder",
+    "experience_level": "Unknown",
+    "primary_skills": [],
+    "programming_languages": [],
+    "summary": "The provided GitHub review data is severely limited and contains no actionable evidence (e.g., PR descriptions, code changes, or comments). Without concrete review content, it is impossible to assess BrendenInhelder's JavaScript skills or experience level. The dataset consists solely of repeated PR titles with no associated files, changes, or feedback, rendering any analysis speculative and unreliable.",
+    "identified_skills": {
+      "Frontend Frameworks": [],
+      "JavaScript Language Features": [],
+      "Testing": [],
+      "Performance Optimization": [],
+      "Code Review & Quality": [],
+      "Backend Frameworks": [],
+      "Event-Driven Programming": [],
+      "Custom Hooks": [],
+      "Documentation": []
+    },
+    "skill_evidence": [
+      "No PR descriptions or comments available to infer technical depth or patterns",
+      "All PRs are identical with no files changed (files_changed: 0), indicating missing or malformed data",
+      "No review comments or line-by-line feedback to assess coding style or technical rigor",
+      "No repository context or labels to categorize the work (e.g., frontend/backend, testing, etc.)",
+      "No evidence of iterative feedback or discussion threads to evaluate problem-solving approach",
+      "PR title 'feat: Add onListen Hook' lacks context—could be React, Vue, or custom event system, but no supporting details"
+    ]
+  }
+}

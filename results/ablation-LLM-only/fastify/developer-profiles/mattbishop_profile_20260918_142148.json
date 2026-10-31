@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "mattbishop",
+    "generation_timestamp": "2026-09-18T14:11:18.773249",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "mattbishop",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify Framework",
+      "Node.js Testing",
+      "Fastify Plugin Ecosystem",
+      "ND-JSON Serialization",
+      "JavaScript Documentation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Fastify ecosystem)"
+    ],
+    "summary": "mattbishop demonstrates **Mid-level expertise** in the Fastify Node.js framework, with a strong focus on **testing, plugin ecosystem documentation, and ND-JSON serialization behavior**. Their contributions are primarily in Fastify’s core areas, including verifying edge-case serialization, updating plugin references, and adhering to Fastify’s testing/benchmarking processes. While their contributions are limited to a single repository, the depth of their involvement in Fastify’s internals (e.g., ND-JSON handling) and their adherence to open-source contribution practices suggest a **technically proficient contributor** with a specialization in Fastify’s plugin and testing infrastructure. No evidence of frontend frameworks or broader backend systems (e.g., Express, NestJS) is present in the analyzed PRs.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify"
+      ],
+      "Node.js Runtime": [
+        "ND-JSON serialization",
+        "HTTP response handling",
+        "plugin registration"
+      ],
+      "Testing": [
+        "unit testing",
+        "edge-case verification",
+        "Fastify test utilities"
+      ],
+      "Documentation": [
+        "plugin ecosystem documentation",
+        "Markdown-based docs",
+        "contributor guidelines"
+      ],
+      "Open-Source Practices": [
+        "PR labeling",
+        "testing checklists",
+        "benchmarking processes"
+      ],
+      "JavaScript Features": [
+        "serialization logic",
+        "Node.js streams"
+      ],
+      "Plugin Systems": [
+        "Fastify plugin architecture",
+        "plugin registration patterns"
+      ],
+      "Contribution Workflows": [
+        "GitHub PR reviews",
+        "Fastify’s contributing guidelines"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: Added test to verify ND-JSON content is not serialized as JSON (label: `test`), demonstrating familiarity with Fastify’s serialization behavior and testing utilities.",
+      "PR 2 & 3: Updated ecosystem documentation with references to `fastify-allow` and `fastify-https-always` plugins (labels: `documentation`, `plugin`), showing expertise in Fastify’s plugin ecosystem and Markdown documentation.",
+      "All PRs adhere to Fastify’s testing/benchmarking checklist, indicating experience with Node.js testing frameworks and contributor workflows.",
+      "ND-JSON handling in PR 1 suggests knowledge of Node.js streams and custom serialization logic for HTTP responses.",
+      "No code changes in PRs, but consistent focus on testing and documentation aligns with Fastify’s emphasis on reliability and plugin maintainability.",
+      "PR labels (`test`, `documentation`, `plugin`) reflect structured contribution patterns typical of mid-level open-source maintainers.",
+      "Fastify’s plugin system and serialization tests imply deep understanding of Fastify’s middleware and response handling internals."
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

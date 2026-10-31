@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "developer_name": "sgratzl",
+    "generation_timestamp": "2026-09-17T22:55:23.116035",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "sgratzl",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "ES Modules (ESM) and tree-shaking",
+      "JavaScript module refactoring",
+      "Breaking change management",
+      "Library maintenance and API design",
+      "Code quality and refactoring"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "sgratzl is a mid-level JavaScript developer with specialized expertise in TypeScript integration and JavaScript module optimization within large-scale libraries. Their contributions to Chart.js demonstrate strong skills in refactoring for performance (e.g., tree-shaking), managing breaking changes, and maintaining clean, maintainable codebases. The developer shows proficiency in gradual TypeScript migration, module system evolution, and documentation-aware refactoring. While primarily focused on backend-like library development (not frontend UI frameworks), their work highlights deep technical understanding of modern JavaScript tooling and ecosystem practices.",
+    "identified_skills": {
+      "TypeScript": [
+        "TypeScript type definitions",
+        "TypeScript gradual migration",
+        "TypeScript syntax fixes",
+        "TypeScript API design"
+      ],
+      "Module Systems": [
+        "ES Modules (ESM) optimization",
+        "Tree-shaking via direct imports",
+        "CommonJS (CJS) to ESM migration",
+        "Flat module refactoring"
+      ],
+      "Library Development": [
+        "Breaking change implementation",
+        "API refactoring",
+        "Internal library helpers",
+        "Package splitting (helpers package)"
+      ],
+      "Code Quality": [
+        "Code refactoring for maintainability",
+        "Technical debt reduction",
+        "Syntax cleanup (TypeScript)",
+        "Import organization"
+      ],
+      "Documentation": [
+        "Breaking change documentation",
+        "User testing requirements",
+        "Documentation labels"
+      ],
+      "Build Optimization": [
+        "Bundle size reduction",
+        "Module bundler awareness"
+      ],
+      "Collaboration": [
+        "WIP (Work In Progress) PRs",
+        "Iterative development",
+        "PR review process"
+      ],
+      "Package Management": [
+        "npm package publishing",
+        "Separate package creation"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: 'use direct imports instead of generic helpers import' → Replaced generic imports with direct ones for tree-shaking (Module Systems, Build Optimization)",
+      "PR 3: 'WIP: TypeScript types' → Initiated TypeScript migration with WIP label (TypeScript, Collaboration)",
+      "PR 4: 'small type fixes' → Corrected TypeScript type definitions (TypeScript)",
+      "PR 5: 'fix typings' → Resolved invalid TypeScript syntax (TypeScript, Code Quality)",
+      "PR 6: 'flat helpers' → Created separate helpers package with breaking change (Library Development, Package Management, Documentation)",
+      "PR 6 labels: 'type: documentation' → Explicit documentation requirements for breaking change (Documentation)",
+      "PR 6 description: 'please test' → User testing note for module refactor (Collaboration)",
+      "PR 1 description: 'prepares for tree-shaking' → Direct evidence of bundle optimization intent (Build Optimization)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

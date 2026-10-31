@@ -1,0 +1,91 @@
+{
+  "reviewer_name": "lukekarrys",
+  "generated_at": "20260917_180539",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 45,
+    "total_comments": 38,
+    "total_prs": 20,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "lukekarrys",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Node.js internals",
+      "npm CLI architecture",
+      "JavaScript runtime behavior",
+      "Terminal/CLI tooling",
+      "Package management systems",
+      "Cross-platform scripting (PowerShell/cmd.exe)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from npm CLI context)"
+    ],
+    "summary": "lukekarrys is a senior-level JavaScript reviewer with deep expertise in Node.js and npm CLI internals, specializing in runtime behavior, package management systems, and terminal/CLI tooling. Their reviews demonstrate a strong focus on fixing regressions, optimizing workspace handling, and improving cross-platform CLI reliability. The reviewer consistently engages with npm's core architecture, including package-lock modes, version detection, and terminal display logic, while maintaining rigorous testing standards for CLI tooling.",
+    "identified_skills": {
+      "Node.js Core": [
+        "Node.js module resolution",
+        "Node.js runtime behavior",
+        "`util.format` string processing",
+        "Constructor patterns in Node.js classes"
+      ],
+      "npm CLI Architecture": [
+        "npm CLI command-line argument parsing",
+        "workspace subdirectory handling",
+        "package-lock.json querying/auditing",
+        "`package-lock-only` and `no-package-lock` modes",
+        "`git.find` for Git repository detection"
+      ],
+      "Terminal & CLI Tooling": [
+        "Terminal display logic refactoring",
+        "Control character handling in CLI output",
+        "Spinner feature implementation",
+        "PowerShell/UNC path support",
+        "`ps1` script handling for npm/npx"
+      ],
+      "Package Management": [
+        "Monorepo/workspace support",
+        "Git integration in package managers",
+        "`npm query` and `npm audit` optimizations",
+        "`foreground-scripts` default behavior"
+      ],
+      "Testing & Debugging": [
+        "CLI test suite maintenance",
+        "Test-driven development (TDD) mindset",
+        "Regression testing for npm CLI",
+        "Cross-cutting test strategies (unit vs. integration)"
+      ],
+      "Code Review Patterns": [
+        "npm internals approvals",
+        "Testing feedback requests",
+        "Runtime correctness validation",
+        "CLI tooling reliability focus"
+      ],
+      "Cross-Platform Development": [
+        "PowerShell vs. cmd.exe compatibility",
+        "UNC path handling",
+        "Cross-environment CLI behavior"
+      ],
+      "JavaScript Language": [
+        "Modern JS patterns (ES6+)",
+        "Prototypal inheritance",
+        "Error handling in CLI tools"
+      ]
+    },
+    "skill_evidence": [
+      "Fixes for `foreground-scripts` default behavior in npm 9/10 ('feat: refactor terminal display')",
+      "Handling UNC paths in PowerShell ('fix: make omit flags work properly with workspaces')",
+      "Git detection in subdirectories via `git.find` ('walking directories to find the root repo')",
+      "Terminal display refactoring including control character stripping ('display.js refactor')",
+      "Approval of `package-lock-only` and `no-package-lock` modes for `npm query` and `npm audit`",
+      "Requesting test feedback before approving CLI changes ('Requesting changes until we have feedback from Node and tests')",
+      "Debugging `libnpmversion` vs. `commands/version` CLI test discrepancies",
+      "Adding a spinner feature to improve CLI UX ('feat: add spinner')"
+    ]
+  }
+}

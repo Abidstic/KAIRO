@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "developer_name": "jmrog",
+    "generation_timestamp": "2026-09-18T04:26:01.557580",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "jmrog",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "Preact",
+      "Frontend Framework Architecture",
+      "Type Definitions",
+      "Accessibility (a11y) Patterns"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)"
+    ],
+    "summary": "jmrog is a Mid-level JavaScript developer with specialized expertise in TypeScript type definitions for frontend frameworks, particularly Preact. Their contributions focus on designing and proposing robust type systems for component properties, static members, and accessibility-related attributes. The developer demonstrates strong architectural thinking by contributing to API design discussions before implementation, emphasizing type safety and inclusive component patterns. While their GitHub PRs show no direct code changes, they clearly influence the technical direction of Preact's TypeScript support and accessibility features.",
+    "identified_skills": {
+      "TypeScript Specialization": [
+        "TypeScript type definitions",
+        "Static property typings",
+        "Functional component typings",
+        "Accessibility attribute typings"
+      ],
+      "Frontend Framework Contributions": [
+        "Preact component architecture",
+        "Static class property handling",
+        "Attribute normalization (htmlFor)"
+      ],
+      "Documentation & API Design": [
+        "Type declaration files (.d.ts)",
+        "Proposal-driven development",
+        "API surface design discussions"
+      ],
+      "Accessibility": [
+        "htmlFor attribute handling",
+        "Inclusive component patterns"
+      ],
+      "JavaScript Language Features": [
+        "ES6+ static class members",
+        "Functional programming patterns"
+      ],
+      "Collaboration & Communication": [
+        "RFC-style PRs",
+        "Maintainer discussions"
+      ]
+    },
+    "skill_evidence": [
+      "\"Add basic typings for supported class-level (static) Component properties\" - PR title explicitly mentions static property typings",
+      "\"Add TypeScript typings for functional components and inclusive components\" - Demonstrates focus on functional component typings and accessibility",
+      "\"Typings: camel-cases two attributes, alphabetizes, and adds htmlFor\" - Shows attention to attribute naming conventions and accessibility attributes",
+      "\"types\" label on PR - Confirms explicit TypeScript type definition contributions",
+      "No file changes in PRs (files_changed: 0) - Indicates proposal/discussion focus rather than implementation",
+      "Reference to \"htmlFor\" attribute - Evidence of accessibility pattern awareness",
+      "Mentions of \"inclusive components\" - Suggests consideration of accessibility in component design",
+      "All PRs from Preact repository - Confirms framework-specific expertise in Preact's architecture"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

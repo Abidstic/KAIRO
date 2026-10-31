@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "gpoitch",
+    "generation_timestamp": "2026-09-18T04:17:20.407568",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "gpoitch",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Preact (Virtual DOM, Component Lifecycle)",
+      "TypeScript (Type Definitions, JSX Typing)",
+      "Babel (Transpilation, Plugin Management)",
+      "Webpack (Bundling, Configuration)",
+      "Performance Optimization (Micro-Optimizations, DOM Lookups)",
+      "Testing (Karma, Code Coverage, Istanbul)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "gpoitch is a Mid-Level JavaScript developer with specialized expertise in Preact, TypeScript, and frontend tooling. Their contributions focus on optimizing virtual DOM performance, enhancing type safety, and improving build pipelines (Babel/Webpack/Karma). Strong skills in micro-optimizations, test suite maintenance, and dependency upgrades demonstrate deep frontend engineering proficiency. Experience is primarily frontend-focused, with no evidence of backend or DevOps work.",
+    "identified_skills": {
+      "Frontend Frameworks": [
+        "Preact",
+        "Virtual DOM",
+        "Component Recycling"
+      ],
+      "TypeScript": [
+        "Type Definitions",
+        "JSX Typing",
+        "Type Testing"
+      ],
+      "Transpilation & Build Tools": [
+        "Babel 6 Upgrade",
+        "Webpack 2 Configuration",
+        "Codemods"
+      ],
+      "Testing & QA": [
+        "Karma Test Runner",
+        "Code Coverage (Istanbul)",
+        "Missing Test Detection"
+      ],
+      "Performance Engineering": [
+        "DOM Lookup Optimizations",
+        "Gzip Size Analysis",
+        "Micro-Optimizations"
+      ],
+      "Build Pipeline": [
+        "Dependency Upgrades",
+        "Bundle Analysis",
+        "Tooling Configuration"
+      ],
+      "Documentation & Features": [
+        "Feature Proposals",
+        "User-Facing Options"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'removeNode micro-optimization' - DOM lookup reduction in virtual DOM",
+      "PR: '[types] Add more type tests for h function' - TypeScript JSX typing improvements",
+      "PR: 'Upgrade to webpack 2' - Webpack configuration and bundling changes",
+      "PR: 'Babel 6 upgrade' - Transpilation plugin and preset updates",
+      "PR: 'Accurate code coverage + more tests' - Karma/Istanbul coverage fixes",
+      "PR: 'Add option to disable component recycling' - Feature proposal with user impact analysis",
+      "PR: 'Fix gzip size impact' - Bundle size optimization considerations"
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

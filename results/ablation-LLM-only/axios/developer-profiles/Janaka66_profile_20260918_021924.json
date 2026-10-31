@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "developer_name": "Janaka66",
+    "generation_timestamp": "2026-09-18T02:07:55.224982",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 8,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 8
+  },
+  "profile": {
+    "developer_name": "Janaka66",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Axios internals (HTTP client)",
+      "JavaScript error handling",
+      "JSDoc documentation",
+      "Asynchronous request cancellation (AbortSignal)",
+      "JSON serialization/deserialization",
+      "Testing edge cases in JavaScript libraries"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred via JSDoc usage)"
+    ],
+    "summary": "Janaka66 is a Mid-Level JavaScript developer with specialized expertise in Axios, demonstrating strong skills in error handling, documentation, and asynchronous programming. Their contributions focus on refining Axios's core functionality—particularly in error serialization, HTTP headers, and request cancellation—while maintaining high standards for documentation and test coverage. The precision in their PRs suggests experience working on large-scale, well-maintained open-source projects, with a focus on robustness and developer experience (DX).",
+    "identified_skills": {
+      "Error Handling & Serialization": [
+        "Circular reference handling in JavaScript objects",
+        "Custom error classes (AxiosError)",
+        "JSON serialization (toJSON method)"
+      ],
+      "Documentation & Type Safety": [
+        "JSDoc annotations",
+        "API documentation improvements",
+        "TypeScript-like type hints in plain JS"
+      ],
+      "Asynchronous Programming": [
+        "AbortSignal/AbortController",
+        "Async error reproduction cases",
+        "Request cancellation patterns"
+      ],
+      "Library-Specific Expertise": [
+        "Axios internals (AxiosError, AxiosHeaders)",
+        "HTTP client configuration",
+        "Request/response handling"
+      ],
+      "Testing & Debugging": [
+        "Edge case reproduction",
+        "Async behavior testing",
+        "Test suite contributions"
+      ],
+      "Code Quality & Refactoring": [
+        "Incremental documentation fixes",
+        "Precision-focused PRs (small, targeted changes)"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'fix(AxiosError): prevent circular reference crash in toJSON' → Demonstrates deep understanding of circular reference handling in JavaScript objects and custom serialization methods.",
+      "PR: 'docs(utils): add missing JSDoc comments' → Shows consistent focus on improving documentation with JSDoc for better type safety and DX.",
+      "PR: 'docs(AxiosHeaders): add comprehensive JSDoc comments for better DX' → Indicates familiarity with HTTP headers and a commitment to self-documenting code.",
+      "PR: 'test: add reproduction case for missing AbortSignal reason' → Proves ability to debug and test asynchronous cancellation patterns in JavaScript.",
+      "Multiple 'docs()' PRs → Suggests iterative refinement of documentation across Axios's core components, implying experience in large-scale projects.",
+      "All PRs are Axios-specific → Confirms specialized knowledge of this HTTP client library, including its error system and headers.",
+      "Precision in PRs (0 additions/deletions in many cases) → Reflects disciplined, incremental contributions focused on quality over quantity."
+    ]
+  },
+  "statistics": {
+    "total_prs": 8,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

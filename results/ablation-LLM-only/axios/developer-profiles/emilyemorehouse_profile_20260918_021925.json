@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "developer_name": "emilyemorehouse",
+    "generation_timestamp": "2026-09-18T02:13:28.151374",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "emilyemorehouse",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Axios HTTP client",
+      "Node.js backend development",
+      "HTTP networking & redirects",
+      "Dependency management (npm)",
+      "Technical documentation",
+      "HTTP client testing",
+      "Config optimization"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Axios ecosystem)"
+    ],
+    "summary": "Emilyemorehouse is a Mid-Level JavaScript developer with specialized expertise in Axios, a popular HTTP client library for Node.js and browsers. Their contributions focus on backend networking features, dependency updates, and technical documentation. The developer demonstrates strong skills in HTTP protocol intricacies (redirects, proxies, WebSocket-like behavior), testing HTTP client functionality, and maintaining package compatibility. While contributions are limited to a single repository, the depth of technical engagement in Axios indicates proficiency in Node.js backend development and collaborative open-source practices.",
+    "identified_skills": {
+      "HTTP Client & Networking": [
+        "HTTP redirects",
+        "Proxy configuration",
+        "WebSocket-like socketPath",
+        "maxBodyLength handling",
+        "follow-redirects integration"
+      ],
+      "Backend Development": [
+        "Node.js module development",
+        "npm package maintenance",
+        "package.json dependency updates"
+      ],
+      "Testing & QA": [
+        "HTTP client test cases",
+        "Edge-case testing (socketPath/proxy combinations)"
+      ],
+      "Documentation": [
+        "README updates",
+        "CHANGELOG maintenance",
+        "Technical feature documentation"
+      ],
+      "Code Optimization": [
+        "Config merge simplification",
+        "Redundancy reduction in request handling"
+      ],
+      "Dependency Management": [
+        "npm version upgrades",
+        "Dependency compatibility checks"
+      ],
+      "Collaboration": [
+        "Issue triage",
+        "Follow-up PRs on existing issues",
+        "Cross-referenced PRs"
+      ],
+      "Asynchronous Patterns": [
+        "Promise-based HTTP handling"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Updated follow-redirects version to support maxBodyLength, addressing HTTP response size limits",
+      "PR #2: Added HTTP test for socketPath option with proxy configuration, demonstrating networking test coverage",
+      "PR #2: Included documentation for socketPath usage with proxies in README, showing technical writing skills",
+      "PR #3: Simplified redundant config merge logic, indicating optimization focus in Axios request handling",
+      "PR #4: Fixed CHANGELOG.md formatting with proper PR linking, demonstrating attention to documentation quality",
+      "All PRs reference existing issues (#1286, #1287, #1070), proving collaborative issue resolution approach",
+      "PR titles/descriptions focus on HTTP-specific features (redirects, proxies, socketPath) rather than generic code changes",
+      "Dependency updates in package.json reflect awareness of version compatibility and security implications"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

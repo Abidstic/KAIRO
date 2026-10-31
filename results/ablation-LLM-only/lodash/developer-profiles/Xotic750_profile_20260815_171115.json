@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "Xotic750",
+    "generation_timestamp": "2026-08-15T16:55:21.845052",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 23,
+    "repositories": [
+      "lodash"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "Xotic750",
+    "raw_response": "```json\n{\n  \"developer_name\": \"Xotic750\",\n  \"experience_level\": \"Senior\",\n  \"primary_skills\": [\n    \"JavaScript utility function design\",\n    \"Type coercion and edge-case handling\",\n    \"IEEE 754 floating-point precision awareness\",\n    \"Lodash internals and API improvements\",\n    \"Comprehensive unit testing (Jest/Mocha)\",\n    \"Technical documentation and examples\",\n    \"Collaborative open-source contribution\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (inferred from Lodash ecosystem)\"\n  ],\n  \"summary\": \"Xotic750 is a highly specialized JavaScript developer with deep expertise in utility function design, type coercion, and edge-case handling, demonstrated through extensive contributions to Lodash. Their work focuses on improving core JavaScript utilities with rigorous testing and precise documentation. The developer exhibits senior-level proficiency in JavaScript's low-level behaviors (e.g., IEEE 754 compliance, zero sign preservation) and collaborative open-source practices. Contributions are entirely focused on Lodash's utility library, showcasing mastery of functional programming patterns and API consistency.\",\n  \"identified_skills\": {\n    \"JavaScript Core\": [\n      \"Type coercion (toNumber, toString, toSafeInteger)\",\n      \"IEEE 754 floating-point handling\",\n      \"Zero sign preservation\",\n      \"Edge-case arithmetic (NaN, Infinity)\",\n      \"String-to-number parsing\"\n    ],\n    \"Utility Function Development\": [\n      \"Lodash utility function design (clamp, truncate, createRound)\",\n      \"API consistency improvements\",\n      \"Backward compatibility considerations\",\n      \"Modular utility exposure (toLength, isLength)\"\n    ],\n    \"Testing Practices\": [\n      \"Unit testing for edge cases\",\n      \"Test-driven development\",\n      \"Jest/Mocha test suite contributions\",\n      \"Comprehensive test coverage for utilities\"\n    ],\n    \"Documentation\": [\n      \"Technical documentation examples\",\n      \"API behavior clarification\",\n      \"Community-driven doc improvements\"\n    ],\n    \"Open-Source Collaboration\": [\n      \"GitHub issue discussion engagement\",\n      \"Community feedback integration\",\n      \"Collaborative PR refinement\"\n    ],\n    \"Lodash Ecosystem\": [\n      \"Lodash internals knowledge\",\n      \"Utility function optimization\",\n      \"API naming conventions\"\n    ],\n    \"Mathematical Utilities\": [\n      \"Precision-aware rounding\",\n      \"Floating-point utility improvements\",\n      \"Random number generation awareness\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PRs frequently address `toNumber` and `toString` coercion edge cases (e.g., 'Preserve sign of 0', 'Improve string-to-number parsing').\",\n    \"IEEE 754 comments in PRs like '_.random IEEE 754 limitations' and 'createRound sign preservation for 0'.\",\n    \"Adding missing utilities (`toSafeInteger`, `toLength`, `isLength`) with comprehensive test coverage.\",\n    \"Renaming `trunc` to `truncate` based on community discussion, demonstrating API consistency focus.\",\n    \"Every PR includes tests for edge cases like `NaN`, `Infinity`, binary/octal strings, and zero handling.\",\n    \"Documentation PRs add examples for `toNumber`, `toString`, and `toLength` with clear behavior explanations.\",\n    \"Collaborative PRs reference GitHub issues and discussions (e.g., 'createRound' refs issue #1602).\",\n    \"Contributions show deep Lodash internals knowledge (e.g., modular utility exposure, API naming conventions).\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 68 column 3 (char 3433)"
+  },
+  "statistics": {
+    "total_prs": 23,
+    "repos_contributed": 1,
+    "repo_list": [
+      "lodash"
+    ]
+  }
+}

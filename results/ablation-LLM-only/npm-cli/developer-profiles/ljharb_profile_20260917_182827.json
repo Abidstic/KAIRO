@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "developer_name": "ljharb",
+    "generation_timestamp": "2026-09-17T18:26:15.117626",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 20,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "ljharb",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Node.js Runtime Compatibility",
+      "npm CLI Internals",
+      "ES Modules (ESM) Implementation",
+      "Dependency Resolution & Lockfile Systems",
+      "Semantic Versioning & Breaking Change Management",
+      "Runtime-Specific Polyfilling",
+      "Package Metadata Standardization"
+    ],
+    "programming_languages": [
+      "JavaScript (ESM/CommonJS)",
+      "Node.js JavaScript API",
+      "JSON Schema"
+    ],
+    "summary": "ljharb is a senior-level JavaScript developer with deep expertise in the Node.js ecosystem, specializing in npm CLI internals, dependency management, and runtime compatibility. Their contributions focus on core npm systems like Arborist (dependency resolution), shrinkwrap (lockfiles), and modern package.json features such as the `exports` field and `funding` metadata. The developer demonstrates strong skills in handling Node.js version-specific bugs, implementing ESM standards, and managing breaking changes with Semantic Versioning. Their work spans runtime polyfilling, test suite optimization, and RFC-driven improvements, reflecting a high level of ownership over npm's technical foundations.",
+    "identified_skills": {
+      "Node.js Runtime Systems": [
+        "Node.js version compatibility",
+        "Node.js API polyfilling",
+        "Runtime-specific bug resolution",
+        "`fs.promises` fallback implementation"
+      ],
+      "npm Core Systems": [
+        "Arborist (dependency tree builder)",
+        "shrinkwrap (lockfile generation)",
+        "workspace tooling",
+        "`libnpm*` internals"
+      ],
+      "Package Metadata & Standards": [
+        "ESM `exports` field implementation",
+        "`funding` field support",
+        "package.json schema evolution",
+        "Semantic Versioning (semver:patch/minor/major)"
+      ],
+      "Testing & Debugging": [
+        "Node.js version-aware tests",
+        "runtime-specific test isolation",
+        "test suite modularization"
+      ],
+      "Documentation & RFCs": [
+        "npm RFC engagement",
+        "documentation maintenance",
+        "UX-focused CLI improvements"
+      ],
+      "Breaking Change Management": [
+        "major version updates",
+        "backward compatibility analysis",
+        "breaking change documentation"
+      ],
+      "JavaScript Language Features": [
+        "ES Modules (ESM)",
+        "modern package.json features"
+      ],
+      "Dependency Management": [
+        "lockfile serialization",
+        "workspace repository URLs"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: 'Update `knownBroken` version' – documents Node.js version support for npm, showing deep Node.js versioning knowledge",
+      "PR 2: 'unsupported: add node v13' – updates npm’s Node.js version support logic, demonstrating runtime compatibility handling",
+      "PR 5: '[Breaking] add `exports` field' – introduces ESM standard alignment, proving ESM implementation expertise and RFC engagement",
+      "PR 7: '[fix] node v10.0 lacks `fs.promises`' – polyfills missing Node.js API using `util.promisify`, showing runtime polyfill skills",
+      "PR 8: '[tests] rewrite doctor tests to dictate current node version' – runtime-aware test suite adjustments for Node.js versions",
+      "PR 10: 'fix: shrinkwrap in node v10.0' – fixes `Object.entries` bug in Node.js 10, proving edge-case debugging for older runtimes",
+      "PR 11: 'feat(arborist): add `toJSON`/`toString` methods' – Arborist internals work, indicating deep dependency resolution system knowledge",
+      "PR 19: 'docs: filter archives out of version manager search' – UX-focused documentation improvement, showing RFC-driven CLI enhancements"
+    ]
+  },
+  "statistics": {
+    "total_prs": 20,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "developer_name": "jhaenchen",
+    "generation_timestamp": "2026-09-17T23:11:13.491304",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "jhaenchen",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js rendering engine",
+      "Canvas-based visualization debugging",
+      "Frontend JavaScript (ES6+)",
+      "CSS layout and box-model adjustments",
+      "Visual rendering precision fixes"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "jhaenchen is a Mid-level JavaScript developer with specialized expertise in Chart.js, focusing on frontend visualization and rendering precision. Their contributions demonstrate deep knowledge of Canvas-based rendering, CSS layout interactions, and debugging visual artifacts in data charts. The developer excels in fixing edge cases related to axes, borders, padding, and canvas scaling, indicating strong frontend debugging and UI/UX awareness. While contributions are limited to Chart.js, the quality and specificity of fixes suggest a focused but impactful skill set in visualization libraries and rendering optimization.",
+    "identified_skills": {
+      "Frontend Rendering": [
+        "Canvas API rendering",
+        "Visual rendering precision",
+        "Rendering artifact debugging"
+      ],
+      "Charting Libraries": [
+        "Chart.js internals",
+        "Axis and border rendering",
+        "Chart layout adjustments"
+      ],
+      "CSS and Layout": [
+        "Box model adjustments",
+        "Padding and border fixes",
+        "CSS/JS interaction debugging"
+      ],
+      "Debugging and Testing": [
+        "Edge case reproduction",
+        "Visual regression fixes",
+        "Manual testing for rendering"
+      ],
+      "Git and Collaboration": [
+        "GitHub PR workflow",
+        "Incremental code changes",
+        "Issue triage"
+      ],
+      "TypeScript/JS": [
+        "Modern JavaScript (ES6+)",
+        "Type-safe adjustments"
+      ],
+      "Data Visualization": [
+        "Chart structure awareness",
+        "User experience in data visualization"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed 'Don’t draw tick across axis/border' (axis rendering precision)",
+      "Addressed 'Zero pointBorderWidth still drawing border' (edge case debugging)",
+      "Resolved 'chart not extending to full canvas width' (CSS/JS layout fix)",
+      "Patched 'hidden right padding' (visual regression in chart layout)",
+      "All PRs labeled as 'type: bug' indicating focused debugging mindset",
+      "Changes involve precise adjustments to border widths and padding values",
+      "PRs demonstrate familiarity with Chart.js’s TypeScript type system",
+      "Contributions show clean, incremental fixes without large refactors"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

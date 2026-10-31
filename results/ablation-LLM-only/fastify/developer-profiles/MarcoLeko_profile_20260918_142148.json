@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "developer_name": "MarcoLeko",
+    "generation_timestamp": "2026-09-18T14:17:13.713906",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "MarcoLeko",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript (Generics, Advanced Typing)",
+      "Fastify Framework (Core Contributions)",
+      "Node.js Backend Development",
+      "API/Contract Design in TypeScript",
+      "Generic Programming Patterns"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (Node.js)"
+    ],
+    "summary": "MarcoLeko is a mid-level JavaScript developer with specialized expertise in TypeScript generics and Fastify framework contributions. Their work focuses on designing and implementing type-safe abstractions within Fastify’s core request handling system, demonstrating deep knowledge of generic types, backend middleware, and framework architecture. While contributions are backend-focused and primarily involve Fastify’s internals, their PRs indicate a strong ability to refine API contracts and improve type safety without necessarily implementing low-level code changes. No evidence of frontend or testing experience is present in the analyzed PRs.",
+    "identified_skills": {
+      "TypeScript Advanced Features": [
+        "Generic Types",
+        "TypeScript Compiler Integration",
+        "TypeScript Utility Types"
+      ],
+      "Backend Frameworks": [
+        "Fastify (Core Contributions)",
+        "FastifyRequest Extensions",
+        "Middleware Architecture"
+      ],
+      "Generic Programming": [
+        "Generic Type Design",
+        "Reusable Type Abstractions",
+        "Type Safety in Frameworks"
+      ],
+      "API Design": [
+        "Contract Design for Fastify",
+        "Request/Response Type System",
+        "Framework-Level API Improvements"
+      ],
+      "Code Quality": [
+        "Bug Fixes (Type Safety)",
+        "Code Refactoring (Generic Patterns)",
+        "Design-Driven Contributions"
+      ],
+      "Node.js Ecosystem": [
+        "Node.js Runtime",
+        "HTTP Request Handling"
+      ],
+      "Collaboration": [
+        "Framework-Level Discussions",
+        "API Proposal Contributions"
+      ]
+    },
+    "skill_evidence": [
+      "All three PRs labeled 'typescript' with titles like 'add generic logger type' and 'streamline fastify request to be generic', indicating deep TypeScript generics expertise.",
+      "PRs modify `FastifyRequest` and route handlers, showing core Fastify framework contributions beyond plugins.",
+      "'Bugfix/streamline fastify request to be generic' suggests type safety improvements and refactoring for reusable generic patterns.",
+      "No file changes (`files_changed: 0`) in PRs implies design/API discussions or type definition updates, common in TypeScript-first projects.",
+      "PRs reference 'generic logger' and 'route handler' extensions, demonstrating reusable type abstractions for Fastify’s request system.",
+      "Contributions align with Fastify’s TypeScript-first approach, indicating familiarity with `tsc` and TypeScript tooling.",
+      "No frontend or testing frameworks (e.g., React, Jest) appear in PRs, confirming backend-focused specialization.",
+      "Generic type usage in PR titles (e.g., 'generic logger') aligns with advanced TypeScript patterns for framework-level abstractions."
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

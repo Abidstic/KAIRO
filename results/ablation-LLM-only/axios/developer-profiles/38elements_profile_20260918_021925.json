@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "38elements",
+    "generation_timestamp": "2026-09-18T02:09:36.360065",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "38elements",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios internals (adapters, environment-specific configurations)",
+      "JavaScript HTTP client libraries",
+      "Environment-specific testing (non-standard browser environments)",
+      "Dependency management and cleanup",
+      "JavaScript modular design (adapter patterns)",
+      "Test maintenance and updates"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Axios ecosystem, though not explicitly shown in PRs)"
+    ],
+    "summary": "38elements is a mid-level JavaScript developer with specialized expertise in the Axios HTTP client library. Their contributions focus on adapter-related changes, environment-specific testing, and dependency maintenance. The developer demonstrates strong skills in modular JavaScript design, test updates for non-standard environments, and proactive cleanup of unused dependencies. While primarily backend-focused (Node.js and cross-environment Axios usage), their work also involves documentation improvements and iterative code maintenance. The profile reflects a developer who thrives in library maintenance, testing, and ensuring compatibility across diverse JavaScript environments.",
+    "identified_skills": {
+      "HTTP Client Libraries": [
+        "Axios",
+        "HTTP adapter patterns"
+      ],
+      "Environment-Specific JavaScript": [
+        "Non-standard browser environments",
+        "Node.js compatibility"
+      ],
+      "Testing": [
+        "Test updates for adapter changes",
+        "Environment-specific test cases"
+      ],
+      "Dependency Management": [
+        "Unused dependency removal",
+        "PhantomJS cleanup"
+      ],
+      "Documentation": [
+        "Adapter documentation fixes"
+      ],
+      "Modular JavaScript": [
+        "Adapter function arguments",
+        "Promise-based HTTP handling"
+      ],
+      "Build System Awareness": [
+        "Dependency bloat reduction"
+      ],
+      "Code Maintenance": [
+        "Iterative documentation fixes",
+        "Proactive cleanup"
+      ],
+      "Asynchronous Programming": [
+        "Promise-based HTTP requests"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: 'Fixing document for adapter' – Documentation updates for adapter-related code",
+      "PR #2: 'Updating test for adapter' – Test changes for adapter function argument modifications",
+      "PR #3 (duplicate): 'Fixing document for adapter' – Follow-up documentation work",
+      "PR #4: 'Adding test for non-standard browser envs' – Tests for Node.js/server-side environments",
+      "PR #5: 'Removing unused dependencies' – PhantomJS dependency cleanup in Axios",
+      "Adapter function arguments referenced in PR #2 – Evidence of Promise/async-aware adapter design",
+      "Non-standard browser envs mentioned in PR #4 – Cross-environment JavaScript expertise",
+      "Iterative PR titles ('Fixing document for adapter') – Proactive maintenance mindset"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

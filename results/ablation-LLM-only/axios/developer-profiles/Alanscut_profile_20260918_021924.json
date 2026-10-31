@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "Alanscut",
+    "generation_timestamp": "2026-09-18T02:03:48.710812",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 12,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 12
+  },
+  "profile": {
+    "developer_name": "Alanscut",
+    "raw_response": "```json\n{\n  \"developer_name\": \"Alanscut\",\n  \"experience_level\": \"Senior\",\n  \"primary_skills\": [\n    \"Axios internals\",\n    \"JavaScript runtime environment adaptations\",\n    \"HTTP client configuration\",\n    \"Promise-based error handling\",\n    \"Deep object manipulation\",\n    \"CI/CD debugging\",\n    \"Environment-specific polyfills\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (implied, though not directly evidenced in PRs)\"\n  ],\n  \"summary\": \"Alanscut is a highly skilled JavaScript developer with deep expertise in Axios' internals and runtime environment adaptations. Their contributions focus on making Axios reliable across diverse JavaScript environments, including legacy browsers (IE11), mobile frameworks (Expo), and niche platforms (HarmonyOS). They demonstrate strong proficiency in core utility functions, HTTP client configuration, and debugging complex runtime issues. While their work is primarily centered on Axios, their ability to address environment-specific challenges and optimize core logic suggests a senior-level understanding of JavaScript ecosystems.\",\n  \"identified_skills\": {\n    \"JavaScript Runtime & Environment\": [\n      \"Polyfills (btoa, includes API)\",\n      \"IE11 compatibility fixes\",\n      \"Expo environment support\",\n      \"HarmonyOS adapter development\",\n      \"file:// protocol handling\"\n    ],\n    \"Axios Core & Configuration\": [\n      \"Adapter customization\",\n      \"validateStatus Promise logic\",\n      \"deepMerge utility optimization\",\n      \"getUri() URL parsing improvements\",\n      \"Axios version exports\"\n    ],\n    \"Asynchronous Programming\": [\n      \"Promise resolution/rejection handling\",\n      \"Async/Await error flows\"\n    ],\n    \"CI/CD & Build Systems\": [\n      \"Travis CI dependency debugging\",\n      \"follow-redirects versioning fixes\",\n      \"ESLint warnings resolution\"\n    ],\n    \"Data Manipulation & Parsing\": [\n      \"Deep object merging\",\n      \"URL component extraction (protocol, domain, path, query)\",\n      \"Data type preservation\"\n    ],\n    \"Debugging & Testing\": [\n      \"Edge-case runtime debugging\",\n      \"Promise error validation\",\n      \"CI build failure resolution\"\n    ],\n    \"Documentation & Code Clarity\": [\n      \"PR change descriptions\",\n      \"Utility function documentation\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"Added custom `btoa` function for Expo environments lacking native support (PR #6)\",\n    \"Fixed `includes` API compatibility for IE11 in `validateStatus` logic (PR #13)\",\n    \"Resolved `file://` protocol handling issues in local file operations (PR #1)\",\n    \"Implemented HarmonyOS adapter for Axios (PR #12)\",\n    \"Rewrote `utils.deepMerge()` to preserve data types (PR #11)\",\n    \"Updated `getUri()` to return detailed URL components (protocol, domain, etc.) (PR #8)\",\n    \"Fixed Travis CI build failure due to outdated `follow-redirects` version (PR #10)\",\n    \"Addressed ESLint warnings in Axios codebase (PR #2)\",\n    \"Exported Axios version in the main object for metadata consistency (PR #4)\"\n  ]\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 24 column 28 (char 1341)"
+  },
+  "statistics": {
+    "total_prs": 12,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

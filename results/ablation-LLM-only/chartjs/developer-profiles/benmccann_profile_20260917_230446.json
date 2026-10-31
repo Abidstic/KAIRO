@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "benmccann",
+    "generation_timestamp": "2026-09-17T22:42:30.791248",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 397,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "benmccann",
+    "raw_response": "```json\n{\n  \"developer_name\": \"benmccann\",\n  \"experience_level\": \"Mid/Senior\",\n  \"primary_skills\": [\n    \"Chart.js internals (scaling, time-series data)\",\n    \"JavaScript refactoring & code cleanup\",\n    \"ESLint & JavaScript linting\",\n    \"Dependency management (npm/yarn)\",\n    \"Open-source documentation & maintenance\",\n    \"Node.js & build tooling (Gulp, ESLint)\",\n    \"Frontend security (HTTPS/CDN optimization)\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (likely familiar, though not visible in PRs)\",\n    \"HTML/CSS (minimal frontend integration)\"\n  ],\n  \"summary\": \"benmccann is a Mid/Senior JavaScript developer with deep expertise in Chart.js, specializing in time-series data visualization, scaling logic, and library maintenance. Their contributions focus on clean code practices, dependency management, and technical documentation. While primarily a backend-oriented JavaScript engineer (Node.js, npm, ESLint), they also demonstrate frontend visualization debugging skills. Their work aligns well with open-source maintainers and technical contributors who prioritize maintainability, security, and documentation quality.\",\n  \"identified_skills\": {\n    \"Charting & Visualization\": [\n      \"Chart.js time-series scaling\",\n      \"Time-based data handling\",\n      \"Axis rendering & tick generation\",\n      \"Visualization bug debugging\"\n    ],\n    \"JavaScript Core\": [\n      \"ESLint rule enforcement\",\n      \"Variable scoping & DRY principles\",\n      \"Method extraction & modularization\",\n      \"Asynchronous patterns (likely Promises/async-await)\"\n    ],\n    \"Dependency & Tooling\": [\n      \"npm/yarn dependency management\",\n      \"package-lock.json generation\",\n      \"Gulp task automation\",\n      \"ESLint integration & fixes\"\n    ],\n    \"Frontend Practices\": [\n      \"HTTPS/CDN security policies\",\n      \"Sample page debugging\",\n      \"Interactive chart rendering\"\n    ],\n    \"Documentation & Community\": [\n      \"Technical documentation updates\",\n      \"Issue triage & maintenance\",\n      \"Contributor guidelines adherence\"\n    ],\n    \"DevOps & CI/CD\": [\n      \"Node.js versioning (LTS policies)\",\n      \"Dependency vulnerability patching\",\n      \"Code Climate badge maintenance\"\n    ],\n    \"Non-Code Maintenance\": [\n      \"File permissions (executable bits)\",\n      \"Build system fixes\",\n      \"Non-functional issue resolution\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"\\\"Remove unnecessary variable\\\" suggests DRY principles and variable scoping awareness\",\n    \"\\\"Refactor time scale methods into a common location\\\" indicates deep Chart.js scaling expertise\",\n    \"\\\"Fix eslint errors\\\" demonstrates ESLint rule enforcement (e.g., unused variables, consistent returns)\",\n    \"\\\"Add package-lock.json\\\" shows dependency pinning and reproducible builds knowledge\",\n    \"\\\"Use https to load scripts from CDN\\\" highlights frontend security and HTTPS policy awareness\",\n    \"\\\"Fixes https://github.com/chartjs/Chart.js/issues/4189\\\" implies debugging real-world visualization bugs\",\n    \"\\\"Upgrade gulp-eslint\\\" indicates build tooling familiarity and automation experience\",\n    \"\\\"Remove executable bit from js files\\\" shows non-code maintenance and system-level awareness\"\n  ]\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 65 column 27 (char 2926)"
+  },
+  "statistics": {
+    "total_prs": 397,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

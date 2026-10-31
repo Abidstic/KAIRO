@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "developer_name": "cmc3cn",
+    "generation_timestamp": "2026-08-15T16:19:04.096105",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "cmc3cn",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery internals",
+      "DOM manipulation",
+      "Legacy browser compatibility (IE)",
+      "CSS property handling",
+      "Event delegation",
+      "Code refactoring",
+      "JavaScript DOM APIs"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "jQuery"
+    ],
+    "summary": "cmc3cn is a Mid-level JavaScript developer with deep expertise in jQuery internals, DOM manipulation, and legacy browser compatibility. Their contributions focus on optimizing jQuery’s core functionality—particularly event handling, CSS property access, and IE-specific fixes—while maintaining clean, efficient code. The developer demonstrates strong skills in refactoring complex logic, reducing redundancy, and ensuring cross-browser consistency. Their work is primarily frontend-focused, with no evidence of modern JavaScript (ES6+) or backend systems, suggesting specialization in maintaining or enhancing legacy jQuery-based projects.",
+    "identified_skills": {
+      "DOM Manipulation": [
+        "DocumentFragment",
+        "DOM traversal (jQuery.contains())",
+        "Event delegation (mouseenter/mouseleave)"
+      ],
+      "jQuery Core": [
+        "jQuery internals",
+        "curCSS function optimization",
+        "Event system (mouseenter/leave handling)"
+      ],
+      "Legacy Browser Support": [
+        "Internet Explorer (IE) compatibility",
+        "IE-specific DOM/property fixes",
+        "Browser quirk handling"
+      ],
+      "Code Optimization": [
+        "Function signature simplification",
+        "Redundancy removal",
+        "One-liner optimizations"
+      ],
+      "CSS Property Handling": [
+        "Computed style retrieval",
+        "curCSS utility function",
+        "CSS property access"
+      ],
+      "Event Systems": [
+        "Event propagation",
+        "Event delegation patterns",
+        "Related event handling"
+      ],
+      "JavaScript Language": [
+        "DOM APIs",
+        "Legacy JavaScript (ES5)"
+      ],
+      "Frontend Development": [
+        "DOM-centric frontend work",
+        "Legacy jQuery projects"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Fixes IE-specific behavior with DocumentFragment and default display value retrieval, indicating deep DOM API knowledge.",
+      "PR #2: References 'IE domain'set page', showing expertise in handling IE quirks and legacy browser inconsistencies.",
+      "PR #3: Simplifies mouseenter/leave event logic by removing redundant checks, demonstrating event delegation and propagation understanding.",
+      "PR #4 & #5: Reduces curCSS function arguments from 3 to 2, optimizing a core jQuery CSS utility function for clarity and performance.",
+      "PR #1: One-liner optimization for 'related' at live mouseenter/mouseleave, showing focus on concise, efficient code.",
+      "PR #3: Removes redundant checks in event detection, reflecting attention to code simplicity and correctness.",
+      "All PRs: Direct contributions to the jquery repository, proving deep familiarity with its source codebase and internals.",
+      "No evidence of modern JavaScript (ES6+) or backend systems, confirming specialization in legacy jQuery DOM manipulation."
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

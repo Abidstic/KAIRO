@@ -1,0 +1,63 @@
+{
+  "reviewer_name": "leonaves",
+  "generated_at": "20260815_172449",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 2,
+    "total_prs": 1,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "leonaves",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript typing and runtime safety",
+      "JavaScript type system and edge cases",
+      "Moment.js library internals",
+      "Defensive programming practices"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)"
+    ],
+    "summary": "leonaves is a Mid-level JavaScript reviewer with a strong focus on TypeScript typing accuracy and runtime behavior alignment. Their reviews demonstrate deep expertise in ensuring type definitions match actual function behavior, particularly in library contexts like Moment.js. They prioritize defensive programming by suggesting stricter input validation to prevent silent failures. The reviewer’s analysis spans both static types and dynamic JavaScript behavior, indicating a nuanced understanding of how TypeScript interacts with JavaScript’s runtime. Their constructive feedback and attention to technical debt suggest experience in maintaining high-quality codebases.",
+    "identified_skills": {
+      "Type System & Runtime": [
+        "TypeScript type refinement",
+        "JavaScript runtime type behavior analysis",
+        "Type guards and input validation",
+        "NaN handling in numeric types"
+      ],
+      "Library-Specific Knowledge": [
+        "Moment.js type definitions",
+        "MomentInput type usage",
+        "Date/time library internals"
+      ],
+      "Code Quality & Review": [
+        "Technical debt identification",
+        "Defensive programming patterns",
+        "Type mismatch resolution"
+      ],
+      "Programming Language Fundamentals": [
+        "ES6+ JavaScript features",
+        "Type coercion awareness"
+      ],
+      "Testing & Edge Cases": [
+        "Runtime behavior testing implications"
+      ]
+    },
+    "skill_evidence": [
+      "PR title '[misc] Update typing for diff function' — explicit focus on type accuracy in a library function",
+      "Review comment: 'This might be the intended typing, but it's not accurate. No error is thrown by passing anything other than a `MomentInput`...' — analysis of type mismatch and runtime implications",
+      "Suggestion to 'throw without a `MomentInput` or change the implementation' — emphasis on defensive programming and strict input validation",
+      "Discussion of `NaN` being categorized as a `number` in JavaScript — demonstration of deep runtime type system knowledge",
+      "Reference to `MomentInput` type — evidence of library-specific expertise (Moment.js)",
+      "Constructive feedback on type definitions aligning with real-world usage — code review quality focus",
+      "Analysis of how types interact with actual function behavior — bridging static and dynamic concerns"
+    ]
+  }
+}

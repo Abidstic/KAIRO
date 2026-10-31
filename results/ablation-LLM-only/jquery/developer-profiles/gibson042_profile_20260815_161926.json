@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "developer_name": "gibson042",
+    "generation_timestamp": "2026-08-15T16:05:46.627196",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 159,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "gibson042",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "jQuery internals",
+      "DOM manipulation",
+      "JavaScript performance optimization",
+      "Asynchronous programming (Deferred/Promises)",
+      "CSS parsing and number handling",
+      "Utility function design",
+      "Edge-case debugging"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "jQuery"
+    ],
+    "summary": "gibson042 is a highly specialized Senior JavaScript developer with deep expertise in jQuery's core implementation. Their contributions focus on performance optimization, DOM manipulation, and robust edge-case handling within jQuery's event system, deferred/promise architecture, and utility functions. The developer demonstrates exceptional proficiency in reducing bundle sizes, fixing subtle DOM-related bugs, and improving jQuery's internal APIs. Their work is exclusively frontend-focused, with no involvement in modern frameworks or backend systems. The profile reflects a developer who excels in maintaining and optimizing legacy jQuery-based applications while maintaining rigorous attention to performance and robustness.",
+    "identified_skills": {
+      "DOM Manipulation": [
+        "DOM attribute methods (attr/prop/css/data)",
+        "DOM fragment optimization",
+        "Method chaining preservation",
+        "DOM traversal patterns"
+      ],
+      "jQuery Core Architecture": [
+        "jQuery.access utility",
+        "jQuery.fn.promise implementation",
+        "Deferred/promise system optimizations",
+        "Event dispatch hardening",
+        "jQuery.param input validation"
+      ],
+      "Performance Optimization": [
+        "Bundle size reduction techniques",
+        "DOM operation efficiency",
+        "Code reorganization for bulk operations",
+        "Minification optimizations"
+      ],
+      "Edge-Case Handling": [
+        "Infinite loop prevention",
+        "Web-access-free testing strategies",
+        "CSS number parsing validation",
+        "Context-aware DOM selection"
+      ],
+      "Utility Function Design": [
+        "jQuery.ifNumeric implementation",
+        "jQuery.extend behavior preservation",
+        "Bulk operation parameter optimization"
+      ],
+      "Asynchronous Patterns": [
+        "jQuery.Deferred optimizations",
+        "Promise-based API design",
+        "Async test environment mocking"
+      ],
+      "Regular Expressions": [
+        "CSS number regex improvements",
+        "Non-integer number recognition"
+      ],
+      "Testing Strategies": [
+        "Unit test environment isolation",
+        "Offline test compatibility fixes",
+        "Edge-case test coverage"
+      ],
+      "Build System Awareness": [
+        "Minification size tracking",
+        "Gzip compression optimizations",
+        "Build artifact analysis"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: 'Setter methods chainable with value=undefined' demonstrates DOM method chaining preservation",
+      "PR #2: 'reorganization of getter/setter utility jQuery.access' shows core API design contributions",
+      "PR #4: 'Allow unit tests to work without web access' highlights testing strategy improvements",
+      "PR #5: 'CSS regular expressions recognize non-integer numbers' proves regex expertise in CSS parsing",
+      "PR #6: 'Optimizations in deferred.js' (-100 bytes) shows promise system performance work",
+      "PR #7: 'jQuery.fn.promise returns provided object' fixes promise API behavior",
+      "PR #9: 'Fix #10931: Make unit tests work without web access' demonstrates testing environment fixes",
+      "PR #13: 'Prevent jQuery.param infinite loops' shows input validation edge-case handling",
+      "PR #16: 'smaller/stronger domManip/buildFragment/clean' (-809 bytes) proves DOM optimization focus",
+      "Bundle size reductions in jquery.min.js across multiple PRs (e.g., -377 bytes in PR #2) confirm performance focus"
+    ]
+  },
+  "statistics": {
+    "total_prs": 159,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

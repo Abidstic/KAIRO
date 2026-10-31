@@ -1,0 +1,71 @@
+{
+  "reviewer_name": "melroy89",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 6,
+    "total_comments": 6,
+    "total_prs": 3,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "melroy89",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript and runtime type validation",
+      "ESM module system migration",
+      "Fastify backend framework",
+      "Node.js plugin ecosystems",
+      "Technical documentation"
+    ],
+    "programming_languages": [
+      "JavaScript (ESM)",
+      "TypeScript"
+    ],
+    "summary": "melroy89 is a mid-level JavaScript/TypeScript reviewer with strong expertise in backend systems, particularly Fastify and Node.js. Their reviews demonstrate deep knowledge of TypeScript’s type system (including Zod and Type Providers), modern JavaScript module systems (ESM), and documentation improvements. The reviewer focuses on technical precision in type safety, module correctness, and ecosystem integrations, with a backend-oriented perspective. Evidence suggests they contribute primarily to improving tooling, documentation, and runtime type validation rather than frontend development or testing.",
+    "identified_skills": {
+      "Type Systems and Validation": [
+        "TypeScript",
+        "Zod (runtime validation)",
+        "Type Providers",
+        "Schema validation"
+      ],
+      "Module Systems": [
+        "ESM (ECMAScript Modules)",
+        "CommonJS migration",
+        "Module resolution"
+      ],
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js plugins",
+        "Async/await patterns"
+      ],
+      "Documentation and Tooling": [
+        "GitHub documentation",
+        "Ecosystem integration",
+        "Tooling improvements"
+      ],
+      "Code Review Focus": [
+        "Type safety feedback",
+        "Module system correctness",
+        "Plugin compatibility"
+      ],
+      "JavaScript Runtime": [
+        "Node.js ESM support"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'docs: Add GitHub links to Type Providers + mention Zod' indicates familiarity with TypeScript tooling and runtime validation libraries",
+      "PR title 'fix: errorCodes import using ESM' shows expertise in migrating CommonJS to ESM and module system awareness",
+      "PR title 'chore(ecosystem): Add Fastify asyncforge plugin' demonstrates knowledge of Fastify and Node.js plugin ecosystems",
+      "Repeated 'docs:' prefix in PR titles suggests strong documentation skills and GitHub contribution patterns",
+      "No frontend framework references (e.g., React, Vue) imply backend-focused expertise",
+      "Review state 'COMMENTED' suggests detailed feedback on type safety and module correctness",
+      "Focus on 'Type Providers' and 'Zod' indicates deep understanding of TypeScript’s type system extensions",
+      "ESM-related fixes imply awareness of tree-shaking and modern JavaScript module optimizations"
+    ]
+  }
+}

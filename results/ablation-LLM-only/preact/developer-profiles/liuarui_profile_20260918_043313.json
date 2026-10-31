@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "liuarui",
+    "generation_timestamp": "2026-09-18T04:19:22.355225",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "liuarui",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "JavaScript performance optimization",
+      "Virtual DOM diffing algorithms",
+      "Webpack/Rollup bundle optimization",
+      "TypeScript/JavaScript low-level tuning",
+      "Benchmarking with esbench",
+      "Preact ecosystem contributions"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "liuarui is a Senior JavaScript developer specializing in frontend performance optimization, particularly in virtual DOM diffing and bundle size reduction. Their contributions focus on micro-optimizations in loop constructs, type-checking efficiency, and build tooling improvements. With expertise in Preact and a strong background in JavaScript internals, they demonstrate deep knowledge of low-level performance tuning and benchmarking practices. Their work is characterized by quantitative improvements (e.g., reducing bundle size by 32 bytes) and a focus on frontend rendering efficiency.",
+    "identified_skills": {
+      "Performance Optimization": [
+        "Micro-optimization of loops (for → while)",
+        "Type-checking reduction (typeof → faster alternatives)",
+        "Variable reuse for memory efficiency",
+        "Bundle size reduction techniques",
+        "Source Map optimization"
+      ],
+      "Virtual DOM & Rendering": [
+        "Preact diffing algorithms (diff-children, diff-index)",
+        "Virtual DOM reconciliation optimizations",
+        "Rendering performance tuning"
+      ],
+      "Build Tooling": [
+        "Webpack/Rollup bundle optimization",
+        "Dead code elimination",
+        "Tree-shaking improvements"
+      ],
+      "Benchmarking & Profiling": [
+        "esbench performance validation",
+        "Quantitative optimization validation"
+      ],
+      "JavaScript Language": [
+        "Deep JavaScript internals knowledge",
+        "Loop semantics optimization",
+        "Type system manipulation"
+      ],
+      "Frontend Ecosystem": [
+        "Preact compatibility contributions",
+        "React-like library optimization"
+      ],
+      "Refactoring": [
+        "Polished code improvements",
+        "Non-breaking optimizations"
+      ]
+    },
+    "skill_evidence": [
+      "\"refactor(catch-error): use `while` will reduce the volume of output MAP files (-16b)\" (loop optimization)",
+      "\"refactor(diff-index): reuse `i` to reduce size (-32b)\" (variable reuse for memory efficiency)",
+      "\"refactor(diff-children): reduce typeof usage to reduce size\" (type-checking optimization)",
+      "\"refactor(diff-children): reduce typeof usage to improve performance [esbench link]\" (benchmarking validation)",
+      "All PRs in Preact repository (Preact ecosystem contributions)",
+      "Multiple refactor PRs with measurable byte reductions (bundle optimization)",
+      "Focus on frontend performance (diffing, rendering, bundle size)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

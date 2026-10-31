@@ -1,0 +1,85 @@
+{
+  "reviewer_name": "hashtagchris",
+  "generated_at": "20260917_180539",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 38,
+    "total_comments": 37,
+    "total_prs": 20,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "hashtagchris",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Node.js runtime internals",
+      "npm CLI architecture",
+      "Dependency management systems",
+      "JavaScript runtime debugging",
+      "Audit and security systems"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from npm ecosystem context)"
+    ],
+    "summary": "hashtagchris is a senior-level JavaScript reviewer with deep expertise in Node.js and npm CLI internals. Their reviews demonstrate mastery of dependency resolution, audit systems, and runtime behavior, with a focus on correctness and maintainability. The reviewer excels at identifying edge cases, modernizing legacy systems, and providing technically rigorous feedback while maintaining a collaborative review style. Their work spans npm's core systems, CI/CD tooling, and documentation clarity, making them a valuable asset for complex JavaScript ecosystems.",
+    "identified_skills": {
+      "Node.js Ecosystem": [
+        "npm CLI internals",
+        "npm audit system",
+        "npm package resolution",
+        "npm authentication flow",
+        "npm process lifecycle"
+      ],
+      "Dependency Systems": [
+        "semantic versioning",
+        "lockfile management",
+        "dependency conflict resolution",
+        "devDependencies vs dependencies",
+        "GitHub Actions dependency hygiene"
+      ],
+      "Runtime Debugging": [
+        "regression identification",
+        "edge case handling",
+        "code readability assessment",
+        "MockRegistry-based refactoring",
+        "process exit code handling"
+      ],
+      "Code Review Practices": [
+        "LGTM with minor suggestions",
+        "non-blocking feedback",
+        "technical leadership",
+        "documentation clarity",
+        "historical context awareness"
+      ],
+      "Tooling & CI/CD": [
+        "GitHub Actions workflows",
+        "artifact handling",
+        "CI dependency updates"
+      ],
+      "JavaScript Language": [
+        "asynchronous patterns",
+        "error handling",
+        "modular design"
+      ],
+      "Documentation": [
+        "outdated doc correction",
+        "PR title improvements",
+        "technical writing"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: 'fix: send proper otp token on web auth' — reviewer approves auth token handling fix, showing npm CLI auth expertise",
+      "PR 4: 'fix: always set exit code if exiting uncleanly' — references issue #7672 and discusses exit code logic, proving Node.js process lifecycle knowledge",
+      "PR 20: 'fix!: remove old audit fallback request' — approves removal of legacy audit fallback, demonstrating audit system mastery",
+      "PR 18: 'docs: remove incorrect note about npm install' — clarifies historical npm behavior, showing documentation expertise",
+      "PR 2: 'chore: update devDependencies in lockfile' — updates @npmcli/package-json, proving dependency management skills",
+      "PR 8: GitHub Actions dependency updates — reviews workflow updates, indicating CI/CD tooling awareness",
+      "Review comment: 'I think I'm able to follow the new MockRegistry-based code better than the old code' — shows comfort with runtime refactoring",
+      "Review comment: 'Was this a recent regression?' — indicates runtime behavior debugging focus"
+    ]
+  }
+}

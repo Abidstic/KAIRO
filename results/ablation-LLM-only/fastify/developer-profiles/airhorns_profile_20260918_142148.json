@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "airhorns",
+    "generation_timestamp": "2026-09-18T13:53:27.417356",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "airhorns",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify framework internals",
+      "Node.js backend development",
+      "HTTP routing and middleware",
+      "Plugin system architecture",
+      "Debugging and logging tools"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "airhorns is a mid-level JavaScript developer with deep expertise in Fastify, a high-performance Node.js web framework. Their contributions focus on Fastify's core systems—routing constraints, plugin integration, and debugging tools—demonstrating strong backend development skills. While primarily specialized in Fastify, their work also reflects proficiency in Node.js async patterns, semantic versioning, and community collaboration. Evidence suggests familiarity with modern JavaScript/TypeScript but lacks visibility in broader JavaScript ecosystems or frontend frameworks.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js"
+      ],
+      "Routing and HTTP Handling": [
+        "HTTP method constraints",
+        "HEAD route handling",
+        "request lifecycle"
+      ],
+      "Plugin Systems": [
+        "plugin tree inspection",
+        "Avvio integration",
+        "plugin-based architecture"
+      ],
+      "Debugging and Observability": [
+        "request logging",
+        "pretty-printer tooling",
+        "error handling"
+      ],
+      "Versioning and Releases": [
+        "semantic versioning (semver-minor)"
+      ],
+      "Community and Governance": [
+        "contributor team management"
+      ],
+      "Asynchronous Programming": [
+        "async request handling"
+      ],
+      "TypeScript": [
+        "TypeScript-first framework contributions"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Add support for constrained routes from newer find-my-way' → Fastify routing system and constraint handling",
+      "PR: 'Expose the avvio pretty printer for printing the plugin tree' → Debugging tools and plugin system inspection",
+      "PR: 'Pass constraint values to the router when checking for a preexisting HEAD route' → HTTP method-specific routing logic",
+      "PR: 'feat: log requests refused before processing starts' → Request lifecycle and error logging",
+      "Label: 'semver-minor' → Awareness of semantic versioning and backward compatibility",
+      "PR: 'Add me to the contributors and plugins teams' → Repository governance and team management",
+      "All PRs in Fastify repo → Specialized expertise in Fastify internals over broader Node.js ecosystem"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

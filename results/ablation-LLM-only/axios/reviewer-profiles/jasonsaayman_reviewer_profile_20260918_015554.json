@@ -1,0 +1,99 @@
+{
+  "reviewer_name": "jasonsaayman",
+  "generated_at": "20260918_015554",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 71,
+    "total_comments": 11,
+    "total_prs": 62,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "jasonsaayman",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "TypeScript (advanced features, type system)",
+      "Axios internals & HTTP client development",
+      "JavaScript module systems (ESM vs. CommonJS)",
+      "Error handling & debugging in HTTP clients",
+      "TypeScript declaration file maintenance",
+      "Security vulnerability review"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)",
+      "JavaScript (CommonJS & ES Modules)"
+    ],
+    "summary": "jasonsaayman is a highly skilled Senior JavaScript/TypeScript reviewer with deep expertise in Axios, TypeScript type systems, and HTTP client development. Their contributions demonstrate advanced proficiency in type safety, module systems, error handling, and security awareness, with a strong focus on improving Axios' type definitions and HTTP protocol compliance. Their reviews consistently show meticulous attention to detail, constructive feedback, and a collaborative approach to code quality.",
+    "identified_skills": {
+      "TypeScript Advanced": [
+        "TypeScript type guards",
+        "TypeScript generics",
+        "TypeScript declaration files (.d.ts, .d.cts)",
+        "TypeScript module compatibility (ESM/CJS)",
+        "TypeScript enum handling",
+        "TypeScript version compatibility testing"
+      ],
+      "HTTP Client & Axios": [
+        "Axios request lifecycle",
+        "Axios interceptors",
+        "Axios adapters",
+        "HTTP status code handling",
+        "Axios headers manipulation",
+        "Axios URL API integration"
+      ],
+      "JavaScript Module Systems": [
+        "ES Modules (ESM)",
+        "CommonJS (CJS)",
+        "Module resolution patterns",
+        "TypeScript module system awareness"
+      ],
+      "Error Handling & Debugging": [
+        "Request cancellation debugging",
+        "Log message refinement",
+        "Error state analysis",
+        "Aborted response handling"
+      ],
+      "Documentation & Contributions": [
+        "README maintenance",
+        "CONTRIBUTING.md updates",
+        "Tooling documentation (npm scripts)",
+        "Documentation standards enforcement"
+      ],
+      "Security": [
+        "CVE vulnerability review",
+        "Security patch validation"
+      ],
+      "Code Quality & Refactoring": [
+        "Type system refactoring",
+        "Code architecture improvements",
+        "Minor bug fixes (typos, documentation)",
+        "API contract design"
+      ],
+      "TypeScript Tooling": [
+        "TypeScript compiler awareness",
+        "TypeScript plugin integration"
+      ],
+      "Review Feedback": [
+        "Constructive technical feedback",
+        "Type definition validation",
+        "Module system compatibility checks"
+      ]
+    },
+    "skill_evidence": [
+      "\"Typescript allow extension of AxiosConfig\" (PR #1) – Demonstrates deep TypeScript interface/generics usage",
+      "\"fix: fix TypeScript type definitions for commonjs\" (PR #5) – Shows ESM/CJS TypeScript declaration file expertise",
+      "\"[typing] move AxiosStatic#create to AxiosInstance#create\" (PR #4) – Involves type refactoring and namespace restructuring",
+      "\"fix(types): change the type guard on isCancel\" (PR #13) – Type guard implementation in TypeScript",
+      "\"feat(AxiosHeaders): add getSetCookie method\" (PR #15) – Requires proper HTTP header typing",
+      "\"fix: modify log while request is aborted\" (PR #3) – Debugging request lifecycle and error handling",
+      "\"CVE 2023 45857\" (PR #21) – Security vulnerability review evidence",
+      "\"chore: fix contribution guide\" (PR #18) – Documentation maintenance and tooling updates",
+      "\"can you please pull the changes to the index.d.cts too?\" (PR #7) – Awareness of TypeScript module declaration files",
+      "\"To test this, a minimum TypeScript version of 4.7 is needed\" (PR #5) – TypeScript version compatibility testing"
+    ]
+  }
+}

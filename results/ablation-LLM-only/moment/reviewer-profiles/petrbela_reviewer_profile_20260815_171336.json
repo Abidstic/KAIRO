@@ -1,0 +1,69 @@
+{
+  "reviewer_name": "petrbela",
+  "generated_at": "20260815_171336",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 5,
+    "total_prs": 2,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "petrbela",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript Internationalization (i18n)",
+      "Locale-specific formatting",
+      "Library maintenance (Moment.js)",
+      "Linguistic programming (Czech grammar)"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript (inferred from library context)"
+    ],
+    "summary": "petrbela is a specialized JavaScript reviewer with deep expertise in internationalization, particularly Czech locale handling. Their contributions focus on fixing grammatical inflections, pluralization rules, and formatting inconsistencies in library-based i18n systems. While their JavaScript experience is concentrated in niche i18n maintenance rather than general development, their ability to bridge linguistic accuracy with technical implementation makes them uniquely valuable for globalized software projects. Evidence suggests strong familiarity with Moment.js and the Intl API, but no broader frontend/backend framework exposure.",
+    "identified_skills": {
+      "Internationalization": [
+        "Czech locale implementation",
+        "Inflection rules (noun declensions)",
+        "Pluralization systems",
+        "Moment.js locale plugins"
+      ],
+      "Code Review": [
+        "Locale-specific validation",
+        "Grammatical correctness review",
+        "Metadata/documentation approvals"
+      ],
+      "Library Development": [
+        "Moment.js maintenance",
+        "Locale system architecture",
+        "Bug triage for i18n edge cases"
+      ],
+      "Linguistic Programming": [
+        "Czech grammar integration",
+        "Non-Latin script handling",
+        "Cultural context in code"
+      ],
+      "JavaScript Ecosystem": [
+        "Intl API usage",
+        "Library customization"
+      ],
+      "Process & Quality": [
+        "Approval workflows",
+        "Consistency enforcement"
+      ]
+    },
+    "skill_evidence": [
+      "PR title '[bugfix] add standalone and format to \"cs\" locale' indicates Czech-specific i18n fixes",
+      "Review comment 'correct Czech inflections in the comments' shows linguistic programming expertise",
+      "PR label 'locale approval needed' confirms focus on i18n validation processes",
+      "Multiple CHANGES_REQUESTED→APPROVED cycles demonstrate thorough locale-specific review",
+      "Reference to prior PR #5749 suggests ongoing Moment.js maintenance involvement",
+      "All PRs have files_changed: 0, indicating review focus on approvals rather than code changes",
+      "Czech (cs) locale fixes imply familiarity with non-Latin script handling in JavaScript"
+    ]
+  }
+}

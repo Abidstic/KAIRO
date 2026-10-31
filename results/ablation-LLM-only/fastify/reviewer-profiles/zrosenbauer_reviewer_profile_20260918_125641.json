@@ -1,0 +1,80 @@
+{
+  "reviewer_name": "zrosenbauer",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 6,
+    "total_comments": 4,
+    "total_prs": 2,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "zrosenbauer",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify framework",
+      "Node.js backend development",
+      "API design & versioning (semver)",
+      "Logging systems & middleware",
+      "Prisma ORM integration",
+      "Technical code review & documentation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (likely, inferred from Fastify-Prisma context)"
+    ],
+    "summary": "zrosenbauer is a senior-level JavaScript reviewer specializing in Fastify and Node.js backend ecosystems. Their expertise spans API design, logging systems, and plugin ecosystem contributions, with a focus on high-level architecture and semantic versioning. The reviewer demonstrates strong technical review skills, particularly in evaluating API changes and documentation quality, while showing deep familiarity with Fastify's plugin system and Prisma ORM integration. Their contributions suggest a collaborative approach to code review, balancing constructive feedback with approval of major feature changes.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js"
+      ],
+      "API Design & Versioning": [
+        "semver-major changes",
+        "API feature development"
+      ],
+      "Logging Systems": [
+        "Custom logger API",
+        "structured logging"
+      ],
+      "Database Integration": [
+        "Prisma ORM",
+        "database middleware"
+      ],
+      "Code Review & Quality": [
+        "API design feedback",
+        "documentation validation",
+        "plugin ecosystem review"
+      ],
+      "Modular Architecture": [
+        "Fastify plugins",
+        "middleware patterns"
+      ],
+      "Asynchronous Programming": [
+        "async/await",
+        "event-driven logging"
+      ],
+      "Documentation": [
+        "plugin documentation",
+        "ecosystem contributions"
+      ],
+      "Technical Mentorship": [
+        "constructive review feedback",
+        "LGTM with exceptions"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'feat: new logger api' with 'semver-major' label indicates major API design work in Node.js backend",
+      "PR title 'docs(ecosystem): add fastify-prisma' shows expertise in Fastify plugin ecosystem and Prisma integration",
+      "Review state 'COMMENTED' followed by 'APPROVED' with 'LGTM except...' suggests collaborative API design feedback",
+      "Files changed: 0 in reviewed PRs implies focus on architectural/design-level changes rather than implementation",
+      "Use of 'feat' label with semantic versioning signals familiarity with API evolution and public contract changes",
+      "Documentation-focused PR ('docs(ecosystem)') demonstrates ability to validate plugin documentation quality",
+      "Fastify-Prisma integration evidence suggests knowledge of database middleware patterns in Node.js",
+      "Logger API development implies experience with asynchronous JavaScript patterns for event-driven systems"
+    ]
+  }
+}

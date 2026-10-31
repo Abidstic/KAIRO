@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "developer_name": "SashaKoro",
+    "generation_timestamp": "2026-09-18T02:24:38.496734",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "SashaKoro",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios internals",
+      "HTTP client architecture",
+      "Promise-based async workflows",
+      "Interceptor middleware design",
+      "API predictability optimization",
+      "CI/CD pipeline debugging"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "SashaKoro demonstrates a specialized but deep expertise in Axios, focusing on its core HTTP client architecture, interceptor system, and asynchronous request behavior. Their contributions show architectural-level thinking around request predictability and interceptor extensibility, with evidence of CI/CD debugging and an intent to improve testing and documentation. The profile reflects a mid-level developer with strong async/await knowledge and a focus on backend utility libraries rather than frontend frameworks or broader JS ecosystem tools.",
+    "identified_skills": {
+      "HTTP Client & Networking": [
+        "Axios internals",
+        "HTTP request lifecycle",
+        "Promise-based async HTTP calls",
+        "Request interceptor system",
+        "Pre-emptive promise creation optimization"
+      ],
+      "Asynchronous Programming": [
+        "Promise microtask queue behavior",
+        "Async/await patterns",
+        "Synchronous vs. asynchronous request trade-offs",
+        "Conditional interceptor execution"
+      ],
+      "API Design & Extensibility": [
+        "Interceptor API extensions",
+        "New option design (`synchronous`, `runWhen`)",
+        "API usability improvements",
+        "Predictable request behavior patterns"
+      ],
+      "Testing & Documentation": [
+        "Unit testing strategy",
+        "Technical documentation intent",
+        "API documentation clarity"
+      ],
+      "CI/CD & Tooling": [
+        "CI pipeline verification",
+        "Debugging CI failures",
+        "Automated workflow testing"
+      ],
+      "JavaScript Core": [
+        "Event loop awareness",
+        "Async workflow optimization"
+      ]
+    },
+    "skill_evidence": [
+      "PR #2609 title 'issue#2609 | Sasha | predictable axios requests' shows deep focus on HTTP client predictability and interceptor API design",
+      "Description mentions 'pre-emptive promise creation' and 'synchronous' option, indicating async/await and event loop understanding",
+      "Proposal to add `runWhen` and `synchronous` to interceptor API demonstrates middleware extensibility expertise",
+      "PRs titled 'WIP - try running in the CI' and 'Testing if the CI runs' confirm CI/CD debugging experience",
+      "Intent to 'add documentation and unit tests' in PR #2609 suggests awareness of testing and docs practices",
+      "All contributions are Axios-specific, showing specialized focus rather than broad JS ecosystem knowledge",
+      "No evidence of frontend frameworks, backend systems, or modern JS features (e.g., TypeScript) in contributions"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

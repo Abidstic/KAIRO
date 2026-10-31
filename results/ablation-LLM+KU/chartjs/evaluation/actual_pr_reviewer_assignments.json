@@ -1,0 +1,3417 @@
+{
+  "summary": {
+    "extraction_metadata": {
+      "extraction_date": "2026-09-17 23:27:26",
+      "source_file": "../PR data for Reviewers/chartjs_Chart.js_reviewer_data_test.json",
+      "total_prs_analyzed": 86
+    },
+    "overall_statistics": {
+      "total_prs": 86,
+      "prs_with_reviews": 86,
+      "prs_without_reviews": 0,
+      "total_reviews": 197,
+      "average_reviews_per_pr": 2.29,
+      "unique_reviewers_count": 14
+    },
+    "reviewer_activity": {
+      "by_prs_reviewed": {
+        "etimberg": 75,
+        "LeeLenaleee": 58,
+        "kurkle": 11,
+        "DAcodedBEAT": 4,
+        "timwhite06": 1,
+        "jwedel": 1,
+        "huqingkun": 1,
+        "marisst": 1,
+        "adrianbrs": 1,
+        "xavierleune": 1,
+        "byl219": 1,
+        "mbehr1": 1,
+        "anshukushwaha07": 1,
+        "asmenezes": 1
+      },
+      "by_total_reviews": {
+        "etimberg": 87,
+        "LeeLenaleee": 73,
+        "kurkle": 12,
+        "DAcodedBEAT": 7,
+        "mbehr1": 4,
+        "anshukushwaha07": 3,
+        "jwedel": 2,
+        "huqingkun": 2,
+        "marisst": 2,
+        "timwhite06": 1,
+        "adrianbrs": 1,
+        "xavierleune": 1,
+        "byl219": 1,
+        "asmenezes": 1
+      }
+    },
+    "top_reviewers": {
+      "most_prs_reviewed": [
+        "etimberg",
+        75
+      ],
+      "most_total_reviews": [
+        "etimberg",
+        87
+      ]
+    }
+  },
+  "pr_reviewer_assignments": [
+    {
+      "pr_number": 11664,
+      "pr_title": "Bump pnpm/action-setup from 2.4.0 to 3.0.0",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "created_at": "2024-02-12T02:28:32Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11664",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-02-12T09:47:24Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-02-12T13:50:08Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11674,
+      "pr_title": "docs(types): fix description in index.d.ts",
+      "pr_author": "mirumirumi",
+      "pr_state": "closed",
+      "created_at": "2024-02-17T10:12:29Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11674",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-02-17T16:48:52Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-02-18T12:31:21Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11682,
+      "pr_title": "fix #11503, autoskipping 0 tick when min is below 0",
+      "pr_author": "Megaemce",
+      "pr_state": "closed",
+      "created_at": "2024-02-24T14:56:12Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11682",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-02-24T15:45:17Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-02-24T19:30:29Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11685,
+      "pr_title": "addListener and removeListener should be only invoked on truthy values",
+      "pr_author": "DAcodedBEAT",
+      "pr_state": "closed",
+      "created_at": "2024-02-27T16:54:50Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11685",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-02-27T16:57:51Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-02-27T18:42:42Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11689,
+      "pr_title": "Bump to 4.4.2",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2024-02-28T16:23:15Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11689",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-02-28T16:25:09Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 11690,
+      "pr_title": "Create parsed object with correct keys",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2024-02-28T19:10:01Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11690",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "DAcodedBEAT",
+          "reviewer_id": 5031018,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-03-05T16:47:30Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-04-29T00:37:25Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "DAcodedBEAT"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "DAcodedBEAT"
+      ]
+    },
+    {
+      "pr_number": 11707,
+      "pr_title": "platform.isAttached should return false if canvas is false-y",
+      "pr_author": "DAcodedBEAT",
+      "pr_state": "closed",
+      "created_at": "2024-03-07T22:29:38Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11707",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-03-08T00:54:50Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-03-11T08:57:02Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11720,
+      "pr_title": "Bump follow-redirects from 1.15.4 to 1.15.6",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "created_at": "2024-03-16T22:40:52Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11720",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-03-18T07:40:48Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "DAcodedBEAT",
+          "reviewer_id": 5031018,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-04-05T20:27:58Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "LeeLenaleee",
+        "DAcodedBEAT"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "LeeLenaleee",
+        "DAcodedBEAT"
+      ]
+    },
+    {
+      "pr_number": 11754,
+      "pr_title": "Fix error when object prototype is frozen",
+      "pr_author": "EricWittrock",
+      "pr_state": "closed",
+      "created_at": "2024-04-28T22:42:31Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11754",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-04-29T00:36:44Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-04-29T04:41:58Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11755,
+      "pr_title": "#11450 hide bar by dataindex",
+      "pr_author": "EricWittrock",
+      "pr_state": "closed",
+      "created_at": "2024-04-28T22:46:46Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11755",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-04-29T00:36:25Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-04-29T04:35:47Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11762,
+      "pr_title": "Update license year",
+      "pr_author": "LiamSwayne",
+      "pr_state": "closed",
+      "created_at": "2024-05-04T01:44:07Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11762",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-06T08:10:14Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-06T12:40:51Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11764,
+      "pr_title": "do not attempt to clear canvas if one does not exist",
+      "pr_author": "DAcodedBEAT",
+      "pr_state": "closed",
+      "created_at": "2024-05-07T22:08:10Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11764",
+      "total_reviews": 9,
+      "total_review_comments": 6,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "DISMISSED",
+          "review_body": "",
+          "submitted_at": "2024-05-07T23:04:09Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-05-10T08:09:25Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "DAcodedBEAT",
+          "reviewer_id": 5031018,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-05-13T14:34:05Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-05-13T18:28:59Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "DAcodedBEAT",
+          "reviewer_id": 5031018,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-05-16T14:33:40Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-05-16T14:49:15Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-05-16T18:50:48Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-16T18:51:38Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-17T12:16:54Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee",
+        "DAcodedBEAT"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee",
+        "DAcodedBEAT"
+      ]
+    },
+    {
+      "pr_number": 11773,
+      "pr_title": "Bump pnpm/action-setup from 3.0.0 to 4.0.0",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "created_at": "2024-05-13T02:45:03Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11773",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-13T05:44:12Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-13T12:29:44Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11776,
+      "pr_title": "Bump to 4.4.3",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2024-05-17T12:20:02Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11776",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-17T12:28:16Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 11780,
+      "pr_title": "types: Allow passing undefined for chart options",
+      "pr_author": "jdufresne",
+      "pr_state": "closed",
+      "created_at": "2024-05-21T01:48:59Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11780",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-21T11:16:43Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-21T13:07:30Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11781,
+      "pr_title": "Fix some typos",
+      "pr_author": "jdufresne",
+      "pr_state": "closed",
+      "created_at": "2024-05-21T02:02:16Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11781",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-21T05:42:39Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-21T09:55:14Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11788,
+      "pr_title": "Fix drawing angle lines on reversed radial scale",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2024-05-24T08:02:28Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11788",
+      "total_reviews": 2,
+      "total_review_comments": 1,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-05-24T13:55:03Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-24T14:08:12Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11796,
+      "pr_title": "Add fit method to LegendElement interface",
+      "pr_author": "MichelHMachado",
+      "pr_state": "closed",
+      "created_at": "2024-05-30T19:03:02Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11796",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-31T07:52:46Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-05-31T12:43:43Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11809,
+      "pr_title": "ensure `getComputedStyle` always has a valid canvas provided",
+      "pr_author": "DAcodedBEAT",
+      "pr_state": "closed",
+      "created_at": "2024-06-12T13:55:47Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11809",
+      "total_reviews": 5,
+      "total_review_comments": 6,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-12T17:09:24Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "DAcodedBEAT",
+          "reviewer_id": 5031018,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-12T18:38:50Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "DAcodedBEAT",
+          "reviewer_id": 5031018,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-12T18:47:58Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "DAcodedBEAT",
+          "reviewer_id": 5031018,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-06-12T18:48:19Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "timwhite06",
+          "reviewer_id": 100198503,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-06-13T08:56:32Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "timwhite06",
+        "LeeLenaleee",
+        "DAcodedBEAT"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "timwhite06",
+        "LeeLenaleee",
+        "DAcodedBEAT"
+      ]
+    },
+    {
+      "pr_number": 11817,
+      "pr_title": "Remove box padding from legend types",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2024-06-24T18:00:12Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11817",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "DISMISSED",
+          "review_body": "",
+          "submitted_at": "2024-06-24T18:19:46Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-06-26T12:00:00Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 11823,
+      "pr_title": "Update OffscreenCanvas documentation, as it is widely available now",
+      "pr_author": "joliss",
+      "pr_state": "closed",
+      "created_at": "2024-06-29T15:20:27Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11823",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-06-29T15:50:12Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-06-30T09:26:09Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11836,
+      "pr_title": "Improves chart update performance for a large number of datasets",
+      "pr_author": "jwedel",
+      "pr_state": "open",
+      "created_at": "2024-07-17T15:51:15Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11836",
+      "total_reviews": 3,
+      "total_review_comments": 3,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "kurkle",
+          "reviewer_id": 27971921,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-10-24T19:12:35Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "jwedel",
+          "reviewer_id": 4849728,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-10-25T19:30:50Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "jwedel",
+          "reviewer_id": 4849728,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-11-14T21:09:48Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "jwedel",
+        "kurkle"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "jwedel",
+        "kurkle"
+      ]
+    },
+    {
+      "pr_number": 11844,
+      "pr_title": "fix issue #11717",
+      "pr_author": "huqingkun",
+      "pr_state": "closed",
+      "created_at": "2024-07-29T07:48:43Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11844",
+      "total_reviews": 7,
+      "total_review_comments": 5,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-04T11:17:06Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-04T11:18:34Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "huqingkun",
+          "reviewer_id": 2408729,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-04T12:23:51Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-04T12:52:51Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "huqingkun",
+          "reviewer_id": 2408729,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2024-08-05T09:02:05Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-06T13:19:31Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-06T15:32:05Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee",
+        "huqingkun"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee",
+        "huqingkun"
+      ]
+    },
+    {
+      "pr_number": 11851,
+      "pr_title": "fix: Unset _resizeBeforeDraw before _resize() call to avoid possible recursion",
+      "pr_author": "CatchABus",
+      "pr_state": "closed",
+      "created_at": "2024-08-05T17:33:13Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11851",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-06T13:19:05Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-08T18:08:25Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11858,
+      "pr_title": "Bugfix/issue 11804 tooltip show for all invisible",
+      "pr_author": "huqingkun",
+      "pr_state": "closed",
+      "created_at": "2024-08-12T01:37:12Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11858",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-12T15:48:26Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-12T15:56:32Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11862,
+      "pr_title": "fix(types): add xCenter and yCenter properties to RadialLinearScale interface",
+      "pr_author": "artus9033",
+      "pr_state": "closed",
+      "created_at": "2024-08-15T22:04:33Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11862",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-15T22:16:03Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-16T06:25:31Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11863,
+      "pr_title": "Return false from the average tooltip positioner on no valid data",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2024-08-16T07:13:00Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11863",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-16T23:57:08Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 11867,
+      "pr_title": "fix(types): exclude DeepPartial<unknown[]> from ChartOptions interface",
+      "pr_author": "artus9033",
+      "pr_state": "closed",
+      "created_at": "2024-08-16T20:23:37Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11867",
+      "total_reviews": 3,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "COMMENTED",
+          "review_body": "I think this change makes sense. Not sure why the CI is failing though since it seems unrelated",
+          "submitted_at": "2024-08-16T20:29:12Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-16T21:06:00Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-16T23:57:22Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11871,
+      "pr_title": "Add radial linear scale to docs section of samples",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2024-08-20T15:51:08Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11871",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-20T15:53:08Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 11873,
+      "pr_title": "Check if range method exists on element before executing it",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2024-08-20T16:10:48Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11873",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-20T16:57:54Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 11874,
+      "pr_title": "Bump package version to 4.4.4",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2024-08-20T19:40:04Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11874",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-20T19:44:31Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 11875,
+      "pr_title": "Bump socket.io from 4.6.1 to 4.7.5",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "created_at": "2024-08-20T20:26:55Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11875",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-21T07:17:40Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11882,
+      "pr_title": "Fix initial dataset stacks",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2024-08-26T14:44:56Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11882",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-08-26T15:05:21Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 11907,
+      "pr_title": "Avoid error if borderOpts.dash is undefined",
+      "pr_author": "HieroglypH",
+      "pr_state": "closed",
+      "created_at": "2024-09-24T19:20:52Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11907",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-09-26T12:00:19Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-10-13T01:14:04Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11927,
+      "pr_title": "Don't apply default colors in the colors plugin when defaults are used",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2024-10-12T18:15:11Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11927",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-10-13T01:14:47Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 11930,
+      "pr_title": "Fix typo in time.md",
+      "pr_author": "dregad",
+      "pr_state": "closed",
+      "created_at": "2024-10-15T09:05:06Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11930",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-10-15T09:54:34Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-10-15T12:06:47Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11931,
+      "pr_title": "Allow array's in backgroundColor defaults and add hover background and border color to defaults ",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2024-10-15T18:05:31Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11931",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-10-15T18:30:24Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 11932,
+      "pr_title": "Bump package version to 4.4.5",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2024-10-15T18:33:30Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11932",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-10-15T18:46:53Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 11933,
+      "pr_title": "Fix 404 to samples in release drafter",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2024-10-15T19:07:12Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11933",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-10-15T19:08:29Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 11938,
+      "pr_title": "Fix: applyStack() returned the sum of all values for hidden dataset indices, which causes incorrect animations when showing/hiding stacked datasets.",
+      "pr_author": "DeyLak",
+      "pr_state": "closed",
+      "created_at": "2024-10-24T12:40:42Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11938",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-10-24T13:26:51Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "kurkle",
+          "reviewer_id": 27971921,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-10-24T15:42:38Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "kurkle"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "kurkle"
+      ]
+    },
+    {
+      "pr_number": 11943,
+      "pr_title": "chore: version bump for 4.4.6 release",
+      "pr_author": "etimberg",
+      "pr_state": "closed",
+      "created_at": "2024-10-28T12:20:01Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11943",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-10-28T13:34:21Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11948,
+      "pr_title": "Export TRBL from geometric",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2024-11-04T10:51:44Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11948",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-11-04T13:22:15Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 11959,
+      "pr_title": "Bump cross-spawn from 6.0.5 to 6.0.6",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "created_at": "2024-11-20T23:08:33Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11959",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "kurkle",
+          "reviewer_id": 27971921,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-11-21T06:06:37Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-11-21T19:47:50Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "kurkle",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "kurkle",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11962,
+      "pr_title": "Show correct title in multi series pie chart example",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2024-11-21T20:29:06Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11962",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-11-21T20:46:18Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 11968,
+      "pr_title": "Add documentation about setting default tooltip fonts",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2024-11-30T13:11:02Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11968",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-12-01T00:20:14Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 11969,
+      "pr_title": "Chore: bump version to 4.4.7",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2024-12-01T10:14:19Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11969",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2024-12-01T13:12:57Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 11984,
+      "pr_title": "Bugfix: span gaps over null values beyond scale limits",
+      "pr_author": "marisst",
+      "pr_state": "closed",
+      "created_at": "2025-01-01T22:58:52Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11984",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-01-02T21:34:53Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "kurkle",
+          "reviewer_id": 27971921,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-01-02T23:53:45Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "kurkle"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "kurkle"
+      ]
+    },
+    {
+      "pr_number": 11986,
+      "pr_title": "Bugfix: return nearest non-null point on interaction when spanGaps=true",
+      "pr_author": "marisst",
+      "pr_state": "closed",
+      "created_at": "2025-01-02T20:55:16Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11986",
+      "total_reviews": 10,
+      "total_review_comments": 4,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "DISMISSED",
+          "review_body": "",
+          "submitted_at": "2025-01-02T21:34:26Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "kurkle",
+          "reviewer_id": 27971921,
+          "review_state": "DISMISSED",
+          "review_body": "",
+          "submitted_at": "2025-01-03T00:12:29Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-01-03T08:33:48Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "DISMISSED",
+          "review_body": "",
+          "submitted_at": "2025-01-03T14:12:36Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "DISMISSED",
+          "review_body": "",
+          "submitted_at": "2025-01-03T14:35:29Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "DISMISSED",
+          "review_body": "",
+          "submitted_at": "2025-01-03T14:44:48Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "marisst",
+          "reviewer_id": 21364138,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-01-03T15:04:08Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "marisst",
+          "reviewer_id": 21364138,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-01-03T15:07:21Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-01-03T15:17:31Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "kurkle",
+          "reviewer_id": 27971921,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-01-03T15:33:24Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "marisst",
+        "kurkle",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "marisst",
+        "kurkle",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11991,
+      "pr_title": "Bugfix: TypeError in Interaction due to out-of-bounds index",
+      "pr_author": "marisst",
+      "pr_state": "closed",
+      "created_at": "2025-01-04T22:12:30Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11991",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-01-05T01:51:45Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-01-05T10:28:31Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 11997,
+      "pr_title": "Update linear-step-size.md",
+      "pr_author": "prems51",
+      "pr_state": "closed",
+      "created_at": "2025-01-13T11:12:09Z",
+      "pr_url": "https://github.com/expressjs/express/pull/11997",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-01-13T13:29:40Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-01-14T11:27:36Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12005,
+      "pr_title": "Correct broken link in animations.md",
+      "pr_author": "pensono",
+      "pr_state": "closed",
+      "created_at": "2025-01-21T05:40:20Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12005",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-01-21T11:16:57Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-01-21T12:58:27Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12010,
+      "pr_title": "Type fixes for time adapters",
+      "pr_author": "joshkel",
+      "pr_state": "closed",
+      "created_at": "2025-01-29T03:22:44Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12010",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "kurkle",
+          "reviewer_id": 27971921,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-01-29T05:16:11Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-01-29T10:32:11Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "kurkle",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "kurkle",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12012,
+      "pr_title": "Fix helpers `Chart` type",
+      "pr_author": "joshkel",
+      "pr_state": "closed",
+      "created_at": "2025-01-29T16:17:19Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12012",
+      "total_reviews": 3,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-01-29T19:52:32Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "kurkle",
+          "reviewer_id": 27971921,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-01-29T21:04:12Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-01-30T09:29:12Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "kurkle",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "kurkle",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12025,
+      "pr_title": "Bump pnpm/action-setup from 4.0.0 to 4.1.0",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "created_at": "2025-02-10T02:27:14Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12025",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-06T11:54:59Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12034,
+      "pr_title": "[fix] Handle non-primitives in isNumber",
+      "pr_author": "joshkel",
+      "pr_state": "closed",
+      "created_at": "2025-02-15T21:29:52Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12034",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "kurkle",
+          "reviewer_id": 27971921,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-02-15T21:37:56Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-02-16T17:24:16Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "kurkle"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "kurkle"
+      ]
+    },
+    {
+      "pr_number": 12035,
+      "pr_title": "Export ...ParsedData interfaces",
+      "pr_author": "joshkel",
+      "pr_state": "closed",
+      "created_at": "2025-02-18T18:32:53Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12035",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-02-18T18:34:37Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "kurkle",
+          "reviewer_id": 27971921,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-02-18T18:36:15Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "kurkle"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "kurkle"
+      ]
+    },
+    {
+      "pr_number": 12036,
+      "pr_title": "chore: bump to v4.4.8",
+      "pr_author": "etimberg",
+      "pr_state": "closed",
+      "created_at": "2025-02-18T18:38:39Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12036",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "kurkle",
+          "reviewer_id": 27971921,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-02-18T19:01:32Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-02-19T08:14:06Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "kurkle",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "kurkle",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12037,
+      "pr_title": "Update docs",
+      "pr_author": "joshkel",
+      "pr_state": "closed",
+      "created_at": "2025-02-22T16:12:53Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12037",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "kurkle",
+          "reviewer_id": 27971921,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-02-25T15:15:58Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-02-25T16:15:39Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "kurkle"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "kurkle"
+      ]
+    },
+    {
+      "pr_number": 12039,
+      "pr_title": "Add docs on using from Node.js",
+      "pr_author": "joshkel",
+      "pr_state": "closed",
+      "created_at": "2025-02-25T15:26:38Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12039",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-02-25T16:02:16Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-02-25T16:15:32Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12054,
+      "pr_title": "[fix] #12048 - Add selfJoin option for doughnut graphs",
+      "pr_author": "R2Jeu-prive",
+      "pr_state": "closed",
+      "created_at": "2025-04-02T14:51:31Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12054",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-04-14T23:49:55Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-04-15T12:43:21Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12057,
+      "pr_title": "fix: respect dataset clipping area when filling line charts",
+      "pr_author": "adrianbrs",
+      "pr_state": "closed",
+      "created_at": "2025-04-13T00:45:16Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12057",
+      "total_reviews": 4,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-04-13T01:40:59Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "adrianbrs",
+          "reviewer_id": 20914057,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-04-13T02:00:41Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-04-14T12:37:43Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-04-14T13:40:58Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "adrianbrs",
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "adrianbrs",
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12058,
+      "pr_title": "feature: make above/below colors in filler plugin work with pivoted line charts",
+      "pr_author": "FabTechAT",
+      "pr_state": "closed",
+      "created_at": "2025-04-14T09:47:15Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12058",
+      "total_reviews": 3,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "COMMENTED",
+          "review_body": "Could you add tests for this as well? ",
+          "submitted_at": "2025-04-14T12:37:34Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-04-15T12:40:42Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-04-15T12:41:56Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12062,
+      "pr_title": "Bump version to 4.4.9",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2025-04-15T13:13:07Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12062",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-04-15T13:19:00Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 12063,
+      "pr_title": "Add type definition for beforeEvent changed",
+      "pr_author": "joshkel",
+      "pr_state": "closed",
+      "created_at": "2025-04-15T21:38:37Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12063",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-04-15T21:57:30Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-04-18T11:15:48Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12064,
+      "pr_title": "Document requirement of 'this' when calling tick formatters",
+      "pr_author": "joshkel",
+      "pr_state": "closed",
+      "created_at": "2025-04-16T16:05:01Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12064",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-04-16T16:32:11Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-04-18T11:16:28Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12068,
+      "pr_title": "Fix minor typo, missing period",
+      "pr_author": "lucasleung8",
+      "pr_state": "closed",
+      "created_at": "2025-04-24T21:34:28Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12068",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-04-24T21:46:20Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-04-25T11:47:26Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12070,
+      "pr_title": "Fix: display stacked bar with multiple x-Axis",
+      "pr_author": "xavierleune",
+      "pr_state": "closed",
+      "created_at": "2025-05-07T13:29:21Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12070",
+      "total_reviews": 5,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-06-05T15:11:07Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "DISMISSED",
+          "review_body": "",
+          "submitted_at": "2025-06-05T15:11:33Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "xavierleune",
+          "reviewer_id": 2320425,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-06-05T15:14:52Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-05T15:23:32Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-05T15:27:53Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "xavierleune",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "xavierleune",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12082,
+      "pr_title": "Update docs for Developers API",
+      "pr_author": "Jee-on",
+      "pr_state": "closed",
+      "created_at": "2025-06-01T11:10:21Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12082",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-01T23:14:01Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-06T11:54:32Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12084,
+      "pr_title": "fix: correct grammar in segment comments (an segment -> a segment)",
+      "pr_author": "nakanoh",
+      "pr_state": "closed",
+      "created_at": "2025-06-08T01:42:20Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12084",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-08T17:12:10Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-10T10:17:01Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12087,
+      "pr_title": "Fix minified URL for development builds in the docs",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2025-06-11T08:05:13Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12087",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-11T13:47:07Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 12088,
+      "pr_title": "Fix grammar typo: 'only draw line' -> 'only draw lines'",
+      "pr_author": "ffdm",
+      "pr_state": "closed",
+      "created_at": "2025-06-11T18:05:58Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12088",
+      "total_reviews": 3,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-11T18:27:17Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-11T19:22:42Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "byl219",
+          "reviewer_id": 226941941,
+          "review_state": "COMMENTED",
+          "review_body": ".....",
+          "submitted_at": "2025-08-23T03:39:15Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "byl219",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "byl219",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12090,
+      "pr_title": "bump version to 4.5.0",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2025-06-14T19:56:11Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12090",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-06-14T20:07:08Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 12096,
+      "pr_title": "Sync Doughnut chart legend options to legend plugin",
+      "pr_author": "bojidar-bg",
+      "pr_state": "closed",
+      "created_at": "2025-07-11T10:19:46Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12096",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-11T15:49:20Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-11T19:52:24Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12098,
+      "pr_title": "Do not notify plugins after their uninstall function has been called",
+      "pr_author": "bojidar-bg",
+      "pr_state": "closed",
+      "created_at": "2025-07-11T11:45:10Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12098",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-11T19:37:41Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-12T16:29:46Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12099,
+      "pr_title": "Add data.datasets[].tooltip.callbacks to Typescript types",
+      "pr_author": "bojidar-bg",
+      "pr_state": "closed",
+      "created_at": "2025-07-11T12:35:49Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12099",
+      "total_reviews": 3,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "DISMISSED",
+          "review_body": "",
+          "submitted_at": "2025-07-11T15:50:25Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-11T18:41:14Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-11T19:10:47Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12106,
+      "pr_title": "Fix/category scale wrong tooltip",
+      "pr_author": "mbehr1",
+      "pr_state": "open",
+      "created_at": "2025-08-02T08:44:57Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12106",
+      "total_reviews": 7,
+      "total_review_comments": 7,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-02T15:26:11Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "mbehr1",
+          "reviewer_id": 3258891,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-02T17:23:40Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-06T18:21:50Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "mbehr1",
+          "reviewer_id": 3258891,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-07T15:28:52Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "mbehr1",
+          "reviewer_id": 3258891,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-07T17:38:58Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "mbehr1",
+          "reviewer_id": 3258891,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-07T17:41:45Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-14T22:15:47Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "mbehr1",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "mbehr1",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12118,
+      "pr_title": "Bump actions/setup-node from 4 to 5",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "created_at": "2025-09-08T02:02:34Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12118",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-11T13:42:25Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-11T15:17:21Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12120,
+      "pr_title": "fix(types): allow null for line chart point values (#12027)",
+      "pr_author": "anshukushwaha07",
+      "pr_state": "closed",
+      "created_at": "2025-09-10T21:04:51Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12120",
+      "total_reviews": 6,
+      "total_review_comments": 4,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "",
+          "submitted_at": "2025-09-11T13:41:32Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "anshukushwaha07",
+          "reviewer_id": 85677730,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-12T11:12:50Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "anshukushwaha07",
+          "reviewer_id": 85677730,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-12T11:13:03Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "anshukushwaha07",
+          "reviewer_id": 85677730,
+          "review_state": "COMMENTED",
+          "review_body": "Thanks @LeeLenaleee , I’ve applied the suggested changes. Please re-review. ",
+          "submitted_at": "2025-09-13T16:16:58Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-14T21:18:34Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-15T13:18:16Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "anshukushwaha07",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "anshukushwaha07",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12121,
+      "pr_title": "docs: Add Subresource Integrity (SRI) examples for CDN security",
+      "pr_author": "brian-olson",
+      "pr_state": "closed",
+      "created_at": "2025-09-12T21:57:47Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12121",
+      "total_reviews": 1,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "",
+          "submitted_at": "2025-09-14T21:26:09Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12122,
+      "pr_title": "fix(types): add drawingArea to RadialLinearScale",
+      "pr_author": "anshukushwaha07",
+      "pr_state": "closed",
+      "created_at": "2025-09-17T19:33:52Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12122",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-18T14:23:21Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-19T08:46:05Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12130,
+      "pr_title": "Enable scale title stroke (12092)",
+      "pr_author": "asmenezes",
+      "pr_state": "closed",
+      "created_at": "2025-10-10T19:06:53Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12130",
+      "total_reviews": 8,
+      "total_review_comments": 3,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "Can you also add a test for this?",
+          "submitted_at": "2025-10-12T18:20:38Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "asmenezes",
+          "reviewer_id": 27907651,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-13T22:41:05Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "DISMISSED",
+          "review_body": "",
+          "submitted_at": "2025-10-19T14:30:37Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "DISMISSED",
+          "review_body": "",
+          "submitted_at": "2025-10-20T13:44:29Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "DISMISSED",
+          "review_body": "",
+          "submitted_at": "2025-10-20T13:46:10Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "DISMISSED",
+          "review_body": "",
+          "submitted_at": "2025-10-20T15:37:33Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-20T21:58:40Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-20T22:36:44Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "asmenezes",
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "asmenezes",
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12132,
+      "pr_title": "Bump version to 4.5.1",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2025-10-12T18:24:12Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12132",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-13T00:23:17Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    },
+    {
+      "pr_number": 12133,
+      "pr_title": "Bump pnpm/action-setup from 4.1.0 to 4.2.0",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "created_at": "2025-10-13T02:02:55Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12133",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-13T08:53:22Z",
+          "author_association": "COLLABORATOR"
+        },
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-13T16:26:23Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12134,
+      "pr_title": "docs: Add note about flexbox/grid layout responsivity issue",
+      "pr_author": "DrWarpMan",
+      "pr_state": "closed",
+      "created_at": "2025-10-14T11:59:27Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12134",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-14T15:20:42Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-20T15:35:47Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12138,
+      "pr_title": "Bump actions/setup-node from 5 to 6",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "created_at": "2025-10-20T02:03:21Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12138",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-20T11:58:47Z",
+          "author_association": "MEMBER"
+        },
+        {
+          "reviewer_username": "LeeLenaleee",
+          "reviewer_id": 39033624,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-20T15:34:40Z",
+          "author_association": "COLLABORATOR"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg",
+        "LeeLenaleee"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg",
+        "LeeLenaleee"
+      ]
+    },
+    {
+      "pr_number": 12139,
+      "pr_title": "Fix amount of category scales count in docs",
+      "pr_author": "LeeLenaleee",
+      "pr_state": "closed",
+      "created_at": "2025-10-20T13:55:50Z",
+      "pr_url": "https://github.com/expressjs/express/pull/12139",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "etimberg",
+          "reviewer_id": 6757853,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-20T13:57:37Z",
+          "author_association": "MEMBER"
+        }
+      ],
+      "unique_reviewers": [
+        "etimberg"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "etimberg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "reviewer_name": "PcjsCorp",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 0,
+    "total_prs": 1,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "PcjsCorp",
+    "experience_level": "Unknown",
+    "primary_skills": [],
+    "programming_languages": [
+      "JavaScript"
+    ],
+    "summary": "PcjsCorp's review profile lacks sufficient evidence to assess JavaScript skills with confidence. The available data consists of two identical PR approvals with no code changes, comments, or context, making it impossible to determine technical proficiency or expertise. The PR title suggests minimal exposure to the `fetch` API, but no concrete evidence supports deeper JavaScript knowledge, framework usage, or debugging practices. Further review data is required for any meaningful evaluation.",
+    "identified_skills": {
+      "API Interaction": [
+        "fetch API"
+      ],
+      "Pull Request Metadata": [
+        "PR approvals"
+      ],
+      "Bug Fixes": [],
+      "Code Review": [
+        "PR approval"
+      ],
+      "JavaScript Core": [],
+      "Backend/Full-Stack": [],
+      "Frontend": [],
+      "Testing": [],
+      "Tooling": [],
+      "Asynchronous Programming": []
+    },
+    "skill_evidence": [
+      "PR title 'fix(fetch): enhance fetch API detection' suggests awareness of the `fetch` API but lacks code context",
+      "Both PRs were approved with no comments or feedback, indicating no substantive review activity",
+      "No code changes (additions=0, deletions=0, files_changed=0) in either PR, implying metadata-only or placeholder PRs",
+      "PR description 'Fixes #6412' provides no additional technical details or context",
+      "No labels or additional metadata attached to PRs, limiting inferential scope"
+    ]
+  }
+}

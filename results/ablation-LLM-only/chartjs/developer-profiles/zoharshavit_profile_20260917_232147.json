@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "developer_name": "zoharshavit",
+    "generation_timestamp": "2026-09-17T23:20:13.902852",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "zoharshavit",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Frontend JavaScript (DOM manipulation)",
+      "Bootstrap JavaScript components",
+      "Charting library integration"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "summary": "The developer profile for zoharshavit shows limited direct evidence of JavaScript skills based on the provided GitHub PR data. All contributions are tied to the Chart.js repository, with no visible code changes or descriptive PR details. The only observable context is a PR title mentioning a 'Chart inside bootstrap collapse element,' suggesting potential familiarity with Bootstrap's JavaScript components and frontend charting libraries. However, without concrete code changes, commit messages, or file modifications, the actual technical proficiency remains unclear. The experience level is estimated as Junior due to the lack of substantial contributions or complex problem-solving evidence.",
+    "identified_skills": {
+      "Frontend UI Components": [
+        "Bootstrap 'collapse' element"
+      ],
+      "Charting Libraries": [
+        "Chart.js integration"
+      ],
+      "DOM Interaction": [
+        "Event-driven UI updates"
+      ],
+      "Frontend Frameworks": [],
+      "Backend Technologies": [],
+      "Testing Practices": [],
+      "Build Tools": [],
+      "Version Control": [],
+      "API Development": []
+    },
+    "skill_evidence": [
+      "PR title references 'Chart inside bootstrap collapse element' (suggesting Bootstrap JS awareness)",
+      "All PRs target the Chart.js repository (indicating charting library exposure)",
+      "No code changes or file modifications visible in PRs (no direct evidence of implementation)",
+      "PRs are closed without descriptions or labels (no context on problem-solving approach)",
+      "No evidence of modern JavaScript patterns (e.g., async/await, ES6+ features)",
+      "No documentation or testing-related contributions observed",
+      "No backend or server-side JavaScript involvement detected"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

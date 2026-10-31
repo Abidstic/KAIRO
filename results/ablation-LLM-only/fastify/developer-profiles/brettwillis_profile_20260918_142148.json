@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "brettwillis",
+    "generation_timestamp": "2026-09-18T14:20:20.643153",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "brettwillis",
+    "raw_response": "```json\n{\n  \"developer_name\": \"brettwillis\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Fastify Framework\",\n    \"Node.js Backend Development\",\n    \"Performance Optimization\",\n    \"Technical Documentation\",\n    \"Logging Systems\",\n    \"Stream Handling\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (inferred)\"\n  ],\n  \"summary\": \"brettwillis is a Mid-level JavaScript developer with specialized expertise in Fastify, a high-performance Node.js web framework. Their contributions focus on optimizing Fastify's plugin system, logging infrastructure, and streaming responses, demonstrating strong backend development skills. They excel in technical documentation and performance-sensitive code adjustments, with a clear understanding of Fastify's architecture and Node.js internals. While primarily focused on backend frameworks, their contributions suggest proficiency in JavaScript/TypeScript and a collaborative approach to open-source development.\",\n  \"identified_skills\": {\n    \"Backend Frameworks\": [\"Fastify\", \"Node.js Streams\"],\n    \"Configuration & Plugins\": [\"Fastify Plugin System\", \"Logger Configuration\", \"Hook System\"],\n    \"Performance Optimization\": [\"Debug Logging Removal\", \"Stream vs. Buffer Handling\", \"Serialization Efficiency\"],\n    \"Technical Documentation\": [\"API Documentation\", \"Markdown Writing\", \"Edge Case Clarification\"],\n    \"Logging Systems\": [\"Custom Logger Factories\", \"Log Level Management\", \"Pino/Logger Integration\"],\n    \"Backend Patterns\": [\"Middleware Pipelines\", \"URL Rewriting\", \"Response Handling\"],\n    \"Open Source Contribution\": [\"Documentation-First PRs\", \"Semantic Versioning\", \"GitHub Workflow\"]\n  },\n  \"skill_evidence\": [\n    \"PR #2: Added `childLoggerFactory` config, demonstrating Fastify plugin system and logger customization\",\n    \"PR #3: Clarified stream vs. buffer handling in responses, showing deep Node.js streams knowledge\",\n    \"PR #1: Removed debug logging for URL rewrite, proving performance optimization focus\",\n    \"All PRs: Documentation updates without code changes, indicating strong technical writing skills\",\n    \"PR #2 labeled `semver-minor`, showing awareness of semantic versioning for config changes\",\n    \"Streaming response docs in PR #3 mention avoiding `Content-Type: application/octet-stream`, highlighting serialization efficiency\",\n    \"PR #2 description references `fastify-logger` or similar, indicating logger system familiarity\",\n    \"PR #3 clarifies immediate context for edge cases, demonstrating precision in technical communication\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 35 column 3 (char 2555)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

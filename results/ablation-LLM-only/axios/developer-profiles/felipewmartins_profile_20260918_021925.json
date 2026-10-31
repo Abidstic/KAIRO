@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "felipewmartins",
+    "generation_timestamp": "2026-09-18T02:10:27.794258",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "felipewmartins",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript HTTP client libraries",
+      "Webpack configuration and dependency management",
+      "CI/CD pipeline debugging (Travis CI)",
+      "Async error handling (HTTP request cancellation)",
+      "Runtime environment compatibility (Node.js/browser)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from axios ecosystem)"
+    ],
+    "summary": "felipewmartins demonstrates mid-level expertise in maintaining and stabilizing the axios library, with a strong focus on build system integrity, CI/CD pipeline reliability, and runtime compatibility. Their contributions primarily involve debugging asynchronous errors (e.g., HTTP request cancellation), managing Webpack dependencies, and resolving regression bugs in the build process. While no direct code changes are visible in the provided PRs, the context reveals deep familiarity with JavaScript runtime environments, async programming patterns, and tooling ecosystems. The developer shows proficiency in collaborative codebase maintenance, particularly in reverting problematic changes and stabilizing builds. Their work aligns with the needs of a mid-level engineer who bridges technical debt and operational stability in a mature codebase.",
+    "identified_skills": {
+      "Build Systems & Tooling": [
+        "Webpack configuration",
+        "Dependency upgrades and polyfill management",
+        "CI/CD pipeline debugging (Travis CI)"
+      ],
+      "Asynchronous Programming": [
+        "HTTP request cancellation handling",
+        "Promise-based error resolution"
+      ],
+      "Version Control Practices": [
+        "Force merges",
+        "Codebase reverts"
+      ],
+      "Runtime Environment Awareness": [
+        "Node.js/browser compatibility",
+        "Polyfill removal strategies"
+      ],
+      "Debugging & Regression Fixes": [
+        "Build system failures",
+        "Cancellation error resolution",
+        "Regression bug identification"
+      ],
+      "JavaScript Ecosystem": [
+        "axios-specific HTTP client behavior",
+        "ES6+ JavaScript features"
+      ],
+      "Collaboration & Code Stability": [
+        "Minor targeted fixes",
+        "Issue triage references"
+      ]
+    },
+    "skill_evidence": [
+      "PR #5: Reverted Webpack + dependency updates, removed unnecessary polyfills ('Revert \"Update Webpack + deps, remove now unnecessary polyfills\"')",
+      "PR #2: Fixed cancellation error in build master ('Fix cancellation error on build master'), referencing #2290 and #2207",
+      "PR #1 and #4: Multiple 'Fix travis CI build' PRs indicate CI/CD pipeline debugging expertise",
+      "PR #3: Force-merged PR #1880, demonstrating version control and conflict resolution skills",
+      "PR #5: Removed polyfills suggests awareness of runtime environment differences (Node.js vs. browser)",
+      "PR #2: Reference to 'cancellation error' implies familiarity with AbortController or Promise-based cancellation",
+      "PR #1: 'Fix build' suggests involvement in resolving flaky tests or dependency conflicts",
+      "PR #5: Revert context shows attention to breaking changes and codebase stability"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

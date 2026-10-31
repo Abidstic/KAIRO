@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "ajpiano",
+    "generation_timestamp": "2026-08-15T16:27:19.246115",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "ajpiano",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery API internals",
+      "Legacy JavaScript (pre-ES6)",
+      "Code documentation improvements",
+      "Browser compatibility debugging",
+      "GitHub PR workflow"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES3)",
+      "jQuery"
+    ],
+    "summary": "ajpiano is a mid-level JavaScript developer with specialized expertise in jQuery's API and legacy JavaScript patterns. Their contributions focus on improving documentation clarity and tracking browser-specific bugs, particularly in Chrome's array/slice behavior. While their PRs demonstrate deep familiarity with jQuery's utility methods and internal workings, they lack evidence of modern JavaScript frameworks or backend development. Their contributions are process-oriented, emphasizing code clarity and bug tracking rather than feature implementation.",
+    "identified_skills": {
+      "Library-Specific Expertise": [
+        "jQuery utility methods",
+        "jQuery.map() behavior",
+        "Legacy JavaScript patterns"
+      ],
+      "Code Quality": [
+        "Documentation enhancements",
+        "Code clarity improvements",
+        "Obtuse behavior clarification"
+      ],
+      "Debugging": [
+        "Browser compatibility issues",
+        "Chrome-specific JavaScript bugs",
+        "Temporary fix documentation"
+      ],
+      "Collaboration": [
+        "GitHub PR lifecycle awareness",
+        "Process documentation",
+        "Bug triage"
+      ],
+      "Legacy Ecosystem": [
+        "Pre-ES6 JavaScript",
+        "jQuery-era patterns",
+        "No modern frameworks"
+      ],
+      "Process Skills": [
+        "PR re-submission workflow",
+        "Temporary fix tracking",
+        "Contributor documentation"
+      ]
+    },
+    "skill_evidence": [
+      "PR 2 title: 'jQuery.map flattening arrays should be documented in code' - demonstrates jQuery utility method expertise and documentation focus",
+      "PR 3 mentions 'Chrome slice bug comment' - shows browser compatibility debugging and Chrome-specific JavaScript knowledge",
+      "All PRs reference jQuery's internal behavior without code changes - confirms library-specific expertise",
+      "PR 1 is a re-submission of an older bug report - indicates familiarity with GitHub PR lifecycle and bug triage",
+      "No ES6+ features or modern frameworks mentioned in any PR - confirms legacy JavaScript specialization",
+      "All contributions are documentation requests with 0 code changes - demonstrates process-oriented collaboration",
+      "References to 'temporary fixes' in PR descriptions - shows awareness of legacy code maintenance patterns",
+      "No testing frameworks or build tools referenced - confirms focus on core library rather than project infrastructure"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

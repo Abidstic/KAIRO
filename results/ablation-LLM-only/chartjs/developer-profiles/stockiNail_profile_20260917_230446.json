@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "developer_name": "stockiNail",
+    "generation_timestamp": "2026-09-17T22:45:07.294310",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 24,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "stockiNail",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js internals",
+      "JavaScript object-oriented patterns",
+      "Technical documentation for JavaScript libraries",
+      "Scriptable options in charting libraries",
+      "JavaScript API design",
+      "TypeScript integration (documentation-focused)",
+      "JavaScript deprecation management"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "stockiNail is a mid-level JavaScript developer with specialized expertise in Chart.js, focusing primarily on documentation and API refinement. Their contributions demonstrate deep technical knowledge of Chart.js's rendering engine, scriptable options system, and animation pipeline. While contributions are documentation-heavy, the PRs reveal strong JavaScript object-oriented design skills and an ability to navigate complex charting library internals. The developer excels in technical writing for JavaScript developers, with particular attention to clarity, correctness, and deprecation management. Their work suggests a role as a technical documentation specialist with advanced JavaScript expertise in charting libraries.",
+    "identified_skills": {
+      "Charting Libraries": [
+        "Chart.js rendering engine",
+        "Chart.js scriptable options",
+        "Chart.js animation system",
+        "Chart.js time scales (ISO weekday)",
+        "Chart.js legend and title customization",
+        "Chart.js color and border options",
+        "Chart.js dataset defaults",
+        "Chart.js deprecation patterns"
+      ],
+      "JavaScript Object Patterns": [
+        "Scriptable configuration objects",
+        "Enum-based property systems",
+        "Global vs. per-chart defaults",
+        "Prototype-based inheritance patterns",
+        "Object spread/rest operations",
+        "TypeScript type definitions"
+      ],
+      "Documentation Practices": [
+        "Technical documentation for JavaScript APIs",
+        "Documentation deprecation notices",
+        "Non-native English technical writing",
+        "Interactive documentation examples",
+        "Issue-linked documentation fixes",
+        "Documentation triage and validation"
+      ],
+      "Bug Fixing & Issue Resolution": [
+        "Bug fixes in chart rendering",
+        "Deprecated API removal",
+        "Documentation error correction",
+        "Issue reference resolution",
+        "Behavioral regression fixes",
+        "API inconsistency corrections"
+      ],
+      "JavaScript Language Features": [
+        "ES6+ modules",
+        "Object-oriented JavaScript",
+        "TypeScript integration"
+      ],
+      "JavaScript Ecosystem": [
+        "Frontend tooling awareness",
+        "JavaScript library internals"
+      ]
+    },
+    "skill_evidence": [
+      "PR #2: 'Add cubicInterpolationMode to the cubicInterpolation documentation' - shows deep Chart.js interpolation knowledge",
+      "PR #3: 'Added the global datasets defaults for new extended chart type' - demonstrates understanding of dataset inheritance patterns",
+      "PR #4: 'The hover* options of bar chart doc page change as scriptable' - reveals scriptable options expertise",
+      "PR #8: 'Tooltip Model documentation sounds not correct' - indicates technical writing precision for JavaScript developers",
+      "PR #11: 'isoWeekday time options on time scale as number' - shows time scale implementation knowledge",
+      "PR #13: 'Add some additional info and sections to animation documentation' - demonstrates animation system understanding",
+      "PR #14: 'types where missing' - confirms TypeScript documentation involvement",
+      "PR #15: 'The backgroundColor and borderColor options of bar chart doc page' - reveals color system documentation expertise"
+    ]
+  },
+  "statistics": {
+    "total_prs": 24,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "developer_name": "StarpTech",
+    "generation_timestamp": "2026-09-18T13:28:36.226714",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 47,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "StarpTech",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify Framework",
+      "Node.js Web Development",
+      "Asynchronous JavaScript (Promises/async-await)",
+      "Schema Validation (AJV/JSON Schema)",
+      "Middleware & Hooks",
+      "Performance Benchmarking",
+      "Error Handling & Debugging"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Fastify ecosystem)"
+    ],
+    "summary": "StarpTech is a **Senior Node.js Developer** with deep expertise in **Fastify**, specializing in framework internals, schema validation, middleware systems, and performance optimization. Their contributions demonstrate mastery of **asynchronous JavaScript patterns**, **error handling**, and **benchmarking tools**, alongside a strong focus on **documentation and maintainability**. The developer exhibits **collaborative problem-solving** through backward-compatible changes and CI/CD automation, making them a valuable contributor to high-performance web frameworks.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js Web Framework"
+      ],
+      "Asynchronous Programming": [
+        "Promises",
+        "async/await",
+        "Error Stack Traces"
+      ],
+      "Validation & Schema": [
+        "JSON Schema",
+        "AJV (Ajv)",
+        "Schema Customization"
+      ],
+      "Middleware & Extensibility": [
+        "Fastify Hooks",
+        "Plugin System",
+        "Middleware Debugging"
+      ],
+      "Performance Optimization": [
+        "Benchmarking",
+        "Cross-Platform Testing",
+        "Branch Comparison"
+      ],
+      "Error Handling": [
+        "Request/Response Lifecycle",
+        "Error Stack Traces",
+        "Payload Validation"
+      ],
+      "Documentation & Tooling": [
+        "README Maintenance",
+        "Example Fixes",
+        "Visual Documentation"
+      ],
+      "DevOps & CI/CD": [
+        "Git Workflow Automation",
+        "Concurrently",
+        "Benchmark Scripts"
+      ],
+      "Collaboration Practices": [
+        "Semver-Minor Changes",
+        "Discussion Prompts",
+        "Backward Compatibility"
+      ]
+    },
+    "skill_evidence": [
+      "PR ['Feature/#258 log error stack trace']: Demonstrates **error handling** in Fastify’s request-response cycle with Promise rejection handling (`reply.send(Promise.reject(new Error('deded')))`).",
+      "PR ['New option `schemaOptions` to customize ajv']: Shows **AJV schema validation customization**, a core Fastify feature for request/response validation.",
+      "PR ['Improve benchmark experience']: Introduces **cross-platform benchmarking** (Windows/Linux) using `concurrently` and `branch-comparer` for performance testing.",
+      "PR ['#120 fastify context in hooks']: References **Fastify hooks** and **middleware debugging**, indicating deep framework internals knowledge.",
+      "PR ['Pass store to reply end']: Involves **reply object manipulation**, a critical Node.js web framework concept for HTTP responses.",
+      "PR ['add fastify-hemera plugin to readme']: Shows **plugin system familiarity** and **documentation maintenance** for Fastify’s extensibility.",
+      "PR ['Fixed reply.code example']: Demonstrates **debugging HTTP response issues** and **documentation fixes** for clarity.",
+      "PR ['Feature/#200 #191 headers shortcut schema validation']: Involves **schema validation** and **error handling** for Fastify’s request lifecycle."
+    ]
+  },
+  "statistics": {
+    "total_prs": 47,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

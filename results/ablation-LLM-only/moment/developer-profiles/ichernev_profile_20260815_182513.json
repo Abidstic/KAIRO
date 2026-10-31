@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "developer_name": "ichernev",
+    "generation_timestamp": "2026-08-15T17:57:48.613187",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 83,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "ichernev",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "JavaScript Core (ES5/ES6)",
+      "Moment.js Internals",
+      "Date/Time Parsing & Formatting",
+      "AMD/CommonJS Module Systems",
+      "Locale-Specific Date Handling",
+      "Input Validation & Error Handling",
+      "Grunt.js & Build Tooling",
+      "Legacy JavaScript Compatibility"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5+)",
+      "TypeScript (implied, though not explicitly shown)"
+    ],
+    "summary": "ichernev is a Mid-Level JavaScript developer with deep expertise in date/time libraries, particularly Moment.js. Their contributions focus on robust date parsing, locale customization, module system correctness, and backward compatibility. They demonstrate strong skills in JavaScript core patterns (e.g., `this` binding, strict mode), input validation, and legacy environment support. While their work is primarily centered on Moment.js internals, their experience with AMD modules, NuGet publishing, and Grunt.js tests highlights a practical understanding of build tooling and module ecosystems. Their contributions often address edge cases and validation, indicating a meticulous approach to code quality and correctness.",
+    "identified_skills": {
+      "DateTime & Localization": [
+        "ISO 8601 Parsing",
+        "Locale-Specific Date Formatting",
+        "Meridiem (AM/PM) Handling",
+        "Quarter/Month Diff Calculations",
+        "Fractional Second Precision",
+        "Weekday/Week-Year Parsing",
+        "First Day of Week/Year Customization"
+      ],
+      "Module Systems & Exports": [
+        "AMD Module Exports",
+        "CommonJS Module Resolution",
+        "NuGet Package Publishing",
+        "Global `this` Binding in Modules",
+        "Path Configuration for Locales"
+      ],
+      "Code Quality & Validation": [
+        "Strict Mode Usage",
+        "Input Sanitization",
+        "Deprecation Management",
+        "JSHint Configuration",
+        "Edge-Case Testing",
+        "Invalid Input Detection"
+      ],
+      "Testing & Debugging": [
+        "Grunt.js Test Targets",
+        "Test Suite Isolation",
+        "Deprecation Test Validation",
+        "Edge-Case Debugging",
+        "Legacy Browser Workarounds"
+      ],
+      "Build & Tooling": [
+        "Grunt.js Integration",
+        "Module Loader Path Resolution",
+        "Cross-Platform Publishing (NuGet)",
+        "Legacy Environment Polyfills"
+      ],
+      "JavaScript Core Patterns": [
+        "`this` Binding in Functions",
+        "Strict Mode Awareness",
+        "Function Checks for Legacy Browsers",
+        "Anonymous Module Exports"
+      ],
+      "Community & Collaboration": [
+        "Cross-Team Coordination",
+        "Maintainer Tagging for Feedback",
+        "Backward Compatibility Focus"
+      ]
+    },
+    "skill_evidence": [
+      "`this` binding in local functions for AMD exports (PR #1): \"Properly use global this to export moment\"",
+      "ISO 8601 date-only parsing fix (PR #14): \"Fix ISO 8601 support (date only)\"",
+      "Meridiem parsing edge case (PR #4): \"Fix parsing of meridiem in locales\"",
+      "AMD module export with anonymous wrapper (PR #5): \"Use anonymous module when exporting via AMD\"",
+      "Locale customization for week/year start (PR #7): \"Add firstDayOfWeek, firstDayOfYear locale getters\"",
+      "Legacy browser function check workaround (PR #16): \"Fix function check to workaround old browsers\"",
+      "Grunt.js test target for duration/locale tests (PR #17): \"Support grunt test --only=moment/duration,locale/ru\"",
+      "NuGet publishing support addition (PR #6): \"Add nuget publishing support\"",
+      "Strict mode and JSHint references in module export PR (PR #1): \"Properly use global this to export moment\"",
+      "Deprecation test validation (PR #2): \"Ensure deprecations in tests are intended\""
+    ]
+  },
+  "statistics": {
+    "total_prs": 83,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

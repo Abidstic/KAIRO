@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "developer_name": "simonbrunel",
+    "generation_timestamp": "2026-09-17T20:30:19.616167",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis",
+    "total_prs_analyzed": 130,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "simonbrunel",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "JavaScript Performance Optimization",
+      "DOM Rendering & Animation",
+      "Chart.js Library Development",
+      "ESLint & Code Quality",
+      "Bundle Optimization (Gulp, bundle-collapser)",
+      "Cross-Browser Compatibility (Firefox/Chrome)",
+      "JavaScript Helper Functions & Refactoring",
+      "CI/CD Pipeline Configuration (Travis CI)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "\nSimon Brunel is a **Senior JavaScript Developer** with deep expertise in **frontend performance optimization**, particularly within **Chart.js**—a popular JavaScript charting library. His contributions demonstrate a strong focus on **DOM rendering efficiency, animation systems, and bundle optimization**, with a meticulous approach to **code quality, refactoring, and cross-browser compatibility**.\n\nKey strengths include:\n- **Performance-critical JavaScript**: Optimizing animation frames, reducing redundant checks (e.g., `hasOwnProperty`), and minimizing bundle size (~1.8KB savings via `bundle-collapser`).\n- **DOM/Rendering Mastery**: Deep understanding of **Chart.js internals**, including plugin systems, CSS property handling, and Firefox/Chrome compatibility fixes.\n- **Modern JavaScript Practices**: Adoption of **ESLint**, **Gulp-based workflows**, and **DRY principles** to clean up legacy code (e.g., removing unused variables, squashing complexity).\n- **Tooling & Automation**: Experience with **Travis CI** for releases, **Code Climate** for static analysis, and **Bower/Gulp** for dependency management.\n\nWhile his expertise is **frontend-heavy** (no backend or TypeScript), his ability to **refactor large codebases, optimize rendering, and enforce best practices** positions him as a **Senior-level developer** capable of leading performance-critical frontend projects, particularly in **data visualization libraries** or **high-performance web applications**.\n\n**Limitations**: No evidence of backend JavaScript (Node.js), modern frameworks (React/Vue), or formal testing frameworks (Jest/Mocha). TypeScript and mobile development are also not part of his profile.\n",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise": [
+        "Chart.js"
+      ],
+      "Asynchronous Programming": [
+        "requestAnimationFrame"
+      ],
+      "API Design & Consumption": [],
+      "Error Handling": [],
+      "Frontend Development Skills": [
+        "DOM Manipulation"
+      ],
+      "Backend Development Skills": [],
+      "DevOps & Deployment": [
+        "CI/CD Pipelines"
+      ],
+      "Advanced JavaScript Concepts": [
+        "Closures",
+        "Module Systems"
+      ],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [
+        "Lazy Evaluation",
+        "Bundle Size Reduction",
+        "Animation Frame Optimization"
+      ],
+      "Event-Driven Architecture": [],
+      "Dependency Management": [
+        "Bower"
+      ],
+      "Graphical Data Visualization": [
+        "Chart.js"
+      ]
+    }
+  },
+  "statistics": {
+    "total_prs": 130,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "developer_name": "ghost",
+    "generation_timestamp": "2026-08-15T16:08:03.973014",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 26,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "ghost",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "jQuery core internals",
+      "DOM manipulation and event handling",
+      "Cross-browser compatibility fixes",
+      "JavaScript prototype system debugging",
+      "AJAX/JSONP error handling",
+      "Internet Explorer-specific bug resolution",
+      "Legacy JavaScript performance optimization"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5 and earlier)",
+      "jQuery"
+    ],
+    "summary": "A highly experienced JavaScript developer with deep expertise in jQuery's core implementation. Specializes in fixing subtle cross-browser inconsistencies, particularly in Internet Explorer, with a strong focus on DOM manipulation, event systems, and AJAX/JSONP handling. Demonstrates advanced debugging skills for legacy JavaScript systems and a commitment to maintaining performance and compatibility in older browser environments. While primarily focused on jQuery's legacy codebase, the developer shows mastery of classical JavaScript patterns and prototype-based systems.",
+    "identified_skills": {
+      "DOM Manipulation": [
+        "Event delegation",
+        "Event coordinate calculations",
+        "DocumentFragment memory management",
+        "CSS property access via JavaScript"
+      ],
+      "JavaScript Core": [
+        "Prototype chain manipulation",
+        "Object property inheritance debugging",
+        "Memory leak detection in IE",
+        "Event cloning and propagation fixes"
+      ],
+      "Cross-Browser Compatibility": [
+        "IE9-specific workarounds",
+        "Event system normalization",
+        "CSS property return type consistency",
+        "AJAX/JSONP cross-browser error handling"
+      ],
+      "Legacy JavaScript Patterns": [
+        "Legacy event handling systems",
+        "Pre-ES6 object patterns",
+        "Legacy AJAX implementations",
+        "jQuery-specific API design"
+      ],
+      "Testing & Optimization": [
+        "Performance test case fixes",
+        "Regression testing for DOM operations",
+        "Memory leak profiling"
+      ],
+      "Library Maintenance": [
+        "jQuery core contribution",
+        "Stable release bug fixes",
+        "Documentation maintenance"
+      ],
+      "Asynchronous Systems": [
+        "JSONP error callback implementation",
+        "AJAX status code handling",
+        "Cross-origin request debugging"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed prototype chain issues in jQuery's cssProps object ('Fixes #9372 cssProps properties from object prototype chain causes errors')",
+      "Resolved IE9 memory leaks related to DocumentFragment ('Fix #9341 by working around IE9 memory leak')",
+      "Standardized getComputedStyle return types across browsers ('Fix returns type of css value')",
+      "Implemented correct JSONP error handling for non-200 status codes ('Triggering error when jsonp script returns error status code')",
+      "Fixed event coordinate calculations for mouse events ('Fix #6942 by checking for mouse events before calculating pageX/pageY values')",
+      "Addressed memory leaks in IE's event cloning system ('Fix #8873 memory leak due to jQuery.support.noCloneEvent test')",
+      "Optimized performance test case for DOM event handling ('Fix speed/event.html performance test')",
+      "Maintained documentation with typo fixes ('Small typo fix')"
+    ]
+  },
+  "statistics": {
+    "total_prs": 26,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "developer_name": "giuliowaitforitdavide",
+    "generation_timestamp": "2026-09-18T13:35:14.221559",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 16,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "giuliowaitforitdavide",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify framework internals",
+      "JavaScript/TypeScript error handling",
+      "Async/await and callback patterns",
+      "TypeScript type system",
+      "Testing and benchmarking optimization",
+      "Documentation maintenance",
+      "Semantic versioning and breaking changes",
+      "Node.js async hooks"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "A senior JavaScript developer with deep expertise in Fastify's core architecture, specializing in error handling, plugin systems, and TypeScript integration. Demonstrates strong skills in async programming patterns, testing optimization, and documentation maintenance. Contributions show familiarity with Node.js internals, semantic versioning, and cross-platform considerations. Focused on backend framework development with a commitment to code quality and maintainability.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js HTTP middleware"
+      ],
+      "Error Handling": [
+        "Framework-level errors",
+        "Warning/error systems",
+        "Async error propagation"
+      ],
+      "Asynchronous Programming": [
+        "Async/await",
+        "Callback patterns",
+        "Async hooks"
+      ],
+      "TypeScript": [
+        "Type definitions",
+        "TypeScript-first development",
+        "Type system adjustments"
+      ],
+      "Testing Practices": [
+        "Test suite optimization",
+        "Benchmarking",
+        "Cross-platform testing"
+      ],
+      "Documentation": [
+        "API documentation",
+        "Error/warning documentation",
+        "Code comments"
+      ],
+      "Code Quality": [
+        "Linting fixes",
+        "Breaking change management",
+        "Semantic versioning"
+      ],
+      "CI/CD Awareness": [
+        "Test pipeline management",
+        "CI failure resolution"
+      ],
+      "Cross-Platform Development": [
+        "Windows/Linux command syntax handling"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed undefined `req.routeConfig` in framework error handling (#2)",
+      "Implemented warning/error distinction for async/callback mixing in plugins (#11, #12)",
+      "Removed `connection` property from `FastifyRequest` TypeScript type (#15)",
+      "Split tests to prevent CI pipeline failures due to timeouts (#6)",
+      "Added descriptions for route constraints documentation (#10)",
+      "Fixed linting issues in error handler pipeline (#19)",
+      "Handled Windows-specific command line environment syntax in tests (#4)",
+      "Labeled breaking change for async/callback mixing (#12, v5.x)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 16,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "reviewer_name": "Cadienvan",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 0,
+    "total_prs": 1,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "Cadienvan",
+    "raw_response": "```json\n{\n  \"reviewer_name\": \"Cadienvan\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"JavaScript module systems\",\n    \"Node.js packaging\",\n    \"package.json configuration\",\n    \"CommonJS/ES Modules compatibility\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES Modules, CommonJS)\",\n    \"TypeScript (implied by Node.js ecosystem)\"\n  ],\n  \"summary\": \"Cadienvan demonstrates **mid-level expertise** in JavaScript module systems and Node.js packaging, with a focus on ensuring compatibility between CommonJS (Node.js) and ES Modules (browser). Their reviews primarily involve fixing package metadata (e.g., `package.exports`) to support dual environments, indicating strong foundational knowledge of module resolution and build tooling. While the dataset is limited, their ability to identify and resolve module-related issues suggests familiarity with modern JavaScript packaging practices. No evidence of frontend frameworks, backend frameworks, or advanced JavaScript patterns (e.g., async/await, Promises) is present in the available reviews.\",\n  \"identified_skills\": {\n    \"Module Systems & Packaging\": [\n      \"package.exports configuration\",\n      \"CommonJS (cjs) for Node.js\",\n      \"ES Modules for browser compatibility\",\n      \"Dynamic module resolution\"\n    ],\n    \"Build Tooling Awareness\": [\n      \"Distribution directory (dist) handling\",\n      \"Bundler compatibility (Webpack/Rollup implied)\"\n    ],\n    \"Code Review Patterns\": [\n      \"Metadata-focused fixes\",\n      \"Minimal-change approvals\",\n      \"Edge-case module resolution validation\"\n    ],\n    \"Node.js Ecosystem\": [\n      \"Node.js module resolution\",\n      \"Package.json optimization\"\n    ],\n    \"JavaScript Language\": [\n      \"ES Modules\",\n      \"CommonJS\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR title: 'fix(package): Fix package exports' – indicates direct work with `package.exports` for module resolution\",\n    \"PR description: 'Fixes #5358 by adding dist cjs for node and browser to the package exports' – confirms handling of CommonJS and browser compatibility\",\n    \"Mention of 'dist cjs for node' – demonstrates Node.js-specific module format knowledge\",\n    \"Mention of 'browser' – implies awareness of browser-compatible JavaScript (ES Modules/UMD)\",\n    \"Both PRs approved with no comments – suggests confidence in module-related fixes without deep code review\",\n    \"No frontend/backend framework references – limits scope to module systems and packaging\",\n    \"No testing, async patterns, or TypeScript evidence – skills not demonstrated in reviews\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 48 column 3 (char 2549)"
+  }
+}

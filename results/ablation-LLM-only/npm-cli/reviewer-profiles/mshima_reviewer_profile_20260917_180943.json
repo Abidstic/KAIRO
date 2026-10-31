@@ -1,0 +1,76 @@
+{
+  "reviewer_name": "mshima",
+  "generated_at": "20260917_180943",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 5,
+    "total_comments": 5,
+    "total_prs": 2,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "mshima",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Node.js runtime internals",
+      "npm/pnpm workspace management",
+      "CLI tool development",
+      "Child process execution control",
+      "Non-interactive script handling"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from PR context)"
+    ],
+    "summary": "mshima is a senior-level JavaScript reviewer with deep expertise in Node.js runtime behavior, npm/pnpm workspace management, and custom CLI tooling. Their reviews demonstrate advanced knowledge of child process execution control, special-case CLI command handling, and the internals of npm-like tooling. The reviewer focuses exclusively on backend/CLI systems with no visible frontend involvement. Their structured PR descriptions and handling of edge cases (e.g., non-standard npm commands) indicate strong technical problem-solving skills and documentation practices.",
+    "identified_skills": {
+      "Node.js Core": [
+        "Child process stdio configuration",
+        "Non-interactive script execution",
+        "Process isolation patterns"
+      ],
+      "Package Management": [
+        "npm workspace filtering",
+        "Custom cwd handling",
+        "Monorepo package resolution"
+      ],
+      "CLI Development": [
+        "Special-case command handling",
+        "libnpmexec internals",
+        "Command-line argument parsing"
+      ],
+      "Execution Control": [
+        "stdio inheritance vs. customization",
+        "Process environment overrides",
+        "Script execution validation"
+      ],
+      "Edge Case Handling": [
+        "Non-standard npm commands",
+        "Workspace boundary exceptions",
+        "CLI behavior debugging"
+      ],
+      "Technical Communication": [
+        "Structured PR descriptions",
+        "Technical justification documentation",
+        "Problem-solving rationale"
+      ],
+      "Testing Patterns": [
+        "CLI output validation",
+        "Edge-case scenario testing"
+      ]
+    },
+    "skill_evidence": [
+      "PR titles focus exclusively on 'libnpmexec' and npm workspace behavior (5/5 PRs)",
+      "Discussion of 'stdio' options ('inherit', custom values) in child processes",
+      "Mentions of ignoring 'cwd' for workspace filtering in monorepos",
+      "Special handling for commands: 'adduser', 'access', 'login', 'help-search', 'token'",
+      "PR descriptions include structured 'What / Why' sections for technical justification",
+      "Reference to 'non-interactive usage' patterns in CLI tooling",
+      "Workspace configuration patterns ('implicit workspace filtering') discussed",
+      "Focus on customizing Node.js execution behavior for npm commands"
+    ]
+  }
+}

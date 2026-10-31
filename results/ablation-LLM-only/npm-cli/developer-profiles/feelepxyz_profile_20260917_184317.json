@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "developer_name": "feelepxyz",
+    "generation_timestamp": "2026-09-17T18:36:05.955910",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 8,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 8
+  },
+  "profile": {
+    "developer_name": "feelepxyz",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "npm CLI internals",
+      "JavaScript package management",
+      "Dependency resolution & lockfile handling",
+      "Package security & provenance",
+      "JavaScript testing & debugging",
+      "CLI documentation & user-facing tooling",
+      "Semantic Versioning (semver)",
+      "Git integration in npm"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from npm CLI ecosystem)"
+    ],
+    "summary": "feelepxyz is a **Senior JavaScript developer** with deep expertise in **npm CLI internals, package management, and security**. Their contributions focus on **dependency resolution, lockfile repair, provenance verification, and registry interactions**, demonstrating a strong ability to navigate npm’s complex internals. The developer excels in **debugging edge cases, optimizing performance, and maintaining documentation**, with a particular focus on **package security (audit signatures, attestations) and versioning compliance**. While primarily backend/tooling-focused, their work reflects **collaborative problem-solving** with npm’s maintainers and a **test-driven approach** to fixing regressions. No frontend frameworks or libraries are evident in their contributions.",
+    "identified_skills": {
+      "Package Management & Ecosystem": [
+        "npm CLI internals",
+        "Dependency resolution algorithms",
+        "Lockfile repair & sub-dependency handling",
+        "Git dependency packaging",
+        "Registry integration (npmjs.com, GitHub Packages)",
+        "Provenance verification (--provenance flag)",
+        "Audit signatures & attestations",
+        "Package visibility checks"
+      ],
+      "Security & Integrity": [
+        "COSign/Sigstore attestations",
+        "Package authenticity verification",
+        "Registry authentication handling",
+        "Error recovery for auth failures (404s)",
+        "Semantic security practices"
+      ],
+      "Versioning & Releases": [
+        "Semantic Versioning (semver:patch)",
+        "Release cycle alignment (7.x)",
+        "Versioned dependency handling"
+      ],
+      "Testing & Debugging": [
+        "Test suite maintenance (Jest-like)",
+        "Regression debugging (e.g., semver@5.5.1)",
+        "Edge case validation"
+      ],
+      "Documentation & Tooling": [
+        "CLI documentation updates",
+        "Help text for --provenance flag",
+        "User-facing error messages",
+        "Registry interaction docs"
+      ],
+      "Collaboration & Process": [
+        "PR labeling (Needs Discussion, Release 7.x)",
+        "Cross-team references (@iarna)",
+        "Test-driven development"
+      ],
+      "Performance & Optimization": [
+        "Avoiding unnecessary API calls",
+        "Visibility check optimizations"
+      ],
+      "Asynchronous Systems": [
+        "Registry interaction patterns",
+        "Dependency resolution concurrency"
+      ]
+    },
+    "skill_evidence": [
+      "PR titles like 'Use Installer when packaging git dependencies' → Git dependency packaging and npm internals",
+      "Labels 'semver:patch' and 'Release 7.x' → Versioning compliance and release cycle awareness",
+      "Fixes for 'lockfile repair for sub-dependencies' → Deep dependency resolution knowledge",
+      "Docs PRs updating 'audit signatures cmd' → CLI documentation and user-facing tooling",
+      "Handling 'pkg vis 404' in provenance updates → Registry auth and error recovery",
+      "Test fix for 'semver@5.5.1' → Debugging npm’s test suite and test-driven development",
+      "Attestation-related PRs → COSign/Sigstore and package authenticity verification",
+      "Avoiding visibility checks when auth fails → Performance optimization in registry interactions"
+    ]
+  },
+  "statistics": {
+    "total_prs": 8,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

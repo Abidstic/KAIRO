@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "developer_name": "PaulBRamos",
+    "generation_timestamp": "2026-08-15T16:17:47.776535",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "PaulBRamos",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "jQuery Core DOM Manipulation",
+      "DOM Traversal and Node Operations",
+      "CSS Layout and Rendering Debugging",
+      "jQuery Unit Testing (QUnit)",
+      "Edge-Case DOM Bug Resolution",
+      "Legacy JavaScript Debugging"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "HTML/CSS (DOM manipulation)"
+    ],
+    "summary": "PaulBRamos is a Mid-Level JavaScript developer with specialized expertise in jQuery's core DOM manipulation and internal systems. His contributions focus on fixing subtle bugs in jQuery's utility methods (e.g., `.width()`, `insertAfter`) and maintaining the project's unit test suite. The developer demonstrates strong debugging skills for browser rendering quirks, particularly around CSS layout and DOM insertion edge cases. While his experience is deeply rooted in jQuery's legacy codebase, his work shows proficiency in DOM traversal, test maintenance, and collaborative code review processes. There is no evidence of modern JavaScript frameworks or backend systems in his contributions.",
+    "identified_skills": {
+      "DOM Manipulation": [
+        "jQuery Utility Methods (.width(), .height())",
+        "DOM Node Insertion (insertAfter, insertBefore)",
+        "Parent-Child DOM Relationships",
+        "Computed Style Calculation"
+      ],
+      "Testing": [
+        "jQuery QUnit Test Suite",
+        "Unit Test Styling Fixes",
+        "Test Maintenance for Manipulation.js"
+      ],
+      "Debugging": [
+        "Browser Rendering Quirks",
+        "Edge-Case DOM Bug Reproduction",
+        "CSS Display Property Debugging",
+        "Legacy JavaScript Debugging"
+      ],
+      "Collaboration": [
+        "Contributor Coordination",
+        "Avoiding Duplicate Work",
+        "Codebase Awareness"
+      ],
+      "jQuery Internals": [
+        "Core DOM Manipulation Logic",
+        "Fragment Caching",
+        "DOM Measurement Algorithms"
+      ],
+      "CSS Layout": [
+        "Computed Style Calculation",
+        "Display Property Handling",
+        "Layout Quirk Resolution"
+      ],
+      "JavaScript Language": [
+        "ES5 Closures",
+        "DOM Event Handling Patterns"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed `.width()` returning percentage when parent has `display: none` (PR #9945), demonstrating deep CSS layout and computed style debugging",
+      "Resolved `insertAfter`/`insertBefore` edge case where source and destination elements are identical (PR #4087), showing DOM traversal mastery",
+      "Maintained `manipulation.js` unit tests with styling fixes (PR #12756), proving familiarity with jQuery's QUnit test suite",
+      "Coordinated with `@erickrdch` to avoid duplicate work on `manipulation.js` (PR #12756), illustrating collaborative development practices",
+      "Addressed fragment cache removal in jQuery internals (PR #11989), indicating knowledge of jQuery's internal optimization patterns",
+      "Debugged browser-specific rendering inconsistencies in DOM measurement methods (PR #9945), showcasing cross-browser compatibility skills",
+      "Fixed test flakiness caused by styling issues in unit tests (PR #12756), demonstrating test maintenance expertise",
+      "Reproduced and fixed subtle DOM insertion bugs requiring manual DOM inspection (PR #4087), proving edge-case debugging capabilities"
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

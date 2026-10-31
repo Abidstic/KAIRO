@@ -1,0 +1,52 @@
+{
+  "reviewer_name": "Vivakvo",
+  "generated_at": "20260815_171336",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 7,
+    "total_comments": 5,
+    "total_prs": 3,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "Vivakvo",
+    "experience_level": "None (Non-JavaScript Role)",
+    "primary_skills": [],
+    "programming_languages": [],
+    "summary": "Vivakvo’s GitHub review activity does not demonstrate JavaScript technical skills. Their contributions are entirely focused on linguistic localization corrections in Esperanto for the `eo.js` project, with no evidence of JavaScript code review, debugging, or technical feedback. Their role appears to be a localization specialist rather than a JavaScript engineer.",
+    "identified_skills": {
+      "Localization & Linguistics": [
+        "Esperanto grammar corrections",
+        "Pluralization rules validation",
+        "Cultural localization approval"
+      ],
+      "GitHub Workflow": [
+        "PR approval workflow",
+        "Locale-specific PR labeling",
+        "Non-technical review comments"
+      ],
+      "Content Validation": [
+        "String accuracy review",
+        "Month/date format validation",
+        "Accusative case corrections"
+      ],
+      "Project-Specific Tools": [
+        "eo.js localization files"
+      ],
+      "JavaScript Exposure": []
+    },
+    "skill_evidence": [
+      "PR titles like 'Update eo.js' and '[locale] eo: corrections' indicate linguistic focus, not JavaScript code changes",
+      "All review comments are in Esperanto and address grammatical/cultural correctness, not technical JavaScript issues",
+      "Labels such as 'locale approval needed' confirm the role is localization validation, not code review",
+      "No discussion of JavaScript syntax, frameworks, or tooling appears in any review",
+      "Comments like 'All of them seem to be correct' refer to linguistic accuracy, not code quality",
+      "PR descriptions lack any technical JavaScript context or references to libraries/frameworks",
+      "Approvals are given without technical feedback on JavaScript implementation details",
+      "Esperanto-specific corrections (e.g., accusative cases, plural forms) dominate the review activity"
+    ]
+  }
+}

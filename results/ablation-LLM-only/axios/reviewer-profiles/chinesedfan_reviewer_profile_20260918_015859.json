@@ -1,0 +1,76 @@
+{
+  "reviewer_name": "chinesedfan",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 4,
+    "total_prs": 2,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "chinesedfan",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Axios security",
+      "TypeScript debugging",
+      "Dependency vulnerability management",
+      "HTTP client configuration",
+      "Node.js backend development"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "A highly skilled Senior JavaScript reviewer with deep expertise in Axios security, TypeScript debugging, and Node.js backend development. Demonstrates strong vulnerability management skills through proactive SSRF fixes and dependency security reviews. Shows precision in type safety and collaborative problem-solving in security-sensitive code changes. Familiar with npm permissions and security tooling like Snyk.",
+    "identified_skills": {
+      "Security & Vulnerability Handling": [
+        "SSRF mitigation",
+        "Snyk vulnerability scanning",
+        "Proxy redirect security",
+        "Dependency security audits"
+      ],
+      "TypeScript & Static Typing": [
+        "Type error debugging",
+        "Null assignment resolution",
+        "Type assertion validation"
+      ],
+      "HTTP & Networking": [
+        "Axios configuration",
+        "Follow-redirects handling",
+        "HTTP client security"
+      ],
+      "Backend Development": [
+        "Node.js runtime",
+        "npm permissions",
+        "Dependency management"
+      ],
+      "Code Review & Collaboration": [
+        "LGTM approvals",
+        "Constructive feedback",
+        "Collaborative security fixes"
+      ],
+      "Debugging & Root-Cause Analysis": [
+        "Runtime type error resolution",
+        "Vulnerability root-cause analysis"
+      ],
+      "Tooling & DevOps": [
+        "Snyk integration",
+        "GitHub PR workflow"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'Hotfix: Prevent SSRF' references Snyk vulnerability SNYK-JS-AXIOS-1038255 in Axios",
+      "Review comment 'LGTM' after fixing null type error in validateStatus",
+      "Fix involves modifying follow-redirects hook to prevent SSRF attacks",
+      "Mention of 'npm publish permissions' in review context",
+      "PR state CHANGES_REQUESTED for security fix requiring collaboration",
+      "TypeScript fix resolves 'null is not assignable to validateStatus' error",
+      "Review suggests shared suggestions for security-related changes",
+      "Evidence of proactive dependency security awareness through Snyk scans"
+    ]
+  }
+}

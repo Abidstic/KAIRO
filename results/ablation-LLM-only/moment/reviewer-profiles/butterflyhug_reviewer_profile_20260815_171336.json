@@ -1,0 +1,65 @@
+{
+  "reviewer_name": "butterflyhug",
+  "generated_at": "20260815_171336",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 15,
+    "total_comments": 15,
+    "total_prs": 1,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "butterflyhug",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript library development",
+      "API design and immutability",
+      "Semantic Versioning (semver)",
+      "Date/time manipulation in JavaScript"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "TypeScript (inferred from moment.js context, though not explicitly shown)"
+    ],
+    "summary": "Butterflyhug demonstrates a specialized focus on JavaScript library development, particularly in the context of moment.js. Their reviews highlight expertise in API design, immutability principles, and breaking change management via semantic versioning. The evidence suggests familiarity with moment.js internals (e.g., duration handling, offset management) but lacks modern JavaScript or framework-specific contributions. The reviewer’s contributions are primarily theoretical (PR descriptions) rather than practical (code reviews or implementations), limiting deeper insights into their full technical breadth.",
+    "identified_skills": {
+      "Library Architecture": [
+        "moment.js API design",
+        "immutable API patterns",
+        "library internals (duration/offset methods)"
+      ],
+      "Versioning & Releases": [
+        "semantic versioning (semver)",
+        "breaking change analysis",
+        "major version bumps"
+      ],
+      "Date/Time Systems": [
+        "moment.js duration handling",
+        "timezone/offset management",
+        "legacy date manipulation"
+      ],
+      "Technical Documentation": [
+        "RFC discussions",
+        "API specification review"
+      ],
+      "Code Review Patterns": [],
+      "Testing": [],
+      "Build Tools": [],
+      "Modern JavaScript": [],
+      "Frontend Frameworks": [],
+      "Backend Systems": []
+    },
+    "skill_evidence": [
+      "PR title references 'Immutable API' and breaking change discussions, indicating focus on API design and immutability principles",
+      "PR description explicitly states 'This is obviously a breaking API change that would require a new major version number (e.g., '3.0')', confirming semver expertise",
+      "Mentions of `moment.updateOffset()` and `moment.duration()._b` demonstrate familiarity with moment.js internals and date/time manipulation",
+      "PR labeled 'Breaking change' and 'Discussion', showing involvement in versioning and RFC-style technical debates",
+      "Reference to `moment/moment-rfcs#2` suggests participation in RFC-style specification reviews for JavaScript libraries",
+      "No evidence of modern JavaScript (e.g., async/await, modules) or framework-specific code (React, Node.js, etc.)",
+      "Review state is 'COMMENTED' with no code snippets or detailed comments, limiting practical skill assessment"
+    ]
+  }
+}

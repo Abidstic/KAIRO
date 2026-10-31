@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "developer_name": "thatguyinabeanie",
+    "generation_timestamp": "2026-09-18T02:30:15.282395",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "thatguyinabeanie",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios internals",
+      "TypeScript interface design",
+      "Node.js HTTP client development",
+      "Security vulnerability mitigation",
+      "Semantic versioning and backporting",
+      "GitHub Advisory Database integration"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "thatguyinabeanie is a focused JavaScript developer with specialized expertise in Axios' core functionality, particularly its TypeScript definitions and security-sensitive components. Their contributions demonstrate deep technical precision in fixing critical vulnerabilities, extending configuration interfaces, and maintaining cross-version compatibility. The developer shows strong Node.js backend skills with a security-first mindset, evidenced by targeted backporting of fixes across major versions and collaboration with GitHub's security tools. While contributions are currently limited to Axios, the quality and specificity of changes suggest a mid-level developer with the ability to make high-impact, low-noise contributions to established JavaScript libraries.",
+    "identified_skills": {
+      "HTTP Client Development": [
+        "Axios configuration",
+        "HTTP request handling",
+        "URL parsing safety"
+      ],
+      "TypeScript Advanced": [
+        "Interface extension",
+        "Generic type usage",
+        "Type definition modifications"
+      ],
+      "Security Engineering": [
+        "Vulnerability backporting",
+        "GitHub Advisory Database integration",
+        "Open redirect mitigation"
+      ],
+      "Version Management": [
+        "Semantic versioning",
+        "Cross-version backporting",
+        "v0.x to v1.x compatibility"
+      ],
+      "Codebase Maintenance": [
+        "Minimal change precision",
+        "Backward compatibility",
+        "Security-focused refactoring"
+      ],
+      "Tooling Integration": [
+        "GitHub Advisory Database",
+        "Issue triage",
+        "Security advisory tracking"
+      ],
+      "Configuration Systems": [
+        "AxiosRequestConfig extension",
+        "Runtime configuration patterns"
+      ],
+      "Backend Node.js": [
+        "Node.js HTTP client ecosystems",
+        "Dependency maintenance"
+      ]
+    },
+    "skill_evidence": [
+      "PR #3: Added 'allowAbsoluteUrls' type to AxiosRequestConfig<D=any> interface demonstrating TypeScript interface extension",
+      "PR #1: Backported security fix from v1.x to v0.x showing version compatibility expertise",
+      "PR #2: Referenced GitHub Advisory Database PR #5356 and issue #6824 for security vulnerability context",
+      "All PRs: Zero file changes but targeted security fixes (e.g., URL parsing safety) showing deep codebase knowledge",
+      "PR #3: Follow-up to issue #6850 and PR #6829 indicating collaborative security vulnerability resolution",
+      "PR #2: Explicit mention of 'vuln fix' in title and description confirming security focus",
+      "PR #1 and #2: Backporting patterns demonstrate semantic versioning understanding (e.g., maintaining v0.x while fixing v1.x)",
+      "PR #3: Type definition change shows ability to extend library APIs while maintaining compatibility"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

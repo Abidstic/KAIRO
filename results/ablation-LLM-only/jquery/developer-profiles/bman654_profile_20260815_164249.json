@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "bman654",
+    "generation_timestamp": "2026-08-15T16:27:36.159187",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "bman654",
+    "raw_response": "```json\n{\n  \"developer_name\": \"bman654\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"jQuery internals\",\n    \"Event handling and delegation\",\n    \"Internet Explorer compatibility fixes\",\n    \"DOM containment and traversal\",\n    \"Legacy JavaScript debugging\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES5/ES6)\",\n    \"jQuery\"\n  ],\n  \"summary\": \"bman654 is a mid-level JavaScript developer with specialized expertise in jQuery's core event system and Internet Explorer compatibility. Their contributions focus on fixing browser-specific bugs, particularly around event delegation and DOM containment logic. The developer demonstrates strong debugging skills for legacy JavaScript environments and has a deep understanding of jQuery's internals, particularly in handling edge cases like duplicate event triggers in IE. Their work is maintenance-focused, with no evidence of modern JavaScript frameworks or backend development.\",\n  \"identified_skills\": {\n    \"jQuery Core\": [\n      \"Event system internals\",\n      \"$.event.special\",\n      \"$.fn.on() implementation\",\n      \"$.contains() method\",\n      \"withinElement utility\"\n    ],\n    \"Browser Compatibility\": [\n      \"Internet Explorer-specific fixes\",\n      \"Event propagation control\",\n      \"DOM manipulation quirks\",\n      \"Race condition prevention\"\n    ],\n    \"Event Handling Patterns\": [\n      \"Event delegation\",\n      \"Duplicate event trigger prevention\",\n      \"onchange event handling\",\n      \"live change event fixes\"\n    ],\n    \"DOM Traversal\": [\n      \"Containment checks\",\n      \"Parent-child relationship validation\",\n      \"DOM element containment logic\"\n    ],\n    \"Legacy JavaScript\": [\n      \"ES5 compatibility\",\n      \"IE8/IE9/IE10 support\",\n      \"Vanilla JavaScript DOM APIs\"\n    ],\n    \"Debugging Techniques\": [\n      \"Browser inconsistency analysis\",\n      \"Event flow debugging\",\n      \"Race condition identification\"\n    ],\n    \"Testing\": [\n      \"jQuery's built-in test suite\",\n      \"Browser-specific test cases\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR #1 (#6593): Fixed duplicate onchange event triggers in IE by modifying jQuery's event system to prevent automatic IE-triggered onchange calls during input value manipulation\",\n    \"PR #2 (#6593): Addressed IE's automatic onchange firing when manipulating input elements, requiring changes to jQuery's event delegation logic (live change events)\",\n    \"PR #3 (#9447): Optimized withinElement → $.contains() implementation for better DOM containment performance, showing deep knowledge of jQuery's utility methods\",\n    \"All PRs demonstrate IE-specific debugging with focus on preventing race conditions in event handling\",\n    \"PR descriptions explicitly mention 'IE will call onchange on its own' quirk, proving specialized IE compatibility knowledge\",\n    \"No evidence of modern JavaScript features (async/await, modules) or frontend frameworks in any PR\",\n    \"Contributions focus exclusively on jQuery's core event system and DOM utilities, indicating specialized expertise in these areas\",\n    \"PR titles and descriptions show maintenance-focused bug fixes rather than new feature development\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 65 column 3 (char 3143)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

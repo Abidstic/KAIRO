@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "developer_name": "mattyod",
+    "generation_timestamp": "2026-09-18T14:21:02.652805",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "mattyod",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify (Node.js framework)",
+      "TypeScript",
+      "Node.js backend development",
+      "Logging systems (logger bindings)",
+      "Testing and mocking (unit tests)",
+      "GitHub Actions (CI/CD)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "mattyod is a mid-level JavaScript/TypeScript developer with specialized expertise in Fastify, a high-performance Node.js framework. Their contributions focus on core backend functionality, particularly the logger system, demonstrating strong skills in TypeScript, testing, and debugging. The developer shows proficiency in Fastify's plugin architecture, dependency injection, and mocking techniques, with evidence of involvement in CI/CD automation via GitHub Actions. Their work suggests a problem-solving approach to backend observability and robust logging implementations, making them a valuable contributor to Node.js backend projects.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js plugin system"
+      ],
+      "TypeScript": [
+        "TypeScript-first development",
+        "logger type safety",
+        "utility types"
+      ],
+      "Testing & Debugging": [
+        "logger mocking",
+        "unit test fixes",
+        "test-driven debugging"
+      ],
+      "Logging & Observability": [
+        "logger.setBindings",
+        "context-aware logging",
+        "debugging utilities"
+      ],
+      "CI/CD & Automation": [
+        "GitHub Actions",
+        "automated testing workflows"
+      ],
+      "JavaScript Language": [
+        "ES modules",
+        "async/await",
+        "closures"
+      ],
+      "Documentation": [
+        "documentation updates"
+      ],
+      "Mocking & Testing Tools": [
+        "Jest-like mocking",
+        "sinon stubs"
+      ]
+    },
+    "skill_evidence": [
+      "All three PRs in Fastify repository, focusing on logger plugin system",
+      "Two PRs labeled 'typescript' indicating TypeScript-first fixes to logger bindings",
+      "PRs involve mocking logger for unit tests, suggesting Jest/sinon usage",
+      "'logger.setBindings' fixes demonstrate deep understanding of Fastify's logger internals",
+      "GitHub Actions label on one PR indicates CI/CD pipeline involvement",
+      "Documentation label on one PR suggests contributions to Fastify's logger documentation",
+      "PR titles/descriptions imply test-driven fixes for logger context binding issues",
+      "No frontend frameworks or DOM-related PRs visible in analysis"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

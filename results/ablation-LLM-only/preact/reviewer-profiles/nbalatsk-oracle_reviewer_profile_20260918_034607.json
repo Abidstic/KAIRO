@@ -1,0 +1,71 @@
+{
+  "reviewer_name": "nbalatsk-oracle",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 3,
+    "total_prs": 1,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "nbalatsk-oracle",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Frontend JavaScript event systems",
+      "Preact framework",
+      "JavaScript debugging and testing",
+      "Event bubbling and lifecycle management",
+      "Performance-critical JavaScript"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Preact ecosystem)"
+    ],
+    "summary": "nbalatsk-oracle demonstrates strong expertise in frontend JavaScript, particularly within the Preact ecosystem. Their reviews focus on debugging event-driven systems, ensuring reliable behavior in test conditions, and preventing edge-case bugs like integer overflow in event loops. The reviewer excels at technical precision in code reviews, with a deep understanding of event bubbling and deterministic behavior in asynchronous environments. Their contributions suggest a Mid-level proficiency, combining practical debugging skills with a focus on testing and performance optimization.",
+    "identified_skills": {
+      "Frontend Frameworks": [
+        "Preact",
+        "Event Bubbling"
+      ],
+      "Testing and Debugging": [
+        "Test Condition Fixes",
+        "Event Order Validation",
+        "Global State Debugging"
+      ],
+      "Performance Optimization": [
+        "Integer Overflow Prevention",
+        "Event Loop Efficiency"
+      ],
+      "JavaScript Language Features": [
+        "Closures",
+        "Async Event Handling"
+      ],
+      "Code Review Practices": [
+        "Technical Precision",
+        "Iterative Feedback"
+      ],
+      "Event-Driven Systems": [
+        "Event Dispatch Tracking",
+        "Race Condition Mitigation"
+      ],
+      "Testing Reliability": [
+        "Deterministic Behavior",
+        "Flaky Test Prevention"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'Fix event bubbling can break in test conditions (#4161)' indicates focus on event-driven reliability",
+      "Global counter mechanism to track event dispatch order for debugging/testing purposes",
+      "Explicit mention of preventing 'overflow' in counter logic, highlighting performance awareness",
+      "Review comments repeatedly referencing the same PR suggest thorough iterative debugging",
+      "Fix involves ensuring 'deterministic behavior' in event handling for test conditions",
+      "No code changes in PRs (files_changed: 0) confirms reviewer role as technical gatekeeper",
+      "Event bubbling fix demonstrates deep understanding of Preact/React-like event systems",
+      "Focus on 'test conditions' implies expertise in writing reliable, non-flaky tests"
+    ]
+  }
+}

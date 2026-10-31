@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "developer_name": "JLHwung",
+    "generation_timestamp": "2026-08-15T18:09:49.246269",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "JLHwung",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript Internationalization (i18n)",
+      "Moment.js Localization",
+      "Unicode CLDR Compliance",
+      "JavaScript Build Tooling (Rollup.js)",
+      "Time/Date Formatting in JavaScript",
+      "Locale-Specific Time Expressions"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Moment.js ecosystem)"
+    ],
+    "summary": "JLHwung is a Mid-level JavaScript developer with specialized expertise in internationalization and localization within the Moment.js library. Their contributions focus on refining locale handling, aligning translations with Unicode CLDR standards, and maintaining build tooling (Rollup.js). While primarily a library-level specialist, their work demonstrates deep knowledge of JavaScript's time/date formatting capabilities and cultural localization nuances. Their PRs show strong attention to detail, community collaboration, and adherence to technical standards, making them a valuable contributor to open-source JavaScript projects.",
+    "identified_skills": {
+      "Internationalization & Localization": [
+        "Unicode CLDR v32/33 compliance",
+        "Locale normalization in updateLocale",
+        "Relative time i18n (e.g., 'seconds' translations)",
+        "Cultural month/weekday naming conventions",
+        "Locale-specific time expressions (future tense alignment)"
+      ],
+      "Moment.js Core": [
+        "updateLocale API usage",
+        "fromNow() relative time formatting",
+        "Locale data structure maintenance",
+        "Moment.js build system integration"
+      ],
+      "Build Tooling & Ecosystem": [
+        "Rollup.js configuration",
+        "Deprecated option handling (Rollup 0.53.0)",
+        "JavaScript bundling best practices",
+        "Test suite compatibility"
+      ],
+      "Standards & Documentation": [
+        "Unicode CLDR references",
+        "CLDR v32/v33 alignment",
+        "Locale approval processes",
+        "Clear PR documentation"
+      ],
+      "Testing & Debugging": [
+        "Build error resolution",
+        "Test suite awareness"
+      ],
+      "Version Control & Collaboration": [
+        "Focused PR contributions",
+        "Community review engagement"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: '[bugfix] fix(local_update): normalize locale name on updating locale' — Demonstrates deep understanding of Moment.js's updateLocale API and locale normalization logic",
+      "PR 2: '[locale] Relative seconds i18n' — References Unicode CLDR for relative time unit translations, showing CLDR compliance expertise",
+      "PR 3: '[locale] Update bo locale' — Updates Tibetan (bo) locale to align with CLDR v32, proving mastery of cultural localization and Unicode standards",
+      "PR 4: '[misc] fix deprecated rollup options' — Fixes Rollup.js 0.53.0 breaking changes, indicating build tooling knowledge and test suite awareness",
+      "PR 5: '[locale] zh: align relativeTime.future to CLDR 33' — Aligns Chinese (zh) future tense translations with CLDR 33, showing granular i18n attention",
+      "All PRs: Include 'locale approval needed' labels — Indicates collaboration with maintainers and adherence to review processes",
+      "PR descriptions: Reference CLDR versions and locale-specific details — Demonstrates research skills and technical precision"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

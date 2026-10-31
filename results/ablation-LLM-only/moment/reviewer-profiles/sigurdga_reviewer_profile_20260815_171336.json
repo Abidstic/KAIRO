@@ -1,0 +1,67 @@
+{
+  "reviewer_name": "sigurdga",
+  "generated_at": "20260815_171336",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 5,
+    "total_comments": 9,
+    "total_prs": 3,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "sigurdga",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "JavaScript Internationalization (i18n)",
+      "Moment.js locale customization",
+      "Norwegian linguistic localization",
+      "Date/time format validation",
+      "Code review for localization correctness"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "TypeScript (inferred from locale data context)"
+    ],
+    "summary": "sigurdga is a highly specialized Senior JavaScript reviewer with deep expertise in internationalization and localization, particularly for Norwegian (nb/nn) locales in date/time libraries like Moment.js. Their reviews focus exclusively on linguistic accuracy, standardized abbreviations, and adherence to official Norwegian language guidelines (Språkrådet). While their technical scope is narrow—limited to i18n and locale data—they demonstrate rigorous review standards, technical precision in date formatting, and cultural sensitivity in software localization. No evidence exists of broader JavaScript development experience beyond this niche specialization.",
+    "identified_skills": {
+      "Internationalization & Localization": [
+        "Norwegian (nb/nn) locale validation",
+        "Moment.js locale data corrections",
+        "Date/time format standardization",
+        "Relative time phrase localization",
+        "Linguistic guideline enforcement (Språkrådet)",
+        "Abbreviation consistency for months/weekdays"
+      ],
+      "Code Review Practices": [
+        "i18n-specific PR approval criteria",
+        "Constructive linguistic feedback",
+        "Locale data correctness validation"
+      ],
+      "Technical Specializations": [
+        "Date/time library localization",
+        "Short/long format localization rules",
+        "Locale-specific punctuation handling"
+      ],
+      "Language & Cultural Expertise": [
+        "Norwegian linguistic standards",
+        "Nynorsk vs Bokmål localization distinctions"
+      ],
+      "JavaScript Ecosystem": [],
+      "Testing & Tooling": [],
+      "Backend/Full-Stack": [],
+      "Frontend Frameworks": []
+    },
+    "skill_evidence": [
+      "\"[locale] use correct abbreviations for months and weekdays\" (PR #4) — demonstrates focus on standardized abbreviations",
+      "\"they do not follow the recommendations from the norwegian language council\" (PR #3 comment) — linguistic guideline enforcement",
+      "\"momentjs for locales `nn` and `nb` were wrong\" (PR context) — technical precision in Moment.js locale data",
+      "\"faulty short version of Saturday for nynorsk\" (PR #1) — attention to Nynorsk-specific formatting",
+      "\"I agree to some of them, but not all\" (PR #3) — nuanced linguistic feedback",
+      "\"Update for Norwegian and Nynorsk\" (PR #1 title) — dual-language localization expertise",
+      "\"relativeTime week translation for most commonly used languages\" (PR #5) — relative time localization correctness"
+    ]
+  }
+}

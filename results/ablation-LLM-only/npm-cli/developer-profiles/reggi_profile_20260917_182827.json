@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "developer_name": "reggi",
+    "generation_timestamp": "2026-09-17T18:20:58.772171",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 52,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "reggi",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "npm CLI internals",
+      "Node.js version compatibility",
+      "Dependency management in workspaces",
+      "Package resolution and installation mechanics",
+      "Semantic versioning (semver) alignment",
+      "CLI flag implementation and lifecycle scripts",
+      "Node.js engine specification"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)",
+      "TypeScript (indirect, via npm CLI migration)"
+    ],
+    "summary": "reggi is a Mid-Level JavaScript developer with deep expertise in the npm CLI and Node.js package management ecosystem. Their contributions focus on refining npm's core command-line tooling, particularly around Node.js version compatibility, dependency resolution, and workspace support. The developer demonstrates strong skills in fixing CLI edge cases (e.g., `npm ci` behavior in monorepos), implementing new CLI features (e.g., `--ignore-scripts` flag), and managing breaking changes (e.g., Node.js engine range updates). While their work is backend/tooling-focused, their understanding of Node.js internals and package resolution mechanics positions them as a specialist in the npm ecosystem rather than frontend frameworks. Evidence suggests familiarity with CI/CD workflows and release automation tools like `release-please`, though frontend JavaScript or modern frameworks are not part of their visible contributions.",
+    "identified_skills": {
+      "Node.js Engine and Versioning": [
+        "Node.js engine range alignment (^20.17.0 || >=22.9.0)",
+        "Breaking change management for npm 11",
+        "Semantic versioning (semver) compliance"
+      ],
+      "npm CLI Development": [
+        "CLI command lifecycle scripts (pack, prepare)",
+        "Deprecation and removal of legacy commands (npm hooks)",
+        "Fast installation behavior (npm ci in workspaces)",
+        "Flag implementation (--ignore-scripts)"
+      ],
+      "Dependency and Workspace Management": [
+        "Workspace dependency resolution fixes",
+        "Unused dependency cleanup",
+        "DEPENDENCIES.json generation",
+        "node: specifier integration for native modules"
+      ],
+      "Package Resolution and Tooling": [
+        "pacote integration for package resolution",
+        "Dependency tree optimization",
+        "node_modules cleanup strategies"
+      ],
+      "Release Automation and CI/CD": [
+        "release-please integration",
+        "CI-related node_modules cleanup",
+        "GitHub Actions awareness (indirect)"
+      ],
+      "JavaScript Runtime Knowledge": [
+        "CommonJS/ES Modules awareness",
+        "Async/Await usage (implied)",
+        "Node.js core APIs (fs, path, child_process)"
+      ],
+      "Documentation and Community": [
+        "npm CLI documentation references",
+        "Deprecation notice updates"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'sets node engine range to `^20.17.0 || >=22.9.0`' — explicit breaking change for npm 11, demonstrating Node.js versioning expertise",
+      "PR: 'fix(ci): rm workspace node_modules' — CI/CD awareness and workspace dependency resolution fixes",
+      "PR: 'feat!: adds --ignore-scripts flag to pack' — new CLI feature implementation with lifecycle script control",
+      "PR: 'fix: adds `node:` specifier to all native node modules' — package resolution mechanics and native module handling",
+      "PR: 'deps: remove unused deps' — dependency hygiene and tree optimization",
+      "PR: 'chore: add creation of a DEPENDENCIES.json file' — programmatic dependency tracking and analysis",
+      "PR: 'removes the hook command https:\n    "
+    ]
+  },
+  "statistics": {
+    "total_prs": 52,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

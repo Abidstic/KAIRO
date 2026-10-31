@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "developer_name": "marwahaha",
+    "generation_timestamp": "2026-08-15T17:58:36.479452",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 32,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "marwahaha",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "TypeScript",
+      "Date/Time Manipulation",
+      "Internationalization (i18n) & Localization",
+      "ISO 8601 Compliance",
+      "Performance Optimization",
+      "Testing & CI/CD Integration",
+      "Code Quality & Refactoring",
+      "Breaking Change Management"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "marwahaha is a **Senior JavaScript developer** with deep expertise in **date/time manipulation**, **TypeScript**, and **internationalization**. Their contributions to Moment.js demonstrate a strong ability to handle **edge cases in date logic**, **locale-specific parsing/formatting**, and **ISO 8601 compliance**. They excel in **performance optimization**, **code quality improvements**, and **breaking change management**, with hands-on experience in **testing (Coveralls, npm scripts)** and **CI/CD workflows**. Their work shows a **high level of technical precision**, particularly in **type safety**, **format token design**, and **cross-language date handling** (e.g., Arabic, Spanish locales). While their focus is specialized in time libraries, their **TypeScript and JavaScript fundamentals** are robust, making them a valuable asset for projects requiring **reliable date/time systems** or **globalized applications**.",
+    "identified_skills": {
+      "TypeScript & Static Typing": [
+        "TypeScript typing fixes",
+        "Generic type constraints",
+        "Method/property ambiguity resolution",
+        "TypeScript test integration"
+      ],
+      "Date/Time Systems": [
+        "Duration object validation",
+        "Date edge-case handling (year 0, leap years)",
+        "Mathematical date calculations (daysInMonth)",
+        "ISO 8601 compliance adjustments",
+        "Timezone format tokens (Z, ZZ)"
+      ],
+      "Internationalization & Localization": [
+        "Arabic locale month parsing",
+        "Spanish (US) locale dot-separated dates",
+        "RTL (Right-to-Left) text handling",
+        "Locale-specific month formatting"
+      ],
+      "Code Quality & Maintainability": [
+        "Dead code removal",
+        "Utility functions over `instanceof` checks",
+        "Breaking change documentation",
+        "NPM script migration from Grunt"
+      ],
+      "Testing & Validation": [
+        "Coveralls test coverage integration",
+        "Travis CI configuration",
+        "Edge-case test scenarios",
+        "TypeScript test suite maintenance"
+      ],
+      "Performance Engineering": [
+        "Avoidance of `new Date()` for calculations",
+        "Mathematical optimizations for date logic"
+      ],
+      "Build System & Tooling": [
+        "NPM script automation",
+        "CI/CD pipeline configuration",
+        "TypeScript build integration"
+      ],
+      "Collaboration & Code Review": [
+        "Cross-team PR discussions",
+        "Technical decision justification",
+        "Code review engagement"
+      ],
+      "Documentation Awareness": [
+        "Breaking change documentation notes",
+        "API token compliance updates"
+      ],
+      "JavaScript Fundamentals": [
+        "ES6+ patterns",
+        "String interpolation",
+        "Functional utilities"
+      ]
+    },
+    "skill_evidence": [
+      "[misc] typescrpt: Fixes #3702, add week in duration input spec — Demonstrates TypeScript typing fixes for method/property ambiguity in DurationInputArg1",
+      "[feature] Durations gain validity — Adds `_isValid` property and `isValid()` method to `moment.duration`, showing deep date validation logic",
+      "[bugfix] Fixes #3765: Ensure year 0 is formatted with YYYY — Handles ISO edge case for year 0 formatting",
+      "[locale] Fix Arabic locale for months (again) — Corrects locale-specific month parsing for Arabic, proving i18n expertise",
+      "[bugfix] Calculate daysInMonth without Date(), fixes #3358 — Replaces `new Date()` with mathematical calculation for performance",
+      "[misc] Use npm to run typescript tests, fixes #3826 — Migrates from Grunt to npm scripts for TypeScript testing, showing CI/CD awareness",
+      "[bugfix] Change 'Y' format token to adhere to ISO under 9999 — Labeled as breaking change, proving compliance and documentation discipline",
+      "[bugfix] Remove RTL scraping from preparse, fixes #3487 — Removes unused RTL logic, demonstrating code quality focus",
+      "[misc] Use isFunction instead of instanceof Function — Replaces runtime checks with utility function, showing clean code patterns"
+    ]
+  },
+  "statistics": {
+    "total_prs": 32,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

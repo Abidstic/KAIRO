@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "developer_name": "vakhid-shagmanov",
+    "generation_timestamp": "2026-08-15T15:54:48.799102",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "vakhid-shagmanov",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Express.js backend development",
+      "JavaScript testing (Express test suite)",
+      "Code refactoring and cleanup",
+      "Node.js backend maintenance"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Express ecosystem)"
+    ],
+    "summary": "vakhid-shagmanov demonstrates **mid-level JavaScript backend expertise** primarily through contributions to the Express.js framework. Their work focuses on **internal refactoring**, particularly in response handling and removing unused parameters, alongside involvement in Express's test suite. While the PR data shows limited direct code changes, the contributions indicate strong familiarity with Express's middleware architecture, HTTP response lifecycle, and JavaScript testing patterns. The developer's experience appears specialized in backend maintenance and testing rather than frontend development or DevOps.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Node.js middleware"
+      ],
+      "Testing": [
+        "Express test suite",
+        "Mocha/Chai/Supertest (inferred)"
+      ],
+      "Code Quality": [
+        "unused parameter removal",
+        "response handling refactoring"
+      ],
+      "Backend Patterns": [
+        "HTTP response manipulation",
+        "internal API improvements"
+      ],
+      "Static Analysis": [
+        "code cleanup"
+      ],
+      "Asynchronous Patterns": [
+        "Node.js event loop (inferred)"
+      ],
+      "Documentation": [
+        "test-related contributions (inferred)"
+      ]
+    },
+    "skill_evidence": [
+      "PR titles include 'test: Remove unused params' and 'refactoring location in response', indicating direct work on Express's internal APIs and test suite",
+      "All contributions are in the 'express' repository, confirming backend-focused expertise with Express.js",
+      "No visible frontend or DevOps contributions, limiting scope to backend/JavaScript testing and refactoring",
+      "PRs suggest involvement in Express's testing ecosystem, likely using Mocha/Chai/Supertest for HTTP assertions",
+      "Refactoring PRs imply deep understanding of Express's middleware architecture and response lifecycle",
+      "No new feature development visible; contributions are maintenance-focused (refactoring, cleanup)",
+      "PRs show no file changes (`files_changed: 0`), suggesting possible meta-contributions or incomplete data"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

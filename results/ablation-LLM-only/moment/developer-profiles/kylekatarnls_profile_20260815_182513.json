@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "developer_name": "kylekatarnls",
+    "generation_timestamp": "2026-08-15T18:24:18.750159",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "kylekatarnls",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Moment.js internals",
+      "ISO 8601 date/time compliance",
+      "Edge-case debugging in date arithmetic",
+      "Locale-aware date formatting",
+      "Legacy JavaScript ecosystem (pre-ES6)",
+      "Test-driven debugging"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "JavaScript (Node.js environment)"
+    ],
+    "summary": "kylekatarnls is a JavaScript developer with specialized expertise in date/time libraries, particularly Moment.js. Their contributions demonstrate a deep understanding of ISO 8601 compliance, edge-case handling in calendar week calculations, and locale-specific date formatting. While their contributions are limited to a single repository, the precision of their fixes—targeting subtle bugs in year-transition logic—indicates strong debugging and algorithmic reasoning skills. Their work aligns with legacy JavaScript ecosystems (pre-ES6 modules) and suggests potential for contributions to modern date libraries or timezone-aware applications. The developer’s ability to identify and resolve complex date arithmetic issues positions them as a mid-level specialist in this niche domain.",
+    "identified_skills": {
+      "Date/Time Systems": [
+        "Moment.js core logic",
+        "ISO 8601 week numbering",
+        "Year-transition edge cases",
+        "Locale-aware date formatting"
+      ],
+      "Debugging & Testing": [
+        "Edge-case debugging",
+        "Test-driven debugging",
+        "Static code analysis",
+        "Bug reproduction"
+      ],
+      "JavaScript Ecosystem": [
+        "Legacy JavaScript (pre-ES6)",
+        "CommonJS module patterns",
+        "Node.js environment",
+        "Date library internals"
+      ],
+      "Code Quality": [
+        "Refactoring redundant logic",
+        "Self-documenting code",
+        "Code clarity improvements"
+      ],
+      "Collaboration": [
+        "PR review alignment",
+        "Documentation references"
+      ],
+      "Testing Awareness": [
+        "Test coverage gaps identification"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'Fix inconsistent output on new year' addresses ISO week numbering misalignment across year boundaries, demonstrating deep knowledge of ISO 8601 compliance.",
+      "PR labeled '[locale]' fixes locale-specific week number inconsistencies, proving expertise in internationalized date formatting.",
+      "PR #2 references 'Needs tests' label, showing awareness of test coverage gaps for edge-case date arithmetic.",
+      "Changes remove redundant checks in `moment/format.js`, indicating attention to code clarity and refactoring.",
+      "PRs reference specific line numbers (e.g., `src/lib/moment/format.js#L13`), proving familiarity with code navigation and debugging.",
+      "All PRs are in Moment.js (pre-ES6 modules), confirming experience with legacy JavaScript ecosystems.",
+      "PRs are closed quickly with minimal additions/deletions, suggesting precision in targeted fixes and alignment with maintainers.",
+      "Evidence of debugging subtle bugs in year-transition logic (e.g., last week of year N vs. first week of year N+1)."
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

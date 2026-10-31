@@ -1,0 +1,48 @@
+{
+  "reviewer_name": "gnurgeldiyev",
+  "generated_at": "20260815_172449",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 3,
+    "total_prs": 1,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "gnurgeldiyev",
+    "experience_level": "Junior",
+    "primary_skills": [],
+    "programming_languages": [],
+    "summary": "The reviewer @gnurgeldiyev has no demonstrated JavaScript technical skills based on the available GitHub review data. Their two reviews focus solely on adding a Turkmen locale, with no JavaScript file modifications or technical discussions related to JavaScript code, frameworks, or language features. The evidence suggests involvement in non-code aspects (e.g., localization strings) rather than JavaScript development.",
+    "identified_skills": {
+      "Localization & Internationalization": [
+        "Locale additions",
+        "String accuracy review"
+      ],
+      "Non-Technical Code Review": [
+        "Typos and formatting review"
+      ],
+      "Project Documentation": [],
+      "JavaScript": [],
+      "Frontend Frameworks": [],
+      "Backend Frameworks": [],
+      "Testing": [],
+      "Performance Optimization": [],
+      "Tooling & Build Systems": [],
+      "Asynchronous Programming": [],
+      "Error Handling": []
+    },
+    "skill_evidence": [
+      "PR title '[new locale] tk: Add Turkmen' indicates focus on locale addition, not JavaScript code",
+      "No JavaScript files changed in either review (files_changed: 0)",
+      "Review comments only address typos in localization strings, not JavaScript logic",
+      "Review state shows no approvals or changes related to JavaScript implementation",
+      "Absence of any discussion about JavaScript frameworks, libraries, or language features",
+      "No evidence of async/await, ES6 modules, or TypeScript usage in reviews",
+      "Reviews lack technical depth or feedback on JavaScript-specific patterns or practices"
+    ]
+  }
+}

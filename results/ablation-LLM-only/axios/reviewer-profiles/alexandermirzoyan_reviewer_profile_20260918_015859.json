@@ -1,0 +1,19 @@
+{
+  "reviewer_name": "alexandermirzoyan",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 5,
+    "total_comments": 0,
+    "total_prs": 5,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "alexandermirzoyan",
+    "raw_response": "```json\n{\n  \"reviewer_name\": \"alexandermirzoyan\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"TypeScript/JavaScript Typing\",\n    \"Frontend UI Debugging\",\n    \"Technical Documentation\",\n    \"Error Handling & Developer Experience\",\n    \"Code Review & Quality Assurance\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript\",\n    \"HTML/CSS\"\n  ],\n  \"summary\": \"alexandermirzoyan is a Mid-level JavaScript reviewer with strong expertise in TypeScript/JavaScript typing, frontend UI debugging, and technical documentation. Their reviews demonstrate a developer-centric approach focused on improving type safety, fixing UI bugs, and enhancing developer experience through warnings and clear documentation. The reviewer shows consistent quality assurance through code reviews and attention to detail in both frontend and backend-like configuration systems.\",\n  \"identified_skills\": {\n    \"Type Systems & Static Analysis\": [\n      \"TypeScript\",\n      \"JSDoc annotations\",\n      \"Function signatures\",\n      \"Interface definitions\"\n    ],\n    \"Frontend Development\": [\n      \"CSS Layout (flexbox, grid)\",\n      \"Responsive Design\",\n      \"UI Bug Fixing\",\n      \"Component Debugging\"\n    ],\n    \"Developer Experience\": [\n      \"Runtime Validation\",\n      \"Error Warnings\",\n      \"Configuration Options\",\n      \"Documentation Clarity\"\n    ],\n    \"Code Quality & Review\": [\n      \"Code Review Approvals\",\n      \"Consistency Checks\",\n      \"Minor Bug Fixes\"\n    ],\n    \"Documentation Practices\": [\n      \"Markdown Syntax\",\n      \"Code Syntax Highlighting\",\n      \"README Maintenance\"\n    ],\n    \"Configuration Systems\": [\n      \"Request Config Options\",\n      \"HTTP Client Configuration\"\n    ],\n    \"Versioning & Releases\": [\n      \"CHANGELOG Updates\",\n      \"Semantic Versioning\"\n    ],\n    \"Debugging Techniques\": [\n      \"Visual Regression Analysis\",\n      \"UI State Debugging\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR: 'fix(types): add missing types for mergeConfig function' — explicit TypeScript/JSDoc type addition\",\n    \"PR: 'fix: fixed width form to not shrink after \\'Send Request\\' button is cl...' — CSS/HTML layout debugging with UI screenshot evidence\",\n    \"PR: 'docs(readme): fix Request Config options code highlight' — Markdown and code syntax correction in documentation\",\n    \"PR: 'Warn about common option misspellings' — runtime validation and error handling improvements\",\n    \"All PRs 'APPROVED' state — consistent high-quality code review contributions\",\n    \"PR: 'fix: Update CHANGELOG.md for v0.x' — versioning and release process awareness\",\n    \"Sandbox bug context — frontend-focused tooling experience (e.g., CodeSandbox)\",\n    \"Request Config options PR — configuration system familiarity in HTTP client context\"\n  ]\n}\n```",
+    "parsing_error": "Invalid \\escape: line 61 column 53 (char 2088)"
+  }
+}

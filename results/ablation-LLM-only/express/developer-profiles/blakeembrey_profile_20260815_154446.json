@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "developer_name": "blakeembrey",
+    "generation_timestamp": "2026-08-15T15:37:35.992540",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 15,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "blakeembrey",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Express.js Core Development",
+      "URL Routing & Path Handling",
+      "Dependency Management",
+      "Node.js Backend Systems",
+      "Regex-Based Parameter Parsing",
+      "Security-Focused Redirects"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from dependency ecosystem)"
+    ],
+    "summary": "Senior backend JavaScript engineer specializing in Express.js architecture, URL routing, and dependency ecosystem management. Deep expertise in optimizing path-to-regexp, middleware parameter handling, and security-focused redirect patterns. Contributes extensively to Express core and related utilities, with a focus on backward compatibility, performance, and dependency governance.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Middleware Architecture",
+        "Dynamic Routing",
+        "Modular Express Applications"
+      ],
+      "URL & Path Processing": [
+        "path-to-regexp",
+        "Regex-Based Routing",
+        "Parameter Indexing Fixes",
+        "URL Encoding (encodeurl)"
+      ],
+      "Dependency Systems": [
+        "Semantic Versioning",
+        "Dependency Upgrades",
+        "Project Captaincy",
+        "Ecosystem Governance"
+      ],
+      "Security Practices": [
+        "Open Redirect Mitigation",
+        "Explicit Redirect Patterns",
+        "Magic String Deprecation"
+      ],
+      "Performance Optimization": [
+        "Parameter Processing Loops",
+        "Regex Optimization",
+        "Middleware Performance"
+      ],
+      "Bug Resolution": [
+        "Parameter Index Bugs",
+        "Backward Compatibility Fixes",
+        "Runtime Error Resolution"
+      ],
+      "Node.js Runtime": [
+        "Async Middleware Patterns",
+        "Event Loop Awareness"
+      ],
+      "Documentation & Governance": [
+        "Deprecation Notices",
+        "Breaking Change Documentation"
+      ]
+    },
+    "skill_evidence": [
+      "\"Override params each layer\" – Demonstrates middleware parameter inheritance knowledge",
+      "\"Use loop for acceptParams\" (performance) – Shows iterative optimization for parameter processing",
+      "\"Fix parameter indexes with path-to-regexp@0.1.6\" – Closes #2637/#2491/#2617, proving regex-based bug resolution",
+      "\"Deprecate 'back' magic string in redirects\" – Security-focused redirect pattern enforcement",
+      "\"Assign captain of encodeurl\" – Leadership in URL encoding utility maintenance",
+      "\"deps: path-to-regexp@0.1.11\" – Semantic versioning compliance and dependency updates",
+      "\"Update path regexp functionality\" – Breaking change documentation for backward compatibility",
+      "\"List and sort all projects, add captains\" – Ecosystem governance and maintainer coordination"
+    ]
+  },
+  "statistics": {
+    "total_prs": 15,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "developer_name": "voxpelli",
+    "generation_timestamp": "2026-09-18T13:43:20.579045",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 8,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 8
+  },
+  "profile": {
+    "developer_name": "voxpelli",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript (Advanced Type System)",
+      "Fastify (Backend Framework)",
+      "Node.js Versioning",
+      "TypeScript Declaration Merging",
+      "Runtime Type Enforcement"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (Node.js)"
+    ],
+    "summary": "voxpelli is a Mid-level JavaScript developer with specialized expertise in TypeScript and Fastify. Their contributions focus on enhancing type safety, plugin systems, and runtime validation within Fastify’s backend framework. The developer demonstrates deep knowledge of TypeScript’s advanced features (e.g., overloads, declaration merging) and Fastify’s decorator-based plugin architecture. While their contributions are primarily backend-oriented, they also show basic awareness of Node.js versioning and GitHub Actions. No evidence of frontend work or advanced tooling (e.g., testing frameworks) is present in their PR activity.",
+    "identified_skills": {
+      "TypeScript Core": [
+        "TypeScript Type Enforcement",
+        "TypeScript Overloads",
+        "TypeScript Declaration Merging",
+        "TypeScript Runtime Validation",
+        "Strict Null Checks"
+      ],
+      "Backend Frameworks": [
+        "Fastify",
+        "Fastify Decorators",
+        "Fastify Plugin System",
+        "Fastify Type Definitions"
+      ],
+      "Node.js Ecosystem": [
+        "Node.js Versioning",
+        "Package.json Metadata"
+      ],
+      "Tooling & DevOps": [
+        "GitHub Actions"
+      ],
+      "Language Features": [
+        "Function Overloading",
+        "Ambient Declarations"
+      ],
+      "Testing": [],
+      "Frontend Frameworks": [],
+      "Asynchronous Programming": [],
+      "Dependency Management": [],
+      "Documentation": []
+    },
+    "skill_evidence": [
+      "\"Extend `decorate()` to enforce defined values\" - TypeScript type enforcement in Fastify decorators",
+      "\"Overload `DecorationMethod` to fix #4870\" - TypeScript function overloading for Fastify types",
+      "\"Next: Disallow `decorate('name', null)` in the types\" - Runtime type validation (null checks)",
+      "\"feat: mixin system alongside declaration merging\" - TypeScript declaration merging for Fastify plugins",
+      "\"fix(package.json): add `engines.node` range\" - Node.js versioning and package.json metadata",
+      "\"typescript\" label on all PRs - Consistent focus on TypeScript improvements",
+      "\"github actions\" label on versioning PR - Basic CI/CD awareness",
+      "No frontend or testing-related PRs - Confirmed backend specialization"
+    ]
+  },
+  "statistics": {
+    "total_prs": 8,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

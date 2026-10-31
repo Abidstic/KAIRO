@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "developer_name": "eddiemonge",
+    "generation_timestamp": "2026-08-15T16:28:48.502309",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "eddiemonge",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Core JavaScript (pre-ES6)",
+      "jQuery internals",
+      "JavaScript debugging",
+      "Static analysis (jslint)",
+      "CommonJS module systems",
+      "Legacy JavaScript patterns"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "jQuery"
+    ],
+    "summary": "eddiemonge is a mid-level JavaScript developer with deep expertise in legacy JavaScript patterns, particularly within the jQuery ecosystem. Their contributions focus on fixing subtle bugs related to strict equality comparisons, type coercion edge cases (e.g., `typeof null`), and CommonJS module handling. They demonstrate strong debugging skills, attention to code quality (via jslint compliance), and a practical understanding of backward compatibility in large, mature codebases. While their work is narrowly concentrated on jQuery’s core, their ability to identify and resolve low-level JavaScript quirks suggests a robust foundation in the language’s fundamentals.",
+    "identified_skills": {
+      "Core JavaScript Fundamentals": [
+        "Strict equality operator (`===` vs `==`)",
+        "Type coercion debugging",
+        "`typeof` operator edge cases",
+        "Defensive programming (truthiness checks)"
+      ],
+      "Legacy JavaScript Patterns": [
+        "jQuery DOM manipulation",
+        "Pre-ES6 module systems (CommonJS)",
+        "Legacy browser compatibility fixes"
+      ],
+      "Static Analysis & Linting": [
+        "jslint compliance",
+        "Code quality enforcement"
+      ],
+      "Debugging & Edge-Case Handling": [
+        "Runtime error prevention",
+        "Module system quirks (e.g., `module.exports`)",
+        "Backward compatibility testing"
+      ],
+      "Codebase Maintenance": [
+        "jQuery 1.x and 2.x branch fixes",
+        "Minimal, targeted PRs"
+      ],
+      "Bug Tracking & Documentation": [
+        "GitHub issue referencing",
+        "Structured bug reporting"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Explicit mention of '=== vs == and !== vs !=' in jslint compliance PR, demonstrating strict equality preference",
+      "PR #1: Reference to 'jslint' as the target for code quality improvements, showing static analysis tooling experience",
+      "PR #2: Fix for `typeof null.prop` error with guard clause (`if (module)`), proving deep understanding of type coercion and CommonJS quirks",
+      "PR #2: Comment 'typeof null.prop = JS error' highlights awareness of JavaScript’s `typeof null` quirk and defensive programming",
+      "PR #2: Fix applied to both 1.x and 2.x branches, indicating backward compatibility focus",
+      "PR #3: Explicit mention of '1.x branch should have this fix as well', showing version-specific maintenance awareness",
+      "All PRs: Zero changed files in diffs, suggesting precision in targeted bug fixes rather than broad refactoring",
+      "PR #1 description: 'Mostly it is === vs == and !== vs !=', reinforcing strict equality as a key skill"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

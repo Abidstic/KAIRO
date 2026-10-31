@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "developer_name": "claudiahdz",
+    "generation_timestamp": "2026-09-17T18:21:51.589191",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 34,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "claudiahdz",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "npm CLI internals",
+      "Node.js package management",
+      "Static site generation (Gatsby)",
+      "Documentation tooling",
+      "Semantic versioning",
+      "CI/CD pipeline configuration",
+      "Error handling in CLI tools",
+      "Legacy code refactoring"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "Node.js",
+      "Bash (Makefiles, shell scripts)"
+    ],
+    "summary": "Senior JavaScript developer with deep expertise in npm CLI internals, package management systems, and documentation tooling. Specializes in refactoring core npm functionality, migrating documentation to modern static site generators (Gatsby), and implementing robust CI/CD pipelines. Strong background in error handling, security considerations, and legacy code cleanup within the Node.js ecosystem. Demonstrates advanced proficiency in Node.js internals, dependency management, and release processes.",
+    "identified_skills": {
+      "Package Management Systems": [
+        "npm CLI internals",
+        "npm publish/pack refactoring",
+        "dependency resolution",
+        "semver upgrades",
+        "package alias documentation",
+        "forbidden error handling (E403)"
+      ],
+      "Static Site Generation": [
+        "Gatsby migration",
+        "Markdown documentation",
+        "Netlify deployment",
+        "CSS/HTML styling fixes",
+        "Makefile-based builds"
+      ],
+      "Documentation Tooling": [
+        "Markdown content",
+        "Gatsby-based docs",
+        "Netlify config",
+        "package alias documentation",
+        "CI/CD documentation"
+      ],
+      "Node.js Internals": [
+        "libnpmpack integration",
+        "npm-lifecycle hooks",
+        "cacache dependency",
+        "figgy-pudding cleanup",
+        "unpublish.js refactoring"
+      ],
+      "Release Management": [
+        "semantic versioning (patch/major)",
+        "release PRs (6.x versions)",
+        "dependency version bumps",
+        "mergeable.yml CI gates"
+      ],
+      "Error Handling & Security": [
+        "custom 403 error codes",
+        "security proxy logic",
+        "path resolution fixes",
+        "forbidden request handling"
+      ],
+      "Legacy Code Maintenance": [
+        "figgy-pudding removal",
+        "unused config cleanup",
+        "BB module deprecation",
+        "legacy script refactoring"
+      ],
+      "CI/CD & DevOps": [
+        "mergeable.yml integration",
+        "GitHub Probot",
+        "CI tooling (dirPacker options)",
+        "Netlify deployment config"
+      ],
+      "Build Scripts & Automation": [
+        "Makefile modifications",
+        "doc-build.sh scripts",
+        "build system refactoring",
+        "dependency update scripts"
+      ]
+    },
+    "skill_evidence": [
+      "PR 'feat: add new forbidden 403 error code' demonstrates npm security proxy logic and custom error handling",
+      "'feat: update cli deps' shows dependency upgrades (npm-pick-manifest@6.0.0, cacache@15.0.0) with semver awareness",
+      "'docs: migrate existing docs to gatsby' includes Makefile and doc-build.sh modifications for static site generation",
+      "'chore: remove figgy-pudding from cli' reflects deep knowledge of npm's legacy internals and cleanup processes",
+      "'feat/publish' refactors npm publish using libnpmpack, indicating mastery of npm's internal packing system",
+      "'docs: package aliases' adds documentation for npm's package alias feature, showing focus on user-facing docs",
+      "'chore(ci): add dirPacker to options' integrates CI/CD tooling with npm's internal build system",
+      "'chore: fix netlify publish path config' resolves security/accessibility issues in deployment pipelines"
+    ]
+  },
+  "statistics": {
+    "total_prs": 34,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

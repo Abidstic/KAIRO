@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "developer_name": "kurkle",
+    "generation_timestamp": "2026-09-17T22:41:34.888836",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 683,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "kurkle",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Chart.js core architecture",
+      "JavaScript functional programming",
+      "Canvas-based rendering",
+      "Data visualization algorithms",
+      "Event-driven UI interactions",
+      "Type safety and numeric precision handling",
+      "Visual debugging with CodePen/JSFiddle"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "TypeScript (inferred from modern JS patterns)"
+    ],
+    "summary": "kurkle is a highly specialized Senior JavaScript developer with deep expertise in Chart.js's core rendering systems. Their contributions demonstrate mastery of data visualization algorithms, canvas-based rendering, and precise numeric handling. With 683 PRs focused exclusively on Chart.js, they exhibit exceptional debugging skills through live visual testing (CodePen/JSFiddle) and rigorous attention to edge cases in chart rendering, interactions, and axis systems. Their work spans functional programming patterns, prototype-based architecture, and event delegation—all within the context of creating accurate, performant data visualizations.",
+    "identified_skills": {
+      "Core JavaScript Patterns": [
+        "Functional programming techniques",
+        "Prototype-based inheritance",
+        "Closures and scope management",
+        "Event delegation and DOM event handling",
+        "Type coercion and numeric safety"
+      ],
+      "Chart.js Architecture": [
+        "Controller system (bar/line/polar/radar)",
+        "Tick and axis generation algorithms",
+        "Rendering pipelines and coordinate systems",
+        "Tooltip and interaction systems",
+        "Time series data scaling"
+      ],
+      "Visual Debugging Tools": [
+        "CodePen prototyping",
+        "JSFiddle-based iterative testing",
+        "Visual regression verification"
+      ],
+      "Mathematical Visualization": [
+        "Angle calculations (polar/radar charts)",
+        "Numeric precision handling",
+        "Dynamic tick label optimization",
+        "Data type normalization (numeric strings)"
+      ],
+      "Frontend UI/UX": [
+        "Canvas-based rendering optimizations",
+        "Responsive chart layout adjustments",
+        "Tooltip alignment and positioning",
+        "Visual consistency across chart types"
+      ],
+      "Testing Practices": [
+        "Test-driven debugging",
+        "Visual test verification",
+        "Edge case validation"
+      ],
+      "Collaboration": [
+        "Issue triage and referencing",
+        "PR documentation with visual proofs",
+        "Maintainer-level contribution patterns"
+      ]
+    },
+    "skill_evidence": [
+      "\"Fix calculateBarValuePixels when data is numeric strings\" (PR 3) — demonstrates type coercion handling and numeric safety",
+      "\"Update controller.bar.js\" (PR 4) — shows deep prototype-based architecture manipulation",
+      "\"Trigger mouse events at the center of arc\" (PR 19) — involves event delegation and canvas coordinate math",
+      "\"(re)allow modifying ticks in afterBuildTicks\" (PR 5) — reflects tick system architecture knowledge",
+      "\"Polar area: align start angle with angleLines\" (PR 7) — requires geometric angle calculations",
+      "\"autoSkip: properly calculate space needed by tick label\" (PR 11) — dynamic tick label optimization",
+      "\"Tests were failing in my development machine\" (PR 19) — indicates test-driven debugging approach",
+      "\"Align title, body and footer inside tooltip\" (PR 12) — UI/UX alignment precision in tooltips"
+    ]
+  },
+  "statistics": {
+    "total_prs": 683,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

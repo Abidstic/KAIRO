@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "developer_name": "codeclown",
+    "generation_timestamp": "2026-09-18T02:22:12.479234",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "codeclown",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios internals",
+      "HTTP client configuration",
+      "Error handling in HTTP requests",
+      "Axios instance management",
+      "Header manipulation in HTTP clients"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)"
+    ],
+    "summary": "codeclown demonstrates **mid-level expertise** in JavaScript, with **deep specialization in Axios**—a popular HTTP client library. Their contributions focus on **instance-based configuration, header management, and error handling**, indicating strong familiarity with Axios' core mechanics. While no evidence of broader JavaScript ecosystem skills (e.g., frameworks, tooling, or modern language features) is visible, their work on Axios suggests **backend-focused proficiency** in HTTP networking and client-side request handling. The limited PR history (3 closed PRs) and lack of code changes imply contributions may have been **architectural or testing-focused** rather than implementation-heavy.",
+    "identified_skills": {
+      "HTTP Client Libraries": [
+        "Axios"
+      ],
+      "Configuration Management": [
+        "Instance-level defaults",
+        "Header configuration"
+      ],
+      "Error Handling": [
+        "Exception catching in HTTP tests",
+        "Request lifecycle error management"
+      ],
+      "Testing": [
+        "HTTP test exception handling"
+      ],
+      "Backend JavaScript": [
+        "HTTP request/response lifecycle",
+        "Networking-focused JS"
+      ],
+      "JavaScript Language": [
+        "Error handling patterns",
+        "Object/property manipulation"
+      ],
+      "Library Internals": [
+        "Axios constructor/config system"
+      ]
+    },
+    "skill_evidence": [
+      "PR 'Fixing #385 - Keep defaults local to instance' shows understanding of Axios' instance-based configuration system",
+      "PR 'Correctly catch exception in http test' demonstrates awareness of Axios error handling in test scenarios",
+      "PR 'Allow unsetting headers by passing null (#382)' indicates familiarity with dynamic header management in Axios",
+      "No visible code changes in PRs suggests contributions may involve **design discussions or internal logic fixes** rather than code additions",
+      "All PRs are Axios-specific with no evidence of broader JavaScript framework or tooling usage",
+      "Error handling patterns (e.g., 'catch exception') imply basic JavaScript language proficiency but no advanced features",
+      "Backend-focused contributions (HTTP networking) with no frontend/DOM-related work evident"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

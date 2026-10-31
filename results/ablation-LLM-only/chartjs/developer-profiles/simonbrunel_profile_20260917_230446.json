@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "developer_name": "simonbrunel",
+    "generation_timestamp": "2026-09-17T22:42:55.698270",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 130,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "simonbrunel",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "JavaScript performance optimization",
+      "Chart.js frontend development",
+      "Build system configuration (Gulp, Browserify)",
+      "ESLint and code quality enforcement",
+      "CI/CD pipeline automation (Travis CI)",
+      "Bundle size reduction techniques",
+      "Legacy browser compatibility fixes",
+      "TypeScript/ES6+ modern JavaScript patterns"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6+)",
+      "TypeScript",
+      "CSS (legacy property handling)"
+    ],
+    "summary": "Simon Brunel is a senior JavaScript developer with specialized expertise in frontend performance optimization, particularly within the Chart.js ecosystem. Their contributions demonstrate deep knowledge of JavaScript/TypeScript best practices, build system tooling, and browser compatibility challenges. Simon excels at micro-optimizations (loop efficiency, bundle size reduction) and has hands-on experience with modern frontend toolchains (Gulp, Browserify, ESLint). Their work spans performance-critical rendering optimizations, CI/CD automation, and maintaining clean, maintainable codebases. The developer shows strong leadership in release engineering (tag-based CI/CD) and code quality enforcement (ESLint migrations).",
+    "identified_skills": {
+      "Performance Optimization": [
+        "requestAnimationFrame optimizations",
+        "loop iteration efficiency improvements",
+        "bundle size reduction strategies",
+        "polyfill resolution at definition time",
+        "CSS property access optimizations"
+      ],
+      "Frontend Frameworks & Libraries": [
+        "Chart.js (Canvas-based rendering)",
+        "HTML5 Canvas rendering patterns",
+        "shared state management between chart instances"
+      ],
+      "Build System & Tooling": [
+        "Gulp task automation",
+        "Browserify plugins (bundle-collapser)",
+        "Bower package management",
+        "Travis CI release workflows"
+      ],
+      "Code Quality & Standards": [
+        "ESLint configuration and migration",
+        "JSHint to ESLint transition",
+        "Code Climate complexity reduction",
+        "unused variable/duplicate code removal",
+        "strict mode enforcement"
+      ],
+      "JavaScript Language Features": [
+        "ES6+ modern patterns (arrow functions, destructuring)",
+        "runtime polyfill avoidance",
+        "prototype-based inheritance optimizations",
+        "strict type checking practices"
+      ],
+      "DevOps & Releases": [
+        "tag-based CI/CD pipelines",
+        "artifact versioning (dist files in Git tags)",
+        "semantic versioning support",
+        "release automation scripts"
+      ],
+      "Testing & Debugging": [
+        "browser compatibility testing (Firefox legacy fixes)",
+        "static analysis tool integration (Code Climate)",
+        "regression testing for chart rendering"
+      ],
+      "Documentation & Maintenance": [
+        "README.md updates",
+        "Bower documentation reintroduction",
+        "release notes maintenance"
+      ],
+      "Browser Compatibility": [
+        "CSS property access polyfills",
+        "legacy browser feature detection",
+        "Firefox-specific constraint handling"
+      ]
+    },
+    "skill_evidence": [
+      "Optimized animation frame requests by removing redundant requestAnimationFrame calls (PR 1)",
+      "Reduced bundle size by 2.7% through duplicate code removal and method simplification (PR 7)",
+      "Used bundle-collapser to convert string paths to integers, saving 1.8 KB in minified JS (PR 11)",
+      "Migrated from JSHint to ESLint and enforced indentation/curly brace rules (PR 15)",
+      "Fixed Firefox legacy compatibility by adjusting CSS property access (max-width → maxWidth) (PR 9)",
+      "Configured Travis CI to automate tag-based releases and artifact uploads (PRs 3,4,5)",
+      "Refactored helpers.extend to avoid double iteration, improving runtime efficiency (PR 12)",
+      "Reintroduced Bower support and structured dist files in Git tags for versioned releases (PR 14)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 130,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

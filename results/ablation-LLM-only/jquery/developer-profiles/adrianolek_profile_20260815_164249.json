@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "developer_name": "adrianolek",
+    "generation_timestamp": "2026-08-15T16:39:25.353148",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "adrianolek",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery Core Development",
+      "Legacy Browser Compatibility (IE8)",
+      "Event Delegation & Propagation",
+      "DOM Attribute Handling",
+      "Polyfill Development",
+      "jQuery Internal Mechanisms (propHooks)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES3)",
+      "jQuery"
+    ],
+    "summary": "adrianolek is a mid-level JavaScript developer with specialized expertise in jQuery, particularly focused on legacy browser compatibility—most notably Internet Explorer 8. Their contributions demonstrate deep knowledge of jQuery's internal architecture, event delegation, and polyfill strategies to address quirks in older browsers. While their work is narrowly concentrated on jQuery's core compatibility fixes, their ability to collaborate with other contributors, refactor code for backward compatibility, and add targeted tests highlights a strong maintenance mindset. The developer lacks evidence of modern JavaScript frameworks or backend experience, positioning them as a niche specialist in legacy frontend development.",
+    "identified_skills": {
+      "Legacy Browser Support": [
+        "IE8 Event Delegation Fixes",
+        "Form Attribute Polyfills",
+        "Non-Element Target Handling"
+      ],
+      "jQuery Internals": [
+        "propHook Mechanism",
+        "Event Object Manipulation",
+        "Form Prop Workarounds"
+      ],
+      "Event Handling": [
+        "Delegated Submit Events",
+        "Event Bubbling Debugging",
+        "Legacy Event System Patching"
+      ],
+      "DOM & Attribute Manipulation": [
+        "Form Attribute Parsing",
+        "Non-Element DOM Targets",
+        "Legacy Attribute Handling"
+      ],
+      "Testing & Maintenance": [
+        "Regression Test Addition",
+        "Compatibility Branch Workflows",
+        "Minimal Change Refactoring"
+      ],
+      "Collaboration & Community": [
+        "Cross-Contributor Discussions",
+        "Polyfill Strategy Debates",
+        "Branch Merge Coordination"
+      ],
+      "Git & Version Control": [
+        "Rebasing PRs",
+        "Compatibility Branch Merges"
+      ],
+      "Prototype-Based Programming": [
+        "jQuery Method Hooks",
+        "Legacy Object Extensions"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: 'Fix IE8 form attribute handling for non-element targets' - addresses IE8-specific DOM quirks in jQuery's event delegation",
+      "PR #2: 'Rebased #2536 on compat branch; added test for form attribute regression' - demonstrates test-driven compatibility fixes and branch workflows",
+      "PR #3: 'Introduce form prop for third-party polyfills in IE8' - implements propHook mechanism for legacy event delegation support",
+      "PR #3 references discussions in #2332 and #2547 - shows engagement with jQuery's contributor community on polyfill strategies",
+      "All PRs focus on IE8 event delegation failures - confirms specialization in legacy browser compatibility",
+      "PR #2 mentions 'added a test' - indicates awareness of regression testing for compatibility changes",
+      "PR #3's 'form' prop implementation targets IE8's broken submit event delegation - demonstrates deep understanding of jQuery's internal event system",
+      "No evidence of modern JS frameworks or backend work - confirms jQuery/legacy frontend specialization"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

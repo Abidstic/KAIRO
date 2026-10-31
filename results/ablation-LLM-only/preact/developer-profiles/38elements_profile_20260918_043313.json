@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "developer_name": "38elements",
+    "generation_timestamp": "2026-09-18T04:10:13.093095",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 40,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "38elements",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "TypeScript",
+      "Preact Framework",
+      "Virtual DOM (VNode) Implementation",
+      "Component Lifecycle Management",
+      "JavaScript DOM Manipulation",
+      "Ref Management",
+      "TypeScript Type Definitions",
+      "Babel Configuration",
+      "JavaScript Runtime Optimizations",
+      "Debugging Edge Cases"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "38elements is a highly experienced Senior JavaScript developer specializing in TypeScript and lightweight frontend frameworks like Preact. Their contributions demonstrate deep expertise in Preact's core architecture, including virtual DOM diffing, component lifecycle hooks, and ref management. The developer excels in TypeScript type definitions, strict compiler configurations, and performance optimizations, with a meticulous approach to debugging edge cases in JavaScript runtime behavior. Their work spans both framework internals and build tooling (e.g., Babel), indicating a strong foundation in modern JavaScript development practices.",
+    "identified_skills": {
+      "TypeScript Advanced": [
+        "Type augmentation",
+        "Strict TypeScript settings",
+        "Internal type definitions (internal.d.ts)",
+        "TypeScript compiler configuration (tsconfig.json)"
+      ],
+      "Virtual DOM & Rendering": [
+        "VNode diffing algorithm",
+        "Component lifecycle hooks",
+        "Ref ownership and callback timing",
+        "Recycling components"
+      ],
+      "JavaScript Runtime": [
+        "DOM manipulation",
+        "Event loop awareness",
+        "Ref callback execution timing",
+        "Prototype/object behavior"
+      ],
+      "Build Tooling": [
+        "Babel configuration",
+        "Minification optimizations",
+        "Bundle size reduction"
+      ],
+      "Debugging & Edge Cases": [
+        "Lifecycle bug resolution",
+        "Snapshot handling",
+        "Undefined state checks",
+        "Ref reset logic"
+      ],
+      "Code Quality": [
+        "Technical debt reduction",
+        "Dead code removal",
+        "Code maintainability improvements"
+      ],
+      "Framework-Specific": [
+        "Preact internals",
+        "VNode lifecycle management",
+        "TypeScript integration for Preact"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Add component._context to src/internal.d.ts' - Demonstrates TypeScript type augmentation for Preact's internal runtime types",
+      "PR: 'Fix type definition' - Shows refinement of Component lifecycle types in internal.d.ts, using strict TypeScript settings",
+      "PR: 'Fix #1225' - Addresses ref ownership in recyclerComponents, requiring deep understanding of VNode lifecycle and DOM ref behavior",
+      "PR: 'Fix componentDidUpdate(prevProps, prevState, snapshot)' - Handles edge case where snapshot is undefined, proving lifecycle debugging expertise",
+      "PR: 'Remove unnecessary arguments' - Reduces bundle size by 5 bytes, indicating attention to minification and performance",
+      "PR: 'Add a configure for Babel 7' - Demonstrates familiarity with Babel plugin/preset configuration for transpilation",
+      "PR: 'Fix #1177' - Ensures ref callbacks execute at correct timing (post-mount), requiring event loop awareness",
+      "PR: 'Remove unnecessary setting in tsconfig.json' - Shows knowledge of TypeScript compiler optimizations and strict flags"
+    ]
+  },
+  "statistics": {
+    "total_prs": 40,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

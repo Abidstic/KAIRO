@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "developer_name": "RafaelGSS",
+    "generation_timestamp": "2026-09-18T13:29:00.253836",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 46,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "RafaelGSS",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Fastify Framework",
+      "Node.js Backend Development",
+      "Technical Documentation",
+      "JavaScript Hooks & Middleware",
+      "Plugin System Development",
+      "TypeScript Documentation",
+      "Semantic Versioning",
+      "Performance Benchmarking"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "RafaelGSS is a Mid-Level JavaScript developer with deep expertise in Fastify, a high-performance Node.js web framework. Their contributions focus on core Fastify features like hooks, plugins, and documentation, demonstrating strong backend development skills, technical writing proficiency, and a rigorous testing/benchmarking mindset. While primarily backend-focused, their TypeScript awareness and versioning practices indicate broader ecosystem knowledge. Evidence from 46 PRs shows consistent contributions to Fastify’s core and ecosystem, with a focus on clarity, performance, and maintainability.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js"
+      ],
+      "Event-Driven Architecture": [
+        "Hooks System",
+        "Middleware",
+        "Request/Response Lifecycle"
+      ],
+      "Plugin Ecosystem": [
+        "Plugin Registration",
+        "Plugin Documentation",
+        "Deprecated Package Management"
+      ],
+      "Technical Writing": [
+        "Documentation Clarity",
+        "Bug-Fix Documentation",
+        "TypeScript Documentation"
+      ],
+      "Testing & QA": [
+        "Unit Testing",
+        "Performance Benchmarking",
+        "Test-Driven Development"
+      ],
+      "Version Control & Releases": [
+        "Semantic Versioning",
+        "Versioned Features",
+        "Backward Compatibility"
+      ],
+      "Error Handling": [
+        "Custom Error Handlers",
+        "Async Error Patterns"
+      ],
+      "Logging & Serialization": [
+        "Log Serializers",
+        "Structured Logging"
+      ],
+      "Community & Ecosystem": [
+        "Plugin Community Management",
+        "Ecosystem Documentation"
+      ]
+    },
+    "skill_evidence": [
+      "PRs like 'feat(hooks): add route level hook onResponse' demonstrate deep Fastify hooks expertise",
+      "'docs(Hooks): Add payload inside example' shows focus on improving technical clarity for developers",
+      "Fixes like 'fix(setNotFoundHandler): return this on function call' prove understanding of Fastify's internal APIs",
+      "'docs(Ecosystem): Add plugin community fastify-amqp' indicates engagement with Fastify's plugin ecosystem",
+      "All PRs include 'npm run test' and 'npm run benchmark' checklists, confirming rigorous testing practices",
+      "'docs(Logging): Update docs to fix req.body inside logger req' highlights debugging of documentation inconsistencies",
+      "PRs labeled 'semver-minor' (e.g., 'feat(hooks)') show awareness of semantic versioning practices",
+      "'docs(Typescript): typo' indicates familiarity with TypeScript type annotations in Fastify's ecosystem"
+    ]
+  },
+  "statistics": {
+    "total_prs": 46,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

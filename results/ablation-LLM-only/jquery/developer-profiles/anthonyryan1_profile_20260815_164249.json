@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "developer_name": "anthonyryan1",
+    "generation_timestamp": "2026-08-15T16:36:49.851474",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "anthonyryan1",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery DOM manipulation",
+      "HTML parsing and validation",
+      "Legacy JavaScript (pre-ES6)",
+      "DOM regression debugging",
+      "XHTML compatibility fixes",
+      "Parser behavior analysis"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5 and earlier)",
+      "jQuery"
+    ],
+    "summary": "Anthony Ryan is a mid-level JavaScript developer with specialized expertise in jQuery's DOM manipulation and HTML parsing. Their contributions focus on fixing parsing regressions and ensuring compatibility with malformed markup, particularly in XHTML environments. While their work is deeply rooted in legacy JavaScript (pre-ES6) and jQuery internals, their ability to identify and resolve parsing issues demonstrates strong debugging skills and attention to code quality. The developer's experience is primarily limited to jQuery's core library, with no evidence of modern JavaScript frameworks or backend systems.",
+    "identified_skills": {
+      "DOM_Manipulation_and_Parsing": [
+        "HTML5 parsing algorithms",
+        "XHTML mode compatibility",
+        "Sloppy vs. strict parsing modes",
+        "Malformed markup handling",
+        "DOM tree construction quirks"
+      ],
+      "Legacy_JavaScript_Patterns": [
+        "Pre-ES6 JavaScript",
+        "jQuery 1.x/2.x compatibility",
+        "Legacy DOM traversal techniques",
+        "Browser compatibility considerations"
+      ],
+      "jQuery_Internals": [
+        "HTML string processing",
+        "Selector engine behavior",
+        "Version-specific fixes (1.x vs. 2.x)",
+        "Core DOM manipulation methods"
+      ],
+      "Debugging_and_Regression_Testing": [
+        "Parser regression identification",
+        "Malformed markup detection",
+        "Defensive programming patterns",
+        "Git revert workflows"
+      ],
+      "Code_Quality_and_Robustness": [
+        "Avoiding invalid markup",
+        "Parser-friendly code practices",
+        "Legacy environment compatibility"
+      ],
+      "Version_Control": [
+        "Git revert commits",
+        "CLA signing",
+        "PR collaboration workflows"
+      ],
+      "GitHub_Ecosystem": [
+        "Issue tracking engagement",
+        "GitHub PR review process"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1 title: 'Fix XHTML regression' – demonstrates deep knowledge of XHTML parsing quirks in jQuery's DOM initialization",
+      "PR 2 description references '1.x equivalent to gh-1375' – shows awareness of version-specific jQuery behavior and compatibility",
+      "PR 3 description: 'Don’t provide the parser with sloppy table markup' – explicit focus on avoiding malformed markup that breaks parsing",
+      "PR 3 reverts commit '0ea342a6' – indicates proactive handling of bad changes and Git workflow familiarity",
+      "PR 3 references GitHub issues (gh-2031, gh-2002, gh-2493) – shows engagement with jQuery's bug-tracking ecosystem",
+      "All PRs involve jQuery 1.x/2.x – confirms expertise in legacy JavaScript patterns and pre-ES6 codebases",
+      "PR 3 description: 'we shouldn’t intentionally provide bad markup' – reflects defensive programming and code quality focus",
+      "PR titles mention 'XHTML regression' and 'malformed table markup' – highlights specialized knowledge of parsing edge cases"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

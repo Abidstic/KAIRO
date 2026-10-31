@@ -1,0 +1,72 @@
+{
+  "reviewer_name": "stockiNail",
+  "generated_at": "20260917_201023",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 46,
+    "total_comments": 45,
+    "total_prs": 14,
+    "repos": [
+      "chartjs"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "stockiNail",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Chart.js core development",
+      "JavaScript plugin architecture",
+      "Canvas rendering optimizations",
+      "Data visualization algorithms",
+      "Frontend performance debugging"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from type improvements)"
+    ],
+    "summary": "stockiNail is a senior JavaScript developer with deep expertise in Chart.js internals, specializing in rendering optimizations, plugin development, and data visualization algorithms. Their contributions demonstrate advanced knowledge of canvas-based rendering, modular JavaScript patterns, and debugging complex visualization bugs. The reviewer excels in extending library functionality through plugins and improving core charting logic, making them a valuable expert for visualization-related projects.",
+    "identified_skills": {
+      "Visualization Libraries": [
+        "Chart.js core architecture",
+        "Canvas-based rendering pipelines",
+        "Plugin system development",
+        "Time scale implementation",
+        "Stacked scale algorithms"
+      ],
+      "JavaScript Patterns": [
+        "ES6 module systems",
+        "Plugin-based extensibility",
+        "Configuration object patterns",
+        "TypeScript type improvements"
+      ],
+      "Frontend Performance": [
+        "Rendering optimization techniques",
+        "Clipping path corrections",
+        "Label rendering efficiency"
+      ],
+      "Debugging & Testing": [
+        "Visual rendering bug triage",
+        "Test case references",
+        "Bug fix validation"
+      ],
+      "Build & Tooling": [
+        "Karma preprocessor",
+        "GitHub issue tracking"
+      ],
+      "Data Structures": [
+        "Scale/tick calculation algorithms"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'feat: pass some chart options to DateAdapter' - demonstrates plugin system extension",
+      "PR: 'Use the correct area to clip for dataset drawing when stacked scales are used' - shows canvas rendering expertise",
+      "PR: 'Introduce Colors plugin' - evidence of plugin architecture development",
+      "PR: 'Add stepSize option to time scale options types' - TypeScript/type improvement work",
+      "PR: 'Fix #10686: TODO - [x] test cases' - indicates testing awareness",
+      "PR: 'Downgrade karma preprocessor' - build tooling involvement",
+      "Multiple 'type: bug' fixes for clipping and label sizing issues - debugging proficiency",
+      "Review comments referencing Chart.js contributing guidelines - community contribution awareness"
+    ]
+  }
+}

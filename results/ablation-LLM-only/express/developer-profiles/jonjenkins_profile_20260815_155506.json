@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "developer_name": "jonjenkins",
+    "generation_timestamp": "2026-08-15T15:49:44.823139",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "jonjenkins",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Express.js",
+      "Node.js backend development",
+      "JavaScript core (ES5/ES6)",
+      "Query string parsing",
+      "Callback-based programming",
+      "Debugging and issue resolution",
+      "Testing (regression tests)",
+      "JSONP support"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "Node.js"
+    ],
+    "summary": "jonjenkins is a mid-level JavaScript developer with specialized expertise in Express.js backend development. Their contributions focus on debugging and fixing edge cases in query string parsing, callback handling, and JSONP support. The developer demonstrates strong skills in JavaScript core language features, particularly callback-based patterns and array comparison fixes. Their work is quality-focused, with a clear emphasis on testing and collaboration with maintainers to ensure correctness. While their contributions are primarily in backend frameworks, they show deep understanding of legacy JavaScript patterns and Node.js ecosystem components.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js"
+      ],
+      "Node.js Ecosystem": [
+        "Query string parsing",
+        "Callback-based APIs",
+        "JSONP support"
+      ],
+      "JavaScript Core": [
+        "Callback functions",
+        "Array.isArray()",
+        "ES5/ES6 compatibility"
+      ],
+      "Debugging & Issue Resolution": [
+        "Root-cause analysis",
+        "Edge-case handling",
+        "Collaborative debugging"
+      ],
+      "Testing": [
+        "Regression test development",
+        "Test-driven fixes"
+      ],
+      "Legacy Patterns": [
+        "jQuery JSONP",
+        "Callback-based async patterns"
+      ],
+      "Documentation & Community": [
+        "Documentation review",
+        "Maintainer collaboration"
+      ],
+      "Type Safety": [
+        "Strict array comparison"
+      ],
+      "Query Handling": [
+        "Malformed query string fixes"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Fixed duplicate callback references in query strings breaking Express response parsing (Express/lib/response.js)",
+      "PR #2: Replaced deprecated array method with Array.isArray() for strict type checking (array comparison fix)",
+      "PR #2: Added test for 'n callback methods' to prevent regression in query string handling",
+      "PR #3: Follow-up fix for callback handling edge cases referenced external documentation (goo.gl/rSBoE2)",
+      "PR #1: Described failure case where jQuery’s jsonpCallback caused malformed query string parsing",
+      "PR #2 & #3: Collaborated with maintainer @akre54 on refining callback handling logic",
+      "PR #2: Explicitly noted test coverage for callback edge cases in Express’s test suite",
+      "PR #1: Reference to Express’s internal query string parsing module (querystring)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

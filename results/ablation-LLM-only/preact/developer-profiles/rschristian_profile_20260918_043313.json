@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "developer_name": "rschristian",
+    "generation_timestamp": "2026-09-18T04:09:38.326165",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 42,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "rschristian",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "TypeScript",
+      "Preact",
+      "React-like TypeScript compatibility",
+      "Type system debugging",
+      "Modern JavaScript (ESM, async/await)",
+      "Documentation and deprecation management",
+      "Microbundle and build tooling"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)"
+    ],
+    "summary": "rschristian is a highly skilled TypeScript developer with deep expertise in Preact's type system and compatibility layer. Their contributions focus on precise type refinements, debugging missing or incorrect types, and maintaining API consistency between Preact and React. They demonstrate strong proficiency in modern JavaScript features (async/await, ESM), build tooling (Microbundle), and technical documentation, particularly around deprecation management and community guidance. Their work shows exceptional attention to detail in type safety and compatibility, making them well-suited for roles requiring advanced TypeScript engineering in React/Preact ecosystems.",
+    "identified_skills": {
+      "TypeScript Core": [
+        "TypeScript type definitions",
+        "Type refinements for React-like APIs",
+        "Type system debugging",
+        "JSDoc annotations for deprecation",
+        "Async/await type safety",
+        "Promise<void> type handling"
+      ],
+      "Preact Ecosystem": [
+        "Preact's React compatibility layer",
+        "Preact's useState/useEffect type system",
+        "Preact's DOM attribute types",
+        "Preact's deprecation management",
+        "Preact's rendering internals"
+      ],
+      "Modern JavaScript": [
+        "ES Modules (ESM)",
+        "CommonJS interoperability",
+        "Microbundle configuration",
+        "Module output formats (esm, mjs, modern)"
+      ],
+      "Documentation & Community": [
+        "Removing obsolete documentation",
+        "Deprecation warnings documentation",
+        "Cross-referencing external type definitions",
+        "Community guideline maintenance"
+      ],
+      "Build Tooling": [
+        "Microbundle output format fixes",
+        "Module bundling configurations",
+        "ESM/CJS compatibility"
+      ],
+      "Debugging & Analysis": [
+        "Missing type identification",
+        "Type system edge case resolution",
+        "React type system adaptation",
+        "Deprecated API type cleanup"
+      ]
+    },
+    "skill_evidence": [
+      "PR #6: Fixed undefined initializer case for useState type, demonstrating deep TypeScript type safety debugging",
+      "PR #12: Refactored useEffect callback to allow Promise<void>, showing async/await + TypeScript mastery",
+      "PR #13: Removed deprecated replaceNode from render()'s TS type, indicating knowledge of Preact's rendering internals",
+      "PR #14: Added JSDoc deprecation annotation for replaceNode, proving documentation precision skills",
+      "PR #16: Fixed Microbundle output formats (esm/mjs/modern), demonstrating build tooling expertise",
+      "PR #18: Adjusted types to match React's DefinitelyTyped, showing cross-ecosystem type system alignment",
+      "PR #19: Fixed indeterminate's SignalLike type, proving attention to Preact's reactivity system types",
+      "PR #4: Removed outdated Preact CLI documentation suggestion, indicating community guideline maintenance"
+    ]
+  },
+  "statistics": {
+    "total_prs": 42,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

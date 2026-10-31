@@ -1,0 +1,68 @@
+{
+  "reviewer_name": "ShubhamOulkar",
+  "generated_at": "20260815_155647",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 3,
+    "total_prs": 2,
+    "repos": [
+      "express"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "ShubhamOulkar",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Express.js",
+      "Node.js backend development",
+      "Technical documentation",
+      "Open-source process improvement"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js runtime)",
+      "TypeScript (inferred from Express ecosystem)"
+    ],
+    "summary": "ShubhamOulkar demonstrates strong **mid-level expertise** in **Express.js and Node.js backend development**, with particular focus on server configuration and documentation. Their reviews show deep familiarity with Express internals (e.g., `app.listen()` patterns) and a process-oriented approach to open-source maintenance. While evidence is limited to backend ecosystems, their ability to approve PRs and update contributing guidelines suggests **practical experience** in maintaining Node.js projects. No frontend or advanced JavaScript patterns are visible in the available data.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Node.js Server Configuration"
+      ],
+      "API Design & Patterns": [
+        "Callback-based server initialization",
+        "Middleware awareness"
+      ],
+      "Documentation & Process": [
+        "Contributing guidelines updates",
+        "Code of Conduct documentation",
+        "GitHub PR workflows"
+      ],
+      "Code Review": [
+        "PR approval authority",
+        "Minimal-change documentation reviews"
+      ],
+      "Asynchronous Programming": [
+        "Callback vs. promise/async-await patterns"
+      ],
+      "Open-Source Maintenance": [
+        "Process documentation",
+        "Maintainer responsibilities"
+      ],
+      "JavaScript Language": [
+        "Basic Node.js runtime knowledge"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: 'Updated app.listen() in Express example to use a callback function' (demonstrates Express.js and async pattern awareness)",
+      "PR approved for Express documentation change (implies authority and deep understanding of Express internals)",
+      "Multiple PRs updating 'contributing guidelines' and 'code of conduct links' (shows process-oriented mindset)",
+      "Review state: 'approved' for Express-related PRs (validates technical correctness)",
+      "Documentation PRs commented on without major objections (suggests attention to detail in process docs)",
+      "No evidence of frontend frameworks (React/Vue) or testing tools (Jest/Mocha) in reviews",
+      "Callback vs. promise discussion in PR title implies awareness of modern JS concurrency models",
+      "Submitted non-code PRs for documentation updates (indicates familiarity with GitHub workflows)"
+    ]
+  }
+}

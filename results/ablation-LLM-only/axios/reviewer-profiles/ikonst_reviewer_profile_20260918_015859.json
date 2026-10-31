@@ -1,0 +1,19 @@
+{
+  "reviewer_name": "ikonst",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 4,
+    "total_prs": 1,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "ikonst",
+    "raw_response": "```json\n{\n  \"reviewer_name\": \"ikonst\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Async/Await Error Handling\",\n    \"JavaScript Runtime Debugging\",\n    \"Error Wrapping Patterns\",\n    \"V8 Engine Behavior\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (inferred from error handling patterns)\"\n  ],\n  \"summary\": \"The reviewer demonstrates specialized expertise in async/await error handling and JavaScript runtime behavior, particularly around V8's async stack traces. Their focus on wrapping errors to improve stack trace visibility suggests deep technical understanding of how JavaScript engines process asynchronous operations. While the evidence base is extremely limited and repetitive, the reviewer's repeated emphasis on error propagation and V8 internals indicates strong backend-level JavaScript skills, likely in Node.js environments. No evidence exists for broader JavaScript ecosystem knowledge (e.g., frontend frameworks, testing, or build tools).\",\n\n  \"identified_skills\": {\n    \"Asynchronous Programming\": [\n      \"Async/Await\",\n      \"Error Propagation Across Awaits\",\n      \"V8 Async Stack Traces\"\n    ],\n    \"Error Handling\": [\n      \"Error Wrapping\",\n      \"Error Chaining (cause property)\",\n      \"Async Error Stack Traces\"\n    ],\n    \"JavaScript Engine Knowledge\": [\n      \"V8 Internals\",\n      \"Runtime Behavior Analysis\"\n    ],\n    \"HTTP/Networking\": [\n      \"HTTP Client Error Handling\"\n    ],\n    \"Code Quality\": [\n      \"Robust Error Reporting\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR title: 'fix: wrap errors to improve async stack trace'\",\n    \"PR description: 'V8 has async stack traces across awaits, so we're wrapping request and intentionally awaiting it to allow any error to cross'\",\n    \"PR description: 'wrapping the exception therefore getting a stack trace that includes the caller'\",\n    \"PR description: 'keep the original exception as the cause'\",\n    \"Mention of 'request' library (likely HTTP client) in PR context\",\n    \"Explicit reference to V8's async stack trace behavior\",\n    \"Focus on preserving original error as 'cause' in error wrapping\",\n    \"No visible frontend framework or testing-related evidence\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 47 column 3 (char 2189)"
+  }
+}

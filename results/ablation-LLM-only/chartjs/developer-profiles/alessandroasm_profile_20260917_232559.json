@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "developer_name": "alessandroasm",
+    "generation_timestamp": "2026-09-17T23:24:58.674485",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "alessandroasm",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js core development",
+      "JavaScript charting algorithms",
+      "DOM layout and rendering optimization",
+      "JavaScript debugging and edge-case handling",
+      "CI/CD configuration (Travis CI)",
+      "JavaScript data processing and normalization"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Chart.js ecosystem)"
+    ],
+    "summary": "Alessandroasm is a Mid-level JavaScript developer with specialized expertise in Chart.js, focusing on core rendering logic, data visualization algorithms, and DOM integration. Their contributions demonstrate deep debugging skills, particularly in handling edge cases like NaN values in chart dimensions and recursive layout calculations. The developer also shows proficiency in CI/CD workflows (Travis CI) and dependency management, with a strong ability to identify and fix subtle bugs in charting libraries. Their work is primarily frontend-focused, with evidence of defensive programming and test-driven development practices.",
+    "identified_skills": {
+      "Charting Libraries": [
+        "Chart.js core rendering",
+        "DOM-based chart layout",
+        "Object dataset handling"
+      ],
+      "JavaScript Core": [
+        "NaN/undefined handling",
+        "Recursive algorithms",
+        "Object property access patterns"
+      ],
+      "Debugging & Testing": [
+        "Edge-case validation",
+        "Test case creation",
+        "Issue triage"
+      ],
+      "CI/CD & Tooling": [
+        "Travis CI configuration",
+        "Node.js version pinning",
+        "Dependency compatibility fixes"
+      ],
+      "Data Processing": [
+        "Object-to-array dataset conversion",
+        "Data normalization"
+      ],
+      "Frontend JavaScript": [
+        "DOM manipulation",
+        "Layout calculations",
+        "Defensive programming"
+      ],
+      "Version Control": [
+        "GitHub PR workflows",
+        "Issue references"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed infinite recursion in `fitBoxes` due to NaN dimensions (#7761)",
+      "Added test case for object dataset label retrieval to prevent incorrect rendering",
+      "Modified Travis CI to enforce Node.js v12.18.2 for dependency compatibility",
+      "Handled DOM readiness checks before chart layout calculations",
+      "Fixed incorrect label access in object datasets (e.g., `dataset.x` vs `dataset[0].x`)",
+      "Referenced GitHub issues in PR descriptions to link fixes to specific problems",
+      "Added defensive checks for non-DOM mounting contexts in chart rendering"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

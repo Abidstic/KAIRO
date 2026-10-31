@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "stevemao",
+    "generation_timestamp": "2026-08-15T16:26:03.666614",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "stevemao",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery Core Development",
+      "Legacy JavaScript (pre-ES6)",
+      "QUnit Testing Framework",
+      "JavaScript Number Parsing & Type Checking",
+      "Code Cleanup & Dead Code Removal",
+      "Test-Driven Development (TDD)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES3)",
+      "jQuery"
+    ],
+    "summary": "stevemao is a mid-level JavaScript developer with specialized expertise in jQuery's core functionality and legacy JavaScript patterns. Their contributions focus on improving type checking logic, optimizing variable usage, and enhancing test coverage using QUnit. The developer demonstrates precision in code maintenance, particularly in restoring documentation and removing redundant code. Their work aligns with jQuery's ecosystem, emphasizing stability, backward compatibility, and edge-case testing in pre-ES6 JavaScript environments.",
+    "identified_skills": {
+      "Testing Frameworks": [
+        "QUnit"
+      ],
+      "Legacy JavaScript Patterns": [
+        "prototype-based OOP",
+        "global scope variables",
+        "pre-ES6 number parsing"
+      ],
+      "Code Quality": [
+        "dead code removal",
+        "comment preservation",
+        "variable optimization"
+      ],
+      "DOM & Event Handling": [
+        "DOM readiness checks",
+        "readywait testing"
+      ],
+      "Type Systems & Parsing": [
+        "isNumeric logic improvements",
+        "number literal handling"
+      ],
+      "Test-Driven Practices": [
+        "edge-case test additions",
+        "test organization in iframes"
+      ],
+      "jQuery Internals": [
+        "core logic contributions",
+        "DOM manipulation patterns"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Core: improve isNumeric logic' — added tests for new number literals and restored deleted comments about implementation",
+      "PR: 'Remove useless variable readyFiring' — identified and eliminated redundant variable in jQuery core",
+      "PR: 'Add missing Qunit script' — contributed QUnit testing infrastructure to jQuery repository",
+      "PR: 'Tests: move readywait to an iframe test' — reorganized tests to isolate DOM readiness checks",
+      "Code changes focused on pre-ES6 JavaScript patterns (no ES6+ syntax visible in PRs)",
+      "Contributions exclusively in jQuery repository demonstrating deep jQuery internals knowledge",
+      "Precision-focused changes avoiding large refactors, prioritizing stability and correctness",
+      "Restored accidentally deleted comments showing attention to code documentation"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

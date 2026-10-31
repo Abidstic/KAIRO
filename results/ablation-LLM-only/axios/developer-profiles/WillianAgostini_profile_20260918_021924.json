@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "developer_name": "WillianAgostini",
+    "generation_timestamp": "2026-09-18T02:00:04.977621",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 22,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "WillianAgostini",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "Axios",
+      "HTTP Client Libraries",
+      "Asynchronous JavaScript",
+      "API Design & Extensibility",
+      "Error Handling & Edge Cases",
+      "Security-Conscious Coding",
+      "Build System & Minification"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "WillianAgostini is a Mid-level JavaScript developer with deep expertise in TypeScript and the Axios HTTP client library. Their contributions focus on robust API design, strong typing, and handling edge cases in HTTP request/response workflows. Strong evidence of security awareness (e.g., ReDoS mitigation) and CI/CD familiarity (e.g., GitHub Actions debugging) further highlights their technical depth. While primarily backend-focused (Axios core), their TypeScript-first approach and meticulous attention to backward compatibility demonstrate a mature developer proficient in asynchronous patterns and build system intricacies.",
+    "identified_skills": {
+      "TypeScript & Strong Typing": [
+        "TypeScript generics",
+        "Custom type definitions (AxiosHeaders, MethodsHeaders)",
+        "Type-safe API extensions",
+        "Response header typing"
+      ],
+      "Axios Core & HTTP Handling": [
+        "Request/response interceptors",
+        "URL path construction (buildFullPath)",
+        "Form/params serialization",
+        "HTTP header manipulation"
+      ],
+      "Asynchronous Patterns": [
+        "Promise-based request handling",
+        "JSON reviver callbacks",
+        "Interceptor execution order"
+      ],
+      "Security & Input Validation": [
+        "ReDoS vulnerability mitigation",
+        "URL validation & sanitization",
+        "Header injection prevention"
+      ],
+      "Build System & Tooling": [
+        "Minified JS license header inclusion",
+        "GitHub Actions CI debugging",
+        "Test execution lifecycle fixes"
+      ],
+      "API Design & Extensibility": [
+        "Custom response headers support",
+        "Backward compatibility (v0.x support)",
+        "New method additions (getSetCookie)"
+      ],
+      "Testing & Debugging": [
+        "Test execution lifecycle fixes",
+        "CI/CD pipeline debugging",
+        "Edge case handling in serializers"
+      ],
+      "Documentation & Usability": [
+        "API example additions",
+        "GitHub link updates (master→main)",
+        "TypeScript-first documentation"
+      ]
+    },
+    "skill_evidence": [
+      "Added TypeScript types for AxiosHeaders and MethodsHeaders (PR #3, #4)",
+      "Fixed ReDoS vulnerability in URL regex parsing (PR #15)",
+      "Implemented getSetCookie method with proper typing (PR #11)",
+      "Allowed null indexes in form/params serializers for v0.x compatibility (PR #6, #7)",
+      "Fixed interceptor execution order for predictable async behavior (PR #12)",
+      "Added JSON reviver support for custom data transformation (PR #14)",
+      "Ensured license headers in minified JS output (PR #16)",
+      "Debugged GitHub Actions build failures (PR #10)",
+      "Updated GitHub links from master to main for API documentation (PR #2)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 22,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "reviewer_name": "mk0x9",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 2,
+    "total_prs": 1,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "mk0x9",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript type system",
+      "Frontend component architecture",
+      "Code review for type safety"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)"
+    ],
+    "summary": "mk0x9 is a mid-level JavaScript reviewer with demonstrated expertise in TypeScript type definitions, generics, and interface extensions. Their reviews focus on ensuring type safety and component-based architecture in frontend codebases, likely within a React-like framework. Evidence suggests strong familiarity with TypeScript’s compiler behavior and a preference for concise, type-focused feedback. While their frontend skills are evident, there is no visible evidence of backend or testing expertise in the available data.",
+    "identified_skills": {
+      "TypeScript Core": [
+        "TypeScript interfaces",
+        "TypeScript generics",
+        "TypeScript type parameters",
+        "TypeScript compiler type checking"
+      ],
+      "Frontend Frameworks": [
+        "Component-based architecture",
+        "Context API patterns"
+      ],
+      "Code Review Practices": [
+        "Type safety feedback",
+        "Minimalist PR communication"
+      ],
+      "JavaScript ES6+": [
+        "Modern JavaScript syntax"
+      ],
+      "Backend/Testing": [],
+      "Tooling": []
+    },
+    "skill_evidence": [
+      "PR titles mention 'typings' and 'TypeScript compiler will type check it'",
+      "PRs involve extending a `Component` interface with type parameters",
+      "Focus on 'context as 3rd type parameter' in TypeScript interfaces",
+      "Both PRs are in 'COMMENTED' state with no code changes, implying type-focused discussion",
+      "PR descriptions are minimal ('So TypeScript compiler will type check it')",
+      "Evidence of working with frontend frameworks (inferred from 'Component' + 'context')"
+    ]
+  }
+}

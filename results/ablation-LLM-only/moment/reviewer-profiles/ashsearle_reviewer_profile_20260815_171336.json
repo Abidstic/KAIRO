@@ -1,0 +1,77 @@
+{
+  "reviewer_name": "ashsearle",
+  "generated_at": "20260815_171336",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 11,
+    "total_comments": 11,
+    "total_prs": 3,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "ashsearle",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "JavaScript Date/Time handling",
+      "Timezone and DST edge-case debugging",
+      "Moment.js library internals",
+      "Performance optimization for date operations",
+      "Memory leak detection and mitigation",
+      "Code review and technical communication"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5+)",
+      "TypeScript (implied by library context, though not explicitly demonstrated)"
+    ],
+    "summary": "ashsearle is a Senior-level JavaScript reviewer with deep expertise in date/time handling, particularly around timezone and Daylight Saving Time (DST) edge cases. Their contributions focus on optimizing and debugging Moment.js internals, demonstrating strong skills in performance tuning, memory management, and iterative debugging. While their reviews are primarily centered on a single library, their technical depth and iterative refinement of complex logic suggest a high level of proficiency in core JavaScript runtime behaviors. No evidence of frontend frameworks or backend systems was found, but their work on a widely used library indicates strong foundational JavaScript skills.",
+    "identified_skills": {
+      "DateTime & Timezone": [
+        "JavaScript Date object internals",
+        "DST (Daylight Saving Time) handling",
+        "Timezone edge-case debugging",
+        "UTC vs. local time conversions"
+      ],
+      "Library Development": [
+        "Moment.js API design",
+        "Locale system optimization",
+        "Method chaining patterns",
+        "Object pooling for performance"
+      ],
+      "Performance Engineering": [
+        "Memory leak detection",
+        "Date arithmetic optimization",
+        "Iterative performance profiling"
+      ],
+      "Code Review & Collaboration": [
+        "Technical PR feedback",
+        "Issue-to-PR workflow",
+        "Iterative debugging cycles"
+      ],
+      "Testing Awareness": [
+        "Test gap identification",
+        "Edge-case test coverage"
+      ],
+      "JavaScript Runtime": [
+        "Memory management strategies",
+        "Object retention patterns"
+      ],
+      "Technical Communication": [
+        "Detailed PR descriptions",
+        "Issue reference clarity"
+      ]
+    },
+    "skill_evidence": [
+      "6 PRs on 'startOf/endOf DST issues' indicate deep timezone/DST expertise and iterative debugging",
+      "'Avoid memory leak in updateLocale' shows memory management focus in locale caching or object reuse",
+      "All reviews in 'COMMENTED' state suggest thorough technical scrutiny rather than superficial approval",
+      "'Added isWeekend support (#5134)' demonstrates API design and feature implementation from GitHub issues",
+      "'Needs tests' label on memory leak PR indicates testing awareness and CI/CD pipeline engagement",
+      "Performance-focused comments like 'boosting performance' imply runtime-aware optimizations",
+      "Iterative engagement on the same PR (6 comments) highlights persistent debugging of complex logic",
+      "References to GitHub issues (#4476, #5134) in PR descriptions show collaborative technical communication"
+    ]
+  }
+}

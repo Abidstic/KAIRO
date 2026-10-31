@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "developer_name": "jpnelson",
+    "generation_timestamp": "2026-09-18T04:32:41.238120",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "jpnelson",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "React/Preact compatibility layer development",
+      "React Hooks and Context API",
+      "Frontend performance optimization",
+      "Virtual DOM rendering optimizations",
+      "Debugging React lifecycle issues"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred, though not explicitly shown)"
+    ],
+    "summary": "jpnelson is a Mid-level JavaScript developer with specialized expertise in React and Preact ecosystems. Their contributions focus on optimizing Preact’s compatibility with React, particularly around hooks, context management, and performance-critical rendering scenarios. Evidence from PRs demonstrates deep debugging skills, proficiency in virtual DOM optimizations, and a focus on real-world application performance. While contributions are limited to frontend concerns, the quality and impact of fixes suggest strong problem-solving abilities in frontend architecture and performance tuning.",
+    "identified_skills": {
+      "Frontend Frameworks & Libraries": [
+        "React Hooks",
+        "React Context API",
+        "Preact compatibility layer",
+        "Virtual DOM diffing",
+        "Client-side routing transitions"
+      ],
+      "JavaScript Language Features": [
+        "ES6 Modules (export/import)",
+        "Closure-based state management",
+        "Performance profiling techniques"
+      ],
+      "Debugging & Optimization": [
+        "Frontend performance benchmarking",
+        "Unmounting lifecycle debugging",
+        "Context subscriber cleanup",
+        "Real-world application testing"
+      ],
+      "Open Source Contributions": [
+        "Patch-based fixes for production issues",
+        "Collaboration with mature projects",
+        "Issue triage and resolution"
+      ],
+      "Testing & Validation": [
+        "Application-level performance testing",
+        "Debugging tools (React DevTools inferred)"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: 'Change reexport pattern for hooks in preact/compat' — demonstrates ES6 module reexports and React Hooks compatibility in Preact",
+      "PR description: 'Add a fix for context unmounting' — shows deep understanding of React/Preact context lifecycle and subscriber cleanup",
+      "PR description: 'this ended up being a fair bit faster than how it was during client routing transitions' — confirms performance optimization focus and real-world testing",
+      "PR context: All contributions in 'preact' repo — validates specialization in Preact/React compatibility layer",
+      "PR description mentions 'context subscribers' — implies debugging of React’s internal subscription system",
+      "PR description references 'client routing transitions' — suggests familiarity with React Router or similar routing libraries",
+      "PRs closed and merged — indicates collaboration with maintainers and production-ready fixes",
+      "No backend or Node.js evidence — confirms frontend-only focus"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

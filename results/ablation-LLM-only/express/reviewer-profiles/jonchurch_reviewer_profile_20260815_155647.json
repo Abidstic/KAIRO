@@ -1,0 +1,19 @@
+{
+  "reviewer_name": "jonchurch",
+  "generated_at": "20260815_155647",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 7,
+    "total_comments": 4,
+    "total_prs": 4,
+    "repos": [
+      "express"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "jonchurch",
+    "raw_response": "```json\n{\n  \"reviewer_name\": \"jonchurch\",\n  \"experience_level\": \"Senior\",\n  \"primary_skills\": [\n    \"Express.js\",\n    \"Node.js backend development\",\n    \"Code review and mentorship\",\n    \"Testing (unit/integration)\",\n    \"API configuration and defaults\",\n    \"Documentation review\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\"\n  ],\n  \"summary\": \"jonchurch is a senior-level JavaScript reviewer with deep expertise in Express.js backend development, specializing in framework internals, middleware, and runtime behavior. Their reviews demonstrate strong technical judgment in API design, configuration management, and testing. The reviewer also contributes meaningfully to documentation and collaborative discussions, indicating leadership in backend architecture decisions. Evidence from PRs shows involvement in Express.js core changes, versioning, and error handling, positioning them as a trusted mentor for backend development.\",\n  \"identified_skills\": {\n    \"Backend Frameworks\": [\"Express.js\", \"Node.js HTTP server\"],\n    \"API Design & Configuration\": [\"status code handling\", \"middleware validation\", \"default settings\"],\n    \"Testing\": [\"unit/integration test validation\"],\n    \"Code Review & Quality\": [\"PR approvals\", \"changes requested\", \"technical feedback\"],\n    \"Documentation\": [\"architecture documentation\", \"discussion facilitation\"],\n    \"Versioning & Compatibility\": [\"semantic versioning\", \"backward compatibility\"],\n    \"Error Handling\": [\"route validation\", \"strict error enforcement\"]\n  },\n  \"skill_evidence\": [\n    \"PR 4 & 5: 'feat(response): new setting strict status codes' – Express.js response handling and default configuration changes\",\n    \"PR 6: 'Method functions with no path should error' – Express route validation and test coverage (tests label)\",\n    \"Review comment: 'based on chats, we are requesting this is off by default' – API behavior discussion and configuration\",\n    \"PR 5 state: CHANGES_REQUESTED – evidence of deep technical review and feedback on Express internals\",\n    \"PR 6 state: APPROVED – validation of route error handling logic\",\n    \"PRs 1–3: 'add Github Access Structure Overview section' – documentation review and architecture discussions\",\n    \"Labels '5.x' and '4.x' – involvement in major Express.js version updates and compatibility\",\n    \"No frontend frameworks or TypeScript evidence – confirms backend specialization\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 34 column 3 (char 2394)"
+  }
+}

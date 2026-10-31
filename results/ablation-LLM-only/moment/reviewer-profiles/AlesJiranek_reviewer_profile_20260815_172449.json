@@ -1,0 +1,19 @@
+{
+  "reviewer_name": "AlesJiranek",
+  "generated_at": "20260815_172449",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 0,
+    "total_prs": 1,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "AlesJiranek",
+    "raw_response": "```json\n{\n  \"reviewer_name\": \"AlesJiranek\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"JavaScript localization (i18n)\",\n    \"Czech language inflection rules\",\n    \"Moment.js locale management\",\n    \"Code review for linguistic correctness\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (inferred from Moment.js ecosystem)\"\n  ],\n  \"summary\": \"AlesJiranek is a mid-level JavaScript reviewer with specialized expertise in localization (i18n) systems, particularly for Czech-language formatting in Moment.js. Their contributions focus on fixing linguistic inflections and approving PRs related to locale data correctness. While their JavaScript language skills are inferred to include ES6+ features and object manipulation, their primary strength lies in reviewing code for accurate language-specific formatting rather than broader JavaScript development. Evidence is limited to two identical PR approvals in the Moment.js repository, suggesting a niche but deep focus on localization quality assurance.\",\n  \"identified_skills\": {\n    \"Localization & Internationalization\": [\n      \"JavaScript i18n systems\",\n      \"Moment.js locale data\",\n      \"Czech language inflections\",\n      \"Pluralization rules\"\n    ],\n    \"Code Review Practices\": [\n      \"Linguistic correctness review\",\n      \"PR approval for localization fixes\",\n      \"Non-functional code quality assessment\"\n    ],\n    \"JavaScript Language Features\": [\n      \"ES6+ JavaScript\",\n      \"Object manipulation\",\n      \"String processing\"\n    ],\n    \"Tooling & Workflows\": [\n      \"GitHub PR workflows\",\n      \"Version control for localization data\"\n    ],\n    \"Collaboration\": [\n      \"Linguist collaboration (indirect)\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR title '[locale] cs: Fix incorrect inflections' indicates focus on Czech-language localization in Moment.js\",\n    \"Approval of PRs without comments suggests strong judgment for linguistic correctness in JavaScript-based i18n systems\",\n    \"Reference to 'moment' repository implies familiarity with Moment.js's locale data structure and pluralization rules\",\n    \"No visible code changes or review comments, but PR approval implies understanding of how locale objects are implemented in JavaScript\",\n    \"Inferred ES6+ JavaScript usage due to Moment.js's modern JavaScript feature adoption (e.g., arrow functions, object literals)\",\n    \"Limited evidence of broader JavaScript frameworks (e.g., React, Node.js) or testing frameworks (e.g., Jest)\",\n    \"No direct evidence of backend JavaScript (Node.js) or frontend frameworks, but likely exposure to JavaScript object manipulation for locale data\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 48 column 3 (char 2649)"
+  }
+}

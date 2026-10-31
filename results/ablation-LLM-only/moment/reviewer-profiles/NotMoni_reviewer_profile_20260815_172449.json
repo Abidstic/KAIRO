@@ -1,0 +1,57 @@
+{
+  "reviewer_name": "NotMoni",
+  "generated_at": "20260815_172449",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 0,
+    "total_prs": 1,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "NotMoni",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript localization (i18n)",
+      "Tamil language localization",
+      "PR review for i18n content",
+      "JavaScript object/array handling for locale data"
+    ],
+    "programming_languages": [
+      "JavaScript"
+    ],
+    "summary": "NotMoni is a JavaScript reviewer with specialized expertise in localization (i18n) and internationalization, particularly focused on Tamil language accuracy. Their reviews demonstrate deep familiarity with cultural/linguistic nuances in translated content and how JavaScript handles locale-specific data structures. While their JavaScript skills are functional (limited to object/array manipulation for localization), they lack evidence of broader frontend/backend frameworks, testing, or DevOps tooling. Their contributions are primarily in reviewing and approving i18n-related PRs, with a strong emphasis on ensuring linguistic correctness in translated strings.",
+    "identified_skills": {
+      "Localization & Internationalization": [
+        "JavaScript i18n data structures",
+        "Tamil language localization",
+        "Cultural/linguistic review of translations",
+        "Locale-specific string formatting"
+      ],
+      "JavaScript Language": [
+        "Object/array manipulation",
+        "Basic JavaScript data handling"
+      ],
+      "Code Review & Quality": [
+        "i18n content validation",
+        "PR state transitions (CHANGES_REQUESTED → APPROVED)",
+        "Linguistic critique in review comments"
+      ],
+      "Collaboration": [
+        "Cross-team i18n feedback"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled '[locale] Update Tamil archaic numerals' with focus on `src/locale/ta.js`",
+      "Comment: 'When you read out the Tamil words its pronounced January. But shouldn't it be the way you say it in Tamil?'",
+      "PR labeled `[locale]` and referenced in `#5557`, indicating i18n system context",
+      "No code changes in PRs (additions=0, deletions=0), only linguistic feedback on locale data",
+      "PR moved from `CHANGES_REQUESTED` to `APPROVED` after reviewer’s feedback",
+      "Evidence of reviewing Tamil-specific translations without framework/library references",
+      "No mention of React, Vue, Node.js, or testing tools in reviews"
+    ]
+  }
+}

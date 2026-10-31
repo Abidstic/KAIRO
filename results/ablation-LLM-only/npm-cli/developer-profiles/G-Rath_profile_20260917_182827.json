@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "developer_name": "G-Rath",
+    "generation_timestamp": "2026-09-17T18:28:05.400808",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 10,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 10
+  },
+  "profile": {
+    "developer_name": "G-Rath",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "npm CLI internals",
+      "JavaScript command-line scripting",
+      "Dependency resolution and pruning",
+      "CLI argument parsing and flag handling",
+      "Error handling in CLI tools",
+      "Semantic versioning and release workflows",
+      "Documentation and UX-focused fixes"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)"
+    ],
+    "summary": "G-Rath is a specialized JavaScript developer with deep expertise in the npm CLI tooling ecosystem. Their contributions focus on core npm CLI features like dependency resolution, script execution, and command-line argument handling. With a strong background in fixing edge cases, optimizing dependency pruning, and maintaining documentation, they demonstrate a nuanced understanding of npm's internal mechanics and release workflows. While their work is highly concentrated in npm CLI, their contributions reflect a Mid-Level proficiency in JavaScript, particularly in CLI-focused scripting and system-level tooling.",
+    "identified_skills": {
+      "npm_cli_tooling": [
+        "npm CLI internals",
+        "dependency pruning",
+        "script execution control",
+        "exit code management",
+        "command-line argument parsing"
+      ],
+      "dependency_management": [
+        "peer dependency resolution",
+        "optional dependency handling",
+        "version overrides",
+        "virtual dependency trees"
+      ],
+      "cli_behavior_and_ux": [
+        "--silent flag handling",
+        "--package-lock-only flag",
+        "run-script execution",
+        "output suppression control",
+        "user-facing CLI behavior"
+      ],
+      "release_and_versioning": [
+        "semantic versioning (semver)",
+        "patch releases",
+        "backporting fixes",
+        "release cycle coordination"
+      ],
+      "documentation_and_communication": [
+        "technical documentation fixes",
+        "UX-focused bug resolution"
+      ],
+      "error_handling": [
+        "edge case resolution",
+        "exit code logic",
+        "dependency conflict resolution"
+      ],
+      "javascript_scripting": [
+        "CLI script execution",
+        "script output control",
+        "modular CLI behavior adjustments"
+      ]
+    },
+    "skill_evidence": [
+      "PRs in `npm_cli` repo demonstrate deep familiarity with core npm CLI features like `ls`, `run-script`, and dependency pruning",
+      "'fix: don’t suppress run output when `--silent` is passed' shows CLI argument parsing and output control expertise",
+      "'feat(ls): support `--package-lock-only` flag' indicates dynamic CLI behavior modification based on flags",
+      "'fix: prune optional peer dependencies that are no longer explicitly depended on' highlights dependency conflict resolution skills",
+      "'semver:patch' and 'Release 7.x' labels indicate strong versioning and release workflow knowledge",
+      "'docs: fix example package name in `overrides` explainer' shows attention to technical documentation accuracy",
+      "'fix: don’t set exit code to 1 when `ls <filter>` returns results' demonstrates robust error handling in CLI tools",
+      "'fix(ls): use virtual tree instead of actual for listing' reflects performance optimization in dependency traversal"
+    ]
+  },
+  "statistics": {
+    "total_prs": 10,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

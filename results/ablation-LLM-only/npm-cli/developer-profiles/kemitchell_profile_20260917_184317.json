@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "developer_name": "kemitchell",
+    "generation_timestamp": "2026-09-17T18:35:40.914687",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 8,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 8
+  },
+  "profile": {
+    "developer_name": "kemitchell",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "npm CLI internals",
+      "Dependency Management (npm)",
+      "License Compliance Automation",
+      "Package Metadata Standards",
+      "Technical Documentation",
+      "SPDX License Identifiers",
+      "Semantic Versioning (SemVer)"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)",
+      "JSON Schema",
+      "Markdown"
+    ],
+    "summary": "kemitchell is a mid-level JavaScript developer with specialized expertise in npm’s package management ecosystem. Their contributions focus on npm CLI internals, dependency management, license compliance automation, and package metadata standards. The developer demonstrates deep familiarity with npm’s tooling, particularly around license auditing (via `licensee`), SPDX license identifiers, and `package.json` schema evolution. While their PRs do not include direct JavaScript code changes, their work reveals strong technical knowledge of npm’s internals, dependency resolution, and documentation practices. Their contributions are collaborative, often referencing other contributors and superseding prior work, indicating a mature understanding of open-source development processes.",
+    "identified_skills": {
+      "Package Management": [
+        "npm CLI internals",
+        "Dependency upgrades (transitive)",
+        "Semantic Versioning (SemVer)",
+        "npm upgrade --depth 9999"
+      ],
+      "License & Compliance": [
+        "SPDX license identifiers",
+        "License audit automation",
+        "`licensee` tooling",
+        "Automated license corrections"
+      ],
+      "Documentation & Metadata": [
+        "Manpage improvements",
+        "README documentation",
+        "`package.json` schema evolution",
+        "Registry documentation",
+        "`funding` and `sustainability` properties"
+      ],
+      "Tooling & Automation": [
+        "Dependency resolution tooling",
+        "CLI flag usage",
+        "Package metadata tooling"
+      ],
+      "JavaScript Ecosystem": [
+        "Node.js runtime awareness",
+        "`package.json` metadata",
+        "JavaScript module systems"
+      ],
+      "Collaboration & Standards": [
+        "Open-source contribution patterns",
+        "Package Maintenance Working Group",
+        "Community-driven standards"
+      ],
+      "Version Control & PRs": [
+        "PR superseding older work",
+        "Collaborative PR discussions"
+      ]
+    },
+    "skill_evidence": [
+      "PRs in `npm_cli` repository demonstrate deep familiarity with npm’s internals and CLI tooling",
+      "`licensee@6.1.0` and `licensee@7.0.1` PRs show expertise in license audit automation and corrections",
+      "PRs mention `spdx-license-ids@3.0.5` with transitive dependency upgrades using `npm upgrade --depth 9999`",
+      "`docs: Improve manpage section for `package.json` `funding` properties` indicates strong documentation focus",
+      "PRs reference `Package Maintenance Working Group` and `package.json` schema evolution (e.g., `sustainability` property)",
+      "Collaborative PRs mention `@ljharb` and `@wesleytodd`, showing engagement with npm’s core contributors",
+      "PRs supersede older work (e.g., `#187`), demonstrating awareness of collaborative development practices",
+      "PR titles and descriptions emphasize `semver:patch` and `supports` labels, indicating SemVer and tooling awareness"
+    ]
+  },
+  "statistics": {
+    "total_prs": 8,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

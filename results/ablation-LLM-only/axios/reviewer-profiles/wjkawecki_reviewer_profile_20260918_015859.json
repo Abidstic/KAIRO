@@ -1,0 +1,70 @@
+{
+  "reviewer_name": "wjkawecki",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 0,
+    "total_prs": 2,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "wjkawecki",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Dependency Security Management",
+      "Node.js Package Management",
+      "Security Vulnerability Triage",
+      "HTTP Client Libraries (axios ecosystem)"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js runtime)",
+      "TypeScript (inferred from dependency context)"
+    ],
+    "summary": "wjkawecki demonstrates strong expertise in Node.js dependency security and package management, specializing in vulnerability triage for HTTP-related libraries like follow-redirects. Their reviews focus exclusively on security-critical dependency updates, showing deep familiarity with CVE tracking, Snyk advisories, and minimal-change validation. While their contributions are limited to backend/Node.js contexts (particularly axios ecosystem), their review discipline and security awareness place them at a mid-level in specialized dependency hygiene roles. No evidence exists for frontend frameworks, backend frameworks, or application-level JavaScript patterns.",
+    "identified_skills": {
+      "Dependency Security": [
+        "CVE triage (CVE-2024-28849)",
+        "Snyk vulnerability handling",
+        "GitHub Advisories integration"
+      ],
+      "Package Management": [
+        "semantic versioning (semver)",
+        "npm dependency updates",
+        "transitive dependency resolution"
+      ],
+      "Security Practices": [
+        "minimal-risk change validation",
+        "security-focused PR approvals",
+        "external vulnerability documentation references"
+      ],
+      "Node.js Ecosystem": [
+        "follow-redirects library",
+        "axios-compatible HTTP clients",
+        "Node.js runtime awareness"
+      ],
+      "Code Review": [
+        "dependency hygiene enforcement",
+        "no-code-change PR approvals",
+        "external issue referencing"
+      ],
+      "HTTP Protocols": [
+        "HTTP redirect handling",
+        "HTTPS security considerations"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: 'fix security vulnerability in follow-redirects' with Snyk high-risk flag and CVE-2024-28849 reference",
+      "PR 2: 'fix(vulnerability): update follow-redirects to 1.15.6' citing GHSA-cxjh-pqwp-8mfp and axios/axios/issue",
+      "Both PRs approved with zero files changed, demonstrating trust in security updates without code review",
+      "Explicit mention of 'follow-redirects' compatibility with 'axios' in PR descriptions",
+      "No frontend framework or application logic discussions in any PR",
+      "Review comments reference external security documentation (CVE databases, GitHub Advisories)",
+      "Dependency updates follow semver with patch-only changes (1.15.0 → 1.15.6)",
+      "Approvals occur without additional review comments, indicating automated or trusted security tooling usage"
+    ]
+  }
+}

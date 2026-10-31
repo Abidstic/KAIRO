@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "developer_name": "nbalduzzi",
+    "generation_timestamp": "2026-09-18T14:08:08.411755",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "nbalduzzi",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify plugin development",
+      "Knex.js integration",
+      "API documentation (Swagger/OpenAPI)",
+      "Testing infrastructure (mocking, in-memory databases)",
+      "Node.js plugin ecosystem"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "nbalduzzi is a mid-level JavaScript developer with specialized expertise in Fastify plugin development and Node.js backend ecosystems. Their contributions focus on extending Fastify's functionality through plugins for database integration (Knex.js, MongoDB), testing support (mocking, in-memory databases), and API documentation (Swagger/OpenAPI). The developer demonstrates strong skills in modular plugin architecture, documentation maintenance, and testing-friendly designs, with a clear focus on improving the Fastify developer experience. Their work reflects intermediate to advanced proficiency in JavaScript/TypeScript and the Node.js plugin ecosystem.",
+    "identified_skills": {
+      "Backend Frameworks & Ecosystems": [
+        "Fastify",
+        "Fastify plugin system",
+        "Node.js runtime"
+      ],
+      "Database & ORM": [
+        "Knex.js",
+        "MongoDB",
+        "SQL query building",
+        "In-memory database testing"
+      ],
+      "API Documentation": [
+        "Swagger/OpenAPI",
+        "Fastify Swagger UI",
+        "Ecosystem documentation"
+      ],
+      "Testing & Mocking": [
+        "Mock KnexJS plugin",
+        "In-memory MongoDB plugin",
+        "Testing-focused plugins"
+      ],
+      "Plugin Development": [
+        "Self-contained Fastify plugins",
+        "Plugin lifecycle management",
+        "Plugin documentation"
+      ],
+      "Documentation & Community": [
+        "Ecosystem.md updates",
+        "Plugin documentation",
+        "Community plugin guides"
+      ],
+      "Modular Architecture": [
+        "Plugin modularity",
+        "Dependency isolation",
+        "Reusable components"
+      ],
+      "Package Management": [
+        "NPM/Yarn plugin publishing"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: 'Add Fastify Swagger UI plugin' - Explicit plugin development for API documentation",
+      "PR label: 'documentation' - Updated Ecosystem.md to include new Swagger UI plugin",
+      "PR description: 'Fastify KnexJS plugin for SQL query building' - Demonstrates Knex.js integration",
+      "PR description: 'Mock KnexJS plugin for testing' - Shows testing-focused plugin development",
+      "PR description: 'Fastify MongoDB in-memory plugin' - Evidence of in-memory database testing support",
+      "PR label: 'plugin' - All contributions involve Fastify plugin creation and maintenance",
+      "PR changes: Updated plugin documentation - Confirms attention to plugin usability and clarity",
+      "PR context: All repos are 'fastify' - Focused specialization in Fastify ecosystem"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

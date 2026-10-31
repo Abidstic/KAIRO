@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "developer_name": "jrburke",
+    "generation_timestamp": "2026-08-15T16:16:14.915487",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "jrburke",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "AMD (Asynchronous Module Definition)",
+      "jQuery internals",
+      "Legacy JavaScript module systems",
+      "Browser module compatibility",
+      "JavaScript API versioning",
+      "Module registration patterns"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "jQuery"
+    ],
+    "summary": "jrburke is a senior JavaScript developer with deep expertise in AMD module systems, specializing in jQuery's integration with asynchronous module loaders like RequireJS. Their contributions focus on ensuring jQuery's compatibility across module environments while maintaining backward compatibility and performance optimizations. The developer demonstrates strong technical precision, iterative refinement of module registration logic, and a nuanced understanding of legacy JavaScript ecosystems. While primarily focused on AMD, their jQuery maintainer role likely extends to broader JavaScript module system knowledge, including ES6 modules and build tool integration.",
+    "identified_skills": {
+      "Module Systems": [
+        "AMD (Asynchronous Module Definition)",
+        "AMD registration patterns",
+        "Loader compatibility (RequireJS)",
+        "Global vs. AMD dual-mode support",
+        "Module system trade-offs"
+      ],
+      "jQuery-Specific": [
+        "jQuery AMD integration",
+        "noConflict() in AMD context",
+        "jQuery 1.x/2.x API versioning",
+        "jQuery internals (module registration)",
+        "Testing infrastructure for AMD"
+      ],
+      "Legacy JavaScript Patterns": [
+        "Dynamic module loading",
+        "Callback-based async patterns",
+        "Legacy module system bridges",
+        "Browser module ecosystem nuances"
+      ],
+      "Code Organization & Discipline": [
+        "Iterative PR refinement",
+        "PR supersession management",
+        "Performance-aware module placement",
+        "Minimal but impactful changes"
+      ],
+      "Version Control Practices": [
+        "Ticket-based development",
+        "PR supersession tracking",
+        "Collaborative code review integration"
+      ],
+      "Testing": [
+        "AMD-specific test helpers",
+        "Module system compatibility testing"
+      ]
+    },
+    "skill_evidence": [
+      "PR titles explicitly reference AMD registration: 'Add support for registering jQuery as an AMD module', 'Move AMD registration to end of file'",
+      "Changes to `noConflict()` compatibility in AMD context: 'Ensure AMD implementations support noConflict()'",
+      "Version-specific fixes: '[1.10] remove the define.amd.jQuery check' targeting jQuery 1.10 API evolution",
+      "Creation of `exports.js` for testing AMD module exports, showing infrastructure awareness",
+      "Iterative refinement with PR supersession: 'supersedes #584', indicating disciplined version control",
+      "Performance optimization: Moving AMD registration to end of file to avoid blocking",
+      "Loader-specific fixes: Addressing issues with `define.amd.jQuery` check causing problems in AMD loaders",
+      "Reference to jQuery ticketing system: PRs linked to tickets #7102, #10687 demonstrating internal workflow familiarity"
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

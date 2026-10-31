@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "mscdex",
+    "generation_timestamp": "2026-08-15T15:40:50.873745",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 7,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 7
+  },
+  "profile": {
+    "developer_name": "mscdex",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Express.js Router Internals",
+      "Node.js Runtime Compatibility",
+      "Middleware Design Patterns",
+      "Test Suite Maintenance",
+      "Backend Debugging & Fixes"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "Node.js"
+    ],
+    "summary": "mscdex is a senior-level JavaScript developer with deep expertise in Express.js backend development, particularly in router middleware design and Node.js runtime compatibility. Their contributions demonstrate strong debugging skills, proactive test maintenance, and a focus on optimizing backend performance. The developer shows high confidence in handling complex Express internals, such as request lifecycle control and HTTP method handling, while also ensuring backward compatibility with Node.js version changes. All contributions are backend-focused, with no evidence of frontend or full-stack experience.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Express Router Middleware",
+        "Express HTTP Method Handling"
+      ],
+      "Node.js Runtime": [
+        "Node.js v7.0.0 Compatibility",
+        "Runtime Change Adaptation",
+        "Node.js PR #6102 Awareness"
+      ],
+      "Testing & Debugging": [
+        "Test Suite Maintenance",
+        "Flaky Test Diagnosis",
+        "Test Output Optimization",
+        "Preemptive Test Updates"
+      ],
+      "Dependency Management": [
+        "npm Dependency Versioning",
+        "Backward Compatibility Fixes"
+      ],
+      "Backend Patterns": [
+        "Middleware Composition",
+        "Request Lifecycle Optimization",
+        "Conditional Routing Logic"
+      ],
+      "Bug Fixing": [
+        "Duplicate Execution Fixes",
+        "Deprecation Error Resolution",
+        "HTTP Header Handling"
+      ],
+      "Code Quality": [
+        "Early Bailout Logic",
+        "Middleware Short-Circuiting"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Allow immediate bail in Router' – Demonstrates middleware short-circuiting and early bailout logic in Express routers",
+      "PR: 'Fix app.all to not execute twice for the same incoming DELETE request' – Shows deep understanding of HTTP method dispatching and request lifecycle",
+      "PR: 'tests: make router test less noisy' – Evidence of test suite maintenance and debugging noisy test outputs",
+      "PR: 'tests: fix deprecation error in router test' – Proactive handling of test failures due to Node.js runtime changes",
+      "PR: 'test: update should usage' – Adapts test framework to Node.js v7 compatibility requirements",
+      "PR: 'update send to 0.4.0' – Direct dependency version bump with semantic versioning awareness",
+      "PR: 'Fix response headers usage with upcoming node changes' – Preemptive fix for Node.js runtime compatibility issues",
+      "PR labels: 'needs tests' – Indicates involvement in test coverage improvements for Express internals"
+    ]
+  },
+  "statistics": {
+    "total_prs": 7,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

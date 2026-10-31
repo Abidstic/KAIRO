@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "developer_name": "tojocky",
+    "generation_timestamp": "2026-08-15T16:22:27.299374",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "tojocky",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery Core Development",
+      "DOM Traversal & Selector Logic",
+      "JavaScript Module Systems",
+      "Legacy JavaScript Build Systems",
+      "Prototypal Inheritance Extensions"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "Node.js (CommonJS/AMD)"
+    ],
+    "summary": "tojocky is a mid-level JavaScript developer with specialized expertise in jQuery's core internals and legacy build systems. Their contributions demonstrate deep knowledge of DOM traversal patterns, method extension via prototypal inheritance, and Node.js module resolution in jQuery's packaging pipeline. The developer has shown ability to design new jQuery methods (e.g., `nextAt`, `prevAt`) and resolve version-specific build warnings, indicating strong problem-solving skills in maintaining legacy JavaScript ecosystems. While focused exclusively on jQuery's codebase, their work reveals proficiency in JavaScript's prototypal patterns and modular systems from the pre-modern bundler era.",
+    "identified_skills": {
+      "jQuery Core Patterns": [
+        "Prototypal Method Extensions",
+        "Selector-Based DOM Traversal",
+        "Chainable Method Design"
+      ],
+      "DOM Manipulation": [
+        "Custom Traversal Methods",
+        "Sibling/Parent/Child Navigation",
+        "Selector Filtering Logic"
+      ],
+      "Module Systems": [
+        "CommonJS Module Resolution",
+        "AMD Module Compatibility",
+        "Node.js Build System Integration"
+      ],
+      "Build Tooling": [
+        "Legacy JavaScript Packaging",
+        "Version-Specific Build Fixes",
+        "Module Name Resolution Corrections"
+      ],
+      "Testing Practices": [
+        "Version-Aware Testing",
+        "Iterative PR Refinement"
+      ],
+      "Technical Communication": [
+        "PR Documentation",
+        "Contextual Change Explanations"
+      ],
+      "Legacy JavaScript": [
+        "ES5 Compatibility",
+        "Pre-Modern Bundler Patterns"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Proposed `nextAt` method demonstrating selector-based DOM traversal beyond vanilla `.next()`",
+      "PR #2: Renamed `sys` to `util` in Node.js builds showing Node.js module resolution knowledge",
+      "PR #3: Added `prevAt` method with nested element traversal use case, proving deep jQuery selector logic understanding",
+      "PR #4: Fixed build warnings in version 0.6.4 indicating version-specific testing and compatibility awareness",
+      "PR descriptions reference `$.fn` method extensions, confirming prototypal inheritance patterns",
+      "Mentions of 'corrected pull request' showing iterative debugging and testing discipline",
+      "Build system PRs reference 'tested with version 0.6.4', proving version-aware development",
+      "PR #2 acknowledges prior PRs (#632, #635) demonstrating collaborative debugging patterns"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

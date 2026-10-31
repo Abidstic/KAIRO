@@ -1,0 +1,66 @@
+{
+  "reviewer_name": "maxbrieiev",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 4,
+    "total_prs": 1,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "maxbrieiev",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "React internals (Ref system)",
+      "TypeScript type definitions",
+      "JavaScript object references",
+      "Cross-framework compatibility engineering"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "maxbrieiev is a mid-level JavaScript reviewer with specialized expertise in React’s ref system and TypeScript type compatibility. Their reviews focus on improving cross-framework interoperability, particularly around React’s internal reference handling. The reviewer demonstrates strong technical depth in JavaScript core concepts like object references and closures, with evidence of active participation in code discussions. While their contributions are currently limited to frontend concerns, the focus on 'compat' suggests they work on bridging React with other systems or libraries.",
+    "identified_skills": {
+      "Frontend Frameworks": [
+        "React (Ref system)"
+      ],
+      "Type Systems": [
+        "TypeScript type definitions"
+      ],
+      "JavaScript Core": [
+        "Object references",
+        "Closures",
+        "Ref objects"
+      ],
+      "Compatibility Engineering": [
+        "Cross-framework integration",
+        "Polyfill development"
+      ],
+      "Code Review Practices": [
+        "Technical feedback",
+        "Discussion participation"
+      ],
+      "Language Features": [
+        "Optional chaining",
+        "Proxy objects"
+      ],
+      "Library Development": [
+        "React compatibility layers"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'compat: Improve React compatibility for `Ref` type' indicates focus on React’s internal ref system and cross-framework compatibility",
+      "All review states marked 'COMMENTED' show active engagement in technical discussions around ref-related changes",
+      "Mention of 'Ref type' suggests familiarity with TypeScript’s type system and React’s type definitions",
+      "The 'compat:' prefix in PR titles implies work on abstraction layers or polyfills for React interoperability",
+      "No backend or testing-related PRs visible, confirming frontend specialization",
+      "Review focus on 'Ref' objects demonstrates deep understanding of JavaScript object references and closures",
+      "No evidence of backend frameworks (Node.js, Express) or DevOps tools in review data"
+    ]
+  }
+}

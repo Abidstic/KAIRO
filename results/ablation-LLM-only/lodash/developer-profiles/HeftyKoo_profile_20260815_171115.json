@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "HeftyKoo",
+    "generation_timestamp": "2026-08-15T17:02:31.872716",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "lodash"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "HeftyKoo",
+    "raw_response": "```json\n{\n  \"developer_name\": \"HeftyKoo\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"JavaScript ES6+ features (let/const scoping, hoisting)\",\n    \"Lodash utility library internals\",\n    \"Equality comparison (=== vs ==, numeric edge cases)\",\n    \"Object/array iteration optimizations\",\n    \"Edge-case debugging in core JavaScript operations\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\"\n  ],\n  \"summary\": \"HeftyKoo demonstrates a strong foundation in JavaScript language semantics with a focus on core utility library development, particularly within Lodash. Their contributions reveal deep expertise in handling edge cases (e.g., -0 vs 0, let scoping in loops) and optimizing internal utility functions. While contributions are limited to a single repository, the precision and technical depth of their fixes suggest a Mid-level JavaScript developer with specialized knowledge of utility library internals and JavaScript's subtle behavioral quirks. No evidence of framework-specific work (e.g., React, Node.js) or modern tooling (TypeScript, async/await) is present in their PRs.\",\n  \"identified_skills\": {\n    \"JavaScript Language Fundamentals\": [\n      \"ES6+ block scoping (let/const)\",\n      \"Variable hoisting behavior\",\n      \"Strict equality (===) vs loose equality (==)\",\n      \"Numeric edge cases (-0, NaN handling)\",\n      \"Object property access patterns (hasOwnProperty)\"\n    ],\n    \"Utility Library Development\": [\n      \"Lodash core utility functions (_.eq, _.has)\",\n      \"Legacy code maintenance in large libraries\",\n      \"Micro-optimizations in iteration logic\",\n      \"Equality comparison algorithms\"\n    ],\n    \"Debugging & Edge-Case Handling\": [\n      \"Rare JavaScript behavior identification\",\n      \"Logical flaw correction in utility functions\",\n      \"Performance-critical code review\"\n    ],\n    \"Codebase Navigation\": [\n      \"Legacy issue triage ('bankruptcy' issues)\",\n      \"Internal utility function analysis\"\n    ],\n    \"Testing & Quality\": [],\n    \"Backend Frameworks\": [],\n    \"Frontend Frameworks\": [],\n    \"Build Tools & Bundlers\": [],\n    \"TypeScript\": [],\n    \"Asynchronous Programming\": [],\n    \"Dependency Management\": [],\n    \"Documentation & Community\": []\n  },\n  \"skill_evidence\": [\n    \"PR 1 title: 'let should define outside the while loop' → Demonstrates understanding of let/const block scoping and hoisting in loops\",\n    \"PR 1 description: Implicitly references variable redeclaration in loops, showing awareness of ES6 scoping rules\",\n    \"PR 3 title: 'Avoid skipping set of 0 or -0 when the other one is existing' → Directly addresses numeric edge case (-0 vs 0) in Lodash's equality utility\",\n    \"PR 3 description: Mentions 'eq(objValue, value)' and 'hasOwnProperty.call(object, key)' → Shows familiarity with Lodash's equality checks and object property access patterns\",\n    \"All PRs labeled 'issue bankruptcy' → Indicates experience with legacy code maintenance in large, established libraries\",\n    \"PR 4 title: 'No need lastIndex' → Suggests optimization of array/string iteration patterns in Lodash internals\",\n    \"PR 2 title: 'Fixed val calculate' → Implies debugging of mathematical/equality-related logic in utility functions\",\n    \"Files_changed: 0 in all PRs → Focus on logical fixes rather than structural code changes, indicating deep understanding of existing codebase\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 56 column 3 (char 3357)"
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "lodash"
+    ]
+  }
+}

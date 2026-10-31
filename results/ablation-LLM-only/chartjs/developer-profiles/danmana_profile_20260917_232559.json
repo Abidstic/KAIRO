@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "developer_name": "danmana",
+    "generation_timestamp": "2026-09-17T23:25:28.532649",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "danmana",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js core development",
+      "TypeScript integration",
+      "Visual chart customization",
+      "Testing (visual & unit)",
+      "Documentation & developer experience"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "danmana is a mid-level JavaScript developer with specialized expertise in Chart.js, focusing on core charting feature development, visual customization, and TypeScript integration. Their contributions demonstrate deep knowledge of rendering engines, scriptable options, and UI/UX enhancements. Strong skills in testing (visual and unit) and documentation ensure high-quality, developer-friendly features. The developer follows structured GitHub workflows and collaborates effectively on open-source projects.",
+    "identified_skills": {
+      "Charting Libraries": [
+        "Chart.js core rendering",
+        "Canvas-based visualization",
+        "Scriptable chart options"
+      ],
+      "TypeScript": [
+        "TypeScript definitions",
+        "Type-safe API design"
+      ],
+      "Testing": [
+        "Visual regression testing",
+        "Unit testing",
+        "Test-driven development"
+      ],
+      "Documentation": [
+        "API documentation updates",
+        "Developer experience (DX) improvements"
+      ],
+      "JavaScript Patterns": [
+        "ES6+ classes",
+        "Configurable object APIs"
+      ],
+      "UI/UX Enhancements": [
+        "Tooltip styling",
+        "Border radius customization",
+        "Padding adjustments"
+      ],
+      "GitHub Workflow": [
+        "Issue tracking",
+        "Semantic PR labels",
+        "Collaborative reviews"
+      ],
+      "Visual Development": [
+        "Canvas/WebGL rendering",
+        "Interactive chart elements"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'feat: add borderRadius to bar charts' shows deep Chart.js rendering knowledge (border radius styling)",
+      "PR 'feat: Make options.layout.padding scriptable' demonstrates scriptable chart options and configuration system expertise",
+      "PR 'feat: Draw tooltips with point styles' includes TypeScript definitions and visual test evidence ('typescript defs', screenshot)",
+      "All PRs mention 'Updated docs' or 'Added docs', proving strong documentation contributions",
+      "PR #2 includes 'added visual tests', confirming visual regression testing skills",
+      "PR descriptions reference 'Closes #7701' and 'type: enhancement', showing structured GitHub workflow",
+      "TypeScript integration evidenced by explicit mention of 'typescript defs' in PR #3",
+      "UI/UX focus shown through tooltip styling, border radius, and padding adjustments in PRs"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

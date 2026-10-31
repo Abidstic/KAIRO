@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "developer_name": "mattjohnsonpint",
+    "generation_timestamp": "2026-08-15T18:01:22.865288",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 12,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 12
+  },
+  "profile": {
+    "developer_name": "mattjohnsonpint",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "JavaScript Date API internals",
+      "Moment.js core development",
+      "Timezone-aware date calculations",
+      "Daylight Saving Time (DST) handling",
+      "Unit testing (QUnit)",
+      "Debugging complex edge cases",
+      "Code quality improvements",
+      "Build system optimizations"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "JavaScript (Prototype-based OOP)"
+    ],
+    "summary": "mattjohnsonpint is a highly specialized Senior JavaScript developer with deep expertise in date/time handling, particularly within the Moment.js ecosystem. Their contributions demonstrate exceptional debugging skills focused on Daylight Saving Time transitions, timezone arithmetic, and JavaScript Date object edge cases. The developer excels at maintaining robust testing suites, improving code quality, and making targeted fixes to complex date/time logic. While their contributions are primarily within Moment.js (pre-ES6), their proficiency in JavaScript's core date functionality and prototype-based patterns suggests broader expertise in JavaScript internals.",
+    "identified_skills": {
+      "DateTime Systems": [
+        "JavaScript Date object internals",
+        "Daylight Saving Time (DST) transitions",
+        "Timezone-aware calculations",
+        "Fractional-hour timezone offsets",
+        "Locale-specific date handling",
+        "Year/date arithmetic edge cases"
+      ],
+      "Library Development": [
+        "Moment.js core contributions",
+        "Timezone plugin integration",
+        "Locale system maintenance",
+        "Feature extension (age calculation)",
+        "Prototype-based JavaScript patterns"
+      ],
+      "Testing & Debugging": [
+        "Flaky test resolution",
+        "QUnit test suite improvements",
+        "DST transition test coverage",
+        "Assertion tuning",
+        "Edge-case debugging",
+        "Test reproducibility"
+      ],
+      "Code Quality": [
+        "Build system optimizations",
+        "Deprecation warning suppression",
+        "Line-ending compatibility fixes",
+        "Code documentation clarifications",
+        "Test restoration/maintenance"
+      ],
+      "JavaScript Patterns": [
+        "Prototype-based inheritance",
+        "Closure-based logic",
+        "Functional composition (diff function)",
+        "Object-oriented date extensions"
+      ],
+      "Tooling": [
+        "QUnit test framework",
+        "Build script adjustments",
+        "Cross-platform compatibility fixes"
+      ],
+      "Problem Solving": [
+        "Root-cause analysis for date bugs",
+        "Reproducible debugging workflows",
+        "Defensive programming approaches",
+        "Misconception correction in date logic"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed DST transition bugs in Chinese locale using diff function instead of timestamp subtraction",
+      "Corrected JavaScript Date year handling for years before 1970 (remapped to 1900–1999)",
+      "Added age calculation function to Moment.js with clear usage examples",
+      "Suppressed deprecation warnings in unit tests for cleaner output",
+      "Fixed fractional-hour timezone offset rounding behavior (e.g., UTC+05:30)",
+      "Restored and updated commented-out unit tests for locale-specific DST rules",
+      "Improved build compatibility by disabling line-ending validation for Windows users",
+      "Debugged and fixed flaky tests failing during Spring Forward DST transitions",
+      "Reopened previously closed PR to reapply critical Date year handling fix",
+      "Documented misconceptions about when to call setFullYear() in Date objects"
+    ]
+  },
+  "statistics": {
+    "total_prs": 12,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

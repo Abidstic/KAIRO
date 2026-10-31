@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "developer_name": "youoj",
+    "generation_timestamp": "2026-08-15T16:42:01.806238",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "youoj",
+    "experience_level": "Junior",
+    "primary_skills": [],
+    "programming_languages": [],
+    "summary": "Based on the available GitHub PR data, youoj has not demonstrated any measurable JavaScript technical skills. Their contributions to the jquery repository are limited to documentation and localization tasks (e.g., adding translated CONTRIBUTING.md files), with no evidence of modifying, reviewing, or debugging JavaScript code. While they may have exposure to the jQuery ecosystem, their profile does not reflect proficiency in core JavaScript, frontend frameworks, backend systems, or related tooling. Their contributions align more closely with community and documentation roles rather than technical development.",
+    "identified_skills": {
+      "Documentation & Localization": [
+        "Markdown",
+        "CONTRIBUTING.md translations",
+        "i18n"
+      ],
+      "Open Source Contribution": [
+        "GitHub PR workflow",
+        "contributor guidelines"
+      ],
+      "jQuery Ecosystem": [
+        "jquery repository access"
+      ],
+      "Git/GitHub": [
+        "PR submissions"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'Add CONTRIBUTING.ko.md' (Korean translation of contributing guidelines)",
+      "No JavaScript files modified in any PR (files_changed = 0, additions/deletions = 0)",
+      "All PRs in jquery repository with no code changes",
+      "No evidence of JavaScript syntax, ES6 features, or framework-specific patterns",
+      "No testing files, build tool configs, or backend-related changes",
+      "PRs lack descriptions or commit messages with technical context"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

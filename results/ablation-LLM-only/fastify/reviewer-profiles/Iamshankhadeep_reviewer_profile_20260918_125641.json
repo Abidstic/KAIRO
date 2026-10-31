@@ -1,0 +1,57 @@
+{
+  "reviewer_name": "Iamshankhadeep",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 3,
+    "total_prs": 1,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "Iamshankhadeep",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "HTTP status code handling",
+      "Backend JavaScript (Node.js/Express)",
+      "API response design"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "Iamshankhadeep demonstrates focused expertise in backend JavaScript, particularly in HTTP status code handling and API response design. Their review activity is limited to a single PR title suggesting involvement in server-side concerns (e.g., Express.js or Node.js). While the evidence is insufficient to assess broader JavaScript skills (e.g., frontend frameworks, testing, or async patterns), their review state and PR topic imply a technical focus on correctness in HTTP semantics. The reviewer appears to be at a **Mid-level** based on the specificity of their PR topic, though deeper technical depth cannot be confirmed without additional review data.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Node.js"
+      ],
+      "HTTP/Networking": [
+        "HTTP status code handling",
+        "API response codes"
+      ],
+      "Code Review": [
+        "PR comment focus",
+        "status code correctness"
+      ],
+      "Programming Languages": [
+        "JavaScript"
+      ],
+      "Error Handling": [
+        "HTTP error responses"
+      ],
+      "Review Process": [
+        "commented PR state"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: 'fix: enhance 100 and 200 or 204 handling' (indicates HTTP status code focus)",
+      "All PRs in 'COMMENTED' state (suggests detailed but non-decisional review focus)",
+      "No frontend-related PRs or files changed (confirms backend/JavaScript runtime focus)",
+      "No test files or async/await patterns visible (limits testing/async expertise claims)",
+      "Repository context missing (prevents frontend/backend distinction beyond HTTP signals)"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "reviewer_name": "RaginiSharma01",
+  "generated_at": "20260815_155647",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 0,
+    "total_prs": 1,
+    "repos": [
+      "express"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "RaginiSharma01",
+    "experience_level": "Junior",
+    "primary_skills": [],
+    "programming_languages": [
+      "Markdown"
+    ],
+    "summary": "RaginiSharma01 has contributed to documentation files (CONTRIBUTING.md and CODE_OF_CONDUCT.md) but lacks any evidence of JavaScript technical skills or expertise. Their reviews focus solely on non-code documentation updates, with no involvement in JavaScript code, frameworks, or ecosystem tools. The contributions are limited to administrative or procedural documentation tasks, not technical JavaScript development or review.",
+    "identified_skills": {
+      "Documentation Management": [
+        "CONTRIBUTING.md",
+        "CODE_OF_CONDUCT.md",
+        "Markdown formatting"
+      ],
+      "Community Guidelines": [
+        "Code of Conduct review",
+        "Contribution guidelines"
+      ],
+      "File Organization": [
+        "File deletion",
+        "Link updates"
+      ],
+      "Collaboration Processes": [
+        "PR review workflow"
+      ],
+      "JavaScript": [],
+      "Backend Frameworks": [],
+      "Frontend Frameworks": [],
+      "Testing": [],
+      "Build Tools": [],
+      "Package Management": [],
+      "DevOps/Tooling": []
+    },
+    "skill_evidence": [
+      "PR titled 'Add CONTRIBUTING.md and CODE_OF_CONDUCT.md' with no JavaScript file changes (files_changed: 0)",
+      "Review comment: 'Updated links in CONTRIBUTING.md to match current project structure' (non-technical)",
+      "Review comment: 'Removed outdated file references in CODE_OF_CONDUCT.md' (documentation-only)",
+      "No references to JavaScript syntax, ES6 features, or framework-specific patterns in any review",
+      "No mention of Express.js, Node.js, or related middleware in any PR or comment",
+      "All PRs involve only markdown files, with no code-related labels or technical discussions"
+    ]
+  }
+}

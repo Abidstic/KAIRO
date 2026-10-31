@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "developer_name": "webbiesdk",
+    "generation_timestamp": "2026-08-15T18:19:54.554730",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "webbiesdk",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "Moment.js internals",
+      "Type-safe JavaScript",
+      "JavaScript runtime debugging",
+      "Type definition maintenance",
+      "Strict type checking (strictNullChecks)"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)"
+    ],
+    "summary": "webbiesdk is a mid-level JavaScript developer with specialized expertise in TypeScript, particularly in maintaining and debugging type definitions for legacy libraries like Moment.js. Their contributions focus on ensuring type-runtime consistency, fixing strict type checking issues, and refining type definitions for complex date/time manipulation APIs. The developer demonstrates precision in resolving minor but impactful type-related bugs, showcasing deep familiarity with Moment.js internals (calendar formatting, UTC handling, and locales) while maintaining a strong grasp of JavaScript module systems and TypeScript's advanced features. Their work highlights a balance of technical depth in type systems and practical debugging skills within JavaScript ecosystems.",
+    "identified_skills": {
+      "TypeScript Advanced": [
+        "Type definition maintenance (.d.ts files)",
+        "Strict type checking (strictNullChecks)",
+        "Interface/union type alignment",
+        "Type-safe function signatures",
+        "Ambient declarations",
+        "Runtime-type consistency debugging"
+      ],
+      "Legacy Library Type Safety": [
+        "Moment.js type definitions",
+        "CalendarSpec interface fixes",
+        "MomentCreationData type alignment",
+        "Locale system type extensions"
+      ],
+      "JavaScript Runtime Debugging": [
+        "Type-runtime mismatch resolution",
+        "Function signature alignment",
+        "Optional property handling",
+        "String index signature fixes"
+      ],
+      "Date/Time Systems": [
+        "Moment.js calendar formatting",
+        "UTC/ISO time handling",
+        "Locale-aware date parsing",
+        "Weekday/isoWeekdays string manipulation"
+      ],
+      "Module Systems": [
+        "ES6 module augmentation",
+        "Ambient type declarations",
+        "TypeScript module resolution"
+      ],
+      "Code Quality Practices": [
+        "Precision-focused fixes",
+        "Type consistency enforcement",
+        "Minor but impactful refactoring",
+        "Spelling/naming corrections in types"
+      ],
+      "Tooling": [
+        "TypeScript Compiler (tsc)",
+        "GitHub PR workflow"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1 title '[misc] typescript: Add isoWeekdays(str), locales, defaultFormatUtc' explicitly labels TypeScript and involves adding new type-safe functionality for Moment.js locales and ISO weekdays",
+      "PR 2 description references 'CalendarSpec interface', 'optional properties', and 'string index signatures'—all TypeScript-specific constructs—while fixing compilation under strictNullChecks",
+      "PR 2 title 'Fixing compilation of moment.d.ts under strict null checks' directly demonstrates debugging TypeScript's strictest type checking mode",
+      "PR 3 description lists three type-related fixes: function signature alignment between CalendarSpecVal and moment().calendar(), MomentCreationData type consistency, and spelling correction in isUtcOffset",
+      "PR 3 changes involve ensuring 'The first argument in the function in CalendarSpecVal should match the first argument in moment().calendar(..)', bridging type definitions with runtime behavior",
+      "All PRs focus on Moment.js internals like calendar formatting, UTC handling (defaultFormatUtc), and locale systems, indicating deep library-specific knowledge",
+      "PR 1 adds isoWeekdays(str) functionality, showing familiarity with Moment.js's string parsing and formatting systems for date/time manipulation",
+      "PR 2 and PR 3 involve fixing type definitions for Moment object construction (MomentCreationData), proving expertise in type-safe date object creation"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

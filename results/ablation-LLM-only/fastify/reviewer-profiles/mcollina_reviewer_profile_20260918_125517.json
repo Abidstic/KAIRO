@@ -1,0 +1,85 @@
+{
+  "reviewer_name": "mcollina",
+  "generated_at": "20260918_125517",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 291,
+    "total_comments": 71,
+    "total_prs": 196,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "mcollina",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "TypeScript",
+      "Fastify",
+      "Node.js",
+      "Semantic Versioning",
+      "JavaScript Core Language",
+      "Type System Design",
+      "Error Handling",
+      "Schema Validation"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)"
+    ],
+    "summary": "mcollina is a highly specialized Senior JavaScript engineer with deep expertise in Fastify and TypeScript, particularly in type system design, schema validation, and error handling. Their reviews demonstrate a strong focus on backend frameworks, semantic versioning, and ensuring robust type safety. While their JavaScript core knowledge is solid, their primary contributions are concentrated in Fastify’s internals and TypeScript ecosystem, with limited exposure to frontend frameworks or broader JavaScript tooling.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js Runtime"
+      ],
+      "Type System & Compilation": [
+        "TypeScript",
+        "Type Providers",
+        "Schema Compiler",
+        "JSON Schema"
+      ],
+      "Versioning & Releases": [
+        "Semantic Versioning",
+        "Breaking Change Analysis",
+        "Version Bump Justification"
+      ],
+      "Error Handling & Edge Cases": [
+        "Exception Handling",
+        "Hooks (onError, onRegister)",
+        "Reply Object Behavior"
+      ],
+      "Code Quality & Practices": [
+        "Testing Encouragement",
+        "Documentation Completion",
+        "Code Review Feedback"
+      ],
+      "JavaScript Core": [
+        "Async/Await",
+        "Exception Handling Patterns",
+        "Null Safety"
+      ],
+      "Tooling & Workflows": [
+        "GitHub Actions",
+        "Dependency Management",
+        "Benchmarking"
+      ],
+      "API Design": [
+        "OpenAPI/Swagger Integration",
+        "Request/Response Typing",
+        "Plugin System"
+      ]
+    },
+    "skill_evidence": [
+      "\"Typings looks ok for me\" – TypeScript review approval for Fastify hooks",
+      "\"Are you planning to do any other significant change on the types? I'm asking only because of the v4 planning.\" – Semver awareness in type system changes",
+      "\"Good work! This lacks docs.\" – Documentation completeness as a review criterion",
+      "\"fix: calling reply.callNotFound uncaught exception\" – Deep error handling review in Fastify’s reply object",
+      "\"run npm run test and npm run benchmark\" – Testing and benchmarking expectations in PRs",
+      "\"fix(types): add opts param to onRegister hook handler signature\" – Type signature refinement in hooks",
+      "\"Body object in request could be null (Type change)\" – Null safety and type change justification for semver-major",
+      "\"Add Documentation and TS Types missed for FastifyInstance#setSchemaController\" – Combined docs + type review focus"
+    ]
+  }
+}

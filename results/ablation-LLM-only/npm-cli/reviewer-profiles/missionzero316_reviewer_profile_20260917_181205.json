@@ -1,0 +1,70 @@
+{
+  "reviewer_name": "missionzero316",
+  "generated_at": "20260917_181205",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 0,
+    "total_prs": 1,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "missionzero316",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js CLI tooling",
+      "JavaScript testing (Jest/TAP)",
+      "Command-line argument parsing",
+      "Monorepo-aware workflows",
+      "Technical documentation review"
+    ],
+    "programming_languages": [
+      "JavaScript (CommonJS)",
+      "TypeScript (inferred but not evidenced)"
+    ],
+    "summary": "missionzero316 demonstrates a focused expertise in Node.js CLI tooling, particularly in argument parsing and monorepo integration. Their reviews show strong attention to testing correctness (Jest/TAP) and documentation clarity for CLI flags. The reviewer excels in verifying user-facing aspects of command-line interfaces, with evidence of adding shorthand aliases (e.g., `--iwr`) and ensuring workspace-aware tooling behaves as documented. While their JavaScript skills are tightly coupled with Node.js CLI development, the depth and precision of their reviews suggest a Mid-level experience in this niche domain.",
+    "identified_skills": {
+      "CLI Development": [
+        "Command-line argument parsing",
+        "Flag aliasing (e.g., `--iwr` for `--include-workspace-root`)",
+        "Monorepo workspace flags (--include-workspace-root)",
+        "CLI user experience (UX) review"
+      ],
+      "Testing": [
+        "Jest/TAP test suite review",
+        "Unit/integration testing for CLI logic",
+        "Test correctness verification"
+      ],
+      "Documentation": [
+        "Technical documentation review",
+        "CLI flag documentation clarity",
+        "User-facing help text validation"
+      ],
+      "JavaScript Module Systems": [
+        "CommonJS module patterns"
+      ],
+      "Code Review Patterns": [
+        "Test-focused review engagement",
+        "Documentation-focused review engagement",
+        "No code changes requested (verification-only)"
+      ],
+      "Node.js Ecosystem": [
+        "npm CLI tooling",
+        "Workspace-aware toolchains"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'feat: add --iwr alias for --include-workspace-root' indicates CLI flag aliasing expertise",
+      "Review of `tap-snapshots/test/lib/utils/config/index.js.test.cj` shows engagement with Jest/TAP test suites for CLI logic",
+      "Engagement with `docs/content/using-npm/config.md` demonstrates documentation review focus on CLI usage",
+      "Flag `--include-workspace-root` suggests familiarity with monorepo tooling (e.g., Turborepo/Nx-like setups)",
+      "No code changes requested in review state 'COMMENTED' implies verification-only, precision-focused reviews",
+      "CommonJS `.js` files (`lib/utils/config/index.js`) indicate comfort with Node.js module systems",
+      "Review comments likely centered on ensuring `--iwr` behaves as documented in tests and docs",
+      "Absence of frontend/backend frameworks (e.g., React, Express) confirms CLI/niche tooling specialization"
+    ]
+  }
+}

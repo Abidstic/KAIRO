@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "developer_name": "zmeyc",
+    "generation_timestamp": "2026-09-18T14:11:01.289773",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "zmeyc",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "Fastify Framework",
+      "Node.js",
+      "Schema Validation",
+      "Type System Design",
+      "Performance Optimization"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)"
+    ],
+    "summary": "zmeyc is a specialized TypeScript and Fastify developer with a strong focus on backend systems. Their contributions demonstrate deep expertise in TypeScript’s type system, Fastify’s core framework internals, and performance-critical optimizations. The developer shows proficiency in schema-based validation, runtime type safety, and maintaining clean, high-quality code through rigorous testing and benchmarking. Evidence suggests a Mid-level experience with targeted contributions to backend infrastructure rather than frontend or DevOps domains.",
+    "identified_skills": {
+      "TypeScript": [
+        "TypeScript type system",
+        "Interface/Type Refactoring",
+        "Prototype/Class Typing",
+        "Schema-based Runtime Validation",
+        "Logger Typings"
+      ],
+      "Backend Frameworks": [
+        "Fastify Framework",
+        "Fastify Schema System",
+        "Fastify Logger"
+      ],
+      "Node.js Ecosystem": [
+        "npm Scripts",
+        "Testing Frameworks",
+        "Benchmarking Tools",
+        "CommonJS/ESM Interoperability"
+      ],
+      "Code Quality & Practices": [
+        "Test-Driven Development",
+        "Code Review Compliance",
+        "Code of Conduct Adherence",
+        "Self-Documenting Code"
+      ],
+      "Debugging & Maintenance": [
+        "Typo Correction",
+        "Subtle Type Issues",
+        "Codebase Maintenance"
+      ],
+      "API Design": [
+        "Schema Design Extensions",
+        "Response Type Definitions"
+      ],
+      "Performance": [
+        "Benchmarking",
+        "Performance-Critical Fixes"
+      ]
+    },
+    "skill_evidence": [
+      "All PRs labeled with 'typescript' and involve typing fixes (e.g., adding missing `response` type to `FastifySchema`).",
+      "PRs reference `onProtoPoisoning` typo fix, indicating precision in TypeScript prototype/class typing.",
+      "PR descriptions include `npm run test` and `npm run benchmark` checklists, showing familiarity with Fastify’s testing and benchmarking workflows.",
+      "Contributions extend Fastify’s type definitions for better developer experience, evidenced by schema improvements.",
+      "No frontend or DevOps-related PRs found; contributions are strictly backend-focused.",
+      "Code changes involve core Fastify internals like logger typings and schema validation system.",
+      "PRs demonstrate attention to detail with typo corrections and clean, maintainable code changes."
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "reviewer_name": "owlstronaut",
+  "generated_at": "20260917_180539",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 66,
+    "total_comments": 39,
+    "total_prs": 44,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "owlstronaut",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "npm CLI internals",
+      "Node.js dependency resolution",
+      "package.json parsing",
+      "TUF protocol implementation",
+      "npm workspaces",
+      "npx command behavior",
+      "dependency caching"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from npm ecosystem)"
+    ],
+    "summary": "owlstronaut is a highly experienced Senior-level reviewer specializing in npm CLI internals and Node.js package management. Their deep expertise spans dependency resolution, npm workspaces, TUF security protocol, and npx command behavior. Reviews consistently demonstrate advanced debugging of subtle package management issues, dependency hoisting, and cache optimization. While focused on backend tooling, their contributions reflect a strong understanding of JavaScript's module system and Node.js runtime behavior. No evidence of frontend framework experience is present.",
+    "identified_skills": {
+      "Package Management": [
+        "npm CLI internals",
+        "npm-package-arg parsing",
+        "dependency version resolution",
+        "optional dependency handling",
+        "npm workspaces implementation",
+        "TUF protocol integration",
+        "dependency hoisting",
+        "cache optimization strategies"
+      ],
+      "Node.js Runtime": [
+        "Node.js module resolution",
+        "package.json schema validation",
+        "npx execution model",
+        "platform-specific package handling"
+      ],
+      "Testing & Debugging": [
+        "npm CLI test coverage",
+        "edge-case dependency resolution",
+        "TUF key fetching validation",
+        "workspace-aware CLI testing"
+      ],
+      "Documentation": [
+        "npm CLI documentation maintenance",
+        "technical explainer updates"
+      ],
+      "CLI Tooling": [
+        "npm run command behavior",
+        "npm cache management",
+        "workspace-aware CLI commands"
+      ],
+      "Security": [
+        "TUF protocol validation",
+        "package integrity verification"
+      ],
+      "Code Quality": [
+        "dependency update coordination",
+        "bug fix prioritization"
+      ]
+    },
+    "skill_evidence": [
+      "\"add `npm cache npx` command and fix stale-version reuse in npx\" (direct CLI feature implementation)",
+      "\"fix: warn when TUF fetching of keys fails\" (TUF protocol debugging)",
+      "\"fix(npx): always save true when installing to npx cache\" (npx internals fix)",
+      "\"fix(arborist): workspaces respect overrides on subsequent installs\" (workspace dependency resolution)",
+      "\"make `npm run` autocomplete work with workspaces\" (CLI integration with workspaces)",
+      "\"Allow downgrades to hoisted version dedupe workspace\" (dependency hoisting optimization)",
+      "\"docs: fix typo in package-json.md\" (documentation maintenance)",
+      "\"fix: stop working around bug fixed in npm-package-arg@12.0.2\" (dependency parsing edge case)"
+    ]
+  }
+}

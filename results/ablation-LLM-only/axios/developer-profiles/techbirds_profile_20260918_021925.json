@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "developer_name": "techbirds",
+    "generation_timestamp": "2026-09-18T02:15:39.698298",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "techbirds",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Node.js runtime environment",
+      "npm scripting and package management",
+      "Axios library usage",
+      "JavaScript CommonJS modules",
+      "Debugging runtime errors",
+      "Example application maintenance"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred, though not directly evidenced)"
+    ],
+    "summary": "techbirds is a Junior-level JavaScript developer with demonstrated expertise in Node.js runtime execution, npm package management, and Axios library integration. Their contributions focus on debugging and fixing runtime issues in example applications, particularly within the Axios repository. While their PRs lack direct code changes, the evidence suggests strong familiarity with Node.js module resolution, CommonJS syntax, and basic debugging practices. The developer's work is maintenance-oriented, primarily involving triage and resolution of runtime errors in example scripts rather than feature development. No evidence of frontend frameworks or advanced asynchronous patterns is present in the analyzed PRs.",
+    "identified_skills": {
+      "Runtime Environments": [
+        "Node.js"
+      ],
+      "Package Management": [
+        "npm",
+        "npm scripts",
+        "package versioning"
+      ],
+      "HTTP Clients": [
+        "Axios",
+        "Axios examples",
+        "Axios configuration"
+      ],
+      "Module Systems": [
+        "CommonJS",
+        "require()",
+        "path resolution"
+      ],
+      "Debugging": [
+        "runtime error resolution",
+        "module resolution fixes"
+      ],
+      "Example Development": [
+        "example application maintenance",
+        "example script debugging"
+      ],
+      "Git Workflow": [
+        "PR creation",
+        "chore-type fixes",
+        "GitHub labels"
+      ],
+      "Asynchronous Patterns": [],
+      "Frontend Frameworks": [],
+      "Testing": [
+        "example-based testing"
+      ]
+    },
+    "skill_evidence": [
+      "PR #2: Fixing `npm run examples` error indicates npm scripting and package management knowledge",
+      "PR #2 & #3: Running `node ./examples/server.js` demonstrates Node.js runtime environment usage",
+      "PR #2 & #3: Error trace `require(path.join(__dirname, ur...))` shows CommonJS module resolution and path handling",
+      "PR #4: Reference to `extend()` method in Axios suggests familiarity with Axios configuration",
+      "All PRs: Titles like 'fix example access exception' highlight debugging runtime errors in example scripts",
+      "All PRs: Closed as 'chore' fixes indicate maintenance-oriented contributions and GitHub workflow familiarity",
+      "PR #2 & #3: Debugging undefined variable (`ur`) in `require` call shows troubleshooting skills",
+      "All PRs: Working in `examples/` directory confirms example application maintenance focus"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

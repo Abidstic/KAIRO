@@ -1,0 +1,76 @@
+{
+  "reviewer_name": "rozzilla",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 14,
+    "total_comments": 13,
+    "total_prs": 5,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "rozzilla",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "TypeScript",
+      "Fastify",
+      "Node.js Performance Optimization",
+      "TypeScript Documentation",
+      "Async/Promise Patterns",
+      "Backend JavaScript"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "Rozzilla is a Senior-level JavaScript/TypeScript engineer with deep expertise in Fastify and Node.js performance optimization. Their reviews focus heavily on TypeScript type safety, runtime patterns, and documentation correctness, particularly within the Fastify ecosystem. They demonstrate strong judgment in approving high-quality backend-related PRs and have a keen eye for performance-critical changes and type system nuances. Their engagement with async/await patterns and custom Promise-like implementations further highlights their mastery of asynchronous JavaScript.",
+    "identified_skills": {
+      "Type System & Runtime": [
+        "TypeScript type definitions",
+        "SafePromiseLike implementation",
+        "Runtime type safety",
+        "TypeScript documentation"
+      ],
+      "Backend Frameworks": [
+        "Fastify",
+        "Fastify plugin ecosystem",
+        "Fastify async routing"
+      ],
+      "Performance Optimization": [
+        "Node.js performance tuning",
+        "Request handling optimizations",
+        "Async/await performance",
+        "Benchmarking (req/sec gains)"
+      ],
+      "Asynchronous Programming": [
+        "Promises",
+        "Custom Promise-like patterns",
+        "Async/await patterns"
+      ],
+      "Code Review & Quality": [
+        "TypeScript correctness review",
+        "Documentation review",
+        "Performance impact assessment"
+      ],
+      "Documentation": [
+        "TypeScript documentation fixes",
+        "Link consistency in docs"
+      ],
+      "JavaScript Ecosystem": [
+        "Node.js runtime knowledge"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'feat(types): Introduce SafePromiseLike' indicates custom Promise-like type expertise",
+      "PR labeled 'typescript' and 'docs(ts): Fix links' shows TypeScript documentation focus",
+      "Review comment 'Super Interesting!' on performance PR with +1k req/sec gain demonstrates performance awareness",
+      "PR titled 'chore(ecosystem): Add Fastify asyncforge plugin' confirms Fastify plugin ecosystem knowledge",
+      "Multiple PRs with 'typescript' label and type-related fixes indicate deep TypeScript type system understanding",
+      "Fastify context in performance PRs ('chore: more perf') shows backend Node.js specialization",
+      "PRs in 'COMMENTED' state with approvals for high-quality TypeScript/performance changes reflect strong review judgment"
+    ]
+  }
+}

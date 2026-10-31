@@ -1,0 +1,77 @@
+{
+  "reviewer_name": "fox1t",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 0,
+    "total_prs": 3,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "fox1t",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "TypeScript",
+      "Fastify",
+      "Node.js Backend Development",
+      "Breaking Change Management",
+      "Technical Documentation",
+      "GitHub Actions"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (Node.js)"
+    ],
+    "summary": "fox1t is a Senior-level JavaScript reviewer with deep expertise in TypeScript type systems, Fastify’s schema validation and serialization pipelines, and Node.js backend architecture. Their contributions demonstrate strong technical leadership in breaking change management, documentation, and CI/CD workflows. The reviewer’s work spans type provider design, API documentation, and maintainer-level tasks like dependency updates and test suite maintenance, indicating a high level of proficiency in both runtime and static typing ecosystems.",
+    "identified_skills": {
+      "Type Systems & Language Features": [
+        "TypeScript interfaces",
+        "Custom type providers",
+        "Generics",
+        "Breaking change documentation"
+      ],
+      "Backend Frameworks": [
+        "Fastify",
+        "Fastify plugin architecture",
+        "Fastify schema validation",
+        "Fastify serialization pipeline"
+      ],
+      "Documentation & Communication": [
+        "API documentation",
+        "Breaking change explanations",
+        "Type definitions documentation"
+      ],
+      "CI/CD & Tooling": [
+        "GitHub Actions",
+        "Dependency updates",
+        "Testing automation (tap)"
+      ],
+      "Testing & Quality Assurance": [
+        "Test suite maintenance",
+        "Test-first approaches"
+      ],
+      "Version Control & Maintenance": [
+        "Semantic Versioning (SemVer)",
+        "Dependency management"
+      ],
+      "Node.js Ecosystem": [
+        "Node.js backend patterns",
+        "Async/await in Fastify"
+      ]
+    },
+    "skill_evidence": [
+      "PR #2 title includes 'type definitions and documentation' with explicit 'typescript' label",
+      "PR #2 description references 'TypeProvider interface' and 'breaking changes with separate providers for validation/serialization stages'",
+      "PR #2 approved with 'documentation' and 'github actions' labels, showing active contribution to both docs and CI/CD",
+      "PR #3 labeled 'chore: update tap@19' demonstrates dependency management and CI/CD awareness",
+      "Fastify discussion link in PR #2 indicates familiarity with Fastify’s internals and plugin architecture",
+      "All TypeScript-related PRs are approved, suggesting confidence in type system changes and breaking changes",
+      "PR #1 title 'types: narrow code reply type based on schema' implies deep type refinement work",
+      "Explicit mention of 'Breaking changes' in PR #2 description shows expertise in SemVer and migration strategies"
+    ]
+  }
+}

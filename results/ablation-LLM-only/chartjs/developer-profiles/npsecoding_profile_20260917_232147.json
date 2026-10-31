@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "developer_name": "npsecoding",
+    "generation_timestamp": "2026-09-17T23:05:41.041842",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "npsecoding",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Chart.js API design and configuration",
+      "JavaScript object manipulation and refactoring",
+      "Testing and test suite maintenance",
+      "Breaking change management in libraries",
+      "Frontend JavaScript visualization libraries"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)"
+    ],
+    "summary": "npsecoding is a Mid-Level JavaScript developer with specialized expertise in Chart.js, demonstrated through focused contributions to its codebase. Their work primarily involves removing deprecated features, adding new visualization capabilities, and maintaining test coverage. The developer shows strong proficiency in JavaScript object manipulation, API design, and breaking change management, with a clear understanding of frontend visualization libraries. While their contributions are limited to Chart.js, their technical communication and code review skills are evident through concise PR descriptions and self-sufficient contributions. No evidence of backend (Node.js) or advanced tooling (TypeScript, Webpack) skills is present in the analyzed PRs.",
+    "identified_skills": {
+      "Data Visualization Libraries": [
+        "Chart.js",
+        "Canvas/SVG rendering"
+      ],
+      "JavaScript Object Manipulation": [
+        "Configuration object refactoring",
+        "Property removal"
+      ],
+      "Testing Practices": [
+        "Test suite updates",
+        "Deprecated feature removal from tests"
+      ],
+      "Breaking Change Management": [
+        "Breaking change labeling",
+        "Backward compatibility awareness"
+      ],
+      "Code Refactoring": [
+        "Deprecated API removal",
+        "Code cleanup"
+      ],
+      "Technical Communication": [
+        "Clear PR descriptions",
+        "Self-documenting changes"
+      ],
+      "Frontend Rendering": [
+        "Graphical line drawing (horizontal/vertical)",
+        "Visualization feature additions"
+      ],
+      "Quality Assurance": [
+        "Test maintenance",
+        "Code quality focus"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'Remove deprecated minRotation option' — demonstrates API design knowledge and breaking change awareness",
+      "PR labeled 'breaking change' — shows understanding of backward compatibility impacts",
+      "PR description: 'Will fix tests later' — indicates test suite maintenance awareness",
+      "PR titled 'Added ability to draw horizontal and vertical lines on graph' — evidence of frontend rendering skills",
+      "Multiple PRs removing unused fields from test files — confirms testing practice expertise",
+      "PRs focus on Chart.js configuration objects — proves JavaScript object manipulation proficiency",
+      "No evidence of TypeScript, Node.js, or build tooling — confirms frontend-only specialization",
+      "Concise PR descriptions without extensive discussion — suggests self-sufficient code review skills"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "developer_name": "MoonScript",
+    "generation_timestamp": "2026-08-15T16:31:27.864425",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "MoonScript",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery internals",
+      "DOM event delegation",
+      "legacy JavaScript DOM manipulation",
+      "form event handling",
+      "JavaScript event propagation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "jQuery"
+    ],
+    "summary": "MoonScript is a mid-level JavaScript developer with specialized expertise in jQuery's event system and form handling. Their contributions focus on precise debugging and refactoring of legacy JavaScript codebases, particularly around event delegation patterns and internal state management. While their work demonstrates strong proficiency in DOM manipulation and event handling, their contributions are limited to jQuery's ecosystem without evidence of modern JavaScript frameworks or backend systems. Their precision-oriented approach suggests experience in maintaining large, complex codebases where subtle behavioral changes can have significant impacts.",
+    "identified_skills": {
+      "DOM Event Systems": [
+        "event delegation",
+        "event bubbling",
+        "event.preventDefault() usage",
+        "event.stopPropagation() patterns"
+      ],
+      "jQuery-Specific": [
+        "jQuery event system internals",
+        "form submission handling",
+        "_submit_attached state management",
+        "legacy DOM manipulation patterns"
+      ],
+      "Debugging & Refactoring": [
+        "root cause analysis",
+        "state flag removal",
+        "behavior preservation",
+        "precision bug fixes"
+      ],
+      "Legacy JavaScript Patterns": [
+        "ES5 DOM manipulation",
+        "internal state flags",
+        "event system optimizations"
+      ],
+      "Form Handling": [
+        "submit event delegation",
+        "change event delegation",
+        "form submission control"
+      ],
+      "Code Optimization": [
+        "redundant state elimination",
+        "event attachment efficiency"
+      ]
+    },
+    "skill_evidence": [
+      "PR titles reference '_submit_attached=\"true\"' flag removal, indicating deep knowledge of jQuery's internal form handling state",
+      "All PRs preserve 'delegation' behavior while removing redundant flags, demonstrating mastery of event delegation patterns",
+      "Fixes for #11649 and #11796 show targeted debugging of subtle edge cases in jQuery's event system",
+      "No additions/deletions in PRs suggest focus on minimalist refactoring rather than architectural changes",
+      "Event delegation preservation in form submissions indicates familiarity with jQuery's event propagation mechanics",
+      "Removal of '_submit_attached' flag shows understanding of internal state management in legacy JavaScript",
+      "All contributions are in jQuery repository with no evidence of modern JavaScript frameworks or tooling",
+      "Precision fixes without breaking existing functionality demonstrate experience maintaining complex legacy systems"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

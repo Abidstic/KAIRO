@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "developer_name": "nnnick",
+    "generation_timestamp": "2026-09-17T22:45:36.909353",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 18,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "nnnick",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Chart.js internals",
+      "Canvas-based rendering",
+      "JavaScript DOM manipulation",
+      "Asynchronous rendering & animations",
+      "Error handling & edge case management",
+      "Build system automation (Gulp)",
+      "Version control & release workflows",
+      "JavaScript linting & code quality"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "TypeScript (inferred from Chart.js ecosystem evolution)"
+    ],
+    "summary": "nnnick is a Senior JavaScript developer with deep expertise in Chart.js, specializing in canvas-based rendering, performance optimizations, and robust error handling. Their contributions demonstrate mastery of Chart.js internals—particularly radar, bar, line, and doughnut/pie chart types—alongside strong build system knowledge (Gulp) and version control practices. The developer excels in debugging complex rendering issues, improving tooltip functionality, and maintaining code quality through linting (JSHint). While focused on frontend JavaScript, their work reflects a holistic understanding of open-source library development, including documentation, CI/CD integration, and release management.",
+    "identified_skills": {
+      "Canvas & Rendering": [
+        "HTML5 Canvas API",
+        "Custom chart type rendering (Radar, Bar, Line, Doughnut/Pie)",
+        "Sparse dataset handling",
+        "Canvas context restoration",
+        "Animation frame cleanup"
+      ],
+      "Asynchronous JavaScript": [
+        "requestAnimationFrame",
+        "Animation frame lifecycle management",
+        "Non-blocking rendering strategies"
+      ],
+      "Error Handling & Robustness": [
+        "Null/undefined value handling",
+        "Sparse dataset validation",
+        "Defensive programming patterns",
+        "Edge case bug resolution"
+      ],
+      "Chart.js-Specific": [
+        "Tooltip templating (Handlebars.js-like)",
+        "MultiTooltips implementation",
+        "Dataset label rendering",
+        "Chart type-specific scaling logic"
+      ],
+      "Build Systems & Tooling": [
+        "Gulp.js task automation",
+        "Source vs. built file targeting",
+        "Version bumping scripts",
+        "JSHint integration"
+      ],
+      "Versioning & Releases": [
+        "Semantic versioning (SemVer)",
+        "npm publishing workflows",
+        "Git tagging for releases",
+        "Changelog maintenance"
+      ],
+      "Documentation & UX": [
+        "Example code refactoring",
+        "Contributing guidelines updates",
+        "Developer experience (DX) improvements"
+      ],
+      "Debugging & Issue Resolution": [
+        "Canvas rendering bugs",
+        "Tooltip template failures",
+        "CI pipeline failures (Travis CI)",
+        "Regression testing"
+      ],
+      "CI/CD Awareness": [
+        "Travis CI configuration fixes",
+        "Build optimization",
+        "Linting in CI pipelines"
+      ],
+      "JavaScript Ecosystem": [
+        "npm package management",
+        "Frontend JavaScript libraries",
+        "Open-source contribution workflows"
+      ]
+    },
+    "skill_evidence": [
+      "\"Restore original canvas context when destroying\" (Canvas context restoration)",
+      "\"Reflow the Radar before updating to update scale\" (Radar chart rendering logic)",
+      "\"Ensure cancelAnimFrame has no function context\" (Animation frame cleanup)",
+      "\"Add datasetLabel to elements for tooltip templates\" (Tooltip templating)",
+      "\"Prevent spare datasets from breaking MultiTooltips\" (Sparse dataset handling)",
+      "\"Fix option for pointDot not being obeyed\" (Edge case bug fix)",
+      "\"Create a task to bump + write version numbers\" (Gulp versioning task)",
+      "\"Fix Travis builds\" (JSHint linting + CI compliance)",
+      "\"Split Doughnut/Pie example usage into two code blocks\" (Documentation UX)",
+      "\"Run gulp release\" (Release workflow automation)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 18,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

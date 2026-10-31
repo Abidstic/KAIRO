@@ -1,0 +1,46 @@
+{
+  "reviewer_name": "riosje",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 4,
+    "total_prs": 1,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "riosje",
+    "experience_level": "Junior",
+    "primary_skills": [],
+    "programming_languages": [
+      "JavaScript"
+    ],
+    "summary": "The reviewer 'riosje' has no demonstrated JavaScript technical expertise based on the available review data. All four PR reviews show no code changes or comments related to JavaScript syntax, patterns, or frameworks. The PRs are CI/CD-focused, specifically involving 'Nsolid runtime' integration tests, but no evidence of hands-on JavaScript implementation or review feedback exists. The reviewer's contributions appear limited to CI pipeline configuration rather than JavaScript development or code review.",
+    "identified_skills": {
+      "CI/CD Automation": [
+        "GitHub Actions",
+        "Integration Tests"
+      ],
+      "Testing Frameworks": [
+        "Nsolid runtime"
+      ],
+      "Configuration Management": [
+        "CI pipeline setup"
+      ],
+      "Code Review": [
+        "PR comments (empty evidence)"
+      ]
+    },
+    "skill_evidence": [
+      "PR titles mention 'ci: Add Nsolid runtime to CI and Integration tests' (no JavaScript code reviewed)",
+      "All PRs have `files_changed: 0`, indicating no JavaScript files were modified or reviewed",
+      "No review comments or feedback on JavaScript syntax, patterns, or frameworks",
+      "No labels or metadata indicate JavaScript involvement in the reviewed PRs",
+      "Nsolid runtime referenced in PR titles, but no evidence of JavaScript runtime expertise in review content",
+      "Review state is 'COMMENTED' but no visible review text or technical discussion of JavaScript"
+    ]
+  }
+}

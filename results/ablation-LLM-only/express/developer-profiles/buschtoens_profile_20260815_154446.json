@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "developer_name": "buschtoens",
+    "generation_timestamp": "2026-08-15T15:43:21.222937",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "buschtoens",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Express.js Core Development",
+      "Node.js Module System",
+      "JavaScript Prototypes & `this` Binding",
+      "HTTP Proxy & IP Handling",
+      "Plugin System Architecture",
+      "Debugging & Minor Bug Fixes"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "Node.js"
+    ],
+    "summary": "buschtoens is a mid-level JavaScript developer with deep expertise in Express.js backend development, particularly in core request handling, middleware, and extensibility patterns. Their contributions demonstrate strong JavaScript fundamentals (prototypes, `this` binding, module resolution) and a focus on precise, security-conscious fixes. While their work is primarily backend-focused, their ability to modify Express internals and introduce plugin systems suggests comfort with framework architecture. Growth opportunities could include frontend technologies and testing practices.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Middleware",
+        "Plugin Systems"
+      ],
+      "JavaScript Language": [
+        "Prototype-based OOP",
+        "Constructor Functions",
+        "`this` Binding",
+        "CommonJS Modules"
+      ],
+      "HTTP & Networking": [
+        "Proxy Headers",
+        "IP Address Handling",
+        "Request Metadata"
+      ],
+      "Debugging & Maintenance": [
+        "Module Resolution Fixes",
+        "Documentation Corrections",
+        "Minor Security Patches"
+      ],
+      "Extensibility": [
+        "Framework Extensions",
+        "Custom Middleware"
+      ],
+      "Node.js Core": [
+        "Dynamic `require()`",
+        "Module Loading"
+      ]
+    },
+    "skill_evidence": [
+      "PR #3: Demonstrated prototype-based OOP with constructor functions and `this` binding in plugin system implementation",
+      "PR #1: Fixed `req.ip` and `req.ips` to handle proxy headers (`X-Forwarded-For`, `X-Real-IP`) correctly, showing deep HTTP proxy knowledge",
+      "PR #2: Resolved `require()` module resolution issues in dynamically loaded Express routes, proving Node.js module system expertise",
+      "PR #3: Introduced plugin system via `app.plugin()` method, extending Express core functionality with prototype-based extensions",
+      "PR #1: Addressed minor security issue in `req.ips` array handling, indicating security awareness in proxy-related code",
+      "PR #4: Corrected duplicate method definitions in MVC example templates, showing attention to documentation quality",
+      "PR #2: Fixed example documentation for route loading, demonstrating familiarity with Express's modular architecture"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

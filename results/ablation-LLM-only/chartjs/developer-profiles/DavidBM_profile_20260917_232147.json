@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "developer_name": "DavidBM",
+    "generation_timestamp": "2026-09-17T23:13:32.161519",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "DavidBM",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js tooltip rendering",
+      "JavaScript conditional logic",
+      "Defensive programming in frontend",
+      "Prototype-based object methods"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6 hybrid)"
+    ],
+    "summary": "DavidBM is a mid-level JavaScript developer with specialized expertise in Chart.js, particularly focused on frontend UI optimizations. Their contributions demonstrate strong proficiency in conditional rendering logic and defensive programming patterns within data visualization tooltips. While their JavaScript skills are primarily centered around legacy/ES5 patterns (e.g., `this.text` syntax), they show clear understanding of object-oriented JavaScript principles and DOM-related optimizations. The developer's work is narrowly but impactfully concentrated in Chart.js's tooltip system, with no visible evidence of broader frontend framework experience (React/Vue) or backend/Node.js involvement.",
+    "identified_skills": {
+      "Frontend Data Visualization": [
+        "Chart.js tooltip rendering",
+        "DOM conditional updates"
+      ],
+      "JavaScript Core Patterns": [
+        "prototype-based object methods",
+        "conditional logic (if statements)",
+        "defensive null checks"
+      ],
+      "Frontend UI/UX": [
+        "empty state handling",
+        "tooltip optimization"
+      ],
+      "Version Control Practices": [
+        "Git indentation awareness",
+        "PR collaboration"
+      ],
+      "Legacy JavaScript": [
+        "ES5-style object access (`this.text`)"
+      ]
+    },
+    "skill_evidence": [
+      "PR mentions 'if (this.text)' to prevent rendering empty tooltips, demonstrating defensive programming and object property access",
+      "Tooltip-related PRs indicate DOM manipulation expertise within Chart.js's prototype-based architecture",
+      "Reference to 'indentation confuse git' shows awareness of Git best practices for whitespace changes",
+      "PR description notes 'template that return an empty string', implying familiarity with dynamic content generation patterns",
+      "All PRs focus on Chart.js's tooltip system, confirming specialized frontend visualization skills",
+      "No evidence of modern JS features (arrow functions, modules, async/await) in PR context",
+      "PR references another PR (#823) for context, showing collaborative coding habits"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

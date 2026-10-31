@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "frootloops",
+    "generation_timestamp": "2026-08-15T15:49:59.355895",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "frootloops",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Node.js Runtime Debugging",
+      "Express.js Backend Development",
+      "JavaScript Testing Infrastructure",
+      "CoffeeScript Compilation",
+      "Code Quality Tooling"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "CoffeeScript"
+    ],
+    "summary": "frootloops demonstrates **early-stage Node.js/Express.js backend experience**, primarily focused on **runtime debugging, testing infrastructure, and alternative syntax compilation (CoffeeScript)**. Their contributions are **non-code** but reveal **problem-solving in OS-specific runtime issues** (e.g., file descriptors) and **awareness of JavaScript tooling ecosystems** (e.g., Code Climate). While limited to **three PRs in a single repository**, the evidence suggests **practical debugging skills** and **community support involvement** rather than deep architectural expertise. No frontend JavaScript or modern backend patterns (e.g., TypeScript, microservices) are evident from the available data.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Node.js Runtime"
+      ],
+      "Testing": [
+        "Test Debugging",
+        "OS-Specific Test Failures",
+        "Test Runner Awareness"
+      ],
+      "Compilation & Transpilation": [
+        "CoffeeScript",
+        "JavaScript Compilation"
+      ],
+      "DevOps & Tooling": [
+        "Code Climate",
+        "CI/CD Badges"
+      ],
+      "Community & Documentation": [
+        "Contributor Support",
+        "Troubleshooting Guidance"
+      ],
+      "System Debugging": [
+        "File Descriptor Limits",
+        "MacOS-Specific Issues"
+      ],
+      "Alternative Syntax": [
+        "CoffeeScript Conversion"
+      ],
+      "Frontend JavaScript": [],
+      "Modern JavaScript Features": []
+    },
+    "skill_evidence": [
+      "\"running tests on my macbook\" – indicates **test runner familiarity** and **OS-specific debugging** (PR 1)",
+      "\"file descriptors\" limit discussion – demonstrates **Node.js runtime awareness** and **system-level troubleshooting** (PR 1)",
+      "\"I'm converting one JS file to Coffee\" – explicit **CoffeeScript usage** and **compilation pipeline knowledge** (PR 2)",
+      "\"Added codeclimate badge\" – confirms **code quality tooling integration** and **CI/CD pipeline awareness** (PR 3)",
+      "\"helpful for new contributors\" – suggests **community support and documentation mentorship** (PR 1 context)",
+      "\"Troubleshooting tests for OSX users\" – highlights **cross-platform testing debugging** (PR 1 title)",
+      "\"coffee\" mentioned in PR description – reinforces **alternative syntax adoption** in JavaScript projects (PR 2)",
+      "No code changes in PRs – implies **non-technical contributions** (e.g., docs, badges, triage) over implementation"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "dalisoft",
+    "generation_timestamp": "2026-09-18T13:50:21.277744",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "dalisoft",
+    "raw_response": "```json\n{\n  \"developer_name\": \"dalisoft\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Fastify framework\",\n    \"Serverless deployment (Netlify Lambda)\",\n    \"Node.js runtime\",\n    \"Technical documentation\",\n    \"JSON Schema (Ajv)\",\n    \"Git best practices\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (inferred from Fastify ecosystem)\"\n  ],\n  \"summary\": \"dalisoft is a Mid-level JavaScript developer with deep expertise in Fastify, specializing in serverless deployment and technical documentation. Their contributions focus on improving Fastify’s serverless integration (particularly Netlify Lambda) and maintaining documentation for JSON Schema validation (Ajv). While their PRs do not include code changes, their work demonstrates strong knowledge of Fastify’s internals, Node.js runtime practices, and Git workflows. The developer excels in technical writing and community documentation, making them a valuable asset for maintaining and expanding Fastify’s ecosystem.\",\n  \"identified_skills\": {\n    \"Backend Frameworks\": [\"Fastify\", \"Node.js\"],\n    \"Serverless & Cloud\": [\"Netlify Lambda\", \"serverless deployment patterns\", \"Fastify serverless adapter\"],\n    \"Validation & Data Formats\": [\"JSON Schema\", \"Ajv\", \"Ajv i18n\"],\n    \"Documentation & Community\": [\"API documentation\", \"README updates\", \"contributor acknowledgments\", \"technical writing\"],\n    \"Version Control\": [\"Git best practices\", \"semantic commit messages\", \".gitignore management\"],\n    \"Package Management\": [\"npm\", \"dependency cleanup\"],\n    \"Tooling & Ecosystem\": [\"Fastify plugins\", \"serverless integration guides\"]\n  },\n  \"skill_evidence\": [\n    \"PR titled 'feat(Serverless): Add netlify-lambda guide' shows direct work on serverless deployment documentation for Fastify.\",\n    \"PR labeled 'docs(Serverless)' with 'add missing netlify-lambda link' confirms expertise in Fastify’s serverless ecosystem.\",\n    \"PR mentioning 'Add links for Ajv i18n and custom errors' demonstrates knowledge of JSON Schema validation in Fastify.\",\n    \"Multiple PRs fixing '.gitignore' for '.npm' folder indicate attention to Git best practices and dependency management.\",\n    \"Semantic commit prefixes like 'feat()' and 'docs()' align with Fastify’s contribution guidelines, showing structured Git workflows.\",\n    \"Documentation-focused PRs (4/5 total) highlight strong technical writing skills for developer documentation.\",\n    \"No code changes in PRs suggests focus on documentation/maintenance rather than backend development, but Fastify-specific context implies deep framework knowledge.\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 34 column 3 (char 2591)"
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

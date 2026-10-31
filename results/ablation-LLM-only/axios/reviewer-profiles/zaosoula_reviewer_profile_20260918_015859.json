@@ -1,0 +1,61 @@
+{
+  "reviewer_name": "zaosoula",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 3,
+    "total_prs": 1,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "zaosoula",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios HTTP client internals",
+      "HTTP request lifecycle management",
+      "Redirect handling in network requests"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "zaosoula demonstrates specialized expertise in the Axios HTTP client library, particularly in debugging and refining HTTP request lifecycle behaviors such as redirect handling. Their review activity is narrowly focused on a single library (axios) with no evidence of broader JavaScript ecosystem experience. The limited and repetitive review data suggests involvement in verifying bug fixes related to axios's internal request processing, specifically the `dispatchBeforeRedirect` mechanism. While no generalist JavaScript skills are visible, their contributions indicate proficiency in asynchronous network operations and promise-based HTTP client behavior.",
+    "identified_skills": {
+      "HTTP Client Libraries": [
+        "Axios"
+      ],
+      "Network Request Lifecycle": [
+        "Redirect handling",
+        "Request interceptors",
+        "BeforeRedirect callbacks"
+      ],
+      "Asynchronous Programming": [
+        "Promise-based APIs"
+      ],
+      "Code Review": [
+        "Patch verification",
+        "Bug fix validation"
+      ],
+      "JavaScript Core": [],
+      "TypeScript": [],
+      "Frontend Frameworks": [],
+      "Backend Frameworks": [],
+      "Testing": [],
+      "Tooling": []
+    },
+    "skill_evidence": [
+      "All three PRs reference the 'axios' library with identical titles: 'fix: dispatchBeforeRedirect'",
+      "PR descriptions link to axios repository commits (e.g., 'k1de/axios/commit/8b5cab4e318cb7cbecbfecdf0a6ff49b7e3cc70a')",
+      "PRs reference axios issue #5365, indicating involvement in bug fixes for HTTP redirect behavior",
+      "No code changes or review comments are present, suggesting meta-level review activity (e.g., approving patches)",
+      "All PRs are in 'COMMENTED' state with no approval/rejection, implying verification-focused reviews",
+      "Evidence of engagement with axios's internal request processing logic (e.g., beforeRedirect callbacks)",
+      "No evidence of frontend frameworks (React, Vue) or backend frameworks (Express, NestJS) in reviews",
+      "No testing-related references (e.g., Jest, Mocha) or documentation contributions"
+    ]
+  }
+}

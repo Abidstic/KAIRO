@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "developer_name": "Download",
+    "generation_timestamp": "2026-09-18T04:20:56.957510",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "Download",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Preact ecosystem contributions",
+      "Documentation maintenance",
+      "GitHub PR workflow",
+      "Static site content management"
+    ],
+    "programming_languages": [
+      "JavaScript (indirect, via Preact ecosystem)"
+    ],
+    "summary": "Download is a Junior-level JavaScript developer with demonstrated expertise in the Preact ecosystem, specializing in documentation maintenance and community contributions. Their contributions are primarily focused on linking and syncing Preact-related packages and documentation repositories, with no visible direct code development in JavaScript. The developer shows strong familiarity with GitHub workflows and basic static site tools but lacks evidence of backend development, testing, or advanced frontend patterns. Their contributions are ecosystem-specific rather than broad JavaScript expertise.",
+    "identified_skills": {
+      "Preact Ecosystem": [
+        "Preact framework",
+        "Preact-compatible packages (preact-layout, preact-i18nline, preact-helmet)",
+        "Preact documentation (preact-www)"
+      ],
+      "Documentation & Content": [
+        "Markdown/HTML documentation",
+        "Static site content management",
+        "Cross-repository documentation sync"
+      ],
+      "GitHub Collaboration": [
+        "Pull request submission",
+        "Issue/PR referencing",
+        "Community contribution workflow"
+      ],
+      "Build System Awareness": [
+        "Cross-platform build fixes (Windows/Linux)",
+        "Build environment awareness"
+      ],
+      "JavaScript Fundamentals": [],
+      "Testing": [],
+      "Backend Development": [],
+      "Modern JavaScript Features": [],
+      "Deployment & DevOps": []
+    },
+    "skill_evidence": [
+      "PR #1: Added link to 'preact-layout' package in Preact documentation (documentation-only contribution)",
+      "PR #2: 'Fixes build for Windows' - referenced build environment differences (build system awareness)",
+      "PR #3: Cross-referenced 'preact-i18nline' in 'preact-www' documentation (ecosystem navigation)",
+      "PR #3: Cited 'developit/preact-www#47' - demonstrated GitHub issue/PR tracking (collaboration)",
+      "PR #4: Added link to 'preact-helmet' - no code changes, purely documentation (content management)",
+      "All PRs: Zero code changes (`files_changed=0`) - exclusively documentation updates",
+      "PR #3: References 'preact-www' - indicates familiarity with static site documentation tools"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

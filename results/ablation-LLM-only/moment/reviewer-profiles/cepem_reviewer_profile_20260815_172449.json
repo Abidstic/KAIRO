@@ -1,0 +1,19 @@
+{
+  "reviewer_name": "cepem",
+  "generated_at": "20260815_172449",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 1,
+    "total_prs": 2,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "cepem",
+    "raw_response": "```json\n{\n  \"reviewer_name\": \"cepem\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Internationalization (i18n) localization review\",\n    \"Relative time formatting (Intl API)\",\n    \"Translation file validation\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (indirect exposure via i18n tools)\",\n    \"JSON/YAML (translation data formats)\"\n  ],\n  \"summary\": \"cepem is a localization specialist with mid-level experience reviewing internationalization-related changes in JavaScript projects. Their expertise lies in validating locale-specific translations and relative time formatting, primarily through the Intl API. While they demonstrate clear understanding of i18n workflows and translation correctness, there is no direct evidence of JavaScript development skills beyond indirect exposure to JavaScript-based localization tools. Their review process is efficient and focused on non-code aspects of internationalization.\",\n  \"identified_skills\": {\n    \"Internationalization & Localization\": [\n      \"Relative time translation validation\",\n      \"Locale-specific past tense adjustments\",\n      \"Intl.RelativeTimeFormat usage patterns\"\n    ],\n    \"Translation Data Structures\": [\n      \"JSON/YAML translation file review\",\n      \"Locale-specific message formatting\"\n    ],\n    \"Review Process & Quality\": [\n      \"LGTM (Looks Good To Me) approvals\",\n      \"Rejection of unnecessary translation changes\",\n      \"Clear localization correctness criteria\"\n    ],\n    \"JavaScript Ecosystem Exposure\": [\n      \"Potential i18n library integration (react-intl/i18next)\",\n      \"Indirect Intl API familiarity\"\n    ],\n    \"Metadata & Documentation\": [\n      \"PR title/description localization focus\",\n      \"Non-code PR review patterns\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR title: '[locale] relativeTime week translation for most commonly used languages' - indicates focus on Intl.RelativeTimeFormat translations\",\n    \"PR description: 'Improve past tense for ro locale' - demonstrates locale-specific grammatical adjustments\",\n    \"Review comment: 'LGTM!' - approves translation PRs based on correctness criteria\",\n    \"Review comment: 'Not needed.' - rejects redundant or incorrect translation changes\",\n    \"PR metadata: 'additions=0, deletions=0' - confirms no JavaScript code changes reviewed\",\n    \"PR focus on 'week' relative time translations - suggests familiarity with Intl API patterns\",\n    \"No evidence of JavaScript syntax, frameworks, or tooling in review comments\",\n    \"Review state patterns show decisive localization-focused approval/rejection decisions\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 47 column 3 (char 2574)"
+  }
+}

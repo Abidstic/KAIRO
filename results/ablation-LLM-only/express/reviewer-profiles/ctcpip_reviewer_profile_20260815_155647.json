@@ -1,0 +1,91 @@
+{
+  "reviewer_name": "ctcpip",
+  "generated_at": "20260815_155647",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 18,
+    "total_comments": 6,
+    "total_prs": 13,
+    "repos": [
+      "express"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "ctcpip",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Express.js middleware & response handling",
+      "Node.js version compatibility",
+      "Testing & TDD in Node.js",
+      "CI/CD pipeline configuration",
+      "Express.js internals & backporting"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Node.js ecosystem)"
+    ],
+    "summary": "ctcpip is a senior-level JavaScript reviewer with deep expertise in Express.js backend development, Node.js runtime internals, and testing practices. Their reviews demonstrate strong technical depth in middleware design, version-specific optimizations, and CI/CD workflows, with a focus on maintainability and reliability. The reviewer excels at debugging test failures across Node.js versions and ensuring backward compatibility in Express.js (4.x vs. 5.x). While frontend frameworks are not evident, their backend-focused contributions highlight a specialized skill set in Node.js ecosystem tooling and documentation.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Express.js middleware",
+        "Express.js response handling",
+        "Express.js versioning (4.x/5.x)"
+      ],
+      "Node.js Core": [
+        "Node.js version compatibility",
+        "Node.js runtime internals",
+        "Node.js test matrix management",
+        "Node.js security updates"
+      ],
+      "Testing & Quality": [
+        "Test-driven development (TDD)",
+        "Unit & integration testing",
+        "Test failure debugging",
+        "Test coverage improvements",
+        "Test matrix optimizations"
+      ],
+      "CI/CD & Automation": [
+        "CI pipeline configuration",
+        "Test matrix updates",
+        "Branch protection",
+        "CI/CD automation"
+      ],
+      "Version Management": [
+        "Backporting fixes",
+        "Semantic versioning",
+        "Version-specific labels"
+      ],
+      "Documentation & Community": [
+        "Technical documentation",
+        "Commit guidelines",
+        "Maintainability discussions"
+      ],
+      "Code Review Practices": [
+        "Tooling consistency (EditorConfig)",
+        "Linter usage",
+        "API design feedback"
+      ],
+      "Asynchronous Patterns": [
+        "Async/await compatibility",
+        "Middleware async handling"
+      ],
+      "Dependency Management": [
+        "Replacing external dependencies (e.g., `once` package)",
+        "Node.js core optimizations"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'feat(response): new setting strict status codes' (Express.js response handling)",
+      "PR: 'req.back replaces #2692' (Express.js middleware review)",
+      "PR: 'ci: add node.js 24 to test matrix' (Node.js version compatibility)",
+      "PR: 'add discarded middleware test' (Test-driven development)",
+      "Review comment: 'Runned linter' (Tooling consistency)",
+      "PR: 'Method functions with no path should error' (Express.js internals validation)",
+      "PR: 'chore: wider range for query test skip' (Test matrix optimizations)",
+      "PR: 'docs: clarify guidelines for becoming a committer' (Documentation contributions)",
+      "PR: 'fix: remove download size badges' (Backporting example)"
+    ]
+  }
+}

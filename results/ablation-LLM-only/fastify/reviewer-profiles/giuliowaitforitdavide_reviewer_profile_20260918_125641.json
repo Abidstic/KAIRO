@@ -1,0 +1,80 @@
+{
+  "reviewer_name": "giuliowaitforitdavide",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 12,
+    "total_comments": 12,
+    "total_prs": 6,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "giuliowaitforitdavide",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify internals",
+      "Asynchronous JavaScript (async/await, Promises)",
+      "Error handling and warnings design",
+      "Plugin architecture",
+      "Node.js middleware",
+      "Semantic versioning",
+      "Testing and benchmarking"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (indirect exposure via Fastify)"
+    ],
+    "summary": "A senior-level JavaScript reviewer with deep expertise in Fastify's asynchronous architecture, plugin system, and error handling. Their reviews focus on ensuring correctness in async/callback mixing, improving user-facing warnings, and maintaining performance through rigorous testing and benchmarking. The reviewer demonstrates strong API design skills, particularly around breaking changes and semantic versioning, while also contributing to documentation clarity. Their work is specialized in backend Node.js ecosystems, with a focus on high-performance web frameworks.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js middleware"
+      ],
+      "Asynchronous Programming": [
+        "async/await",
+        "Promises",
+        "callback mixing",
+        "async hooks"
+      ],
+      "Error Handling": [
+        "warning system design",
+        "error/warning alignment",
+        "breaking change justification"
+      ],
+      "Plugin Architecture": [
+        "pre-handlers",
+        "Request/Reply objects",
+        "plugin lifecycle"
+      ],
+      "Testing Practices": [
+        "test suite verification",
+        "benchmarking"
+      ],
+      "Documentation": [
+        "API documentation updates",
+        "user-facing clarity"
+      ],
+      "Versioning": [
+        "semantic versioning",
+        "notable-change management"
+      ],
+      "Code Quality": [
+        "edge case handling",
+        "consistent error behavior"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'fix(async-hooks): mixing async and callback style...' shows deep async hooks knowledge",
+      "PR labels 'semver-minor' and 'notable-change' indicate expertise in versioning and breaking changes",
+      "PR description checklist includes 'run npm run test' and 'npm run benchmark' for every change",
+      "Fixes to 'preHandler' and 'Request/Reply context access' demonstrate Fastify internals mastery",
+      "PR 'docs(#5142): aligned errors and warnings documentation' shows attention to documentation quality",
+      "Warning → error changes in plugin system indicate careful API design considerations",
+      "Consistent review patterns include verifying documentation updates alongside code changes",
+      "Focus on 'mixing async and callback style' suggests expertise in debugging common async pitfalls"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "developer_name": "greguz",
+    "generation_timestamp": "2026-09-18T13:49:51.805666",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "greguz",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify Framework",
+      "Node.js Backend Development",
+      "Fastify Plugin System",
+      "Semantic Versioning",
+      "Technical Documentation",
+      "Error Handling in Node.js"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "greguz is a Mid-level JavaScript developer with specialized expertise in Fastify, a high-performance Node.js web framework. Their contributions focus on core Fastify internals—particularly error handling, plugin system enhancements, and versioned releases—demonstrating deep familiarity with Fastify's architecture and semantic versioning practices. The developer also actively maintains Fastify's plugin ecosystem documentation, showcasing strong technical writing and community engagement skills. While primarily backend-focused, the profile lacks evidence of frontend JavaScript, TypeScript, or advanced JavaScript patterns.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js"
+      ],
+      "Framework Internals": [
+        "Error Handling System",
+        "Plugin System",
+        "Instance Binding"
+      ],
+      "Versioning & Releases": [
+        "Semantic Versioning",
+        "Semver-Minor Changes"
+      ],
+      "Documentation & Community": [
+        "Ecosystem Documentation",
+        "Plugin Documentation",
+        "Markdown/MDX"
+      ],
+      "Asynchronous Patterns": [
+        "Error Handler Binding"
+      ],
+      "Plugin Ecosystem": [
+        "Fastify Plugin Discovery",
+        "Plugin Metadata Updates"
+      ],
+      "Technical Writing": [
+        "API Documentation",
+        "Community Plugin Guides"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'Bind error handler to instance (v2)' shows work on Fastify's error handling system and instance lifecycle",
+      "Multiple 'semver-minor' labeled PRs (e.g., v2.x, v3.x) indicate contributions to versioned Fastify releases with backward-compatible changes",
+      "Documentation PRs like 'Update Ecosystem.md' and 'docs(Ecosystem): Add fastify-no-additional-properties' demonstrate plugin ecosystem curation",
+      "PRs updating 'fastify-dynareg' in documentation highlight plugin metadata maintenance and community plugin discovery",
+      "No frontend or TypeScript-related PRs, confirming backend-focused specialization in Fastify",
+      "Error handler binding PRs imply familiarity with Node.js async/await patterns and event-driven architectures",
+      "Markdown/MDX edits in documentation files show technical writing skills for Fastify's plugin ecosystem"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

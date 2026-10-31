@@ -1,0 +1,71 @@
+{
+  "reviewer_name": "cemremengu",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 4,
+    "total_prs": 1,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "cemremengu",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "Semantic Versioning",
+      "Error Handling Patterns",
+      "Code Documentation",
+      "Backend Node.js Development"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "summary": "cemremengu is a Mid-level JavaScript reviewer with demonstrated expertise in TypeScript, semantic versioning, and error handling patterns in backend Node.js projects. Their reviews focus heavily on documentation quality and ensuring semantic compliance, suggesting a strong emphasis on maintainability and API stability. While their contributions are primarily in the form of PR comments rather than direct code changes, their technical depth in TypeScript and versioning practices indicates a specialized role in code quality assurance and architectural review.",
+    "identified_skills": {
+      "TypeScript": [
+        "TypeScript type safety",
+        "TypeScript error handling",
+        "TypeScript documentation"
+      ],
+      "Versioning & Releases": [
+        "Semantic Versioning (semver)",
+        "Breaking change awareness",
+        "Release labeling"
+      ],
+      "Backend Patterns": [
+        "Error handling hooks",
+        "Node.js middleware patterns"
+      ],
+      "Code Review & Quality": [
+        "Documentation review",
+        "PR comment analysis",
+        "Code quality feedback"
+      ],
+      "Documentation": [
+        "API documentation",
+        "Usage examples",
+        "JSDoc/TypeScript comments"
+      ],
+      "Backend Frameworks": [],
+      "Testing": [],
+      "Asynchronous Programming": [],
+      "Frontend Frameworks": [],
+      "Build Tools": [],
+      "Dependency Management": []
+    },
+    "skill_evidence": [
+      "All PRs labeled 'typescript' indicating TypeScript expertise and focus",
+      "PRs labeled 'semver-major' and 'semver-minor' showing awareness of semantic versioning",
+      "PR title 'feat: onError hook' suggests backend error handling patterns in Node.js",
+      "All PRs labeled 'documentation' indicating strong focus on documentation quality",
+      "PRs remain in 'COMMENTED' state suggesting active review engagement without direct code changes",
+      "No evidence of frontend frameworks (React/Angular) in PR labels or titles",
+      "No visible code changes in PRs, implying reviewer role is quality-focused rather than development-focused"
+    ]
+  }
+}

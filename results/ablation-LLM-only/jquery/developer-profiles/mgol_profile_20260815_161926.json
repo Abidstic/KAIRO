@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "developer_name": "mgol",
+    "generation_timestamp": "2026-08-15T16:04:41.357363",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 172,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "mgol",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "jQuery internals",
+      "DOM manipulation and attribute handling",
+      "Browser compatibility engineering",
+      "Legacy JavaScript maintenance",
+      "Event delegation and event systems",
+      "JavaScript linting (JSHint)",
+      "Build tooling (Grunt)",
+      "Unit testing (QUnit-like frameworks)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "CSS (box model quirks)"
+    ],
+    "summary": "mgol is a highly experienced JavaScript developer with deep expertise in jQuery's core DOM manipulation, event systems, and legacy browser support. Their contributions focus on fixing browser-specific quirks (WebKit/IE), optimizing polyfills, and maintaining jQuery's compatibility with older environments. They demonstrate strong skills in JavaScript linting, build tooling (Grunt), and unit testing, with a particular focus on ensuring strict code quality and removing redundant legacy code. Their work reflects a senior-level ability to navigate complex, large-scale JavaScript libraries and resolve subtle compatibility issues.",
+    "identified_skills": {
+      "DOM Manipulation": [
+        ".data() method implementation",
+        "attribute handling (data-* attributes)",
+        "DOM traversal optimizations",
+        "offsetWidth/offsetHeight measurements"
+      ],
+      "jQuery Core": [
+        "event delegation (delegate/undelegate)",
+        "legacy IE workarounds",
+        "ready promise fallback",
+        "core method refactoring"
+      ],
+      "Browser Compatibility": [
+        "WebKit-specific fixes",
+        "IE8/IE9 polyfills",
+        "boxSizing/zoom behavior workarounds",
+        "prefixed/non-prefixed selector support"
+      ],
+      "Code Quality & Tooling": [
+        "JSHint configuration",
+        "strict equality checks (eqeqeq)",
+        "Grunt build system updates",
+        "dependency management"
+      ],
+      "Testing & Debugging": [
+        "unit test additions",
+        "test validation workflows",
+        "debugging legacy issues"
+      ],
+      "Documentation & Maintenance": [
+        "AUTHORS.txt corrections",
+        "legacy comment updates",
+        "code cleanup"
+      ],
+      "Build Systems": [
+        "Grunt task updates",
+        "Node.js version compatibility"
+      ],
+      "Asynchronous Patterns": [
+        "jQuery.ready.promise"
+      ]
+    },
+    "skill_evidence": [
+      "\"Fixes #13550. .data should not miss attr() set data-* with hyphenated property names\" - DOM attribute handling and data storage",
+      "\"move (un)bind & (un)delegate to event-alias.js\" - jQuery event system refactoring",
+      "\"workaround failing boxSizing test in WebKit\" - browser-specific CSS/box model fixes",
+      "\"remove docElem.matchesSelector, it wasn't supported anywhere unprefixed\" - browser compatibility layering",
+      "\"make code grunt-contrib-jshint 0.3.0 compatible\" - JSHint configuration and linting",
+      "\"I also turned the `eqeqeq` option on\" - strict equality enforcement",
+      "\"updated Grunt to 0.4.1 (needed for node 0.10.0 compatibility)\" - build system updates",
+      "\"add test indicating the jQuery.ready.promise fallback\" - asynchronous pattern testing",
+      "\"corrected AUTHORS.txt\" - documentation maintenance",
+      "\"reverted some workarounds\" - polyfill optimization"
+    ]
+  },
+  "statistics": {
+    "total_prs": 172,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "developer_name": "gengjiawen",
+    "generation_timestamp": "2026-09-18T04:32:14.079239",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "gengjiawen",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Preact",
+      "Vite",
+      "Webpack",
+      "Node.js",
+      "Sass/SCSS",
+      "Cross-platform debugging (ARM/M1 Mac)",
+      "Dependency upgrades",
+      "JSX/React-like patterns",
+      "Microbundler"
+    ],
+    "programming_languages": [
+      "JavaScript (ES Modules)",
+      "TypeScript (indirect via d.ts files)",
+      "JSX"
+    ],
+    "summary": "gengjiawen is a Mid-level JavaScript developer with strong expertise in modern frontend tooling (Preact, Vite) and Node.js runtime compatibility. Their contributions focus on migrating demos, resolving cross-platform build issues (ARM/M1 Mac), and managing dependency upgrades in Webpack-based ecosystems. The developer demonstrates hands-on experience with JSX/React-like patterns, Sass integration, and debugging C++ addon compatibility in Node.js environments. While primarily frontend-focused, their work with Node.js and dependency management suggests versatility in full-stack JavaScript development.",
+    "identified_skills": {
+      "Frontend Frameworks & Libraries": [
+        "Preact",
+        "JSX",
+        "Suspense",
+        "Lazy Loading"
+      ],
+      "Build Tools & Bundlers": [
+        "Vite",
+        "Webpack",
+        "Microbundler",
+        "Brotli Compression"
+      ],
+      "Node.js & Runtime": [
+        "Node.js 16/18 compatibility",
+        "C++ addon debugging",
+        "Dependency upgrades"
+      ],
+      "Styling & Preprocessors": [
+        "Sass/SCSS",
+        "node-sass → sass migration"
+      ],
+      "Cross-Platform Development": [
+        "ARM/M1 Mac compatibility",
+        "Binary module debugging"
+      ],
+      "Tooling & Configuration": [
+        "Vite JSX plugin system",
+        "TypeScript declaration files (d.ts)"
+      ],
+      "Dependency Management": [
+        "npm/yarn upgrades",
+        "semver-aware dependency bumps"
+      ],
+      "Performance Optimization": [
+        "Brotli compression integration"
+      ]
+    },
+    "skill_evidence": [
+      "PR `feat: migrate demo to vite` shows Preact JSX usage with `pragma` and `pragmaFrag` errors, and explicit Vite migration from Webpack",
+      "PR `fix: make demo compatible with node 16 and 18` mentions upgrading `webpack` and `sass` dependencies, testing Node.js 16/18 compatibility",
+      "PR `fix: mac arm build` addresses C++ module failures for `brotli-size` on ARM Macs, requiring dependency bumps and cross-platform testing",
+      "PR `feat: migrate demo to vite` includes `lazy` and `Suspense` usage, demonstrating React/Preact-like patterns in Vite",
+      "PR `fix: mac arm build` references `microbundler` and `d.ts` auto-updates, indicating TypeScript integration in build tools",
+      "PR `fix: make demo compatible with node 16 and 18` replaces `node-sass` with `sass`, showing awareness of Node.js runtime-specific Sass issues",
+      "Error `[plugin:vite:preact-jsx]` in Vite migration PR highlights debugging of Vite’s JSX plugin system",
+      "Mention of `microbundler` in ARM build PR suggests familiarity with Webpack forks and their plugin ecosystems"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

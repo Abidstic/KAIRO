@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "developer_name": "jcready",
+    "generation_timestamp": "2026-09-18T02:21:15.193302",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "jcready",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios HTTP client internals",
+      "JavaScript functional programming",
+      "CSRF/XSRF token handling",
+      "Bearer token authentication",
+      "Dependency management (npm/yarn)",
+      "HTTP header manipulation",
+      "Dynamic JavaScript object manipulation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from axios ecosystem)"
+    ],
+    "summary": "jcready is a mid-level JavaScript developer with specialized expertise in the Axios HTTP client library. Their contributions demonstrate strong proficiency in backend-focused JavaScript, particularly in dynamic header manipulation, security token handling (CSRF/XSRF/Bearer), and dependency management. The developer shows comfort with functional programming patterns (higher-order functions, callbacks) and JavaScript's dynamic object system. While primarily backend-oriented (Node.js/axios), their skills align well with API development, security-conscious web services, and HTTP protocol implementation. Experience with async/await and promise-based systems is inferred from axios usage, though not explicitly shown in PRs.",
+    "identified_skills": {
+      "HTTP Client Libraries": [
+        "Axios",
+        "HTTP request/response interception"
+      ],
+      "Security Implementations": [
+        "CSRF/XSRF token handling",
+        "Bearer token authentication",
+        "Security headers"
+      ],
+      "JavaScript Language Features": [
+        "Higher-order functions",
+        "Dynamic property assignment",
+        "Object shorthand syntax"
+      ],
+      "Dependency Management": [
+        "npm/yarn dependency updates",
+        "Version compatibility",
+        "Transitive dependency handling"
+      ],
+      "Backend JavaScript": [
+        "Node.js HTTP handling",
+        "HTTP protocol awareness",
+        "Redirect management"
+      ],
+      "API Design": [
+        "Configurable API features",
+        "Authentication shorthand",
+        "Developer experience improvements"
+      ],
+      "Asynchronous Patterns": [
+        "Promise-based systems",
+        "Dynamic callback invocation"
+      ],
+      "Tooling": [
+        "Git PR workflows"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: Introduced `xsrfHeaderName` as a function accepting runtime data (token, headers) demonstrating higher-order functions and dynamic object manipulation",
+      "PR 1: Custom XSRF token handling shows security-conscious API design and CSRF protection implementation",
+      "PR 2: Added `auth.bearer` shorthand syntax for authentication headers, reflecting API usability improvements and object shorthand syntax",
+      "PR 3: Updated `follow-redirects` dependency due to bug fix, proving dependency management and version compatibility awareness",
+      "PR 3: Redirect handling in axios internals indicates HTTP protocol knowledge (e.g., 3xx status codes)",
+      "All PRs: Axios-specific contributions show deep familiarity with HTTP client internals and request/response interception patterns",
+      "PR 1: Function-based configuration (`xsrfHeaderName`) demonstrates functional programming patterns in JavaScript",
+      "PR 2: Authentication shorthand (`auth.bearer`) implies awareness of Bearer token security standards"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "reviewer_name": "ryanlchan",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 2,
+    "total_prs": 1,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "ryanlchan",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "React TypeScript Integration",
+      "Type System Debugging",
+      "DefinitelyTyped Maintenance",
+      "Open-Source Type Definitions"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)"
+    ],
+    "summary": "ryanlchan is a Mid-level JavaScript reviewer with specialized expertise in TypeScript and React type systems. Their reviews demonstrate a strong ability to identify and fix type-related issues, particularly in library maintenance and open-source contributions. The reviewer excels in ensuring type correctness by aligning code with official TypeScript definitions (e.g., DefinitelyTyped) and has a precise, focused approach to code review. Their work primarily involves frontend ecosystems, with a focus on maintaining robust type safety in React applications.",
+    "identified_skills": {
+      "TypeScript Core": [
+        "Utility Types (PropsWithRef)",
+        "Type Resolution Debugging",
+        "Type Definition Maintenance",
+        "DefinitelyTyped Alignment"
+      ],
+      "React Type Safety": [
+        "React Component Props Typing",
+        "Ref Typing in Functional Components",
+        "TypeScript + React Integration"
+      ],
+      "Code Quality & Review": [
+        "Minimal, Focused PRs",
+        "Technical Precision in Feedback",
+        "Type-Correctness Validation"
+      ],
+      "Open-Source Contributions": [
+        "Type Definition Fixes",
+        "Community-Driven Type Maintenance"
+      ],
+      "JavaScript Ecosystem": [
+        "Frontend Development Patterns",
+        "TypeScript Tooling Awareness"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: 'Add missing PropsWithRef type to fix #4293' — explicitly addresses a TypeScript utility type for React refs",
+      "PR description references 'incorrectly resolved types' and compares with 'official types/react DefinitelyTyped definition'",
+      "Fix involves correcting a discrepancy between local implementation and DefinitelyTyped's standard type definitions",
+      "Review context shows debugging of 'type resolution bugs' in a React + TypeScript context",
+      "Evidence of working with 'React.PropsWithRef<T>' utility type for ref handling in components",
+      "PR focuses on ensuring type safety by aligning with community-maintained type definitions",
+      "Review state is 'COMMENTED' with clear, technical PR description indicating self-contained fixes"
+    ]
+  }
+}

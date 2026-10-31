@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "developer_name": "matthyk",
+    "generation_timestamp": "2026-09-18T13:33:04.052673",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 22,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "matthyk",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "TypeScript",
+      "Fastify Framework",
+      "Backend API Development",
+      "HTTP Content-Type Parsing",
+      "Payload Validation",
+      "Type Definitions & Generics",
+      "Semantic Versioning",
+      "Technical Documentation"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (Node.js)"
+    ],
+    "summary": "matthyk is a senior-level JavaScript developer with deep expertise in TypeScript and Fastify, specializing in backend API development. Their contributions focus on core framework features such as type definitions, HTTP parsing, payload validation, and documentation improvements. The developer demonstrates strong proficiency in semantic versioning and backend systems, with a particular emphasis on ensuring type safety and API stability in Fastify's ecosystem. While primarily backend-focused, their work reflects a meticulous approach to developer experience and architectural integrity.",
+    "identified_skills": {
+      "TypeScript": [
+        "Type Definitions",
+        "Generics",
+        "Decorator Functions",
+        "TypeScript Type System",
+        "Semantic Constraints"
+      ],
+      "Backend Frameworks": [
+        "Fastify",
+        "HTTP Middleware",
+        "Route Decorators",
+        "Payload Validation"
+      ],
+      "HTTP & Networking": [
+        "Content-Type Parsing",
+        "Regexp Support",
+        "Semantic Versioning",
+        "Dependency Management"
+      ],
+      "Documentation & Developer Experience": [
+        "Technical Writing",
+        "API Documentation",
+        "Error Message Clarity",
+        "Example Improvements"
+      ],
+      "Backend Patterns": [
+        "Validation Schemas",
+        "Error Handling",
+        "Performance Optimizations"
+      ],
+      "Version Control & Releases": [
+        "Semantic Versioning Labels",
+        "Dependency Upgrades"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'add types for default parser' with 'typescript' label demonstrates expertise in TypeScript type definitions for Fastify's core parsing logic",
+      "PR titled 'fix generic constraint type' shows deep understanding of TypeScript's advanced generic constraints in Fastify's type system",
+      "Multiple 'documentation' labeled PRs (e.g., 'fix typo in comment', 'Improve parser example') prove attention to developer experience and technical clarity",
+      "Semantic versioning labels ('semver-minor', 'semver-major') on PRs like 'upgrade minimum find-my-way version' indicate careful handling of API stability",
+      "PRs addressing 'content-Type parsing' and 'regexp support' highlight specialized knowledge of HTTP headers and parsing optimizations in Fastify",
+      "Payload validation PRs (e.g., 'fix constrainted route definition') demonstrate work on core Fastify validation infrastructure",
+      "Type-safe route decorator improvements show familiarity with Fastify's decorator-based routing system and its TypeScript integration"
+    ]
+  },
+  "statistics": {
+    "total_prs": 22,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

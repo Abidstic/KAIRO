@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "developer_name": "rozzilla",
+    "generation_timestamp": "2026-09-18T13:54:42.955185",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "rozzilla",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify framework",
+      "TypeScript",
+      "Plugin development",
+      "Node.js backend",
+      "Technical documentation"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "Rozzilla is a mid-level JavaScript developer with specialized expertise in the Fastify ecosystem. Their contributions focus on extending Fastify's functionality through plugin development, enhancing TypeScript integration, and maintaining documentation. Evidence from PRs shows strong proficiency in Fastify's plugin system, TypeScript typing utilities, and backend-focused patterns. While contributions are limited to Fastify, the depth of work in plugin architecture and type safety suggests a backend-oriented developer with a focus on maintainability and extensibility.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify"
+      ],
+      "Plugin Development": [
+        "Fastify plugins",
+        "Middleware integration"
+      ],
+      "TypeScript": [
+        "TypeScript typing",
+        "SafePromiseLike utility",
+        "TypeScript documentation"
+      ],
+      "Documentation": [
+        "Technical writing",
+        "Link fixes",
+        "Plugin documentation"
+      ],
+      "Node.js": [
+        "Async/await patterns",
+        "Promise utilities"
+      ],
+      "Ecosystem Contributions": [
+        "Plugin ecosystem maintenance"
+      ],
+      "Feature Development": [
+        "New plugin additions",
+        "TypeScript features"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'Add \"fastify-koa\" plugin' demonstrates plugin development for Fastify",
+      "PR labeled 'feat(types): Introduce SafePromiseLike' shows TypeScript utility implementation",
+      "PR labeled 'docs(ts): Fix links' confirms TypeScript documentation maintenance",
+      "PR labeled 'chore(ecosystem): Add Fastify asyncforge plugin' indicates ecosystem contributions",
+      "All PRs in Fastify repository confirm backend-focused Node.js expertise",
+      "TypeScript-related PRs ('feat(types)', 'docs(ts)') validate TypeScript proficiency",
+      "Plugin additions ('fastify-koa', 'asyncforge') highlight Fastify plugin system mastery"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

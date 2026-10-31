@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "developer_name": "Fdawgs",
+    "generation_timestamp": "2026-09-18T13:25:41.321024",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 103,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "Fdawgs",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify Framework",
+      "JavaScript Documentation",
+      "CI/CD Automation",
+      "Node.js Ecosystem Tools",
+      "Technical Writing"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)"
+    ],
+    "summary": "Fdawgs is a Mid-level JavaScript developer with specialized expertise in Fastify framework documentation, maintenance, and CI/CD improvements. Their contributions focus on enhancing Fastify’s ecosystem, documentation quality, and tooling workflows. While they do not write core JavaScript logic, their deep familiarity with Fastify’s plugin system, community plugins, and technical writing demonstrates strong JavaScript ecosystem awareness and maintainability skills. Ideal for roles requiring documentation leadership, CI/CD optimization, or plugin ecosystem management in Node.js projects.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify"
+      ],
+      "Documentation & Community": [
+        "Fastify plugin ecosystem documentation",
+        "Code of Conduct updates",
+        "Error handling documentation",
+        "Contributing guidelines",
+        "Style guides",
+        "Grammar and readability improvements"
+      ],
+      "CI/CD & DevOps": [
+        "GitHub Actions configuration",
+        "Dependabot automation",
+        "Coveralls integration",
+        "Git ignore patterns",
+        "Script organization"
+      ],
+      "JavaScript Ecosystem": [
+        "Fastify plugins (fastify-disablecache, fastify-autoload)",
+        "Node.js script management",
+        "Community plugin awareness"
+      ],
+      "Technical Writing": [
+        "Technical documentation refinement",
+        "Alphabetical sorting of lists",
+        "Broken link fixes",
+        "Readability enhancements"
+      ],
+      "Maintenance & Tooling": [
+        "Dependency updates",
+        "Script alphabetization",
+        "GitHub template updates"
+      ],
+      "Backend Development": [],
+      "Frontend Development": [],
+      "Testing": []
+    },
+    "skill_evidence": [
+      "PR #1: 'docs(ecosystem): add fastify-disablecache plugin' → Fastify plugin ecosystem documentation",
+      "PR #3: 'docs(ecosystem): add fastify-autoload to core list' → Fastify plugin awareness",
+      "PR #4: 'ci(dependabot): auto update github actions' → GitHub Actions configuration",
+      "PR #5: 'ci: define `flag-name` input param for coveralls action' → Coveralls integration",
+      "PR #7: 'docs(coc): bump from 1.4 to 2.0' → Code of Conduct updates",
+      "PR #8: 'docs(errors): sort error list alphabetically ascending' → Alphabetical sorting of lists",
+      "PR #11: 'docs(style-guide): minor fixes' → Style guide refinement",
+      "PR #13: 'docs: fix broken links' → Technical documentation refinement",
+      "PR #14: 'docs(style-guide): minor fixes' → Grammar and readability improvements",
+      "PR #15: 'chore(gitignore): use latest github ignore template' → Git ignore patterns"
+    ]
+  },
+  "statistics": {
+    "total_prs": 103,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

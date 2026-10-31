@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "developer_name": "mathbruyen",
+    "generation_timestamp": "2026-09-18T02:19:24.987221",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "mathbruyen",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript Core (Promises, Async/Await)",
+      "HTTP Client Libraries (Axios)",
+      "Node.js Binary Data Handling",
+      "UTF-8 Encoding & Character Sets",
+      "Cross-Platform Compatibility (Browser/Node.js)",
+      "HTTP Header Manipulation",
+      "Debugging Edge Cases in Async Code"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Axios ecosystem)"
+    ],
+    "summary": "mathbruyen is a mid-level JavaScript developer with specialized expertise in asynchronous programming patterns, HTTP client libraries, and low-level binary data handling. Their contributions to Axios demonstrate deep knowledge of Promise resolution, UTF-8 encoding, and cross-platform compatibility between browser and Node.js environments. The developer excels at identifying and fixing subtle bugs related to binary data processing and HTTP header manipulation, particularly in edge cases involving multibyte sequences and non-standard Promise behaviors. While primarily focused on backend/networking aspects of JavaScript, their work shows strong debugging skills and attention to API consistency across different execution contexts.",
+    "identified_skills": {
+      "Asynchronous Programming": [
+        "Promise Resolution Patterns",
+        "Multiple Promise Return Values",
+        "Async/Await Integration"
+      ],
+      "Binary Data Handling": [
+        "ArrayBuffer",
+        "Typed Arrays (Int8Array, Uint8Array)",
+        "Buffer (Node.js)",
+        "UTF-8 Multibyte Sequences"
+      ],
+      "HTTP & Networking": [
+        "HTTP Response Headers",
+        "Content-Length Calculation",
+        "XHR Adapter Behavior",
+        "Cross-Environment HTTP Clients"
+      ],
+      "Node.js Specifics": [
+        "Buffer API",
+        "Streaming Data Processing",
+        "Node.js HTTP Headers"
+      ],
+      "Debugging & Testing": [
+        "Edge-Case Promise Debugging",
+        "Binary Data Validation",
+        "UTF-8 Encoding Bug Fixes"
+      ],
+      "API Design Awareness": [
+        "Promise Contract Design",
+        "Documentation References",
+        "Cross-Platform Consistency"
+      ],
+      "Environment-Specific Patterns": [
+        "Browser vs Node.js Compatibility",
+        "XHR vs Fetch API Differences"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: Discussed non-standard Promise resolution with status/code/headers returning multiple arguments, demonstrating deep understanding of Promise patterns",
+      "PR 1: Referenced Axios README to justify Promise behavior, showing API design awareness",
+      "PR 2: Explicitly handled ArrayBuffer and typed arrays in XHR adapter, proving binary data expertise",
+      "PR 2: Mentioned browser vs Node.js differences in ArrayBuffer handling, confirming cross-environment knowledge",
+      "PR 3: Fixed UTF-8 multibyte sequence handling in Node.js Buffer, showing character encoding mastery",
+      "PR 3: Corrected Content-Length header calculation for binary data streams, proving HTTP header manipulation skills",
+      "PR 3: Used Buffer API for byte-level processing, demonstrating Node.js-specific expertise",
+      "All PRs showed targeted fixes without additional code changes, implying thorough testing of edge cases"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

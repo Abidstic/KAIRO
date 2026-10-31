@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "developer_name": "iarna",
+    "generation_timestamp": "2026-09-17T18:48:48.406782",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "iarna",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "npm CLI internals",
+      "Node.js dependency resolution",
+      "package-lock.json optimization",
+      "symlink handling in npm",
+      "semantic versioning (semver)",
+      "npm security policies (2FA)",
+      "ANSI escape code handling in CLI tools",
+      "debugging npm install failures"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)",
+      "TypeScript (inferred from npm ecosystem)"
+    ],
+    "summary": "iarna is a Senior JavaScript developer with deep expertise in npm CLI internals, Node.js dependency resolution, and package management. Their contributions focus on stabilizing npm’s core functionality, particularly around dependency tracking, symlink handling, and security policies like 2FA for package publishing. With a strong background in debugging complex npm-related issues and optimizing lockfile generation, they demonstrate advanced knowledge of how Node.js resolves and records dependencies. Their work is primarily backend-focused, with a focus on CLI tooling and terminal output handling rather than frontend development.",
+    "identified_skills": {
+      "Package Management": [
+        "npm CLI internals",
+        "package-lock.json optimization",
+        "transitive dependency resolution",
+        "symlink handling in npm",
+        "local dependency resolution",
+        "dependency conflict debugging"
+      ],
+      "Node.js Ecosystem": [
+        "Node.js module resolution (CJS/ESM)",
+        "npm dependency tree algorithms",
+        "ANSI escape code handling",
+        "CLI tooling security (2FA)",
+        "npm publish workflows"
+      ],
+      "Versioning & Semantics": [
+        "semantic versioning (semver:minor/patch)",
+        "version conflict resolution",
+        "dependency versioning strategies"
+      ],
+      "Debugging & Triage": [
+        "npm install failure debugging",
+        "issue triage for npm community",
+        "reverse-engineering npm behavior",
+        "regression testing for CLI tools"
+      ],
+      "Security": [
+        "npm package publishing security (2FA)",
+        "side-effect mitigation (ANSI code leaks)"
+      ],
+      "Community Contribution": [
+        "npm community engagement",
+        "proactive stability-focused changes",
+        "collaborative problem-solving"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Add support for requiring 2fa to publish specific packages' → Demonstrates npm security policy implementation and publish workflow expertise",
+      "PR: 'Fix isInLink tracking and improve recording of transitive deps file: in locks' → Shows deep understanding of npm’s dependency resolution and symlink handling internals",
+      "PR: 'colors@1.1.2' (revert) → Proves awareness of ANSI escape code side effects in CLI tools and dependency conflicts",
+      "All PRs reference npm.community discussions → Indicates active engagement with npm’s issue triage and community problem-solving",
+      "Consistent use of 'semver:minor'/'patch' labels → Confirms adherence to semantic versioning best practices",
+      "No code changes in PRs but context implies debugging npm’s internal module resolution (CJS/ESM) → Suggests familiarity with Node.js module system quirks",
+      "Revert PR for 'colors' → Demonstrates risk assessment and stability-focused development",
+      "PRs focus on npm CLI stability rather than frontend frameworks → Confirms backend/CLI specialization"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

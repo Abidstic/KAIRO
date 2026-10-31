@@ -1,0 +1,79 @@
+{
+  "reviewer_name": "nwoltman",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 1,
+    "total_prs": 1,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "nwoltman",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "React Hooks",
+      "Error Handling Patterns",
+      "Testing (Edge Cases)",
+      "Code Review & Documentation"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)"
+    ],
+    "summary": "nwoltman is a Mid-level JavaScript/TypeScript reviewer with strong expertise in frontend error handling, hook-based architectures, and testing edge cases. Their reviews demonstrate deep familiarity with TypeScript’s type system, React-like hook patterns, and robust error-handling mechanisms. The reviewer excels in constructive code review, proactive testing suggestions, and maintaining code clarity, particularly in TypeScript-first environments. Evidence points to a frontend-focused background (likely React) with awareness of semantic versioning and documentation practices.",
+    "identified_skills": {
+      "TypeScript": [
+        "Type annotations",
+        "Type-safe error handling",
+        "TypeScript + JavaScript library integration"
+      ],
+      "Frontend Frameworks": [
+        "React Hooks",
+        "Custom Hooks",
+        "Error Boundaries"
+      ],
+      "Error Handling": [
+        "onError Hooks",
+        "Custom Error Handlers",
+        "Asynchronous Error Propagation"
+      ],
+      "Testing": [
+        "Unit/Integration Testing",
+        "Edge Case Validation",
+        "Test-Driven Development (TDD) Advocacy"
+      ],
+      "Versioning": [
+        "Semantic Versioning (semver-major/semver-minor)",
+        "Breaking Change Awareness"
+      ],
+      "Code Quality": [
+        "Documentation Labels",
+        "Code Clarity Feedback",
+        "Review Process Improvement"
+      ],
+      "Code Review": [
+        "Constructive Feedback",
+        "Proactive Test Suggestions",
+        "Multiple Review States (CHANGES_REQUESTED → APPROVED)"
+      ],
+      "Backend Context (Inferred)": [],
+      "Performance Optimization": [],
+      "Build Systems": []
+    },
+    "skill_evidence": [
+      "PR labeled 'typescript' indicates TypeScript-first environment; no JavaScript-specific syntax issues discussed",
+      "Review comment: 'There should be a test with a custom error handler' shows focus on testing edge cases in error handling",
+      "PR labeled 'semver-major' and 'semver-minor' demonstrates awareness of semantic versioning and breaking changes",
+      "PR labeled 'documentation' suggests involvement in or emphasis on code/documentation clarity",
+      "Review state transitions (CHANGES_REQUESTED → COMMENTED → APPROVED) indicate collaborative and thorough review process",
+      "`onError hook` PR title and review feedback imply expertise in React-like hook architectures and error boundaries",
+      "Suggestion to add tests for custom error handlers reflects experience with asynchronous error flows and testing",
+      "No evidence of backend frameworks (e.g., Express, Node.js middleware) or performance tuning in reviews"
+    ]
+  }
+}

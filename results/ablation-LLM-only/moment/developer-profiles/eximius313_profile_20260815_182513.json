@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "developer_name": "eximius313",
+    "generation_timestamp": "2026-08-15T18:19:34.901685",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "eximius313",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Moment.js localization",
+      "Polish language terminology in JavaScript",
+      "JavaScript object literals for locale data",
+      "GitHub PR workflow for non-code contributions"
+    ],
+    "programming_languages": [
+      "JavaScript"
+    ],
+    "summary": "eximius313 is a junior-level developer with specialized expertise in Moment.js localization, specifically for Polish language support. Their contributions focus on correcting linguistic details in date/time formatting (e.g., weekday names) within Moment.js's locale system. While their work demonstrates familiarity with JavaScript object structures and GitHub PR processes, there is no evidence of broader JavaScript development experience (e.g., frameworks, async patterns, or backend systems). Their role appears to be that of a localization contributor rather than a core developer.",
+    "identified_skills": {
+      "Localization & Internationalization": [
+        "Moment.js locale files",
+        "Polish weekday names (Sobota, Niedziela)",
+        "i18n string validation"
+      ],
+      "JavaScript Core": [
+        "JavaScript object literals",
+        "String manipulation for localization",
+        "No advanced JS features (async/await, classes)"
+      ],
+      "Git & Version Control": [
+        "GitHub PR workflow",
+        "Non-code PR contributions",
+        "Semantic updates (no code changes)"
+      ],
+      "Community & Contribution": [
+        "Moment.js community contributions",
+        "Language-specific corrections"
+      ],
+      "Testing & QA": [],
+      "Backend Systems": [],
+      "Frontend Frameworks": [],
+      "Build Tools & Bundlers": [],
+      "DevOps & Deployment": [],
+      "API Development": [],
+      "Data Structures & Algorithms": []
+    },
+    "skill_evidence": [
+      "PRs titled 'Fix Polish weekday names in Moment.js locale' with corrections to 'Sobota' and 'Niedziela'",
+      "All PRs involve `pl.js` locale file updates with no code changes (additions: 0, deletions: 0)",
+      "PR descriptions reference 'Polish language corrections' and 'moment.locale(\"pl\")' usage",
+      "PRs labeled under 'Language' category, indicating localization focus",
+      "No evidence of JavaScript syntax changes—only string corrections in locale objects",
+      "Multiple PRs submitted in quick succession for the same repository (moment)",
+      "No discussions or merge conflicts visible in PRs, suggesting straightforward localization fixes"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

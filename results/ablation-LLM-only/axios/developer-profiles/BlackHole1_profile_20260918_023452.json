@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "developer_name": "BlackHole1",
+    "generation_timestamp": "2026-09-18T02:22:47.339573",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "BlackHole1",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios internals",
+      "JavaScript utility functions",
+      "Error handling and type safety",
+      "Build system and dependency management",
+      "Code refactoring and optimization"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (indirect, via Axios ecosystem)"
+    ],
+    "summary": "BlackHole1 is a JavaScript developer with specialized expertise in the Axios HTTP client library, demonstrating strong skills in core utility function development, error handling, and build system optimization. Their contributions focus on refining utility functions like `isAxiosError` and managing dependency consistency between `yarn.lock` and `package-lock.json`. While their experience is primarily centered on backend tooling and library internals, their work showcases a clean-code approach with attention to edge cases and maintainability. Evidence suggests proficiency in modern JavaScript features (spread/rest operators, null checks) and a methodical refactoring mindset. The limited PR scope (3 contributions to Axios) indicates a focused but deep technical specialization rather than broad framework experience.",
+    "identified_skills": {
+      "HTTP Client Libraries": [
+        "Axios internals",
+        "HTTP utility functions"
+      ],
+      "JavaScript Language Features": [
+        "Spread operator",
+        "Rest parameters",
+        "Null/undefined checks"
+      ],
+      "Error Handling": [
+        "Custom error type checking",
+        "Defensive programming"
+      ],
+      "Build System & Tooling": [
+        "Yarn/npm lock file management",
+        "Git ignore conventions"
+      ],
+      "Code Quality": [
+        "Refactoring for readability",
+        "Edge case handling"
+      ],
+      "Backend Tooling": [
+        "Node.js module compatibility"
+      ],
+      "Utility Development": [
+        "CancelToken implementation",
+        "Type-safe utility functions"
+      ]
+    },
+    "skill_evidence": [
+      "PR refactoring `isAxiosError` to handle null values explicitly ('add the judgment of null')",
+      "Ignoring `yarn.lock` in `.gitignore` for consistency with `package-lock.json`",
+      "Title mentioning 'all & spread' in context of utility function improvements",
+      "Optimizing `isAxiosError` logic to reduce redundant checks",
+      "Contributions to core Axios utility functions (`CancelToken`, `Cancel` class)",
+      "PR description emphasizing 'optimize the logic' in error handling",
+      "Evidence of defensive programming in type-safe utility function refactors",
+      "Build system changes aligning dependency management practices"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

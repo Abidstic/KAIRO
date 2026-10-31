@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "developer_name": "tannerlinsley",
+    "generation_timestamp": "2026-09-17T22:44:07.707573",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 38,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "Tanner Linsley",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Chart.js Core Architecture",
+      "JavaScript/TypeScript OOP",
+      "Canvas API & DOM Manipulation",
+      "Performance Optimization",
+      "Data Visualization Algorithms",
+      "Modular Plugin Systems",
+      "API & Configuration Design"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "Tanner Linsley is a senior JavaScript developer with deep expertise in Chart.js, specializing in core architecture, performance optimization, and data visualization algorithms. His contributions demonstrate mastery of class-based OOP, Canvas API manipulation, and modular design patterns. Tanner has led major refactors (e.g., animation system, controller-driven charts) and focuses on improving rendering efficiency, label placement, and API usability. His work aligns with senior-level responsibilities in maintaining and evolving a large-scale JavaScript library.",
+    "identified_skills": {
+      "Core JavaScript Patterns": [
+        "Class-based architecture",
+        "ES6 modules",
+        "Proxies (for reactive data)",
+        "Closures for encapsulation"
+      ],
+      "Rendering & Canvas": [
+        "Canvas API path manipulation",
+        "Text rendering optimizations",
+        "Dynamic label collision detection",
+        "CSS transforms for text rotation"
+      ],
+      "Performance Engineering": [
+        "Animation frame batching",
+        "Event delegation optimizations",
+        "Responsive resizing error handling",
+        "Memory-efficient data structures"
+      ],
+      "Data Visualization": [
+        "Dynamic axis label skipping",
+        "Arc rendering corrections",
+        "Stacked area chart implementations",
+        "Data-driven configuration"
+      ],
+      "Modular Design": [
+        "Controller-driven chart architecture",
+        "Plugin system integration",
+        "Service-oriented components (e.g., AnimationService)",
+        "Deep data refactoring"
+      ],
+      "API & Configuration": [
+        "New chart option design (e.g., customTooltips)",
+        "Configuration validation",
+        "Bug fixes in rendering logic",
+        "Documentation-driven API changes"
+      ],
+      "Documentation & Community": [
+        "Usage examples and samples",
+        "JSDoc-style comments",
+        "Chart type documentation",
+        "External tooltip documentation"
+      ],
+      "Testing & Debugging": [
+        "Error handling in event loops",
+        "Performance profiling",
+        "Try/catch responsive logic"
+      ],
+      "TypeScript": [
+        "Type-safe data structures",
+        "Interface-driven refactoring"
+      ]
+    },
+    "skill_evidence": [
+      "\"Controller Driven Charts\" – Demonstrates class-based architecture and modular controller pattern for chart types",
+      "\"Animation refactory\" – Shows deep performance optimization using frame batching and animation lifecycle redesign",
+      "\"Auto Rotate & Skip Labels based on 'scaleXMaxHeight'\" – Involves Canvas API text rendering and collision detection",
+      "\"Auto-skip crowded axis-labels\" – Implements dynamic label placement using DOM/Canvas measurements",
+      "\"Only draw positive radius arcs\" – Fixes rendering logic with precise Canvas path manipulation",
+      "\"External Tooltips, Documentation and Samples\" – Adds new chart options and maintains documentation-driven API changes",
+      "\"Try/Catch responsive resizing\" – Includes error handling for event-driven responsive logic",
+      "\"Deep data\" – Refactors data structures to support reactive or type-safe configurations"
+    ]
+  },
+  "statistics": {
+    "total_prs": 38,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "reviewer_name": "abdotaouala",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 1,
+    "total_prs": 2,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "abdotaouala",
+    "raw_response": "```json\n{\n  \"reviewer_name\": \"abdotaouala\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Web Components (Custom Elements)\",\n    \"Preact internals\",\n    \"JavaScript event handling\",\n    \"Git revert operations\",\n    \"Type-safe JavaScript patterns\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (inferred, but not directly evidenced)\"\n  ],\n  \"summary\": \"abdotaouala is a Mid-level JavaScript reviewer with specialized expertise in Web Components and Preact’s rendering system. Their reviews demonstrate strong debugging skills, particularly in event handling and type safety, along with rigorous Git practices. The reviewer excels in identifying regressions and ensuring correctness in frontend component logic, with a focus on defensive programming and custom element patterns. While their contributions are primarily frontend-focused, their deep understanding of Preact’s architecture suggests familiarity with modern JavaScript module systems and virtual DOM optimizations.\",\n  \"identified_skills\": {\n    \"Frontend Architecture\": [\n      \"Web Components (Custom Elements)\",\n      \"Event delegation patterns\",\n      \"Multi-root rendering optimizations\"\n    ],\n    \"JavaScript Core\": [\n      \"Type-safe event handler registration\",\n      \"Defensive programming (input validation)\",\n      \"ES6+ module patterns\"\n    ],\n    \"Version Control\": [\n      \"Git revert operations\",\n      \"Commit history analysis\",\n      \"Regression tracking\"\n    ],\n    \"Framework-Specific\": [\n      \"Preact internals\",\n      \"Virtual DOM diffing (React-compatible)\",\n      \"Lightweight component patterns\"\n    ],\n    \"Debugging & Quality\": [\n      \"Runtime error identification\",\n      \"Issue resolution (fixing #4085)\",\n      \"Side-effect analysis\"\n    ],\n    \"Code Review Practices\": [\n      \"Rigorous approval criteria\",\n      \"Changes requested for incomplete fixes\",\n      \"Impact assessment of reverts\"\n    ],\n    \"DOM Manipulation\": [\n      \"Custom element lifecycle hooks\",\n      \"Event listener validation\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR 1 title: 'fix: avoid registering non-function event-handlers on custom-elements' — demonstrates Web Components expertise and type-safe event handling\",\n    \"PR 1 description references 'custom-elements' and 'event-handlers' — confirms deep knowledge of Custom Elements API and defensive programming\",\n    \"PR 2 title: 'Revert \\'Merge pull request #4234...\\'' — shows Git revert operations and regression tracking via issue references (#4286, #4296)\",\n    \"PR 2 references 'preactjs/multi-root-shared-commit' — indicates familiarity with Preact’s multi-root rendering optimization\",\n    \"PR 1 approved after fix — suggests reviewer verified correctness and resolved runtime errors (e.g., TypeError for non-function event handlers)\",\n    \"PR 2 had 'Changes Requested' state — implies reviewer demanded full regression testing before approval\",\n    \"Event handler validation in PR 1 prevents invalid values (null, undefined, objects) — evidence of type-safe JavaScript patterns\",\n    \"Reviewer referenced specific issues (#4085, #4286) in PR descriptions — demonstrates issue tracking and impact analysis\"\n  ]\n}\n```",
+    "parsing_error": "Invalid \\escape: line 55 column 26 (char 2390)"
+  }
+}

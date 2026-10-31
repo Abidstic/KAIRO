@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "developer_name": "axe312ger",
+    "generation_timestamp": "2026-09-18T02:12:41.394099",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "axe312ger",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Jasmine testing framework",
+      "Node.js backend development",
+      "Bundle optimization and performance tuning",
+      "Test framework migration and modernization",
+      "Module system debugging (CommonJS/ESM)",
+      "Documentation and release planning"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "TypeScript (implied via modern tooling but no direct evidence)"
+    ],
+    "summary": "axe312ger is a Mid-Level JavaScript developer with a strong focus on backend systems and testing frameworks. Their contributions to the Axios repository demonstrate expertise in migrating legacy testing tools (NodeUnit → Jasmine), optimizing bundle sizes through Lodash refactoring, and maintaining Node.js module compatibility. The developer shows proficiency in test framework modernization, performance optimization, and documentation practices, with evidence of resolving merge conflicts and planning release roadmaps. While primarily backend-oriented, their work on bundle optimization suggests some awareness of frontend performance considerations.",
+    "identified_skills": {
+      "Testing Frameworks": [
+        "Jasmine",
+        "NodeUnit",
+        "Karma"
+      ],
+      "Backend JavaScript": [
+        "Node.js",
+        "CommonJS module system",
+        "require() statement fixes"
+      ],
+      "Performance Optimization": [
+        "Bundle size reduction",
+        "Lodash tree-shaking",
+        "Webpack/rollup-like tooling"
+      ],
+      "Test Migration": [
+        "Legacy framework deprecation",
+        "Test suite modernization"
+      ],
+      "Documentation": [
+        "README maintenance",
+        "IE support documentation",
+        "v1 release planning"
+      ],
+      "Version Control": [
+        "Merge conflict resolution",
+        "Git branching strategies"
+      ],
+      "Dependency Management": [
+        "npm package fixes",
+        "Lodash version upgrades"
+      ],
+      "Debugging": [
+        "Module loading issues",
+        "Build-time error resolution"
+      ],
+      "Release Planning": [
+        "v1 feature scoping",
+        "versioning strategy"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Explicitly migrated NodeUnit to Jasmine with Karma test runner reference ('probably also needs upgrading the Karma tests too')",
+      "PR #4: Reduced Lodash bundle size from 95.4kB to 26.8kB via require() statement fixes, demonstrating tree-shaking knowledge",
+      "PR #4: Debugged and resolved CommonJS module loading issues in Node.js environment",
+      "PR #2: Updated README to reflect accurate IE support documentation, showing attention to compatibility notes",
+      "PR #3: Assisted in resolving merge conflicts while planning v1 features, indicating Git proficiency and release planning involvement",
+      "PR #3: Contributed to v1 overview PR, demonstrating engagement in technical roadmapping discussions",
+      "PR #1: Noted compatibility considerations for Karma tests during Jasmine migration, showing awareness of test runner ecosystems",
+      "PR #4: Fixed Lodash require() statements that would break builds, proving debugging skills for module resolution problems"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

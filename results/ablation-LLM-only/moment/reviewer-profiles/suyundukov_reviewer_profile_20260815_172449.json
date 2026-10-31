@@ -1,0 +1,60 @@
+{
+  "reviewer_name": "suyundukov",
+  "generated_at": "20260815_172449",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 1,
+    "total_prs": 3,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "suyundukov",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript Intl API (Internationalization)",
+      "Locale-specific date/time formatting",
+      "French/Canadian locale rules (ordinals, month names)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6+)",
+      "JSON-based configuration"
+    ],
+    "summary": "suyundukov demonstrates **mid-level expertise** in JavaScript’s localization and date/time handling capabilities, primarily through contributions to the `moment` library’s French and Romanian locale implementations. Their reviews focus on **locale-specific formatting rules** (e.g., ordinal suffixes in French) and **date parsing edge cases**, with indirect evidence of familiarity with the `Intl` API or similar libraries. While their contributions are **niche and data-driven** (JSON-based locale files), they lack evidence of broader JavaScript framework or backend expertise. Their review process includes basic approval/rejection decisions and test coverage expectations, but no deep technical feedback on JavaScript syntax, patterns, or modern features. The profile suggests a **specialist role in i18n/localization** rather than general JavaScript development.",
+    "identified_skills": {
+      "Internationalization & Localization": [
+        "Intl API (locale-aware date formatting)",
+        "French/Canadian locale rules (ordinal suffixes)",
+        "JSON-based locale data structures"
+      ],
+      "Date/Time Handling": [
+        "Invalid date parsing heuristics",
+        "Year guess algorithm implementation"
+      ],
+      "Code Review Practices": [
+        "PR approval/rejection",
+        "Test coverage labeling ('Needs tests')",
+        "Basic refactoring suggestions ('rewrite')"
+      ],
+      "Language Features": [
+        "ES6+ syntax awareness (indirect)"
+      ],
+      "Testing": [
+        "Test coverage awareness"
+      ]
+    },
+    "skill_evidence": [
+      "[locale] ro: Add missing dot after month name — PR title indicates French/Canadian locale-specific formatting focus",
+      "[locale] fr-ca: Match fr for ordinals — Review comment questions relevance of locale-specific ordinal suffixes (e.g., '2e avril')",
+      "year_guess() implementation — PR description mentions automatic date validation fallback logic for invalid strings",
+      "CHANGES_REQUESTED state on Review 2 — Implies review of locale data consistency between fr.json and fr-ca.json",
+      "Needs tests label on multiple PRs — Suggests awareness of test coverage requirements for locale changes",
+      "LGTM approval on Review 1 — No technical feedback, only procedural approval",
+      "PR title 'Added implementation of year_guess()' — Evidence of date parsing logic in JavaScript",
+      "Review state 'rewrite' on Review 1 — Indirect suggestion of refactoring needs (no specific rationale provided)"
+    ]
+  }
+}

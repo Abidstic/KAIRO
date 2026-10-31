@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "developer_name": "bentruyman",
+    "generation_timestamp": "2026-08-15T16:23:30.817845",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "bentruyman",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery internals",
+      "JavaScript edge-case handling",
+      "AJAX request normalization",
+      "Localization-aware date formatting",
+      "Input validation and falsy checks",
+      "jQuery event system",
+      "Class manipulation utilities"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "jQuery"
+    ],
+    "summary": "bentruyman is a mid-level JavaScript developer with specialized expertise in jQuery's core functionality. Their contributions focus on fixing edge cases in jQuery's event handling, AJAX module, date formatting, and class manipulation utilities. The developer demonstrates strong skills in input validation (falsy checks, whitespace normalization), localization-aware coding (ISO 8601 date standardization), and maintaining backward compatibility across jQuery versions. While their experience is primarily centered on jQuery's legacy codebase, their contributions reveal deep understanding of JavaScript's fundamental patterns for handling edge cases and maintaining robust APIs.",
+    "identified_skills": {
+      "jQuery Core": [
+        "jQuery.ajax URL normalization",
+        "jQuery.bind/unbind whitespace handling",
+        "jQuery.addClass/toggleClass/removeClass array support",
+        "jQuery date formatting (ISO 8601 fallback)",
+        "jQuery event system internals"
+      ],
+      "JavaScript Patterns": [
+        "Falsy value handling",
+        "Array-to-string conversion",
+        "Default parameter resolution",
+        "Whitespace normalization",
+        "Input sanitization"
+      ],
+      "Localization": [
+        "ISO 8601 date standardization",
+        "Non-ASCII character handling",
+        "Localized date format normalization"
+      ],
+      "API Design": [
+        "Backward compatibility maintenance",
+        "Versioned code fixes (jQuery 1.9)",
+        "API robustness improvements"
+      ],
+      "Testing & Debugging": [
+        "Regression bug identification",
+        "Edge-case validation",
+        "Trac issue tracking"
+      ],
+      "Documentation": [
+        "Technical PR descriptions",
+        "Bug explanation documentation",
+        "API behavior clarification"
+      ],
+      "Open Source Contribution": [
+        "GitHub PR workflow",
+        "jQuery contribution process",
+        "Issue triage"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Fixed non-ASCII date formatting in jQuery by enforcing ISO 8601 fallback ('YYYY-MM-DD') for localized dates, demonstrating localization awareness and input validation",
+      "PR #2: Normalized whitespace in jQuery.bind/bind/unbind methods to handle inconsistent event binding strings, showing attention to edge-case string manipulation",
+      "PR #3: Added falsy URL handling in jQuery.ajax to normalize empty/falsy URLs to the current page's URL, proving expertise in AJAX request lifecycle and input validation",
+      "PR #4: Implemented array support for jQuery.addClass/toggleClass/removeClass methods, demonstrating understanding of jQuery's utility methods and array-to-string conversion patterns",
+      "All PRs reference Trac tickets (#12725, #10093) showing systematic bug reproduction and regression testing approach",
+      "PR descriptions consistently explain 'why' fixes are needed and 'what' cases are covered, indicating strong documentation practices",
+      "PR #4 labeled [1.9] demonstrates version-specific knowledge and backward compatibility considerations",
+      "Contributions focus exclusively on jQuery's core functionality with no evidence of modern JavaScript (ES6+) or framework usage"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

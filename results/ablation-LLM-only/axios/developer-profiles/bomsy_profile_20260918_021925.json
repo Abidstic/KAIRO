@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "developer_name": "bomsy",
+    "generation_timestamp": "2026-09-18T02:12:19.504618",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "bomsy",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios internals",
+      "HTTP client configuration",
+      "JavaScript object-oriented programming",
+      "Environment variable handling",
+      "Test-driven development (TDD)",
+      "Jest testing",
+      "HTTP proxy protocols",
+      "Content length restrictions",
+      "Technical documentation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Axios ecosystem)"
+    ],
+    "summary": "bomsy is a mid-level JavaScript developer with specialized expertise in Axios, a popular HTTP client library. Their contributions demonstrate deep familiarity with Axios's internal architecture, configuration systems, and runtime environment handling. They excel in adding configurable features, implementing HTTP proxy support, and enforcing content length restrictions. Strong testing skills (Jest) and clean code practices are evident, along with a focus on documentation and developer experience. While primarily backend-focused (Node.js), their contributions suggest proficiency in asynchronous programming patterns and environment-aware configurations.",
+    "identified_skills": {
+      "HTTP_Client_Development": [
+        "Axios internals",
+        "HTTP proxy support",
+        "Content length restrictions",
+        "Request/response configuration"
+      ],
+      "JavaScript_OOP": [
+        "Class-based configuration",
+        "Runtime environment integration",
+        "Object-oriented feature extensions"
+      ],
+      "Testing_Practices": [
+        "Jest unit testing",
+        "Test-driven development",
+        "Edge case validation"
+      ],
+      "Configuration_Systems": [
+        "Environment variable handling",
+        "Configurable runtime options",
+        "Cross-platform proxy configs"
+      ],
+      "Documentation": [
+        "Technical documentation updates",
+        "API usage examples",
+        "Markdown documentation"
+      ],
+      "Asynchronous_Programming": [
+        "Promise-based HTTP handling",
+        "Environment-aware async features"
+      ],
+      "Runtime_Environment_Awareness": [
+        "Node.js process.env integration",
+        "Cross-platform compatibility"
+      ],
+      "Clean_Code_Practices": [
+        "Atomic PR contributions",
+        "Minimal internal refactoring",
+        "Focused feature additions"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'Http proxy support' added environment variable-based proxy configuration using `process.env.http_proxy` and `HTTPS_PROXY`",
+      "'Added Tests' mentioned in multiple PRs, indicating Jest-based unit tests for proxy and content length features",
+      "PRs modified Axios's internal class structure to expose new configurable options like `maxContentLength`",
+      "Documentation updates included in 'Http proxy support' PR to clarify proxy configuration usage",
+      "All PRs show `files_changed: 0`, suggesting internal code navigation and refactoring without file additions/deletions",
+      "Proxy support PR referenced GitHub issue #231, demonstrating issue triage and problem-solving skills",
+      "Content length restriction PRs included validation logic for response payload limits",
+      "Environment variable handling evidenced by support for multiple proxy naming conventions (e.g., `http_proxy`, `HTTP_PROXY`)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

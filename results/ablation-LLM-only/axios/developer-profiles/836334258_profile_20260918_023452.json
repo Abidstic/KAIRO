@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "developer_name": "836334258",
+    "generation_timestamp": "2026-09-18T02:28:39.816411",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "836334258",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Node.js runtime debugging",
+      "ES Modules vs. CommonJS compatibility",
+      "Axios library usage",
+      "npm/yarn script execution",
+      "HTTP server debugging"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from ES Module usage)"
+    ],
+    "summary": "Junior JavaScript developer with strong Node.js runtime debugging skills, particularly in resolving environment-specific issues related to ES Modules vs. CommonJS compatibility. Demonstrates hands-on experience with the Axios library, focusing on running and debugging example projects in Node.js environments. Contributions are minimal but precise, targeting runtime errors without architectural changes. Evidence suggests familiarity with package managers (npm/yarn) and basic HTTP server interactions, though no frontend frameworks or advanced tooling are visible in contributions.",
+    "identified_skills": {
+      "Runtime Environment Debugging": [
+        "Node.js globals (`__dirname`, `require`)",
+        "ES Modules vs. CommonJS compatibility",
+        "Environment-specific runtime errors"
+      ],
+      "Axios Library": [
+        "Running `yarn examples`",
+        "HTTP request/response debugging",
+        "Axios example project maintenance"
+      ],
+      "Module Systems": [
+        "ES Modules",
+        "CommonJS",
+        "Module system migration awareness"
+      ],
+      "Package Management": [
+        "npm/yarn script execution",
+        "Development environment setup"
+      ],
+      "HTTP Server Interaction": [
+        "Localhost debugging (`localhost:3000`)",
+        "Endpoint testing (`/get` routes)"
+      ],
+      "Debugging Practices": [
+        "Minimal fix contributions",
+        "Root cause identification",
+        "Environment-aware troubleshooting"
+      ],
+      "Build Tool Awareness": [
+        "ES Module transpilation inference"
+      ]
+    },
+    "skill_evidence": [
+      "PR fixes for `__dirname is not defined` in Node.js environment, indicating ES Modules vs. CommonJS awareness",
+      "Debugging `require is not defined` errors in Axios example scripts, showing Node.js module system understanding",
+      "Running `yarn examples` to test Axios HTTP endpoints, demonstrating library-specific knowledge",
+      "Visiting `http:\n    "
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "developer_name": "Miosss",
+    "generation_timestamp": "2026-09-17T22:56:59.430764",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "Miosss",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Chart.js internals (Bezier curves, scaling, tooltips)",
+      "JavaScript array manipulation and edge-case handling",
+      "Conditional logic and runtime branching",
+      "JavaScript object configuration and API design",
+      "Defensive programming in data processing"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "Miosss is a mid-level JavaScript developer with specialized expertise in Chart.js, demonstrating strong skills in core JavaScript array handling, conditional logic, and charting-specific rendering logic. Their contributions focus on fixing subtle bugs (e.g., silent failures in Bezier curve calculations), extending library APIs (e.g., adding new tooltip alignment options), and implementing flexible templating systems. While primarily frontend-focused, their problem-solving approach and attention to edge cases suggest potential for growth in testing and advanced Git workflows.",
+    "identified_skills": {
+      "Core JavaScript": [
+        "Array bounds checking",
+        "Defensive programming",
+        "Conditional logic (if-else, ternary)",
+        "Object property additions",
+        "String manipulation and formatting"
+      ],
+      "Chart.js-Specific": [
+        "Bezier curve calculations",
+        "Data scaling and templating",
+        "Tooltip UI/UX enhancements",
+        "Dataset management",
+        "Rendering pipeline optimizations"
+      ],
+      "API & Configuration": [
+        "New option introductions",
+        "Backward compatibility maintenance",
+        "Template mechanism selection",
+        "Configuration object extensions"
+      ],
+      "Version Control": [
+        "Basic Git workflows",
+        "Pull request creation"
+      ],
+      "Problem-Solving": [
+        "Silent failure detection",
+        "Edge-case handling",
+        "Trade-off analysis (e.g., templating flexibility)"
+      ],
+      "Modular JavaScript": [
+        "Incremental code changes",
+        "Focused PR contributions"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed incorrect array indexing for single-point datasets in Bezier curve calculations (PR #1, #2)",
+      "Added `if` conditions to prevent silent failures in rendering logic (PR #1, #2)",
+      "Introduced `multiTooltipTextAlign` option with default values and alternative alignment (PR #5)",
+      "Modified scale templating to allow user choice between processing functions and micro-templating (PR #3)",
+      "Added function to remove entire datasets, affecting chart updates and data binding (PR #4)",
+      "Acknowledged learning Git/GitHub workflows in PR description (PR #1)",
+      "Made modular, focused changes without large-scale refactoring (all PRs)",
+      "Extended Chart.js API with new configuration options while maintaining backward compatibility (PR #3, #5)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

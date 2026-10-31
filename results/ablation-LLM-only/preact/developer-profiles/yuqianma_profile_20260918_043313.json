@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "yuqianma",
+    "generation_timestamp": "2026-09-18T04:29:05.398464",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "yuqianma",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Preact internals",
+      "React-compatible hooks (`useEffect`)",
+      "Virtual DOM optimization",
+      "JavaScript error handling best practices",
+      "Code readability improvements",
+      "Frontend performance tuning"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (indirect inference from Preact ecosystem)"
+    ],
+    "summary": "yuqianma is a Mid-level JavaScript developer with specialized expertise in Preact's core implementation. Their contributions demonstrate deep familiarity with React-like rendering patterns, hooks (`useEffect`), and virtual DOM optimization. The developer exhibits strong attention to code clarity, error handling best practices, and performance-conscious adjustments. While contributions are currently limited to Preact, their work shows proficiency in frontend JavaScript frameworks and optimization techniques. No evidence of backend or testing experience is visible in the analyzed PRs.",
+    "identified_skills": {
+      "Frontend Frameworks": [
+        "Preact internals",
+        "React-compatible hooks (`useEffect`)",
+        "Virtual DOM reconciliation"
+      ],
+      "JavaScript Language": [
+        "Error handling best practices",
+        "Console API usage (`console.error` vs `console.log`)",
+        "Code readability improvements",
+        "Variable naming optimization"
+      ],
+      "Performance Optimization": [
+        "DOM update efficiency",
+        "Variable lookup reduction",
+        "Minimalist code changes"
+      ],
+      "Debugging & Logging": [
+        "Error message clarity",
+        "Side effect warning handling",
+        "Debugging console patterns"
+      ],
+      "Code Quality": [
+        "Precision in changes",
+        "Self-documenting PR descriptions",
+        "Responsible contribution practices"
+      ],
+      "Testing": [],
+      "Backend Systems": [],
+      "Build Tools": []
+    },
+    "skill_evidence": [
+      "Replaced `console.log` with `console.error` for error messages in PR #1 (showing proper error handling)",
+      "Optimized `oldChildren.length` to `oldChildrenLength` variable in PR #2 (performance-focused naming)",
+      "Modified `useEffect` warning display to avoid throwing errors in PR #3 (graceful side effect handling)",
+      "All PRs contained minimal, focused changes without breaking changes (demonstrating precision)",
+      "PR #2 included reasoning about fixed `oldChildren` length (showing technical awareness)",
+      "No backend or testing-related changes visible in any PR",
+      "Contributions focused exclusively on Preact's rendering and hook systems",
+      "Used `console.error` consistently for error conditions across PRs"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

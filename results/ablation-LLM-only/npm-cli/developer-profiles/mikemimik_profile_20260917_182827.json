@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "developer_name": "mikemimik",
+    "generation_timestamp": "2026-09-17T18:27:03.689594",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 15,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "mikemimik",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "npm CLI internals",
+      "GitHub Actions workflows",
+      "Semantic Versioning (semver)",
+      "Dependency Management",
+      "Technical Documentation (Markdown/Gatsby)",
+      "CI/CD Automation",
+      "Release Engineering"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)",
+      "YAML (GitHub Actions)",
+      "Markdown"
+    ],
+    "summary": "mikemimik is a mid-level specialist in the JavaScript ecosystem tooling space, with deep expertise in npm CLI internals, GitHub Actions CI/CD workflows, and release engineering. While their contributions primarily involve configuration, documentation, and metadata updates rather than direct code changes, their work demonstrates strong proficiency in dependency management, semantic versioning, and performance benchmarking within the npm ecosystem. Their contributions align with roles focused on backend tooling, DevOps automation, and technical documentation rather than traditional JavaScript development.",
+    "identified_skills": {
+      "npm_ecosystem_tooling": [
+        "npm CLI scripting",
+        "Dependency resolution",
+        "dist-tags management",
+        "npm install command improvements",
+        "Versioned release processes"
+      ],
+      "ci_cd_automation": [
+        "GitHub Actions workflows",
+        "CI/CD benchmarking pipelines",
+        "GitHub Actions dispatch events",
+        "Workflow file updates (checkout@v2)",
+        "Automated testing outputs"
+      ],
+      "documentation_systems": [
+        "Markdown formatting",
+        "Gatsby-based documentation",
+        "Content organization",
+        "Technical writing for npm docs"
+      ],
+      "version_control_and_releases": [
+        "Semantic Versioning (semver)",
+        "Major/minor/patch updates",
+        "Dependency lifecycle management",
+        "Release cycle coordination"
+      ],
+      "performance_benchmarking": [
+        "Benchmarking workflows",
+        "Performance testing automation",
+        "GitHub Actions dispatch to benchmarks"
+      ],
+      "configuration_management": [
+        "YAML configuration files",
+        "CI/CD pipeline scripting",
+        "Metadata-driven PRs"
+      ]
+    },
+    "skill_evidence": [
+      "[PR] Update Deps (v7): group2/group3/tar — Demonstrates dependency management and versioned updates in npm CLI",
+      "[v7] Update output of npm install command — Shows CLI scripting and user-facing improvements",
+      "feat: added script to update dist-tags — Indicates dist-tag management in npm releases",
+      "[WIP] feat: updated workflow files to use checkout@v2 — GitHub Actions workflow configuration updates",
+      "[TESTING] ci: add testing output to GHA — CI/CD testing pipeline enhancements",
+      "[DOCS] npm scripts update — Fixes Gatsby-based documentation rendering, showing Markdown/Gatsby experience",
+      "feature/benchmarks — Benchmarking workflows and performance testing automation",
+      "semver:patch/major labels — Semantic Versioning and release cycle coordination"
+    ]
+  },
+  "statistics": {
+    "total_prs": 15,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

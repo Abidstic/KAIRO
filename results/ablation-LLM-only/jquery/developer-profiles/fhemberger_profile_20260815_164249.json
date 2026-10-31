@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "developer_name": "fhemberger",
+    "generation_timestamp": "2026-08-15T16:37:31.086398",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "fhemberger",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript Security (XSS Mitigation)",
+      "jQuery Core DOM Manipulation",
+      "DOM Security Best Practices",
+      "Legacy JavaScript Auditing"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "HTML/DOM Parsing"
+    ],
+    "summary": "fhemberger is a mid-level JavaScript developer with specialized expertise in security-focused DOM manipulation, particularly within legacy JavaScript libraries like jQuery. Their contributions demonstrate deep knowledge of XSS vulnerabilities, event attribute risks, and secure DOM parsing techniques. The developer has successfully implemented critical security fixes in jQuery's core functionality, focusing on mitigating script execution risks in dynamic HTML contexts. While contributions are limited to a single repository (jQuery), the precision and technical depth of the PRs indicate strong problem-solving skills in legacy codebases and a focus on security hardening.",
+    "identified_skills": {
+      "Security": [
+        "Cross-Site Scripting (XSS) Mitigation",
+        "DOM Security Patterns",
+        "Event Attribute Sanitization",
+        "Script Execution Control"
+      ],
+      "DOM Manipulation": [
+        "DOM Parsing (createHTMLDocument)",
+        "jQuery.parseHTML Security Fixes",
+        "Isolated DOM Contexts",
+        "Event Attribute Handling"
+      ],
+      "Legacy JavaScript": [
+        "jQuery Core Contributions",
+        "Legacy Library Security Auditing",
+        "Unsafe Pattern Identification",
+        "ES5 DOM APIs"
+      ],
+      "Technical Communication": [
+        "Vulnerability Explanation",
+        "Security Fix Justification",
+        "Technical PR Descriptions"
+      ],
+      "Problem-Solving": [
+        "Security Vulnerability Analysis",
+        "Minimal Impact Fixes",
+        "Risk Mitigation Strategies"
+      ]
+    },
+    "skill_evidence": [
+      "PR addressed XSS vulnerability in jQuery.parseHTML via inline event handlers (e.g., 'onerror=alert(1)')",
+      "Replaced unsafe DOM parsing with document.implementation.createHTMLDocument() for isolated script execution",
+      "PR description detailed exploit vector and security implications of event attributes in dynamic HTML",
+      "Fix targeted scripts passed in event attributes which execute immediately in unsafe contexts",
+      "Contributions focused exclusively on jQuery's core DOM manipulation and security hardening",
+      "All PRs involved replacing legacy unsafe patterns with modern DOM security best practices",
+      "Evidence of deep understanding of jQuery's parseHTML internals and event delegation risks",
+      "Technical justification included explanation of why createHTMLDocument prevents script injection"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

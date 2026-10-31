@@ -1,0 +1,84 @@
+{
+  "reviewer_name": "fritzy",
+  "generated_at": "20260917_180943",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 7,
+    "total_comments": 4,
+    "total_prs": 4,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "fritzy",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "npm/cli internals",
+      "Node.js package management",
+      "Dependency resolution (arborist)",
+      "npx caching mechanisms",
+      "Test-driven development",
+      "Code review & documentation"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "fritzy is a Senior-level JavaScript reviewer with deep expertise in npm/cli internals, particularly focusing on workspace resolution, dependency tree construction, and npx caching. Their reviews demonstrate strong technical judgment in package management, test-driven development, and code clarity. While primarily backend-focused (npm/cli ecosystem), their familiarity with JavaScript/TypeScript and asynchronous patterns is evident through their engagement with npm's internal systems. The reviewer excels at identifying edge cases in dependency handling and appreciates well-documented, test-covered changes.",
+    "identified_skills": {
+      "Package Management Systems": [
+        "npm/cli internals",
+        "arborist (dependency tree resolver)",
+        "workspace resolution",
+        "dependency hoisting",
+        "version override handling",
+        "implicit/explicit workspace filtering"
+      ],
+      "Tooling & CLI": [
+        "npx command execution",
+        "npm cache mechanisms",
+        "command-line argument parsing",
+        "workspace-aware CLI behavior"
+      ],
+      "Testing & Quality": [
+        "test-driven development",
+        "test coverage evaluation",
+        "regression prevention",
+        "edge case testing"
+      ],
+      "Code Review Practices": [
+        "clarity-focused feedback",
+        "documentation appreciation",
+        "minimal change preference",
+        "technical correctness validation"
+      ],
+      "JavaScript Runtime": [
+        "async/await patterns",
+        "Promise-based operations",
+        "module system interactions",
+        "semantic versioning (semver)"
+      ],
+      "File System & Caching": [
+        "package.json caching",
+        "version range resolution",
+        "stale version handling"
+      ],
+      "Dependency Resolution": [
+        "version downgrade handling",
+        "deduplication logic",
+        "subsequent install behavior"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'fix: ignore implicit workspace for some commands' mentions specific commands (adduser, login, help, npx) and implicit cwd workspace config",
+      "PR description for 'add `npm cache npx` command' includes dependency updates to @npmcli/package-json@6.1.1 and explicit test coverage for new functionality",
+      "Review comment 'Pretty straight forward change, good explanation, good test coverage' on arborist-related PRs",
+      "PR title 'fix(arborist): workspaces respect overrides on subsequent installs' demonstrates deep arborist knowledge and override mechanisms",
+      "PR title 'fix(arborist): Allow downgrades to hoisted version dedupe workspace' shows expertise in hoisting, version downgrades, and deduplication",
+      "Mention of 'stale-version reuse in npx' in PR description indicates familiarity with version caching and reuse logic",
+      "Approval of changes with 'Neat' emoji reaction for npx caching PR, showing technical alignment with the work"
+    ]
+  }
+}

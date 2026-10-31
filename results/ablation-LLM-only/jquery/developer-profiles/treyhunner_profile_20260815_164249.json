@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "treyhunner",
+    "generation_timestamp": "2026-08-15T16:30:43.308389",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "treyhunner",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript Scripting (Node.js)",
+      "EditorConfig & Code Formatting",
+      "Automated Code Quality Tools",
+      "Legacy JavaScript Maintenance",
+      "File System & Text Processing"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "Node.js"
+    ],
+    "summary": "Treyhunner is a JavaScript developer with a strong focus on tooling, automation, and code quality. Their contributions demonstrate expertise in writing Node.js scripts to enforce EditorConfig standards, automate code formatting fixes, and maintain consistency in large legacy codebases like jQuery. Their work aligns with roles in frontend tooling, DevOps automation, or code quality advocacy, emphasizing scripting, text processing, and repository-wide standardization over application development.",
+    "identified_skills": {
+      "Scripting & Automation": [
+        "Node.js file system operations",
+        "Custom script development",
+        "Text processing (regex, string manipulation)"
+      ],
+      "Code Quality & Standards": [
+        "EditorConfig rule implementation",
+        "Automated code formatting fixes",
+        "Repository-wide formatting enforcement"
+      ],
+      "File System & Text Processing": [
+        "Node.js `fs` module usage",
+        "Batch file processing",
+        "Trailing whitespace/indentation handling"
+      ],
+      "Legacy JavaScript Maintenance": [
+        "jQuery codebase maintenance",
+        "Indentation standardization",
+        "Hidden formatting issue resolution"
+      ],
+      "Tooling Development": [
+        "Custom validation scripts",
+        "Automated file fixers",
+        "Code quality tooling patterns"
+      ],
+      "Debugging & Code Review": [
+        "Issue tracking via PR references",
+        "Consistency-focused debugging",
+        "Code review sensitivity"
+      ]
+    },
+    "skill_evidence": [
+      "PR #3: Built two custom Node.js scripts—one to validate files against EditorConfig rules, another to automatically fix inconsistencies (fs module usage).",
+      "PR #1: Added EditorConfig file to standardize indentation across jQuery, referencing past PRs (#715) to justify changes (code review awareness).",
+      "PR #2: Addressed indentation inconsistencies by referencing PR #3’s automated fixes, showing deep understanding of formatting standards.",
+      "PR #3 description: Scripts scan files for trailing whitespace and final newlines, demonstrating `fs` and text processing expertise.",
+      "PR #3: Automated fixes for whitespace and newlines imply batch processing across many files (scalable tooling).",
+      "PR #1/2/3: Focus on indentation and whitespace suggests familiarity with EditorConfig’s `.editorconfig` file parsing.",
+      "PR #3: Scripts modify files programmatically (e.g., trimming whitespace), proving hands-on Node.js file system manipulation.",
+      "PR #2: References to past issues (#715) indicate debugging experience and awareness of legacy codebase quirks."
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

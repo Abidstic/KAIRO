@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "developer_name": "aeschright",
+    "generation_timestamp": "2026-09-17T18:40:21.223295",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "aeschright",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "npm CLI internals",
+      "Node.js dependency resolution",
+      "Semantic Versioning (SemVer)",
+      "package-lock.json handling",
+      "CLI flag behavior (--package-lock-only)"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)",
+      "TypeScript (inferred from npm ecosystem)"
+    ],
+    "summary": "aeschright is a mid-level JavaScript developer with specialized expertise in npm CLI internals and Node.js dependency management. Their contributions focus on fixing npm’s core functionality, particularly around dependency resolution, package-lock.json behavior, and versioning. While their PRs demonstrate deep knowledge of npm’s backend tooling, there is no evidence of frontend framework experience or broader JavaScript ecosystem involvement. Their work suggests a strong focus on release coordination and backend tooling rather than application development.",
+    "identified_skills": {
+      "npm_and_package_management": [
+        "npm CLI internals",
+        "package-lock.json dependency resolution",
+        "bundledDependencies handling",
+        "file dependency resolution ('where')",
+        "--package-lock-only flag behavior"
+      ],
+      "versioning_and_releases": [
+        "Semantic Versioning (semver:minor, semver:patch)",
+        "release changelog updates",
+        "version-specific fixes (6.8.0, 6.9.1)"
+      ],
+      "node_js_runtime": [
+        "Node.js file system operations (fs, path)",
+        "CommonJS module system",
+        "async/await patterns (inferred)"
+      ],
+      "cli_tooling": [
+        "npm CLI argument parsing",
+        "CLI flag implementation",
+        "command-line interface behavior"
+      ],
+      "documentation_and_communication": [
+        "changelog maintenance",
+        "issue reopening and tracking",
+        "technical documentation updates"
+      ],
+      "testing": [],
+      "frontend_frameworks": [],
+      "devops_and_cicd": [],
+      "advanced_js_features": []
+    },
+    "skill_evidence": [
+      "PR fixing 'where' for file dependencies in npm CLI (file system resolution logic)",
+      "PR addressing --package-lock-only flag behavior (dependency resolution)",
+      "PR updating changelog for npm@6.9.1 release (semver:patch label)",
+      "PR reopening issue #95 (engagement with long-standing npm internals problem)",
+      "PR referencing bundledDependencies in package.json (dependency management)",
+      "PR mentioning 'semver:minor' for version 6.8.0 (versioning scheme)",
+      "No code changes in PRs (metadata-only updates suggest collaboration with maintainers)",
+      "All PRs in npm/cli repository (specialized npm internals focus)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

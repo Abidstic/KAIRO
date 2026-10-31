@@ -1,0 +1,50 @@
+{
+  "reviewer_name": "jakebailey",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 3,
+    "total_prs": 1,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "jakebailey",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "React-like ecosystems (preact)",
+      "TypeScript type definitions"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "The reviewer profile for jakebailey is based on an extremely limited dataset consisting of three identical PR entries with no actual code review comments or changes. The only concrete evidence comes from a single PR mentioning 'preact' and 'DefinitelyTyped', suggesting minimal exposure to React-like component architectures and TypeScript type definitions. Without additional review data, deeper technical expertise or consistent patterns cannot be assessed. The profile reflects a Junior-level assessment due to the lack of substantive evidence supporting more advanced skills or reviewing experience.",
+    "identified_skills": {
+      "Frontend Frameworks": [
+        "preact"
+      ],
+      "TypeScript": [
+        "DefinitelyTyped"
+      ],
+      "Module Resolution": [],
+      "Code Review": [],
+      "Backend Frameworks": [],
+      "Testing": [],
+      "Asynchronous Programming": [],
+      "Build Tools": [],
+      "Dependency Management": []
+    },
+    "skill_evidence": [
+      "PR title references 'preact' in context of core type resolution, indicating familiarity with React-like component ecosystems",
+      "PR description mentions 'DefinitelyTyped', suggesting exposure to TypeScript type definitions but no usage examples",
+      "No actual review comments or code changes provided in any of the three PR entries",
+      "All PRs are marked as 'COMMENTED' but contain no substantive feedback or technical discussion",
+      "No evidence of backend, Node.js, or tooling-related skills (e.g., npm, Jest, ESLint) in any PR",
+      "No approvals, blockers, or deeper technical feedback visible in the dataset"
+    ]
+  }
+}

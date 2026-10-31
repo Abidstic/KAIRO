@@ -1,0 +1,77 @@
+{
+  "reviewer_name": "benmccann",
+  "generated_at": "20260917_201023",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 56,
+    "total_comments": 51,
+    "total_prs": 18,
+    "repos": [
+      "chartjs"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "benmccann",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Chart.js and charting libraries",
+      "ES Modules (ESM) and CommonJS interoperability",
+      "Frontend performance debugging",
+      "Technical documentation and sample code",
+      "DOM rendering and event handling"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (indirect exposure via charting libraries)"
+    ],
+    "summary": "benmccann is a Senior JavaScript engineer with deep expertise in frontend charting libraries (primarily Chart.js), modern JavaScript module systems (ESM/CommonJS), and frontend performance optimization. Their reviews demonstrate strong technical depth in visual data representation, debugging rendering loops, and maintaining high-quality technical documentation. They collaborate effectively in frontend-focused projects, with a focus on clarity and practical examples. While not a backend specialist, their JavaScript skills are robust, particularly in frontend-specific areas like DOM rendering and event handling.",
+    "identified_skills": {
+      "Charting and Data Visualization": [
+        "Chart.js bar scales",
+        "Area chart customization",
+        "Multi-series pie charts",
+        "Rendering performance optimizations"
+      ],
+      "Module Systems and Bundling": [
+        "ES Modules (ESM) support",
+        "CommonJS interoperability",
+        "Tree-shaking documentation",
+        "`.cjs` extension handling"
+      ],
+      "Frontend Performance": [
+        "Infinite resize loop debugging",
+        "DOM rendering optimization",
+        "Event listener throttling/debouncing"
+      ],
+      "Technical Documentation": [
+        "Sample code examples",
+        "Multi-series pie chart documentation",
+        "Visual feedback requests (screenshots)",
+        "Tree-shaking API documentation"
+      ],
+      "JavaScript Language Features": [
+        "Modern ES6+ syntax",
+        "Asynchronous rendering patterns"
+      ],
+      "Code Review Patterns": [
+        "Lightweight but constructive feedback",
+        "Documentation-focused approvals",
+        "ESM-related discussion engagement"
+      ],
+      "Frontend Frameworks": [
+        "React/Vue/Angular-like rendering patterns"
+      ]
+    },
+    "skill_evidence": [
+      "\"Introduce the 'minBarLength' dataset property for bar scales (X or Y)\" – bar chart rendering logic and scale properties",
+      "\"Allow filling above and below with different colors\" – area chart customization and gradient fills",
+      "\"Add multi series pie example\" (documentation PR) – sample code and legend callbacks expertise",
+      "\"Prevent infinite resize when vertical scrollbar appears\" – debugging DOM rendering loops and event handling",
+      "\"feat: add ESM support\" (multiple iterations) – ESM/CommonJS interop and breaking change management",
+      "\"Begin adding tree shaking info to docs\" – tree-shaking documentation and bundler awareness",
+      "\"Lgtm. I'd be interested to see a screenshot\" – documentation review focus on visual clarity",
+      "\"minor style notes\" in area fill PR – lightweight but targeted feedback on visual styling"
+    ]
+  }
+}

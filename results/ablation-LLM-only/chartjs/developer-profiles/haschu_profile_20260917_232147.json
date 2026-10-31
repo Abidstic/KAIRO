@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "developer_name": "haschu",
+    "generation_timestamp": "2026-09-17T23:16:59.186942",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "haschu",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js core development",
+      "Frontend JavaScript rendering optimizations",
+      "Visual debugging and regression testing",
+      "DOM/text measurement and positioning",
+      "Edge-case handling in charting libraries"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "TypeScript (inferred from Chart.js ecosystem)"
+    ],
+    "summary": "haschu is a Mid-level JavaScript developer with specialized expertise in charting library development, particularly Chart.js. Their contributions focus on precise frontend rendering fixes, label/tick positioning logic, and visual debugging. The developer demonstrates strong attention to detail in handling edge cases (e.g., label rotation, tick visibility) and a disciplined approach to minimal, targeted code changes. While contributions are currently limited to frontend-focused charting optimizations, their work reveals deep understanding of DOM/text measurement, canvas rendering, and UX-focused improvements in data visualization components.",
+    "identified_skills": {
+      "Charting Library Development": [
+        "Chart.js core internals",
+        "Label rotation mechanics",
+        "Tick rendering algorithms",
+        "Visual regression fixes"
+      ],
+      "Frontend Rendering": [
+        "DOM/text measurement",
+        "Canvas-based rendering",
+        "Pixel-perfect adjustments",
+        "Responsive label positioning"
+      ],
+      "Debugging & Testing": [
+        "Visual regression testing",
+        "Before/after screenshot analysis",
+        "Edge-case validation"
+      ],
+      "JavaScript Core": [
+        "Legacy JavaScript patterns",
+        "Mathematical DOM calculations",
+        "Conditional rendering logic"
+      ],
+      "UX/UI Improvements": [
+        "Subtle visual polish",
+        "Tick visibility optimizations",
+        "User-facing rendering fixes"
+      ],
+      "Code Quality": [
+        "Minimalist fixes",
+        "Self-documenting changes",
+        "Precision-focused commits"
+      ],
+      "Technical Domains": [
+        "Data visualization",
+        "Text rendering in charts"
+      ]
+    },
+    "skill_evidence": [
+      "PR #2584: Fixes `maxRotation: 0` edge case with `longestRotatedLabel / 2` calculation, demonstrating DOM/text measurement expertise",
+      "PR #2584: Uses `skipRatio` logic for dynamic label spacing, showing mathematical rendering adjustments",
+      "PR #2599: Includes before/after screenshots to validate visual regression, proving visual debugging skills",
+      "PR #2599: Addresses 'next-to-last tick' visibility bug, revealing deep tick-rendering knowledge",
+      "All PRs: No backend or Node.js involvement, confirming frontend-only focus",
+      "All PRs: Changes are minimal and precise, reflecting disciplined code quality practices",
+      "PR #2584: Legacy JavaScript patterns (no ES6 modules/classes), indicating pre-ES6 style",
+      "PR #2599: Fixes subtle UX glitches (e.g., hidden ticks), showcasing UX-focused improvements"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

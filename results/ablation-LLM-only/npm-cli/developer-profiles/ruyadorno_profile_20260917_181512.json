@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "developer_name": "ruyadorno",
+    "generation_timestamp": "2026-09-17T18:14:51.744380",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 163,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "ruyadorno",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "npm CLI internals",
+      "Node.js package management",
+      "Dependency resolution & conflict resolution",
+      "Semantic Versioning (semver) in npm",
+      "npm CLI command enhancements",
+      "Node.js version compatibility",
+      "npm configuration (npmignore, npmrc)",
+      "npm documentation & technical writing"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)",
+      "TypeScript (inferred from npm ecosystem context)"
+    ],
+    "summary": "ruyadorno is a **Senior JavaScript developer** with deep expertise in **npm CLI internals and Node.js package management**. Their contributions focus on **dependency resolution, versioning, and registry interactions**, with a strong emphasis on **fixing bugs, improving documentation, and maintaining npm's stability**. The developer demonstrates **advanced knowledge of npm's core mechanics**, including `package-lock.json`, dependency patching, and Node.js version compatibility. While primarily working on **npm CLI**, their work implies familiarity with **Node.js APIs, async JavaScript patterns, and CI/CD tooling** in the JavaScript ecosystem. Their contributions are **low-level but critical**, targeting **npm's reliability and user experience** rather than frontend frameworks.",
+    "identified_skills": {
+      "npm Core & CLI": [
+        "npm CLI command enhancements",
+        "npm dependency resolution",
+        "package-lock.json handling",
+        "npm registry interactions",
+        "npm versioning (semver:patch/minor)",
+        "npm configuration (npmignore, npmrc)",
+        "npm test environment debugging"
+      ],
+      "Dependency Management": [
+        "Dependency conflict resolution",
+        "Dependency patching (term-size, pacote)",
+        "Transitive dependency fixes",
+        "Signed binary dependency updates"
+      ],
+      "Node.js Ecosystem": [
+        "Node.js version compatibility",
+        "Node.js engine mismatch handling",
+        "Node.js runtime debugging",
+        "Node.js CI/CD environment fixes",
+        "Node.js test suite maintenance"
+      ],
+      "Documentation & UX": [
+        "npm documentation improvements",
+        "Technical writing for npm internals",
+        "User-facing warning message fixes",
+        "Example documentation for package-lock.json"
+      ],
+      "Version Control & Releases": [
+        "Semantic Versioning (semver) adherence",
+        "Patch/minor/major release management",
+        "Release notes and changelog clarity"
+      ],
+      "Testing & Debugging": [
+        "npm test suite debugging",
+        "CI/CD artifact handling (tap-snapshot)",
+        "Test environment isolation fixes",
+        "Node.js version-specific test failures"
+      ],
+      "JavaScript Runtime Patterns": [
+        "Async JavaScript in npm CLI",
+        "Node.js module resolution",
+        "Error handling for npm warnings"
+      ],
+      "Ecosystem Tooling": [
+        "Node.js PR awareness (upstream changes)",
+        "Dependency patch management",
+        "Project maintenance (DS_Store cleanup)"
+      ]
+    },
+    "skill_evidence": [
+      "PR labeled `semver:patch` and `semver:minor` shows strict adherence to npm's versioning rules",
+      "Fixes for `term-size` dependency patching demonstrate proactive dependency conflict resolution",
+      "`docs(package-lock): Added package-lock resolved example` indicates technical writing for npm internals",
+      "`fix(fund): support funding string shorthand` enhances npm CLI command functionality",
+      "`chore: fixes nodejs tests` reveals debugging of npm's test suite across Node.js versions",
+      "`fix: should not publish tap-snapshot folder` shows awareness of npm's build/test artifact handling",
+      "`warn message on engine mismatch` fixes address Node.js version compatibility issues",
+      "`.DS_Store` cleanup PRs indicate attention to project hygiene in CI/CD pipelines"
+    ]
+  },
+  "statistics": {
+    "total_prs": 163,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

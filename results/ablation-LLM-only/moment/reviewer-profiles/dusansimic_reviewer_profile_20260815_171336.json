@@ -1,0 +1,19 @@
+{
+  "reviewer_name": "dusansimic",
+  "generated_at": "20260815_171336",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 7,
+    "total_comments": 8,
+    "total_prs": 2,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "dusansimic",
+    "raw_response": "```json\n{\n  \"reviewer_name\": \"dusansimic\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"JavaScript Intl API (locale formatting)\",\n    \"Internationalization (i18n) debugging\",\n    \"Serbian Cyrillic locale-specific adjustments\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\"\n  ],\n  \"summary\": \"A mid-level JavaScript reviewer with specialized expertise in locale-specific formatting, particularly Serbian Cyrillic. Their contributions focus exclusively on debugging and refining JavaScript's built-in internationalization system (Intl API) for date/time and number formatting. The reviewer demonstrates thorough attention to detail in i18n edge cases but lacks evidence of broader JavaScript ecosystem experience (e.g., frameworks, testing, or backend systems).\",\n\n  \"identified_skills\": {\n    \"Internationalization & Localization\": [\n      \"JavaScript Intl API\",\n      \"Locale-specific date formatting\",\n      \"Serbian Cyrillic locale adjustments\",\n      \"toLocaleString() debugging\"\n    ],\n    \"Code Review & Quality\": [\n      \"Locale-specific correctness review\",\n      \"Technical debt resolution for i18n\"\n    ],\n    \"JavaScript Core Features\": [\n      \"DateTime formatting\",\n      \"Number formatting\"\n    ],\n    \"Language-Specific Patterns\": [\n      \"Serbian Cyrillic character handling\"\n    ]\n  },\n\n  \"skill_evidence\": [\n    \"PR title '[locale] sr-cyrl: Improve L* formats' indicates focus on Serbian Cyrillic date/time formatting using JavaScript's Intl API\",\n    \"PR description referencing '#4740 (incorrect date format)' shows debugging of locale-specific JavaScript behavior\",\n    \"Multiple 'COMMENTED' states for Serbian locale fix PRs demonstrate thorough review of i18n edge cases\",\n    \"Review state transitions from 'CHANGES_REQUESTED' to 'APPROVED' indicate detailed feedback on locale formatting correctness\",\n    \"No evidence of frontend frameworks (React/Vue) or backend systems (Node.js/Express) in PR titles or descriptions\",\n    \"All PRs involve only JavaScript core features (Intl API) with no mention of testing libraries or build tools\",\n    \"Serbian-specific date format adjustments (e.g., 'd. MMMM yyyy' vs. 'yyyy.MM.dd') confirm deep knowledge of locale patterns\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 42 column 3 (char 2207)"
+  }
+}

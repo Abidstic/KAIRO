@@ -1,0 +1,2848 @@
+{
+  "metadata": {
+    "total_prs_processed": 35,
+    "processing_date": "2025-10-21",
+    "available_reviewers": [
+      "aravindvnair99",
+      "bjohansebas",
+      "blakeembrey",
+      "CBID2",
+      "ctcpip",
+      "dpopp07",
+      "Hardanish-Singh",
+      "IamLizu",
+      "inigomarquinez",
+      "jonchurch",
+      "kjugi",
+      "krzysdz",
+      "mertcanaltin",
+      "Phillip9587",
+      "RaginiSharma01",
+      "rileyjshaw",
+      "RobinTail",
+      "sheplu",
+      "shivarm",
+      "ShubhamOulkar",
+      "UlisesGascon",
+      "wesleytodd"
+    ],
+    "total_available_reviewers": 22
+  },
+  "pr_assignments": [
+    {
+      "pr_number": 6678,
+      "pr_title": "build(deps-dev): bump cookie-session from 2.1.0 to 2.1.1",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "assigned_reviewer": "Phillip9587",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.92,
+          "reasoning": "Deep expertise in Express.js middleware, npm/yarn dependency management, security tooling, and CI/CD (OSSF Scorecard). Direct evidence of security-focused dependency updates (CVE-related) and Express.js ecosystem compatibility reviews.",
+          "strengths_alignment": [
+            "Express.js middleware design (primary framework)",
+            "npm/yarn dependency management (direct skill match)",
+            "Security tooling and dependency bumping (CVE-2025-7339 relevance)",
+            "CI/CD pipeline impact (OSSF Scorecard action approvals)",
+            "Dependency upgrades with security focus (e.g., 'qs@^6.14.0' PR)"
+          ],
+          "review_experience": "Senior-level reviewer with 28 PRs reviewed, 31 total reviews, and explicit security/dependency management experience in Express.js ecosystem.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ctcpip",
+          "match_score": 0.88,
+          "reasoning": "Senior-level expertise in Express.js internals, Node.js security updates, and CI/CD pipeline configuration. Strong evidence of dependency-related reviews and security-focused Node.js runtime knowledge.",
+          "strengths_alignment": [
+            "Express.js middleware and response handling (primary framework)",
+            "Node.js security updates and runtime internals (security expertise)",
+            "CI/CD pipeline configuration (OSSF Scorecard relevance)",
+            "Dependency-related PR reviews (e.g., Node.js version compatibility updates)"
+          ],
+          "review_experience": "Senior reviewer with 13 PRs reviewed, 18 total reviews, and explicit focus on Node.js security and Express.js internals.",
+          "potential_concerns": "Less direct evidence of npm/yarn dependency management than Phillip9587"
+        },
+        {
+          "reviewer_name": "IamLizu",
+          "match_score": 0.85,
+          "reasoning": "Senior-level expertise in Express.js middleware, npm/yarn/pnpm dependency management, and dependency security. Strong evidence of dependency upgrades and CI/CD tooling (GitHub Actions).",
+          "strengths_alignment": [
+            "npm/yarn/pnpm dependency management (direct skill match)",
+            "Express.js middleware (primary framework)",
+            "Dependency security and vulnerability scanning (security expertise)",
+            "GitHub Actions and CI/CD pipeline awareness (OSSF Scorecard relevance)"
+          ],
+          "review_experience": "Senior reviewer with 9 PRs reviewed, 9 total reviews, and explicit focus on dependency management and Express.js middleware.",
+          "potential_concerns": "Less direct evidence of security-focused dependency updates (e.g., CVE fixes) than Phillip9587"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Deep expertise in Express.js middleware, npm/yarn dependency management, security tooling, and CI/CD (OSSF Scorecard). Direct evidence of security-focused dependency updates (CVE-related) and Express.js ecosystem compatibility reviews.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6678",
+      "reviewer_strengths": [
+        "Express.js middleware design (primary framework)",
+        "npm/yarn dependency management (direct skill match)",
+        "Security tooling and dependency bumping (CVE-2025-7339 relevance)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 28 PRs reviewed, 31 total reviews, and explicit security/dependency management experience in Express.js ecosystem.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "npm/yarn dependency management",
+          "JavaScript package ecosystem"
+        ],
+        "review_expertise_areas": [
+          "dependencies",
+          "security"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Security",
+        "assignment_details": {
+          "full_reasoning": "Deep expertise in Express.js middleware, npm/yarn dependency management, security tooling, and CI/CD (OSSF Scorecard). Direct evidence of security-focused dependency updates (CVE-related) and Express.js ecosystem compatibility reviews.",
+          "strengths_alignment": [
+            "Express.js middleware design (primary framework)",
+            "npm/yarn dependency management (direct skill match)",
+            "Security tooling and dependency bumping (CVE-2025-7339 relevance)",
+            "CI/CD pipeline impact (OSSF Scorecard action approvals)",
+            "Dependency upgrades with security focus (e.g., 'qs@^6.14.0' PR)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 28 PRs reviewed, 31 total reviews, and explicit security/dependency management experience in Express.js ecosystem.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6679,
+      "pr_title": "build(deps-dev): bump morgan from 1.10.0 to 1.10.1",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "assigned_reviewer": "Phillip9587",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.92,
+          "reasoning": "Strongest overlap in dependency management (npm, semver, security tooling) and security-focused dependency reviews. Approved security-related dependency bumps (e.g., 'qs@^6.14.0') and demonstrated expertise in dependency security and versioning.",
+          "strengths_alignment": [
+            "npm package management (dependency bump approvals, security tooling)",
+            "dependency security (approved security-focused dependency updates)",
+            "Express.js middleware and dependency management",
+            "semantic versioning and release process knowledge"
+          ],
+          "review_experience": "Senior-level reviewer with 28 PRs reviewed, 31 total reviews, and explicit evidence of security-focused dependency management (e.g., 'qs@^6.14.0' bump approval).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.88,
+          "reasoning": "Deep expertise in dependency management (npm, Dependabot, semantic versioning) and security-related CI debugging. Reviewed dependency updates and demonstrated awareness of transitive dependency risks.",
+          "strengths_alignment": [
+            "npm package management (dependency updates, CI failure resolution)",
+            "dependency security (CI debugging for dependency updates)",
+            "Express.js internals and HTTP response handling",
+            "Dependency management and security tooling integration"
+          ],
+          "review_experience": "Senior-level reviewer with 60 PRs reviewed, 83 total reviews, and explicit evidence of CI debugging for dependency updates (PRs #6–7).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "inigomarquinez",
+          "match_score": 0.85,
+          "reasoning": "Specialized expertise in dependency management (npm/yarn/pnpm, semver, dependency security) and CI/CD automation. Strong evidence of dependency vulnerability scanning and security-focused reviews.",
+          "strengths_alignment": [
+            "npm/yarn/pnpm dependency management (semver upgrades, lockfile management)",
+            "dependency security (dependency vulnerability scanning, Dependabot integration)",
+            "GitHub Actions and CI pipeline improvements",
+            "Security-focused dependency reviews"
+          ],
+          "review_experience": "Mid-level reviewer with 4 PRs reviewed, 4 total reviews, and explicit evidence of dependency security and CI/CD tooling (e.g., 'Add Dependency Review Action').",
+          "potential_concerns": "Lower review activity (only 4 PRs reviewed) compared to top choices"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest overlap in dependency management (npm, semver, security tooling) and security-focused dependency reviews. Approved security-related dependency bumps (e.g., 'qs@^6.14.0') and demonstrated expertise in dependency security and versioning.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6679",
+      "reviewer_strengths": [
+        "npm package management (dependency bump approvals, security tooling)",
+        "dependency security (approved security-focused dependency updates)",
+        "Express.js middleware and dependency management"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 28 PRs reviewed, 31 total reviews, and explicit evidence of security-focused dependency management (e.g., 'qs@^6.14.0' bump approval).",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "npm package management",
+          "dependency security"
+        ],
+        "review_expertise_areas": [
+          "dependencies",
+          "security"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Security",
+        "assignment_details": {
+          "full_reasoning": "Strongest overlap in dependency management (npm, semver, security tooling) and security-focused dependency reviews. Approved security-related dependency bumps (e.g., 'qs@^6.14.0') and demonstrated expertise in dependency security and versioning.",
+          "strengths_alignment": [
+            "npm package management (dependency bump approvals, security tooling)",
+            "dependency security (approved security-focused dependency updates)",
+            "Express.js middleware and dependency management",
+            "semantic versioning and release process knowledge"
+          ],
+          "review_experience_details": "Senior-level reviewer with 28 PRs reviewed, 31 total reviews, and explicit evidence of security-focused dependency management (e.g., 'qs@^6.14.0' bump approval).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6699,
+      "pr_title": "fix: throw generic error for missing required arguments",
+      "pr_author": "shivarm",
+      "pr_state": "closed",
+      "assigned_reviewer": "bjohansebas",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.92,
+          "reasoning": "Strongest match for backend/Express.js error handling and validation logic. Direct evidence of Express.js middleware, async/await, and error-throwing pattern expertise. Reviewed similar PRs with focus on correctness and consistency.",
+          "strengths_alignment": [
+            "Express.js middleware expertise (Top Identified Skills)",
+            "Async I/O elimination and Promises (directly relevant to argument validation)",
+            "Reviewed Express.js PRs with error handling and HTTP response focus",
+            "Consistent LGTM approvals with constructive feedback on code quality"
+          ],
+          "review_experience": "Senior-level reviewer with 107 reviews, 72 PRs approved, and 41 comments. Demonstrates deep technical depth in Express.js internals and JavaScript backend patterns.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ctcpip",
+          "match_score": 0.88,
+          "reasoning": "Senior-level Express.js reviewer with deep expertise in backend frameworks, response handling, and testing. Strong evidence of error handling and consistency reviews, though slightly less direct than bjohansebas.",
+          "strengths_alignment": [
+            "Express.js middleware & response handling (Top Identified Skills)",
+            "Node.js version compatibility and runtime internals (relevant to argument validation)",
+            "Reviewed Express.js PRs with focus on HTTP status codes and deprecation strategies (error handling)",
+            "Test-driven development and CI/CD pipeline configuration (consistency with existing patterns)"
+          ],
+          "review_experience": "Senior-level reviewer with 18 reviews, 13 PRs approved, and 6 comments. Demonstrates strong technical depth in Express.js internals and testing practices.",
+          "potential_concerns": "Fewer comments (6) compared to bjohansebas, but still highly relevant."
+        },
+        {
+          "reviewer_name": "shivarm",
+          "match_score": 0.85,
+          "reasoning": "Mid-level reviewer with specialized expertise in Express.js middleware, argument validation, and deprecation messaging. Strong evidence of error handling and consistency reviews, though less senior than top choices.",
+          "strengths_alignment": [
+            "Express.js middleware and res.redirect (directly relevant to argument validation)",
+            "Validation feedback and deprecation messaging (error handling logic correctness)",
+            "Reviewed Express.js PRs with focus on argument validation and consistency",
+            "Dependency management and CI/CD awareness (consistency with existing patterns)"
+          ],
+          "review_experience": "Mid-level reviewer with 9 reviews, 5 PRs approved, and 6 comments. Demonstrates strong technical depth in Express.js backend development and validation patterns.",
+          "potential_concerns": "Mid-level experience; fewer reviews than top choices but highly relevant for argument validation and error handling."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest match for backend/Express.js error handling and validation logic. Direct evidence of Express.js middleware, async/await, and error-throwing pattern expertise. Reviewed similar PRs with focus on correctness and consistency.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6699",
+      "reviewer_strengths": [
+        "Express.js middleware expertise (Top Identified Skills)",
+        "Async I/O elimination and Promises (directly relevant to argument validation)",
+        "Reviewed Express.js PRs with error handling and HTTP response focus"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 107 reviews, 72 PRs approved, and 41 comments. Demonstrates deep technical depth in Express.js internals and JavaScript backend patterns.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "backend"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest match for backend/Express.js error handling and validation logic. Direct evidence of Express.js middleware, async/await, and error-throwing pattern expertise. Reviewed similar PRs with focus on correctness and consistency.",
+          "strengths_alignment": [
+            "Express.js middleware expertise (Top Identified Skills)",
+            "Async I/O elimination and Promises (directly relevant to argument validation)",
+            "Reviewed Express.js PRs with error handling and HTTP response focus",
+            "Consistent LGTM approvals with constructive feedback on code quality"
+          ],
+          "review_experience_details": "Senior-level reviewer with 107 reviews, 72 PRs approved, and 41 comments. Demonstrates deep technical depth in Express.js internals and JavaScript backend patterns.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6701,
+      "pr_title": "Ensure all servers are closed",
+      "pr_author": "Kuldeep-Sahoo",
+      "pr_state": "closed",
+      "assigned_reviewer": "bjohansebas",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.92,
+          "reasoning": "Senior-level JavaScript developer with deep Express.js backend expertise, including async I/O optimizations, resource handling, and server lifecycle awareness. Strong evidence of reviewing resource cleanup and potential leak patterns in similar PRs (e.g., async I/O elimination).",
+          "strengths_alignment": [
+            "Express.js backend development with focus on async I/O elimination (directly relevant to resource cleanup)",
+            "Reviewed PRs demonstrating server lifecycle management (e.g., 'Resolve paths for views asynchronously')",
+            "Consistent LGTM approvals with constructive feedback on code quality and potential leaks"
+          ],
+          "review_experience": "107 reviews, 41 comments, 72 PRs reviewed (high activity and engagement). Senior-level experience with proven track record in backend JavaScript.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ctcpip",
+          "match_score": 0.88,
+          "reasoning": "Senior-level reviewer with deep Express.js internals knowledge, including Node.js runtime and server lifecycle management. Reviewed PRs focused on response handling and test-driven development, which aligns with resource cleanup and leak detection.",
+          "strengths_alignment": [
+            "Express.js middleware & response handling (directly relevant to server lifecycle and resource cleanup)",
+            "Node.js runtime internals expertise (potential leak detection)",
+            "Test-driven development and CI/CD awareness (resource management context)"
+          ],
+          "review_experience": "18 reviews, 6 comments, 13 PRs reviewed (strong technical depth but lower activity than bjohansebas).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with extensive Express.js internals knowledge, including HTTP response handling and CI debugging. Strong evidence of reviewing resource cleanup and server lifecycle patterns (e.g., deprecation warnings, CI failure resolution).",
+          "strengths_alignment": [
+            "Express.js internals and HTTP response handling (directly relevant to resource cleanup)",
+            "Testing and CI debugging (resource management context)",
+            "Code refactoring and readability improvements (potential leak detection)"
+          ],
+          "review_experience": "83 reviews, 35 comments, 60 PRs reviewed (high activity and engagement). Senior-level experience with proven track record in backend JavaScript.",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level JavaScript developer with deep Express.js backend expertise, including async I/O optimizations, resource handling, and server lifecycle awareness. Strong evidence of reviewing resource cleanup and potential leak patterns in similar PRs (e.g., async I/O elimination).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6701",
+      "reviewer_strengths": [
+        "Express.js backend development with focus on async I/O elimination (directly relevant to resource cleanup)",
+        "Reviewed PRs demonstrating server lifecycle management (e.g., 'Resolve paths for views asynchronously')",
+        "Consistent LGTM approvals with constructive feedback on code quality and potential leaks"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "107 reviews, 41 comments, 72 PRs reviewed (high activity and engagement). Senior-level experience with proven track record in backend JavaScript.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "backend"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior-level JavaScript developer with deep Express.js backend expertise, including async I/O optimizations, resource handling, and server lifecycle awareness. Strong evidence of reviewing resource cleanup and potential leak patterns in similar PRs (e.g., async I/O elimination).",
+          "strengths_alignment": [
+            "Express.js backend development with focus on async I/O elimination (directly relevant to resource cleanup)",
+            "Reviewed PRs demonstrating server lifecycle management (e.g., 'Resolve paths for views asynchronously')",
+            "Consistent LGTM approvals with constructive feedback on code quality and potential leaks"
+          ],
+          "review_experience_details": "107 reviews, 41 comments, 72 PRs reviewed (high activity and engagement). Senior-level experience with proven track record in backend JavaScript.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6703,
+      "pr_title": "test: enhance req.is() tests with additional cases",
+      "pr_author": "bjohansebas",
+      "pr_state": "open",
+      "assigned_reviewer": "UlisesGascon",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.92,
+          "reasoning": "Strongest overlap in testing expertise (Mocha/Supertest) and documentation (HISTORY.md updates) with direct evidence of array/ES6+ pattern reviews and similar PRs (#6386, #6476).",
+          "strengths_alignment": [
+            "Testing: Mocha/Supertest, test suite improvements (direct match to 'Testing' expertise)",
+            "Documentation: HISTORY.md updates (direct match to 'Documentation' expertise)",
+            "Array methods/ES6+ syntax (direct match to 'req.is() API behavior with array arguments')",
+            "Reviewed similar test-coverage PRs (#6386, #6476) with 3/2 reviewers respectively"
+          ],
+          "review_experience": "Senior with 65 reviews, 57 PRs, and 10 comments. Active in Express.js internals and testing.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.88,
+          "reasoning": "Deep Express.js internals expertise with testing (Jest-like patterns) and array/HTTP response handling. Reviewed similar test-coverage PRs (#6386, #6476) and has CI/test coverage analysis experience.",
+          "strengths_alignment": [
+            "Testing: CI failure resolution, test coverage analysis (direct match to 'Testing' expertise)",
+            "Array methods: Refactored `normalizeTypes` using `Array.map` (direct match to array argument handling)",
+            "HTTP response handling: `res.redirect()` modifications (relevant to API behavior)",
+            "Reviewed #6386 (#6476) for test coverage (similar PRs)"
+          ],
+          "review_experience": "Senior with 83 reviews, 60 PRs, and 35 comments. Highly active in Express.js internals and testing.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.78,
+          "reasoning": "Senior Express.js developer with testing expertise (test coverage, TDD) but weaker documentation evidence. Reviewed similar PRs (#6386, #6476) and has async/array pattern experience.",
+          "strengths_alignment": [
+            "Testing: Test coverage, TDD (direct match to 'Testing' expertise)",
+            "Array methods: Spread/rest operator usage (relevant to array arguments)",
+            "Reviewed #6386 (#6476) for test coverage (similar PRs)",
+            "Express.js internals: Async I/O elimination (relevant to API behavior)"
+          ],
+          "review_experience": "Senior with 107 reviews, 72 PRs, and 41 comments. Strong in Express.js backend and testing.",
+          "potential_concerns": "Weaker documentation evidence (no explicit 'Documentation' skill evidence)."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest overlap in testing expertise (Mocha/Supertest) and documentation (HISTORY.md updates) with direct evidence of array/ES6+ pattern reviews and similar PRs (#6386, #6476).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 4,
+      "pr_url": "https://github.com/expressjs/express/pull/6703",
+      "reviewer_strengths": [
+        "Testing: Mocha/Supertest, test suite improvements (direct match to 'Testing' expertise)",
+        "Documentation: HISTORY.md updates (direct match to 'Documentation' expertise)",
+        "Array methods/ES6+ syntax (direct match to 'req.is() API behavior with array arguments')"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior with 65 reviews, 57 PRs, and 10 comments. Active in Express.js internals and testing.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing",
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strongest overlap in testing expertise (Mocha/Supertest) and documentation (HISTORY.md updates) with direct evidence of array/ES6+ pattern reviews and similar PRs (#6386, #6476).",
+          "strengths_alignment": [
+            "Testing: Mocha/Supertest, test suite improvements (direct match to 'Testing' expertise)",
+            "Documentation: HISTORY.md updates (direct match to 'Documentation' expertise)",
+            "Array methods/ES6+ syntax (direct match to 'req.is() API behavior with array arguments')",
+            "Reviewed similar test-coverage PRs (#6386, #6476) with 3/2 reviewers respectively"
+          ],
+          "review_experience_details": "Senior with 65 reviews, 57 PRs, and 10 comments. Active in Express.js internals and testing.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6705,
+      "pr_title": "lib: use req.socket over deprecated req.connection",
+      "pr_author": "bjohansebas",
+      "pr_state": "closed",
+      "assigned_reviewer": "ctcpip",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "ctcpip",
+          "match_score": 0.92,
+          "reasoning": "Deep expertise in Express.js internals, Node.js runtime, and HTTP request/response handling with direct evidence of reviewing `req.connection`/`req.socket` patterns and deprecation impacts. Strongest skill overlap for `req.socket` correctness and runtime deprecation focus.",
+          "strengths_alignment": [
+            "Express.js middleware & response handling (top skill)",
+            "Node.js runtime internals (direct evidence)",
+            "Deprecation management & backward compatibility (skill evidence)",
+            "Reviewed Express.js versioning and backporting (relevant for API compatibility)"
+          ],
+          "review_experience": "Senior-level reviewer with 18 reviews, 6 comments, and 13 PRs reviewed. Demonstrates consistent technical depth in Express.js and Node.js internals.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.88,
+          "reasoning": "Senior Express.js expert with strong evidence of reviewing HTTP/response internals and async I/O optimizations. Less direct evidence for `req.socket`/`req.connection` but deep Express.js middleware knowledge. Similar-review relevance via past collaboration on Express internals.",
+          "strengths_alignment": [
+            "Express.js backend development (top skill)",
+            "Node.js middleware (direct evidence)",
+            "Async I/O elimination (relevant for runtime patterns)",
+            "HTTP response handling (skill evidence)"
+          ],
+          "review_experience": "Senior-level reviewer with 107 reviews, 41 comments, and 72 PRs reviewed. High activity and constructive feedback in Express.js internals.",
+          "potential_concerns": "No explicit evidence of reviewing `req.socket`/`req.connection` replacements"
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.85,
+          "reasoning": "Senior Express.js reviewer with deep HTTP response handling expertise and deprecation awareness. Strong evidence of reviewing `res.redirect()` and deprecation warnings, though less direct for `req.socket` internals. High activity and reliability.",
+          "strengths_alignment": [
+            "Express.js internals (top skill)",
+            "HTTP response handling (direct evidence)",
+            "Deprecation warnings (relevant for runtime deprecation)",
+            "Middleware and file serving (skill evidence)"
+          ],
+          "review_experience": "Senior-level reviewer with 83 reviews, 35 comments, and 60 PRs reviewed. Highest activity among top candidates with rigorous testing practices.",
+          "potential_concerns": "No explicit evidence of reviewing `req.connection`/`req.socket` replacements"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Deep expertise in Express.js internals, Node.js runtime, and HTTP request/response handling with direct evidence of reviewing `req.connection`/`req.socket` patterns and deprecation impacts. Strongest skill overlap for `req.socket` correctness and runtime deprecation focus.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6705",
+      "reviewer_strengths": [
+        "Express.js middleware & response handling (top skill)",
+        "Node.js runtime internals (direct evidence)",
+        "Deprecation management & backward compatibility (skill evidence)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 18 reviews, 6 comments, and 13 PRs reviewed. Demonstrates consistent technical depth in Express.js and Node.js internals.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "Node.js HTTP server internals",
+          "Express.js request object API"
+        ],
+        "review_expertise_areas": [
+          "Backend"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Deep expertise in Express.js internals, Node.js runtime, and HTTP request/response handling with direct evidence of reviewing `req.connection`/`req.socket` patterns and deprecation impacts. Strongest skill overlap for `req.socket` correctness and runtime deprecation focus.",
+          "strengths_alignment": [
+            "Express.js middleware & response handling (top skill)",
+            "Node.js runtime internals (direct evidence)",
+            "Deprecation management & backward compatibility (skill evidence)",
+            "Reviewed Express.js versioning and backporting (relevant for API compatibility)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 18 reviews, 6 comments, and 13 PRs reviewed. Demonstrates consistent technical depth in Express.js and Node.js internals.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6718,
+      "pr_title": "doc: update express app example",
+      "pr_author": "shivarm",
+      "pr_state": "closed",
+      "assigned_reviewer": "Hardanish-Singh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Hardanish-Singh",
+          "match_score": 0.92,
+          "reasoning": "Strong documentation expertise with direct evidence of security documentation updates and CONTRIBUTING.md maintenance. Reviewed purely documentation-focused PRs with no code changes, matching the 'documentation accuracy' and 'example correctness' focus. Senior-level experience with clear evidence of documentation governance.",
+          "strengths_alignment": [
+            "Security documentation updates (e.g., 'docs(security): bring change of https:' PR)",
+            "CONTRIBUTING.md maintenance (explicit in skill evidence)",
+            "No code changes in reviewed PRs (pure documentation focus)",
+            "Senior-level experience with 9 reviews and 0 comments (consistent approvals)"
+          ],
+          "review_experience": "Senior-level reviewer with 9 PRs reviewed, all documentation-focused (no JavaScript code changes). Demonstrated authority in security documentation and process documentation.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ShubhamOulkar",
+          "match_score": 0.88,
+          "reasoning": "Mid-level reviewer with clear documentation expertise, including CONTRIBUTING.md and Code of Conduct updates. Reviewed Express documentation changes with authority (approved PRs). Strong alignment with 'documentation accuracy' and 'example correctness' needs.",
+          "strengths_alignment": [
+            "Contributing guidelines updates (e.g., 'Updated app.listen() in Express example')",
+            "Code of Conduct documentation (explicit skill)",
+            "Approved Express documentation changes (implies technical validation)",
+            "Mid-level expertise with 4 reviews and 3 comments (consistent engagement)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 PRs reviewed, all documentation-focused (e.g., CONTRIBUTING.md, Code of Conduct). Approved Express documentation changes with clear evidence of technical understanding.",
+          "potential_concerns": "Lower review volume (4 PRs) compared to top choice"
+        },
+        {
+          "reviewer_name": "sheplu",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with documentation governance experience (e.g., 'Move documentation to the Admin repository'). Strong dependency on documentation organization and process. Less direct evidence of 'example correctness' but aligns with 'documentation accuracy'.",
+          "strengths_alignment": [
+            "Documentation organization (e.g., 'Move documentation to the Admin repository' PR)",
+            "Documentation governance (repo captain roles, package.json metadata)",
+            "Senior-level experience with 7 reviews and 2 comments (consistent engagement)",
+            "Semantic versioning and dependency management (indirect documentation relevance)"
+          ],
+          "review_experience": "Senior-level reviewer with 7 PRs reviewed, including documentation restructuring and governance. Demonstrated authority in documentation processes but less direct evidence of 'example correctness'.",
+          "potential_concerns": "Less direct evidence of 'example correctness' focus (e.g., no explicit examples reviewed)"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strong documentation expertise with direct evidence of security documentation updates and CONTRIBUTING.md maintenance. Reviewed purely documentation-focused PRs with no code changes, matching the 'documentation accuracy' and 'example correctness' focus. Senior-level experience with clear evidence of documentation governance.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6718",
+      "reviewer_strengths": [
+        "Security documentation updates (e.g., 'docs(security): bring change of https:' PR)",
+        "CONTRIBUTING.md maintenance (explicit in skill evidence)",
+        "No code changes in reviewed PRs (pure documentation focus)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 9 PRs reviewed, all documentation-focused (no JavaScript code changes). Demonstrated authority in security documentation and process documentation.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Strong documentation expertise with direct evidence of security documentation updates and CONTRIBUTING.md maintenance. Reviewed purely documentation-focused PRs with no code changes, matching the 'documentation accuracy' and 'example correctness' focus. Senior-level experience with clear evidence of documentation governance.",
+          "strengths_alignment": [
+            "Security documentation updates (e.g., 'docs(security): bring change of https:' PR)",
+            "CONTRIBUTING.md maintenance (explicit in skill evidence)",
+            "No code changes in reviewed PRs (pure documentation focus)",
+            "Senior-level experience with 9 reviews and 0 comments (consistent approvals)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 9 PRs reviewed, all documentation-focused (no JavaScript code changes). Demonstrated authority in security documentation and process documentation.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6729,
+      "pr_title": "Update Readme.md",
+      "pr_author": "AyushGupta30091",
+      "pr_state": "closed",
+      "assigned_reviewer": "Hardanish-Singh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Hardanish-Singh",
+          "match_score": 0.92,
+          "reasoning": "Strong documentation expertise with explicit focus on CONTRIBUTING.md, security documentation, and process policies. Reviewed similar PRs (e.g., security docs) and has clear evidence of documentation-only contributions without code changes.",
+          "strengths_alignment": [
+            "Security documentation updates (docs(security): bring change of https:)",
+            "CONTRIBUTING.md maintenance (explicit in skill evidence)",
+            "Process documentation (policy enforcement, linting rules)",
+            "Readme.md link validation (similar review #6610)"
+          ],
+          "review_experience": "Senior-level reviewer with 9 PRs reviewed, 0 comments (focused approvals), and explicit documentation specialization in Express.js ecosystem.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ShubhamOulkar",
+          "match_score": 0.88,
+          "reasoning": "Mid-level reviewer with strong documentation and process expertise, including CONTRIBUTING.md and Code of Conduct updates. Approved Express-related documentation PRs with authority.",
+          "strengths_alignment": [
+            "CONTRIBUTING.md and CODE_OF_CONDUCT.md updates (evidence in skill evidence)",
+            "GitHub PR workflows and documentation organization",
+            "Approved Express documentation changes (explicit in summary)",
+            "Readme.md link updates (similar to PR requirements)"
+          ],
+          "review_experience": "Mid-level reviewer with 9 PRs reviewed, 3 comments, and explicit documentation process improvements in Express.js.",
+          "potential_concerns": "Lower review activity (4 PRs reviewed) compared to top choice."
+        },
+        {
+          "reviewer_name": "RaginiSharma01",
+          "match_score": 0.85,
+          "reasoning": "Junior reviewer with explicit focus on CONTRIBUTING.md, CODE_OF_CONDUCT.md, and Markdown formatting. Limited review activity but direct evidence of documentation-only contributions.",
+          "strengths_alignment": [
+            "CONTRIBUTING.md and CODE_OF_CONDUCT.md updates (evidence in skill evidence)",
+            "Markdown formatting and link updates (direct match to PR requirements)",
+            "File deletion and link updates (process documentation alignment)"
+          ],
+          "review_experience": "Junior-level reviewer with 2 PRs reviewed, 0 comments, and sole focus on documentation files (no JavaScript involvement).",
+          "potential_concerns": "Low review activity (2 PRs) and junior experience; lacks similar-review evidence."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strong documentation expertise with explicit focus on CONTRIBUTING.md, security documentation, and process policies. Reviewed similar PRs (e.g., security docs) and has clear evidence of documentation-only contributions without code changes.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6729",
+      "reviewer_strengths": [
+        "Security documentation updates (docs(security): bring change of https:)",
+        "CONTRIBUTING.md maintenance (explicit in skill evidence)",
+        "Process documentation (policy enforcement, linting rules)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 9 PRs reviewed, 0 comments (focused approvals), and explicit documentation specialization in Express.js ecosystem.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Strong documentation expertise with explicit focus on CONTRIBUTING.md, security documentation, and process policies. Reviewed similar PRs (e.g., security docs) and has clear evidence of documentation-only contributions without code changes.",
+          "strengths_alignment": [
+            "Security documentation updates (docs(security): bring change of https:)",
+            "CONTRIBUTING.md maintenance (explicit in skill evidence)",
+            "Process documentation (policy enforcement, linting rules)",
+            "Readme.md link validation (similar review #6610)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 9 PRs reviewed, 0 comments (focused approvals), and explicit documentation specialization in Express.js ecosystem.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6740,
+      "pr_title": "ci: use github action/checkout@v5",
+      "pr_author": "shivarm",
+      "pr_state": "closed",
+      "assigned_reviewer": "inigomarquinez",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "inigomarquinez",
+          "match_score": 0.92,
+          "reasoning": "Direct evidence of GitHub Actions expertise with CI/CD pipeline improvements, workflow optimization, and action versioning. Strong alignment with dependency checkout version focus and low-complexity PR requirements.",
+          "strengths_alignment": [
+            "GitHub Actions workflow optimization (skill_evidence: 'PR titled Add Dependency Review Action', 'comment: Added suggestions for latest versions of pinned GitHub actions')",
+            "CI/CD pipeline improvements (skill_evidence: 'PR titled Add dependabot', 'workflow optimization')",
+            "Dependency management (skill_evidence: 'semver upgrades, dependency security, Dependabot integration')"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 5 comments, and 3 PRs reviewed. Demonstrates consistent engagement in CI/CD and GitHub Actions.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.88,
+          "reasoning": "Strong GitHub Actions and CI/CD expertise with explicit mention of GitHub Actions workflows and dependency management. Reviewed similar CI-related PRs (#6314, #6323) and demonstrated action versioning knowledge.",
+          "strengths_alignment": [
+            "GitHub Actions & CI/CD (skill_evidence: 'GitHub Actions, codeql-action, ossf/scorecard-action, CI/CD Optimization')",
+            "Dependency bumping and security tooling (skill_evidence: 'Added check to support Uint8Array in response sending', 'qs@^6.14.0 dependency bump')",
+            "Reviewed similar CI workflow updates (similar_review_relevance: PR #6314, #6323)"
+          ],
+          "review_experience": "Senior-level reviewer with 31 reviews, 2 comments, and 28 PRs reviewed. High activity in CI/CD and GitHub Actions.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "shivarm",
+          "match_score": 0.82,
+          "reasoning": "Mid-level reviewer with GitHub Actions awareness and dependency management skills, though less direct evidence than top two. Demonstrated CI trigger logic and package manager tooling knowledge.",
+          "strengths_alignment": [
+            "GitHub Actions (skill_evidence: 'CI trigger logic', 'GitHub Actions awareness')",
+            "Dependency management (skill_evidence: 'yarn.lock, npm/pnpm conflicts, Dependabot PRs')",
+            "Comment: 'But CI is mostly related to node.js so why we need this or why should we run CI for markdown files changes?' (CI/CD awareness)"
+          ],
+          "review_experience": "Mid-level reviewer with 9 reviews, 6 comments, and 5 PRs reviewed. Demonstrates CI/CD and GitHub Actions familiarity.",
+          "potential_concerns": "Less direct evidence of GitHub Actions workflows than top two reviewers"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Direct evidence of GitHub Actions expertise with CI/CD pipeline improvements, workflow optimization, and action versioning. Strong alignment with dependency checkout version focus and low-complexity PR requirements.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6740",
+      "reviewer_strengths": [
+        "GitHub Actions workflow optimization (skill_evidence: 'PR titled Add Dependency Review Action', 'comment: Added suggestions for latest versions of pinned GitHub actions')",
+        "CI/CD pipeline improvements (skill_evidence: 'PR titled Add dependabot', 'workflow optimization')",
+        "Dependency management (skill_evidence: 'semver upgrades, dependency security, Dependabot integration')"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Mid-level reviewer with 4 reviews, 5 comments, and 3 PRs reviewed. Demonstrates consistent engagement in CI/CD and GitHub Actions.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "GitHub Actions",
+          "GitHub Actions workflows"
+        ],
+        "review_expertise_areas": [
+          "CI/CD"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Direct evidence of GitHub Actions expertise with CI/CD pipeline improvements, workflow optimization, and action versioning. Strong alignment with dependency checkout version focus and low-complexity PR requirements.",
+          "strengths_alignment": [
+            "GitHub Actions workflow optimization (skill_evidence: 'PR titled Add Dependency Review Action', 'comment: Added suggestions for latest versions of pinned GitHub actions')",
+            "CI/CD pipeline improvements (skill_evidence: 'PR titled Add dependabot', 'workflow optimization')",
+            "Dependency management (skill_evidence: 'semver upgrades, dependency security, Dependabot integration')"
+          ],
+          "review_experience_details": "Mid-level reviewer with 4 reviews, 5 comments, and 3 PRs reviewed. Demonstrates consistent engagement in CI/CD and GitHub Actions.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6742,
+      "pr_title": "feat: dump bodies of get/head reqs",
+      "pr_author": "O4FDev",
+      "pr_state": "open",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior-level reviewer with deep Express.js internals expertise, rigorous testing practices, and strong code quality focus. Demonstrated mastery of modern JavaScript patterns, CI debugging, and framework-specific optimizations. High review activity and consistent approvals align with low-complexity code quality needs.",
+          "strengths_alignment": [
+            "Express.js internals (middleware, HTTP response handling, file serving)",
+            "Modern JavaScript patterns (ES6+, Array methods, function simplification)",
+            "Testing & CI debugging (test coverage analysis, Jest-like patterns)",
+            "Code refactoring and readability improvements",
+            "Consistent approvals for Express-related PRs"
+          ],
+          "review_experience": "83 reviews, 60 PRs reviewed, 35 comments. High activity with constructive feedback and architectural considerations.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.88,
+          "reasoning": "Senior-level reviewer with deep Express.js internals expertise, modern JavaScript mastery, and strong code quality focus. Demonstrated refactoring skills, dependency management, and testing practices. High review activity and consistent approvals align with low-complexity code quality needs.",
+          "strengths_alignment": [
+            "Express.js internals (refactoring, deprecation handling)",
+            "Modern JavaScript (ES6+ syntax, spread operator, array methods)",
+            "Testing (Mocha, Supertest, test suite improvements)",
+            "Dependency management (npm/yarn, Dependabot, semantic versioning)",
+            "Code refactoring and backward compatibility"
+          ],
+          "review_experience": "65 reviews, 57 PRs reviewed, 10 comments. High activity with strong review judgment and constructive feedback.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with deep Express.js expertise, specializing in asynchronous I/O optimizations, clean code refactoring, and HTTP response improvements. Strong technical depth in backend development aligns with low-complexity code quality needs, though slightly lower review activity than top choices.",
+          "strengths_alignment": [
+            "Express.js backend development (async I/O elimination, middleware)",
+            "Modern JavaScript (Promises, async/await, spread/rest operator)",
+            "Code refactoring and optimization (legacy code modernization)",
+            "HTTP response handling and headers (Link headers, redirects)",
+            "Testing and test-driven development"
+          ],
+          "review_experience": "107 reviews, 72 PRs reviewed, 41 comments. High review activity with consistent positive approvals.",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level reviewer with deep Express.js internals expertise, rigorous testing practices, and strong code quality focus. Demonstrated mastery of modern JavaScript patterns, CI debugging, and framework-specific optimizations. High review activity and consistent approvals align with low-complexity code quality needs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 2,
+      "pr_url": "https://github.com/expressjs/express/pull/6742",
+      "reviewer_strengths": [
+        "Express.js internals (middleware, HTTP response handling, file serving)",
+        "Modern JavaScript patterns (ES6+, Array methods, function simplification)",
+        "Testing & CI debugging (test coverage analysis, Jest-like patterns)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "83 reviews, 60 PRs reviewed, 35 comments. High activity with constructive feedback and architectural considerations.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with deep Express.js internals expertise, rigorous testing practices, and strong code quality focus. Demonstrated mastery of modern JavaScript patterns, CI debugging, and framework-specific optimizations. High review activity and consistent approvals align with low-complexity code quality needs.",
+          "strengths_alignment": [
+            "Express.js internals (middleware, HTTP response handling, file serving)",
+            "Modern JavaScript patterns (ES6+, Array methods, function simplification)",
+            "Testing & CI debugging (test coverage analysis, Jest-like patterns)",
+            "Code refactoring and readability improvements",
+            "Consistent approvals for Express-related PRs"
+          ],
+          "review_experience_details": "83 reviews, 60 PRs reviewed, 35 comments. High activity with constructive feedback and architectural considerations.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6754,
+      "pr_title": "feat: add express.asyncHandler helper for async route support",
+      "pr_author": "macjik",
+      "pr_state": "closed",
+      "assigned_reviewer": "bjohansebas",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.92,
+          "reasoning": "Deep expertise in Express.js async/await, middleware, and route handler correctness with direct evidence of async I/O optimizations and error handling patterns. Strongest skill overlap and similar-review relevance.",
+          "strengths_alignment": [
+            "Express.js middleware and async I/O elimination (PR: 'Resolve paths for views asynchronously')",
+            "Async/await and Promises mastery (Top Identified Skills)",
+            "Reviewed Express.js route handler refactoring (PR: 'Refactor: simplify acceptsLanguages implementation')",
+            "Consistent LGTM approvals with constructive feedback on correctness"
+          ],
+          "review_experience": "Senior-level reviewer with 107 reviews, 72 PRs approved, and 41 comments. Demonstrates high activity consistency and deep technical depth in backend frameworks.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ctcpip",
+          "match_score": 0.88,
+          "reasoning": "Senior-level expertise in Express.js middleware, response handling, and async error patterns with direct evidence of route handler correctness and version-specific knowledge. Strong domain alignment and similar-review relevance.",
+          "strengths_alignment": [
+            "Express.js middleware and response handling (PR: 'feat(response): new setting strict status codes')",
+            "Async error handling and HTTP status code correctness (PR: 'req.back replaces #2692')",
+            "Express.js versioning (4.x/5.x) and backporting expertise",
+            "Test-driven development and integration testing for async systems"
+          ],
+          "review_experience": "Senior-level reviewer with 18 reviews, 13 PRs approved, and 6 comments. Demonstrates high technical depth in backend frameworks and testing.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.85,
+          "reasoning": "Senior-level expertise in Express.js internals, HTTP response handling, and async route correctness with strong evidence of middleware and error handling patterns. High activity consistency and domain alignment.",
+          "strengths_alignment": [
+            "Express.js internals and HTTP response handling (modified `res.redirect()` HTML structure)",
+            "Async route handler correctness (added deprecation warning for 'Referrer' special-casing)",
+            "Modern JavaScript patterns and code readability improvements",
+            "CI failure resolution and test coverage analysis for async systems"
+          ],
+          "review_experience": "Senior-level reviewer with 83 reviews, 60 PRs approved, and 35 comments. Demonstrates high activity consistency and rigorous testing practices.",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Deep expertise in Express.js async/await, middleware, and route handler correctness with direct evidence of async I/O optimizations and error handling patterns. Strongest skill overlap and similar-review relevance.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6754",
+      "reviewer_strengths": [
+        "Express.js middleware and async I/O elimination (PR: 'Resolve paths for views asynchronously')",
+        "Async/await and Promises mastery (Top Identified Skills)",
+        "Reviewed Express.js route handler refactoring (PR: 'Refactor: simplify acceptsLanguages implementation')"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 107 reviews, 72 PRs approved, and 41 comments. Demonstrates high activity consistency and deep technical depth in backend frameworks.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "backend"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Deep expertise in Express.js async/await, middleware, and route handler correctness with direct evidence of async I/O optimizations and error handling patterns. Strongest skill overlap and similar-review relevance.",
+          "strengths_alignment": [
+            "Express.js middleware and async I/O elimination (PR: 'Resolve paths for views asynchronously')",
+            "Async/await and Promises mastery (Top Identified Skills)",
+            "Reviewed Express.js route handler refactoring (PR: 'Refactor: simplify acceptsLanguages implementation')",
+            "Consistent LGTM approvals with constructive feedback on correctness"
+          ],
+          "review_experience_details": "Senior-level reviewer with 107 reviews, 72 PRs approved, and 41 comments. Demonstrates high activity consistency and deep technical depth in backend frameworks.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6758,
+      "pr_title": "Fix: Add type validation for sendStatus to prevent BigInt serialization error (#6756)",
+      "pr_author": "Vedant224",
+      "pr_state": "open",
+      "assigned_reviewer": "bjohansebas",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with deep Express.js internals expertise, including async I/O, response handling, and testing. Direct evidence of reviewing type validation logic and test coverage in similar PRs (e.g., async I/O optimizations, response middleware). Strongest skill overlap for JavaScript/Node.js/Express.js and testing expertise.",
+          "strengths_alignment": [
+            "Express.js internals (response handling, middleware)",
+            "Testing and test-driven development (TDD)",
+            "Type validation logic correctness (async/await, Promises)",
+            "Consistency with Express error handling patterns (refactoring expertise)",
+            "Edge case coverage (async I/O elimination, modern JS patterns)"
+          ],
+          "review_experience": "107 reviews, 72 PRs approved, 41 comments. Consistently reviews Express.js backend code with constructive feedback. Reviewed similar test coverage PRs (#6386, #6476) alongside UlisesGascon/wesleytodd.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ctcpip",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with deep Express.js response handling and testing expertise. Direct evidence of reviewing type validation logic (e.g., 'strict status codes') and test-driven development. Strong alignment with testing focus areas and edge case coverage.",
+          "strengths_alignment": [
+            "Express.js response handling (strict status codes, middleware)",
+            "Testing & TDD (test coverage improvements, test matrix management)",
+            "Edge case validation (response middleware, HTTP status codes)",
+            "Consistency with Express error handling patterns (backporting fixes)"
+          ],
+          "review_experience": "18 reviews, 13 PRs approved, 6 comments. Focused on Express.js internals, Node.js runtime, and testing. Reviewed similar CI/test matrix PRs (#6504) with bjohansebas.",
+          "potential_concerns": "Lower review volume than bjohansebas but strong technical depth in testing and response handling."
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with extensive Express.js internals experience, including HTTP response handling and testing. Reviewed similar test coverage PRs (#6386, #6476) and demonstrated CI debugging for JavaScript. Strong alignment with testing and edge case validation.",
+          "strengths_alignment": [
+            "Express.js internals (HTTP response handling, middleware)",
+            "Testing & CI debugging (test coverage analysis, Jest-like patterns)",
+            "Type validation logic (deprecation warnings, refactoring)",
+            "Consistency with Express error handling (deprecation strategy)"
+          ],
+          "review_experience": "83 reviews, 60 PRs approved, 35 comments. Highly active in Express.js backend development with rigorous testing practices. Reviewed test coverage PRs (#6386, #6476) alongside bjohansebas.",
+          "potential_concerns": "Less direct evidence of type validation logic than bjohansebas/ctcpip, but strong overall fit."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with deep Express.js internals expertise, including async I/O, response handling, and testing. Direct evidence of reviewing type validation logic and test coverage in similar PRs (e.g., async I/O optimizations, response middleware). Strongest skill overlap for JavaScript/Node.js/Express.js and testing expertise.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 3,
+      "pr_url": "https://github.com/expressjs/express/pull/6758",
+      "reviewer_strengths": [
+        "Express.js internals (response handling, middleware)",
+        "Testing and test-driven development (TDD)",
+        "Type validation logic correctness (async/await, Promises)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "107 reviews, 72 PRs approved, 41 comments. Consistently reviews Express.js backend code with constructive feedback. Reviewed similar test coverage PRs (#6386, #6476) alongside UlisesGascon/wesleytodd.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js",
+          "Express.js internals"
+        ],
+        "review_expertise_areas": [
+          "Backend",
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep Express.js internals expertise, including async I/O, response handling, and testing. Direct evidence of reviewing type validation logic and test coverage in similar PRs (e.g., async I/O optimizations, response middleware). Strongest skill overlap for JavaScript/Node.js/Express.js and testing expertise.",
+          "strengths_alignment": [
+            "Express.js internals (response handling, middleware)",
+            "Testing and test-driven development (TDD)",
+            "Type validation logic correctness (async/await, Promises)",
+            "Consistency with Express error handling patterns (refactoring expertise)",
+            "Edge case coverage (async I/O elimination, modern JS patterns)"
+          ],
+          "review_experience_details": "107 reviews, 72 PRs approved, 41 comments. Consistently reviews Express.js backend code with constructive feedback. Reviewed similar test coverage PRs (#6386, #6476) alongside UlisesGascon/wesleytodd.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6774,
+      "pr_title": "feat: add deprecation warnings for invalid sendStatus parameters to prepare for Express v6",
+      "pr_author": "Vedant224",
+      "pr_state": "open",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Deep Express.js internals expertise with direct evidence of deprecation warning systems, unit testing frameworks, and `sendStatus` validation patterns. Strongest skill overlap and similar-review relevance.",
+          "strengths_alignment": [
+            "Express.js internals (HTTP response handling, middleware)",
+            "Deprecation warning systems (added warning for 'Referrer' special-casing)",
+            "Testing & CI debugging (test coverage analysis, Jest-like patterns)",
+            "Unit testing frameworks (Jest-like patterns, CI failure resolution)",
+            "Backward compatibility validation (refactored `normalizeTypes` with modern JS)"
+          ],
+          "review_experience": "Senior with 83 reviews, 60 PRs, and 35 comments. High activity consistency and constructive feedback. Reviewed Express.js core features and deprecation strategies.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.88,
+          "reasoning": "Senior Express.js expert with direct evidence of deprecation handling, unit testing, and `depd` system alignment. Strong skill overlap and similar-review relevance (e.g., `utils.compileETag` testing).",
+          "strengths_alignment": [
+            "Express.js internals (deprecation handling, `depd` system)",
+            "Unit testing frameworks (Mocha, Supertest, test suite improvements)",
+            "Deprecation warnings (moved settings methods with deprecation)",
+            "Backward compatibility (refactored `acceptsLanguages` with spread operator)",
+            "Testing edge cases (similar PRs like `utils.compileETag` validation)"
+          ],
+          "review_experience": "Senior with 65 reviews, 57 PRs, and 10 comments. High activity consistency. Reviewed Express.js core features and deprecation strategies.",
+          "potential_concerns": "Less direct evidence of `sendStatus` validation than wesleytodd"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.82,
+          "reasoning": "Senior Express.js developer with strong async/await and middleware expertise. Evidence of deprecation management and testing, but less direct focus on `sendStatus` or `depd` systems than top choices.",
+          "strengths_alignment": [
+            "Express.js middleware & async I/O optimizations",
+            "Deprecation management (implied via async/await refactoring)",
+            "Testing & TDD (test coverage, linting, deprecation warnings)",
+            "Backend frameworks (Node.js middleware, Express internals)"
+          ],
+          "review_experience": "Senior with 107 reviews, 72 PRs, and 41 comments. High activity consistency. Reviewed Express.js core features and async patterns.",
+          "potential_concerns": "Less direct evidence of `depd` deprecation system or `sendStatus` validation than top choices"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Deep Express.js internals expertise with direct evidence of deprecation warning systems, unit testing frameworks, and `sendStatus` validation patterns. Strongest skill overlap and similar-review relevance.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6774",
+      "reviewer_strengths": [
+        "Express.js internals (HTTP response handling, middleware)",
+        "Deprecation warning systems (added warning for 'Referrer' special-casing)",
+        "Testing & CI debugging (test coverage analysis, Jest-like patterns)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior with 83 reviews, 60 PRs, and 35 comments. High activity consistency and constructive feedback. Reviewed Express.js core features and deprecation strategies.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js",
+          "Express.js internals",
+          "deprecation warning systems",
+          "unit testing frameworks"
+        ],
+        "review_expertise_areas": [
+          "Backend",
+          "Testing"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Deep Express.js internals expertise with direct evidence of deprecation warning systems, unit testing frameworks, and `sendStatus` validation patterns. Strongest skill overlap and similar-review relevance.",
+          "strengths_alignment": [
+            "Express.js internals (HTTP response handling, middleware)",
+            "Deprecation warning systems (added warning for 'Referrer' special-casing)",
+            "Testing & CI debugging (test coverage analysis, Jest-like patterns)",
+            "Unit testing frameworks (Jest-like patterns, CI failure resolution)",
+            "Backward compatibility validation (refactored `normalizeTypes` with modern JS)"
+          ],
+          "review_experience_details": "Senior with 83 reviews, 60 PRs, and 35 comments. High activity consistency and constructive feedback. Reviewed Express.js core features and deprecation strategies.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6780,
+      "pr_title": "Remove history.md from being packaged on publish",
+      "pr_author": "sheplu",
+      "pr_state": "closed",
+      "assigned_reviewer": "blakeembrey",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "blakeembrey",
+          "match_score": 0.92,
+          "reasoning": "Direct evidence of release expertise (approved 'Release: 4.21.1', 'Release: 5.0.1') and package size optimization (Typed Arrays, Uint8Array handling). Strong alignment with 'package build configuration' and 'published artifact contents' via low-level JS data handling.",
+          "strengths_alignment": [
+            "Release engineering expertise (approved 2 major releases)",
+            "Typed Arrays/Uint8Array handling for package size optimization",
+            "Express.js backend focus with response middleware knowledge",
+            "Semantic versioning and dependency updates"
+          ],
+          "review_experience": "Senior-level reviewer with 4 PRs reviewed, 0 comments (focused approvals), all in Express.js repositories. Demonstrates stability-focused reviews and release PR approvals.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.88,
+          "reasoning": "Strong release and dependency management expertise ('Release Notes', 'semver', 'dependency bumping'). Approved dependency updates with security focus, showing alignment with 'package build configuration' and 'published artifact contents'.",
+          "strengths_alignment": [
+            "Release process expertise (approved dependency bumps, release notes)",
+            "Dependency management and security tooling (npm, semver, Dependabot)",
+            "Express.js middleware and low-level HTTP handling (Uint8Array)",
+            "GitHub Actions & CI/CD optimization"
+          ],
+          "review_experience": "Senior-level reviewer with 28 PRs reviewed, 2 comments. Focused on Express.js dependency management and release-related PRs. Demonstrates careful review of breaking changes.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with deep Express.js internals knowledge and release-related PRs. Demonstrates modern JavaScript practices and dependency management, aligning with 'package size optimization' and 'published artifact contents'.",
+          "strengths_alignment": [
+            "Express.js internals and Node.js backend development",
+            "Modern JavaScript (ES6+) and dependency management",
+            "Release notes and process documentation",
+            "Test suite maintenance and CI/CD awareness"
+          ],
+          "review_experience": "Senior-level reviewer with 57 PRs reviewed, 10 comments. Strong focus on Express.js refactoring, dependency updates, and release-related PRs. Demonstrates rigorous review judgment.",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Direct evidence of release expertise (approved 'Release: 4.21.1', 'Release: 5.0.1') and package size optimization (Typed Arrays, Uint8Array handling). Strong alignment with 'package build configuration' and 'published artifact contents' via low-level JS data handling.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 6,
+      "pr_url": "https://github.com/expressjs/express/pull/6780",
+      "reviewer_strengths": [
+        "Release engineering expertise (approved 2 major releases)",
+        "Typed Arrays/Uint8Array handling for package size optimization",
+        "Express.js backend focus with response middleware knowledge"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 4 PRs reviewed, 0 comments (focused approvals), all in Express.js repositories. Demonstrates stability-focused reviews and release PR approvals.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "release"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Performance",
+        "assignment_details": {
+          "full_reasoning": "Direct evidence of release expertise (approved 'Release: 4.21.1', 'Release: 5.0.1') and package size optimization (Typed Arrays, Uint8Array handling). Strong alignment with 'package build configuration' and 'published artifact contents' via low-level JS data handling.",
+          "strengths_alignment": [
+            "Release engineering expertise (approved 2 major releases)",
+            "Typed Arrays/Uint8Array handling for package size optimization",
+            "Express.js backend focus with response middleware knowledge",
+            "Semantic versioning and dependency updates"
+          ],
+          "review_experience_details": "Senior-level reviewer with 4 PRs reviewed, 0 comments (focused approvals), all in Express.js repositories. Demonstrates stability-focused reviews and release PR approvals.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6793,
+      "pr_title": "build(deps): bump actions/download-artifact from 4.3.0 to 5.0.0",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "assigned_reviewer": null,
+      "top_3_reviewers": [],
+      "match_score": 0.0,
+      "assignment_reasoning": "No suitable reviewer found",
+      "assignment_confidence": "Low",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6793",
+      "reviewer_strengths": [],
+      "potential_concerns": "No reviewer could be matched to this PR",
+      "review_experience": "N/A",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "GitHub Actions",
+          "dependency management"
+        ],
+        "review_expertise_areas": [
+          "dependencies",
+          "github_actions"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "No suitable reviewer found",
+          "strengths_alignment": [],
+          "review_experience_details": "N/A",
+          "potential_limitations": "No reviewer could be matched to this PR"
+        }
+      }
+    },
+    {
+      "pr_number": 6794,
+      "pr_title": "build(deps): bump actions/setup-node from 4.4.0 to 5.0.0",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "assigned_reviewer": "UlisesGascon",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with direct evidence of GitHub Actions and actions/setup-node dependency management expertise, CI/CD focus, and breaking change awareness in Express.js ecosystem. Reviewed similar dependency upgrades and CI workflows in past PRs.",
+          "strengths_alignment": [
+            "actions/setup-node dependency upgrades (PR #6497)",
+            "GitHub Actions CI workflow expertise (PR #6314)",
+            "Express.js internals and dependency management",
+            "Breaking change awareness in v5.0.0+ releases"
+          ],
+          "review_experience": "65 reviews, 57 PRs approved; 10 comments; senior-level expertise in Express.js, Node.js, and CI/CD tooling.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with strong GitHub Actions and actions/setup-node dependency management experience, CI/CD focus, and breaking change handling. Reviewed similar dependency upgrades and CI workflows in past PRs.",
+          "strengths_alignment": [
+            "actions/setup-node dependency bumps (PR #6497)",
+            "GitHub Actions CI/CD optimization (PR #6314)",
+            "Dependency security and versioning expertise",
+            "Breaking change review for Express.js 5.0.0+"
+          ],
+          "review_experience": "31 reviews, 28 PRs approved; 2 comments; senior-level expertise in Express.js, middleware, and CI/CD.",
+          "potential_concerns": "Slightly fewer reviews than UlisesGascon but strong evidence in relevant areas."
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with GitHub Actions and CI/CD expertise, though less direct evidence for actions/setup-node. Strong Express.js internals and dependency management background.",
+          "strengths_alignment": [
+            "GitHub Actions CI/CD debugging and optimization",
+            "Dependency management and semantic versioning",
+            "Express.js internals and HTTP response handling"
+          ],
+          "review_experience": "83 reviews, 60 PRs approved; 35 comments; senior-level expertise in Express.js, middleware, and CI/CD.",
+          "potential_concerns": "Less direct evidence for actions/setup-node than UlisesGascon/Phillip9587, but strong CI/CD and dependency management background."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with direct evidence of GitHub Actions and actions/setup-node dependency management expertise, CI/CD focus, and breaking change awareness in Express.js ecosystem. Reviewed similar dependency upgrades and CI workflows in past PRs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6794",
+      "reviewer_strengths": [
+        "actions/setup-node dependency upgrades (PR #6497)",
+        "GitHub Actions CI workflow expertise (PR #6314)",
+        "Express.js internals and dependency management"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "65 reviews, 57 PRs approved; 10 comments; senior-level expertise in Express.js, Node.js, and CI/CD tooling.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "GitHub Actions",
+          "actions/setup-node"
+        ],
+        "review_expertise_areas": [
+          "dependencies",
+          "CI/CD"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with direct evidence of GitHub Actions and actions/setup-node dependency management expertise, CI/CD focus, and breaking change awareness in Express.js ecosystem. Reviewed similar dependency upgrades and CI workflows in past PRs.",
+          "strengths_alignment": [
+            "actions/setup-node dependency upgrades (PR #6497)",
+            "GitHub Actions CI workflow expertise (PR #6314)",
+            "Express.js internals and dependency management",
+            "Breaking change awareness in v5.0.0+ releases"
+          ],
+          "review_experience_details": "65 reviews, 57 PRs approved; 10 comments; senior-level expertise in Express.js, Node.js, and CI/CD tooling.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6795,
+      "pr_title": "build(deps): bump ossf/scorecard-action from 2.4.2 to 2.4.3",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "assigned_reviewer": "Phillip9587",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.92,
+          "reasoning": "Strongest overlap with GitHub Actions, dependency management, and security-focused dependency bump validation. Direct evidence of dependency bump reviews (e.g., 'qs@^6.14.0' security bump) and GitHub Actions CI/CD expertise. Reviewed similar dependency-related PRs (e.g., 'finalhandler@2.1.0' with breaking change awareness).",
+          "strengths_alignment": [
+            "GitHub Actions CI/CD expertise (reviewed dependency bump PRs with CI context)",
+            "Dependency management (approved 'qs@^6.14.0' with security focus)",
+            "Security implications validation (fast-track label for dependency bumps)",
+            "Semantic versioning and dependency bump validation (e.g., 'Release Notes' updates)"
+          ],
+          "review_experience": "Senior-level reviewer with 31 PRs reviewed, 28 approved, and 2 comments. Focused on Express.js middleware, dependency management, and GitHub Actions. Demonstrated deep technical judgment in dependency updates (e.g., rejected/approved 'finalhandler@2.1.0' PR).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.88,
+          "reasoning": "Deep expertise in dependency management, GitHub Actions, and CI/CD pipeline debugging. Reviewed dependency updates with CI failure resolution (e.g., PRs #6–7). Strong alignment with dependency bump validation and workflow compatibility. Less direct evidence of security implications but strong CI/CD and dependency tooling knowledge.",
+          "strengths_alignment": [
+            "GitHub Actions CI/CD expertise (debugged CI failures in dependency updates)",
+            "Dependency management (npm package updates, Dependabot integration)",
+            "Dependency bump validation (reviewed PRs with CI context)",
+            "Express.js internals (HTTP response handling, middleware)"
+          ],
+          "review_experience": "Senior-level reviewer with 83 PRs reviewed, 60 approved, and 35 comments. Focused on Express.js internals, testing, and CI/CD. Demonstrated rigorous review patterns (e.g., deprecation warnings, refactoring feedback).",
+          "potential_concerns": "Less explicit evidence of security implications validation compared to Phillip9587"
+        },
+        {
+          "reviewer_name": "inigomarquinez",
+          "match_score": 0.85,
+          "reasoning": "Specialized in GitHub Actions, dependency management (npm/yarn/pnpm), and dependency security. Reviewed 'Add Dependency Review Action' and 'Add dependabot' PRs. Strong evidence of dependency security and GitHub Actions workflow optimization. Less direct Express.js code review experience but critical for dependency-focused PRs.",
+          "strengths_alignment": [
+            "GitHub Actions expertise (reviewed 'Add Dependency Review Action')",
+            "Dependency management (npm/yarn/pnpm, semver upgrades, dependency security)",
+            "Dependency security validation (Dependabot integration, vulnerability scanning)",
+            "Semantic versioning and lockfile management"
+          ],
+          "review_experience": "Mid-level reviewer with 4 PRs reviewed, 5 comments. Focused on dependency tooling (Dependabot, GitHub Actions) and CI/CD workflows. Demonstrated strong technical depth in dependency-related PRs (e.g., 'Add dependabot').",
+          "potential_concerns": "Lower review volume (4 PRs) and no direct Express.js code review evidence"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest overlap with GitHub Actions, dependency management, and security-focused dependency bump validation. Direct evidence of dependency bump reviews (e.g., 'qs@^6.14.0' security bump) and GitHub Actions CI/CD expertise. Reviewed similar dependency-related PRs (e.g., 'finalhandler@2.1.0' with breaking change awareness).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6795",
+      "reviewer_strengths": [
+        "GitHub Actions CI/CD expertise (reviewed dependency bump PRs with CI context)",
+        "Dependency management (approved 'qs@^6.14.0' with security focus)",
+        "Security implications validation (fast-track label for dependency bumps)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 31 PRs reviewed, 28 approved, and 2 comments. Focused on Express.js middleware, dependency management, and GitHub Actions. Demonstrated deep technical judgment in dependency updates (e.g., rejected/approved 'finalhandler@2.1.0' PR).",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "GitHub Actions",
+          "Dependency Management"
+        ],
+        "review_expertise_areas": [
+          "dependencies"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest overlap with GitHub Actions, dependency management, and security-focused dependency bump validation. Direct evidence of dependency bump reviews (e.g., 'qs@^6.14.0' security bump) and GitHub Actions CI/CD expertise. Reviewed similar dependency-related PRs (e.g., 'finalhandler@2.1.0' with breaking change awareness).",
+          "strengths_alignment": [
+            "GitHub Actions CI/CD expertise (reviewed dependency bump PRs with CI context)",
+            "Dependency management (approved 'qs@^6.14.0' with security focus)",
+            "Security implications validation (fast-track label for dependency bumps)",
+            "Semantic versioning and dependency bump validation (e.g., 'Release Notes' updates)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 31 PRs reviewed, 28 approved, and 2 comments. Focused on Express.js middleware, dependency management, and GitHub Actions. Demonstrated deep technical judgment in dependency updates (e.g., rejected/approved 'finalhandler@2.1.0' PR).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6796,
+      "pr_title": "build(deps): bump github/codeql-action from 3.29.7 to 3.30.5",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "assigned_reviewer": "Phillip9587",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.92,
+          "reasoning": "Direct evidence of GitHub Actions and CodeQL dependency bump reviews, security tooling expertise, and deep Express.js middleware/dependency management experience. Reviewed similar CodeQL action version bumps in past PRs.",
+          "strengths_alignment": [
+            "GitHub Actions & CodeQL dependency bump reviews (PR #6675, #6498, #6429)",
+            "Security tooling (ossf/scorecard-action) and dependency security management",
+            "Express.js middleware and dependency bump expertise with versioning awareness"
+          ],
+          "review_experience": "Senior-level reviewer with 28 PRs reviewed, 31 total reviews, and explicit evidence of GitHub Actions/CodeQL dependency management in past PRs.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.88,
+          "reasoning": "Strong GitHub Actions and dependency management experience, though no explicit CodeQL evidence. Reviewed similar CodeQL action bumps and has deep Express.js internals knowledge.",
+          "strengths_alignment": [
+            "GitHub Actions and dependency bumping expertise (PR #6498, #6429)",
+            "Express.js internals and versioning awareness",
+            "Modern JavaScript and CI/CD pipeline familiarity"
+          ],
+          "review_experience": "Senior-level reviewer with 57 PRs reviewed, 65 total reviews, and explicit GitHub Actions/dependency management experience.",
+          "potential_concerns": "Lacks explicit CodeQL skill evidence (only GitHub Actions in general)."
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with GitHub Actions and dependency management experience, though no explicit CodeQL evidence. Strong Express.js internals and CI/CD debugging expertise.",
+          "strengths_alignment": [
+            "GitHub Actions and dependency management (PR #6–7 CI debugging)",
+            "Express.js internals and HTTP response handling",
+            "Dependency bumping and semantic versioning awareness"
+          ],
+          "review_experience": "Senior-level reviewer with 60 PRs reviewed, 83 total reviews, and CI/CD/dependency management expertise.",
+          "potential_concerns": "No explicit CodeQL or security-focused reviews in evidence."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Direct evidence of GitHub Actions and CodeQL dependency bump reviews, security tooling expertise, and deep Express.js middleware/dependency management experience. Reviewed similar CodeQL action version bumps in past PRs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6796",
+      "reviewer_strengths": [
+        "GitHub Actions & CodeQL dependency bump reviews (PR #6675, #6498, #6429)",
+        "Security tooling (ossf/scorecard-action) and dependency security management",
+        "Express.js middleware and dependency bump expertise with versioning awareness"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 28 PRs reviewed, 31 total reviews, and explicit evidence of GitHub Actions/CodeQL dependency management in past PRs.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "GitHub Actions",
+          "CodeQL"
+        ],
+        "review_expertise_areas": [
+          "dependencies",
+          "security"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Security",
+        "assignment_details": {
+          "full_reasoning": "Direct evidence of GitHub Actions and CodeQL dependency bump reviews, security tooling expertise, and deep Express.js middleware/dependency management experience. Reviewed similar CodeQL action version bumps in past PRs.",
+          "strengths_alignment": [
+            "GitHub Actions & CodeQL dependency bump reviews (PR #6675, #6498, #6429)",
+            "Security tooling (ossf/scorecard-action) and dependency security management",
+            "Express.js middleware and dependency bump expertise with versioning awareness"
+          ],
+          "review_experience_details": "Senior-level reviewer with 28 PRs reviewed, 31 total reviews, and explicit evidence of GitHub Actions/CodeQL dependency management in past PRs.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6797,
+      "pr_title": "build(deps): bump actions/checkout from 4.2.2 to 5.0.0",
+      "pr_author": "dependabot[bot]",
+      "pr_state": "closed",
+      "assigned_reviewer": "Phillip9587",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.92,
+          "reasoning": "Strongest overlap with GitHub Actions and dependency expertise, including direct evidence of reviewing dependency bumps and CI/CD-related PRs. Reviewed similar dependency upgrade PRs (e.g., actions/setup-node) and demonstrated deep knowledge of GitHub Actions and Node.js version compatibility.",
+          "strengths_alignment": [
+            "Top-identified skill: GitHub Actions & CI/CD (dependency bump reviews, codeql-action, scorecard-action)",
+            "Skill evidence: Approved 'actions/setup-node' and 'github/codeql-action' dependency upgrades with version-specific awareness",
+            "Primary skill: Dependency management (npm, semver, security tooling) and GitHub Actions",
+            "Reviewed Express.js dependency upgrades with version compatibility focus (e.g., 'qs@^6.14.0')"
+          ],
+          "review_experience": "Senior-level reviewer with 31 PRs reviewed, 28 approved, and 2 comments. Demonstrated rigorous review of dependency-related PRs with versioning and security considerations.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.88,
+          "reasoning": "Senior-level reviewer with deep expertise in GitHub Actions and dependency management, including direct evidence of reviewing dependency upgrade PRs. Reviewed similar dependency bump PRs (e.g., actions/setup-node) and demonstrated Node.js version compatibility awareness.",
+          "strengths_alignment": [
+            "Top-identified skill: Dependency management (npm/yarn, Dependabot, Semantic Versioning)",
+            "Skill evidence: Reviewed 'deps: upgrade supertest' and 'actions/setup-node' bump PRs",
+            "Primary skill: GitHub Actions and CI/CD pipeline configuration",
+            "Reviewed Express.js internals and Node.js version compatibility (e.g., Node.js 24 test matrix updates)"
+          ],
+          "review_experience": "Senior-level reviewer with 65 PRs reviewed, 57 approved, and 10 comments. Strong track record of reviewing dependency-related PRs with versioning and CI/CD focus.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with deep expertise in Express.js internals, dependency management, and GitHub Actions. Reviewed similar dependency bump PRs (e.g., actions/setup-node) and demonstrated CI/CD pipeline awareness, though less direct evidence of GitHub Actions-specific reviews than Phillip9587 or UlisesGascon.",
+          "strengths_alignment": [
+            "Top-identified skill: Dependency management (npm, Dependabot, Semantic Versioning)",
+            "Skill evidence: Debugged CI failures related to JavaScript in dependency updates",
+            "Primary skill: GitHub Actions and CI failure resolution",
+            "Reviewed Express.js dependency upgrades with version compatibility focus"
+          ],
+          "review_experience": "Senior-level reviewer with 83 PRs reviewed, 60 approved, and 35 comments. Strong track record of reviewing dependency-related PRs and CI/CD pipeline issues.",
+          "potential_concerns": "Less direct evidence of GitHub Actions-specific reviews compared to top choices"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest overlap with GitHub Actions and dependency expertise, including direct evidence of reviewing dependency bumps and CI/CD-related PRs. Reviewed similar dependency upgrade PRs (e.g., actions/setup-node) and demonstrated deep knowledge of GitHub Actions and Node.js version compatibility.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6797",
+      "reviewer_strengths": [
+        "Top-identified skill: GitHub Actions & CI/CD (dependency bump reviews, codeql-action, scorecard-action)",
+        "Skill evidence: Approved 'actions/setup-node' and 'github/codeql-action' dependency upgrades with version-specific awareness",
+        "Primary skill: Dependency management (npm, semver, security tooling) and GitHub Actions"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 31 PRs reviewed, 28 approved, and 2 comments. Demonstrated rigorous review of dependency-related PRs with versioning and security considerations.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "dependencies",
+          "github_actions"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest overlap with GitHub Actions and dependency expertise, including direct evidence of reviewing dependency bumps and CI/CD-related PRs. Reviewed similar dependency upgrade PRs (e.g., actions/setup-node) and demonstrated deep knowledge of GitHub Actions and Node.js version compatibility.",
+          "strengths_alignment": [
+            "Top-identified skill: GitHub Actions & CI/CD (dependency bump reviews, codeql-action, scorecard-action)",
+            "Skill evidence: Approved 'actions/setup-node' and 'github/codeql-action' dependency upgrades with version-specific awareness",
+            "Primary skill: Dependency management (npm, semver, security tooling) and GitHub Actions",
+            "Reviewed Express.js dependency upgrades with version compatibility focus (e.g., 'qs@^6.14.0')"
+          ],
+          "review_experience_details": "Senior-level reviewer with 31 PRs reviewed, 28 approved, and 2 comments. Demonstrated rigorous review of dependency-related PRs with versioning and security considerations.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6803,
+      "pr_title": "Update Readme.md",
+      "pr_author": "kpvgeetha",
+      "pr_state": "closed",
+      "assigned_reviewer": "sheplu",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "sheplu",
+          "match_score": 0.92,
+          "reasoning": "Strongest documentation expertise with explicit evidence of documentation organization, governance, and governance-related reviews. Directly matches 'Documentation' expertise area and has reviewed similar PRs (e.g., #5512).",
+          "strengths_alignment": [
+            "Documentation organization (e.g., 'Move documentation to the Admin repository')",
+            "Process documentation governance (e.g., 'repo captain roles')",
+            "Reviewed similar PRs (#5512) with other senior reviewers"
+          ],
+          "review_experience": "Senior-level reviewer with 7 reviews, 2 comments, and 5 PRs reviewed. Focused on dependency management, test framework maintenance, and documentation governance.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "Hardanish-Singh",
+          "match_score": 0.85,
+          "reasoning": "Explicit documentation focus (e.g., 'docs(security): bring change of https:') and strong process documentation experience. Reviewed a similar PR (#6610) with direct relevance to Readme.md content accuracy.",
+          "strengths_alignment": [
+            "Security documentation and policy updates (e.g., 'docs(security): bring change of https:')",
+            "Reviewed PR #6610 (fixing broken CONTRIBUTING.md link in Readme)",
+            "Explicit 'Documentation' skill in identified_skills"
+          ],
+          "review_experience": "Senior-level reviewer with 9 reviews, 0 comments, and 9 PRs reviewed. Focused on security documentation, policy enforcement, and CONTRIBUTING.md maintenance.",
+          "potential_concerns": "No explicit evidence of readability/clarity-focused reviews (only policy/security docs)"
+        },
+        {
+          "reviewer_name": "ShubhamOulkar",
+          "match_score": 0.78,
+          "reasoning": "Mid-level reviewer with explicit documentation and process improvement focus. Reviewed contributing guidelines and code of conduct updates, aligning with 'Documentation' requirements.",
+          "strengths_alignment": [
+            "Contributing guidelines updates (e.g., 'Updated app.listen() in Express example')",
+            "Code of Conduct documentation (explicit skill)",
+            "PR approval authority for Express-related documentation changes"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 3 comments, and 2 PRs reviewed. Focused on Express.js server configuration, contributing guidelines, and documentation.",
+          "potential_concerns": "Limited review activity (only 2 PRs reviewed) and no explicit evidence of readability/clarity-focused reviews"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest documentation expertise with explicit evidence of documentation organization, governance, and governance-related reviews. Directly matches 'Documentation' expertise area and has reviewed similar PRs (e.g., #5512).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6803",
+      "reviewer_strengths": [
+        "Documentation organization (e.g., 'Move documentation to the Admin repository')",
+        "Process documentation governance (e.g., 'repo captain roles')",
+        "Reviewed similar PRs (#5512) with other senior reviewers"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 7 reviews, 2 comments, and 5 PRs reviewed. Focused on dependency management, test framework maintenance, and documentation governance.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Strongest documentation expertise with explicit evidence of documentation organization, governance, and governance-related reviews. Directly matches 'Documentation' expertise area and has reviewed similar PRs (e.g., #5512).",
+          "strengths_alignment": [
+            "Documentation organization (e.g., 'Move documentation to the Admin repository')",
+            "Process documentation governance (e.g., 'repo captain roles')",
+            "Reviewed similar PRs (#5512) with other senior reviewers"
+          ],
+          "review_experience_details": "Senior-level reviewer with 7 reviews, 2 comments, and 5 PRs reviewed. Focused on dependency management, test framework maintenance, and documentation governance.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6804,
+      "pr_title": "Add automated pull request labeling workflow",
+      "pr_author": "Ronitsabhaya75",
+      "pr_state": "closed",
+      "assigned_reviewer": "inigomarquinez",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "inigomarquinez",
+          "match_score": 0.89,
+          "reasoning": "Strongest overlap with GitHub Actions workflow correctness, labeling logic validation, and release expertise. Direct evidence of GitHub Actions workflow optimization, dependency security, and semantic versioning in reviewed PRs.",
+          "strengths_alignment": [
+            "GitHub Actions workflow optimization (Top Identified Skills)",
+            "Dependency security and Dependabot integration (Skill Evidence)",
+            "Semantic versioning and CI pipeline improvements (Skill Evidence)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 5 comments, and 3 PRs reviewed. Demonstrates consistent engagement in CI/CD and dependency management.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.85,
+          "reasoning": "Deep expertise in GitHub Actions, release processes, and dependency management. Approved release PRs and demonstrated GitHub Actions workflow correctness in dependency updates.",
+          "strengths_alignment": [
+            "GitHub Actions & CI/CD optimization (Primary Skills)",
+            "Release process and semantic versioning (Skill Evidence)",
+            "Dependency bumping and security tooling (Skill Evidence)"
+          ],
+          "review_experience": "Senior-level reviewer with 31 reviews, 2 comments, and 28 PRs reviewed. Strong track record in release-related and CI/CD workflows.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.82,
+          "reasoning": "Senior-level reviewer with strong GitHub Actions and release process experience. Reviewed dependency updates and release-related PRs, demonstrating alignment with automated workflow configuration.",
+          "strengths_alignment": [
+            "GitHub Actions and dependency management (Primary Skills)",
+            "Release notes and process documentation (Skill Evidence)",
+            "Dependency management and semantic versioning (Skill Evidence)"
+          ],
+          "review_experience": "Senior-level reviewer with 65 reviews, 10 comments, and 57 PRs reviewed. Consistently engaged in CI/CD and release workflows.",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.89,
+      "assignment_reasoning": "Strongest overlap with GitHub Actions workflow correctness, labeling logic validation, and release expertise. Direct evidence of GitHub Actions workflow optimization, dependency security, and semantic versioning in reviewed PRs.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6804",
+      "reviewer_strengths": [
+        "GitHub Actions workflow optimization (Top Identified Skills)",
+        "Dependency security and Dependabot integration (Skill Evidence)",
+        "Semantic versioning and CI pipeline improvements (Skill Evidence)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Mid-level reviewer with 4 reviews, 5 comments, and 3 PRs reviewed. Demonstrates consistent engagement in CI/CD and dependency management.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "release"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest overlap with GitHub Actions workflow correctness, labeling logic validation, and release expertise. Direct evidence of GitHub Actions workflow optimization, dependency security, and semantic versioning in reviewed PRs.",
+          "strengths_alignment": [
+            "GitHub Actions workflow optimization (Top Identified Skills)",
+            "Dependency security and Dependabot integration (Skill Evidence)",
+            "Semantic versioning and CI pipeline improvements (Skill Evidence)"
+          ],
+          "review_experience_details": "Mid-level reviewer with 4 reviews, 5 comments, and 3 PRs reviewed. Demonstrates consistent engagement in CI/CD and dependency management.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6805,
+      "pr_title": "enhancement: Added Block readme github action",
+      "pr_author": "tausiq2003",
+      "pr_state": "closed",
+      "assigned_reviewer": "inigomarquinez",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "inigomarquinez",
+          "match_score": 0.92,
+          "reasoning": "Strongest match for GitHub Actions and community moderation with direct evidence of workflow optimization, action versioning, and dependency security reviews. Reviewed similar CI/CD PRs (e.g., 'Add Dependency Review Action') and demonstrated expertise in GitHub Actions workflows and spam prevention via dependency management.",
+          "strengths_alignment": [
+            "GitHub Actions workflow optimization (skill_evidence: 'Add Dependency Review Action', 'GitHub Actions workflow updates')",
+            "Community moderation via dependency security and tooling governance (skill_evidence: 'Dependabot integration', 'semver upgrades')",
+            "PR lifecycle automation (skill_evidence: 'CI pipeline improvements', 'action versioning')"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 5 comments, and 3 PRs reviewed. Focused on tooling and CI/CD with consistent engagement in dependency-related PRs.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.88,
+          "reasoning": "Senior-level reviewer with deep expertise in GitHub Actions, dependency management, and community governance. Reviewed similar CI/CD PRs (e.g., 'build(deps): bump actions/setup-node') and demonstrated GitHub Actions workflow configuration and spam prevention via dependency bumping.",
+          "strengths_alignment": [
+            "GitHub Actions & CI/CD (skill_evidence: 'actions/setup-node bump', 'codeql-action', 'ossf/scorecard-action')",
+            "Community moderation via dependency security and release notes (skill_evidence: 'dependency bumping', 'HISTORY.md updates')",
+            "PR lifecycle automation (skill_evidence: 'semver', 'backward compatibility checks')"
+          ],
+          "review_experience": "Senior-level reviewer with 31 reviews, 2 comments, and 28 PRs reviewed. Strong track record in dependency management and CI/CD tooling.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "shivarm",
+          "match_score": 0.82,
+          "reasoning": "Mid-level reviewer with GitHub Actions awareness and community governance experience. Demonstrated CI/CD pipeline awareness and dependency management, though less direct evidence for GitHub Actions workflows than inigomarquinez or Phillip9587.",
+          "strengths_alignment": [
+            "GitHub Actions CI trigger logic (skill_evidence: 'CI is mostly related to node.js so why we need this or why should we run CI for markdown files changes?')",
+            "Dependency management (skill_evidence: 'yarn.lock vs npm/pnpm conflicts', 'semver-ignore')",
+            "Community governance (skill_evidence: 'README maintenance', 'broken link fixes')"
+          ],
+          "review_experience": "Mid-level reviewer with 9 reviews, 6 comments, and 5 PRs reviewed. Focused on Express.js backend and dependency management.",
+          "potential_concerns": "Weaker direct evidence for GitHub Actions workflow configuration than top choices"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest match for GitHub Actions and community moderation with direct evidence of workflow optimization, action versioning, and dependency security reviews. Reviewed similar CI/CD PRs (e.g., 'Add Dependency Review Action') and demonstrated expertise in GitHub Actions workflows and spam prevention via dependency management.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 4,
+      "pr_url": "https://github.com/expressjs/express/pull/6805",
+      "reviewer_strengths": [
+        "GitHub Actions workflow optimization (skill_evidence: 'Add Dependency Review Action', 'GitHub Actions workflow updates')",
+        "Community moderation via dependency security and tooling governance (skill_evidence: 'Dependabot integration', 'semver upgrades')",
+        "PR lifecycle automation (skill_evidence: 'CI pipeline improvements', 'action versioning')"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Mid-level reviewer with 4 reviews, 5 comments, and 3 PRs reviewed. Focused on tooling and CI/CD with consistent engagement in dependency-related PRs.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "GitHub Actions",
+          "Community Moderation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Strongest match for GitHub Actions and community moderation with direct evidence of workflow optimization, action versioning, and dependency security reviews. Reviewed similar CI/CD PRs (e.g., 'Add Dependency Review Action') and demonstrated expertise in GitHub Actions workflows and spam prevention via dependency management.",
+          "strengths_alignment": [
+            "GitHub Actions workflow optimization (skill_evidence: 'Add Dependency Review Action', 'GitHub Actions workflow updates')",
+            "Community moderation via dependency security and tooling governance (skill_evidence: 'Dependabot integration', 'semver upgrades')",
+            "PR lifecycle automation (skill_evidence: 'CI pipeline improvements', 'action versioning')"
+          ],
+          "review_experience_details": "Mid-level reviewer with 4 reviews, 5 comments, and 3 PRs reviewed. Focused on tooling and CI/CD with consistent engagement in dependency-related PRs.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6810,
+      "pr_title": "Automatically close PRs named \"Update Readme.md\" ",
+      "pr_author": "maximosnolan",
+      "pr_state": "closed",
+      "assigned_reviewer": "sheplu",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "sheplu",
+          "match_score": 0.92,
+          "reasoning": "Strong documentation governance expertise with direct evidence of GitHub documentation workflows, Markdown contributions, and process documentation. Reviewed similar PRs (#5512) and has clear skill overlap in 'Documentation' with evidence of documentation organization and repo captain roles.",
+          "strengths_alignment": [
+            "GitHub documentation workflows (skill_evidence: 'Move documentation to the Admin repository')",
+            "Markdown contributions (skill_evidence: 'documentation organization')",
+            "Process documentation (skill_evidence: 'repo captain roles')",
+            "Similar review relevance (PR #5512: 'Move documentation to the Admin repository')"
+          ],
+          "review_experience": "Senior-level reviewer with 7 reviews, 2 comments, and 5 PRs reviewed. Demonstrates consistent documentation-focused review activity and constructive feedback.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ShubhamOulkar",
+          "match_score": 0.88,
+          "reasoning": "Mid-level reviewer with clear documentation expertise, including 'CONTRIBUTING.md', 'Code of Conduct documentation', and 'GitHub PR workflows'. Demonstrates deep understanding of Express.js documentation processes and process documentation updates.",
+          "strengths_alignment": [
+            "CONTRIBUTING.md and Code of Conduct documentation (skill_evidence: 'Updated app.listen() in Express example to use a callback function')",
+            "Process documentation (skill_evidence: 'contributing guidelines updates')",
+            "GitHub PR workflows (skill_evidence: 'PR approval authority')"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 3 comments, and 2 PRs reviewed. Focused on documentation and process improvements with clear approval authority in Express.js.",
+          "potential_concerns": "Lower review activity compared to sheplu, but strong documentation-specific evidence."
+        },
+        {
+          "reviewer_name": "Hardanish-Singh",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with 'Security documentation' and 'Policy enforcement' expertise. Reviewed similar documentation-focused PRs (e.g., 'docs(security): bring change of https:') and has clear documentation governance skills.",
+          "strengths_alignment": [
+            "Security documentation (skill_evidence: 'docs(security): bring change of https:')",
+            "Policy enforcement (skill_evidence: 'Security policy updates')",
+            "Process documentation (skill_evidence: 'CONTRIBUTING.md maintenance')"
+          ],
+          "review_experience": "Senior-level reviewer with 9 reviews, 0 comments, and 9 PRs reviewed. Focused on security documentation and policy updates with strong technical depth.",
+          "potential_concerns": "No direct evidence of GitHub API interaction or PR title-based automation logic, but strong documentation governance."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strong documentation governance expertise with direct evidence of GitHub documentation workflows, Markdown contributions, and process documentation. Reviewed similar PRs (#5512) and has clear skill overlap in 'Documentation' with evidence of documentation organization and repo captain roles.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 3,
+      "pr_url": "https://github.com/expressjs/express/pull/6810",
+      "reviewer_strengths": [
+        "GitHub documentation workflows (skill_evidence: 'Move documentation to the Admin repository')",
+        "Markdown contributions (skill_evidence: 'documentation organization')",
+        "Process documentation (skill_evidence: 'repo captain roles')"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 7 reviews, 2 comments, and 5 PRs reviewed. Demonstrates consistent documentation-focused review activity and constructive feedback.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Strong documentation governance expertise with direct evidence of GitHub documentation workflows, Markdown contributions, and process documentation. Reviewed similar PRs (#5512) and has clear skill overlap in 'Documentation' with evidence of documentation organization and repo captain roles.",
+          "strengths_alignment": [
+            "GitHub documentation workflows (skill_evidence: 'Move documentation to the Admin repository')",
+            "Markdown contributions (skill_evidence: 'documentation organization')",
+            "Process documentation (skill_evidence: 'repo captain roles')",
+            "Similar review relevance (PR #5512: 'Move documentation to the Admin repository')"
+          ],
+          "review_experience_details": "Senior-level reviewer with 7 reviews, 2 comments, and 5 PRs reviewed. Demonstrates consistent documentation-focused review activity and constructive feedback.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6817,
+      "pr_title": "docs: enhance installation section with additional package managers and verification steps",
+      "pr_author": "Sandesh-projects",
+      "pr_state": "closed",
+      "assigned_reviewer": "sheplu",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "sheplu",
+          "match_score": 0.92,
+          "reasoning": "Strongest documentation and dependency management expertise with direct evidence of yarn/pnpm/npm installation command reviews and Verifying Installation section updates. Reviewed similar documentation PRs (#5512) and has clear skill evidence for dependency updates (e.g., 'deps: upgrade supertest').",
+          "strengths_alignment": [
+            "Direct evidence of yarn/pnpm/npm installation command reviews (dependency management expertise)",
+            "Reviewed documentation restructuring PRs (#5512) matching Verifying Installation focus",
+            "Clear skill evidence for dependency updates and semantic versioning (relevant to Express dependencies)",
+            "Documentation organization and governance experience"
+          ],
+          "review_experience": "Senior-level reviewer with 7 reviews, 2 comments, and 5 PRs reviewed. Demonstrates consistent documentation and dependency management focus in Express.js ecosystem.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ShubhamOulkar",
+          "match_score": 0.88,
+          "reasoning": "Mid-level reviewer with clear Express.js documentation expertise and installation command awareness. Reviewed contributing guidelines and code of conduct updates, demonstrating style/formatting consistency. Strong evidence of Express.js internals knowledge from approved documentation PRs.",
+          "strengths_alignment": [
+            "Approved Express.js documentation changes with installation command updates",
+            "Updated 'app.listen() in Express example to use a callback function' (installation pattern awareness)",
+            "Contributing guidelines and code of conduct updates (style/formatting consistency)",
+            "Express.js server configuration expertise"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 3 comments, and 2 PRs reviewed. Focused on Express.js documentation and process improvements.",
+          "potential_concerns": "Lower review volume than sheplu but strong direct evidence for documentation focus"
+        },
+        {
+          "reviewer_name": "IamLizu",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with deep dependency management expertise for yarn/pnpm/npm and clear documentation governance experience. Reviewed dependency upgrades and PRs involving installation patterns. Less direct documentation evidence than sheplu but strong ecosystem tooling alignment.",
+          "strengths_alignment": [
+            "Reviewed 'chore: ignore yarn.lock file' and 'deps: upgrade supertest' (yarn/pnpm/npm expertise)",
+            "Dependency management and lockfile conflict resolution (relevant to Express dependencies)",
+            "Open-source governance and triage team experience (documentation context)",
+            "Express.js middleware and dependency upgrade reviews"
+          ],
+          "review_experience": "Senior-level reviewer with 9 reviews, 0 comments, and 9 PRs reviewed. Focused on dependency management and Express.js middleware.",
+          "potential_concerns": "No direct Verifying Installation section review evidence; more backend-focused than pure documentation"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest documentation and dependency management expertise with direct evidence of yarn/pnpm/npm installation command reviews and Verifying Installation section updates. Reviewed similar documentation PRs (#5512) and has clear skill evidence for dependency updates (e.g., 'deps: upgrade supertest').",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6817",
+      "reviewer_strengths": [
+        "Direct evidence of yarn/pnpm/npm installation command reviews (dependency management expertise)",
+        "Reviewed documentation restructuring PRs (#5512) matching Verifying Installation focus",
+        "Clear skill evidence for dependency updates and semantic versioning (relevant to Express dependencies)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 7 reviews, 2 comments, and 5 PRs reviewed. Demonstrates consistent documentation and dependency management focus in Express.js ecosystem.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Strongest documentation and dependency management expertise with direct evidence of yarn/pnpm/npm installation command reviews and Verifying Installation section updates. Reviewed similar documentation PRs (#5512) and has clear skill evidence for dependency updates (e.g., 'deps: upgrade supertest').",
+          "strengths_alignment": [
+            "Direct evidence of yarn/pnpm/npm installation command reviews (dependency management expertise)",
+            "Reviewed documentation restructuring PRs (#5512) matching Verifying Installation focus",
+            "Clear skill evidence for dependency updates and semantic versioning (relevant to Express dependencies)",
+            "Documentation organization and governance experience"
+          ],
+          "review_experience_details": "Senior-level reviewer with 7 reviews, 2 comments, and 5 PRs reviewed. Demonstrates consistent documentation and dependency management focus in Express.js ecosystem.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6825,
+      "pr_title": "Update Readme.md",
+      "pr_author": "saltymango2619",
+      "pr_state": "closed",
+      "assigned_reviewer": "Hardanish-Singh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Hardanish-Singh",
+          "match_score": 0.92,
+          "reasoning": "Strongest documentation expertise with direct evidence of README and security documentation updates, including PRs explicitly focused on 'docs(security)' and CONTRIBUTING.md maintenance. Reviewed similar PRs (e.g., broken CONTRIBUTING.md link) and has clear skill overlap in 'Documentation' and 'Readme clarity/formatting'.",
+          "strengths_alignment": [
+            "Documentation: Security documentation, CONTRIBUTING.md maintenance",
+            "Readme content accuracy (evidenced by broken link fixes)",
+            "Markdown formatting (implied via CONTRIBUTING.md updates)",
+            "Process documentation (triager/emeritus lists, though less relevant here)"
+          ],
+          "review_experience": "Senior-level reviewer with 9 reviews, 0 comments (focused approvals), and 9 PRs reviewed. Demonstrates authority in documentation governance with explicit 'docs' focus in PRs.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ShubhamOulkar",
+          "match_score": 0.88,
+          "reasoning": "Mid-level reviewer with explicit expertise in 'README maintenance' and 'Contributing guidelines updates'. Reviewed Express documentation changes with approval authority. Strong alignment with 'Readme clarity/formatting' and 'Documentation' focus, though less direct evidence than Hardanish-Singh.",
+          "strengths_alignment": [
+            "README maintenance (PR: 'Updated app.listen() in Express example')",
+            "Contributing guidelines updates (documentation process)",
+            "Code of Conduct documentation (markdown-focused)",
+            "Express.js internals awareness (approves docs changes with technical validation)"
+          ],
+          "review_experience": "Mid-level reviewer with 4 reviews, 3 comments, and 2 PRs reviewed. Approved Express documentation changes with clear technical understanding.",
+          "potential_concerns": "Lower review volume (4 total reviews) compared to top choice."
+        },
+        {
+          "reviewer_name": "sheplu",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with strong 'documentation organization' and 'README maintenance' skills, though less direct evidence than top choices. Reviewed similar PRs (e.g., moving docs to Admin repo) and has governance experience. Lower skill overlap than Hardanish-Singh but compensates with broader documentation expertise.",
+          "strengths_alignment": [
+            "Documentation organization (moving docs to Admin repo)",
+            "README maintenance (implied via 'documentation governance')",
+            "Process documentation (repo captain roles)",
+            "Semantic versioning awareness (relevant for release docs)"
+          ],
+          "review_experience": "Senior-level reviewer with 7 reviews, 2 comments, and 5 PRs reviewed. Active in documentation governance and dependency management.",
+          "potential_concerns": "Less direct evidence of 'Readme clarity/formatting' than top choices."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest documentation expertise with direct evidence of README and security documentation updates, including PRs explicitly focused on 'docs(security)' and CONTRIBUTING.md maintenance. Reviewed similar PRs (e.g., broken CONTRIBUTING.md link) and has clear skill overlap in 'Documentation' and 'Readme clarity/formatting'.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6825",
+      "reviewer_strengths": [
+        "Documentation: Security documentation, CONTRIBUTING.md maintenance",
+        "Readme content accuracy (evidenced by broken link fixes)",
+        "Markdown formatting (implied via CONTRIBUTING.md updates)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 9 reviews, 0 comments (focused approvals), and 9 PRs reviewed. Demonstrates authority in documentation governance with explicit 'docs' focus in PRs.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Documentation"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Documentation",
+        "assignment_details": {
+          "full_reasoning": "Strongest documentation expertise with direct evidence of README and security documentation updates, including PRs explicitly focused on 'docs(security)' and CONTRIBUTING.md maintenance. Reviewed similar PRs (e.g., broken CONTRIBUTING.md link) and has clear skill overlap in 'Documentation' and 'Readme clarity/formatting'.",
+          "strengths_alignment": [
+            "Documentation: Security documentation, CONTRIBUTING.md maintenance",
+            "Readme content accuracy (evidenced by broken link fixes)",
+            "Markdown formatting (implied via CONTRIBUTING.md updates)",
+            "Process documentation (triager/emeritus lists, though less relevant here)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 9 reviews, 0 comments (focused approvals), and 9 PRs reviewed. Demonstrates authority in documentation governance with explicit 'docs' focus in PRs.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6836,
+      "pr_title": "Add methodNotAllowedCatcher Middleware and Example",
+      "pr_author": "NalinDalal",
+      "pr_state": "open",
+      "assigned_reviewer": "bjohansebas",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.92,
+          "reasoning": "Senior-level reviewer with deep Express.js middleware expertise, direct evidence of HTTP response handling (e.g., 'feat(response): new setting strict status codes'), and strong alignment with all PR focus areas (405 responses, Allow headers, middleware integration). Reviewed 72 PRs with 41 comments, demonstrating consistent technical rigor.",
+          "strengths_alignment": [
+            "Express.js middleware expertise (top skill)",
+            "HTTP response handling (e.g., 'feat(response): new setting strict status codes')",
+            "Async I/O elimination and Promises/async-await mastery (relevant for middleware)",
+            "Reviewed 72 PRs with 41 comments (high activity)",
+            "Consistent LGTM approvals with constructive feedback"
+          ],
+          "review_experience": "Senior-level JavaScript developer with 107 reviews, 72 PRs reviewed, and 41 comments. Specializes in Express.js backend development, asynchronous programming, and HTTP response improvements. Reviewed Express.js internals PRs (e.g., 'req.back replaces #2692').",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ctcpip",
+          "match_score": 0.88,
+          "reasoning": "Senior-level reviewer with deep Express.js middleware and response handling expertise, including direct evidence of HTTP 405/500 status code handling ('feat(response): new setting strict status codes') and middleware integration ('add discarded middleware test'). Reviewed 13 PRs with 6 comments, showing strong technical depth in Express internals.",
+          "strengths_alignment": [
+            "Express.js middleware & response handling (top skill)",
+            "HTTP status code expertise ('feat(response): new setting strict status codes')",
+            "Test-driven development for middleware ('add discarded middleware test')",
+            "Reviewed 13 PRs with 6 comments (high technical engagement)",
+            "Node.js version compatibility and CI/CD awareness (relevant for stability)"
+          ],
+          "review_experience": "Senior-level JavaScript developer with 18 reviews, 13 PRs reviewed, and 6 comments. Specializes in Express.js middleware, response handling, and Node.js internals. Reviewed PRs like 'feat(response): new setting strict status codes' and 'req.back replaces #2692'.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with extensive Express.js internals expertise, including HTTP response handling ('res.redirect' HTML structure modifications) and middleware integration ('normalizeTypes' refactoring). Reviewed 60 PRs with 35 comments, demonstrating consistent code quality focus. Strong alignment with 'no breaking changes' and middleware integration.",
+          "strengths_alignment": [
+            "Express.js internals expertise (top skill)",
+            "HTTP response handling ('res.redirect' HTML structure modifications)",
+            "Middleware integration ('normalizeTypes' refactoring)",
+            "Testing and CI debugging (relevant for correctness)",
+            "Reviewed 60 PRs with 35 comments (high activity)"
+          ],
+          "review_experience": "Senior-level JavaScript developer with 83 reviews, 60 PRs reviewed, and 35 comments. Specializes in Express.js internals, middleware, and HTTP response handling. Reviewed PRs like 'res.redirect' and 'normalizeTypes' refactoring.",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level reviewer with deep Express.js middleware expertise, direct evidence of HTTP response handling (e.g., 'feat(response): new setting strict status codes'), and strong alignment with all PR focus areas (405 responses, Allow headers, middleware integration). Reviewed 72 PRs with 41 comments, demonstrating consistent technical rigor.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6836",
+      "reviewer_strengths": [
+        "Express.js middleware expertise (top skill)",
+        "HTTP response handling (e.g., 'feat(response): new setting strict status codes')",
+        "Async I/O elimination and Promises/async-await mastery (relevant for middleware)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level JavaScript developer with 107 reviews, 72 PRs reviewed, and 41 comments. Specializes in Express.js backend development, asynchronous programming, and HTTP response improvements. Reviewed Express.js internals PRs (e.g., 'req.back replaces #2692').",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Express.js middleware"
+        ],
+        "review_expertise_areas": [
+          "Backend"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with deep Express.js middleware expertise, direct evidence of HTTP response handling (e.g., 'feat(response): new setting strict status codes'), and strong alignment with all PR focus areas (405 responses, Allow headers, middleware integration). Reviewed 72 PRs with 41 comments, demonstrating consistent technical rigor.",
+          "strengths_alignment": [
+            "Express.js middleware expertise (top skill)",
+            "HTTP response handling (e.g., 'feat(response): new setting strict status codes')",
+            "Async I/O elimination and Promises/async-await mastery (relevant for middleware)",
+            "Reviewed 72 PRs with 41 comments (high activity)",
+            "Consistent LGTM approvals with constructive feedback"
+          ],
+          "review_experience_details": "Senior-level JavaScript developer with 107 reviews, 72 PRs reviewed, and 41 comments. Specializes in Express.js backend development, asynchronous programming, and HTTP response improvements. Reviewed Express.js internals PRs (e.g., 'req.back replaces #2692').",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6839,
+      "pr_title": "fix(sendStatus): prevent BigInt status codes",
+      "pr_author": "Dhairya3391",
+      "pr_state": "open",
+      "assigned_reviewer": "ctcpip",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "ctcpip",
+          "match_score": 0.92,
+          "reasoning": "Senior reviewer with deep expertise in Express.js response handling, Node.js testing, and HTTP status code validation. Direct evidence of testing-focused reviews (e.g., 'add discarded middleware test') and expertise in BigInt/edge-case validation patterns (via Node.js runtime internals). Strong alignment with PR focus areas including BigInt validation and regression testing.",
+          "strengths_alignment": [
+            "Express.js response handling (primary skill)",
+            "Node.js test matrix management (testing expertise)",
+            "HTTP status code validation (directly relevant to PR focus)",
+            "Test-driven development (TDD) and test coverage improvements (skill evidence)"
+          ],
+          "review_experience": "18 reviews, 6 comments, 13 PRs reviewed; consistent technical depth in Express.js internals and Node.js testing.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.88,
+          "reasoning": "Senior reviewer with strong Express.js/Node.js expertise and testing focus. Evidence of async I/O optimizations and HTTP response handling aligns with PR requirements. Reviewed similar test-coverage PRs (e.g., #6386, #6476) and has deep JavaScript/Node.js knowledge. Slightly less direct evidence for BigInt validation but strong testing and Express.js internals background.",
+          "strengths_alignment": [
+            "Express.js middleware and response handling (primary skill)",
+            "Testing and test-driven development (skill evidence)",
+            "Async I/O elimination (relevant to Node.js runtime)",
+            "Reviewed test-coverage PRs (#6386, #6476) with UlisesGascon/wesleytodd"
+          ],
+          "review_experience": "107 reviews, 41 comments, 72 PRs reviewed; extensive technical depth in Express.js and Node.js.",
+          "potential_concerns": "Less explicit evidence for BigInt validation than ctcpip, but strong testing and Express.js alignment."
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.85,
+          "reasoning": "Senior reviewer with deep Express.js internals knowledge, testing (Jest-like patterns), and HTTP response handling. Reviewed similar test-coverage PRs (#6386, #6476) and has strong CI/test debugging expertise. Less direct evidence for BigInt validation but strong alignment with Express.js and testing requirements. High review activity and consistency.",
+          "strengths_alignment": [
+            "Express.js internals and HTTP response handling (primary skill)",
+            "Testing and CI failure resolution (skill evidence)",
+            "Reviewed test-coverage PRs (#6386, #6476) with bjohansebas/UlisesGascon",
+            "Jest-like testing patterns (relevant to edge-case validation)"
+          ],
+          "review_experience": "83 reviews, 35 comments, 60 PRs reviewed; high activity and technical depth in Express.js.",
+          "potential_concerns": "No explicit evidence for BigInt validation; focus more on CI/debugging than runtime validation."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior reviewer with deep expertise in Express.js response handling, Node.js testing, and HTTP status code validation. Direct evidence of testing-focused reviews (e.g., 'add discarded middleware test') and expertise in BigInt/edge-case validation patterns (via Node.js runtime internals). Strong alignment with PR focus areas including BigInt validation and regression testing.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 3,
+      "pr_url": "https://github.com/expressjs/express/pull/6839",
+      "reviewer_strengths": [
+        "Express.js response handling (primary skill)",
+        "Node.js test matrix management (testing expertise)",
+        "HTTP status code validation (directly relevant to PR focus)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "18 reviews, 6 comments, 13 PRs reviewed; consistent technical depth in Express.js internals and Node.js testing.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js"
+        ],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior reviewer with deep expertise in Express.js response handling, Node.js testing, and HTTP status code validation. Direct evidence of testing-focused reviews (e.g., 'add discarded middleware test') and expertise in BigInt/edge-case validation patterns (via Node.js runtime internals). Strong alignment with PR focus areas including BigInt validation and regression testing.",
+          "strengths_alignment": [
+            "Express.js response handling (primary skill)",
+            "Node.js test matrix management (testing expertise)",
+            "HTTP status code validation (directly relevant to PR focus)",
+            "Test-driven development (TDD) and test coverage improvements (skill evidence)"
+          ],
+          "review_experience_details": "18 reviews, 6 comments, 13 PRs reviewed; consistent technical depth in Express.js internals and Node.js testing.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6843,
+      "pr_title": "ci: add node.js 25 to test matrix",
+      "pr_author": "Phillip9587",
+      "pr_state": "closed",
+      "assigned_reviewer": "ctcpip",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "ctcpip",
+          "match_score": 0.92,
+          "reasoning": "Strongest alignment with testing expertise, CI configuration, and test matrix updates. Direct evidence of Node.js test matrix management and TDD in Express.js reviews.",
+          "strengths_alignment": [
+            "Node.js test matrix management (skill_evidence: 'ci: add node.js 24 to test matrix')",
+            "Test-driven development (TDD) and test coverage improvements (skill_evidence: 'add discarded middleware test')",
+            "CI/CD pipeline configuration and test matrix updates (primary_skills: 'CI pipeline configuration, Test matrix optimizations')"
+          ],
+          "review_experience": "Senior-level reviewer with 18 reviews, 6 comments, and 13 PRs reviewed. Demonstrates consistent technical depth in testing and CI.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.85,
+          "reasoning": "Strong testing and CI/CD expertise, though less direct evidence for test matrix updates. Reviewed similar test-focused PRs (e.g., #6534, #6386).",
+          "strengths_alignment": [
+            "Testing and test suite maintenance (primary_skills: 'Testing and test suite maintenance')",
+            "Mocha/Supertest testing frameworks (identified_skills: 'Mocha, Supertest')",
+            "Reviewed test coverage PRs (#6534, #6386) with similar patterns to the PR requirements"
+          ],
+          "review_experience": "Senior-level reviewer with 65 reviews, 10 comments, and 57 PRs reviewed. Demonstrates consistent technical depth in Express.js testing.",
+          "potential_concerns": "Less explicit evidence for CI configuration or test matrix updates than ctcpip."
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.78,
+          "reasoning": "Strong testing and CI debugging experience, but less direct evidence for test matrix updates. Reviewed similar test-focused PRs (#6476).",
+          "strengths_alignment": [
+            "Testing and CI debugging (primary_skills: 'Testing and CI debugging')",
+            "Test coverage analysis (skill_evidence: 'Test coverage analysis')",
+            "Reviewed PR #6476: Test coverage for app.listen() variants (testing focus)"
+          ],
+          "review_experience": "Senior-level reviewer with 83 reviews, 35 comments, and 60 PRs reviewed. Demonstrates consistent technical depth in Express.js testing and CI.",
+          "potential_concerns": "Less explicit evidence for CI configuration or test matrix updates than ctcpip or UlisesGascon."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest alignment with testing expertise, CI configuration, and test matrix updates. Direct evidence of Node.js test matrix management and TDD in Express.js reviews.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6843",
+      "reviewer_strengths": [
+        "Node.js test matrix management (skill_evidence: 'ci: add node.js 24 to test matrix')",
+        "Test-driven development (TDD) and test coverage improvements (skill_evidence: 'add discarded middleware test')",
+        "CI/CD pipeline configuration and test matrix updates (primary_skills: 'CI pipeline configuration, Test matrix optimizations')"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 18 reviews, 6 comments, and 13 PRs reviewed. Demonstrates consistent technical depth in testing and CI.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strongest alignment with testing expertise, CI configuration, and test matrix updates. Direct evidence of Node.js test matrix management and TDD in Express.js reviews.",
+          "strengths_alignment": [
+            "Node.js test matrix management (skill_evidence: 'ci: add node.js 24 to test matrix')",
+            "Test-driven development (TDD) and test coverage improvements (skill_evidence: 'add discarded middleware test')",
+            "CI/CD pipeline configuration and test matrix updates (primary_skills: 'CI pipeline configuration, Test matrix optimizations')"
+          ],
+          "review_experience_details": "Senior-level reviewer with 18 reviews, 6 comments, and 13 PRs reviewed. Demonstrates consistent technical depth in testing and CI.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6844,
+      "pr_title": "Refactor application.js for clarity and consistency",
+      "pr_author": "renaoch",
+      "pr_state": "closed",
+      "assigned_reviewer": "bjohansebas",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.92,
+          "reasoning": "Strongest overlap with required 'Code Quality' focus and direct evidence of middleware/defensive programming expertise. Reviewed Express.js middleware, async/await optimizations, and defensive programming patterns (e.g., async I/O elimination).",
+          "strengths_alignment": [
+            "Express.js middleware expertise (top skill)",
+            "Defensive programming (async I/O elimination, Promises/async-await)",
+            "Code refactoring and optimization (legacy code modernization)",
+            "Reviewed similar PRs with code quality focus (e.g., #6386, #6644)"
+          ],
+          "review_experience": "Senior-level reviewer with 107 reviews, 41 comments, and 72 PRs reviewed. High activity and constructive feedback (e.g., 'LGTM!' with technical improvements).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ctcpip",
+          "match_score": 0.85,
+          "reasoning": "Deep expertise in Express.js middleware, response handling, and defensive programming (e.g., null/undefined validation). Strong testing/QA background and CI/CD awareness aligns with complexity.",
+          "strengths_alignment": [
+            "Express.js middleware & response handling (top skill)",
+            "Testing & QA (TDD, unit/integration testing, test coverage improvements)",
+            "Defensive programming (e.g., 'add discarded middleware test')",
+            "Reviewed similar PRs with middleware focus (e.g., 'req.back replaces #2692')"
+          ],
+          "review_experience": "Senior-level reviewer with 18 reviews, 6 comments, and 13 PRs reviewed. Focused on Express.js internals and stability-focused reviews.",
+          "potential_concerns": "Lower review activity than bjohansebas but strong technical depth in middleware/response handling."
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.8,
+          "reasoning": "Senior-level expertise in Express.js internals, middleware, and HTTP response handling. Reviewed defensive programming (e.g., deprecation warnings) and CI debugging, aligning with complexity.",
+          "strengths_alignment": [
+            "Express.js internals and middleware (top skill)",
+            "Defensive programming (e.g., 'Add deprecation warning to Referrer special-casing')",
+            "HTTP response handling (e.g., `res.redirect` refactoring)",
+            "Reviewed similar PRs with code quality focus (e.g., #6386)"
+          ],
+          "review_experience": "Senior-level reviewer with 83 reviews, 35 comments, and 60 PRs reviewed. High activity and rigorous testing practices.",
+          "potential_concerns": "Less direct evidence of middleware filtering logic than bjohansebas/ctcpip, but strong overall fit."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest overlap with required 'Code Quality' focus and direct evidence of middleware/defensive programming expertise. Reviewed Express.js middleware, async/await optimizations, and defensive programming patterns (e.g., async I/O elimination).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6844",
+      "reviewer_strengths": [
+        "Express.js middleware expertise (top skill)",
+        "Defensive programming (async I/O elimination, Promises/async-await)",
+        "Code refactoring and optimization (legacy code modernization)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 107 reviews, 41 comments, and 72 PRs reviewed. High activity and constructive feedback (e.g., 'LGTM!' with technical improvements).",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Code Quality"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest overlap with required 'Code Quality' focus and direct evidence of middleware/defensive programming expertise. Reviewed Express.js middleware, async/await optimizations, and defensive programming patterns (e.g., async I/O elimination).",
+          "strengths_alignment": [
+            "Express.js middleware expertise (top skill)",
+            "Defensive programming (async I/O elimination, Promises/async-await)",
+            "Code refactoring and optimization (legacy code modernization)",
+            "Reviewed similar PRs with code quality focus (e.g., #6386, #6644)"
+          ],
+          "review_experience_details": "Senior-level reviewer with 107 reviews, 41 comments, and 72 PRs reviewed. High activity and constructive feedback (e.g., 'LGTM!' with technical improvements).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6846,
+      "pr_title": "Added HTTP exceptions, compression, helmet, and CORS integration",
+      "pr_author": "Nikhil012N",
+      "pr_state": "open",
+      "assigned_reviewer": "ctcpip",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "ctcpip",
+          "match_score": 0.92,
+          "reasoning": "Strongest match for HTTP exception handling, middleware correctness, and security implications (Helmet/CORS) with direct evidence in Express.js middleware and response handling reviews. Demonstrated expertise in Node.js security updates and test-driven middleware validation.",
+          "strengths_alignment": [
+            "Express.js middleware & response handling (PR: 'feat(response): new setting strict status codes')",
+            "Node.js security updates and test-driven development (PR: 'add discarded middleware test')",
+            "HTTP exception handling and middleware correctness (PR: 'req.back replaces #2692')"
+          ],
+          "review_experience": "Senior-level reviewer with 18 reviews, 6 comments, and 13 PRs reviewed. Focused on Express.js internals, middleware, and security-related changes.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.88,
+          "reasoning": "Deep expertise in Express.js middleware, async I/O, and HTTP response handling. Strong evidence for HTTP exception handling and middleware correctness, though less direct evidence on security middleware (Helmet/CORS).",
+          "strengths_alignment": [
+            "Express.js middleware and async I/O optimizations (PR: 'Resolve paths for views asynchronously')",
+            "HTTP response handling and headers (PR: 'Extend res.links()')",
+            "Code refactoring and optimization for middleware correctness"
+          ],
+          "review_experience": "Senior-level reviewer with 107 reviews, 41 comments, and 72 PRs reviewed. Focused on Express.js backend development and clean code refactoring.",
+          "potential_concerns": "Limited explicit evidence on security middleware (Helmet/CORS) or compression middleware."
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.85,
+          "reasoning": "Extensive experience with Express.js middleware, HTTP response handling, and CI debugging. Strong evidence for HTTP exception handling and middleware correctness, with indirect relevance to security and compression middleware.",
+          "strengths_alignment": [
+            "Express.js internals and middleware (PR: 'Modified res.redirect() HTML structure')",
+            "HTTP response handling and deprecation warnings (PR: 'Add deprecation warning to Referrer special-casing')",
+            "Testing and CI debugging for middleware correctness"
+          ],
+          "review_experience": "Senior-level reviewer with 83 reviews, 35 comments, and 60 PRs reviewed. Focused on Express.js internals, testing, and code quality.",
+          "potential_concerns": "Less direct evidence on security middleware (Helmet/CORS) or compression middleware configuration."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest match for HTTP exception handling, middleware correctness, and security implications (Helmet/CORS) with direct evidence in Express.js middleware and response handling reviews. Demonstrated expertise in Node.js security updates and test-driven middleware validation.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6846",
+      "reviewer_strengths": [
+        "Express.js middleware & response handling (PR: 'feat(response): new setting strict status codes')",
+        "Node.js security updates and test-driven development (PR: 'add discarded middleware test')",
+        "HTTP exception handling and middleware correctness (PR: 'req.back replaces #2692')"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 18 reviews, 6 comments, and 13 PRs reviewed. Focused on Express.js internals, middleware, and security-related changes.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [
+          "Backend"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest match for HTTP exception handling, middleware correctness, and security implications (Helmet/CORS) with direct evidence in Express.js middleware and response handling reviews. Demonstrated expertise in Node.js security updates and test-driven middleware validation.",
+          "strengths_alignment": [
+            "Express.js middleware & response handling (PR: 'feat(response): new setting strict status codes')",
+            "Node.js security updates and test-driven development (PR: 'add discarded middleware test')",
+            "HTTP exception handling and middleware correctness (PR: 'req.back replaces #2692')"
+          ],
+          "review_experience_details": "Senior-level reviewer with 18 reviews, 6 comments, and 13 PRs reviewed. Focused on Express.js internals, middleware, and security-related changes.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6848,
+      "pr_title": "fix: prevent crash when BigInt passed to res.status()",
+      "pr_author": "SrinjoyDev",
+      "pr_state": "open",
+      "assigned_reviewer": "bjohansebas",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.92,
+          "reasoning": "Senior-level reviewer with deep expertise in Express.js backend development, Node.js middleware, and testing. Strong evidence of direct skill overlap with error handling, type safety, and test coverage for edge cases. Reviewed similar PRs with testing focus and Express.js internals.",
+          "strengths_alignment": [
+            "Express.js backend development (Top Identified Skill)",
+            "Node.js middleware and async/await expertise (Primary Skills)",
+            "Testing and test-driven development (Identified Skills)",
+            "Error handling and HTTP response optimization (Skill Evidence)",
+            "Reviewed PRs with test coverage improvements (Similar Review 2)"
+          ],
+          "review_experience": "107 reviews, 72 PRs reviewed, 41 comments. High activity and constructive feedback. Reviewed Express.js CI/test matrix updates (Similar Review 1).",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ctcpip",
+          "match_score": 0.88,
+          "reasoning": "Senior-level reviewer with strong Express.js backend expertise, Node.js testing, and CI/CD pipeline awareness. Demonstrated deep knowledge of error handling, test-driven development, and backward compatibility. Reviewed similar CI/test matrix updates (Similar Review 1).",
+          "strengths_alignment": [
+            "Express.js middleware & response handling (Primary Skills)",
+            "Node.js test matrix management and TDD (Identified Skills)",
+            "Testing & QA: Test-driven development, Test coverage improvements (Identified Skills)",
+            "Reviewed Express.js CI/test matrix updates (Similar Review 1)",
+            "Error handling and HTTP response optimization (Skill Evidence: 'feat(response): new setting strict status codes')"
+          ],
+          "review_experience": "18 reviews, 13 PRs reviewed, 6 comments. High technical depth in Express.js internals and Node.js testing. Reviewed backport PRs and test matrix updates (Similar Review 1).",
+          "potential_concerns": "Lower review activity than bjohansebas but strong technical fit."
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with deep Express.js internals knowledge, testing, and CI debugging. Strong evidence of error handling, HTTP response optimization, and test coverage analysis. Reviewed similar PRs with testing focus.",
+          "strengths_alignment": [
+            "Express.js internals and HTTP response handling (Primary Skills)",
+            "Testing & CI debugging: Test coverage analysis, Jest-like testing patterns (Identified Skills)",
+            "Error handling and deprecation warnings (Skill Evidence: 'Added deprecation warning to Referrer special-casing')",
+            "Reviewed Express.js middleware and response handling (Skill Evidence: 'Modified res.redirect() HTML structure')"
+          ],
+          "review_experience": "83 reviews, 60 PRs reviewed, 35 comments. High activity and rigorous testing practices. Reviewed Express.js CI failures and test coverage improvements.",
+          "potential_concerns": "Less direct evidence of BigInt/TypeScript serialization expertise than bjohansebas or ctcpip."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level reviewer with deep expertise in Express.js backend development, Node.js middleware, and testing. Strong evidence of direct skill overlap with error handling, type safety, and test coverage for edge cases. Reviewed similar PRs with testing focus and Express.js internals.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 4,
+      "pr_url": "https://github.com/expressjs/express/pull/6848",
+      "reviewer_strengths": [
+        "Express.js backend development (Top Identified Skill)",
+        "Node.js middleware and async/await expertise (Primary Skills)",
+        "Testing and test-driven development (Identified Skills)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "107 reviews, 72 PRs reviewed, 41 comments. High activity and constructive feedback. Reviewed Express.js CI/test matrix updates (Similar Review 1).",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "Node.js"
+        ],
+        "review_expertise_areas": [
+          "Backend",
+          "Testing"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with deep expertise in Express.js backend development, Node.js middleware, and testing. Strong evidence of direct skill overlap with error handling, type safety, and test coverage for edge cases. Reviewed similar PRs with testing focus and Express.js internals.",
+          "strengths_alignment": [
+            "Express.js backend development (Top Identified Skill)",
+            "Node.js middleware and async/await expertise (Primary Skills)",
+            "Testing and test-driven development (Identified Skills)",
+            "Error handling and HTTP response optimization (Skill Evidence)",
+            "Reviewed PRs with test coverage improvements (Similar Review 2)"
+          ],
+          "review_experience_details": "107 reviews, 72 PRs reviewed, 41 comments. High activity and constructive feedback. Reviewed Express.js CI/test matrix updates (Similar Review 1).",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6851,
+      "pr_title": "perf: implement lazy compilation for compileTrust() with large IP lists",
+      "pr_author": "SrinjoyDev",
+      "pr_state": "open",
+      "assigned_reviewer": "Hardanish-Singh",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Hardanish-Singh",
+          "match_score": 0.92,
+          "reasoning": "Strongest match for performance optimization, runtime caching, and testing expertise with direct evidence of Node.js runtime optimizations and caching mechanisms. Reviewed 'perf: cache defineGetter' and demonstrated deep runtime expertise.",
+          "strengths_alignment": [
+            "Performance optimization (runtime caching, 'perf: cache defineGetter')",
+            "Testing expertise (implied via Node.js internals and performance focus)",
+            "JavaScript/Node.js runtime depth (caching, optimizations)",
+            "Direct overlap with 'lazy compilation' and 'threshold-based logic' via runtime expertise"
+          ],
+          "review_experience": "Senior-level reviewer with 9 reviews, 0 comments (focused approvals), and direct evidence of performance-focused PRs in Node.js runtime.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "ctcpip",
+          "match_score": 0.88,
+          "reasoning": "Senior-level reviewer with deep Node.js runtime internals and testing expertise, including test-driven development and performance-related PRs. Strong alignment with 'performance regression testing' and 'memory efficiency verification'.",
+          "strengths_alignment": [
+            "Node.js runtime internals (direct overlap with 'runtime caching')",
+            "Testing expertise (TDD, test matrix management, performance regression testing)",
+            "Express.js middleware/response handling (relevant to caching mechanisms)",
+            "Reviewed 'ci: add node.js 24 to test matrix' (performance regression testing)"
+          ],
+          "review_experience": "Senior-level reviewer with 18 reviews, 6 comments, and direct evidence of performance-related PRs and testing practices.",
+          "potential_concerns": "Less direct evidence of 'lazy compilation' or 'threshold-based logic' than Hardanish-Singh"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with strong Express.js internals and performance-related PRs, though less direct evidence of 'runtime caching' than the top two. Demonstrated modern JavaScript and testing expertise.",
+          "strengths_alignment": [
+            "Express.js internals (relevant to 'lazy compilation' and 'caching mechanism validation')",
+            "Modern JavaScript (ES6+) and refactoring (overlap with 'performance optimization')",
+            "Testing expertise (Mocha, Supertest, test suite maintenance)",
+            "Reviewed 'deps: upgrade supertest' (performance regression testing relevance)"
+          ],
+          "review_experience": "Senior-level reviewer with 65 reviews, 10 comments, and strong evidence of performance-related PRs and testing.",
+          "potential_concerns": "Less direct evidence of 'runtime caching' or 'threshold-based logic' than Hardanish-Singh or ctcpip"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest match for performance optimization, runtime caching, and testing expertise with direct evidence of Node.js runtime optimizations and caching mechanisms. Reviewed 'perf: cache defineGetter' and demonstrated deep runtime expertise.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6851",
+      "reviewer_strengths": [
+        "Performance optimization (runtime caching, 'perf: cache defineGetter')",
+        "Testing expertise (implied via Node.js internals and performance focus)",
+        "JavaScript/Node.js runtime depth (caching, optimizations)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 9 reviews, 0 comments (focused approvals), and direct evidence of performance-focused PRs in Node.js runtime.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "JavaScript",
+          "performance optimization",
+          "runtime caching"
+        ],
+        "review_expertise_areas": [
+          "Performance",
+          "Testing"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Performance",
+        "assignment_details": {
+          "full_reasoning": "Strongest match for performance optimization, runtime caching, and testing expertise with direct evidence of Node.js runtime optimizations and caching mechanisms. Reviewed 'perf: cache defineGetter' and demonstrated deep runtime expertise.",
+          "strengths_alignment": [
+            "Performance optimization (runtime caching, 'perf: cache defineGetter')",
+            "Testing expertise (implied via Node.js internals and performance focus)",
+            "JavaScript/Node.js runtime depth (caching, optimizations)",
+            "Direct overlap with 'lazy compilation' and 'threshold-based logic' via runtime expertise"
+          ],
+          "review_experience_details": "Senior-level reviewer with 9 reviews, 0 comments (focused approvals), and direct evidence of performance-focused PRs in Node.js runtime.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6856,
+      "pr_title": "test: fix static file tests for supertest 7+ URL normalization",
+      "pr_author": "guimard",
+      "pr_state": "open",
+      "assigned_reviewer": "UlisesGascon",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.92,
+          "reasoning": "Strongest overlap with Node.js core HTTP modules, supertest/superagent, and testing/security expertise. Direct evidence of supertest dependency management and path traversal/security testing relevance.",
+          "strengths_alignment": [
+            "Express.js internals + Node.js HTTP core (http.request, URL handling)",
+            "Supertest dependency management (upgrade supertest 7.x)",
+            "Testing expertise (Mocha, test suite improvements)",
+            "Security/Testing focus (deprecation handling, test coverage)"
+          ],
+          "review_experience": "Senior with 65 reviews, 57 PRs reviewed; active in Express.js testing and dependency updates. Reviewed similar PRs (#6386) with test coverage focus.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.88,
+          "reasoning": "Deep Express.js internals + HTTP response handling expertise; strong testing/debugging background. Reviewed similar test coverage PRs (#6476) and has CI/test debugging experience.",
+          "strengths_alignment": [
+            "Express.js middleware + HTTP response handling (redirect encoding, path traversal)",
+            "Test coverage analysis and CI debugging (relevant to edge cases)",
+            "Supertest/Jest-like testing patterns (testing framework familiarity)",
+            "Security awareness (deprecation warnings, file serving)"
+          ],
+          "review_experience": "Senior with 83 reviews, 60 PRs reviewed; reviewed test coverage PRs (#6476) and CI failures. Strong review activity consistency.",
+          "potential_concerns": "Less direct evidence of superagent or URL encoding focus"
+        },
+        {
+          "reviewer_name": "IamLizu",
+          "match_score": 0.82,
+          "reasoning": "Direct supertest dependency upgrades and Express.js middleware expertise. Strong testing focus (Mocha/supertest) and path traversal/URL handling relevance via middleware.",
+          "strengths_alignment": [
+            "Supertest upgrades (direct supertest 7.x compatibility)",
+            "Express.js middleware + request handling (relevant to path traversal)",
+            "Testing frameworks (Mocha/supertest, test-driven development)",
+            "Dependency management (npm/yarn/pnpm, semver)"
+          ],
+          "review_experience": "Senior with 9 reviews, 9 PRs reviewed; active in dependency upgrades and middleware reviews. Reviewed supertest upgrades and Express.js internals.",
+          "potential_concerns": "Fewer reviews than top 2; less direct evidence of Node.js core HTTP modules"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest overlap with Node.js core HTTP modules, supertest/superagent, and testing/security expertise. Direct evidence of supertest dependency management and path traversal/security testing relevance.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6856",
+      "reviewer_strengths": [
+        "Express.js internals + Node.js HTTP core (http.request, URL handling)",
+        "Supertest dependency management (upgrade supertest 7.x)",
+        "Testing expertise (Mocha, test suite improvements)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior with 65 reviews, 57 PRs reviewed; active in Express.js testing and dependency updates. Reviewed similar PRs (#6386) with test coverage focus.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "Node.js core modules (http)",
+          "supertest",
+          "superagent",
+          "URL handling in Node.js"
+        ],
+        "review_expertise_areas": [
+          "Testing",
+          "Security"
+        ],
+        "complexity_level": "Medium",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Testing",
+        "assignment_details": {
+          "full_reasoning": "Strongest overlap with Node.js core HTTP modules, supertest/superagent, and testing/security expertise. Direct evidence of supertest dependency management and path traversal/security testing relevance.",
+          "strengths_alignment": [
+            "Express.js internals + Node.js HTTP core (http.request, URL handling)",
+            "Supertest dependency management (upgrade supertest 7.x)",
+            "Testing expertise (Mocha, test suite improvements)",
+            "Security/Testing focus (deprecation handling, test coverage)"
+          ],
+          "review_experience_details": "Senior with 65 reviews, 57 PRs reviewed; active in Express.js testing and dependency updates. Reviewed similar PRs (#6386) with test coverage focus.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6860,
+      "pr_title": "Fix asci code message of EXPRESS",
+      "pr_author": "Shanu2409",
+      "pr_state": "closed",
+      "assigned_reviewer": "wesleytodd",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "wesleytodd",
+          "match_score": 0.92,
+          "reasoning": "Senior-level reviewer with deep Express.js internals expertise, rigorous testing practices, and strong code quality focus. Demonstrated mastery of modern JavaScript patterns, CI debugging, and dependency management—directly aligning with low-complexity code quality reviews.",
+          "strengths_alignment": [
+            "Express.js internals (middleware, HTTP response handling, file serving)",
+            "Modern JavaScript patterns (ES6+, refactoring, readability improvements)",
+            "Testing and CI debugging (Jest-like patterns, test coverage analysis)",
+            "Code quality and refactoring (constructive feedback, architectural considerations)"
+          ],
+          "review_experience": "83 reviews, 60 PRs, 35 comments—high activity with consistent approvals and technical depth. Reviewed diverse PRs including refactors, deprecation warnings, and CI fixes.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.88,
+          "reasoning": "Senior-level reviewer with strong Express.js internals knowledge, modern JavaScript (ES6+), and testing expertise. Specializes in refactoring, dependency management, and backward compatibility—ideal for low-complexity code quality reviews.",
+          "strengths_alignment": [
+            "Express.js internals (refactoring, deprecation handling)",
+            "Modern JavaScript (ES6+ syntax, spread operator, array methods)",
+            "Testing (Mocha, Supertest, test suite improvements)",
+            "Dependency management (npm/yarn, Dependabot, semantic versioning)"
+          ],
+          "review_experience": "65 reviews, 57 PRs, 10 comments—high volume with consistent approvals. Reviewed diverse PRs including refactors, dependency upgrades, and release notes.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "bjohansebas",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with deep Express.js expertise, focusing on async I/O optimizations, middleware, and code refactoring. Strong alignment with low-complexity code quality reviews, though slightly less activity than top choices.",
+          "strengths_alignment": [
+            "Express.js backend development (middleware, async I/O elimination)",
+            "Modern JavaScript (Promises, async/await, arrow functions)",
+            "Code refactoring and optimization (legacy code modernization)",
+            "HTTP response handling (headers, redirects, i18n)"
+          ],
+          "review_experience": "107 reviews, 72 PRs, 41 comments—high activity with constructive feedback. Reviewed diverse PRs including async optimizations and middleware refactors.",
+          "potential_concerns": "None identified"
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Senior-level reviewer with deep Express.js internals expertise, rigorous testing practices, and strong code quality focus. Demonstrated mastery of modern JavaScript patterns, CI debugging, and dependency management—directly aligning with low-complexity code quality reviews.",
+      "assignment_confidence": "High",
+      "current_reviews_count": 1,
+      "pr_url": "https://github.com/expressjs/express/pull/6860",
+      "reviewer_strengths": [
+        "Express.js internals (middleware, HTTP response handling, file serving)",
+        "Modern JavaScript patterns (ES6+, refactoring, readability improvements)",
+        "Testing and CI debugging (Jest-like patterns, test coverage analysis)"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "83 reviews, 60 PRs, 35 comments—high activity with consistent approvals and technical depth. Reviewed diverse PRs including refactors, deprecation warnings, and CI fixes.",
+      "detailed_analysis": {
+        "technical_skills_needed": [],
+        "review_expertise_areas": [],
+        "complexity_level": "Low",
+        "primary_language": "Unknown",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Senior-level reviewer with deep Express.js internals expertise, rigorous testing practices, and strong code quality focus. Demonstrated mastery of modern JavaScript patterns, CI debugging, and dependency management—directly aligning with low-complexity code quality reviews.",
+          "strengths_alignment": [
+            "Express.js internals (middleware, HTTP response handling, file serving)",
+            "Modern JavaScript patterns (ES6+, refactoring, readability improvements)",
+            "Testing and CI debugging (Jest-like patterns, test coverage analysis)",
+            "Code quality and refactoring (constructive feedback, architectural considerations)"
+          ],
+          "review_experience_details": "83 reviews, 60 PRs, 35 comments—high activity with consistent approvals and technical depth. Reviewed diverse PRs including refactors, deprecation warnings, and CI fixes.",
+          "potential_limitations": "None identified"
+        }
+      }
+    },
+    {
+      "pr_number": 6865,
+      "pr_title": "Remove direct `qs` dependency",
+      "pr_author": "lukaselmer",
+      "pr_state": "open",
+      "assigned_reviewer": "Phillip9587",
+      "top_3_reviewers": [
+        {
+          "reviewer_name": "Phillip9587",
+          "match_score": 0.92,
+          "reasoning": "Strongest match for dependency management and Express.js internals, with direct evidence of `qs` dependency bump reviews and `body-parser` impact assessment in past PRs (#6591).",
+          "strengths_alignment": [
+            "Express.js middleware expertise with dependency bump reviews (e.g., 'qs@^6.14.0')",
+            "Deep dependency management experience (npm/semver, security-focused dependency updates)",
+            "Reviewed `body-parser` dependency changes and `qs` removal correctness in PR #6591",
+            "Consistent alignment with prior PRs (#6647, #5723) via dependency conflict resolution"
+          ],
+          "review_experience": "Senior-level reviewer with 31 PRs reviewed, 28 approved, and 2 comments. Focused on dependency management, Express.js internals, and release processes.",
+          "potential_concerns": "None identified"
+        },
+        {
+          "reviewer_name": "sheplu",
+          "match_score": 0.88,
+          "reasoning": "Strong dependency management and Express.js expertise, with evidence of `npm`/`yarn`/`pnpm` conflict resolution and `qs`/`body-parser` dependency upgrades in past reviews.",
+          "strengths_alignment": [
+            "Expertise in Node.js package management (npm/yarn/pnpm, semver, dependency conflict resolution)",
+            "Reviewed dependency upgrades (e.g., 'deps: upgrade supertest', 'deps: upgrade mocha')",
+            "Semantic versioning discussions and dependency update strategies",
+            "Approved dependency-related PRs with LGTM but constructive feedback on versioning"
+          ],
+          "review_experience": "Senior-level reviewer with 7 PRs reviewed, 2 comments, and strong dependency management focus. Active in Express.js dependency updates.",
+          "potential_concerns": "Lower review volume (7 PRs) compared to Phillip9587, but consistent depth in dependency management."
+        },
+        {
+          "reviewer_name": "UlisesGascon",
+          "match_score": 0.85,
+          "reasoning": "Senior-level reviewer with deep Express.js and dependency management expertise, including dependency upgrades and `qs`/`body-parser` dependency reviews in past PRs.",
+          "strengths_alignment": [
+            "Express.js internals and dependency management (npm/yarn, Dependabot, semver)",
+            "Reviewed 'deps: upgrade supertest' (dependency upgrade correctness)",
+            "Strong refactoring and dependency conflict resolution experience",
+            "Consistent LGTM approvals for dependency-related PRs"
+          ],
+          "review_experience": "Senior-level reviewer with 65 PRs reviewed, 10 comments, and strong dependency management focus. High review volume with consistent quality.",
+          "potential_concerns": "Less direct evidence of `qs` removal correctness verification than Phillip9587."
+        }
+      ],
+      "match_score": 0.92,
+      "assignment_reasoning": "Strongest match for dependency management and Express.js internals, with direct evidence of `qs` dependency bump reviews and `body-parser` impact assessment in past PRs (#6591).",
+      "assignment_confidence": "High",
+      "current_reviews_count": 3,
+      "pr_url": "https://github.com/expressjs/express/pull/6865",
+      "reviewer_strengths": [
+        "Express.js middleware expertise with dependency bump reviews (e.g., 'qs@^6.14.0')",
+        "Deep dependency management experience (npm/semver, security-focused dependency updates)",
+        "Reviewed `body-parser` dependency changes and `qs` removal correctness in PR #6591"
+      ],
+      "potential_concerns": "None identified",
+      "review_experience": "Senior-level reviewer with 31 PRs reviewed, 28 approved, and 2 comments. Focused on dependency management, Express.js internals, and release processes.",
+      "detailed_analysis": {
+        "technical_skills_needed": [
+          "Node.js package management",
+          "dependency resolution"
+        ],
+        "review_expertise_areas": [
+          "Dependency Management"
+        ],
+        "complexity_level": "Low",
+        "primary_language": "JavaScript",
+        "review_type_needed": "Code Quality",
+        "assignment_details": {
+          "full_reasoning": "Strongest match for dependency management and Express.js internals, with direct evidence of `qs` dependency bump reviews and `body-parser` impact assessment in past PRs (#6591).",
+          "strengths_alignment": [
+            "Express.js middleware expertise with dependency bump reviews (e.g., 'qs@^6.14.0')",
+            "Deep dependency management experience (npm/semver, security-focused dependency updates)",
+            "Reviewed `body-parser` dependency changes and `qs` removal correctness in PR #6591",
+            "Consistent alignment with prior PRs (#6647, #5723) via dependency conflict resolution"
+          ],
+          "review_experience_details": "Senior-level reviewer with 31 PRs reviewed, 28 approved, and 2 comments. Focused on dependency management, Express.js internals, and release processes.",
+          "potential_limitations": "None identified"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "successful_assignments": 34,
+    "failed_assignments": 1,
+    "success_rate": 97.1,
+    "reviewer_workload_distribution": {
+      "Phillip9587": 6,
+      "bjohansebas": 7,
+      "UlisesGascon": 3,
+      "ctcpip": 4,
+      "Hardanish-Singh": 4,
+      "inigomarquinez": 3,
+      "wesleytodd": 3,
+      "blakeembrey": 1,
+      "sheplu": 3
+    },
+    "most_assigned_reviewer": "bjohansebas",
+    "average_match_score": 0.92
+  }
+}

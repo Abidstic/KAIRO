@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "developer_name": "dnlup",
+    "generation_timestamp": "2026-09-18T13:42:34.347042",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 8,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 8
+  },
+  "profile": {
+    "developer_name": "dnlup",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify framework",
+      "HTTP/2 protocol",
+      "Node.js asynchronous programming",
+      "JavaScript decorators",
+      "Plugin system development",
+      "Error handling and validation",
+      "Code coverage and testing"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "dnlup is a Mid-level JavaScript developer with specialized expertise in Fastify, a high-performance Node.js framework. Their contributions focus on core backend systems including HTTP/2 protocol handling, asynchronous request processing, and plugin architecture. The developer demonstrates strong skills in error handling, debugging performance issues, and maintaining high code quality through comprehensive testing and documentation. While primarily backend-focused, their work with decorators and plugin systems suggests familiarity with advanced JavaScript/TypeScript metaprogramming patterns.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify"
+      ],
+      "HTTP Protocols": [
+        "HTTP/2",
+        "HEAD requests",
+        "connection management"
+      ],
+      "Asynchronous Programming": [
+        "async/await",
+        "event loop debugging",
+        "stream handling"
+      ],
+      "Error Handling": [
+        "explicit error throwing",
+        "runtime validation",
+        "state management"
+      ],
+      "Plugin Development": [
+        "decorator-based plugins",
+        "plugin lifecycle",
+        "Fastify plugin ecosystem"
+      ],
+      "Testing Practices": [
+        "code coverage",
+        "unit testing",
+        "Jest/Istanbul"
+      ],
+      "Documentation": [
+        "ecosystem contributions",
+        "plugin documentation"
+      ],
+      "Debugging": [
+        "hanging request resolution",
+        "performance tuning",
+        "internal code fixes"
+      ],
+      "JavaScript Metaprogramming": [
+        "decorators",
+        "class-based decorators"
+      ],
+      "Networking": [
+        "WebSocket-like streams",
+        "backpressure handling"
+      ]
+    },
+    "skill_evidence": [
+      "PR 'feat(decorators): throw error if called after start' shows explicit error handling in decorator-based systems",
+      "PR 'http2: fix HEAD requests hanging' demonstrates HTTP/2 protocol debugging and connection management",
+      "PR 'test: 100% coverage on lib/request.js' indicates comprehensive testing practices and code coverage focus",
+      "Multiple PRs related to Fastify's plugin ecosystem ('docs(ecosystem): add fastify-traps', 'Add fastify-doc plugin') show plugin development expertise",
+      "PR 'fix(internals): fix typo in handleRequest' reveals attention to core framework internals and debugging",
+      "HTTP/2 related PR suggests familiarity with Node.js event loop and async I/O patterns",
+      "Decorator-based features indicate experience with TypeScript/JavaScript metaprogramming",
+      "Ecosystem contributions demonstrate understanding of Fastify's plugin discovery and documentation systems"
+    ]
+  },
+  "statistics": {
+    "total_prs": 8,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

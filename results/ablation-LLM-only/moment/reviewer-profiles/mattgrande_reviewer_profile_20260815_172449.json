@@ -1,0 +1,55 @@
+{
+  "reviewer_name": "mattgrande",
+  "generated_at": "20260815_172449",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 0,
+    "total_prs": 1,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "mattgrande",
+    "experience_level": "Junior",
+    "primary_skills": [],
+    "programming_languages": [],
+    "summary": "mattgrande demonstrates **no JavaScript technical skills** in their reviews. Their contributions are focused entirely on localization (i18n) and translation accuracy, with no evidence of JavaScript framework, language feature, or backend/frontend expertise. The reviewer’s engagement is limited to non-code aspects of PRs, such as linguistic correctness and release workflows, rather than technical JavaScript code review or development. Their experience level is assessed as Junior due to the lack of technical depth in JavaScript-related discussions.",
+    "identified_skills": {
+      "Localization & Internationalization": [
+        "i18n translation review",
+        "linguistic accuracy validation",
+        "locale-specific fixes"
+      ],
+      "GitHub Workflow & Collaboration": [
+        "PR label management",
+        "release cycle awareness",
+        "merging privilege awareness"
+      ],
+      "Code Review Process": [
+        "non-technical review feedback",
+        "translation-focused comments"
+      ],
+      "JavaScript (Unsupported)": [],
+      "Backend Frameworks": [],
+      "Frontend Frameworks": [],
+      "Testing": [],
+      "Asynchronous Programming": [],
+      "Dependency Management": [],
+      "Build Tools": [],
+      "TypeScript": [],
+      "ES6+ Features": []
+    },
+    "skill_evidence": [
+      "PR title '[locale] Fix incorrect Slovak translation' indicates focus on localization, not JavaScript code",
+      "Review comment 'translation is more or less accurate' shows linguistic review, not technical JavaScript feedback",
+      "No code changes (`additions/deletions = 0`) in reviewed files, confirming non-JavaScript contributions",
+      "Mention of 'Pending Next Release' label suggests awareness of release workflows but no JavaScript tooling discussion",
+      "Comment 'I don’t have merging privileges' reflects process knowledge, not JavaScript expertise",
+      "No references to JavaScript frameworks, libraries, or language features in any review",
+      "All review comments avoid technical JavaScript terminology (e.g., no mention of 'async/await', 'React hooks', or 'Node.js middleware')"
+    ]
+  }
+}

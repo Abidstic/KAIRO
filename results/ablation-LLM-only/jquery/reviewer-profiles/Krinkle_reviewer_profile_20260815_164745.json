@@ -1,0 +1,19 @@
+{
+  "reviewer_name": "Krinkle",
+  "generated_at": "20260815_164745",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 17,
+    "total_comments": 8,
+    "total_prs": 12,
+    "repos": [
+      "jquery"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "Krinkle",
+    "raw_response": "```json\n{\n  \"reviewer_name\": \"Krinkle\",\n  \"experience_level\": \"Senior\",\n  \"primary_skills\": [\n    \"jQuery core development\",\n    \"JavaScript testing automation\",\n    \"Content Security Policy (CSP) handling\",\n    \"Node.js backend testing\",\n    \"Cross-browser compatibility testing\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES5/ES6)\",\n    \"PHP (mock server interaction)\",\n    \"HTML/CSS (selector testing)\"\n  ],\n  \"summary\": \"Krinkle is a highly experienced Senior-level JavaScript reviewer with deep expertise in jQuery's core functionality, particularly focused on testing, security (CSP compliance), and internal optimizations. Their reviews demonstrate strong skills in Node.js-based backend testing, cross-browser compatibility, and maintaining reliable test environments. The reviewer consistently ensures code changes align with security best practices and maintain backward compatibility while contributing to documentation and maintenance tasks.\",\n  \"identified_skills\": {\n    \"Core JavaScript Frameworks\": [\"jQuery\", \"jQuery internals\"],\n    \"Testing & Automation\": [\n      \"Node.js mock server configuration\",\n      \"PHP mock server testing\",\n      \"Cross-browser test execution (Chrome/Firefox)\",\n      \"Offline test environment setup\",\n      \"Callback parameter validation\"\n    ],\n    \"Security & Compliance\": [\n      \"Content Security Policy (CSP) handling\",\n      \"AJAX script transport CSP compliance\",\n      \"External dependency security checks\"\n    ],\n    \"Code Quality & Maintenance\": [\n      \"Test infrastructure optimization\",\n      \"Documentation updates\",\n      \"Legacy code compatibility\",\n      \"CSP error prevention\"\n    ],\n    \"JavaScript Patterns\": [\n      \"Callback-based patterns\",\n      \"Asynchronous JavaScript (AJAX)\",\n      \"DOM manipulation techniques\"\n    ],\n    \"Tooling & Environments\": [\n      \"jQuery test suite\",\n      \"Local file-based testing\",\n      \"Mock PHP server management\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR: 'Ajax: Avoid CSP errors in the script transport for async requests' (CSP handling, security)\",\n    \"PR: 'Tests: Strip untypical callback parameter characters from mock.php' (Node.js mock server, callback validation)\",\n    \"PR: 'Selector: Re-expose jQuery.find.tokenize (3.x version)' (jQuery internals, selector engine)\",\n    \"PR: 'Tests: Make more tests run natively in Chrome & Firefox' (cross-browser compatibility testing)\",\n    \"Review comment: 'LGTM. Confirmed all code matches the original PR' (deep jQuery internals knowledge)\",\n    \"PR: 'Tests: Don\\'t remove csp.log in the cspClean action of mock.php' (CSP test environment maintenance)\",\n    \"PR: 'Docs: update irc to libera and fix LAMP dead link' (documentation maintenance)\",\n    \"PR: 'Attributes: Drop the toggleClass(boolean|undefined) signature' (jQuery DOM manipulation expertise)\"\n  ]\n}\n```",
+    "parsing_error": "Invalid \\escape: line 54 column 21 (char 2521)"
+  }
+}

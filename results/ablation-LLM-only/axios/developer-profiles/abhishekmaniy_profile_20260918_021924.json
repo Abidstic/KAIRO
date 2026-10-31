@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "abhishekmaniy",
+    "generation_timestamp": "2026-09-18T02:05:40.922428",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 9,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 9
+  },
+  "profile": {
+    "developer_name": "abhishekmaniy",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript API Design",
+      "HTTP Client Development (axios)",
+      "Technical Documentation",
+      "Accessibility in Documentation",
+      "npm Package Metadata"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "summary": "abhishekmaniy is a mid-level JavaScript developer with specialized expertise in TypeScript API design for HTTP clients, particularly the axios library. Their contributions focus on enhancing type safety, documentation, and accessibility in technical materials. While their PRs demonstrate strong TypeScript method overloads, response typing, and JSDoc annotations, they lack visible code implementation contributions outside metadata/documentation improvements. Their work shows proficiency in optimizing package discoverability and improving developer experience through well-structured documentation and accessibility considerations.",
+    "identified_skills": {
+      "TypeScript": [
+        "Method Overloads",
+        "Type Refactoring",
+        "JSDoc Annotations",
+        "HTTP Response Typing"
+      ],
+      "HTTP Clients": [
+        "axios Request/Response Modeling",
+        "HTTP Status Code Handling",
+        "Browser/Node.js Compatibility"
+      ],
+      "Documentation": [
+        "JSDoc Documentation",
+        "README Accessibility",
+        "Technical Writing",
+        "Contributor Guidelines"
+      ],
+      "Package Management": [
+        "npm Keywords Optimization",
+        "package.json Metadata"
+      ],
+      "Accessibility": [
+        "Screen Reader-Friendly Tables",
+        "Alt Text for Media",
+        "Documentation a11y"
+      ],
+      "Open Source": [
+        "Hacktoberfest Contributions",
+        "Metadata Improvements"
+      ],
+      "JavaScript Fundamentals": []
+    },
+    "skill_evidence": [
+      "PR 2: Added TypeScript method overloads for intuitive request/response handling in axios",
+      "PR 3: Corrected response headers TypeScript types to use lowercase keys, improving type safety",
+      "PR 4: Improved browser support table accessibility with descriptive alt text and screen reader-friendly headers",
+      "PR 5: Added missing Cloudflare HTTP status codes to axios’s error handling documentation",
+      "PR 6: Enhanced package.json keywords for better npm discoverability of axios",
+      "PR 7: Added JSDoc documentation to bind helper function, improving IDE tooling support",
+      "All PRs: Focused on documentation, metadata, and TypeScript improvements rather than code implementation"
+    ]
+  },
+  "statistics": {
+    "total_prs": 9,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "vsopvsop",
+    "generation_timestamp": "2026-08-15T15:51:20.864843",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "vsopvsop",
+    "raw_response": "```json\n{\n  \"developer_name\": \"vsopvsop\",\n  \"experience_level\": \"Junior\",\n  \"primary_skills\": [\n    \"Documentation Improvement\",\n    \"Express.js Documentation\",\n    \"Git/GitHub PR Workflow\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript\"\n  ],\n  \"summary\": \"vsopvsop demonstrates a **Junior-level** JavaScript developer profile with contributions primarily focused on **documentation refinement** within the Express.js ecosystem. Their experience is limited to **spelling corrections and textual precision** in API documentation, showing strong attention to detail but no evidence of backend, frontend, or advanced JavaScript development. Contributions are confined to **docs-only PRs**, indicating familiarity with Express.js as a project but not as a technical framework. The developer is proficient in **Git/GitHub workflows** (opening, reviewing, and closing PRs) and understands basic documentation conventions. However, there is **no evidence of technical JavaScript expertise** (e.g., middleware, routing, async patterns, or testing). Their profile aligns with **community maintenance** rather than core development roles.\",\n  \"identified_skills\": {\n    \"Documentation Practices\": [\n      \"Spelling Corrections\",\n      \"Markdown/Readme Maintenance\",\n      \"API Documentation Edits\"\n    ],\n    \"Tooling & Workflows\": [\n      \"GitHub PR Workflow\",\n      \"Documentation Contribution Guidelines\"\n    ],\n    \"Frameworks & Ecosystems\": [\n      \"Express.js (Passive Familiarity)\"\n    ],\n    \"Language Features\": [],\n    \"Testing\": [],\n    \"Backend Development\": [],\n    \"Frontend Development\": [],\n    \"Build Tools\": [],\n    \"DevOps\": []\n  },\n  \"skill_evidence\": [\n    \"All three PRs are **docs-only changes** with `files_changed: 0`, indicating focus on textual corrections (e.g., 'charset' spelling fix).\",\n    \"PR titles explicitly mention **spelling corrections** (e.g., 'Fix typo in \"closes\"', 'Correct \"delimited\" spelling').\",\n    \"Labels include `docs` and `pr`, confirming contributions are **documentation-focused** rather than technical.\",\n    \"No code changes in any PRs, reinforcing that contributions are **non-developmental** (e.g., no Express.js middleware, routing, or server logic).\",\n    \"PRs are **closed**, demonstrating familiarity with **GitHub review processes** and contributor workflows.\",\n    \"All contributions are in the **Express repo**, showing **passive awareness** of the framework but no technical implementation.\",\n    \"No evidence of **testing, async patterns, or frontend frameworks** in any PR description or files.\",\n    \"Contributions align with **community maintenance tasks** (e.g., triaging minor documentation issues) rather than feature development.\"\n  ]\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 35 column 81 (char 1883)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

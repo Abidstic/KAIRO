@@ -1,0 +1,91 @@
+{
+  "reviewer_name": "simonbrunel",
+  "generated_at": "20260917_201023",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 11,
+    "total_comments": 10,
+    "total_prs": 6,
+    "repos": [
+      "chartjs"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "simonbrunel",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "JavaScript charting libraries (Chart.js)",
+      "DOM rendering optimization",
+      "Visual debugging and alignment",
+      "API design and documentation",
+      "Frontend JavaScript performance",
+      "Open-source contribution processes"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Chart.js ecosystem)"
+    ],
+    "summary": "Simonbrunel is a senior JavaScript developer with deep expertise in charting libraries, particularly Chart.js. Their reviews demonstrate strong skills in visual rendering optimization, DOM event handling, and API design. They excel at debugging complex rendering issues, improving documentation, and ensuring cross-version compatibility. Their contributions focus on frontend performance and visual correctness, with a strong emphasis on open-source collaboration and code review processes.",
+    "identified_skills": {
+      "Charting & Visualization": [
+        "Chart.js internals",
+        "Canvas/SVG rendering",
+        "Radial scale alignment",
+        "Bar chart properties (minBarLength)"
+      ],
+      "DOM & Rendering": [
+        "ResizeObserver patterns",
+        "Infinite loop prevention",
+        "Layout recalculation optimization",
+        "Scrollbar-triggered rendering"
+      ],
+      "Testing & Debugging": [
+        "Visual bug identification",
+        "Unit testing challenges",
+        "Console-based debugging"
+      ],
+      "Documentation & API": [
+        "Technical writing",
+        "Getting-started guides",
+        "Plugin documentation",
+        "API property design"
+      ],
+      "Module Systems": [
+        "CommonJS vs. ES Modules",
+        "Bundle compatibility"
+      ],
+      "Versioning & Compatibility": [
+        "Chart.js version support",
+        "Plugin ecosystem integration"
+      ],
+      "Code Review & Process": [
+        "PR approval workflows",
+        "Constructive feedback",
+        "Contribution guidelines adherence"
+      ],
+      "Frontend Performance": [
+        "RequestAnimationFrame patterns",
+        "DOM event throttling"
+      ],
+      "Error Handling": [
+        "Edge case mitigation",
+        "State validation"
+      ],
+      "Open Source Collaboration": [
+        "GitHub PR workflows",
+        "Community mentorship"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Show radial scale labels correctly when rotated' (Chart.js internals)",
+      "PR: 'Prevent infinite resize when vertical scrollbar appears' (ResizeObserver patterns)",
+      "PR: 'Introduce the minBarLength dataset property' (API property design)",
+      "Comment: 'I'm not sure how to unit test this' (Testing challenges)",
+      "PR: 'feat: restore commonjs bundle' (Module system awareness)",
+      "PR: 'chartjs-plugin-streaming now supports Chart.js 2.7.x' (Version compatibility)",
+      "Review state: 'APPROVED' for visual alignment fixes (Code review rigor)",
+      "Documentation update: 'Updated docs (why Chart.js + getting started)' (Technical writing)"
+    ]
+  }
+}

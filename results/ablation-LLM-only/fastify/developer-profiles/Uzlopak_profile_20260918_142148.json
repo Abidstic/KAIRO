@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "developer_name": "Uzlopak",
+    "generation_timestamp": "2026-09-18T13:27:26.399525",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 70,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "Uzlopak",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify Framework",
+      "TypeScript",
+      "Node.js Backend Development",
+      "Testing & Validation",
+      "API Design & Routing",
+      "Logger & Debugging Systems",
+      "Documentation & Maintenance"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "Uzlopak is a senior-level backend JavaScript/TypeScript developer with deep expertise in Fastify, a high-performance Node.js framework. Their contributions focus on core Fastify internals, including routing, plugin management, TypeScript integration, and validation systems. Uzlopak demonstrates strong skills in testing, CI/CD automation, and documentation maintenance, with a particular emphasis on type safety and performance optimizations. Their work reflects a high level of technical proficiency in backend systems, evidenced by 70+ PRs in the Fastify repository.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js"
+      ],
+      "TypeScript": [
+        "Type Refactoring",
+        "Hook Types",
+        "Logger Extensions",
+        "Type Safety"
+      ],
+      "API & Routing": [
+        "Route Shorthands",
+        "Route Validation",
+        "Middleware Integration"
+      ],
+      "Testing": [
+        "Unit Testing",
+        "Validation Tests",
+        "CI Automation"
+      ],
+      "Logger & Debugging": [
+        "Logger Refactoring",
+        "LogLevel Extensions",
+        "Debugging Patterns"
+      ],
+      "Documentation": [
+        "README Maintenance",
+        "Ecosystem Documentation",
+        "Deprecation Handling"
+      ],
+      "Performance Optimization": [
+        "Caching Strategies",
+        "Unnecessary Content Avoidance"
+      ],
+      "CI/CD": [
+        "Automerge Conditions",
+        "CI Script Optimization"
+      ],
+      "Node.js Internals": [
+        "Version-Specific Fixes",
+        "HTTP Validation",
+        "Event Loop Awareness"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'add missing route shorthands' – demonstrates API/routing expertise in Fastify",
+      "PR: 'feat: add hasRoute' – shows deep Fastify core routing contributions",
+      "PR: 'chore: replace deprecated FastifyLoggerInstance' – TypeScript type refactoring",
+      "PR: 'create and export hook types' – TypeScript hook system improvements",
+      "PR: 'fix node 19.1.0 port validation test' – Node.js version-specific debugging",
+      "PR: 'add unit test for ajv-formats' – validation testing and unit test additions",
+      "PR: 'ecosystem.md: move fastify-secure-session to core plugins' – documentation maintenance",
+      "PR: 'Run automerge in ci only if we have a pull-request' – CI/CD workflow automation"
+    ]
+  },
+  "statistics": {
+    "total_prs": 70,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

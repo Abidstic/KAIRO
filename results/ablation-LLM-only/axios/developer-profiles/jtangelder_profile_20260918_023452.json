@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "developer_name": "jtangelder",
+    "generation_timestamp": "2026-09-18T02:20:33.065406",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "jtangelder",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios internals",
+      "JavaScript module bundling (Webpack)",
+      "HTTP client error handling",
+      "Cross-origin request handling",
+      "Build optimization (tree-shaking)",
+      "Legacy browser compatibility"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "jtangelder is a mid-level JavaScript developer with specialized expertise in Axios, a popular HTTP client library. Their contributions focus on optimizing build performance (e.g., reducing bundle size via Webpack shims), improving error handling for debugging, and enhancing cross-origin request compatibility (e.g., `XDomainRequest` for legacy IE support). The developer demonstrates strong proficiency in JavaScript module systems, error object extension, and performance-critical optimizations, particularly in browser environments. While their contributions are deeply technical and centered on HTTP client internals, there is no visible work in frontend frameworks, backend frameworks, or testing tools.",
+    "identified_skills": {
+      "HTTP Client Architecture": [
+        "Axios request dispatching",
+        "Error object extension (.config, .request)",
+        "Cross-origin request handling (CORS/XDomainRequest)"
+      ],
+      "Module Bundling & Optimization": [
+        "Webpack shim handling",
+        "Tree-shaking unused code",
+        "Bundle size reduction (1KB optimization)"
+      ],
+      "Error Handling & Debugging": [
+        "Custom error object extension",
+        "Debuggable error payloads",
+        "Failed request error tracking"
+      ],
+      "Legacy Browser Support": [
+        "XDomainRequest implementation",
+        "Browser compatibility layers",
+        "IE8-10 polyfills"
+      ],
+      "JavaScript Core": [
+        "Process shim detection (Node.js/browser)",
+        "Module system awareness",
+        "Minification-aware optimizations"
+      ],
+      "Build Systems": [
+        "Webpack configuration",
+        "Minification tools (Terser)",
+        "Bundle analysis"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: Removed unnecessary `process` shim from Webpack build, reducing bundle size by ~1KB, showing awareness of Node.js/browser module system differences.",
+      "PR 1: Discussed Webpack's handling of `process` shims, indicating deep understanding of tree-shaking and unused code removal.",
+      "PR 2: Improved `XDomainRequest` implementation for legacy IE support, demonstrating expertise in cross-origin request fallbacks and browser compatibility layers.",
+      "PR 3: Extended Axios error objects with `.config` and `.request` properties, improving debuggability and aligning with Promise rejection patterns.",
+      "PR 3: Referenced Issue #242, suggesting familiarity with error tracking and debugging workflows in open-source projects.",
+      "All PRs: Focused on Axios internals, including request lifecycle, error handling, and performance optimizations, indicating deep expertise in HTTP client architecture.",
+      "PR 1: Quantified bundle size reduction (1KB), showing proficiency in measuring and optimizing build performance with minification tools."
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

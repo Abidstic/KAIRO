@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "developer_name": "fox1t",
+    "generation_timestamp": "2026-09-18T13:36:54.256650",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 13,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 13
+  },
+  "profile": {
+    "developer_name": "fox1t",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify (Node.js web framework)",
+      "TypeScript",
+      "ECMAScript Modules (ESM)",
+      "Backend API development",
+      "Plugin system architecture",
+      "Type-safe backend patterns",
+      "Documentation improvement",
+      "Error handling and defensive programming"
+    ],
+    "programming_languages": [
+      "JavaScript (ESM)",
+      "TypeScript"
+    ],
+    "summary": "fox1t is a highly experienced backend developer specializing in Fastify, with deep expertise in TypeScript and modern JavaScript module systems. Their contributions focus on core framework improvements, plugin system enhancements, and robust type safety. The developer demonstrates strong skills in defensive programming, documentation, and versioned feature development, consistently following Fastify's contribution guidelines and testing practices. Evidence shows a strong focus on backend patterns, ESM/TypeScript integration, and maintaining the plugin ecosystem's clarity for developers.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js web framework internals"
+      ],
+      "TypeScript": [
+        "Generics",
+        "Type-safe route handlers",
+        "Dynamic imports support",
+        "TypeScript generics definitions"
+      ],
+      "Module Systems": [
+        "ECMAScript Modules (ESM)",
+        "Named imports",
+        "Dynamic imports",
+        "Hybrid CommonJS/ESM support"
+      ],
+      "Backend Patterns": [
+        "Plugin architecture",
+        "Hook systems (onRoute)",
+        "Defensive programming",
+        "Error handling middleware",
+        "State management"
+      ],
+      "Documentation": [
+        "Ecosystem documentation",
+        "ESM/TypeScript usage guides",
+        "Plugin registry updates",
+        "User-facing clarity improvements"
+      ],
+      "Testing": [
+        "Test-driven contributions",
+        "Benchmark-aware fixes"
+      ],
+      "Version Management": [
+        "Versioned feature development",
+        "Backporting fixes"
+      ],
+      "Collaboration": [
+        "GitHub contribution workflows",
+        "Checklist-based PRs",
+        "Community guidelines adherence"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: 'Catches onRoute hooks errors' — demonstrates Fastify hook system expertise and error handling",
+      "PR label: 'typescript' + description: 'Adds defaults to TS generics definitions' — shows TypeScript generics mastery",
+      "PR title: 'Adds support for plugin dynamic imports in TS projects' — evidence of ESM + TypeScript integration",
+      "PR description: 'Clones opts object on route management' — defensive programming to prevent side effects",
+      "PR label: 'documentation' + 'Removes old note about named imports in ESM' — documentation maintenance",
+      "PR checklist: '[x] tests and/or benchmarks are included' — testing/benchmarking awareness",
+      "PR label: 'backport 1.x' — version management and backporting experience",
+      "PR description: 'Adds fastify-multer to ecosystem docs' — plugin ecosystem documentation contribution"
+    ]
+  },
+  "statistics": {
+    "total_prs": 13,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

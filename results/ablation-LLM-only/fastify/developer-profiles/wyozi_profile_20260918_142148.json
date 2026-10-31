@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "developer_name": "wyozi",
+    "generation_timestamp": "2026-09-18T14:14:02.754424",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "wyozi",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "Fastify",
+      "Node.js",
+      "TypeScript Decorators",
+      "Fastify Plugin System",
+      "Type Providers",
+      "Semantic Versioning"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "summary": "wyozi is a mid-level JavaScript developer with specialized expertise in TypeScript and Fastify. Their contributions focus on enhancing Fastify's type safety and extensibility, particularly through typed decorators and configuration systems. The developer demonstrates strong skills in framework-level architecture, runtime type checking, and maintaining backward compatibility. While contributions are limited to Fastify, the depth of work in type definitions and plugin systems indicates a high level of proficiency in backend JavaScript ecosystems.",
+    "identified_skills": {
+      "TypeScript Core": [
+        "TypeScript Decorators",
+        "Type Inference",
+        "Runtime Type Checking",
+        "Type Providers"
+      ],
+      "Backend Frameworks": [
+        "Fastify",
+        "Fastify Plugin System",
+        "Fastify Decorators"
+      ],
+      "Versioning & Maintenance": [
+        "Semantic Versioning",
+        "Breaking Change Awareness"
+      ],
+      "JavaScript Patterns": [
+        "Decorator Pattern",
+        "Configuration Systems"
+      ],
+      "Node.js Ecosystem": [
+        "Node.js Runtime",
+        "ES Modules"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'Mergeable context config type' labeled `typescript` indicates work on Fastify's configuration type system, demonstrating expertise in TypeScript type definitions and Fastify's plugin architecture.",
+      "PR titled 'Re-add typed decorators' with `typescript` label shows involvement in Fastify's decorator system, a key feature for extending Fastify's functionality with type safety.",
+      "PR titled 'Typed decorators' with `semver-major` label indicates awareness of semantic versioning and breaking changes when modifying core Fastify features like decorators.",
+      "All PRs in the `fastify` repository confirm direct contributions to Fastify's core, focusing on type-related improvements rather than new features.",
+      "PR titles suggest familiarity with Fastify's context object and how typed decorators interact with it, implying deep understanding of Fastify's internal plugin system.",
+      "The focus on 'typed' features across multiple PRs demonstrates a consistent emphasis on runtime type safety and API design in Fastify's ecosystem."
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

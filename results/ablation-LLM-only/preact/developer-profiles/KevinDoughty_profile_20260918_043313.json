@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "developer_name": "KevinDoughty",
+    "generation_timestamp": "2026-09-18T04:17:57.818220",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "KevinDoughty",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "React/Preact internals",
+      "Asynchronous state management",
+      "Component lifecycle debugging",
+      "Test-driven development for React-like systems",
+      "JavaScript language feature debugging",
+      "Code optimization and minification",
+      "Preact compatibility with React APIs"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from context, though not explicitly shown)"
+    ],
+    "summary": "KevinDoughty is a senior-level JavaScript developer with deep expertise in React/Preact internals, particularly focusing on state management, lifecycle methods, and asynchronous behavior. Their contributions demonstrate a strong ability to debug subtle implementation discrepancies between React and Preact, fix asynchronous state update issues, and optimize rendering performance. KevinDoughty excels in test-driven development, reverse-engineering complex state transitions, and maintaining code clarity through precise, incremental PRs. Their work reflects a high level of technical precision and a collaborative approach to resolving edge cases in React-like ecosystems.",
+    "identified_skills": {
+      "React_Preact_Compatibility": [
+        "React API alignment in Preact",
+        "Lifecycle method behavior synchronization",
+        "State update semantics (async/sync)",
+        "ForceUpdate rendering mechanics"
+      ],
+      "Asynchronous_Programming": [
+        "setState asynchronous behavior",
+        "Event loop timing in state updates",
+        "Promise-based async debugging"
+      ],
+      "Component_Lifecycle": [
+        "componentDidMount/Update lifecycle fixes",
+        "Derived state calculation (getDerivedStateFromProps)",
+        "Synchronous vs. asynchronous rendering tradeoffs"
+      ],
+      "Testing_and_Debugging": [
+        "Flaky test debugging",
+        "Test-first development for React components",
+        "this-binding issues in lifecycle methods",
+        "Double render problem analysis"
+      ],
+      "JavaScript_Language_Features": [
+        "this binding in class methods",
+        "Constructor vs. instance scope",
+        "Arrow function vs. regular function behavior"
+      ],
+      "Code_Optimization": [
+        "Gzip size reduction",
+        "Minification-aware refactoring",
+        "State update optimization"
+      ],
+      "Documentation_and_Clarity": [
+        "Code comment restoration",
+        "Technical decision justification",
+        "Edge case documentation"
+      ],
+      "Collaborative_Contributions": [
+        "Incremental, focused PRs",
+        "Cross-referenced PR discussions",
+        "Maintainer collaboration"
+      ]
+    },
+    "skill_evidence": [
+      "PR #2 ('setState should be asynchronous'): Fixed Preact's incorrect synchronous setState implementation, reducing gzip size by 5 bytes and aligning with React's async behavior",
+      "PR #1 ('fix render test that relies on implementation detail'): Addressed async timing issues in state updates, referencing 'setState supposed to be asynchronous but in actuality is not'",
+      "PR #3 ('should not set props and context, then unset for lifecycle methods, then set again'): Corrected state handling during component lifecycle, showing deep knowledge of React/Preact internal state management",
+      "PR #4 ('test getDerivedStateFromProp's this equals constructor'): Debugged this-binding issues in getDerivedStateFromProps, admitting 'I embarrassingly broke this' and restoring correct behavior",
+      "PR #5 ('synchronous forceUpdate'): Restored synchronous re-render behavior for forceUpdate, discussing 'double render' problems and event loop timing",
+      "All PRs include test additions/fixes: PR #1, #2, #4, and #5 explicitly reference test failures or test-driven corrections, demonstrating strong TDD practices",
+      "PR #5 includes comment restoration: 'Immediately perform a synchronous re-render', showing attention to documentation and technical clarity",
+      "PR #4 references PR #1229: Indicates collaborative debugging and cross-referenced knowledge sharing with maintainers"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

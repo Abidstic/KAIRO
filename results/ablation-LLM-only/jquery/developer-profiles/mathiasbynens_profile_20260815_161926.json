@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "developer_name": "mathiasbynens",
+    "generation_timestamp": "2026-08-15T16:09:33.005166",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 18,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "mathiasbynens",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "jQuery internals",
+      "DOM performance optimization",
+      "Browser API quirks",
+      "HTML parsing rules",
+      "Micro-optimizations (byte-level)",
+      "Legacy JavaScript compatibility"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "HTML",
+      "CSS"
+    ],
+    "summary": "mathiasbynens is a **Senior JavaScript developer** with deep expertise in **jQuery internals, DOM manipulation, and performance optimization**. His contributions focus on **low-level JavaScript/HTML/CSS quirks**, **micro-optimizations**, and **edge-case bug fixes** within jQuery. While not actively using modern frameworks, his work demonstrates **expert-level knowledge of legacy JavaScript ecosystems**, browser inconsistencies, and runtime efficiency. His contributions are **practical, optimization-driven, and highly specialized** in legacy systems rather than theoretical or framework-centric.",
+    "identified_skills": {
+      "Library Internals": [
+        "jQuery core logic",
+        "valHooks system",
+        "globalEval implementation",
+        "DOM event properties"
+      ],
+      "Performance Engineering": [
+        "DOM query optimization",
+        "HTML attribute unquoting",
+        "runtime byte savings",
+        "document.head vs. document.body selection"
+      ],
+      "Browser & DOM Quirks": [
+        "HTML5 parsing rules",
+        "frameset document behavior",
+        "deprecated API removal",
+        "legacy event properties"
+      ],
+      "Code Clarity & Maintainability": [
+        "README documentation",
+        "deprecated module labeling",
+        "typo corrections"
+      ],
+      "Legacy JavaScript": [
+        "ES5 compatibility patterns",
+        "script execution semantics",
+        "unquoted attribute usage"
+      ],
+      "Tooling Awareness": [
+        "HTML parsing tools",
+        "minification techniques",
+        "DOM inspection methods"
+      ]
+    },
+    "skill_evidence": [
+      "PR #2: Optimizes `globalEval` by using `document.head` (performance improvement via DOM selection)",
+      "PR #6: Uses unquoted attribute values in `innerHTML` (saves bytes, leverages HTML5 spec quirks)",
+      "PR #11: Changes `valHooks` lookup order to fix incorrect value matching (core jQuery logic)",
+      "PR #9: Discusses `document.body` vs. `document.head` availability in edge cases (browser compatibility)",
+      "PR #10: Removes deprecated `layerX`/`layerY` properties (legacy API cleanup)",
+      "PR #12: Notes `document.body` is `undefined` in frameset documents (edge-case handling)",
+      "PR #5: Corrects a typo in a string literal (attention to documentation detail)",
+      "PR #3: Improves `defaultDisplay()` (likely related to computed styles and DOM rendering)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 18,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

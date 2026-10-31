@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "developer_name": "gijun19",
+    "generation_timestamp": "2026-09-17T18:33:44.945349",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 9,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 9
+  },
+  "profile": {
+    "developer_name": "gijun19",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "npm CLI internals",
+      "Node.js runtime behavior",
+      "GitHub Actions workflows",
+      "Dependency management automation",
+      "Shell scripting for automation",
+      "Git version control strategies"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)",
+      "Bash/Shell",
+      "JSON (jq)"
+    ],
+    "summary": "gijun19 is a mid-level JavaScript developer with specialized expertise in npm CLI internals, Node.js dependency management, and CI/CD automation using GitHub Actions. Their contributions focus on maintaining npm's reliability through dependency pruning, versioning, and release workflows. While PRs do not show direct JavaScript code changes, the work demonstrates deep knowledge of npm's internal systems, GitHub Actions scripting, and shell-based automation. The developer excels in debugging edge cases, updating documentation, and synchronizing upstream changes—key skills for maintaining large-scale JavaScript tooling like npm.",
+    "identified_skills": {
+      "Node.js & Package Management": [
+        "npm CLI internals",
+        "npm@7.x dependency resolution",
+        "npm prune logic",
+        "Semantic Versioning (semver)",
+        "package.json dependency updates"
+      ],
+      "CI/CD & Automation": [
+        "GitHub Actions workflows",
+        "Dependency synchronization from nodejs/node:master",
+        "GitHub Releases API integration",
+        "Workflow dispatch triggers",
+        "Automated dependency updates"
+      ],
+      "Version Control & Git": [
+        "Git rebase strategies",
+        "Upstream synchronization",
+        "Manual conflict resolution",
+        "GitHub CLI (gh) usage"
+      ],
+      "Documentation & Releases": [
+        "Technical documentation updates",
+        "Deprecated feature removal",
+        "Release workflow management",
+        "Changelog maintenance"
+      ],
+      "Scripting & Tooling": [
+        "Bash/Shell scripting",
+        "jq for JSON processing",
+        "Custom automation scripts (e.g., update-npm.sh)",
+        "GitHub Actions script execution"
+      ],
+      "Debugging & Reliability": [
+        "npm internal variable fixes",
+        "Workflow failure debugging",
+        "Edge case testing",
+        "Dependency conflict resolution"
+      ],
+      "JavaScript Ecosystem Awareness": [
+        "Node.js module system",
+        "npm package lifecycle",
+        "JavaScript runtime environment"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'fix: update incorrect variable name' in npm_cli shows debugging npm internals",
+      "PR label 'semver:patch' indicates Semantic Versioning expertise in dependency updates",
+      "PR description 'fixes an issue where the workflow was not sending the body of the release' demonstrates GitHub Actions debugging",
+      "PR title 'chore: update deps workflow' uses jq for JSON parsing in CI/CD automation",
+      "PR mentions 'git rebase --whitespace=fix' indicating advanced Git knowledge",
+      "PR title 'chore(ci): update cli deps workflow' shows dependency synchronization from nodejs/node:master",
+      "PR description 'removes --scripts-prepend-node-path (deprecated in npm@7)' reflects documentation maintenance",
+      "PR title 'should fail' suggests testing edge cases in npm's dependency management"
+    ]
+  },
+  "statistics": {
+    "total_prs": 9,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "developer_name": "adityaanurag0219",
+    "generation_timestamp": "2026-09-18T02:18:18.995337",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "adityaanurag0219",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios internals",
+      "HTTP header parsing",
+      "JavaScript error handling",
+      "JSON parsing and error recovery",
+      "Stack trace preservation",
+      "Edge-case debugging"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Axios context)"
+    ],
+    "summary": "Mid-level JavaScript developer with specialized expertise in Axios's core functionality, particularly error handling and HTTP header parsing. Demonstrates strong debugging skills focused on edge cases like malformed JSON and broken headers. Contributions show deep familiarity with Axios's internal error system and response processing pipeline. Experience suggests proficiency in JavaScript fundamentals with a focus on robustness and maintainability in library development.",
+    "identified_skills": {
+      "Error Handling Systems": [
+        "Custom error classes",
+        "Stack trace preservation",
+        "Error wrapping",
+        "Error message improvements"
+      ],
+      "HTTP & Networking": [
+        "Content-Disposition header parsing",
+        "Base64 decoding",
+        "Malformed header handling",
+        "JSON.parse error recovery"
+      ],
+      "Library Development": [
+        "Axios internals",
+        "Response processing pipeline",
+        "Header transformation logic",
+        "Cross-environment consistency"
+      ],
+      "JavaScript Language": [
+        "Error object manipulation",
+        "String manipulation",
+        "JSON parsing edge cases",
+        "Prototype inheritance"
+      ],
+      "Debugging Patterns": [
+        "Edge-case identification",
+        "Reproducible test-driven fixes",
+        "User-facing error improvements"
+      ],
+      "Code Quality": [
+        "Minimal, targeted changes",
+        "Consistent error message formatting"
+      ],
+      "Cross-Platform Awareness": [
+        "Node.js + browser compatibility"
+      ]
+    },
+    "skill_evidence": [
+      "PR #6670: 'fix(AxiosError): preserve original stack trace when wrapping errors' - demonstrates custom error class manipulation and stack trace preservation",
+      "'Fix(Content-Disposition): properly parse and decode filename from header' - shows Base64 decoding and header parsing expertise",
+      "'fix: provide clearer error message when JSON.parse fails on malformed JSON' - evidence of JSON parsing error recovery and user-facing improvements",
+      "Multiple header parsing fixes indicate deep understanding of HTTP standards (RFC 6266) and edge-case handling",
+      "Error message improvements show attention to user experience in technical error scenarios",
+      "Minimal, focused PRs suggest experience maintaining large codebases with precision",
+      "Header parsing changes demonstrate work on Axios's response processing pipeline",
+      "No frontend framework contributions visible, but Axios context implies Node.js/browser compatibility awareness"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

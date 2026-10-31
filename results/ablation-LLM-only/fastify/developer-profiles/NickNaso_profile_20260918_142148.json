@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "NickNaso",
+    "generation_timestamp": "2026-09-18T13:56:03.817385",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "NickNaso",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Fastify framework development",
+      "Modern JavaScript (ES6+)",
+      "Node.js backend patterns",
+      "Code documentation and readability",
+      "Testing and benchmarking workflows"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "NickNaso demonstrates a strong proficiency in Fastify framework development with a focus on backend JavaScript patterns. Their contributions show deep familiarity with Fastify's plugin system, logger module, and performance considerations. The developer exhibits excellent attention to code quality, documentation, and adherence to modern JavaScript best practices (e.g., `let`/`const` over `var`). While contributions are currently limited to Fastify, the evidence suggests a disciplined approach to backend development with particular strength in testing workflows and maintainability.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js middleware"
+      ],
+      "JavaScript Language": [
+        "ES6+ features",
+        "block-scoping variables"
+      ],
+      "Code Quality": [
+        "documentation fixes",
+        "readability improvements",
+        "Code of Conduct compliance"
+      ],
+      "Testing Practices": [
+        "test suite execution",
+        "benchmarking"
+      ],
+      "Framework Internals": [
+        "plugin system",
+        "logger module"
+      ],
+      "Version Control": [
+        "PR documentation"
+      ],
+      "Performance Optimization": [
+        "benchmarking workflows"
+      ],
+      "Asynchronous Patterns": [],
+      "Frontend Frameworks": [],
+      "TypeScript": [],
+      "Build Tools": [],
+      "Dependency Management": []
+    },
+    "skill_evidence": [
+      "Replaced `var` with `let`/`const` in logger module (PR #3)",
+      "Fixed typos in Fastify plugin system documentation (PR #2)",
+      "Added explicit Code of Conduct reference to commit message (PR #4)",
+      "Modified logger to call plugin readiness callback (PR #3)",
+      "Included `npm run test` and `npm run benchmark` in PR checklist (PR #3)",
+      "Clarified variable scoping in logger documentation (PR #4)",
+      "All contributions focused on Fastify's core logger and plugin infrastructure"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

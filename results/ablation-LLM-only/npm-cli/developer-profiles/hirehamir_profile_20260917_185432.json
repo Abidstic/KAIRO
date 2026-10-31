@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "developer_name": "hirehamir",
+    "generation_timestamp": "2026-09-17T18:47:05.717608",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "hirehamir",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js CLI Development",
+      "npm Package Management",
+      "Documentation Improvement",
+      "Node.js Version Compatibility"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js runtime)",
+      "Shell/CLI Scripting (indirect)"
+    ],
+    "summary": "hirehamir demonstrates specialized expertise in Node.js and npm CLI internals, with a focus on package management, documentation clarity, and Node.js version compatibility. Contributions to the npm_cli repository indicate deep familiarity with core npm features like `npm ci` and `package.json` scripting. While no direct code changes are visible, the PR context reveals strong backend/tooling skills and technical writing abilities. The profile suggests a backend-focused developer with potential for roles involving Node.js maintenance, package management systems, or open-source tooling.",
+    "identified_skills": {
+      "Package Management": [
+        "npm CLI",
+        "npm ci",
+        "package.json scripting",
+        "preinstallOnly hooks"
+      ],
+      "Node.js Versioning": [
+        "Node.js deprecation handling",
+        "Version compatibility fixes"
+      ],
+      "Documentation": [
+        "CLI documentation improvements",
+        "Technical concept clarification"
+      ],
+      "Backend Tooling": [
+        "Node.js runtime internals",
+        "Dependency installation processes"
+      ],
+      "Scripting": [
+        "npm scripts",
+        "Clean install processes"
+      ],
+      "Frontend Frameworks": [],
+      "Testing": [],
+      "Build Systems": [],
+      "Asynchronous Patterns": []
+    },
+    "skill_evidence": [
+      "PR 2: Added documentation explaining what 'ci' in 'npm ci' stands for, demonstrating technical writing skills for CLI tools",
+      "PR 3: Worked on 'preinstallOnly' npm script, indicating familiarity with package.json scripting and installation hooks",
+      "PR 4: Fixed deprecated Node.js version usage in npm CLI, showing version compatibility expertise",
+      "All PRs reference npm CLI features without code changes, suggesting deep conceptual knowledge of package management internals",
+      "PR titles/descriptions consistently mention core npm CLI functionality (npm ci, installation processes)",
+      "No frontend framework references in any PR metadata or descriptions",
+      "Documentation-focused PRs show attention to user experience and technical clarity in developer tools"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

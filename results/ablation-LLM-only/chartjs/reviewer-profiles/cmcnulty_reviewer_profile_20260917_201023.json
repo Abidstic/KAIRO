@@ -1,0 +1,19 @@
+{
+  "reviewer_name": "cmcnulty",
+  "generated_at": "20260917_201023",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 13,
+    "total_comments": 13,
+    "total_prs": 3,
+    "repos": [
+      "chartjs"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "cmcnulty",
+    "raw_response": "```json\n{\n  \"reviewer_name\": \"cmcnulty\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Charting library development\",\n    \"JavaScript API design\",\n    \"Visualization label rendering\",\n    \"Public API exposure\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (possible)\"\n  ],\n  \"summary\": \"cmcnulty is a mid-level JavaScript reviewer with specialized expertise in charting library development, particularly focused on visualization components like label rendering, tick marks, and public API design. Their contributions demonstrate deep familiarity with the internals of charting libraries, iterative refinement of visualization features, and constructive feedback on API usability. While their JavaScript skills are strong in modern language features and library development, there is no evidence of broader frontend/backend expertise beyond this niche domain.\",\n  \"identified_skills\": {\n    \"Charting & Visualization\": [\n      \"Cartesian scale tick backdrops\",\n      \"Label rendering (rotated text)\",\n      \"Public API method exposure\",\n      \"Visualization label items access\"\n    ],\n    \"JavaScript Language\": [\n      \"ES6+ modules\",\n      \"Public/private method conventions\",\n      \"Modern JavaScript patterns\"\n    ],\n    \"Code Review & Feedback\": [\n      \"Iterative refinement of charting features\",\n      \"API design feedback\",\n      \"Technical scrutiny of visualization components\"\n    ],\n    \"Library Development\": [\n      \"Internal API refactoring\",\n      \"Public API design decisions\"\n    ],\n    \"Domain-Specific Patterns\": [\n      \"Backdrop positioning for labels\",\n      \"Tick mark customization\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR title: 'Cartesian scale tick backdrop' - indicates focus on charting visualization internals\",\n    \"PR title: 'Fix #10749 - backdrops with rotated labels' - demonstrates label rendering expertise\",\n    \"PR title: '#10836 add getLabelItems public method' - shows API design involvement\",\n    \"All reviews in 'COMMENTED' state - suggests detailed technical feedback on charting features\",\n    \"Repetitive PRs for issues #10749 and #10836 - indicates deep engagement with specific visualization components\",\n    \"No backend or testing-related PRs visible - confirms frontend/niche specialization\",\n    \"No evidence of React/Vue or state management - confirms charting library focus\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 49 column 3 (char 2361)"
+  }
+}

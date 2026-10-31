@@ -1,0 +1,2552 @@
+{
+  "summary": {
+    "extraction_metadata": {
+      "extraction_date": "2026-09-17 21:53:42",
+      "source_file": "../PR data for Reviewers/npm_cli_reviewer_data_test.json",
+      "total_prs_analyzed": 71
+    },
+    "overall_statistics": {
+      "total_prs": 71,
+      "prs_with_reviews": 71,
+      "prs_without_reviews": 0,
+      "total_reviews": 139,
+      "average_reviews_per_pr": 1.96,
+      "unique_reviewers_count": 11
+    },
+    "reviewer_activity": {
+      "by_prs_reviewed": {
+        "wraithgar": 37,
+        "owlstronaut": 31,
+        "jsoref": 10,
+        "reggi": 2,
+        "bdehamer": 2,
+        "jenseng": 1,
+        "wesleytodd": 1,
+        "Cunero": 1,
+        "liamcmitchell": 1,
+        "zkat": 1,
+        "Ritik-heu": 1
+      },
+      "by_total_reviews": {
+        "wraithgar": 73,
+        "owlstronaut": 33,
+        "jsoref": 15,
+        "liamcmitchell": 8,
+        "reggi": 2,
+        "jenseng": 2,
+        "bdehamer": 2,
+        "wesleytodd": 1,
+        "Cunero": 1,
+        "zkat": 1,
+        "Ritik-heu": 1
+      }
+    },
+    "top_reviewers": {
+      "most_prs_reviewed": [
+        "wraithgar",
+        37
+      ],
+      "most_total_reviews": [
+        "wraithgar",
+        73
+      ]
+    }
+  },
+  "pr_reviewer_assignments": [
+    {
+      "pr_number": 8458,
+      "pr_title": "chore: release 11.5.1",
+      "pr_author": "github-actions[bot]",
+      "pr_state": "closed",
+      "created_at": "2025-07-24T18:09:43Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8458",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "reggi",
+          "reviewer_id": 296798,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-24T18:32:59Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "reggi"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "reggi"
+      ]
+    },
+    {
+      "pr_number": 8459,
+      "pr_title": "docs: update snapshot generation command",
+      "pr_author": "MikeMcC399",
+      "pr_state": "closed",
+      "created_at": "2025-07-25T07:00:29Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8459",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-25T14:45:34Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8460,
+      "pr_title": "chore: release 11.5.2",
+      "pr_author": "github-actions[bot]",
+      "pr_state": "closed",
+      "created_at": "2025-07-25T14:47:41Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8460",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "reggi",
+          "reviewer_id": 296798,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-30T20:13:26Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "reggi"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "reggi"
+      ]
+    },
+    {
+      "pr_number": 8467,
+      "pr_title": "fix: oidc visibility check for provenance",
+      "pr_author": "reggi",
+      "pr_state": "closed",
+      "created_at": "2025-07-29T15:36:00Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8467",
+      "total_reviews": 3,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-29T17:49:07Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-07-29T17:49:33Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-07-30T15:08:26Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8469,
+      "pr_title": "fix: ps1 scripts in powershell 5.1",
+      "pr_author": "splatteredbits",
+      "pr_state": "closed",
+      "created_at": "2025-07-29T18:32:49Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8469",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-04T16:56:57Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8473,
+      "pr_title": "fix(arborist): #8472 Keeps the registry protocol when modifying resolve URL",
+      "pr_author": "Jeepsboucher",
+      "pr_state": "closed",
+      "created_at": "2025-07-31T14:09:38Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8473",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-19T17:45:32Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8483,
+      "pr_title": "chore: release 11.6.0",
+      "pr_author": "github-actions[bot]",
+      "pr_state": "closed",
+      "created_at": "2025-08-04T17:28:25Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8483",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-03T19:47:33Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8512,
+      "pr_title": "fix: allow concurrent non-local npx calls",
+      "pr_author": "jenseng",
+      "pr_state": "closed",
+      "created_at": "2025-08-15T21:31:41Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8512",
+      "total_reviews": 9,
+      "total_review_comments": 7,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wesleytodd",
+          "reviewer_id": 1027776,
+          "review_state": "COMMENTED",
+          "review_body": "LGTM",
+          "submitted_at": "2025-08-15T21:45:46Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-20T21:36:44Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-11T19:44:19Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-12T15:54:47Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-12T16:05:19Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "jenseng",
+          "reviewer_id": 109489,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-12T16:10:13Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "jenseng",
+          "reviewer_id": 109489,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-12T16:14:51Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-12T16:46:11Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-12T19:19:14Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "jenseng",
+        "wraithgar",
+        "wesleytodd"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "jenseng",
+        "wraithgar",
+        "wesleytodd"
+      ]
+    },
+    {
+      "pr_number": 8529,
+      "pr_title": "fix: add redaction to log format egress",
+      "pr_author": "wraithgar",
+      "pr_state": "closed",
+      "created_at": "2025-08-25T20:45:06Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8529",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-25T20:53:24Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8532,
+      "pr_title": "fix(powershell): fix issue with modified InvocationName",
+      "pr_author": "alexsch01",
+      "pr_state": "closed",
+      "created_at": "2025-08-26T13:02:44Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8532",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-28T16:39:35Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8534,
+      "pr_title": "fix: installLinks works with transitive external file dependencies",
+      "pr_author": "owlstronaut",
+      "pr_state": "closed",
+      "created_at": "2025-08-26T20:06:04Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8534",
+      "total_reviews": 2,
+      "total_review_comments": 1,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-08-27T16:31:33Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-08-27T17:01:25Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8537,
+      "pr_title": "fix: optional set calculation",
+      "pr_author": "liamcmitchell",
+      "pr_state": "closed",
+      "created_at": "2025-08-28T14:11:59Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8537",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T20:08:37Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8540,
+      "pr_title": "chore: fix pruner and reify tests for optional peer deps",
+      "pr_author": "liamcmitchell",
+      "pr_state": "closed",
+      "created_at": "2025-08-29T10:45:15Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8540",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-03T19:08:00Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8548,
+      "pr_title": "Alert-autofix-1",
+      "pr_author": "Cunero",
+      "pr_state": "closed",
+      "created_at": "2025-09-04T07:17:49Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8548",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "Cunero",
+          "reviewer_id": 60327732,
+          "review_state": "COMMENTED",
+          "review_body": ".",
+          "submitted_at": "2025-09-04T07:44:39Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "Cunero"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "Cunero"
+      ]
+    },
+    {
+      "pr_number": 8551,
+      "pr_title": "[v10 backport] fix(powershell): fix StrictMode and improve argument parsing ",
+      "pr_author": "alexsch01",
+      "pr_state": "closed",
+      "created_at": "2025-09-05T18:42:54Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8551",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T17:05:30Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8566,
+      "pr_title": "fix: calculate omit in diff",
+      "pr_author": "liamcmitchell",
+      "pr_state": "closed",
+      "created_at": "2025-09-14T18:57:36Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8566",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-23T21:01:15Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8571,
+      "pr_title": "chore: release 11.6.1",
+      "pr_author": "github-actions[bot]",
+      "pr_state": "closed",
+      "created_at": "2025-09-16T16:01:44Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8571",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-24T19:01:45Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8576,
+      "pr_title": "Deps update",
+      "pr_author": "wraithgar",
+      "pr_state": "closed",
+      "created_at": "2025-09-17T16:10:42Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8576",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-23T21:02:47Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8577,
+      "pr_title": "fix(libnpmexec): improve withLock stability",
+      "pr_author": "jenseng",
+      "pr_state": "closed",
+      "created_at": "2025-09-17T16:16:59Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8577",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-23T17:54:40Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8579,
+      "pr_title": "fix: corrects peer dependency flag propagation",
+      "pr_author": "owlstronaut",
+      "pr_state": "closed",
+      "created_at": "2025-09-17T19:31:01Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8579",
+      "total_reviews": 6,
+      "total_review_comments": 5,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-18T21:24:33Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-18T21:31:46Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-18T21:45:22Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-18T21:48:32Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-19T00:54:04Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-19T00:55:29Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8582,
+      "pr_title": "docs: bring back certfile",
+      "pr_author": "jenseng",
+      "pr_state": "closed",
+      "created_at": "2025-09-19T01:03:53Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8582",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-19T03:59:25Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8587,
+      "pr_title": "fix: skip redacting URLs printed to console when browser not available",
+      "pr_author": "internettrans",
+      "pr_state": "closed",
+      "created_at": "2025-09-22T06:03:08Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8587",
+      "total_reviews": 1,
+      "total_review_comments": 1,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "CHANGES_REQUESTED",
+          "review_body": "We'll want a test specifically for the `skipRedact` flag working as well.\r\n\r\nThis is a great contribution, definitely moving in the right direction in fixing this oversight.",
+          "submitted_at": "2025-09-23T15:50:50Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8589,
+      "pr_title": "deps: tar@7.5.1",
+      "pr_author": "wraithgar",
+      "pr_state": "closed",
+      "created_at": "2025-09-23T21:25:18Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8589",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-23T21:36:27Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8592,
+      "pr_title": "chore: fix build url code for remark-github@12",
+      "pr_author": "wraithgar",
+      "pr_state": "closed",
+      "created_at": "2025-09-25T16:38:19Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8592",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-25T16:44:08Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8593,
+      "pr_title": "remove normalize-package-data",
+      "pr_author": "wraithgar",
+      "pr_state": "closed",
+      "created_at": "2025-09-25T20:06:36Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8593",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-25T20:28:28Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8594,
+      "pr_title": "chore: release 11.6.2",
+      "pr_author": "github-actions[bot]",
+      "pr_state": "closed",
+      "created_at": "2025-09-25T20:39:25Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8594",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-08T20:10:23Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8597,
+      "pr_title": "chore: add deprecation note to token creation",
+      "pr_author": "owlstronaut",
+      "pr_state": "closed",
+      "created_at": "2025-09-26T15:43:30Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8597",
+      "total_reviews": 2,
+      "total_review_comments": 1,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T20:14:24Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T17:09:03Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8598,
+      "pr_title": "chore: remove stale comment",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-09-26T18:29:26Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8598",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-26T18:43:21Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8599,
+      "pr_title": "chore: Update references for arborist to cli",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-09-26T19:55:21Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8599",
+      "total_reviews": 2,
+      "total_review_comments": 1,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "jsoref",
+          "reviewer_id": 2119212,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-26T19:57:02Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-26T20:52:26Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut",
+        "jsoref"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut",
+        "jsoref"
+      ]
+    },
+    {
+      "pr_number": 8602,
+      "pr_title": "fix: refactor node.ideallyInert to node.inert",
+      "pr_author": "liamcmitchell",
+      "pr_state": "closed",
+      "created_at": "2025-09-28T07:52:28Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8602",
+      "total_reviews": 14,
+      "total_review_comments": 13,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T20:51:30Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T01:40:01Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T01:45:00Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "liamcmitchell",
+          "reviewer_id": 1638610,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T07:16:44Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "liamcmitchell",
+          "reviewer_id": 1638610,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T07:18:34Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "liamcmitchell",
+          "reviewer_id": 1638610,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T07:31:29Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "liamcmitchell",
+          "reviewer_id": 1638610,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T07:36:59Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "liamcmitchell",
+          "reviewer_id": 1638610,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T08:00:26Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "liamcmitchell",
+          "reviewer_id": 1638610,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T08:03:03Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "liamcmitchell",
+          "reviewer_id": 1638610,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T08:12:42Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "liamcmitchell",
+          "reviewer_id": 1638610,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T08:16:02Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T16:21:31Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T16:31:49Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "zkat",
+          "reviewer_id": 17535,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T16:55:14Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "liamcmitchell",
+        "wraithgar",
+        "zkat"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "liamcmitchell",
+        "wraithgar",
+        "zkat"
+      ]
+    },
+    {
+      "pr_number": 8603,
+      "pr_title": "docs: clean up deprecated `npm access` commands",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-09-28T23:24:33Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8603",
+      "total_reviews": 4,
+      "total_review_comments": 3,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "jsoref",
+          "reviewer_id": 2119212,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-28T23:25:47Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T16:41:00Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "jsoref",
+          "reviewer_id": 2119212,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T17:42:15Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T17:46:17Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar",
+        "jsoref"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar",
+        "jsoref"
+      ]
+    },
+    {
+      "pr_number": 8604,
+      "pr_title": "chore: Improve link accessibility for screen reader users",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-09-29T00:29:42Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8604",
+      "total_reviews": 3,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "jsoref",
+          "reviewer_id": 2119212,
+          "review_state": "COMMENTED",
+          "review_body": "Fwiw, I'm using [tooling to identify things to fix](https://github.com/check-spelling-sandbox/npm-cli/actions/runs/18081709793/attempts/1#summary-51445945557) (previous PRs were more or less reading while running the tooling, whereas this is the first PR based on the precise complaints from the tooling).",
+          "submitted_at": "2025-09-29T00:33:11Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T16:17:00Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T16:17:38Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar",
+        "jsoref"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar",
+        "jsoref"
+      ]
+    },
+    {
+      "pr_number": 8605,
+      "pr_title": "chore: Remove reference to nonexistent calendar",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-09-29T00:57:21Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8605",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "DISMISSED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T20:28:09Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T01:22:59Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8606,
+      "pr_title": "chore: fix spelling - permissions",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-09-29T01:21:15Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8606",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T14:25:01Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8607,
+      "pr_title": "docs: Fix spelling",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-09-29T01:21:58Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8607",
+      "total_reviews": 7,
+      "total_review_comments": 6,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "jsoref",
+          "reviewer_id": 2119212,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T01:22:30Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T20:30:28Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T20:31:09Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "jsoref",
+          "reviewer_id": 2119212,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T21:43:45Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "jsoref",
+          "reviewer_id": 2119212,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T21:44:04Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T01:21:04Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T01:21:36Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar",
+        "jsoref"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar",
+        "jsoref"
+      ]
+    },
+    {
+      "pr_number": 8608,
+      "pr_title": "chore: Fix spelling in workspaces/config",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-09-29T01:24:18Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8608",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T14:24:33Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8609,
+      "pr_title": "chore: Fix spelling in workspaces/libnpmdiff",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-09-29T01:25:47Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8609",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T14:24:04Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8610,
+      "pr_title": "chore: fix spelling in workspaces/arborist",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-09-29T01:28:40Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8610",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-29T14:23:14Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8613,
+      "pr_title": "chore: release 10.9.4",
+      "pr_author": "github-actions[bot]",
+      "pr_state": "closed",
+      "created_at": "2025-09-30T17:07:13Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8613",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T18:55:30Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8614,
+      "pr_title": "fix: skip redacting urls meant for opening by the user",
+      "pr_author": "wraithgar",
+      "pr_state": "closed",
+      "created_at": "2025-09-30T20:28:51Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8614",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-09-30T20:36:28Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8616,
+      "pr_title": "docs: fix spelling",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-10-01T12:51:49Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8616",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T15:38:08Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8617,
+      "pr_title": "fix: spelling in ./lib and ./test/lib",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-10-01T12:52:20Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8617",
+      "total_reviews": 4,
+      "total_review_comments": 3,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "jsoref",
+          "reviewer_id": 2119212,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T12:53:15Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T15:39:45Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T15:43:20Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T17:15:31Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar",
+        "jsoref"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar",
+        "jsoref"
+      ]
+    },
+    {
+      "pr_number": 8618,
+      "pr_title": "fix: spelling",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-10-01T12:53:50Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8618",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T15:46:01Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8619,
+      "pr_title": "fix: spelling",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-10-01T12:54:12Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8619",
+      "total_reviews": 3,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "jsoref",
+          "reviewer_id": 2119212,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T12:55:00Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T16:20:51Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T16:21:00Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar",
+        "jsoref"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar",
+        "jsoref"
+      ]
+    },
+    {
+      "pr_number": 8620,
+      "pr_title": "chore: fix spelling in workspaces",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-10-01T12:55:39Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8620",
+      "total_reviews": 4,
+      "total_review_comments": 3,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "jsoref",
+          "reviewer_id": 2119212,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T12:56:35Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T16:23:44Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "jsoref",
+          "reviewer_id": 2119212,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T17:17:19Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T18:23:38Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar",
+        "jsoref"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar",
+        "jsoref"
+      ]
+    },
+    {
+      "pr_number": 8621,
+      "pr_title": "fix: typo bugs and other spelling fixes",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-10-01T12:57:05Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8621",
+      "total_reviews": 5,
+      "total_review_comments": 4,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T15:48:42Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T16:03:22Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "jsoref",
+          "reviewer_id": 2119212,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T16:58:00Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "jsoref",
+          "reviewer_id": 2119212,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T16:59:37Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T17:56:06Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar",
+        "jsoref"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar",
+        "jsoref"
+      ]
+    },
+    {
+      "pr_number": 8622,
+      "pr_title": "chore: fix spelling",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-10-01T13:52:38Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8622",
+      "total_reviews": 2,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "jsoref",
+          "reviewer_id": 2119212,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T13:53:44Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T16:15:37Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar",
+        "jsoref"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar",
+        "jsoref"
+      ]
+    },
+    {
+      "pr_number": 8624,
+      "pr_title": "fix: spelling",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-10-01T18:19:59Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8624",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T18:22:13Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8625,
+      "pr_title": "fix: spelling in workspaces/libnpmexec",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-10-01T18:20:48Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8625",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T18:24:26Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8626,
+      "pr_title": "chore: fix spelling: different",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-10-01T18:38:32Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8626",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T18:48:55Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8627,
+      "pr_title": "chore: fix spelling: different",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-10-01T18:39:19Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8627",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T18:49:29Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8629,
+      "pr_title": "fix: do not redact notice logs going to stdout",
+      "pr_author": "wraithgar",
+      "pr_state": "closed",
+      "created_at": "2025-10-01T20:28:03Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8629",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-01T21:25:08Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8633,
+      "pr_title": "fix: progress bar code cleanup",
+      "pr_author": "wraithgar",
+      "pr_state": "closed",
+      "created_at": "2025-10-02T16:19:47Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8633",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-06T16:26:37Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8636,
+      "pr_title": "docs: rewrap markdown",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-10-03T21:30:55Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8636",
+      "total_reviews": 6,
+      "total_review_comments": 5,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-03T23:43:04Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-03T23:44:21Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-03T23:45:47Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-03T23:52:45Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-04T03:48:12Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "jsoref",
+          "reviewer_id": 2119212,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-04T23:56:20Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar",
+        "jsoref"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar",
+        "jsoref"
+      ]
+    },
+    {
+      "pr_number": 8639,
+      "pr_title": "docs: rewrap markdown",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-10-05T00:54:28Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8639",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-05T02:42:58Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8640,
+      "pr_title": "docs: rewrap markdown",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-10-05T01:46:13Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8640",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-05T03:16:02Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8641,
+      "pr_title": "chore: Unwrap markdown docs",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-10-05T01:55:33Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8641",
+      "total_reviews": 2,
+      "total_review_comments": 2,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-05T03:19:58Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-05T04:28:15Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8642,
+      "pr_title": "docs: rewrap markdown workspaces libnpmdiff",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-10-05T02:06:00Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8642",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-05T03:17:35Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8643,
+      "pr_title": "chore: Add automatically generated annotation to dependencies.md",
+      "pr_author": "jsoref",
+      "pr_state": "closed",
+      "created_at": "2025-10-05T12:11:40Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8643",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-05T14:47:46Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8645,
+      "pr_title": "fix: dep flag calculation",
+      "pr_author": "liamcmitchell",
+      "pr_state": "closed",
+      "created_at": "2025-10-05T16:06:00Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8645",
+      "total_reviews": 2,
+      "total_review_comments": 1,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "COMMENTED",
+          "review_body": "",
+          "submitted_at": "2025-10-13T04:55:29Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-13T15:57:43Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8650,
+      "pr_title": "fix: handle missing node-gyp gracefully in @npmcli/config definitions",
+      "pr_author": "owlstronaut",
+      "pr_state": "closed",
+      "created_at": "2025-10-06T21:45:50Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8650",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-06T22:07:52Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8659,
+      "pr_title": "Deps updates",
+      "pr_author": "wraithgar",
+      "pr_state": "closed",
+      "created_at": "2025-10-08T16:44:48Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8659",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "DISMISSED",
+          "review_body": "",
+          "submitted_at": "2025-10-08T16:48:06Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-08T16:52:24Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8660,
+      "pr_title": "update @sigstore/sign",
+      "pr_author": "wraithgar",
+      "pr_state": "closed",
+      "created_at": "2025-10-08T17:17:59Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8660",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-08T17:54:06Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8661,
+      "pr_title": "deps: downgrade ci-info to 4.3.0",
+      "pr_author": "wraithgar",
+      "pr_state": "closed",
+      "created_at": "2025-10-08T17:31:12Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8661",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-08T17:33:10Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "bdehamer",
+          "reviewer_id": 398027,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-08T17:33:57Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut",
+        "bdehamer"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut",
+        "bdehamer"
+      ]
+    },
+    {
+      "pr_number": 8662,
+      "pr_title": "deps: ci-info@4.3.1",
+      "pr_author": "wraithgar",
+      "pr_state": "closed",
+      "created_at": "2025-10-08T18:11:15Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8662",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "bdehamer",
+          "reviewer_id": 398027,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-08T19:08:09Z",
+          "author_association": "CONTRIBUTOR"
+        },
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-08T19:08:51Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut",
+        "bdehamer"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut",
+        "bdehamer"
+      ]
+    },
+    {
+      "pr_number": 8663,
+      "pr_title": "deps: @sigstore/sign@4.0.1",
+      "pr_author": "bdehamer",
+      "pr_state": "closed",
+      "created_at": "2025-10-08T18:23:47Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8663",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-08T18:57:53Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    },
+    {
+      "pr_number": 8670,
+      "pr_title": "chore: write tarball to testDir",
+      "pr_author": "wraithgar",
+      "pr_state": "closed",
+      "created_at": "2025-10-13T15:55:50Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8670",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "DISMISSED",
+          "review_body": "",
+          "submitted_at": "2025-10-13T16:31:39Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-15T17:12:22Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8672,
+      "pr_title": "chore: fix lockfile",
+      "pr_author": "wraithgar",
+      "pr_state": "closed",
+      "created_at": "2025-10-13T16:20:21Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8672",
+      "total_reviews": 2,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-13T16:30:54Z",
+          "author_association": "NONE"
+        },
+        {
+          "reviewer_username": "Ritik-heu",
+          "reviewer_id": 196226719,
+          "review_state": "COMMENTED",
+          "review_body": "![IMG_20250517_222655](https://github.com/user-attachments/assets/d756d92e-ee7b-4fd6-91f6-21d11830513d)\r\n",
+          "submitted_at": "2025-10-13T22:28:27Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "Ritik-heu",
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "Ritik-heu",
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8676,
+      "pr_title": "fix: use look behind regex for trailing slash stripping",
+      "pr_author": "wraithgar",
+      "pr_state": "closed",
+      "created_at": "2025-10-15T17:10:34Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8676",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-15T17:12:02Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8677,
+      "pr_title": "fix: code cleanup",
+      "pr_author": "wraithgar",
+      "pr_state": "closed",
+      "created_at": "2025-10-15T19:57:47Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8677",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "owlstronaut",
+          "reviewer_id": 332363,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-15T21:35:54Z",
+          "author_association": "NONE"
+        }
+      ],
+      "unique_reviewers": [
+        "owlstronaut"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "owlstronaut"
+      ]
+    },
+    {
+      "pr_number": 8683,
+      "pr_title": "docs: Add --ignore-scripts option to npm version help and docs",
+      "pr_author": "Tejas242",
+      "pr_state": "closed",
+      "created_at": "2025-10-17T14:06:52Z",
+      "pr_url": "https://github.com/expressjs/express/pull/8683",
+      "total_reviews": 1,
+      "total_review_comments": 0,
+      "actual_reviewers": [
+        {
+          "reviewer_username": "wraithgar",
+          "reviewer_id": 36607,
+          "review_state": "APPROVED",
+          "review_body": "",
+          "submitted_at": "2025-10-20T15:43:42Z",
+          "author_association": "CONTRIBUTOR"
+        }
+      ],
+      "unique_reviewers": [
+        "wraithgar"
+      ],
+      "review_comment_authors": [],
+      "all_participants": [
+        "wraithgar"
+      ]
+    }
+  ]
+}

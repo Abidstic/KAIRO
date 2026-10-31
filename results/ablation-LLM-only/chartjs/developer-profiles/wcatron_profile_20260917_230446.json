@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "wcatron",
+    "generation_timestamp": "2026-09-17T22:54:30.027708",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "wcatron",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js library customization",
+      "JavaScript/TypeScript documentation",
+      "Technical writing for developer tools",
+      "Frontend charting API design",
+      "Markdown table formatting",
+      "Interactive documentation patterns"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "Mid-level JavaScript developer with specialized expertise in Chart.js library internals and documentation. Demonstrates deep understanding of charting library APIs, data structures, and user-facing documentation improvements. Skilled in structuring complex technical information into accessible formats (e.g., options tables, interactive examples) while maintaining awareness of API versioning and deprecations. Contributions focus on enhancing developer experience through better documentation patterns and self-contained examples. Evidence suggests strong collaboration with maintainers and familiarity with JavaScript/TypeScript codebase organization.",
+    "identified_skills": {
+      "Charting Libraries": [
+        "Chart.js API design",
+        "Chart type options (bar/line/radar/polar)",
+        "Data structure initializers",
+        "API deprecation tracking"
+      ],
+      "Documentation Techniques": [
+        "Markdown table formatting",
+        "Self-contained code examples",
+        "Interactive HTML/JS documentation snippets",
+        "Technical writing for developer tools",
+        "Options table documentation"
+      ],
+      "JavaScript/TypeScript Patterns": [
+        "Modular library code navigation",
+        "API versioning awareness",
+        "Standalone example patterns",
+        "TypeScript-compatible documentation"
+      ],
+      "Frontend Development": [
+        "Interactive element suggestions",
+        "User experience-focused examples",
+        "HTML/JS documentation integration"
+      ],
+      "Version Control & Collaboration": [
+        "Structured PR descriptions",
+        "Collaborative documentation improvements",
+        "Incremental documentation progress tracking"
+      ]
+    },
+    "skill_evidence": [
+      "PR #3: 'Begins progress on #1248 - Options table for scales' - Demonstrates structured table documentation for Chart.js options",
+      "PR #5: 'Updates initializers and some data structures' - Shows deep knowledge of Chart.js internal data structures and initializers",
+      "PR #4: 'So many options were removed or changed' - Evidence of API deprecation tracking and versioning awareness",
+      "PR #1: 'Converting documentation to tables' - Focus on Markdown table formatting for complex data presentation",
+      "PR #5: 'HTML snippet that allows the user to change each setting' - Interactive documentation pattern suggestion",
+      "PR #3: 'Can be copied and pasted right into a new project' - Self-contained example pattern demonstration",
+      "PR #2: 'Old parameter that was changed is no longer in use' - API change documentation and deprecation communication",
+      "PR #6: 'Success within thirty minutes' rule - User experience-focused documentation improvement"
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

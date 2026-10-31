@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "caub",
+    "generation_timestamp": "2026-08-15T15:53:42.819643",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "caub",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Express.js Core Development",
+      "Node.js Backend Infrastructure",
+      "Promises & Async/Await Patterns",
+      "HTTP Routing & Path Matching",
+      "Middleware Design & Error Handling"
+    ],
+    "programming_languages": [
+      "JavaScript (ES Modules & CommonJS)",
+      "TypeScript (inferred from Express.js ecosystem)"
+    ],
+    "summary": "caub is a mid-level JavaScript developer with specialized expertise in Express.js backend development. Their contributions focus on core framework improvements, including server lifecycle management, routing introspection, and error handling middleware. The developer demonstrates strong proficiency in modern JavaScript patterns (Promises/async-await) and deep knowledge of Express's internal architecture. While contributions are backend-focused, the profile highlights collaborative open-source work on a major Node.js framework.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Node.js Server Lifecycle"
+      ],
+      "Asynchronous Programming": [
+        "Promises",
+        "async/await"
+      ],
+      "HTTP & Routing": [
+        "Path Matching",
+        "Route Introspection",
+        "Regex Handling"
+      ],
+      "Middleware & Error Handling": [
+        "Custom Error Middleware",
+        "Layer Exports"
+      ],
+      "Module Systems": [
+        "CommonJS",
+        "ES Modules"
+      ],
+      "Open Source Collaboration": [
+        "Express.js Contributor",
+        "Core Framework Enhancements"
+      ],
+      "API Modernization": [
+        "Callback-to-Promise Conversion"
+      ],
+      "Debugging & Introspection": [
+        "Route Path Exposure"
+      ]
+    },
+    "skill_evidence": [
+      "PR 'add app.listenPromise' introduces Promise-based server listening, replacing callback-based API with async/await support",
+      "PR 'Expose path on Layer' adds route path exposure for debugging, replacing regex-based introspection with string paths",
+      "PR 'allow to send custom errors' extends Express's error handling middleware to support custom error responses",
+      "All PRs target Express.js core modules (router, server, error handling), demonstrating deep framework knowledge",
+      "Contributions labeled 'enhancement' and 'module:router', indicating structured, maintainable improvements",
+      "No frontend or testing-related PRs visible, confirming backend specialization",
+      "Modernization efforts visible in Promise-based server APIs (callback → async/await conversion)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

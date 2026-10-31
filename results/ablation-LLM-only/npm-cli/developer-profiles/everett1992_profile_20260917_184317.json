@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "developer_name": "everett1992",
+    "generation_timestamp": "2026-09-17T18:41:04.916302",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "everett1992",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js CLI Development",
+      "npm Dependency Resolution",
+      "JavaScript Error Handling & Debugging",
+      "Lockfile Management (package-lock.json)",
+      "Technical Documentation for npm",
+      "Semantic Versioning & Releases",
+      "Asynchronous JavaScript Patterns"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "Node.js"
+    ],
+    "summary": "everett1992 is a mid-level JavaScript developer specializing in Node.js and npm's core CLI tooling. Their contributions focus on improving npm's dependency resolution, error handling, and lockfile semantics, with a strong emphasis on documentation and release processes. The developer demonstrates deep expertise in debugging recursive algorithms to prevent stack overflows, enhancing CLI tooling (e.g., `npm copy`), and maintaining backward compatibility. Their work aligns with npm's core infrastructure, indicating a backend/tooling-focused skill set within the JavaScript ecosystem.",
+    "identified_skills": {
+      "npm_and_node_core": [
+        "npm CLI Internals",
+        "Dependency Cycle Detection",
+        "Lockfile Resolution Logic",
+        "Registry Configuration (registry.npmjs.com)",
+        "npm Copy Command Implementation"
+      ],
+      "error_handling_and_debugging": [
+        "Stack Overflow Prevention",
+        "Recursive Algorithm Debugging",
+        "Graceful Dependency Failure Handling",
+        "Optional Dependency Validation"
+      ],
+      "documentation_and_communication": [
+        "Technical Documentation Writing",
+        "API Behavior Explanation",
+        "Release Notes Clarity"
+      ],
+      "versioning_and_releases": [
+        "Semantic Versioning (patch/minor)",
+        "Release-Targeted Changes",
+        "Backward Compatibility Awareness"
+      ],
+      "testing_awareness": [
+        "Test Coverage Identification",
+        "Testing Needs Proactive Labels"
+      ],
+      "asynchronous_programming": [
+        "Recursive Async Operations",
+        "Promise-Based Dependency Checks"
+      ],
+      "cli_tooling": [
+        "Command-Line Argument Parsing",
+        "User-Facing CLI Behavior",
+        "Deployment Tooling (npm copy)"
+      ],
+      "open_source_contributions": [
+        "High-Impact Core Contributions",
+        "Release Cycle Alignment",
+        "npm Governance Awareness"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Avoid blowing stack when checking if a failed dependency is required or optional' → Demonstrates stack overflow prevention in recursive dependency checks",
+      "PR: 'implement options affecting `resolved` value in lock files' → Shows deep understanding of package-lock.json resolution logic",
+      "PR: 'docs: document special meaning of registry.npmjs.com' → Proves technical documentation skills for npm's registry system",
+      "PR labels 'semver:patch' and 'semver:minor' → Confirms familiarity with semantic versioning and release processes",
+      "PR: 'npm copy copy module files and dependencies into a deployable folder' → Evidence of CLI tooling and deployment automation expertise",
+      "PR labels 'pr: needs tests' → Indicates awareness of testing gaps and proactive testing mindset",
+      "Dependency resolution PRs target npm 6.x and 8.x releases → Demonstrates alignment with npm's release cycles",
+      "Error handling PR focuses on 'failed dependency' scenarios → Shows experience with defensive programming in async/recursive contexts"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "reviewer_name": "zekth",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 9,
+    "total_comments": 6,
+    "total_prs": 7,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "zekth",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js Backend Development",
+      "TypeScript",
+      "Testing (Networking & Edge Cases)",
+      "GitHub Actions (CI/CD)",
+      "Code Review & Documentation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "zekth is a Mid-level JavaScript reviewer with strong expertise in Node.js backend development, particularly with TypeScript integration. Their reviews demonstrate deep knowledge of Node.js internals, HTTP/2 features, and network-related testing. They also show proficiency in GitHub Actions for CI/CD pipelines and maintain a focus on clean, well-documented, and thoroughly tested code. Their contributions span backend optimizations, test improvements, and documentation updates, reflecting a balanced skill set between technical depth and collaborative review practices.",
+    "identified_skills": {
+      "Backend Frameworks & Runtime": [
+        "Node.js",
+        "HTTP/2 Early Hints"
+      ],
+      "TypeScript": [
+        "TypeScript Type Management",
+        "Node.js TypeScript Integration"
+      ],
+      "Testing": [
+        "Network Interface Testing",
+        "Test Maintenance",
+        "Test-Driven Development"
+      ],
+      "CI/CD & DevOps": [
+        "GitHub Actions Workflows",
+        "CI Pipeline Configuration"
+      ],
+      "Documentation & Maintenance": [
+        "README/API Documentation",
+        "Code Cleanup",
+        "Chore Tasks"
+      ],
+      "Code Review": [
+        "PR Approvals",
+        "Testing-Related Feedback",
+        "Documentation Review"
+      ],
+      "Networking": [
+        "Single Network Interface Testing",
+        "HTTP/2 Features"
+      ],
+      "Static Typing": [
+        "TypeScript Static Analysis"
+      ]
+    },
+    "skill_evidence": [
+      "PR 'feat: writeEarlyHints' labeled `typescript` with discussion on importing Node.js types directly",
+      "PR 'Tests should pass on a host with only a single network interface' labeled `test` (networking focus)",
+      "PR 'ci: CITGM github workflow' labeled `github actions` with reviewer comments",
+      "PR 'Update middleware docs link' approved with `:v:` emoji (documentation update)",
+      "PR 'chore: clean tests' (maintenance task with `chore` label)",
+      "Approvals (`APPROVED` state) on most PRs, indicating trusted review judgment",
+      "Commented on test-related PRs and CI/CD workflows, showing engagement in core areas",
+      "TypeScript feature PRs with explicit type management discussions"
+    ]
+  }
+}

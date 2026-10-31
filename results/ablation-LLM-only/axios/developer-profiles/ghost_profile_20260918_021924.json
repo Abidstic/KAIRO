@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "developer_name": "ghost",
+    "generation_timestamp": "2026-09-18T02:02:12.180904",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 13,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 13
+  },
+  "profile": {
+    "developer_name": "ghost",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Axios HTTP client",
+      "Node.js backend development",
+      "Asynchronous JavaScript (async/await, Promises)",
+      "HTTP/TCP networking",
+      "Error handling and debugging",
+      "Query parameter serialization",
+      "Open-source documentation",
+      "Testing with Mocha"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (no direct evidence but likely inferred from Node.js ecosystem)"
+    ],
+    "summary": "ghost is a Mid-level JavaScript developer with specialized expertise in Node.js HTTP client development, primarily demonstrated through contributions to the Axios library. Their work focuses on asynchronous programming, HTTP/TCP networking, and robust error handling, with a strong emphasis on improving documentation and user education. While their contributions are primarily backend-focused (Node.js), they also demonstrate cross-browser compatibility awareness, particularly for legacy environments like IE11. ghost’s contributions are reliability-driven, with a focus on fixing edge cases and improving networking-related features rather than adding new functionality. Their open-source contributions suggest a community-oriented approach, particularly in maintaining and enhancing documentation for widely used tools.",
+    "identified_skills": {
+      "HTTP_Client_Development": [
+        "Axios HTTP client",
+        "HTTP status code handling",
+        "Query parameter serialization",
+        "Proxy agent configuration",
+        "Cross-browser HTTP compatibility"
+      ],
+      "Asynchronous_Programming": [
+        "async/await syntax",
+        "Promise-based APIs",
+        "TCP stream handling"
+      ],
+      "Networking_Low_Level": [
+        "TCP Nagle’s algorithm (NO_DELAY)",
+        "HTTP/TCP internals",
+        "Proxy protocol handling"
+      ],
+      "Error_Handling": [
+        "Legacy browser exception handling (IE11)",
+        "Networking edge-case debugging",
+        "Proxy agent conflict resolution"
+      ],
+      "Testing": [
+        "Mocha test framework",
+        "Test-driven development (TDD)",
+        "Test suite migration"
+      ],
+      "Documentation": [
+        "README.md improvements",
+        "User-facing examples (async/await)",
+        "Error handling documentation"
+      ],
+      "Open_Source_Contribution": [
+        "Bug-focused PRs",
+        "Community documentation",
+        "Consistent repository contributions"
+      ],
+      "Node_js_Ecosystem": [
+        "Node.js HTTP/HTTPS agents",
+        "Node.js TCP socket options",
+        "Node.js testing tools"
+      ]
+    },
+    "skill_evidence": [
+      "PR #4: Added async/await example demonstrating modern async/await syntax in Axios usage",
+      "PR #2-3: TCP NO_DELAY support shows awareness of low-level networking and TCP stream optimizations",
+      "PR #10: IE11 exception handling fix indicates cross-browser compatibility debugging skills",
+      "PR #13: Proxy agent conflict resolution addresses Node.js HTTP/HTTPS agent configuration",
+      "PR #7: Query parameter serialization logic for handling null/undefined values in URLs",
+      "PR #6: Migration from NodeUnit to Mocha shows familiarity with Node.js testing frameworks",
+      "PR #18: README.md updates on HTTP status codes improve user documentation and error handling guidance",
+      "PR #11: README spacing fixes demonstrate attention to documentation quality and consistency"
+    ]
+  },
+  "statistics": {
+    "total_prs": 13,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

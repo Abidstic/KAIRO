@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "developer_name": "m4rch3n1ng",
+    "generation_timestamp": "2026-09-17T18:37:38.131086",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "m4rch3n1ng",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "npm CLI internals",
+      "Node.js command-line tooling",
+      "CLI flag and argument parsing",
+      "Shell integration (bash completions)",
+      "npm documentation improvements",
+      "npm dependency resolution awareness"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)"
+    ],
+    "summary": "m4rch3n1ng is a specialized JavaScript developer with deep expertise in npm's command-line tooling and Node.js package management ecosystem. Their contributions focus on refining npm CLI behavior, improving documentation, and fixing edge cases in shell integrations. The developer demonstrates strong technical understanding of npm's internals, particularly around dependency resolution, command-line argument handling, and user experience improvements. While primarily working within the npm CLI space, their contributions highlight precision in targeted improvements rather than broad architectural changes.",
+    "identified_skills": {
+      "npm_cli_tooling": [
+        "npm CLI flag implementations",
+        "package-lock-only mode",
+        "--prefer-dedupe flag",
+        "npm cache management",
+        "npm install optimizations"
+      ],
+      "shell_integration": [
+        "bash completions",
+        "autocompletion logic fixes",
+        "shell scripting awareness",
+        "EUSAGE error handling"
+      ],
+      "documentation": [
+        "CLI parameter documentation",
+        "help text improvements",
+        "user-facing documentation",
+        "missing flag documentation"
+      ],
+      "npm_ecosystem": [
+        "@npmcli/arborist awareness",
+        "npm ci vs npm install differences",
+        "package-lock.json handling",
+        "dependency resolution concepts"
+      ],
+      "cli_development": [
+        "command-line argument parsing",
+        "error handling in CLI tools",
+        "CLI flag validation",
+        "help message generation"
+      ],
+      "bug_fixing": [
+        "autocompletion false positives",
+        "CLI edge-case handling",
+        "npm tooling bugs",
+        "shell integration issues"
+      ],
+      "contribution_patterns": [
+        "precision-focused PRs",
+        "documentation-heavy contributions",
+        "collaborative npm maintainer workflows"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'fix: npm cache completion' – corrected false positives in bash autocompletion for 'npm cache delete', demonstrating shell scripting awareness and bug-fixing precision",
+      "PR: 'feat: --prefer-dedupe' – added CLI flag for npm install, showing deep npm internals knowledge (Arborist integration)",
+      "PR: 'docs: add package-lock-only' – documented new npm install flag, proving CLI documentation expertise",
+      "PR: 'fix: npm set --help' – added missing '--global' flag to help text, highlighting attention to user-facing documentation",
+      "PR descriptions reference 'EUSAGE' errors – evidence of debugging CLI tooling issues and error handling in Node.js",
+      "All PRs involve npm_cli repository – confirms specialized focus on npm's command-line tooling rather than broader JavaScript ecosystem",
+      "No code changes in PRs (files_changed: 0) – indicates documentation/UX-focused contributions rather than implementation work",
+      "PR titles/descriptions show familiarity with npm's internal tools like 'npm ci' and package-lock.json handling"
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

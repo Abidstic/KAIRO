@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "developer_name": "fralonra",
+    "generation_timestamp": "2026-09-18T13:29:45.010012",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 37,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "fralonra",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Fastify Framework",
+      "Fastify Plugin Ecosystem",
+      "TypeScript Documentation",
+      "Technical Writing for JavaScript Frameworks",
+      "Fastify Internals (Hooks, Logging, Error Handling)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "fralonra is a Mid-Level JavaScript developer with specialized expertise in the Fastify ecosystem. Their contributions focus on improving Fastify's documentation, plugin ecosystem, and TypeScript integration. With 37 PRs exclusively in the Fastify repository, they demonstrate deep knowledge of Fastify's internals (hooks, logging, error handling) and a strong ability to maintain high-quality technical documentation. While their contributions are primarily backend-focused, their work reflects proficiency in Node.js patterns, modular design, and plugin development. No frontend or testing experience is visible in their PR history.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify"
+      ],
+      "Plugin Development": [
+        "Fastify Plugin Ecosystem",
+        "Plugin Documentation",
+        "Plugin Registration"
+      ],
+      "TypeScript": [
+        "TypeScript Documentation",
+        "TypeScript Integration",
+        "TypeScript.md Updates"
+      ],
+      "Documentation & Technical Writing": [
+        "Markdown Documentation",
+        "Core Concept Documentation",
+        "Fastify Internals Docs",
+        "Ecosystem Documentation"
+      ],
+      "Backend Patterns": [
+        "Hooks System",
+        "Error Handling",
+        "Logging Mechanisms",
+        "Middleware Patterns"
+      ],
+      "Tooling & Workflow": [
+        "Git PR Workflows",
+        "Documentation-First Contributions"
+      ],
+      "Node.js": [
+        "Node.js Runtime",
+        "ES Modules",
+        "Asynchronous Patterns"
+      ],
+      "GraphQL/Apollo": [
+        "Fastify Apollo Integration"
+      ]
+    },
+    "skill_evidence": [
+      "PRs exclusively in the Fastify repository (37 PRs) demonstrate deep Fastify expertise",
+      "Multiple PRs update core Fastify documentation files (Factory.md, Logging.md, Errors.md, Hooks.md)",
+      "PR 'Add fastify-log plugin to ecosystem' shows involvement in Fastify's plugin ecosystem management",
+      "PRs labeled 'docs(ecosystem)' (e.g., 'add fastify-apollo-step') indicate plugin ecosystem contributions",
+      "TypeScript-related PRs (e.g., 'Update TypeScript.md') confirm familiarity with Fastify + TypeScript integration",
+      "All PRs focus on documentation updates (10/11 labeled 'documentation'), showing strong technical writing skills",
+      "PRs fix typos and improve structure in core Fastify documentation (e.g., 'Errros.md' → 'Errors.md')",
+      "No code changes in PRs (additions=0, deletions=0) indicate documentation-first contributions"
+    ]
+  },
+  "statistics": {
+    "total_prs": 37,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

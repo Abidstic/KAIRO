@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "developer_name": "alex-ppg",
+    "generation_timestamp": "2026-09-18T13:45:38.791659",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 7,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 7
+  },
+  "profile": {
+    "developer_name": "alex-ppg",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify plugin development",
+      "Fastify ecosystem contributions",
+      "Database integration plugins",
+      "Technical documentation for Fastify",
+      "Backend middleware patterns"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Fastify ecosystem)"
+    ],
+    "summary": "alex-ppg is a mid-level JavaScript developer specializing in Fastify plugin development and backend integrations. Their contributions focus on expanding Fastify’s plugin ecosystem with database, observability, and cloud storage integrations, alongside maintaining comprehensive documentation for community plugins. With a strong backend focus, their expertise includes async JavaScript patterns, middleware architectures, and Fastify’s plugin system. While primarily contributing to Fastify’s plugin catalog, their work demonstrates deep familiarity with Fastify’s core patterns and community standards.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Fastify plugin system"
+      ],
+      "Database Integrations": [
+        "fastify-cockroachdb",
+        "fastify-mongoose-driver",
+        "fastify-influxdb"
+      ],
+      "Observability & Monitoring": [
+        "fastify-sentry",
+        "error tracking integrations"
+      ],
+      "Cloud & Storage": [
+        "fastify-ibm-cos",
+        "IBM Cloud Object Storage"
+      ],
+      "Security & Authorization": [
+        "fastify-casl",
+        "role-based access control"
+      ],
+      "Documentation & Community": [
+        "Fastify plugin documentation",
+        "community plugin catalog"
+      ],
+      "JavaScript Patterns": [
+        "async/await",
+        "Fastify hooks",
+        "middleware patterns"
+      ],
+      "Plugin Development": [
+        "plugin registration",
+        "dependency injection"
+      ],
+      "DevOps & Maintenance": [
+        "plugin lifecycle management",
+        "dependency awareness"
+      ]
+    },
+    "skill_evidence": [
+      "All 7 PRs contributed to the `fastify` repository, focusing exclusively on plugin development and documentation",
+      "PRs labeled `plugin` demonstrate specialized knowledge of Fastify’s plugin registration and lifecycle patterns",
+      "Documentation-only PRs (e.g., 'Documentation update for avvio PR 82') show expertise in maintaining Fastify’s plugin catalog",
+      "Plugins like `fastify-cockroachdb` and `fastify-mongoose-driver` evidence database integration experience",
+      "`fastify-sentry` and `fastify-casl` contributions highlight observability and security integration skills",
+      "No frontend frameworks or libraries appear in PRs, confirming backend specialization",
+      "PRs with `stale` label suggest involvement in plugin maintenance and dependency updates",
+      "Async patterns are implied by database/cloud integrations (e.g., `fastify-influxdb` for time-series data)"
+    ]
+  },
+  "statistics": {
+    "total_prs": 7,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

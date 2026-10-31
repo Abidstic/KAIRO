@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "developer_name": "anonrig",
+    "generation_timestamp": "2026-09-18T13:44:05.246331",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 8,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 8
+  },
+  "profile": {
+    "developer_name": "anonrig",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Fastify framework",
+      "Node.js runtime",
+      "JavaScript performance optimization",
+      "Dependency management",
+      "JavaScript type coercion",
+      "Testing and benchmarking",
+      "Fastify plugin ecosystem",
+      "Technical documentation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "anonrig is a Mid-Level JavaScript developer with specialized expertise in Fastify, a high-performance Node.js web framework. Their contributions focus on backend optimization, dependency management, and testing within Fastify's ecosystem. The developer demonstrates strong skills in JavaScript performance tuning (e.g., replacing `parseInt` with `Number` for 6% speed boosts), type coercion handling, and maintaining documentation for Fastify plugins. Their work follows Fastify's contribution guidelines rigorously, indicating a process-oriented approach to development. While primarily backend-focused, their contributions highlight deep knowledge of Node.js internals and Fastify's architecture, particularly around routing, plugins, and performance-critical components.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js runtime (v12+)"
+      ],
+      "Performance Optimization": [
+        "JavaScript micro-optimizations",
+        "Number coercion vs parseInt",
+        "Benchmarking"
+      ],
+      "Dependency Management": [
+        "npm/yarn dependency updates",
+        "semver compliance",
+        "Node.js version compatibility"
+      ],
+      "Testing": [
+        "JavaScript type coercion tests",
+        "Fastify test suite",
+        "benchmarking workflows"
+      ],
+      "Documentation": [
+        "Fastify plugin ecosystem documentation",
+        "Electron integration docs"
+      ],
+      "Type Systems": [
+        "JavaScript type coercion rules",
+        "primitive vs object coercion"
+      ],
+      "Open Source Workflow": [
+        "Fastify contribution guidelines",
+        "checklist-driven PRs",
+        "incremental changes"
+      ],
+      "Plugin Systems": [
+        "Fastify plugin architecture",
+        "Electron integration"
+      ],
+      "Routing": [
+        "find-my-way middleware",
+        "Fastify routing internals"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Replace parseInt with Number at get 6% boost' – demonstrates JavaScript performance optimization and benchmarking",
+      "PR: 'test: add number coercion related tests' – shows deep knowledge of JavaScript type coercion and test-driven development",
+      "Multiple dependency update PRs (e.g., 'chore: bump find-my-way') – indicates npm/yarn dependency management and Node.js version compatibility awareness",
+      "PR: 'docs(ecosystem): add electron-server' – contributes to Fastify's plugin ecosystem documentation and Electron integration",
+      "PRs consistently reference 'npm run test' and 'npm run benchmark' – demonstrates disciplined testing and benchmarking workflows",
+      "All PRs follow Fastify's contribution checklist – indicates adherence to structured open-source workflows",
+      "PRs reference 'find-my-way' routing library – shows awareness of Fastify's routing internals and middleware ecosystem",
+      "Small, focused PRs (e.g., 'chore: drop Node 12 support') – reflects incremental, modular development approach"
+    ]
+  },
+  "statistics": {
+    "total_prs": 8,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

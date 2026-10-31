@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "developer_name": "jeromemacias",
+    "generation_timestamp": "2026-09-18T13:40:41.502617",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 9,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 9
+  },
+  "profile": {
+    "developer_name": "jeromemacias",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify Framework",
+      "TypeScript for Node.js",
+      "Fastify Plugin System",
+      "TypeScript Type Definitions",
+      "Fastify Documentation",
+      "Node.js Event Emitters",
+      "Semantic Versioning (semver-minor)",
+      "Open Source Contribution Workflow"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "jeromemacias is a specialized JavaScript developer with a strong focus on Fastify, the high-performance Node.js web framework. Their contributions primarily involve enhancing Fastify's TypeScript type definitions, maintaining documentation, and expanding the plugin ecosystem. With a Mid-level experience assessment based on their targeted contributions to Fastify's core and community aspects, they demonstrate deep expertise in Fastify's internals, particularly around type safety and plugin integration. Their work reflects a strong understanding of Node.js event-driven architecture and semantic versioning practices, as well as proficiency in contributing to open-source projects following established workflows.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js Event Emitters"
+      ],
+      "TypeScript Specialization": [
+        "TypeScript Type Definitions",
+        "JSDoc Annotations",
+        "FastifyInstance Type Extensions"
+      ],
+      "Plugin Systems": [
+        "Fastify Plugin Ecosystem",
+        "Community Plugin Management",
+        "Plugin Documentation"
+      ],
+      "Documentation": [
+        "Open Source Documentation",
+        "Getting Started Guides",
+        "Plugin Ecosystem Documentation"
+      ],
+      "Version Control": [
+        "Semantic Versioning (semver-minor)",
+        "Git Contribution Workflow"
+      ],
+      "Logging Systems": [
+        "Custom Logger Serializers"
+      ],
+      "Testing Awareness": [
+        "Fastify Test Suite",
+        "Benchmarking Pipeline"
+      ],
+      "Open Source Practices": [
+        "Code of Conduct Compliance",
+        "Contributor Checklists",
+        "Ecosystem Maintenance"
+      ]
+    },
+    "skill_evidence": [
+      "PR titles like 'Fix FastifyInstance::ready type definition' demonstrate deep TypeScript expertise in extending Fastify's core types",
+      "'Add fastify-xray to ecosystem' shows involvement in Fastify's plugin ecosystem and community plugin management",
+      "Multiple PRs include 'documentation' label and focus on updating plugin lists or fixing getting-started guides",
+      "'Allow overwrite logger serializer, one by one' indicates familiarity with Fastify's logging system and serialization",
+      "Checklists in PR descriptions reference 'run npm run test' and 'npm run benchmark', showing awareness of Fastify's testing pipeline",
+      "All PRs follow Fastify's contribution guidelines with checklists and Code of Conduct references, demonstrating polished open-source workflow",
+      "'semver-minor' labeled PRs indicate understanding of semantic versioning for type definition changes",
+      "No frontend or DevOps skills visible, but contributions are highly specialized in Fastify's backend ecosystem"
+    ]
+  },
+  "statistics": {
+    "total_prs": 9,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

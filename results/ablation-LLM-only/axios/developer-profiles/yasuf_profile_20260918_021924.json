@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "developer_name": "yasuf",
+    "generation_timestamp": "2026-09-18T02:04:28.155692",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 11,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 11
+  },
+  "profile": {
+    "developer_name": "yasuf",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "JavaScript Security (XSS Prevention, URL Validation)",
+      "HTTP Client Internals (Axios Request/Response Handling)",
+      "Error Handling & Debugging (Promise-based Error Systems)",
+      "JavaScript Documentation & API Design",
+      "Performance Optimization (Native JS Usage, Bundle Reduction)",
+      "HTTP/2 Protocol Integration",
+      "Asynchronous JavaScript (Promise-based HTTP Clients)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5+)",
+      "TypeScript (implied by native JS preference and Axios ecosystem)"
+    ],
+    "summary": "yasuf is a Mid-Level JavaScript developer with specialized expertise in HTTP client internals (Axios), security-focused JavaScript (XSS prevention), and performance optimizations. Their contributions demonstrate deep knowledge of request validation, error handling, and documentation improvements within a backend/HTTP-centric context. While not a generalist frontend developer, yasuf shows strong skills in debugging, build system awareness, and advanced networking (HTTP/2 experimentation). Their work aligns closely with core Axios functionality, particularly in security-critical and performance-sensitive areas.",
+    "identified_skills": {
+      "Security": [
+        "XSS Prevention",
+        "URL Sanitization",
+        "Malicious Payload Detection"
+      ],
+      "HTTP Client Development": [
+        "Axios Request/Response Pipeline",
+        "Request Validation Logic",
+        "Adapter Support (HTTP/2)",
+        "Proxy Configuration"
+      ],
+      "Error Handling": [
+        "Promise-based Error Systems",
+        "Custom Error Throwing",
+        "Debugging Default Behavior"
+      ],
+      "Documentation": [
+        "API Example Documentation",
+        "Changelog Updates",
+        "CI/CD Badge Maintenance"
+      ],
+      "Performance Optimization": [
+        "Native JavaScript Usage (ES5+)",
+        "Polyfill Removal",
+        "Bundle Size Reduction"
+      ],
+      "Build Systems": [
+        "Build Validation",
+        "CI/CD Integration"
+      ],
+      "Asynchronous Programming": [
+        "Promise-based HTTP Clients",
+        "JSON Serialization"
+      ],
+      "JavaScript Language": [
+        "Native Function.bind",
+        "Method Chaining",
+        "Error Serialization"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: 'Fix to prevent XSS, throw an error when the URL contains a JS script' – Demonstrates XSS prevention and URL sanitization logic",
+      "PR 8: 'Fix XSS logic that matched some valid URLs' – Refines security mechanisms with regex-based URL validation",
+      "PR 6: 'Fix defaults on .request' – Involves debugging default behavior in HTTP requests and mentions test coverage",
+      "PR 2: 'Add error toJSON example' – Shows API documentation improvements with concrete usage examples",
+      "PR 9: 'chore: remove bind util file and use native JS bind instead' – Replaces custom polyfill with native ES5+ Function.bind",
+      "PR 10: 'Experimental http2 adapter' – Indicates HTTP/2 protocol integration and advanced networking knowledge",
+      "PR 4: 'Update docs with no_proxy change' – Involves proxy configuration documentation updates",
+      "PR 3: 'Change syntax to see if build passes' – Implies build system testing and CI/CD awareness"
+    ]
+  },
+  "statistics": {
+    "total_prs": 11,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

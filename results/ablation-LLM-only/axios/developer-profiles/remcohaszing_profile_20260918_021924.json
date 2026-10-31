@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "developer_name": "remcohaszing",
+    "generation_timestamp": "2026-09-18T02:03:03.816198",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 13,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 13
+  },
+  "profile": {
+    "developer_name": "remcohaszing",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "TypeScript",
+      "Node.js",
+      "Axios",
+      "HTTP client libraries",
+      "TypeScript type system",
+      "Module systems (ESM/CJS)",
+      "Type-safe API design",
+      "Backend JavaScript"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)"
+    ],
+    "summary": "remcohaszing is a Senior JavaScript developer with deep expertise in TypeScript, Node.js, and the Axios ecosystem. Their contributions focus on enhancing type safety, module system compatibility, and backend HTTP client functionality. The developer demonstrates advanced knowledge of TypeScript's type system, runtime environments, and API design patterns, with a strong emphasis on maintaining cross-environment compatibility (browser vs. Node.js). Their work includes refining type definitions, handling module exports for ESM/CJS duality, and improving documentation for TypeScript users. The developer's ability to revert breaking changes and adapt to evolving TypeScript standards highlights their mature technical judgment and commitment to developer experience (DX).",
+    "identified_skills": {
+      "TypeScript Advanced": [
+        "Type system design",
+        "Type refinement (never vs. unknown)",
+        "Type definition maintenance",
+        "TypeScript 4.7+ features",
+        "Module resolution (CJS/ESM)",
+        "Type-safe header definitions",
+        "Type testing"
+      ],
+      "Node.js Backend": [
+        "Node.js runtime compatibility",
+        "Stream handling (form-data)",
+        "ESM/CJS module systems",
+        "Node.js-specific type fixes",
+        "Testing utilities (axios-test-instance)"
+      ],
+      "Axios Ecosystem": [
+        "Axios configuration (AxiosRequestConfig)",
+        "HTTP client extensions",
+        "Form-data integration",
+        "Testing patterns for Axios",
+        "Type definitions for Axios"
+      ],
+      "Type Safety & Tooling": [
+        "Type inference adjustments",
+        "Breaking change reverts",
+        "TypeScript compiler awareness",
+        "Version-specific type fixes",
+        "Auto-import alignment"
+      ],
+      "Documentation & DX": [
+        "TypeScript documentation updates",
+        "User experience improvements",
+        "API usability refinements",
+        "Contributor documentation"
+      ],
+      "Module Systems": [
+        "Dual CommonJS/ESM support",
+        "index.d.cts files",
+        "Module export strategies",
+        "TypeScript module resolution"
+      ],
+      "Testing": [
+        "Type correctness validation",
+        "Testing utilities (axios-test-instance)",
+        "Edge-case type testing"
+      ]
+    },
+    "skill_evidence": [
+      "\"Make the default type of response data never\" - Adjusting return types for stricter type safety",
+      "\"Change never type to unknown\" - Aligning with modern TypeScript best practices",
+      "\"Fix TypeScript exports\" - Managing module exports for TypeScript compatibility",
+      "\"Fixing node types\" - Removing DOM-specific types (ProgressEvent) for Node.js compatibility",
+      "\"fix(types): export CJS types from ESM\" - Handling dual module systems in TypeScript",
+      "\"Adding form-data support\" - Leveraging Node.js streams for HTTP requests",
+      "\"Updating documentation for usage form-data\" - Improving TypeScript user documentation",
+      "\"Revert 'Improved type-safety for AxiosRequestConfig'\" - Reverting breaking TypeScript changes",
+      "\"Test types\" - Proactively validating type correctness in AxiosRequestConfig"
+    ]
+  },
+  "statistics": {
+    "total_prs": 13,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

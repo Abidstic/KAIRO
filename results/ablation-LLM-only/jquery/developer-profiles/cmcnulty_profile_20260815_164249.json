@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "developer_name": "cmcnulty",
+    "generation_timestamp": "2026-08-15T16:28:25.352752",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "cmcnulty",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery Core DOM Manipulation",
+      "Legacy Browser Compatibility (IE ≤ 8)",
+      "DOM API Optimization (innerHTML vs append)",
+      "Regex Performance Tuning",
+      "Conditional Browser Fallbacks",
+      "HTML5 Element Serialization"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "jQuery"
+    ],
+    "summary": "cmcnulty is a mid-level JavaScript developer with specialized expertise in jQuery's core DOM manipulation and legacy browser compatibility. Their contributions focus on optimizing DOM serialization, fixing IE ≤ 8 quirks (particularly with HTML5 elements), and refining regex patterns for performance-critical DOM operations. The developer demonstrates precision in writing minimal, high-impact changes that address edge cases while maintaining backward compatibility. While their work is deeply rooted in jQuery and legacy JavaScript, there is no evidence of modern frontend framework experience.",
+    "identified_skills": {
+      "DOM Manipulation Techniques": [
+        "jQuery DOM serialization",
+        "innerHTML vs append() trade-offs",
+        "HTML5 element serialization fixes"
+      ],
+      "Legacy Browser Support": [
+        "IE ≤ 8 compatibility patterns",
+        "html5shiv integration",
+        "Feature detection fallbacks"
+      ],
+      "Performance Optimization": [
+        "Regex pattern optimization",
+        "DOM method benchmarking",
+        "Minimal code impact changes"
+      ],
+      "Conditional Logic": [
+        "Browser-specific conditional logic",
+        "Defensive programming patterns",
+        "Edge-case handling"
+      ],
+      "jQuery Internals": [
+        "Core DOM parsing logic",
+        "Serialization engine optimizations",
+        "Method chaining performance"
+      ],
+      "Bug Resolution": [
+        "IE8 HTML5 serialization bugfixes",
+        "DOM method regression fixes",
+        "Legacy environment quirks"
+      ],
+      "Code Quality": [
+        "Surgical code modifications",
+        "Zero-addition/deletion PRs",
+        "High-impact minimal changes"
+      ]
+    },
+    "skill_evidence": [
+      "PR #11528: Fixed IE ≤ 8's inability to serialize HTML5 elements via .html() by replacing innerHTML with append() to trigger html5shiv",
+      "PR #11528: Added conditional logic to detect IE8 and HTML5 elements before applying fallback serialization method",
+      "PR #6782: Optimized regex pattern for innerHTML parsing to reduce DOM manipulation overhead in jQuery's core",
+      "PR #6782 Fix: Refined regex optimization to further improve parsing speed for complex HTML strings",
+      "All PRs: Demonstrated deep knowledge of jQuery's DOM abstraction layer and its interaction with vanilla JS DOM APIs",
+      "All PRs: Showed expertise in choosing between innerHTML (fast but IE8-broken) and append() (slow but reliable) based on context",
+      "PR #11528: Explicitly documented the IE8-specific HTML5 serialization issue and its conditional resolution",
+      "PR #6782: Included performance metrics in description indicating regex optimization reduced DOM parsing time"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

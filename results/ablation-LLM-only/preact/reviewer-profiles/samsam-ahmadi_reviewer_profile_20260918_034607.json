@@ -1,0 +1,58 @@
+{
+  "reviewer_name": "samsam-ahmadi",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 4,
+    "total_prs": 1,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "samsam-ahmadi",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "TypeScript type system",
+      "TypeScript type compatibility"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (limited evidence)"
+    ],
+    "summary": "The reviewer demonstrates minimal direct evidence of JavaScript expertise but shows focused involvement in TypeScript type system discussions, specifically around type compatibility and HTML attribute types. Their contributions are limited to lightweight PR comments without reviewing actual code changes, suggesting a role more aligned with type definition discussions than broader JavaScript development. The lack of framework/library context or technical code review depth indicates a junior-level profile with specialized knowledge in TypeScript typing rather than general JavaScript proficiency.",
+    "identified_skills": {
+      "TypeScript": [
+        "Type compatibility",
+        "HTML attribute type definitions",
+        "Type augmentation"
+      ],
+      "Code Review Practices": [
+        "PR comment-only feedback",
+        "Non-technical discussion facilitation"
+      ],
+      "JavaScript": [],
+      "Frontend Frameworks": [],
+      "Backend Frameworks": [],
+      "Testing": [],
+      "Tooling": [],
+      "Asynchronous Patterns": [],
+      "Performance Optimization": [],
+      "GitHub Workflow": [
+        "PR comment participation"
+      ]
+    },
+    "skill_evidence": [
+      "Repeated PR title 'type[compat]: add html attributes types #4099' indicates focus on TypeScript type compatibility",
+      "All review entries show 'files_changed: 0' and 'review_state: COMMENTED', implying no code review but only discussion",
+      "No evidence of framework-specific knowledge (React, Vue, etc.) or backend runtime involvement",
+      "PR context suggests involvement with type definitions for HTML attributes in TypeScript",
+      "No comments on runtime behavior, async patterns, or testing frameworks",
+      "Reviewer role appears limited to lightweight feedback rather than technical scrutiny",
+      "No changes to JavaScript/TypeScript code files in any reviewed PRs",
+      "GitHub review state consistently 'COMMENTED' without approval or change requests"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "developer_name": "pijey",
+    "generation_timestamp": "2026-09-17T23:04:46.867516",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "pijey",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js core development",
+      "JavaScript charting algorithms",
+      "Pure JavaScript debugging",
+      "Edge-case handling in data visualization",
+      "Open-source contribution to libraries"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "Vanilla JavaScript"
+    ],
+    "summary": "pijey is a mid-level JavaScript developer with specialized expertise in Chart.js, demonstrated through targeted contributions to its core charting logic. Their work focuses on precise algorithmic fixes and feature enhancements for chart rendering, particularly in axis scaling and grid line positioning. The developer shows strong problem-solving skills in handling edge cases (e.g., null values with beginAtZero=false) and follows open-source best practices. While contributions are limited to Chart.js, the depth of technical engagement suggests a focused but impactful developer profile in data visualization libraries.",
+    "identified_skills": {
+      "Charting Library Architecture": [
+        "Chart.js core algorithms",
+        "Line chart rendering",
+        "Scale/axis calculations",
+        "Grid line positioning"
+      ],
+      "JavaScript Core Patterns": [
+        "Object-oriented JavaScript (ES6 classes)",
+        "Conditional logic for edge cases",
+        "Data structure manipulation",
+        "Mathematical precision in rendering"
+      ],
+      "Bug Resolution": [
+        "Stateful system debugging",
+        "Null value handling in datasets",
+        "Boolean flag interactions (beginAtZero)",
+        "Reproducible bug fixes"
+      ],
+      "Feature Development": [
+        "New option implementation (offsetGridLines)",
+        "Chart.js configuration extensions"
+      ],
+      "Open-Source Practices": [
+        "Issue triage and linking",
+        "Clean PR workflow",
+        "Duplicate PR management",
+        "Community contribution etiquette"
+      ],
+      "Testing & Validation": [],
+      "Build Systems & Tooling": [],
+      "Backend/Node.js": [],
+      "Frontend Frameworks": []
+    },
+    "skill_evidence": [
+      "PR #1014: Added 'offsetGridLines' option to Line charts, demonstrating feature development in Chart.js's core rendering logic",
+      "PR #1014 duplicate: Resubmitted PR with identical title/description, showing familiarity with GitHub's PR cleanup workflow",
+      "PR #1016: Fixed scale rendering when beginAtZero=false and datasets contain null values, requiring deep understanding of Chart.js's stateful scale system",
+      "PR #1016 duplicate: Closed redundant PR, indicating attention to open-source contribution hygiene",
+      "All PRs reference specific GitHub issues (#1014, #1016), proving contextual issue triage and alignment with existing discussions",
+      "Bug fixes target non-obvious interactions (e.g., null values + boolean flags), showcasing edge-case debugging prowess",
+      "No framework-specific patterns (e.g., React hooks) visible—contributions are pure JavaScript algorithmic fixes",
+      "PR descriptions explicitly mention chart types (Line charts) and data structures (datasets), indicating specialized knowledge"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

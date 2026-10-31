@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "jamiebuilds",
+    "generation_timestamp": "2026-08-15T17:05:03.126424",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "lodash"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "jamiebuilds",
+    "raw_response": "```json\n{\n  \"developer_name\": \"jamiebuilds\",\n  \"experience_level\": \"Senior\",\n  \"primary_skills\": [\n    \"JavaScript core language (string manipulation, numerical operations)\",\n    \"Utility library design and implementation\",\n    \"Algorithm optimization for utility functions\",\n    \"Edge-case handling in JavaScript\",\n    \"API consistency and developer experience (DX)\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\"\n  ],\n  \"summary\": \"jamiebuilds demonstrates **Senior-level expertise** in JavaScript core language features, particularly **string manipulation and numerical operations**, as evidenced by contributions to Lodash. Their work shows deep understanding of **utility function design**, **edge-case handling**, and **API consistency**, with a focus on **performance-aware implementations**. While the PRs are limited to Lodash utility enhancements, their contributions reveal **specialized mastery** of JavaScript’s core runtime behaviors (e.g., Unicode normalization, floating-point precision) and **modular library architecture**. The absence of framework-specific work in these PRs suggests their strength lies in **low-level JavaScript utility development** rather than high-level frameworks or backend systems.\",\n  \"identified_skills\": {\n    \"Core JavaScript Language\": [\n      \"String manipulation (case conversion, Unicode handling)\",\n      \"Numerical operations (rounding, floor/ceil, precision handling)\",\n      \"Edge-case debugging (NaN, Infinity, floating-point arithmetic)\"\n    ],\n    \"Utility Library Development\": [\n      \"Modular function design\",\n      \"API consistency enforcement\",\n      \"Performance-aware utility implementations\",\n      \"Backward compatibility maintenance\"\n    ],\n    \"Algorithm Design\": [\n      \"Rounding algorithm selection\",\n      \"Precision-aware mathematical operations\",\n      \"Efficient utility function logic\"\n    ],\n    \"Technical Documentation\": [\n      \"Clear example-based documentation\",\n      \"Issue resolution alignment\",\n      \"Developer experience (DX) considerations\"\n    ],\n    \"JavaScript Runtime Awareness\": [\n      \"V8/SpiderMonkey behavior (e.g., Math.round quirks)\",\n      \"Core runtime edge-case handling\"\n    ],\n    \"Testing & QA\": [\n      \"Library test suite compatibility\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR 1 ('Add _.startCase'): Added Unicode-aware string case conversion with explicit handling of underscores and mixed-case inputs, demonstrating deep string manipulation knowledge.\",\n    \"PR 1: Renamed `titleCase` to `startCase` for clarity, showing attention to **API consistency** and **developer experience (DX)**.\",\n    \"PR 2/3 ('Add math methods'): Implemented `_.round`, `_.floor`, and `_.ceil` with explicit handling of `NaN`, `Infinity`, and precision edge cases, proving expertise in **numerical operations** and **edge-case debugging**.\",\n    \"PR 2/3: Resolved issue #687, indicating **problem-solving** for mathematical quirks in JavaScript (e.g., floating-point rounding behavior).\",\n    \"All PRs: Added methods to Lodash without breaking existing functionality, demonstrating **modular design** and **backward compatibility** awareness.\",\n    \"All PRs: Included clear examples in PR descriptions, showing **technical documentation** skills aligned with Lodash’s documentation standards.\",\n    \"PR 2/3: Addressed precision handling in rounding methods, reflecting **algorithm design** for utility functions.\",\n    \"PR 1/2/3: Minimal code changes (0 additions/deletions) suggest contributions to **Lodash’s core implementation**, not just documentation or tests.\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 54 column 3 (char 3564)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "lodash"
+    ]
+  }
+}

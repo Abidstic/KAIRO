@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "developer_name": "metcoder95",
+    "generation_timestamp": "2026-09-18T13:31:56.701525",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 31,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "metcoder95",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify Framework",
+      "Node.js Backend Development",
+      "TypeScript",
+      "HTTP Protocol & Schema Validation",
+      "Plugin Development",
+      "Bug Fixing & Debugging",
+      "Documentation & Ecosystem Management",
+      "Dependency Management"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "metcoder95 is a senior-level JavaScript developer with deep expertise in Fastify, Node.js backend systems, and TypeScript. Their contributions demonstrate strong proficiency in Fastify's core architecture, including schema validation, plugin systems, HTTP protocol handling, and error management. The developer also excels in documentation, ecosystem contributions, and dependency upgrades, showing a holistic understanding of both framework internals and community engagement. Their work primarily focuses on backend performance, stability, and extensibility, making them a strong fit for roles involving Fastify, API development, or backend framework contributions.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js"
+      ],
+      "HTTP & Networking": [
+        "HTTP/1.1",
+        "HTTP/2",
+        "HEAD requests",
+        "Content-Length headers",
+        "Schema inheritance"
+      ],
+      "Validation & Data Processing": [
+        "JSON Schema",
+        "TypeScript interfaces",
+        "Schema controllers"
+      ],
+      "Plugin & Extensibility": [
+        "Fastify plugins",
+        "Decorator system",
+        "Plugin ecosystem management"
+      ],
+      "Error Handling & Debugging": [
+        "Error codes",
+        "Schema inheritance bugs",
+        "Avvio integration issues"
+      ],
+      "Documentation & Community": [
+        "Ecosystem documentation",
+        "README maintenance",
+        "Plugin discovery"
+      ],
+      "Dependency Management": [
+        "Semantic versioning",
+        "Avvio dependency updates",
+        "npm badges"
+      ],
+      "Testing & Quality": [
+        "Test coverage",
+        "Unit testing",
+        "Schema validation tests"
+      ],
+      "Modern JavaScript": [
+        "ES Modules",
+        "Optional chaining",
+        "Destructuring",
+        "Proxy/Reflect"
+      ],
+      "Performance Optimization": [
+        "Schema inheritance fixes",
+        "HTTP header optimizations"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Allow send content-length header for empty body on HEAD request' → HTTP protocol edge case handling",
+      "PR: 'fix: setSchemaController not inheriting Schemas from root parent' → Schema inheritance debugging",
+      "PR: 'feat: Add hint of which plugin is requesting specific decorator' → Plugin system enhancements",
+      "PR: 'docs: add fastify-get-head to ecosystem' → Ecosystem documentation contributions",
+      "PR: 'chore(deps): Update to new Avvio major version' → Dependency management and semver awareness",
+      "PR: 'feat: Improve error experience' → Error handling and debugging improvements",
+      "PR: 'docs: add npm badge' → Documentation and community engagement",
+      "PR: 'Test: Improve coverage' → Testing and quality assurance focus"
+    ]
+  },
+  "statistics": {
+    "total_prs": 31,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

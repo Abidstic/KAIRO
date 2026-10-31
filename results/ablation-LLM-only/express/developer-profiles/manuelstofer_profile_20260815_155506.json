@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "manuelstofer",
+    "generation_timestamp": "2026-08-15T15:50:15.986225",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "manuelstofer",
+    "raw_response": "```json\n{\n  \"developer_name\": \"manuelstofer\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Express.js backend development\",\n    \"Node.js asynchronous programming\",\n    \"Testing and debugging async edge cases\",\n    \"Middleware and request lifecycle management\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (inferred from Express ecosystem)\"\n  ],\n  \"summary\": \"manuelstofer is a mid-level JavaScript developer specializing in Node.js backend systems, with demonstrated expertise in Express.js middleware, asynchronous file handling, and robust error management. Their contributions focus on core backend reliability, particularly in handling request aborts and callback invocation in file-serving operations. The developer shows strong testing discipline, debugging async edge cases, and collaborative open-source engagement with Express maintainers. While primarily backend-focused, their contributions reflect deep understanding of Node.js streams, event emitters, and middleware composition patterns.\",\n  \"identified_skills\": {\n    \"Backend Frameworks\": [\"Express.js\", \"Node.js middleware\"],\n    \"Asynchronous Programming\": [\"Callback-based async patterns\", \"Request abort handling\", \"Stream cleanup\"],\n    \"Testing\": [\"Test suite maintenance\", \"Async edge case testing\", \"Jest/Mocha-like frameworks\"],\n    \"Error Handling\": [\"Callback invocation fixes\", \"Resource cleanup\", \"Async error propagation\"],\n    \"File Serving\": [\"res.sendFile implementation\", \"File stream management\"],\n    \"Open Source Collaboration\": [\"Cross-repository references\", \"Maintainer engagement\", \"Code cleanup\"],\n    \"Versioning\": [\"Express 3.x/4.x compatibility\"],\n    \"Debugging\": [\"Request lifecycle analysis\", \"Edge case identification\"]\n  },\n  \"skill_evidence\": [\n    \"PR #1: Fixed 'sendFile callback not invoked when request aborted' demonstrating deep async error handling knowledge\",\n    \"PR #3: Added tests for 'sendFile callback failures' showing test suite familiarity and async debugging skills\",\n    \"PR #2: Referenced cleanup work in 'visionmedia/send' proving cross-repository ecosystem awareness\",\n    \"All PRs target Express 3.x/4.x versions indicating version-specific framework expertise\",\n    \"Callback invocation fixes in file-serving operations reveal stream/async pattern mastery\",\n    \"Test additions for aborted requests show disciplined testing approach to backend reliability\",\n    \"No frontend code visible but clear backend specialization in Node.js middleware patterns\",\n    \"Labels like '3.x' and '4.x' confirm Express versioning and compatibility focus\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 34 column 3 (char 2598)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

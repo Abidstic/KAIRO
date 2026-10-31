@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "developer_name": "mikeweltejr",
+    "generation_timestamp": "2026-08-15T18:23:37.171603",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "mikeweltejr",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript core language (NaN handling, type coercion)",
+      "Moment.js internals (Duration objects, cloning, validation)",
+      "Edge-case debugging and state consistency",
+      "Custom validation logic for input sanitization"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "TypeScript (inferred from Moment.js ecosystem)"
+    ],
+    "summary": "mikeweltejr is a mid-level JavaScript developer with deep expertise in core language behavior, particularly around NaN handling and type system quirks. Their contributions focus on fixing subtle bugs in Moment.js' Duration object logic, demonstrating strong debugging skills for edge cases like invalid inputs (NaN, undefined, null). The developer shows proficiency in library internals, validation logic, and ensuring consistent state management during object cloning. While contributions are limited to a single repository, their precision in addressing type-related inconsistencies suggests a strong foundation in JavaScript fundamentals and a meticulous approach to correctness in legacy codebases.",
+    "identified_skills": {
+      "JavaScript Core Language": [
+        "NaN type handling and falsy checks",
+        "Type coercion and isNumber validation",
+        "Object property assignment behavior",
+        "Falsy vs. truthy value distinctions"
+      ],
+      "Library Internals": [
+        "Moment.js Duration object implementation",
+        "Invalid state propagation handling",
+        "Object cloning consistency fixes",
+        "Custom validation logic modifications"
+      ],
+      "Debugging Patterns": [
+        "Edge-case reproduction techniques",
+        "State inconsistency detection",
+        "Validation logic debugging",
+        "Cloning behavior analysis"
+      ],
+      "Code Quality": [
+        "Precise bug description writing",
+        "Consistency-focused fixes",
+        "Legacy code maintenance",
+        "Subtle behavior correction"
+      ],
+      "Testing Context": [
+        "Edge-case test scenario identification"
+      ]
+    },
+    "skill_evidence": [
+      "PR mentions 'NaN passes the isNumber check' demonstrating NaN type handling awareness",
+      "Fixes ensure 'milliseconds gets set to 0 so when cloned it becomes valid' shows cloning behavior debugging",
+      "Descriptions explain 'this will make NaN fail the number check' indicating custom validation logic work",
+      "PRs address 'invalid duration state propagation' during cloning operations",
+      "Evidence of 'NaN vs undefined/null consistency fixes' in validation logic",
+      "Clarifies 'when cloned it becomes valid' inconsistency in object state",
+      "Modifies internal validation to 'make it a valid duration which is incorrect'",
+      "Focuses on 'custom isNumber-like checks' for input sanitization"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

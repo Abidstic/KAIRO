@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "JustinBeckwith",
+    "generation_timestamp": "2026-09-18T02:05:08.460060",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 10,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 10
+  },
+  "profile": {
+    "developer_name": "JustinBeckwith",
+    "raw_response": "```json\n{\n  \"developer_name\": \"JustinBeckwith\",\n  \"experience_level\": \"Mid-Level\",\n  \"primary_skills\": [\n    \"Axios HTTP client internals\",\n    \"JavaScript error handling (async streams)\",\n    \"Testing framework migration (nodeunit → mocha)\",\n    \"Documentation and developer experience (DevEx)\",\n    \"Dependency management and versioning\",\n    \"Legacy browser compatibility (IE9 support)\",\n    \"ES6+ JavaScript practices\",\n    \"ESLint tooling and configuration\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (inferred from Axios ecosystem, though not directly evidenced)\"\n  ],\n  \"summary\": \"JustinBeckwith is a **Mid-Level JavaScript developer** with specialized expertise in the **Axios HTTP client library**, demonstrating strong skills in **error handling for async streams**, **testing framework migration**, and **documentation clarity**. Their contributions focus on **stability, compatibility, and developer experience**, particularly in managing dependencies, supporting legacy environments (e.g., IE9), and modernizing documentation. While primarily visible in the Axios repository, their work suggests proficiency in **Node.js runtime**, **ES6+ JavaScript**, and **tooling ecosystems** (e.g., ESLint, Mocha). The absence of frontend frameworks or advanced backend systems in this sample indicates a **niche but deep specialization** in HTTP client libraries and related tooling.\",\n  \"identified_skills\": {\n    \"HTTP Clients & Networking\": [\n      \"Axios internals\",\n      \"HTTP request/response error handling\",\n      \"Stream-based error capture\",\n      \"API configuration precedence\"\n    ],\n    \"Testing & Quality Assurance\": [\n      \"Testing framework migration (nodeunit → mocha)\",\n      \"Cross-browser testing (IE9/Sauce Labs)\",\n      \"Dependency conflict resolution\",\n      \"Test suite stability\"\n    ],\n    \"Documentation & Developer Experience\": [\n      \"Technical writing for API consumers\",\n      \"ES6 documentation modernization\",\n      \"Unit specification (e.g., `maxContentLength` in bytes)\",\n      \"Configuration precedence clarification\"\n    ],\n    \"Dependency Management\": [\n      \"npm/yarn dependency updates\",\n      \"Semantic versioning awareness\",\n      \"Gradual dependency migration\",\n      \"`package-lock.json` management\"\n    ],\n    \"Legacy & Compatibility\": [\n      \"IE9 browser support\",\n      \"Sauce Labs test environment\",\n      \"Polyfill-aware development\",\n      \"Backward-compatible updates\"\n    ],\n    \"JavaScript Language\": [\n      \"ES6+ syntax (arrow functions, template literals)\",\n      \"Async/await patterns\",\n      \"Promise-based error handling\",\n      \"Modern JavaScript documentation\"\n    ],\n    \"Tooling & Build Systems\": [\n      \"ESLint upgrades and fixes\",\n      \"Automated code quality tools\",\n      \"Build system dependency updates\"\n    ],\n    \"Collaboration & Communication\": [\n      \"Clear PR descriptions\",\n      \"Accountable reverts (e.g., IE9 breakage)\",\n      \"Incremental improvement strategy\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR: 'capture errors on request data streams' → Demonstrates deep Axios error handling for async streams\",\n    \"PR: 'test: use mocha instead of nodeunit' → Shows testing framework migration and Node.js ecosystem knowledge\",\n    \"PR: 'docs: clarify config order of precedence' → Proves attention to API design and DevEx documentation\",\n    \"PR: 'Revert \\'fix: update a bunch of dependencies\\'' → Highlights IE9 compatibility testing and risk-aware updates\",\n    \"PR: 'docs: es6ify the docs a little' → Indicates ES6+ JavaScript awareness and modern documentation practices\",\n    \"PR: 'chore: upgrade eslint and add fix command' → Confirms ESLint tooling and automated code quality focus\",\n    \"PR: 'Update all (well most) the things' → Shows dependency management and incremental updates strategy\",\n    \"Mentions of 'saucelabs tests for IE9' → Supports legacy browser compatibility and cross-environment testing\"\n  ]\n}\n```",
+    "parsing_error": "Invalid \\escape: line 71 column 18 (char 3364)"
+  },
+  "statistics": {
+    "total_prs": 10,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "reviewer_name": "sheplu",
+  "generated_at": "20260815_155647",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 7,
+    "total_comments": 2,
+    "total_prs": 5,
+    "repos": [
+      "express"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "sheplu",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Express.js dependency management",
+      "Node.js package ecosystem",
+      "Semantic Versioning (semver)",
+      "Test framework maintenance (Mocha)",
+      "Code review approvals",
+      "Project governance (documentation & roles)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Node.js ecosystem)"
+    ],
+    "summary": "sheplu is a Senior-level JavaScript reviewer with deep expertise in Node.js backend ecosystems, particularly Express.js. Their reviews demonstrate strong dependency management skills, test framework maintenance, and project governance practices. They frequently approve PRs with minimal feedback, indicating high confidence in technical decisions. The reviewer shows a maintainer mindset focused on long-term stability, semantic versioning, and documentation optimization. While their involvement is primarily backend-focused, their contributions highlight a strong understanding of the JavaScript package ecosystem and maintainer responsibilities.",
+    "identified_skills": {
+      "Dependency Management": [
+        "npm package updates",
+        "semantic versioning (^)",
+        "dependency conflict resolution"
+      ],
+      "Testing": [
+        "Mocha upgrades",
+        "supertest (HTTP testing)",
+        "test suite maintenance"
+      ],
+      "Project Governance": [
+        "documentation organization",
+        "repo captain roles",
+        "package.json metadata optimization"
+      ],
+      "Backend Frameworks": [
+        "Express.js",
+        "Node.js HTTP middleware"
+      ],
+      "Code Review": [
+        "LGTM approvals",
+        "constructive feedback",
+        "collaborative decision-making"
+      ],
+      "Version Control": [
+        "PR approval workflows",
+        "dependency update strategies"
+      ],
+      "Package Ecosystem": [
+        "npm package.json management",
+        "test dependency updates"
+      ]
+    },
+    "skill_evidence": [
+      "\"LGTM but as @wesleytodd said can we ^ the deps but also maybe not update them all one by one\" (semantic versioning discussion)",
+      "\"deps: upgrade supertest\" PR approval (HTTP testing framework involvement)",
+      "\"deps: upgrade mocha\" PR review (test framework maintenance)",
+      "\"Move documentation to the Admin repository\" discussion (documentation governance)",
+      "\"Update repo captains\" PR comment (project governance role assignments)",
+      "\"fix: remove download size badges\" PR (package.json metadata optimization)",
+      "\"LGTM\" approvals on multiple dependency updates (trusted reviewer status)",
+      "\"what do you think @expressjs/express-tc\" (collaborative review approach)"
+    ]
+  }
+}

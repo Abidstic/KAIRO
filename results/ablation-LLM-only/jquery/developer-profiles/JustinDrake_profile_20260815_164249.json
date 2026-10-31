@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "developer_name": "JustinDrake",
+    "generation_timestamp": "2026-08-15T16:30:14.071479",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "JustinDrake",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery internals",
+      "JavaScript return value semantics",
+      "`this` binding and closure patterns",
+      "JavaScript type coercion awareness",
+      "jQuery performance optimizations",
+      "JavaScript coding conventions"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES3 legacy patterns)"
+    ],
+    "summary": "JustinDrake is a mid-level JavaScript developer with specialized expertise in jQuery’s internals and subtle JavaScript behaviors. Their contributions focus on micro-optimizations, coding conventions, and performance improvements within jQuery’s codebase. Evidence suggests strong analytical skills for identifying low-level inefficiencies (e.g., `this` binding, type coercion) and adherence to clean code principles. While their contributions are limited to jQuery, the depth of their technical discussions indicates deep familiarity with legacy JavaScript patterns and prototypal inheritance. No visible experience with modern frameworks or backend JavaScript is evident from the PR data.",
+    "identified_skills": {
+      "JavaScript Core Concepts": [
+        "return value semantics",
+        "`this` binding in methods",
+        "type coercion and strict equality",
+        "closure patterns"
+      ],
+      "jQuery-Specific Patterns": [
+        "DOM element `this` caching (`self` vs `$this`)",
+        "jQuery method optimization",
+        "legacy jQuery conventions"
+      ],
+      "Code Quality Practices": [
+        "micro-optimization identification",
+        "convention enforcement",
+        "code review focus"
+      ],
+      "JavaScript Language Features": [
+        "prototype-based inheritance",
+        "implicit type conversion risks"
+      ],
+      "Open-Source Contributions": [
+        "jQuery repository contributions",
+        "collaborative PR discussions"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1 title 'Isn't return; and return undefined; equivalent?' demonstrates deep understanding of JavaScript return value semantics and edge cases in function execution.",
+      "PR 2 title 'self instead of $this' shows preference for caching `this` in jQuery methods, indicating knowledge of `this` binding and performance implications.",
+      "PR 3 title 'Simplify by removing type coercion' highlights awareness of implicit type conversion risks and preference for explicit behavior in JavaScript code.",
+      "All PRs focus on jQuery’s source code, indicating hands-on experience with its internals and optimization patterns.",
+      "Discussions imply familiarity with legacy JavaScript patterns (e.g., `return;` vs `return undefined;`), suggesting limited exposure to modern ES6+ features.",
+      "PR titles and descriptions suggest a focus on code quality and micro-optimizations rather than feature development or bug fixes.",
+      "No evidence of contributions to frontend frameworks (React/Vue) or backend JavaScript (Node.js) in the provided PRs."
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

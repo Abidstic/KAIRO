@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "developer_name": "hacksparrow",
+    "generation_timestamp": "2026-08-15T15:44:14.858619",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "hacksparrow",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Express.js Backend Development",
+      "Node.js Middleware",
+      "HTTP Protocol & Status Codes",
+      "JavaScript Type Handling",
+      "Test-Driven Debugging",
+      "Cookie Security (Signed Cookies)",
+      "File Serving Optimization"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "hacksparrow is a **Mid-level JavaScript developer** with specialized expertise in **Express.js backend development**. Their contributions focus on **core middleware functionality**, including **cookie handling, file serving, response formatting, and request/response object extensions**. The developer demonstrates strong **debugging skills**, particularly in fixing **test failures** without altering core logic, and a deep understanding of **HTTP protocol nuances** (e.g., 304 responses, caching headers). Their contributions are **precise and minimal**, indicating familiarity with the Express codebase and a focus on **performance and security optimizations** (e.g., signed cookies, efficient file delivery). While primarily backend-focused, their JavaScript skills extend to **type handling, string manipulation, and asynchronous patterns** in Node.js environments.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js"
+      ],
+      "HTTP & Networking": [
+        "HTTP status codes",
+        "304 responses",
+        "cookie signing",
+        "HTTP caching headers",
+        "file serving"
+      ],
+      "JavaScript Core": [
+        "type coercion",
+        "string serialization",
+        "callback-based async",
+        "object serialization"
+      ],
+      "Testing & Debugging": [
+        "test assertion fixes",
+        "flaky test resolution",
+        "debugging test expectations"
+      ],
+      "Security": [
+        "signed cookies",
+        "HTTP-only cookie awareness"
+      ],
+      "Performance Optimization": [
+        "conditional file reads",
+        "caching avoidance"
+      ],
+      "Request/Response Lifecycle": [
+        "custom request properties",
+        "response middleware"
+      ],
+      "Code Quality": [
+        "minimal changes",
+        "focused PRs",
+        "no scope creep"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed signed cookie error for numeric values in Express (#1), demonstrating knowledge of cookie serialization and type coercion",
+      "Modified `res.sendfile()` to avoid redundant file reads for 304 responses (#2), showing HTTP caching and performance awareness",
+      "Corrected failing test cases for `res.format()` middleware (#3), proving debugging skills and test assertion precision",
+      "Added `req.port` getter to complement `req.host` (#4), indicating deep understanding of Express's request object internals",
+      "All PRs contained **zero unnecessary changes**, reflecting disciplined, focused contributions",
+      "PR #1 addressed **security implications** of unsigned vs. signed cookies, highlighting security-conscious development",
+      "PR #2 optimized file serving by **avoiding redundant operations** for conditional requests (304)",
+      "PR #3 fixed **quoted object mismatches** in test expectations, showing attention to string/JSON handling in tests"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

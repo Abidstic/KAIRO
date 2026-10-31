@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "developer_name": "Tony133",
+    "generation_timestamp": "2026-09-18T13:29:24.631303",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 42,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "Tony133",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify framework documentation",
+      "Node.js testing ecosystem",
+      "JavaScript/TypeScript code formatting",
+      "Test migration (TAP → Node.js test runner)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES Modules)",
+      "TypeScript (documentation-level)"
+    ],
+    "summary": "Tony133 is a mid-level JavaScript developer with specialized expertise in Fastify framework documentation and Node.js testing ecosystem migrations. Their contributions focus on improving Fastify's documentation, migrating test suites from TAP to Node.js's built-in test runner, and maintaining code formatting consistency. While they demonstrate strong familiarity with Fastify's core concepts (routing, plugins, server configuration) and Node.js internals, their experience is primarily confined to backend-focused documentation and testing maintenance. There is no evidence of frontend development or deep backend logic implementation.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify"
+      ],
+      "Node.js Core": [
+        "Node.js test runner",
+        "ES Modules",
+        "CommonJS migration"
+      ],
+      "Testing": [
+        "TAP test migration",
+        "Node.js test module integration"
+      ],
+      "Documentation": [
+        "Fastify documentation updates",
+        "TypeScript documentation",
+        "code snippet formatting"
+      ],
+      "Code Quality": [
+        "import standardization",
+        "indentation consistency"
+      ],
+      "TypeScript": [
+        "TypeScript documentation examples"
+      ],
+      "Tooling": [
+        "test runner configuration"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'test: migrated imports.test.js from tap to node:test' – demonstrates Node.js test runner migration and TAP familiarity",
+      "PR: 'docs(reply): standardize import style in examples' – shows ES Modules vs CommonJS awareness in Fastify context",
+      "PR: 'docs(typescript): update example https server' – TypeScript-specific documentation updates without code changes",
+      "PR: 'docs: update indentation on snippet code' – code formatting consistency improvements in Fastify docs",
+      "PR: 'test: migrated middleware.test.js from tap to node:test' – test suite maintenance across Fastify components",
+      "Multiple PRs with 'docs:' prefix – extensive Fastify framework documentation contributions",
+      "No PRs showing frontend frameworks or database schema changes – confirms backend-only focus",
+      "Test migrations target Fastify's core modules (middleware, imports) – indicates deep framework understanding"
+    ]
+  },
+  "statistics": {
+    "total_prs": 42,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

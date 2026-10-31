@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "developer_name": "kentcdodds",
+    "generation_timestamp": "2026-08-15T17:06:48.897447",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "lodash"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "kentcdodds",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript tooling optimization",
+      "Git workflow automation",
+      "Open-source maintainability improvements",
+      "Developer experience (DX) enhancements"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js environment)"
+    ],
+    "summary": "Kentcdodds demonstrates strong expertise in JavaScript tooling, DevOps practices, and maintainability improvements through process-focused contributions. While this limited PR sample does not show direct JavaScript language or framework expertise, their contributions highlight proficiency in script optimization, Git automation, and documentation. Their work aligns with a Mid-level developer who specializes in improving developer workflows and tooling rather than writing core application code.",
+    "identified_skills": {
+      "Scripting & Build Systems": [
+        "npm/yarn script optimization",
+        "parallel task execution",
+        "package.json script management"
+      ],
+      "Version Control & Automation": [
+        "Git hooks (pre-commit)",
+        "contributor workflow automation",
+        "version control best practices"
+      ],
+      "Documentation & Onboarding": [
+        "CONTRIBUTING.md updates",
+        "developer experience (DX) documentation",
+        "contributor guidelines"
+      ],
+      "Open-Source Maintenance": [
+        "process improvements",
+        "maintainability enhancements",
+        "collaborative workflows"
+      ],
+      "Tooling & DevOps": [
+        "build system efficiency",
+        "script dependency management"
+      ],
+      "JavaScript Ecosystem": [],
+      "Testing": [],
+      "Frontend Frameworks": [],
+      "Backend Frameworks": []
+    },
+    "skill_evidence": [
+      "PR 1: 'chore(scripts): Run scripts in parallel' – Replaced `&&` with `&` to enable parallel script execution in package.json, demonstrating script optimization knowledge.",
+      "PR 1: Script change shows familiarity with Node.js npm/yarn script execution and parallel task management.",
+      "PR 2: 'add opt-in githook to config' – Introduced Git hooks for pre-commit automation, indicating experience with Git hooks and version control workflows.",
+      "PR 2: Git hook addition implies knowledge of tools like husky or lint-staged for pre-commit checks.",
+      "PR 3: 'add git hook instructions to CONTRIBUTING.md' – Updated documentation to include Git hook guidance, showing focus on developer onboarding and maintainability.",
+      "PR 3: CONTRIBUTING.md updates reflect strong documentation skills and contributor experience.",
+      "All PRs: Chore/enhancement/documentation focus indicates a process-oriented approach to open-source maintenance rather than code contributions.",
+      "All PRs: No code changes imply expertise in tooling, documentation, and workflow improvements over direct JavaScript implementation."
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "lodash"
+    ]
+  }
+}

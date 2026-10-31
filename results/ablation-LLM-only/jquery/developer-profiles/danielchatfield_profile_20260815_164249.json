@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "developer_name": "danielchatfield",
+    "generation_timestamp": "2026-08-15T16:31:57.822174",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "danielchatfield",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery internals",
+      "Legacy browser compatibility (IE9/IE10)",
+      "DOM state management",
+      "Debugging DOM manipulation issues",
+      "Conditional feature detection",
+      "Minimalist code fixes",
+      "Test-driven debugging"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES3)",
+      "jQuery"
+    ],
+    "summary": "danielchatfield is a specialized JavaScript developer with deep expertise in jQuery internals and legacy browser compatibility, particularly targeting IE9/IE10 quirks. Their contributions focus on fixing subtle DOM state issues (e.g., `:checked` cloning) with minimal, targeted code changes. The developer demonstrates strong debugging skills, iterative problem-solving, and a focus on preventing regressions through test-driven approaches. While their experience is concentrated in legacy JavaScript ecosystems, their ability to isolate and resolve complex browser-specific bugs suggests a Mid-level proficiency in JavaScript DOM manipulation and compatibility engineering.",
+    "identified_skills": {
+      "Legacy Browser Compatibility": [
+        "IE9/IE10 DOM quirks",
+        "jQuery.support feature detection",
+        "Form element state preservation"
+      ],
+      "DOM Manipulation": [
+        "jQuery.clone() behavior",
+        ":checked state propagation",
+        "Legacy DOM cloning issues"
+      ],
+      "Debugging Techniques": [
+        "JSFiddle-based repros",
+        "Timing-aware debugging",
+        "Manual DOM inspection"
+      ],
+      "Code Quality": [
+        "Minimalist fixes",
+        "Avoiding over-engineering",
+        "Incremental improvements"
+      ],
+      "Testing": [
+        "Test case creation",
+        "Regression prevention",
+        "Manual verification"
+      ],
+      "Legacy JavaScript Patterns": [
+        "Pre-ES6 DOM APIs",
+        "jQuery abstraction layer",
+        "Legacy tooling awareness"
+      ],
+      "Technical Communication": [
+        "Clear PR descriptions",
+        "Self-critique in fixes",
+        "Problem isolation"
+      ]
+    },
+    "skill_evidence": [
+      "PRs focus on IE9/IE10 `:checked` state not cloning during DOM operations, demonstrating deep knowledge of legacy browser inconsistencies",
+      "All PRs reference `jQuery.support.noCloneCheck` and IE-specific DOM behavior, proving expertise in jQuery internals",
+      "First PR includes JSFiddle link showing a failing `:checked` state after cloning, proving interactive debugging skills",
+      "Second PR adds a test case to prevent future regressions, showing test-driven debugging approach",
+      "Third PR simplifies a previous fix by avoiding unnecessary complexity, demonstrating code quality focus",
+      "PR descriptions explicitly mention 'overcomplicating the situation' and iterative refinement, indicating self-awareness and improvement mindset",
+      "No evidence of modern JavaScript (ES6+, React, Node.js) in PRs, confirming specialization in legacy systems",
+      "All fixes are minimal (0 additions/deletions) but address core jQuery DOM manipulation logic"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

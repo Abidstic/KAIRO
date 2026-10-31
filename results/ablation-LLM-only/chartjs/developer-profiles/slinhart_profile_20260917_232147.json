@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "slinhart",
+    "generation_timestamp": "2026-09-17T23:17:38.135378",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "slinhart",
+    "raw_response": "```json\n{\n  \"developer_name\": \"slinhart\",\n  \"experience_level\": \"Mid-Level\",\n  \"primary_skills\": [\n    \"Chart.js (frontend charting library)\",\n    \"JavaScript object-oriented programming\",\n    \"Frontend JavaScript configuration systems\",\n    \"Polar/radar chart visualization\",\n    \"Legend rendering and styling\",\n    \"GitHub PR workflow\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\"\n  ],\n  \"summary\": \"Mid-level JavaScript developer with specialized expertise in Chart.js, focusing on enhancing charting features like polar/radar chart controllers and legend rendering. Demonstrates strong problem-solving skills in frontend visualization, clear communication in PRs, and familiarity with JavaScript object-oriented patterns. Contributions are frontend-only, with no evidence of backend or Node.js experience. Areas for growth include testing practices and broader frontend tooling exposure.\",\n  \"identified_skills\": {\n    \"Charting Libraries\": [\"Chart.js\", \"Polar/radar chart controllers\", \"Legend rendering\"],\n    \"JavaScript Patterns\": [\"Object-oriented configuration systems\", \"Class-based controllers\"],\n    \"Frontend JavaScript\": [\"ES6+ features\", \"Client-side rendering\"],\n    \"Testing\": [],\n    \"Documentation\": [\"PR descriptions\", \"Visual evidence (screenshots)\"],\n    \"Issue Resolution\": [\"Issue triage\", \"Feature enhancements\"],\n    \"Git Workflow\": [\"Issue-linked PRs\", \"Clean commit messages\"],\n    \"Visualization\": [\"Chart option modifications\", \"Angle/offset calculations\"],\n    \"Testing Awareness\": [\"Testing needs acknowledgment\"]\n  },\n  \"skill_evidence\": [\n    \"Added `usePointStyle` option to legend rendering in PR #2252, modifying how legend boxes match point styles\",\n    \"Implemented `offsetAngle` and `angle` options for polar/radar charts in PR #1012, requiring deep controller modifications\",\n    \"Refactored polar chart controller logic to support new angle-based calculations (PR #1012)\",\n    \"Provided visual screenshots in PR descriptions to demonstrate changes to chart rendering\",\n    \"Acknowledged testing gaps in PR #1012, stating need for guidance on test implementation\",\n    \"All PRs directly reference open issues (e.g., 'Fixes #2252') with clear problem statements\",\n    \"PRs demonstrate understanding of Chart.js's controller-based architecture for chart types\",\n    \"No evidence of backend involvement or Node.js usage in any PR\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 36 column 3 (char 2377)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "developer_name": "xr0master",
+    "generation_timestamp": "2026-09-17T22:56:05.972632",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 6,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 6
+  },
+  "profile": {
+    "developer_name": "xr0master",
+    "experience_level": "Mid/Senior",
+    "primary_skills": [
+      "TypeScript",
+      "Chart.js",
+      "Type System Design",
+      "Generic Programming",
+      "API Refactoring"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "summary": "xr0master is a specialized TypeScript engineer with deep expertise in Chart.js type systems. Their contributions focus on improving type safety, refining generic type definitions, and optimizing API design within charting libraries. The developer demonstrates strong problem-solving skills in resolving type inconsistencies and merging complex type structures, indicating a high level of proficiency in advanced TypeScript patterns. While their contributions are narrowly focused on Chart.js, the depth of their work suggests significant experience in type-driven development and library maintenance. Their collaborative approach and iterative improvements further highlight their ability to work within open-source communities to enhance code quality.",
+    "identified_skills": {
+      "TypeScript": [
+        "Generic Types",
+        "Interface Inheritance",
+        "Type Inference",
+        "Union/Intersection Types",
+        "Default Type Handling",
+        "Type Merging"
+      ],
+      "Chart.js": [
+        "Chart Configuration Types",
+        "ChartData Typing",
+        "ChartInstance API",
+        "Plugin Type Systems",
+        "Scaling and Labeling Types",
+        "Type-Safe Charting"
+      ],
+      "Type System Design": [
+        "Type Consistency Audits",
+        "Type Propagation Fixes",
+        "API Type Refactoring",
+        "Backward Compatibility",
+        "Type System Optimization"
+      ],
+      "Code Collaboration": [
+        "PR Review Awareness",
+        "Iterative Refactoring",
+        "Type System Documentation",
+        "Community Feedback Integration"
+      ],
+      "Programming Patterns": [
+        "Type Composition",
+        "Generic Programming",
+        "Type Alias Usage"
+      ]
+    },
+    "skill_evidence": [
+      "PR descriptions explicitly mention improving generic chart types (`ChartT`) and fixing type inference for `Option` types",
+      "Multiple PRs address merging `Chart instance` and `Chart factory` types to reduce redundancy and improve type consistency",
+      "Changes involve renaming interfaces (`Chart` → `ChartInstance`) and handling `LABEL` types across `ChartData`, `Chart`, and `ChartConfiguration`",
+      "PRs acknowledge type inconsistencies and propose fixes for `data.labels` default types (e.g., allowing `string`, `Date`, or `unknown`)",
+      "References to other PRs and issues (e.g., `https:\n    "
+    ]
+  },
+  "statistics": {
+    "total_prs": 6,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

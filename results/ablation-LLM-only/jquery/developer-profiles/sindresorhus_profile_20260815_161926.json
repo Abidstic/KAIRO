@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "developer_name": "sindresorhus",
+    "generation_timestamp": "2026-08-15T16:10:20.368115",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 15,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "sindresorhus",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "jQuery Core Development",
+      "DOM Manipulation & Event Handling",
+      "Browser Compatibility Engineering",
+      "JavaScript Performance Optimization",
+      "Frontend Build Tooling",
+      "Micro-Optimization Techniques",
+      "Grunt.js Plugin Development",
+      "Package Management (Bower/npm)",
+      "JSPerf Benchmarking",
+      "Code Minification & Size Reduction"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "JavaScript (ES3-compatible)",
+      "CSS (for browser-specific fixes)"
+    ],
+    "summary": "Sindresorhus is a highly experienced JavaScript developer with deep expertise in jQuery's core internals, DOM manipulation, and browser compatibility. Their contributions demonstrate a strong focus on performance optimization (micro-optimizations, minification, JSPerf benchmarking) and frontend tooling (Grunt.js, Bower, EditorConfig). The developer excels at fixing niche but impactful issues across multiple browsers (especially iOS/WebKit quirks) while maintaining clean, optimized code. Their work spans both low-level DOM APIs and higher-level build system integrations, reflecting a comprehensive understanding of the frontend ecosystem.",
+    "identified_skills": {
+      "DOM_API_Manipulation": [
+        "Multiple select element handling",
+        "Radio input cloning fixes",
+        "Event bubbling (iOS/WebKit)",
+        "Form element state management",
+        "DOM property coercion (hex to decimal)"
+      ],
+      "Performance_Optimization": [
+        "JSPerf benchmarking comparisons",
+        "Array.slice.call() optimizations",
+        "Function argument cleanup",
+        "Bundle size reduction (jquery.min.js)",
+        "Micro-optimization patterns"
+      ],
+      "Browser_Compatibility": [
+        "iOS-specific event bubbling fixes",
+        "WebKit radio input state preservation",
+        "Cross-browser DOM property behavior",
+        "Browser-specific CSS/JS workarounds"
+      ],
+      "Build_Tooling": [
+        "Grunt.js plugin integration",
+        "Bower dependency management",
+        "EditorConfig configuration",
+        "npm script improvements",
+        "Grunt task performance measurement"
+      ],
+      "Code_Quality": [
+        "Redundant logic removal",
+        "Minification-aware commits",
+        "Test suite validation",
+        "Documentation improvements (Bower.json)",
+        "Clean code practices"
+      ],
+      "Testing_Benchmarking": [
+        "JSPerf performance comparisons",
+        "Test suite validation notes",
+        "Cross-browser compatibility testing"
+      ],
+      "jQuery_Specific": [
+        "Method signature enhancements",
+        "Array support in jQuery methods",
+        "DOM property access optimizations",
+        "Core function argument cleanup"
+      ],
+      "Package_Management": [
+        "Bower.json keyword additions",
+        "npm dependency upgrades",
+        "Grunt plugin updates"
+      ],
+      "Frontend_Ecosystem": [
+        "Grunt.js ecosystem contributions",
+        "Bower package best practices",
+        "EditorConfig tooling",
+        "Frontend asset optimization"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Fixed `this.text` vs. `val()` for multiple select elements, demonstrating deep DOM property knowledge",
+      "PR #4: Addressed iOS-specific event bubbling quirk by setting `documentElement.style.cursor = 'pointer'`, showing browser-specific debugging",
+      "PR #6: Fixed WebKit radio input `checked` state loss after cloning, requiring low-level DOM understanding",
+      "PR #7: Removed redundant arguments from `slice.call()` and noted 15-byte reduction in `jquery.js`, proving performance-conscious minification",
+      "PR #8: Benchmarked `indexOf` vs. regex performance using JSPerf, showing benchmarking expertise",
+      "PR #9: Updated `.editorconfig` with new properties and referenced their own Sublime plugin, indicating tooling ecosystem engagement",
+      "PR #10: Added `time-grunt` plugin to measure Grunt task execution time, demonstrating build tooling integration",
+      "PR #13: Added `keywords` to `bower.json` referencing Google’s Bower best practices, showing package management awareness"
+    ]
+  },
+  "statistics": {
+    "total_prs": 15,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

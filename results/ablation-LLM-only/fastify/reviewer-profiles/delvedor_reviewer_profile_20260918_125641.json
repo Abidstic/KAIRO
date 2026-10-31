@@ -1,0 +1,82 @@
+{
+  "reviewer_name": "delvedor",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 5,
+    "total_comments": 4,
+    "total_prs": 2,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "delvedor",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "Custom Hooks (React/Vue)",
+      "Error Handling Patterns",
+      "GitHub Actions Workflows",
+      "Semantic Versioning",
+      "Code Documentation"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "summary": "delvedor is a Mid-level JavaScript reviewer with strong expertise in TypeScript, custom hooks (likely React), and error handling patterns. Their reviews demonstrate deep familiarity with GitHub Actions workflows, semantic versioning practices, and documentation standards. The reviewer shows collaborative feedback patterns, focusing on technical correctness and maintainability before approving PRs. While primarily frontend-focused based on the evidence, their involvement in TypeScript and hook-based patterns suggests proficiency in modern frontend development practices.",
+    "identified_skills": {
+      "TypeScript": [
+        "TypeScript syntax and type system",
+        "TypeScript error handling",
+        "TypeScript tooling integration"
+      ],
+      "Custom Hooks": [
+        "Custom hook implementation",
+        "Error boundary hooks",
+        "Hook lifecycle management"
+      ],
+      "Error Handling": [
+        "Global error hooks",
+        "Error propagation patterns",
+        "Async error handling"
+      ],
+      "GitHub Actions": [
+        "PR labeling automation",
+        "YAML workflow configuration",
+        "CI/CD workflow validation"
+      ],
+      "Semantic Versioning": [
+        "Breaking change assessment",
+        "Version bump guidelines",
+        "SemVer label application"
+      ],
+      "Documentation": [
+        "Feature documentation",
+        "API documentation review",
+        "README contributions"
+      ],
+      "Code Review": [
+        "Technical feedback provision",
+        "Collaborative approval process",
+        "Constructive review comments"
+      ],
+      "Frontend Patterns": [
+        "React/Vue component patterns",
+        "Hook-based architecture"
+      ]
+    },
+    "skill_evidence": [
+      "PRs labeled 'typescript' indicate TypeScript expertise in error handling and type safety",
+      "'onError hook' PRs repeated 4 times show deep familiarity with custom hook patterns and error boundaries",
+      "All 'onError hook' PRs labeled 'documentation' suggest reviewer involvement in feature documentation",
+      "PR labeled 'semver-major'/'semver-minor' demonstrates understanding of versioning impact assessments",
+      "Approved 'Add workflow for labeling PRs by their content' shows GitHub Actions workflow validation experience",
+      "Review state 'COMMENTED' with eventual approval suggests thorough but collaborative feedback process",
+      "TypeScript labels on all error-related PRs confirm focus on type-safe error handling implementations",
+      "No backend frameworks or testing tools explicitly mentioned in visible review data"
+    ]
+  }
+}

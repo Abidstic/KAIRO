@@ -1,0 +1,66 @@
+{
+  "reviewer_name": "harkue",
+  "generated_at": "20260815_171336",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 0,
+    "total_prs": 3,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "harkue",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "JavaScript core language (falsy/truthy behavior)",
+      "Moment.js internals and legacy library maintenance",
+      "Grunt.js build system and generated file management",
+      "Code review and best practices enforcement"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5+)",
+      "JavaScript (legacy patterns)"
+    ],
+    "summary": "harkue is a Senior-level JavaScript reviewer with deep expertise in core JavaScript behavior, legacy library maintenance (particularly Moment.js), and build system awareness (Grunt.js). Their reviews demonstrate strong technical judgment, precise feedback, and a focus on maintaining code quality in legacy and generated files. The reviewer excels at identifying subtle bugs in date/time handling and enforcing project conventions around build automation, suggesting experience in both technical and mentorship roles.",
+    "identified_skills": {
+      "Core JavaScript": [
+        "Falsy/truthy value handling",
+        "Object property parsing",
+        "Legacy JavaScript patterns"
+      ],
+      "Date/Time Libraries": [
+        "Moment.js internals",
+        "Legacy date parsing logic"
+      ],
+      "Build Systems": [
+        "Grunt.js",
+        "Generated file management",
+        "Build pipeline awareness"
+      ],
+      "Code Review": [
+        "LGTM approval criteria",
+        "Convention enforcement",
+        "Actionable feedback"
+      ],
+      "Bug Fixing": [
+        "Subtle bug identification",
+        "Edge case handling"
+      ],
+      "Versioning": [
+        "Release automation awareness"
+      ]
+    },
+    "skill_evidence": [
+      "[bugfix] Inconsistent moment(object) behaviour when using day: 0 (#5097) - Demonstrates deep understanding of Moment.js parsing logic and falsy/truthy behavior in JavaScript",
+      "Review comments about 'don’t modify generated files' - Shows awareness of Grunt.js build pipeline and generated file management",
+      "LGTM approval for a Moment.js bugfix PR - Indicates strong technical judgment in code review",
+      "Repeated warnings about build tool overwrites - Confirms expertise in Grunt.js and release automation",
+      "Bugfix for `moment({ day: 0 })` inconsistency - Shows ability to identify and resolve subtle JavaScript object parsing issues",
+      "Feedback about version header comments - Demonstrates attention to versioning and release processes",
+      "No evidence of modern frameworks (React, Node.js, etc.) - Confirms focus on legacy systems and core JavaScript"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "reviewer_name": "RafaelGSS",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 22,
+    "total_comments": 12,
+    "total_prs": 12,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "RafaelGSS",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify Framework",
+      "TypeScript",
+      "Backend API Design",
+      "Type System Development",
+      "Fastify Plugin Architecture",
+      "Technical Documentation"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)"
+    ],
+    "summary": "RafaelGSS is a highly skilled Senior-level JavaScript reviewer with deep expertise in Fastify's internals, TypeScript type systems, and backend plugin development. Their reviews demonstrate rigorous technical judgment, particularly in type safety, error handling, and documentation improvements. The reviewer consistently approves core Fastify changes while providing constructive feedback on type definitions, plugin compatibility, and developer experience. Their work spans Fastify's versioning, middleware, and documentation, indicating a strong grasp of both the framework's technical and architectural aspects.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Fastify Plugin System"
+      ],
+      "Type Systems & Languages": [
+        "TypeScript",
+        "TypeScript Generics",
+        "Type Providers",
+        "Null Checks"
+      ],
+      "API Design & Validation": [
+        "Request/Response Handling",
+        "Error Codes",
+        "Content-Type Parsing"
+      ],
+      "Documentation & Developer Experience": [
+        "Error Documentation",
+        "Plugin Guides",
+        "Middleware Documentation"
+      ],
+      "Versioning & Releases": [
+        "Semantic Versioning",
+        "Version-Specific Changes"
+      ],
+      "Testing & CI/CD": [
+        "CI Pipeline Optimization",
+        "Dependency Management"
+      ],
+      "Code Review Patterns": [
+        "Type Safety Review",
+        "Plugin Compatibility Feedback",
+        "Documentation Quality Review"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: 'Type Provider Reply Types' - Demonstrates expertise in Fastify's TypeScript type providers",
+      "Review comment: 'After wrap with `, isn't missing the `fastify.d.ts`?' - Shows deep knowledge of Fastify's type definitions",
+      "PR label: 'typescript' on multiple PRs - Indicates consistent focus on TypeScript type improvements",
+      "Review comment: 'Body object in request could be null (Type change)' - Evidence of fine-grained type handling in request validation",
+      "PR title: 'Add reference to FST_ERR_CTP_INVALID_MEDIA_TYPE error in the docs' - Shows familiarity with Fastify's error handling system",
+      "Review comment: 'LGTM' on Fastify v4.x version-specific changes - Confirms approval of core framework updates",
+      "PR title: 'docs: add database guide page' - Demonstrates expertise in Fastify's plugin ecosystem documentation",
+      "Review comment: 'Could you add a note to show that users can also create their plugins for any database library?' - Shows understanding of plugin extensibility"
+    ]
+  }
+}

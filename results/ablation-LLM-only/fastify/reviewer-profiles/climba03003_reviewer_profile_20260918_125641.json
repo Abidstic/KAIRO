@@ -1,0 +1,95 @@
+{
+  "reviewer_name": "climba03003",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 117,
+    "total_comments": 62,
+    "total_prs": 69,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "climba03003",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "TypeScript",
+      "Fastify",
+      "Node.js backend development",
+      "Semantic Versioning (semver)",
+      "Error handling patterns",
+      "Schema validation",
+      "Content-type parsing"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)",
+      "JavaScript (Node.js runtime)"
+    ],
+    "summary": "climba03003 is a highly experienced senior JavaScript/TypeScript engineer specializing in Fastify's backend architecture. Their reviews demonstrate deep expertise in TypeScript type systems, Fastify internals (schema validation, error handling, and content-type parsing), and rigorous attention to breaking change management through semver principles. The reviewer consistently emphasizes code quality, plugin compatibility, and comprehensive testing coverage, making them a trusted authority for major Fastify contributions. Their analytical approach extends to documentation improvements and CI/CD workflow awareness, reflecting a holistic understanding of backend development practices in Node.js ecosystems.",
+    "identified_skills": {
+      "TypeScript Advanced": [
+        "TypeScript generics",
+        "TypeScript interfaces",
+        "TypeScript runtime behavior",
+        "TypeScript type definitions",
+        "TypeScript test coverage"
+      ],
+      "Backend Frameworks": [
+        "Fastify internals",
+        "Fastify schema validation",
+        "Fastify error handling",
+        "Fastify content-type parsing",
+        "Fastify plugin compatibility"
+      ],
+      "Version Control & Releases": [
+        "Semantic Versioning (semver)",
+        "Breaking change analysis",
+        "Plugin compatibility verification",
+        "Branch management (next/main)"
+      ],
+      "Error Handling Patterns": [
+        "Callback vs. Promise consistency",
+        "Defensive programming",
+        "Custom error objects",
+        "Async/await error flows"
+      ],
+      "Testing & Quality Assurance": [
+        "Unit test requirements",
+        "TypeScript test coverage",
+        "Benchmarking workflows",
+        "CI pipeline monitoring"
+      ],
+      "Documentation Practices": [
+        "JSDoc improvements",
+        "Performance documentation",
+        "Code cleanup documentation",
+        "Missing documentation identification"
+      ],
+      "GitHub Workflows": [
+        "GitHub Actions workflows",
+        "CI/CD integration",
+        "PR rebase guidance",
+        "Test/benchmark execution"
+      ],
+      "JavaScript Language": [
+        "Async/await patterns",
+        "Callback-based APIs",
+        "Defensive programming",
+        "ES6+ modules"
+      ]
+    },
+    "skill_evidence": [
+      "\"Add missing property validationContext on error object\" (TypeScript types) - PR label indicates TypeScript focus",
+      "\"Re-order is good, but it is not safe to land in main\" - Breaking change concern in TypeScript generics",
+      "\"I am pretty much against this PR. We should setup a proper error message if the user does it wrongly\" - Fastify error handling critique",
+      "\"Blocking, to be sure everyone knows it is a breaking change before landing\" - Semver-major awareness in plugin context",
+      "\"Can you add an unit test for the changes? It should be added in this folder test/types\" - TypeScript test coverage expectation",
+      "\"We should setup a proper error message if the user does it wrongly. In this PR, it is mixing callback, async-await, and direct return\" - Async/await error handling critique",
+      "\"Add workflow for benchmarking POST with custom parsers\" - GitHub Actions workflow approval",
+      "\"You need to rebase your changes on top of the next branch\" - Branch management guidance for breaking changes"
+    ]
+  }
+}

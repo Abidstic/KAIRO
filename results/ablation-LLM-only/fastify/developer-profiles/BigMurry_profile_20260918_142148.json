@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "BigMurry",
+    "generation_timestamp": "2026-09-18T13:56:57.463262",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "BigMurry",
+    "raw_response": "```json\n{\n  \"developer_name\": \"BigMurry\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Fastify Framework\",\n    \"JavaScript Async/Await\",\n    \"Node.js Hooks & Middleware\",\n    \"Joi Validation\",\n    \"Semantic Versioning\",\n    \"Technical Documentation\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript\",\n    \"TypeScript\"\n  ],\n  \"summary\": \"BigMurry is a Mid-level JavaScript developer with specialized expertise in the Fastify framework. Their contributions focus on refining Fastify's core functionality, particularly around hooks (`preHandler`, `onSend`, async hooks), documentation clarity, and async behavior. The developer demonstrates strong debugging skills, particularly in resolving asynchronous callback issues and ensuring proper hook lifecycle management. While contributions are primarily documentation-focused and minimalistic in code changes, the strategic use of semantic versioning (e.g., semver-minor bumps) and deep understanding of Fastify's architecture indicate a nuanced grasp of backend systems. Their work aligns with modern JavaScript/TypeScript practices, such as parameter naming conventions and API design clarity.\",\n  \"identified_skills\": {\n    \"Backend Frameworks\": [\"Fastify\", \"Fastify Hooks\", \"Fastify Middleware\"],\n    \"Asynchronous Programming\": [\"Async/Await\", \"Promises\", \"Async Hooks\"],\n    \"Validation & Schema\": [\"Joi Validation\"],\n    \"Documentation & API Design\": [\"Technical Documentation\", \"Parameter Naming\", \"API Clarity\"],\n    \"Version Control & Releases\": [\"Semantic Versioning\", \"Breaking Changes\"],\n    \"Debugging & Root-Cause Analysis\": [\"Async Callback Issues\", \"Event Loop Debugging\"],\n    \"Code Quality\": [\"Minimalistic PRs\", \"Strategic Contributions\"]\n  },\n  \"skill_evidence\": [\n    \"Fixed `preHandler` parameter naming (`req` → `request`) for API clarity (PR #2)\",\n    \"Addressed `onSend` hook async behavior to prevent execution blocking (PR #2)\",\n    \"Added support for async hooks with semver-minor label (PR #3)\",\n    \"Corrected Joi validation documentation for accurate configuration (PR #1)\",\n    \"Referenced GitHub issues (#247, #409) to align changes with existing discussions (PRs #3, #4)\",\n    \"Debugged async callback issues where `onSend` throws never returned (PR #2)\",\n    \"Used strategic PR labels (e.g., `semver-minor`) to signal breaking changes (PR #3)\",\n    \"Focused on documentation fixes over code changes, demonstrating API design focus (All PRs)\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 35 column 3 (char 2429)"
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

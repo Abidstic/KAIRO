@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "developer_name": "jakesylvestre",
+    "generation_timestamp": "2026-09-17T22:49:53.465734",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 8,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 8
+  },
+  "profile": {
+    "developer_name": "jakesylvestre",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "JavaScript library maintenance",
+      "JavaScript documentation",
+      "JavaScript build tooling",
+      "JavaScript ecosystem tooling (Code Climate)"
+    ],
+    "programming_languages": [
+      "JavaScript"
+    ],
+    "summary": "jakesylvestre demonstrates **limited hands-on JavaScript coding experience** but shows **awareness of the JavaScript ecosystem**, particularly through contributions to the Chart.js library. Their contributions are primarily **documentation-focused, tooling-related, and administrative**, with no evidence of writing core JavaScript logic. Skills are centered around **library maintenance, build processes, and developer tooling** (e.g., Code Climate integration, minification, file management). While not a core JavaScript developer, they exhibit **beginner-friendly UX awareness** and **contributor onboarding experience**. Growth potential lies in **writing JavaScript code, exploring modern frameworks, and engaging in technical PRs** beyond documentation.",
+    "identified_skills": {
+      "JavaScript Library Maintenance": [
+        "Chart.js library contributions",
+        "JavaScript library file naming conventions"
+      ],
+      "Documentation & Contributor Guidance": [
+        "CONTRIBUTING.md updates",
+        "contributor onboarding processes"
+      ],
+      "JavaScript Build & Tooling": [
+        "JavaScript minification (Chart.min.js)",
+        "file path management in JS projects"
+      ],
+      "JavaScript Ecosystem Tooling": [
+        "Code Climate integration",
+        "CI/CD badge management"
+      ],
+      "Beginner-Friendly UX": [
+        "considerations for new JavaScript developers"
+      ],
+      "File & Asset Management": [
+        "relative path references in JS projects",
+        "copyright year updates in JS files"
+      ],
+      "Open-Source Collaboration": [
+        "GitHub PR workflows",
+        "collaborator onboarding"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: 'Add Code Climate Integration' – references Code Climate for JavaScript quality checks",
+      "PR #2 & #3: 'Move Code Climate Badge' – involves CI/CD badge management in a JS project",
+      "PR #4: 'Switch ../Chart.js to ../Chart.min.js' – discusses JS minification and file naming conventions",
+      "PR #4: 'people new to JavaScript' – highlights UX considerations for beginners",
+      "PR #5 & #6: Copyright year updates – shows file management in JS projects",
+      "PR #6: 'Update CONTRIBUTING.md' – adds collaborator onboarding guidelines",
+      "PR #7: 'Add Composer file' – infrastructure-related but in a JS library context"
+    ]
+  },
+  "statistics": {
+    "total_prs": 8,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

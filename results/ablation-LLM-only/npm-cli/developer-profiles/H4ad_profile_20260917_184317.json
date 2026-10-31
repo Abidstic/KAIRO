@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "developer_name": "H4ad",
+    "generation_timestamp": "2026-09-17T18:36:32.246140",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 8,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 8
+  },
+  "profile": {
+    "developer_name": "H4ad",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Node.js internals",
+      "npm CLI performance optimization",
+      "JavaScript runtime tuning",
+      "Dependency management",
+      "Lazy loading strategies",
+      "ESM module system"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (JSDoc optimization)"
+    ],
+    "summary": "H4ad is a highly skilled Senior JavaScript developer specializing in Node.js and npm CLI internals. Their contributions focus on performance-critical optimizations, particularly in dependency resolution, module loading, and runtime efficiency. With a strong emphasis on quantitative debugging and benchmarking, they demonstrate deep expertise in reducing npm CLI overhead through selective imports, lazy loading, and compile-time optimizations. Their work is backend-focused, with no visible frontend or DevOps involvement.",
+    "identified_skills": {
+      "Node.js Core & CLI": [
+        "npm CLI internals",
+        "dependency resolution",
+        "workspace handling",
+        "package validation logic"
+      ],
+      "Performance Optimization": [
+        "lazy loading modules",
+        "selective dependency imports",
+        "compile cache optimization",
+        "V8/ESM runtime tuning",
+        "micro-optimizations (6ms+ reductions)"
+      ],
+      "Module Systems": [
+        "CommonJS vs. ESM transitions",
+        "dynamic imports",
+        "conditional module initialization"
+      ],
+      "Dependency Management": [
+        "semver optimization",
+        "registry interaction",
+        "workspace dependency trees"
+      ],
+      "Debugging & Profiling": [
+        "performance benchmarking",
+        "before/after timing comparisons",
+        "Chrome DevTools profiling"
+      ],
+      "Modern JavaScript": [
+        "ESM (ECMAScript Modules)",
+        "TypeScript/JSDoc optimizations"
+      ],
+      "Build System": [
+        "V8 compile caching",
+        "ESM caching strategies"
+      ]
+    },
+    "skill_evidence": [
+      "PR #2: 'fix(perf): avoid importing the entire semver package' — demonstrates selective import optimization for semver module",
+      "PR #3: 'fix: lazy load validate npm package name on error message' — shows lazy initialization to avoid unnecessary loads, backed by 5ms performance gain",
+      "PR #4: 'fix(perf): lazy load workspace dependency' — proves workspace dependency tree optimization knowledge with lazy loading",
+      "PR #6: 'fix(perf): only initialize workspaces when inside a workspace' — conditional module initialization to reduce overhead",
+      "PR #7 & #8: 'fix(perf): enable compile cache' — V8/ESM caching implementation for npm CLI performance",
+      "PR #1: 'fix(perf): avoid importing npm-registry-fetch' — registry interaction optimization for dependency resolution",
+      "PR #5: 'fix(perf): only import what is needed for type-defs' — TypeScript/JSDoc optimization for dependency reduction"
+    ]
+  },
+  "statistics": {
+    "total_prs": 8,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

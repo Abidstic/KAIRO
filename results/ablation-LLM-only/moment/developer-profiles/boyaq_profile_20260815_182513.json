@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "developer_name": "boyaq",
+    "generation_timestamp": "2026-08-15T18:07:14.656406",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "boyaq",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Moment.js localization (i18n)",
+      "Unicode CLDR integration",
+      "JavaScript object-based locale configuration",
+      "Testing for internationalized features",
+      "Open-source contribution workflows"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "JSON"
+    ],
+    "summary": "boyaq is a JavaScript developer with specialized expertise in internationalization (i18n) for the Moment.js library. Their contributions focus on adding and testing new locale support (e.g., Uyghur) with Unicode CLDR compatibility, demonstrating deep knowledge of Moment.js's i18n system and testing practices. While their contributions are highly focused on localization, they show proficiency in JavaScript object manipulation, module usage, and open-source collaboration workflows. Evidence suggests strong technical skills in a niche area but limited exposure to broader JavaScript ecosystems or modern frameworks.",
+    "identified_skills": {
+      "Moment.js Localization": [
+        "Adding new locales (Uyghur)",
+        "Locale JSON structure",
+        "CLDR Unicode compatibility",
+        "Test file integration for locales"
+      ],
+      "JavaScript Core": [
+        "JavaScript object literals",
+        "Module system usage (CommonJS/ESM)",
+        "JSON-based configuration"
+      ],
+      "Testing": [
+        "Moment.js test suite integration",
+        "Test file additions for new features"
+      ],
+      "Internationalization": [
+        "Unicode CLDR data integration",
+        "Non-Latin script handling (Uyghur)",
+        "Regional date formatting conventions"
+      ],
+      "Open Source Practices": [
+        "PR collaboration workflows",
+        "GitHub labels and release readiness",
+        "Community acknowledgments"
+      ],
+      "Collaboration": [
+        "Iterative PR feedback loops",
+        "Polite contributor communication"
+      ]
+    },
+    "skill_evidence": [
+      "PR #5: 'Add Uyghur locale support (uyghur, ug-cn) with CLDR compatibility' — explicit mention of Unicode CLDR integration and locale JSON structure",
+      "PR #2: 'Add test file for Uyghur locale' — demonstrates testing for new i18n features",
+      "PR #1: 'Add Uyghur locale' — initial submission with 'Needs tests' label, later addressed in PRs #2 and #3",
+      "PR #5: 'It's now compatible with unicode cldr data' — confirms CLDR integration knowledge",
+      "PR #3: 'Fix test file for Uyghur locale' — iterative testing and debugging of locale functionality",
+      "PR #5: 'sorry for the back and forth' — shows iterative collaboration and communication in PR workflows",
+      "All PRs: 'Pending Next Release' label — familiarity with Moment.js's release process and GitHub workflows",
+      "PR #5: Acknowledges '@JLHwung' — demonstrates community engagement and contributor recognition"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

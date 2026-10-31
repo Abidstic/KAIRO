@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "jtblin",
+    "generation_timestamp": "2026-09-17T23:04:11.727823",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "jtblin",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js library development",
+      "DOM-based layout calculations",
+      "Frontend bug triage and fixes",
+      "Responsive design debugging",
+      "Canvas-based rendering adjustments"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "HTML/CSS integration for DOM manipulation"
+    ],
+    "summary": "jtblin is a Mid-level JavaScript developer with specialized expertise in Chart.js, demonstrating strong skills in frontend debugging, responsive design, and DOM-based layout calculations. Their contributions focus on fixing rendering inconsistencies (e.g., tooltips, aspect ratios) and improving UI/UX in charting libraries. While their contributions are limited to frontend-focused bug fixes, the depth of their Chart.js knowledge suggests familiarity with canvas-based rendering and visual layout calculations. The absence of modern JavaScript features (e.g., ES6 modules) or backend involvement indicates a frontend specialization with room for growth in testing and build systems.",
+    "identified_skills": {
+      "Frontend Charting Libraries": [
+        "Chart.js",
+        "Canvas API rendering"
+      ],
+      "DOM Manipulation & Layout": [
+        "getBoundingClientRect()",
+        "offsetWidth/clientWidth",
+        "padding/margin calculations"
+      ],
+      "Responsive Design": [
+        "aspect ratio fixes",
+        "container width/height adjustments"
+      ],
+      "UI/UX Debugging": [
+        "tooltip rendering",
+        "visual layout inconsistencies"
+      ],
+      "Bug Triage": [
+        "issue tracking references",
+        "breaking change awareness"
+      ],
+      "Collaborative Development": [
+        "PR reviews",
+        "issue linking"
+      ],
+      "Event-Driven Interactions": [
+        "hover/tooltip event handling"
+      ],
+      "Missing Skills": [
+        "ES6+ JavaScript",
+        "Testing Frameworks",
+        "Backend Systems",
+        "Build Tools"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: 'Show dataset label in tooltip when present' → tooltip rendering in Chart.js",
+      "PR description: 'calculate container width and height without padding' → DOM layout calculations",
+      "PR label: 'type: bug' → bug triage and fixes in frontend library",
+      "PR description: 'Fix inconsistent aspect ratio' → responsive design adjustments",
+      "PR reference: 'as requested in PR #722' → collaborative debugging workflow",
+      "PR label: 'breaking change' → awareness of API stability in Chart.js",
+      "All PRs show `files_changed: 0` → debugging-focused contributions without code changes",
+      "PR context: Chart.js repository → specialization in frontend charting library"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

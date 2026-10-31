@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "manekinekko",
+    "generation_timestamp": "2026-09-17T18:52:06.419823",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "manekinekko",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "npm CLI documentation",
+      "Node.js tooling",
+      "JavaScript package management",
+      "Technical writing for developer tools"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js runtime)",
+      "TypeScript (inferred from npm CLI ecosystem)"
+    ],
+    "summary": "manekinekko is a mid-level JavaScript developer with specialized expertise in npm CLI documentation and Node.js tooling. Their contributions focus on improving the usability and clarity of npm commands, demonstrating deep practical knowledge of package management workflows. While their work is primarily in documentation rather than application code, their familiarity with npm's internals and command-line behavior indicates strong tooling awareness. Their contributions follow open-source best practices and show a clear ability to explain complex technical concepts to developers.",
+    "identified_skills": {
+      "Package Management Systems": [
+        "npm CLI",
+        "dependency resolution",
+        "package.json"
+      ],
+      "Documentation Practices": [
+        "technical writing",
+        "CLI documentation",
+        "usage examples",
+        "issue references"
+      ],
+      "Node.js Ecosystem": [
+        "Node.js runtime",
+        "command-line interfaces",
+        "filesystem interactions"
+      ],
+      "Open Source Workflows": [
+        "GitHub PR conventions",
+        "issue triaging",
+        "documentation PRs"
+      ],
+      "JavaScript Tooling": [
+        "npm install behavior",
+        "module resolution",
+        "node_modules"
+      ],
+      "Technical Communication": [
+        "clarifying edge cases",
+        "explaining CLI behavior",
+        "documentation improvements"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: 'docs: update usage example for npm install' - Added clear examples for npm install command",
+      "PR #2: 'docs: clarify npm install <folder> behavior' - Referenced issue #3318 discussing directory traversal",
+      "PR #3: 'docs: propose auto-generated command usage docs' - Suggested documentation improvements for CLI",
+      "PR descriptions consistently reference specific npm CLI commands and their edge cases",
+      "All PRs include 'Fixes #XXXX' references showing familiarity with GitHub issue workflows",
+      "Documentation updates address real user pain points in npm's dependency resolution",
+      "PRs demonstrate understanding of how npm interacts with the filesystem during package installation",
+      "Clear evidence of reading and responding to technical discussions in the npm repository"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

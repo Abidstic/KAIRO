@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "SimenB",
+    "generation_timestamp": "2026-09-18T13:59:01.791390",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "SimenB",
+    "raw_response": "```json\n{\n  \"developer_name\": \"SimenB\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Fastify Framework\",\n    \"TypeScript\",\n    \"Backend API Design\",\n    \"GraphQL Integration (Fastify-GraphQL)\",\n    \"Type System Refinement\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript\",\n    \"TypeScript\"\n  ],\n  \"summary\": \"SimenB is a Mid-level JavaScript developer with specialized expertise in Fastify, focusing on backend development, TypeScript integration, and API design. Their contributions demonstrate deep knowledge of Fastify’s core request handling, type system refinements, and GraphQL ecosystem. The developer has experience maintaining type definitions, updating dependency ecosystems, and ensuring backward compatibility in large-scale backend frameworks. While their contributions are backend-focused, there is no evidence of frontend or DevOps experience in the provided PR data.\",\n  \"identified_skills\": {\n    \"Backend Frameworks\": [\"Fastify\", \"Fastify-GraphQL\"],\n    \"TypeScript\": [\"TypeScript 4.8+ support\", \"Type system refinements\", \"Type definitions\", \"TypeScript compatibility\"],\n    \"API Design & Backend Patterns\": [\"Request object extensions\", \"Middleware\", \"HTTP request handling\", \"GraphQL server integration\"],\n    \"Dependency Management\": [\"Ecosystem updates\", \"Dependency replacements\"],\n    \"Documentation & Community\": [\"Ecosystem documentation\", \"Migration guidance\"],\n    \"Core Node.js\": [\"Request/response handling\", \"Plugin system\"],\n    \"Testing\": [],\n    \"Frontend Development\": [],\n    \"DevOps & Tooling\": []\n  },\n  \"skill_evidence\": [\n    \"PR: 'chore: add support for TypeScript 4.8' — explicit TypeScript versioning and compatibility work\",\n    \"PR: 'fix(type): add missing \\'hostname\\' field to Request' — type system refinement for Fastify’s request object\",\n    \"PR: 'fix: remove \\'.use\\' from types' — cleanup of Fastify’s TypeScript type definitions\",\n    \"PR: 'docs(ecosystem): replace fastify-apollo with fastify-graphql' — GraphQL ecosystem migration and documentation update\",\n    \"Multiple PRs modifying Fastify’s core request object structure — evidence of deep Fastify framework expertise\",\n    \"PRs labeled 'type' — consistent focus on type safety and type system improvements\",\n    \"No frontend-related PRs or references to UI frameworks — confirms backend specialization\"\n  ]\n}\n```",
+    "parsing_error": "Invalid \\escape: line 29 column 34 (char 1708)"
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

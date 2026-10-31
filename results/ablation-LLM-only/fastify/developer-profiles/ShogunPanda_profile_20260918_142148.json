@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "developer_name": "ShogunPanda",
+    "generation_timestamp": "2026-09-18T13:34:50.654202",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 16,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "ShogunPanda",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify Framework",
+      "TypeScript",
+      "Node.js Internals",
+      "HTTP Protocol Compliance",
+      "Plugin Development",
+      "WebSocket/Connection Management",
+      "Hook-Based Middleware",
+      "Error Handling Systems",
+      "Backend API Documentation",
+      "Async/Await Patterns"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "ShogunPanda is a senior backend JavaScript developer with deep expertise in Fastify, Node.js internals, and TypeScript. Their contributions focus on enhancing Fastify's hook system, improving HTTP protocol compliance, and developing reusable plugins for authentication, error handling, and documentation. The developer demonstrates strong problem-solving skills in edge cases like TCP connection resets, async hook execution, and migration documentation. Their work spans core framework improvements, plugin ecosystem expansion, and rigorous testing practices, positioning them as a specialized Fastify contributor with backend-focused JavaScript mastery.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js"
+      ],
+      "TypeScript Integration": [
+        "TypeScript type refinements",
+        "Fastify type system extensions",
+        "Plugin TypeScript definitions"
+      ],
+      "HTTP Protocol & Networking": [
+        "HTTP/1.1 compliance",
+        "WebSocket connection management",
+        "TCP-level connection handling",
+        "Client timeout responses"
+      ],
+      "Middleware & Hooks": [
+        "Hook system enhancements",
+        "preSerialization hook",
+        "preParsing hook",
+        "preDecoding hook",
+        "onRequestAbort hook",
+        "onClose hook"
+      ],
+      "Plugin Development": [
+        "Fastify plugin architecture",
+        "fastify-errors-properties",
+        "fastify-auth0-verify",
+        "fastify-openapi-docs",
+        "fastify-print-routes"
+      ],
+      "Error Handling": [
+        "Custom error response formatting",
+        "HTTP status code compliance",
+        "ECONNRESET handling"
+      ],
+      "Testing & QA": [
+        "Hook-related test cases",
+        "async hook testing",
+        "benchmarking",
+        "test coverage"
+      ],
+      "Documentation & Migration": [
+        "Plugin documentation",
+        "API migration guides",
+        "onRoute documentation",
+        "Ecosystem updates"
+      ],
+      "Async/Await Patterns": [
+        "Non-blocking hook execution",
+        "Event-driven cleanup",
+        "Async hook testing"
+      ],
+      "Tooling & DevOps": [
+        "Fastify CI/CD tools",
+        "npm script execution",
+        "semantic versioning",
+        "dependency management"
+      ],
+      "Backend-Specific": [
+        "No frontend involvement",
+        "Server-side tooling",
+        "Auth0 integration"
+      ]
+    },
+    "skill_evidence": [
+      "\"feat: Added preSerialization hook\" - Extends Fastify's hook system for request/response lifecycle control",
+      "\"fix: Return 408 on client timeout\" - Direct HTTP/1.1 spec compliance implementation",
+      "\"Added content type parsing to TypeScript types\" - TypeScript integration for HTTP headers",
+      "\"feat: Use new Node.js' connection closing API if available\" - Leverages Node.js internals for connection management",
+      "\"test: Add test to verify async onClose hooks\" - Rigorous testing of async hook behavior",
+      "\"docs: improved migration guide for onRoute\" - Technical writing for API migration documentation",
+      "\"Ignore clientError on reset connections\" - TCP-level connection reset handling referencing Node.js core issue",
+      "\"fastify-auth0-verify\" plugin - Integration of third-party auth system into Fastify ecosystem"
+    ]
+  },
+  "statistics": {
+    "total_prs": 16,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

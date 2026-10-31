@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "developer_name": "shali3",
+    "generation_timestamp": "2026-09-17T23:05:21.988533",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "shali3",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Chart.js API extension",
+      "JavaScript visualization patterns",
+      "Configurable chart components",
+      "Community-driven feature proposals",
+      "Testing awareness in library contributions"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Chart.js ecosystem)"
+    ],
+    "summary": "shali3 is a Junior JavaScript developer with specialized expertise in Chart.js, focusing on extending visualization components like Doughnut and gauge charts. Their contributions demonstrate strong feature proposal skills, API design understanding, and collaborative engagement with maintainers. While primarily theoretical (no merged code changes), their work shows deep familiarity with Chart.js's architecture and visualization patterns. Growth opportunities include implementing actual code changes, writing tests, and exploring broader JavaScript ecosystems beyond frontend visualization.",
+    "identified_skills": {
+      "Visualization Libraries": [
+        "Chart.js",
+        "Doughnut chart extension",
+        "Gauge chart implementation"
+      ],
+      "JavaScript API Design": [
+        "Configurable chart options",
+        "Property-based extensions",
+        "Backward compatibility"
+      ],
+      "Community Contribution": [
+        "Feature request discussions",
+        "Maintainer tagging",
+        "External reference critique"
+      ],
+      "Testing Practices": [
+        "Test case awareness",
+        "Code quality focus"
+      ],
+      "Frontend Patterns": [
+        "Prototype-based extensions",
+        "Modular chart components"
+      ],
+      "Domain Knowledge": [
+        "Data visualization UX",
+        "Proportional rendering"
+      ],
+      "Collaboration": [
+        "Iterative PR refinement",
+        "Technical justification"
+      ],
+      "Backend/Full-Stack": [],
+      "Advanced JS Patterns": [
+        "ES6 modules",
+        "Object configuration"
+      ]
+    },
+    "skill_evidence": [
+      "PR titles mention 'Doughnut chart' and 'gauge chart' functionality, indicating deep Chart.js specialization",
+      "Descriptions reference `startAngle` and `percentageTotal` properties for partial-doughnut rendering, showing API design knowledge",
+      "Tagging `@fulldecent` (Chart.js maintainer) and referencing AshKyd’s gist demonstrates community collaboration and technical discussion",
+      "Label `status: needs test case` on PR #4 indicates awareness of testing requirements despite no test files shown",
+      "Proposal to 'easily create a gauge chart' suggests experience with flexible, composable visualization APIs",
+      "Multiple PRs for the same feature imply iterative refinement and adaptability to feedback",
+      "No actual code changes (`files_changed: 0`) suggest contributions are currently proposal-focused rather than implementation-focused",
+      "Discussion of 'something like this' from external gists shows critique of UI/UX patterns in visualization"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

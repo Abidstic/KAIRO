@@ -1,0 +1,66 @@
+{
+  "reviewer_name": "ikonst",
+  "generated_at": "20260918_010303",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 4,
+    "total_prs": 1,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "ikonst",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js backend development",
+      "Asynchronous programming (async/await, Promises)",
+      "Error handling and stack trace management",
+      "API consumption (HTTP request handling)"
+    ],
+    "programming_languages": [
+      "JavaScript"
+    ],
+    "summary": "ikonst demonstrates **mid-level expertise** primarily in **Node.js backend development**, with a strong focus on **asynchronous programming, error handling, and API consumption**. Their reviews indicate deep knowledge of **async/await, error chaining, and V8’s async stack traces**, suggesting proficiency in handling complex server-side JavaScript scenarios. While there is **no direct evidence of frontend frameworks or TypeScript**, their inferred skills align with **backend-focused JavaScript ecosystems**. The reviewer’s contributions are **metadata-heavy** (e.g., PR descriptions rather than code changes), limiting direct validation of broader framework or testing library expertise. Their **error-handling patterns** (e.g., preserving original errors via `Error.cause`) and **async-aware debugging** suggest a **practical, production-ready skill set** in Node.js environments. Further review of **code-level contributions** would be needed to confirm exposure to **TypeScript, frontend frameworks, or advanced testing tools**.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise": [
+        "Node.js",
+        "Jest"
+      ],
+      "Asynchronous Programming": [
+        "async/await",
+        "Promises",
+        "Event Loop"
+      ],
+      "API Design & Consumption": [
+        "RESTful APIs"
+      ],
+      "Error Handling": [
+        "Try-Catch",
+        "Custom Error Classes"
+      ],
+      "Frontend Development Skills": [],
+      "Backend Development Skills": [
+        "Server-Side Logic",
+        "API Endpoints",
+        "Authentication/Authorization"
+      ],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts": [
+        "Module Systems"
+      ],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Dependency Management": [
+        "npm/yarn"
+      ],
+      "Graphical Data Visualization": []
+    }
+  }
+}

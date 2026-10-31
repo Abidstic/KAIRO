@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "developer_name": "andig",
+    "generation_timestamp": "2026-09-17T22:48:00.643962",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 13,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 13
+  },
+  "profile": {
+    "developer_name": "andig",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Chart.js internals (axes, scales, ticks, rendering)",
+      "JavaScript callback-based programming",
+      "Test suite maintenance and stability improvements",
+      "Cross-platform build system configuration",
+      "CI/CD pipeline debugging (GitHub Actions, Coveralls)",
+      "Debugging complex rendering/axis behavior issues"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "TypeScript (indirectly via Chart.js ecosystem)"
+    ],
+    "summary": "andig is a specialized JavaScript developer with deep expertise in Chart.js internals, particularly in axis/scale/tick logic and rendering behavior. Their contributions focus on improving test stability, debugging subtle rendering bugs, and enhancing the build pipeline. While primarily focused on Chart.js, they demonstrate strong debugging skills, CI/CD awareness, and a collaborative approach to problem-solving. The profile reflects a mid-level engineer with niche but impactful contributions to a popular JavaScript library.",
+    "identified_skills": {
+      "Charting Libraries": [
+        "Chart.js axis implementation",
+        "Chart.js scale customization",
+        "Chart.js tick formatting",
+        "Chart.js rendering logic"
+      ],
+      "Testing Strategies": [
+        "Test isolation techniques",
+        "Flaky test identification and fixes",
+        "Test suite infrastructure improvements",
+        "Controller test stability enhancements"
+      ],
+      "JavaScript Patterns": [
+        "Callback function design",
+        "`this` binding in callbacks",
+        "Event-driven programming",
+        "API extensibility patterns"
+      ],
+      "Build Systems": [
+        "Cross-platform build configuration",
+        "CI/CD pipeline debugging",
+        "Gulp build tooling",
+        "SublimeText plugin integration"
+      ],
+      "Debugging": [
+        "Subtle rendering bug resolution",
+        "Axis behavior debugging",
+        "Tick formatting issues",
+        "Autoskipped ticks fixes"
+      ],
+      "Documentation": [
+        "Developer resource links",
+        "Issue tracking references"
+      ],
+      "Testing Tools": [
+        "Coveralls integration",
+        "Test coverage optimization"
+      ],
+      "Version Control": [
+        "GitHub PR discussions",
+        "Issue triage"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Scales: add axis to convertTicksToLabels callback' - demonstrates API extensibility and callback design",
+      "PR: 'Fix autoskipped ticks messing up category axis' - shows debugging complex rendering edge cases",
+      "PR: 'Make bar tests independent from scales' - reflects test isolation strategies",
+      "PR: 'Improve controller test stability' - indicates flaky test identification and fixes",
+      "PR: 'Honour axis min/max settings' - highlights axis behavior debugging",
+      "PR: 'Fix OSX build' - evidence of cross-platform build system expertise",
+      "PR: 'Run coveralls only on parent repo' - demonstrates CI/CD pipeline debugging",
+      "PR: 'Add developer links' - shows documentation improvement contributions"
+    ]
+  },
+  "statistics": {
+    "total_prs": 13,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

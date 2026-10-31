@@ -1,0 +1,71 @@
+{
+  "reviewer_name": "Pjrich1313",
+  "generated_at": "20260917_181205",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 1,
+    "total_prs": 3,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "Pjrich1313",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js internals (npm/pacote)",
+      "Dependency resolution and versioning",
+      "Debugging Node.js tools",
+      "Package management (npm)",
+      "Documentation maintenance"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript (assumed)"
+    ],
+    "summary": "Pjrich1313 is a mid-level JavaScript reviewer with specialized expertise in Node.js internals, particularly npm package management and dependency resolution. Their reviews focus on debugging npm-related tools, ensuring version compatibility, and maintaining documentation. While their contributions are primarily backend-focused (Node.js/npm ecosystem), their indirect involvement with npm internals suggests strong JavaScript/TypeScript proficiency. The reviewer demonstrates practical debugging skills and attention to detail in package metadata and documentation.",
+    "identified_skills": {
+      "Node.js Ecosystem": [
+        "npm internals",
+        "pacote (dependency resolution)",
+        "pick-manifest (npm manifest handling)",
+        "Node.js version compatibility"
+      ],
+      "Debugging & Tooling": [
+        "npm tool debugging",
+        "debugging workflows",
+        "reproducibility testing",
+        "Node.js debugging"
+      ],
+      "Package Management": [
+        "npm version resolution",
+        "dependency tree logic",
+        "package.json metadata"
+      ],
+      "Documentation": [
+        "markdown documentation fixes",
+        "package.json documentation"
+      ],
+      "JavaScript/TypeScript": [
+        "semantic versioning (semver)",
+        "module systems (npm manifests)"
+      ],
+      "Code Review Practices": [
+        "small-scale fixes",
+        "dependency update validation"
+      ]
+    },
+    "skill_evidence": [
+      "\"fix: update notifier to consider node version\" PR title (twice) — npm version compatibility and pacote/pick-manifest usage",
+      "\"docs(package.json): add libc field\" — package.json metadata and npm documentation conventions",
+      "\"Rerun from scratch with latest version of nps/debug and merge with duplication\" — debugging npm tools and dependency updates",
+      "\"Rerun debug nobes\" — Node.js debugging terminology (likely typo for \"Node.js\")",
+      "\"Merge and divide into pools and debug run nobes\" — structured debugging workflows",
+      "\"docs: fix typo in package-json.md\" — documentation maintenance and markdown fixes",
+      "References to \"nps\" (npm scripts) and \"debug\" library — Node.js tooling familiarity",
+      "Focus on npm version resolution and dependency tree logic in PR descriptions"
+    ]
+  }
+}

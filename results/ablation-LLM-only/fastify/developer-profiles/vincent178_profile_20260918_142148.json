@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "developer_name": "vincent178",
+    "generation_timestamp": "2026-09-18T13:41:02.457189",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 9,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 9
+  },
+  "profile": {
+    "developer_name": "vincent178",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify (Node.js web framework)",
+      "TypeScript type definitions",
+      "Fastify plugin system",
+      "Backend documentation",
+      "Node.js HTTP server configuration"
+    ],
+    "programming_languages": [
+      "JavaScript (ES Modules)",
+      "TypeScript"
+    ],
+    "summary": "vincent178 is a mid-level JavaScript developer with specialized expertise in Fastify, focusing primarily on TypeScript integration and backend framework extensibility. Their contributions demonstrate strong skills in defining type safety for Fastify's API surface, plugin system development, and improving documentation for developer experience. While contributions are limited to Fastify's repository, the depth of TypeScript type fixes and plugin-related changes suggests proficiency in backend Node.js development patterns. No evidence of frontend JavaScript or broader infrastructure experience is present in the analyzed PRs.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js HTTP Server"
+      ],
+      "TypeScript": [
+        "TypeScript type definitions",
+        "Request/Response typing",
+        "Plugin method typing"
+      ],
+      "Plugin Development": [
+        "Fastify plugin system",
+        "Custom server hooks",
+        "Plugin lifecycle"
+      ],
+      "Documentation": [
+        "Markdown documentation",
+        "Developer experience improvements",
+        "Localization (Chinese docs)"
+      ],
+      "Testing Practices": [
+        "Test suite execution",
+        "Benchmarking workflows"
+      ],
+      "Server Configuration": [
+        "HTTPS server integration",
+        "Host address binding"
+      ],
+      "Community Contributions": [
+        "Documentation triaging",
+        "Code of Conduct adherence"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: 'fix missing headers property on FastifyRequest' - TypeScript type definition for FastifyRequest interface",
+      "PR #4: 'add-content-type-parser-definition' - TypeScript type annotation for plugin method",
+      "PR #8: 'fix listen ts types' - TypeScript type fix for server.listen method",
+      "PR #2: 'add tests for custom https server' - Custom HTTPS server plugin implementation",
+      "PR #3: 'change default host address' - Server configuration change for host binding",
+      "PR #5: 'reorder Plugins-Guide.md' - Documentation organization for developer experience",
+      "PR #6: 'add Chinese doc links' - Localization effort in documentation",
+      "PR #7: 'checklist for testing/benchmarking' - Reference to Fastify's test suite execution"
+    ]
+  },
+  "statistics": {
+    "total_prs": 9,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

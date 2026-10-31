@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "terinjokes",
+    "generation_timestamp": "2026-08-15T17:04:07.512325",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "lodash"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "terinjokes",
+    "raw_response": "```json\n{\n  \"developer_name\": \"terinjokes\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Lodash utility functions\",\n    \"JSDoc documentation\",\n    \"JavaScript utility libraries\",\n    \"Closure Compiler compatibility\",\n    \"Precision code review\",\n    \"Functional programming patterns\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES5/ES6)\",\n    \"JSDoc\"\n  ],\n  \"summary\": \"terinjokes is a mid-level JavaScript developer with specialized expertise in Lodash's utility functions and documentation. Their contributions demonstrate a deep understanding of JSDoc conventions, Closure Compiler interactions, and precise documentation fixes. The developer exhibits strong debugging skills and an ability to identify edge cases in large codebases, particularly around utility library documentation. While contributions are currently limited to Lodash, their precision and tooling awareness suggest a strong foundation in JavaScript utility development and documentation practices.\",\n  \"identified_skills\": {\n    \"Utility Library Development\": [\n      \"Lodash internals\",\n      \"Utility function documentation\",\n      \"Functional programming utilities\"\n    ],\n    \"Documentation Practices\": [\n      \"JSDoc annotations\",\n      \"Closure Compiler compatibility\",\n      \"Documentation precision\",\n      \"Missing documentation fixes\"\n    ],\n    \"JavaScript Tooling\": [\n      \"Closure Compiler awareness\",\n      \"JSDoc tooling integration\"\n    ],\n    \"Code Quality & Review\": [\n      \"Minimal change contributions\",\n      \"Precision-focused PRs\",\n      \"Edge case documentation\"\n    ],\n    \"Debugging & Investigation\": [\n      \"Undocumented behavior investigation\",\n      \"Reproducible edge case analysis\"\n    ],\n    \"JavaScript Language\": [\n      \"ES5/ES6 compatibility\",\n      \"Utility function patterns\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PRs for Lodash utility functions (_.groupBy, _.range, _.countBy) with JSDoc documentation fixes\",\n    \"Added '@license' tags to prevent Closure Compiler from stripping comments in documentation\",\n    \"Fixed missing words in JSDoc descriptions (e.g., 'countBy' documentation)\",\n    \"Noted investigation into undocumented 'underscore' template usage in Lodash internals\",\n    \"All PRs are minimal changes (0 additions/deletions) with clear, focused descriptions\",\n    \"Documentation PRs labeled explicitly as 'documentation' with JSDoc annotations\",\n    \"Mention of Closure Compiler in PR descriptions to ensure documentation preservation\",\n    \"Contributions involve core Lodash utility functions demonstrating functional programming familiarity\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 56 column 3 (char 2585)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "lodash"
+    ]
+  }
+}

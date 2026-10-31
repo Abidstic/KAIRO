@@ -1,0 +1,72 @@
+{
+  "reviewer_name": "rileyjshaw",
+  "generated_at": "20260815_155647",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 2,
+    "total_prs": 1,
+    "repos": [
+      "express"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "rileyjshaw",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Express.js backend development",
+      "Node.js middleware and HTTP handling",
+      "API deprecation management",
+      "JavaScript deprecation warnings"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Express.js ecosystem)"
+    ],
+    "summary": "rileyjshaw is a mid-level JavaScript reviewer with specialized expertise in Express.js backend development, focusing on API evolution and deprecation management. Their contributions demonstrate strong familiarity with Node.js middleware, HTTP headers, and deprecation warning patterns. While their review data is limited to a single PR, the evidence suggests a technical depth in backend frameworks and collaborative code review practices. Their work aligns with maintaining backward compatibility in Express.js while evolving the API.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Node.js"
+      ],
+      "API Evolution": [
+        "deprecation warnings",
+        "API deprecation strategy"
+      ],
+      "HTTP Protocol": [
+        "HTTP headers",
+        "Referrer header"
+      ],
+      "Testing": [
+        "npm test",
+        "Jest/Mocha (inferred)"
+      ],
+      "Code Review & Collaboration": [
+        "issue references",
+        "Git workflows"
+      ],
+      "Logging & Warnings": [
+        "console.warn",
+        "deprecation logging"
+      ],
+      "Version-Specific Knowledge": [
+        "Express.js 5.x"
+      ],
+      "Git Workflows": [
+        "needs rebase",
+        "PR rebasing"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'Add deprecation warning to Referrer special-casing' confirms Express.js backend focus",
+      "Label '5.x' indicates version-specific knowledge of Express.js 5.x internals",
+      "Test command 'npm test' suggests familiarity with Node.js testing workflows",
+      "Reference to Issue #3951 demonstrates engagement with Express.js community",
+      "PR state 'COMMENTED' implies code review feedback on deprecation logic",
+      "'needs rebase' label indicates experience with Git rebasing and PR workflows",
+      "Deprecation warning implementation shows understanding of API evolution patterns",
+      "No frontend frameworks or advanced JS patterns evident in review data"
+    ]
+  }
+}

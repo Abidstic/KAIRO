@@ -1,0 +1,78 @@
+{
+  "reviewer_name": "vishal-sharma-369",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 2,
+    "total_prs": 1,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "vishal-sharma-369",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js backend development",
+      "ES Modules migration",
+      "Debugging server-side JavaScript",
+      "Axios integration",
+      "Module system optimization"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (implied by ES Modules usage)"
+    ],
+    "summary": "vishal-sharma-369 demonstrates strong mid-level expertise in Node.js backend development with a focus on modern JavaScript module systems. Their reviews show precise debugging capabilities, particularly in server-side environments, and a clear understanding of migrating from CommonJS to ES Modules. The reviewer effectively identifies and resolves subtle bugs related to HTTP client behavior (Axios) and package management. While their experience appears primarily backend-focused, their technical precision and code review judgment suggest they could contribute effectively to modern JavaScript projects requiring module system awareness and server-side reliability.",
+    "identified_skills": {
+      "Backend Development": [
+        "Node.js runtime",
+        "server-side HTTP routing",
+        "Express.js (implied)"
+      ],
+      "Module Systems": [
+        "ES Modules migration",
+        "CommonJS to ES Modules conversion",
+        "module resolution"
+      ],
+      "Debugging & Testing": [
+        "bug reproduction",
+        "endpoint testing",
+        "fix validation"
+      ],
+      "Package Management": [
+        "npm scripts",
+        "package.json configuration"
+      ],
+      "HTTP Clients": [
+        "Axios integration",
+        "HTTP request debugging"
+      ],
+      "Code Review": [
+        "minimal change justification",
+        "issue linkage",
+        "technical documentation"
+      ],
+      "Modern JavaScript": [
+        "import/export syntax",
+        "ES6+ features"
+      ],
+      "Tooling": [
+        "npm",
+        "custom build scripts"
+      ]
+    },
+    "skill_evidence": [
+      "Replaced `require` with `import` in `examples/server.js` to fix `/get` path bug",
+      "Linked PR to Axios issue #5937 demonstrating HTTP client debugging knowledge",
+      "Used `npm run examples` command to validate server-side fix",
+      "Approved minimal change with clear reference to module system evolution",
+      "Fixed bug affecting server-side routing in Express-like environment",
+      "Documented technical rationale for ES Modules adoption in Node.js context",
+      "Identified and resolved module resolution issue impacting Axios requests",
+      "Worked on example project demonstrating practical Node.js application knowledge"
+    ]
+  }
+}

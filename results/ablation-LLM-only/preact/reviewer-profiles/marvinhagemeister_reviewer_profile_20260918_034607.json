@@ -1,0 +1,81 @@
+{
+  "reviewer_name": "marvinhagemeister",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 177,
+    "total_comments": 37,
+    "total_prs": 147,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "marvinhagemeister",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "TypeScript",
+      "React/Preact",
+      "React Concurrency",
+      "DOM Hydration & SSR",
+      "Code Review & Mentorship",
+      "Type Inference & Refinement"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "marvinhagemeister is a senior JavaScript/TypeScript engineer with deep expertise in React/Preact ecosystems, particularly TypeScript integration, React internals, and modern concurrency patterns. Their reviews demonstrate strong technical depth in type safety, DOM optimization, and architectural decisions, combined with a mentorship-oriented approach to feedback. They are highly proficient in handling edge cases, SSR optimizations, and ensuring robust type definitions in component-based systems.",
+    "identified_skills": {
+      "TypeScript": [
+        "Type inference and refinement",
+        "ComponentChildren typing",
+        "VNode typing",
+        "object vs {} distinction",
+        "TypeScript-specific type annotations"
+      ],
+      "React/Preact": [
+        "Children API adaptation",
+        "Controlled vs. uncontrolled components",
+        "SSR/Hydration optimizations",
+        "Component rendering patterns",
+        "Preact React-like compatibility"
+      ],
+      "React Concurrency": [
+        "requestIdleCallback",
+        "Time-slicing",
+        "Concurrent rendering patterns"
+      ],
+      "DOM & Rendering": [
+        "Hydration optimization",
+        "DOM comment skipping",
+        "SSR performance considerations"
+      ],
+      "Code Review & Quality": [
+        "Constructive technical feedback",
+        "Type safety validation",
+        "Encouraging review language",
+        "Edge case consideration"
+      ],
+      "Testing": [
+        "Test coverage validation",
+        "Type safety in tests"
+      ],
+      "Legacy & Polyfills": [
+        "Select component polyfills",
+        "Legacy browser compatibility"
+      ]
+    },
+    "skill_evidence": [
+      "PR title '[ts] components can return ComponentChildren' explicitly labels TypeScript focus and discusses VNode typing",
+      "Review comment suggesting `{}` → `object` refinement in TypeScript PR shows deep type system knowledge",
+      "Approval of 'Adding better support for hooks related to time-slicing' demonstrates concurrency pattern understanding",
+      "PR 'Skip HTML comments during hydration' indicates SSR/DOM optimization expertise",
+      "Review comments like 'This is a great start' paired with follow-up questions show mentorship approach",
+      "PR 'fix(#2644): adapt the react children api' received extensive review comments indicating React internals knowledge",
+      "Mention of 'basic example is provided in the tests' in TypeScript PR shows attention to testing edge cases",
+      "Polyfill-related PR 'Select polyfill alt' suggests experience with legacy browser support"
+    ]
+  }
+}

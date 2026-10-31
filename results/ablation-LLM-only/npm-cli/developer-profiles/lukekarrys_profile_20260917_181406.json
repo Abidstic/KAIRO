@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "developer_name": "lukekarrys",
+    "generation_timestamp": "2026-09-17T18:14:06.474669",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 341,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "lukekarrys",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Node.js CLI Development",
+      "npm Dependency Resolution",
+      "JavaScript Runtime Improvements",
+      "Semantic Versioning & Releases",
+      "CLI Error Handling & UX"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from npm ecosystem)",
+      "Node.js API Patterns"
+    ],
+    "summary": "lukekarrys is a **Senior JavaScript engineer** with deep expertise in **Node.js and npm CLI internals**, specializing in **dependency resolution, versioning, and CLI tooling improvements**. Their contributions focus on **npm’s core functionality**, including **lockfile handling, dependency tree algorithms (arborist), and Node.js version compatibility**. The developer demonstrates strong **debugging skills for CLI-related bugs**, **release management**, and **configuration parsing**, with a particular focus on **maintaining backward compatibility** and **user-facing error improvements**. While primarily backend-focused, their work reflects **modern JavaScript runtime practices** (e.g., deprecating `util.promisify` in favor of native async/await). No evidence of frontend frameworks or testing frameworks is present in their contributions.",
+    "identified_skills": {
+      "Node.js & npm Ecosystem": [
+        "npm CLI Internals",
+        "Dependency Resolution (arborist)",
+        "package-lock.json & shrinkwrap",
+        "Node.js Version Compatibility",
+        "Semantic Versioning (semver)"
+      ],
+      "CLI Tooling & UX": [
+        "Error Message Consistency",
+        "CLI Configuration Parsing",
+        "Type Coercion (string → number)",
+        "User-Facing CLI Improvements"
+      ],
+      "Dependency Management": [
+        "Dependency Upgrades",
+        "Backward Compatibility Checks",
+        "Lockfile Versioning",
+        "Dependency Tree Algorithms"
+      ],
+      "JavaScript Runtime": [
+        "Node.js API Modernization",
+        "Async/Await Patterns",
+        "Deprecation Handling"
+      ],
+      "Release & DevOps": [
+        "Release Versioning (v7.x.x, v8.x.x)",
+        "Dependency Alignment",
+        "Chore-Based Maintenance"
+      ],
+      "Code Quality & Maintenance": [
+        "ESLint & Linting Improvements",
+        "Configuration File Updates",
+        "Documentation Templates"
+      ],
+      "Debugging & Fixes": [
+        "Lockfile Version Bug Fixes",
+        "CLI Error Handling",
+        "Configuration Edge Cases"
+      ]
+    },
+    "skill_evidence": [
+      "\"fix: shrinkwrap setting incorrect lockfileVersion\" – Demonstrates deep knowledge of npm lockfile formats and versioning bugs.",
+      "\"deps: arborist@4.0.3\" – Shows involvement in npm’s core dependency resolution engine (arborist).",
+      "\"fix: make prefixed usage errors more consistent\" – Evidence of CLI UX improvements and error handling expertise.",
+      "\"chore: remove usage of unnecessary util.promisify\" – Indicates awareness of Node.js API evolution and modernization.",
+      "\"cli-columns@4.0.0 drops node 10 support\" – Reflects Node.js version compatibility and deprecation management.",
+      "\"chore: lint previously ignored files\" – Suggests attention to code quality and tooling (e.g., ESLint).",
+      "\"fix: allow `--lockfile-version` config to be string and coerce to number\" – Shows type coercion and config parsing skills.",
+      "\"Release/v7.18.0\" – Indicates active participation in npm’s release process and versioning."
+    ]
+  },
+  "statistics": {
+    "total_prs": 341,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

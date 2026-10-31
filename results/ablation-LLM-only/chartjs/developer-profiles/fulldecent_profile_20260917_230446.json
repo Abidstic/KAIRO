@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "developer_name": "fulldecent",
+    "generation_timestamp": "2026-09-17T22:49:33.027767",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 8,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 8
+  },
+  "profile": {
+    "developer_name": "fulldecent",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript project infrastructure",
+      "CI/CD configuration for JavaScript",
+      "Open-source project governance",
+      "Documentation deployment"
+    ],
+    "programming_languages": [
+      "JavaScript (indirect exposure)"
+    ],
+    "summary": "fulldecent demonstrates strong expertise in JavaScript project infrastructure and open-source governance, particularly through CI/CD setup, documentation deployment, and contributor workflow improvements. While no direct JavaScript code contributions are visible in the provided PRs, their work on Chart.js’s infrastructure—including Travis CI configuration, jshint integration, and documentation deployment—indicates deep familiarity with JavaScript project maintenance. Their contributions focus on enabling smoother development and collaboration rather than writing application code. The profile suggests a Mid-level developer with specialized skills in DevOps and community management for JavaScript ecosystems.",
+    "identified_skills": {
+      "JavaScript Project Infrastructure": [
+        "CI/CD pipelines (Travis CI)",
+        "JavaScript linting (jshint)",
+        "Build system testing"
+      ],
+      "Documentation Systems": [
+        "Static site deployment (gh-pages)",
+        "Contributor documentation (CONTRIBUTING.md)",
+        "Canonical documentation URLs"
+      ],
+      "Open-Source Governance": [
+        "Project scope management",
+        "Issue triage and resolution",
+        "Community support channels (Google Groups)"
+      ],
+      "GitHub Workflows": [
+        "PR labeling and issue linking",
+        "Branch management (gh-pages)",
+        "Documentation-focused branches"
+      ],
+      "JavaScript Ecosystem": [
+        "ES6+ awareness (indirect)",
+        "Chart.js ecosystem familiarity"
+      ],
+      "Testing": [
+        "Static code analysis (jshint)",
+        "Build validation"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: Added Travis CI for build testing, jshint, and HTML validation ('Add continuous integration testing')",
+      "PR 1: Configured jshint for JavaScript linting in Chart.js CI pipeline",
+      "PR 7: Created gh-pages branch for static documentation deployment ('Create documentation gh-pages branch')",
+      "PR 2: Standardized documentation URLs to improve contributor experience ('Use canonical docs url')",
+      "PR 3: Separated CONTRIBUTING.md for clearer contributor guidelines ('Separate CONTRIBUTING.md')",
+      "PR 4: Defined project scope boundaries for Chart.js ('Update project scope: new chart types are off topic')",
+      "PR 8: Added Google Group link for community support ('Add link to Google Group')",
+      "All PRs: Used GitHub issue labels and PR references for structured workflow management"
+    ]
+  },
+  "statistics": {
+    "total_prs": 8,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

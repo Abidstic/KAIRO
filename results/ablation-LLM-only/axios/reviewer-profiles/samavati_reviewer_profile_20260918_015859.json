@@ -1,0 +1,57 @@
+{
+  "reviewer_name": "samavati",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 1,
+    "total_prs": 1,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "samavati",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "TypeScript type guards",
+      "Type safety improvements",
+      "Minimalist code review feedback"
+    ],
+    "programming_languages": [
+      "TypeScript"
+    ],
+    "summary": "samavati demonstrates focused expertise in TypeScript type guards and runtime type safety, with evidence of basic code review practices. Their reviews are narrowly scoped to type-related fixes, showing comfort with defensive programming but no exposure to broader JavaScript ecosystems or frameworks. The reviewer's feedback is minimalist and constructive, prioritizing correctness over architectural depth, suggesting a junior-level proficiency with TypeScript in a type-heavy environment.",
+    "identified_skills": {
+      "TypeScript Advanced Features": [
+        "type guards"
+      ],
+      "Type Safety & Runtime Validation": [
+        "type narrowing",
+        "defensive programming"
+      ],
+      "Code Review Practices": [
+        "minimalist feedback",
+        "approval workflow"
+      ],
+      "JavaScript Language": [],
+      "Backend Frameworks": [],
+      "Frontend Frameworks": [],
+      "Testing": [],
+      "Asynchronous Programming": [],
+      "Tooling & Build Systems": [],
+      "Error Handling": [],
+      "Performance Optimization": []
+    },
+    "skill_evidence": [
+      "PR title 'fix(types): change the type guard on isCancel' indicates familiarity with TypeScript type guards",
+      "Review comments emphasize 'keeping changes minimal' while improving type safety",
+      "No explicit criticism of type guard logic suggests comfort with TypeScript's advanced features",
+      "PR transition from 'CHANGES_REQUESTED' to 'APPROVED' shows adherence to basic code review workflow",
+      "Generic approval comment ('Thank you so much') indicates encouraging but non-technical feedback style",
+      "No evidence of framework-specific knowledge (e.g., React, Express) or broader JS patterns",
+      "No references to testing, async/await, or DevOps tools in reviews"
+    ]
+  }
+}

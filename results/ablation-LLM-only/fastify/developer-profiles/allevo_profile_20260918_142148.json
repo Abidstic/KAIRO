@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "developer_name": "allevo",
+    "generation_timestamp": "2026-09-18T13:26:59.202598",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 74,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "allevo",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify framework internals",
+      "JSON Schema validation (ajv)",
+      "Node.js backend development",
+      "API response validation",
+      "Error handling (boom library)",
+      "Dependency optimization",
+      "Plugin architecture",
+      "HTTP status codes and content negotiation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (implied)"
+    ],
+    "summary": "Senior Node.js backend developer with deep expertise in Fastify framework internals, specializing in schema validation, error handling, and plugin architecture. Allevo demonstrates strong skills in dependency management, API design, and testing, with a focus on optimizing Fastify's core functionality. Their contributions span core framework features like response validation, content negotiation, and HTTP status code handling, indicating a high level of technical proficiency in backend systems.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Fastify plugins",
+        "Fastify schema validation"
+      ],
+      "Validation and Schema Design": [
+        "JSON Schema (ajv)",
+        "Schema-based status codes",
+        "Content negotiation (fastify-accepts)"
+      ],
+      "Error Handling": [
+        "boom library integration",
+        "Custom error responses",
+        "Edge case debugging"
+      ],
+      "Dependency Management": [
+        "npm package publishing",
+        "devDependencies optimization",
+        "semantic versioning"
+      ],
+      "Testing and Debugging": [
+        "Test-driven development",
+        "CI/CD pipeline awareness",
+        "Runtime error debugging"
+      ],
+      "HTTP Protocol Knowledge": [
+        "Status code handling",
+        "Content-Type headers",
+        "HTTP method parsing"
+      ],
+      "Open Source Contributions": [
+        "Plugin development",
+        "Documentation updates",
+        "Community collaboration"
+      ],
+      "Asynchronous Programming": [
+        "Promise handling",
+        "Async/await patterns"
+      ],
+      "Backend Performance": [
+        "Dependency caching",
+        "Validation optimization"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Allow specify ajv options per route' - Custom AJV configuration per route schema validation",
+      "PR: 'application/json output on boom error' - Custom error response handling with boom library",
+      "PR: 'Move shot deps to devDeps' - Dependency optimization reducing bundle size",
+      "PR: 'undefined content type bug' - Debugging runtime content-type parsing issues",
+      "PR: 'Add fastify-accepts-serializer to README.md' - Plugin development and documentation",
+      "PR: 'Listen timeout when used with Promise.resolve()' - Async/await pattern handling",
+      "PR: 'Feature/response validation status code based' - Schema-based HTTP status code handling",
+      "PR: 'travis should fail' - CI/CD pipeline awareness and test case validation"
+    ]
+  },
+  "statistics": {
+    "total_prs": 74,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

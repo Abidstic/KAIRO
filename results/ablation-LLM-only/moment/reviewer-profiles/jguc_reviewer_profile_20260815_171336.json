@@ -1,0 +1,61 @@
+{
+  "reviewer_name": "jguc",
+  "generated_at": "20260815_171336",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 5,
+    "total_comments": 5,
+    "total_prs": 1,
+    "repos": [
+      "moment"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "jguc",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "JavaScript Internationalization (i18n)",
+      "Relative Time Formatting (Intl API)",
+      "Translation Workflows"
+    ],
+    "programming_languages": [
+      "JavaScript"
+    ],
+    "summary": "The reviewer 'jguc' demonstrates limited, niche JavaScript expertise primarily focused on internationalization/localization tasks, specifically using JavaScript's Intl API for relative time formatting. Their reviews show no evidence of broader JavaScript language mastery, framework experience, or backend development. The reviewer's contributions are confined to commenting on translation-related pull requests without modifying code or addressing technical JavaScript concerns beyond the Intl API context.",
+    "identified_skills": {
+      "Internationalization & Localization": [
+        "Intl.RelativeTimeFormat",
+        "Translation workflows",
+        "i18n message formatting"
+      ],
+      "JavaScript Language Features": [
+        "Intl API"
+      ],
+      "Code Review Practices": [
+        "PR comment engagement"
+      ],
+      "Language-Specific": [],
+      "Backend Frameworks": [],
+      "Frontend Frameworks": [],
+      "Testing": [],
+      "Build Tools & Compilation": [],
+      "Asynchronous Programming": [],
+      "Error Handling & Debugging": [],
+      "Performance Optimization": [],
+      "API Design & Integration": [],
+      "Security": [],
+      "Documentation": []
+    },
+    "skill_evidence": [
+      "PR titles consistently reference '[locale] relativeTime week translation' indicating focus on Intl.RelativeTimeFormat API usage",
+      "No code changes (files_changed: 0) across all 5 reviews, suggesting only non-technical or i18n-specific comments were made",
+      "Review state 'COMMENTED' repeated across all PRs without technical JavaScript discussion beyond localization context",
+      "PRs involve 'most commonly used languages' suggesting familiarity with translation workflows but no broader JS ecosystem knowledge",
+      "Mention of 'relativeTime' (a JavaScript Intl API feature) in PR titles confirms indirect JavaScript language awareness",
+      "No evidence of framework usage (React, Angular, etc.) or backend technologies (Node.js, Express) in any review",
+      "All reviews focus on translation tasks rather than JavaScript implementation, architecture, or testing concerns",
+      "Lack of technical depth in review comments (no code snippets, patterns, or error analysis provided)"
+    ]
+  }
+}

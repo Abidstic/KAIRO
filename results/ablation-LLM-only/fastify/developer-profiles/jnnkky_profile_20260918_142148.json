@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "developer_name": "jnnkky",
+    "generation_timestamp": "2026-09-18T14:09:24.071620",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "jnnkky",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Fastify Framework",
+      "TypeScript for Backend",
+      "HTTP/2 Protocol",
+      "Node.js Server Configuration",
+      "Backend API Design",
+      "Technical Documentation"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "jnnkky is a backend-focused JavaScript developer with specialized expertise in Fastify, demonstrating strong skills in HTTP/2 server configuration, TypeScript integration, and core framework internals. Their contributions focus on low-level improvements—such as server option customization and query parsing—while also enhancing documentation and performance validation. The developer shows proficiency in Fastify’s testing ecosystem and a methodical approach to code reviews and technical writing, particularly for TypeScript plugins. While contributions are limited to Fastify, the depth of technical engagement suggests a Mid-level backend engineer with a focus on correctness, type safety, and performance optimization.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "HTTP/2 Server Configuration"
+      ],
+      "TypeScript": [
+        "TypeScript Plugin Development",
+        "Type-Safe Server Options",
+        "TypeScript Documentation"
+      ],
+      "Backend Patterns": [
+        "Server Options Customization",
+        "Query Parsing (querystringParser)",
+        "HTTP Protocol Handling"
+      ],
+      "Testing & Validation": [
+        "Fastify Test Suite",
+        "Performance Benchmarking"
+      ],
+      "Documentation": [
+        "TypeScript Plugin Docs",
+        "API Configuration Documentation"
+      ],
+      "Git & Collaboration": [
+        "GitHub PR Checklists",
+        "Code Review Workflow"
+      ],
+      "Performance Optimization": [
+        "HTTP/2 vs HTTP/1 Fixes"
+      ],
+      "Frontend": [],
+      "DevOps/Tooling": []
+    },
+    "skill_evidence": [
+      "PR titled 'fix allowHTTP1 flag for http2 servers' shows direct HTTP/2 protocol handling in Fastify",
+      "PR 'add querystringParser to ServerOptions' extends Fastify’s core server configuration with TypeScript type safety",
+      "All PRs include 'typescript' label and reference Fastify’s TypeScript plugin ecosystem",
+      "PR checklists mandate 'npm run test' and 'npm run benchmark', indicating familiarity with Fastify’s validation workflows",
+      "Third PR explicitly labeled 'documentation' enhances TypeScript plugin docs, demonstrating technical writing skills",
+      "PRs reference Fastify’s Code of Conduct and structured checklists, showing adherence to collaborative workflows",
+      "No evidence of frontend frameworks (React, Vue) or DevOps tools (Docker, CI/CD) in contributions"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "developer_name": "wenber",
+    "generation_timestamp": "2026-08-15T16:15:56.796548",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 7,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 7
+  },
+  "profile": {
+    "developer_name": "wenber",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery internals",
+      "JavaScript object detection",
+      "Legacy JavaScript patterns",
+      "Performance optimization (JavaScript)",
+      "Debugging edge cases in object systems"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)",
+      "jQuery"
+    ],
+    "summary": "Wenber is a mid-level JavaScript developer with specialized expertise in jQuery's core utilities and legacy JavaScript patterns. Their contributions focus on jQuery's object detection system (e.g., `$.isPlainObject`), URL-related modules, and performance improvements. While deeply familiar with jQuery's internals and debugging edge cases (such as distinguishing between plain objects and built-ins like `Math`), their profile lacks evidence of modern JavaScript frameworks or backend systems. Their work demonstrates strong problem-solving in object systems and performance tuning, but their contributions are limited to jQuery-specific contexts.",
+    "identified_skills": {
+      "Legacy JavaScript Ecosystem": [
+        "jQuery internals",
+        "ES5 object detection",
+        "Legacy DOM manipulation patterns"
+      ],
+      "Object Systems & Type Checking": [
+        "Plain object detection (`$.isPlainObject`)",
+        "Edge-case handling for built-in objects (`Math`)",
+        "Prototype-based type validation"
+      ],
+      "jQuery-Specific Contributions": [
+        "URL module utilities",
+        "Core utility refactoring",
+        "Version-specific maintenance (1.x master)"
+      ],
+      "Performance Optimization": [
+        "JavaScript runtime optimizations",
+        "Performance-focused PRs (indirect evidence)"
+      ],
+      "GitHub Contribution Practices": [
+        "PR-based learning contributions",
+        "Basic merge workflows"
+      ],
+      "Debugging & Testing": [
+        "Edge-case debugging for object systems",
+        "Bug fixes in type validation"
+      ],
+      "Module Systems": [
+        "CommonJS/AMD module awareness"
+      ]
+    },
+    "skill_evidence": [
+      "PR titled 'fix $.isPlainObject(param) when param is Math' demonstrates deep understanding of object detection edge cases and prototype-based type validation in JavaScript.",
+      "PR 'add url module first' implies involvement in modularizing jQuery's utilities, showing awareness of module systems (CommonJS/AMD) despite jQuery's legacy context.",
+      "Multiple PRs labeled 'improve performance' (though no code visible) suggest familiarity with JavaScript performance profiling and optimization patterns.",
+      "PR '1.x master' with Chinese text ('合并到我的代码中') indicates involvement in jQuery's versioning and maintenance, reflecting experience with legacy codebases.",
+      "Learning-oriented PRs (e.g., 'I am to learn how to use GitHub') show basic GitHub contribution workflow familiarity but not advanced technical contributions.",
+      "All PRs focus on jQuery's core utilities (`$.isPlainObject`), proving specialized knowledge of jQuery's internals and object system.",
+      "No evidence of modern JavaScript frameworks (React, Angular, Vue) or backend systems (Node.js, Express) in PR titles or descriptions."
+    ]
+  },
+  "statistics": {
+    "total_prs": 7,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

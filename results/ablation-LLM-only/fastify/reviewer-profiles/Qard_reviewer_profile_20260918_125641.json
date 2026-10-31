@@ -1,0 +1,80 @@
+{
+  "reviewer_name": "Qard",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 7,
+    "total_comments": 8,
+    "total_prs": 1,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "Qard",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Node.js",
+      "Express.js middleware",
+      "Event-driven architecture",
+      "Error handling (async/await, promises)",
+      "Diagnostic event systems",
+      "Code review feedback"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from robust error handling patterns)"
+    ],
+    "summary": "Qard is a senior-level JavaScript reviewer with deep expertise in Node.js backend systems, particularly Express.js middleware and event-driven architectures. Their reviews demonstrate strong focus on robust error handling, diagnostic observability, and defensive programming patterns. The reviewer excels in collaborative code review processes, providing iterative feedback that balances correctness with maintainability. Their work on versioned codebases (v5.x) suggests experience with stable, production-grade systems where reliability and observability are critical.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Node.js"
+      ],
+      "Asynchronous Patterns": [
+        "async/await",
+        "Promise error handling",
+        "EventEmitter"
+      ],
+      "Error Handling": [
+        "try/catch/finally blocks",
+        "defensive programming",
+        "unexpected error reporting"
+      ],
+      "Event Systems": [
+        "diagnostic event channels",
+        "structured event emission",
+        "event lifecycle management"
+      ],
+      "Code Quality": [
+        "minor nitpicks",
+        "cleanup mechanisms",
+        "maintainability focus"
+      ],
+      "Version Control": [
+        "versioned codebases (v5.x)",
+        "backward-compatible changes"
+      ],
+      "Review Process": [
+        "iterative feedback",
+        "constructive approvals",
+        "collaborative communication"
+      ],
+      "Observability": [
+        "diagnostics_channel events",
+        "structured logging"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'emit diagnostics_channel events upon routing request' indicates Express.js middleware handling HTTP routing events",
+      "Review comment suggesting 'try/finally to more reliably ensure end events happen' demonstrates async/await and Promise error handling expertise",
+      "Label 'v5.x' confirms involvement in a versioned Node.js project with stable release processes",
+      "Feedback about 'putting a catch in there too to be sure any unexpected errors get reported' shows defensive programming focus",
+      "Approval after 'minor nits' suggests attention to code quality beyond functional correctness",
+      "Use of 'diagnostics_channel' events indicates familiarity with observability patterns in backend systems",
+      "Iterative review process from CHANGES_REQUESTED → APPROVED demonstrates collaborative communication skills",
+      "No frontend framework references (React/Vue) in any review comments or PR titles"
+    ]
+  }
+}

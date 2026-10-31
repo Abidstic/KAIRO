@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "developer_name": "wraithgar",
+    "generation_timestamp": "2026-09-17T18:13:45.350615",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 554,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "wraithgar",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "npm CLI internals",
+      "Node.js dependency resolution",
+      "CI/CD pipeline reliability",
+      "Technical documentation",
+      "Testing improvements",
+      "JavaScript/TypeScript for backend systems"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "summary": "wraithgar is a senior JavaScript developer with deep expertise in npm CLI internals, Node.js dependency management, and CI/CD reliability. Their contributions focus on fixing core npm functionality (e.g., `npm ci`, package execution), improving documentation clarity, and debugging test flakiness. The developer demonstrates strong backend engineering skills with a specialization in npm’s internal systems, including Arborist dependency resolution and registry interactions. Their work spans both technical implementation and user-facing improvements, reflecting a balance of system-level understanding and developer experience optimization.",
+    "identified_skills": {
+      "npm Internals": [
+        "npm CI deterministic installs",
+        "dependency resolution logic",
+        "package execution (exec command)",
+        "Arborist dependency tree",
+        "registry API interactions (Packument)"
+      ],
+      "CI/CD & Testing": [
+        "CI/CD script handling (ignore-scripts)",
+        "flaky test debugging",
+        "test suite reliability",
+        "deterministic builds"
+      ],
+      "Documentation & UX": [
+        "CLI command documentation",
+        "technical writing for npm",
+        "user-facing error clarifications",
+        "man npm updates"
+      ],
+      "JavaScript/TypeScript Backend": [
+        "Node.js core systems",
+        "async/await patterns",
+        "child process management",
+        "streaming operations"
+      ],
+      "Versioning & Packaging": [
+        "latest version resolution",
+        "dependency caching",
+        "script execution model"
+      ],
+      "Collaboration": [
+        "issue triage",
+        "incremental improvements",
+        "community-focused fixes"
+      ]
+    },
+    "skill_evidence": [
+      "Fix for `npm ci` ignoring `--ignore-scripts` flag, demonstrating deep knowledge of npm’s installation logic and CI/CD script handling",
+      "PR modifying `npm exec` to use latest versions, showing familiarity with Arborist and registry API interactions",
+      "Multiple `fix(docs):` PRs for `npm start`, `npm test`, and `npm search`, proving expertise in technical documentation and UX clarity",
+      "Debugging flaky tests in npm’s test suite (e.g., `results.sort` coverage skip), indicating strong testing and CI/CD reliability skills",
+      "Updates to `man npm` documentation, reflecting attention to detail in user-facing technical writing",
+      "Changes to `npm uninstall` behavior, showing understanding of npm’s package management and script execution model",
+      "PRs addressing caching and version resolution in `npm search`, highlighting optimization-focused backend engineering"
+    ]
+  },
+  "statistics": {
+    "total_prs": 554,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

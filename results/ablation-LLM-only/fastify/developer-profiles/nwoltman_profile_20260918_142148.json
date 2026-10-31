@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "developer_name": "nwoltman",
+    "generation_timestamp": "2026-09-18T13:28:12.425856",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 56,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "nwoltman",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify Framework",
+      "Node.js Backend Development",
+      "JavaScript Async/Await",
+      "API Design & Backend Patterns",
+      "Error Handling & Debugging",
+      "Stream Processing",
+      "Plugin Development",
+      "Semantic Versioning"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Fastify ecosystem)"
+    ],
+    "summary": "nwoltman is a senior-level JavaScript developer with deep expertise in Fastify, specializing in backend architecture, performance optimization, and plugin development. Their contributions demonstrate mastery of Fastify's internals—including Request/Reply objects, hooks, middleware, and stream handling—alongside robust debugging, testing, and API design skills. The developer exhibits strong Node.js ecosystem awareness, particularly in Express compatibility and plugin systems, and has a proven track record of managing breaking changes and performance-critical code. Their work spans core framework improvements, documentation maintenance, and edge-case resilience, making them a trusted contributor to Fastify's development.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js"
+      ],
+      "Fastify Internals": [
+        "Request/Reply Objects",
+        "Hook System",
+        "Middleware",
+        "Routing",
+        "ContentTypeParser"
+      ],
+      "Asynchronous Programming": [
+        "async/await",
+        "Promises",
+        "Callback Patterns",
+        "Stream Handling"
+      ],
+      "Error Handling & Testing": [
+        "Error Handling Improvements",
+        "Test Debugging",
+        "CI Failure Resolution",
+        "Edge-Case Handling"
+      ],
+      "API Design & Compatibility": [
+        "Express.js Middleware",
+        "Plugin System",
+        "Breaking Change Management",
+        "Reply Methods"
+      ],
+      "Performance Optimization": [
+        "Code Simplification",
+        "Memory Efficiency",
+        "Reducing Allocations"
+      ],
+      "Documentation & Community": [
+        "Doc Updates",
+        "Plugin Documentation",
+        "Collaborator Management"
+      ],
+      "JavaScript Language": [
+        "Prototype OOP",
+        "Object Cloning",
+        "Context Binding",
+        "Modern JS Features"
+      ],
+      "Version Control & Releases": [
+        "Semantic Versioning",
+        "Breaking Change Management"
+      ]
+    },
+    "skill_evidence": [
+      "\"Always use a Request object when creating a Reply object\" – Demonstrates deep understanding of Fastify's Request/Reply lifecycle",
+      "\"Run onSend hooks when sending a stream\" – Shows expertise in Fastify's stream processing and hook system",
+      "\"Set req.originalUrl on each request\" – Proves awareness of Express middleware compatibility in Fastify",
+      "\"Add reply.notFound() method\" – Evidence of API design improvements for plugin compatibility",
+      "\"Simplify building Hooks and ContentTypeParser\" – Performance optimization targeting Fastify internals",
+      "\"Fix incorrect test\" – Debugging experience with Fastify's test suite and CI failures",
+      "\"Don't let async handler send 204 response twice\" – Handling edge cases in async/callback mixing",
+      "\"Update docs that mention fast-safe-stringify\" – Documentation maintenance and ecosystem awareness"
+    ]
+  },
+  "statistics": {
+    "total_prs": 56,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

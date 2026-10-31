@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "developer_name": "niedzielski",
+    "generation_timestamp": "2026-09-18T04:27:16.367747",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "niedzielski",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript type definitions",
+      "Preact framework",
+      "Web standards compliance (HTML/JSX)",
+      "TypeScript generics",
+      "Frontend JavaScript ecosystems"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)"
+    ],
+    "summary": "niedzielski is a mid-level JavaScript developer with specialized expertise in TypeScript type definitions and frontend frameworks like Preact. Their contributions focus on refining type systems to improve developer experience and compatibility with modern web standards. Evidence from three PRs shows deep precision in type refinement, particularly around component attributes, generic types, and HTML/JSX compatibility. While contributions are currently limited to frontend-focused type maintenance, their work demonstrates strong technical precision and an understanding of type-safe development patterns in React-like ecosystems.",
+    "identified_skills": {
+      "TypeScript Core": [
+        "Type definitions",
+        "Generic types",
+        "Type refinement",
+        "Type system debugging",
+        "TypeScript generics"
+      ],
+      "Frontend Frameworks": [
+        "Preact",
+        "React-like component systems",
+        "JSX attribute handling"
+      ],
+      "Web Standards": [
+        "HTML Preload",
+        "HTML attribute semantics",
+        "Modern web feature integration"
+      ],
+      "Developer Experience": [
+        "Type documentation",
+        "IntelliSense improvements",
+        "Ambiguity reduction in types"
+      ],
+      "Code Quality": [
+        "Precision-focused contributions",
+        "Targeted type improvements",
+        "Edge-case handling"
+      ],
+      "Backend/Full-Stack": [],
+      "Testing": [],
+      "Tooling": [],
+      "Documentation": []
+    },
+    "skill_evidence": [
+      "PR #3: Updated `HTMLAttributes` to support `as` attribute in `<link rel=\"preload\">` tags, aligning with modern web standards (HTML Preload).",
+      "PR #2: Refined `AnyComponent` type to support parameterized class usage, demonstrating deep TypeScript generics knowledge.",
+      "All PRs: Focused exclusively on type definitions with no runtime changes, indicating specialization in type system maintenance.",
+      "PR #1: Adjusted `Component.children` type to avoid ambiguous usage patterns, improving developer clarity.",
+      "PR #3: Explicitly avoided JSX workarounds like `{ as: 'style' }` in favor of native HTML attribute support.",
+      "All PRs: Contributions were minimal (0 additions/deletions in metadata), showing precision in targeted improvements.",
+      "PR #2: Title and description highlighted 'fix' for type limitations, indicating proactive type system debugging."
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "developer_name": "liamcmitchell",
+    "generation_timestamp": "2026-09-17T18:39:40.383243",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "liamcmitchell",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Node.js internals",
+      "npm CLI dependency resolution",
+      "Peer dependency handling",
+      "Lockfile parsing and pruning",
+      "Cross-platform debugging (Windows-specific)",
+      "Test fixture engineering",
+      "Internal state machine refactoring"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "Node.js (v16+)"
+    ],
+    "summary": "liamcmitchell is a **Senior Node.js engineer** with deep expertise in npm CLI internals, specializing in dependency resolution, peer dependency management, and lockfile optimization. Their contributions focus on refining npm’s core dependency logic, debugging cross-platform issues (particularly Windows-specific behaviors), and improving test reliability through advanced fixture engineering. The work demonstrates strong algorithmic skills in dependency tree traversal, state machine refactoring, and internal Node.js API usage. While primarily backend-focused, their technical depth in npm’s internals positions them as an expert in JavaScript package management systems.",
+    "identified_skills": {
+      "Dependency Systems": [
+        "npm CLI internals",
+        "Dependency resolution algorithms",
+        "Peer dependency conflict resolution",
+        "Lockfile parsing (package-lock.json)",
+        "Dependency pruning logic",
+        "Optional dependency handling"
+      ],
+      "Testing & Debugging": [
+        "Test fixture engineering",
+        "Cross-platform CI debugging (Windows)",
+        "Test optimization (reducing package lock size)",
+        "State transition validation",
+        "Dependency diff calculation"
+      ],
+      "Node.js Internals": [
+        "Internal Node.js API usage",
+        "Event loop/state machine refactoring",
+        "Node module system modifications",
+        "Inert/ideallyInert state management"
+      ],
+      "Algorithm Design": [
+        "Set operations for dependency flags",
+        "Recursive dependency traversal",
+        "Memoization in dependency resolution",
+        "Tree-based pruning algorithms"
+      ],
+      "Documentation & Maintenance": [
+        "Chore-based code clarity improvements",
+        "Test documentation refactoring",
+        "CI/CD optimization (package lock reduction)"
+      ],
+      "JavaScript Language": [
+        "ES6+ functional patterns",
+        "Immutable data handling",
+        "Recursive algorithms"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'fix: calculate omit in diff' shows dependency diff calculation using set operations and recursive logic",
+      "PR description mentions 'node.ideallyInert → node.inert' refactoring, indicating deep Node.js event loop/module system knowledge",
+      "Chore PR fixes 'test failures when running locally on windows', proving cross-platform debugging expertise",
+      "PR description includes 'fixed by adding files to fixture node_modules', demonstrating test fixture engineering skills",
+      "PR title 'chore: fix pruner and reify tests for optional peer deps' involves peer dependency conflict resolution and test optimization",
+      "Dependency pruning logic ('pruner') suggests advanced tree traversal algorithms for dependency management",
+      "Optional dependency handling PRs indicate expertise in peer dependency conflict resolution systems",
+      "State machine refactoring ('node.ideallyInert') shows understanding of internal Node.js state transitions"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

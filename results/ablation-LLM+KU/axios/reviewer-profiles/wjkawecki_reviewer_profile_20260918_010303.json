@@ -1,0 +1,52 @@
+{
+  "reviewer_name": "wjkawecki",
+  "generated_at": "20260918_010303",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 0,
+    "total_prs": 2,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "wjkawecki",
+    "experience_level": "Junior",
+    "primary_skills": [
+      "Node.js dependency management",
+      "Security-focused package updates",
+      "HTTP client libraries (Axios, follow-redirects)"
+    ],
+    "programming_languages": [
+      "JavaScript"
+    ],
+    "summary": "The reviewer demonstrates **limited but focused expertise** primarily in **Node.js dependency management**, specifically updating security-related packages like `follow-redirects`. Their contributions are confined to **semantic version bumps and CVE fixes**, with no evidence of broader JavaScript framework or advanced pattern knowledge. While they may have **basic Node.js exposure** (due to `follow-redirects` usage) and **indirect frontend exposure** (via Axios), their profile lacks depth in **testing, TypeScript, or modern frontend frameworks**. The reviewer appears to be **entry-level to mid-level**, with skills centered around **dependency hygiene and security updates** rather than full-stack or advanced JavaScript development.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise": [
+        "Node.js",
+        "Axios"
+      ],
+      "Asynchronous Programming": [],
+      "API Design & Consumption": [],
+      "Error Handling": [],
+      "Frontend Development Skills": [],
+      "Backend Development Skills": [
+        "Middleware"
+      ],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts": [],
+      "Functional Programming": [],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [],
+      "Event-Driven Architecture": [],
+      "Dependency Management": [
+        "npm/yarn"
+      ],
+      "Graphical Data Visualization": []
+    }
+  }
+}

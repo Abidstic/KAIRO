@@ -1,0 +1,63 @@
+{
+  "reviewer_name": "Philip-Carneiro-KX",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 0,
+    "total_prs": 1,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "Philip-Carneiro-KX",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Dependency Security",
+      "Node.js Package Management",
+      "Security Vulnerability Review"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js environment)"
+    ],
+    "summary": "Philip-Carneiro-KX demonstrates strong expertise in dependency security and Node.js package management, primarily through automated vulnerability patching for the `follow-redirects` package. Their reviews are limited to dependency upgrades with no visible JavaScript language or framework contributions. The reviewer appears to follow structured security review processes but lacks evidence of broader JavaScript or backend framework knowledge beyond HTTP client utilities. Their contributions are purely procedural and security-focused, with no technical debate or code-level feedback observed.",
+    "identified_skills": {
+      "Dependency Management": [
+        "npm/yarn package upgrades",
+        "semantic versioning",
+        "security-focused dependency updates"
+      ],
+      "Security Practices": [
+        "vulnerability triage",
+        "Snyk dependency scanning",
+        "high-severity patching"
+      ],
+      "Node.js Ecosystem": [
+        "HTTP client utilities",
+        "follow-redirects package",
+        "backend-focused tooling"
+      ],
+      "Review Process": [
+        "automated PR approvals",
+        "dependency-only change review",
+        "minimal manual intervention"
+      ],
+      "JavaScript Language": [],
+      "Backend Frameworks": [],
+      "Testing": [],
+      "DevOps/Infrastructure": [],
+      "Code Quality": []
+    },
+    "skill_evidence": [
+      "PR title: 'Bump follow-redirects from 1.15.0 to 1.15.4' (security vulnerability patch)",
+      "PR description references 'Snyk alert' for high-severity vulnerability in follow-redirects",
+      "PR approved with no comments or discussion (suggesting automated or standardized approval)",
+      "Zero code changes in PRs (only dependency updates)",
+      "Follow-redirects package used in axios repository (indicating HTTP client focus)",
+      "Semantic version bump from 1.15.0 → 1.15.4 (minor patch update)",
+      "No evidence of framework-specific knowledge (e.g., Express, React, NestJS)"
+    ]
+  }
+}

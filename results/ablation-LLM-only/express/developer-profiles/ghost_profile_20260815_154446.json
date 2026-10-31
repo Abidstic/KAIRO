@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "developer_name": "ghost",
+    "generation_timestamp": "2026-08-15T15:36:24.852380",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 21,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "ghost",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Express.js Core",
+      "Node.js Runtime",
+      "JavaScript ES6+",
+      "Middleware Patterns",
+      "Template Engines",
+      "Documentation Contributions",
+      "CI/CD Configuration"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "CoffeeScript (Eco template engine)"
+    ],
+    "summary": "A backend-focused JavaScript developer with deep expertise in Express.js, specializing in middleware manipulation, HTTP server customization, and template engine integration. Contributes actively to Express's core functionality and documentation, demonstrating strong problem-solving skills for common Express use cases. Experience with Node.js runtime internals and CI/CD pipelines, primarily focused on backend development without visible frontend or testing contributions.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Express.js",
+        "Middleware Patterns",
+        "HTTP Server Customization"
+      ],
+      "JavaScript Language": [
+        "ES6+ Features",
+        "Prototype-Based OOP"
+      ],
+      "Template Systems": [
+        "Eco (Embedded CoffeeScript)",
+        "Multi-View-Root Support"
+      ],
+      "Node.js Runtime": [
+        "HTTP Server Switching (uWS)",
+        "Node.js Version Compatibility"
+      ],
+      "Documentation & Community": [
+        "Guide Updates",
+        "Feature Documentation"
+      ],
+      "Security": [
+        "Static File Security"
+      ],
+      "DevOps": [
+        "CI/CD Configuration (Travis CI, AppVeyor)"
+      ],
+      "Problem-Solving": [
+        "Dynamic Middleware Removal",
+        "API Improvements"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Added router.disuse and app.disuse' — demonstrates middleware manipulation and prototype-based OOP in Express",
+      "PR: 'Add UWS_HTTP environment variable' — shows Node.js runtime customization and HTTP server switching",
+      "PR: 'Update guide to ES6' — confirms ES6+ language knowledge and documentation contributions",
+      "PR: 'Add eco to template languages section' — evidence of template engine integration and view system expertise",
+      "PR: 'multi view-root support' — demonstrates deep understanding of Express's template resolution system",
+      "PR: 'Change res.links() to accept array' — middleware and response object customization in Express",
+      "PR: 'Add Travis CI and AppVeyor coverage' — CI/CD configuration for Node.js version compatibility",
+      "PR: 'Secure static files' — hints at security-focused contributions to Express"
+    ]
+  },
+  "statistics": {
+    "total_prs": 21,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

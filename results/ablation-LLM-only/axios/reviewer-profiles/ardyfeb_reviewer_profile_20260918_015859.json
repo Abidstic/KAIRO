@@ -1,0 +1,57 @@
+{
+  "reviewer_name": "ardyfeb",
+  "generated_at": "20260918_015859",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 3,
+    "total_comments": 3,
+    "total_prs": 1,
+    "repos": [
+      "axios"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "ardyfeb",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript generics",
+      "API response typing",
+      "Backend JavaScript (Node.js ecosystem)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "ardyfeb demonstrates strong TypeScript expertise with a focus on generic type systems and API response typing, as evidenced by repeated PR discussions around moving response type generics. Their reviews suggest familiarity with backend JavaScript patterns, likely within a Node.js framework (e.g., Express or NestJS). However, the analysis is limited by incomplete PR data (no file changes or review comments), making deeper technical insights speculative. Their engagement appears focused on type safety discussions rather than broader frontend or testing concerns.",
+    "identified_skills": {
+      "TypeScript Advanced": [
+        "TypeScript generics",
+        "Response type typing",
+        "Generic interfaces"
+      ],
+      "Backend Patterns": [
+        "API response design",
+        "Type-safe middleware"
+      ],
+      "Code Review Focus": [
+        "Type safety feedback",
+        "Design discussion"
+      ],
+      "Backend Frameworks": [],
+      "Frontend Frameworks": [],
+      "Testing": [],
+      "Tooling": [],
+      "Asynchronous Patterns": [],
+      "Error Handling": []
+    },
+    "skill_evidence": [
+      "PR title 'Move response type generic to last' indicates expertise in TypeScript generics and API response typing",
+      "Repeated 'COMMENTED' state across 3 PRs suggests active participation in design discussions around generics",
+      "No file changes (`files_changed: 0`) implies meta-level review (e.g., architectural decisions) rather than implementation details",
+      "Lack of frontend-related terms in PR titles/descriptions rules out frontend framework expertise",
+      "Backend context inferred from 'response type' terminology, common in Node.js backend APIs",
+      "No evidence of testing frameworks (Jest, Mocha) or build tools (Webpack, Vite) in available data"
+    ]
+  }
+}

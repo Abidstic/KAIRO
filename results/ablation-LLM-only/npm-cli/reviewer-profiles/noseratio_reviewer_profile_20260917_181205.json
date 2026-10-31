@@ -1,0 +1,34 @@
+{
+  "reviewer_name": "noseratio",
+  "generated_at": "20260917_181205",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 4,
+    "total_prs": 1,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "noseratio",
+    "experience_level": "N/A",
+    "primary_skills": [],
+    "programming_languages": [],
+    "summary": "The reviewer 'noseratio' has no demonstrable JavaScript-related skills or expertise based on the provided GitHub review data. All reviewed pull requests are PowerShell-focused with no JavaScript code changes, comments, or technical discussions. The absence of JavaScript files, frameworks, or language features in the PRs makes it impossible to assess their proficiency in JavaScript or related technologies. Further evidence from JavaScript-related contributions is required for any valid assessment.",
+    "identified_skills": {
+      "PowerShell": [],
+      "Code Review (Non-JS)": [],
+      "PR Metadata Management": []
+    },
+    "skill_evidence": [
+      "All PRs labeled 'fix(powershell)' with no JavaScript files changed",
+      "Files changed: 0, additions: 0, deletions: 0 in all reviewed PRs",
+      "No JavaScript-related labels, topics, or keywords in PR descriptions",
+      "No review comments or technical feedback on JavaScript code or patterns",
+      "No evidence of JavaScript frameworks, libraries, or modern language features",
+      "No references to Node.js, React, Vue, TypeScript, or backend/frontend concepts"
+    ]
+  }
+}

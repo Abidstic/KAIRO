@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "developer_name": "roicos",
+    "generation_timestamp": "2026-09-17T22:58:47.791048",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "roicos",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js internals",
+      "Logarithmic scale handling",
+      "Visual debugging",
+      "JavaScript object manipulation",
+      "Axis scaling algorithms",
+      "Edge-case testing"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "Mid-level JavaScript developer with specialized expertise in Chart.js, particularly logarithmic scale rendering and axis visualization. Demonstrates strong debugging skills through visual validation and edge-case handling, with a focus on fixing rendering artifacts in data visualizations. Experience primarily in manipulating Chart.js's internal data structures and configuration properties. Contributions are highly targeted to the charting library's core functionality, with no evidence of broader frontend or backend work.",
+    "identified_skills": {
+      "Charting Libraries": [
+        "Chart.js internals",
+        "Logarithmic scale implementation",
+        "Axis tick generation",
+        "Visual rendering bugs"
+      ],
+      "JavaScript Core": [
+        "Object property manipulation",
+        "Dynamic configuration assignment",
+        "Prototype-based systems"
+      ],
+      "Debugging & Validation": [
+        "Visual debugging with screenshots",
+        "Edge-case empirical testing",
+        "Issue triage and linking"
+      ],
+      "Technical Communication": [
+        "PR description clarity",
+        "Issue reference linking",
+        "Collaborative engagement"
+      ],
+      "Testing": [
+        "Manual visual validation",
+        "Empirical testing of rendering fixes"
+      ],
+      "Mathematical Foundations": [
+        "Logarithmic scale mathematics",
+        "Zero-value handling in scales"
+      ]
+    },
+    "skill_evidence": [
+      "PRs address 'logarithmic scale bugs' with focus on handling `0` values (e.g., #2966, #3917)",
+      "Descriptions reference 'crushed graph' visual artifacts requiring screenshot-based fixes",
+      "Fixes involve setting `minNotZero` based on `fontSize` (dynamic property assignment)",
+      "PRs link related issues (#3917 references #2966) showing deep engagement with problem context",
+      "All contributions are for Chart.js repository, indicating deep specialization",
+      "No evidence of frontend frameworks (React/Vue) or backend systems (Node.js)",
+      "Testing appears manual with visual validation of fixes (e.g., 'allows users 0 values without crushing')",
+      "Mathematical discussion in PRs about why `0` breaks logarithmic scales"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

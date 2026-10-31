@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "developer_name": "advaittrivedi1122",
+    "generation_timestamp": "2026-09-18T02:29:07.162797",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "advaittrivedi1122",
+    "experience_level": "Mid-Level",
+    "primary_skills": [
+      "Axios HTTP client library",
+      "JavaScript object serialization",
+      "Browser file upload APIs",
+      "HTTP request body handling",
+      "Debugging edge cases in JavaScript",
+      "Environment-specific adapter patterns"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Axios ecosystem)"
+    ],
+    "summary": "Mid-level JavaScript developer with specialized expertise in Axios' HTTP client library, particularly in handling file uploads and request body serialization. Demonstrates strong debugging skills for edge cases in JavaScript object serialization (e.g., Set objects) and deep understanding of browser/Node.js interoperability through adapter patterns. Contributions focus on extending Axios' core functionality for file uploads and improving data handling robustness. Experience primarily in backend/JavaScript runtime environments with evidence of attention to detail in fixing subtle bugs and maintaining code quality.",
+    "identified_skills": {
+      "HTTP Client Libraries": [
+        "Axios",
+        "httpAdapter",
+        "Request body serialization"
+      ],
+      "Browser APIs": [
+        "File objects",
+        "FormData",
+        "Blob handling"
+      ],
+      "JavaScript Core": [
+        "Object serialization",
+        "Set handling",
+        "JSON.stringify behavior"
+      ],
+      "Environment Interop": [
+        "Node.js/browser adapter patterns",
+        "Environment-specific APIs"
+      ],
+      "Debugging & Testing": [
+        "Edge-case reproduction",
+        "Issue tracking",
+        "Minimal test cases"
+      ],
+      "Code Quality": [
+        "Modular contributions",
+        "Backward compatibility",
+        "Clear documentation"
+      ],
+      "File Upload Workflows": [
+        "Multipart uploads",
+        "Streaming request data",
+        "Binary data handling"
+      ],
+      "Data Structures": [
+        "Set",
+        "Object serialization edge cases"
+      ]
+    },
+    "skill_evidence": [
+      "PR #3: Fixed toJSONObject not handling Set properly, demonstrating JavaScript object serialization debugging and Set object edge-case awareness",
+      "PR #1 & #2: Added support for File as request body, showing browser File API and FormData/Blob handling expertise",
+      "PRs reference GitHub issues #5965 and #5910, indicating systematic debugging and issue reproduction",
+      "Modifications to httpAdapter suggest deep understanding of Axios' environment-specific adapter system",
+      "Small, focused PRs with clear descriptions show modular thinking and maintainability focus",
+      "File upload PRs imply experience with streaming or chunked uploads for large File objects",
+      "No frontend framework involvement detected, confirming backend/JavaScript runtime specialization"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

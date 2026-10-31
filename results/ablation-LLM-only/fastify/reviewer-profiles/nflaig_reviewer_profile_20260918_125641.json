@@ -1,0 +1,79 @@
+{
+  "reviewer_name": "nflaig",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 8,
+    "total_comments": 9,
+    "total_prs": 3,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "nflaig",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript schema design",
+      "API request/response validation",
+      "Node.js backend development",
+      "Content-type negotiation",
+      "Code review for type safety"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)"
+    ],
+    "summary": "nflaig demonstrates a strong mid-level expertise in TypeScript-focused backend development, particularly in API schema design and runtime type validation. Their reviews show deep technical engagement with content-type handling, route schemas, and version compatibility. The reviewer excels in code review for type safety and documentation clarity, with evidence of backporting experience across versions. While primarily backend-oriented, their skills align with modern JavaScript ecosystems like Express/Fastify and runtime validation libraries.",
+    "identified_skills": {
+      "TypeScript": [
+        "TypeScript interfaces",
+        "Optional/nullable types",
+        "Schema validation design",
+        "Type safety reviews"
+      ],
+      "Backend Frameworks": [
+        "Express.js-like middleware",
+        "Route schema handling",
+        "Content-type negotiation"
+      ],
+      "Validation & Runtime Types": [
+        "Runtime schema validation",
+        "Default value handling",
+        "Type enforcement"
+      ],
+      "Versioning & Maintenance": [
+        "Semantic versioning",
+        "Backporting strategies",
+        "Version compatibility"
+      ],
+      "Code Review Practices": [
+        "Type safety feedback",
+        "Documentation refinement",
+        "Edge case scrutiny"
+      ],
+      "API Design": [
+        "Request/response modeling",
+        "Content-type-specific schemas"
+      ],
+      "Testing Awareness": [
+        "Fix-oriented PRs"
+      ],
+      "Documentation": [
+        "Schema documentation",
+        "JSDoc/TypeScript type annotations"
+      ]
+    },
+    "skill_evidence": [
+      "PR titles explicitly tagged with 'typescript' (e.g., 'feat: support different body schema per content type')",
+      "'backport 4.x' label indicates versioning and backporting experience across major/minor versions",
+      "Fix PRs like 'fix: set default value for route schema to match type' show deep focus on type safety and runtime behavior",
+      "All PRs in 'COMMENTED' state suggest thorough technical review of type definitions and API contracts",
+      "'documentation' label on multiple PRs implies attention to schema documentation and clarity",
+      "Content-type negotiation patterns (e.g., 'support different body schema per content type') align with Express/Fastify middleware",
+      "Optional type handling (e.g., 'might be undefined') demonstrates practical TypeScript generics and optional chaining",
+      "Review state indicates collaborative refinement of schemas for edge cases like undefined defaults"
+    ]
+  }
+}

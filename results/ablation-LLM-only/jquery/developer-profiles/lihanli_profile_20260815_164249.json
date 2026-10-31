@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "developer_name": "lihanli",
+    "generation_timestamp": "2026-08-15T16:32:19.098737",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "lihanli",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "jQuery DOM manipulation",
+      "CSS !important handling",
+      "WebKit browser compatibility fixes",
+      "DOM event delegation",
+      "Legacy JavaScript debugging"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "CSS"
+    ],
+    "summary": "lihanli is a Mid-level JavaScript developer with specialized expertise in jQuery's DOM manipulation and CSS rendering quirks. Their contributions focus on fixing browser-specific issues (particularly WebKit) related to style inheritance, event handling, and legacy DOM behavior. The developer demonstrates strong debugging skills and deep knowledge of jQuery's core functionality, particularly around show/hide methods and !important overrides. While their experience is concentrated in legacy JavaScript systems, their precision in resolving complex DOM/CSS conflicts suggests valuable frontend debugging capabilities. Growth opportunities would likely involve expanding beyond jQuery to modern frontend frameworks and tooling.",
+    "identified_skills": {
+      "DOM Manipulation": [
+        "jQuery show/hide methods",
+        "DOM event delegation",
+        "Inline style overrides"
+      ],
+      "CSS Rendering": [
+        "!important style resolution",
+        "CSS specificity conflicts",
+        "WebKit browser quirks"
+      ],
+      "Browser Compatibility": [
+        "WebKit-specific fixes",
+        "Cross-browser DOM behavior",
+        "Legacy browser support"
+      ],
+      "Legacy JavaScript": [
+        "jQuery internals",
+        "ES5 patterns",
+        "DOM manipulation APIs"
+      ],
+      "Debugging": [
+        "Bug reproduction",
+        "Issue triage",
+        "Minimalist fixes"
+      ],
+      "Frontend Frameworks": [
+        "jQuery"
+      ],
+      "Testing": [],
+      "Build Systems": [],
+      "Backend Systems": []
+    },
+    "skill_evidence": [
+      "PR #14394: \"Allow changing style !important in WebKit\" - demonstrates WebKit-specific !important handling and CSS rendering knowledge",
+      "PR #14487: \"Show and hide will override !important inline or CSS style\" - shows deep understanding of jQuery's style override behavior",
+      "All PRs reference existing bug tickets (#12655, #14394, #14487) indicating thorough issue triage and debugging process",
+      "Mouse vs. keyboard event handling fixes suggest expertise in jQuery's event delegation system",
+      "No code changes listed in PRs but detailed bug descriptions imply complex DOM/CSS debugging work",
+      "All contributions are to jQuery's core DOM manipulation methods (show/hide, style manipulation)",
+      "WebKit browser compatibility fixes indicate knowledge of legacy browser DOM behavior quirks",
+      "Focus on minimal, targeted fixes suggests precision in resolving edge cases rather than broad refactoring"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

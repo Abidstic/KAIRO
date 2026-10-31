@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "developer_name": "ntwb",
+    "generation_timestamp": "2026-08-15T16:38:49.756192",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "ntwb",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript Linting (JSHint, JSCS)",
+      "Grunt.js Plugin Configuration",
+      "Legacy JavaScript Tooling",
+      "Code Style Enforcement",
+      "Toolchain Migration"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6)"
+    ],
+    "summary": "ntwb is a mid-level JavaScript developer with specialized expertise in legacy JavaScript tooling, particularly focusing on linting and code style enforcement. Their contributions demonstrate deep familiarity with JSHint and JSCS, Grunt.js plugin management, and maintaining build automation pipelines for older JavaScript projects. The developer shows strong awareness of tooling evolution and deprecation handling, primarily within the jQuery ecosystem. While their contributions are tooling-centric rather than framework-focused, their ability to manage complex build systems and enforce consistent code standards indicates a strong foundation in JavaScript development practices.",
+    "identified_skills": {
+      "Linting & Code Quality": [
+        "JSHint configuration",
+        "JSCS (JavaScript Code Style)",
+        "Code style rule enforcement",
+        "Deprecated linting option removal"
+      ],
+      "Build Automation": [
+        "Grunt.js plugin integration",
+        "Gruntfile.js configuration",
+        "Toolchain dependency upgrades",
+        "Legacy build system maintenance"
+      ],
+      "Tooling Evolution": [
+        "Legacy tool migration",
+        "Deprecated package replacement",
+        "Modern linter adoption",
+        "Tooling deprecation awareness"
+      ],
+      "JavaScript Ecosystem": [
+        "jQuery repository contributions",
+        "Legacy JavaScript project maintenance",
+        "Community-driven tooling updates"
+      ],
+      "Configuration Management": [
+        "Grunt plugin configuration",
+        "Linting rule presets",
+        "Build script adjustments"
+      ],
+      "Version Control & Collaboration": [
+        "Pull request review",
+        "Issue triage",
+        "Community contribution"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1: 'Remove deprecated JSHint options' - references JSHint's deprecated options (`onevar`, `smarttabs`) and its shift toward non-stylistic warnings",
+      "PR 1: Direct link to JSHint source code indicates familiarity with its implementation and configuration",
+      "PR 2: 'Use grunt-jscs over deprecated grunt-jscs-checker' - demonstrates knowledge of Grunt plugin evolution and dependency management",
+      "PR 2: References Grunt's plugin ecosystem and the need to replace outdated tools proactively",
+      "PR 3: 'JSCS code-style updates' - involves JSCS configuration adjustments, showing hands-on experience with style enforcement",
+      "PR 3: Collaboration with jQuery maintainers on tooling updates indicates experience in legacy project maintenance",
+      "All PRs: Contributions to jQuery repository demonstrate expertise in maintaining older JavaScript tooling ecosystems",
+      "PR 2: Replacement of `grunt-jscs-checker` with `grunt-jscs` shows ability to manage build system upgrades and dependency conflicts"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

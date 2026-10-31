@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "lockchou",
+    "generation_timestamp": "2026-08-15T18:11:07.390847",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "lockchou",
+    "raw_response": "```json\n{\n  \"developer_name\": \"lockchou\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Moment.js localization\",\n    \"Internationalization (i18n) string formatting\",\n    \"JavaScript string manipulation\",\n    \"Unicode character handling\",\n    \"Library maintenance (locale updates)\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES5/ES6)\"\n  ],\n  \"summary\": \"lockchou is a JavaScript developer with specialized expertise in localization and internationalization within the Moment.js ecosystem. Their contributions focus on precise string-based improvements for Chinese locale time formatting, demonstrating strong attention to detail and cultural specificity. While their PRs show no evidence of advanced JavaScript features or broader framework experience, their work reveals deep familiarity with Moment.js's locale system and internationalization patterns. The developer's contributions are consistent, niche, and impactful for users requiring accurate Chinese time formatting in Moment.js.\",\n  \"identified_skills\": {\n    \"Localization & Internationalization\": [\n      \"Moment.js locale files (zh-cn.js, zh-tw.js)\",\n      \"Time unit localization (e.g., '分' for minutes)\",\n      \"Locale-specific string formatting\",\n      \"Cultural time format conventions\"\n    ],\n    \"JavaScript String Operations\": [\n      \"Unicode character appending\",\n      \"String concatenation in locale templates\",\n      \"Non-ASCII character handling\"\n    ],\n    \"Library Maintenance\": [\n      \"Moment.js locale system updates\",\n      \"Minor but meaningful library improvements\",\n      \"Testing workflow awareness (PR labels)\"\n    ],\n    \"Testing Practices\": [\n      \"Needs tests\" PR labeling\n    ],\n    \"Attention to Detail\": [\n      \"Precise, minimal string updates\",\n      \"Clear PR descriptions\",\n      \"Focused cultural correctness\"\n    ],\n    \"JavaScript Ecosystem\": [],\n    \"Modern JavaScript Features\": [],\n    \"Frontend Frameworks\": [],\n    \"Backend Systems\": []\n  },\n  \"skill_evidence\": [\n    \"PRs update zh-cn.js/zh-tw.js with Chinese time unit '分' (e.g., minutes formatting)\",\n    \"All PRs show files_changed=0 but include descriptive text about locale string additions\",\n    \"PR titles/descriptions explicitly mention 'Add \"分\" to minutes in Chinese locale'\",\n    \"PRs labeled 'Needs tests' indicating familiarity with Moment.js testing workflows\",\n    \"No evidence of JavaScript logic changes—only string/textual updates in locale files\",\n    \"Consistent contributions to a single repository (Moment.js) with no framework/architecture changes\",\n    \"Unicode character '分' appended to existing locale format strings without breaking changes\"\n  ]\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 33 column 21 (char 1661)"
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

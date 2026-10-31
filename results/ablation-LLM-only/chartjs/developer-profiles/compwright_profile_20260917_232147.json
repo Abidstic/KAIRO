@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "compwright",
+    "generation_timestamp": "2026-09-17T23:19:02.527811",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "compwright",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js core development",
+      "JavaScript event handling",
+      "Plugin architecture for JavaScript libraries",
+      "Breaking change management",
+      "Interactive data visualization",
+      "DOM event flow control"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Chart.js ecosystem)"
+    ],
+    "summary": "compwright is a mid-level JavaScript developer with specialized expertise in Chart.js, focusing on core event systems, plugin development, and API consistency. Their contributions demonstrate deep knowledge of interactive data visualization, event delegation, and breaking change management in JavaScript libraries. While primarily frontend-focused, their work highlights proficiency in modular JavaScript patterns and frontend UI/UX interactions.",
+    "identified_skills": {
+      "Charting Libraries": [
+        "Chart.js core architecture",
+        "Event-driven chart interactions",
+        "Plugin system integration"
+      ],
+      "JavaScript Event Systems": [
+        "Event delegation",
+        "Event propagation control",
+        "Callback argument handling"
+      ],
+      "API Design & Stability": [
+        "Breaking change documentation",
+        "API consistency improvements",
+        "Backward compatibility considerations"
+      ],
+      "Frontend UI Patterns": [
+        "Interactive chart elements",
+        "DOM event handling",
+        "Custom event listeners"
+      ],
+      "JavaScript Language": [
+        "ES6+ features (arrow functions, destructuring)",
+        "Modular JavaScript (ES6 modules)"
+      ],
+      "Library Development": [
+        "Plugin development lifecycle",
+        "Hook-based extensions",
+        "Custom event systems"
+      ],
+      "Documentation & Communication": [
+        "Breaking change labels",
+        "Clear PR descriptions"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Added 'chartjs-plugin-draggable' with custom event listeners for drag interactions, demonstrating plugin development and event-driven UI patterns",
+      "PR #2: Labeled as BREAKING CHANGE for 'onHover' callback argument reordering, showing API design expertise and documentation practices",
+      "PR #2: Changed 'onHover' signature from '(activeElements, event)' to '(event, activeElements)', proving event object manipulation skills",
+      "PR #3: Addressed event propagation issues with 'event.stopImmediatePropagation()', highlighting DOM event flow control knowledge",
+      "PR descriptions reference 'event delegation' and 'consistent API design', supporting event system and API stability skills",
+      "All PRs involve Chart.js internals, proving deep understanding of the library's plugin architecture and event system",
+      "Plugin creation implies familiarity with modular JavaScript patterns and ES6 module systems",
+      "Breaking change documentation shows awareness of API stability and community impact considerations"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

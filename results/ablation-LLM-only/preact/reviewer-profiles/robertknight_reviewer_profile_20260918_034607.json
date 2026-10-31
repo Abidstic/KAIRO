@@ -1,0 +1,19 @@
+{
+  "reviewer_name": "robertknight",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 3,
+    "total_prs": 1,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "robertknight",
+    "raw_response": "```json\n{\n  \"reviewer_name\": \"robertknight\",\n  \"experience_level\": \"Senior\",\n  \"primary_skills\": [\n    \"JavaScript ES6+ features (iterables, Symbol)\",\n    \"React/Preact virtual DOM optimization\",\n    \"Cross-browser compatibility testing\",\n    \"Code review rigor and edge-case handling\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript (inferred from Preact ecosystem)\"\n  ],\n  \"summary\": \"robertknight is a Senior-level JavaScript reviewer with deep expertise in React/Preact virtual DOM internals, ES6+ language features, and cross-browser compatibility. Their reviews demonstrate rigorous attention to edge cases (e.g., Symbol support), rendering optimizations (stack-based child processing), and collaborative problem-solving. The reviewer excels in evaluating compatibility changes between frameworks and ensuring correctness before approval.\",\n  \"identified_skills\": {\n    \"JavaScript Core\": [\n      \"Iterables (for...of, Symbol.iterator)\",\n      \"Symbol primitive and environment-specific behavior\",\n      \"ES6+ language features\"\n    ],\n    \"Rendering & Virtual DOM\": [\n      \"React/Preact reconciliation algorithms\",\n      \"Stack-based rendering optimization\",\n      \"Children prop processing\"\n    ],\n    \"Testing & Quality\": [\n      \"Cross-browser compatibility testing\",\n      \"Edge-case handling (missing features)\",\n      \"Defensive programming patterns\"\n    ],\n    \"Code Review Practices\": [\n      \"Multi-stage review process (CHANGES_REQUESTED → APPROVED)\",\n      \"Optimization-focused feedback\",\n      \"Collaborative discussion on technical tradeoffs\"\n    ],\n    \"Library-Specific\": [\n      \"Preact compatibility layer (preact-compat)\",\n      \"React-like API implementation\"\n    ],\n    \"Framework Ecosystem\": [\n      \"React/Preact internals\",\n      \"Virtual DOM diffing\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR title: 'Add support for all iterable children, not just Arrays' (demonstrates iterable handling)\",\n    \"Comment: 'The test for Symbol support will throw an error in browsers where it isn\\'t defined' (Symbol awareness + testing)\",\n    \"Discussion on 'pushing children on to the stack in reverse order' (stack-based rendering logic)\",\n    \"Review state transition: CHANGES_REQUESTED → APPROVED (rigorous multi-stage review)\",\n    \"Focus on 'children being added to the stack' (React/Preact reconciliation knowledge)\",\n    \"WIP label on PR (edge-case testing mindset)\",\n    \"Approval contingent on Symbol compatibility fix (cross-browser rigor)\"\n  ]\n}\n```",
+    "parsing_error": "Invalid \\escape: line 47 column 88 (char 2030)"
+  }
+}

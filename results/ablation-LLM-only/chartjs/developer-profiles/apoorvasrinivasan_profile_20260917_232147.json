@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "developer_name": "apoorvasrinivasan",
+    "generation_timestamp": "2026-09-17T23:19:37.624592",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "apoorvasrinivasan",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Chart.js customization and bug fixing",
+      "JavaScript callback-based programming",
+      "Frontend data visualization",
+      "Edge-case handling in chart rendering"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "apoorvasrinivasan demonstrates **Mid-level JavaScript expertise** focused on frontend data visualization, particularly with Chart.js. Their contributions show strong ability to enhance and debug charting library features, including tooltip customization, tick rendering, and callback-based interactions. While their experience is narrowly concentrated in Chart.js, the PRs reveal proficiency in modern JavaScript patterns (callbacks, object-oriented design) and problem-solving for visualization edge cases. No evidence of backend, testing, or broader JavaScript ecosystem work is visible in the provided data.",
+    "identified_skills": {
+      "Frontend Data Visualization": [
+        "Chart.js",
+        "Canvas-based rendering",
+        "Tooltip customization",
+        "Tick generation"
+      ],
+      "JavaScript Patterns": [
+        "ES6+ classes",
+        "Callback functions",
+        "Object-oriented design"
+      ],
+      "Bug Resolution": [
+        "Edge-case debugging",
+        "Input validation",
+        "Visual rendering fixes"
+      ],
+      "Issue Triage": [
+        "GitHub issue referencing",
+        "Problem description clarity"
+      ],
+      "API Design": [
+        "New callback introduction",
+        "Public API enhancements"
+      ],
+      "Documentation": [
+        "PR description clarity"
+      ],
+      "Testing": [],
+      "Backend/JavaScript": [],
+      "Build Tools": [],
+      "TypeScript": [],
+      "State Management": []
+    },
+    "skill_evidence": [
+      "PR #2 introduces `textLabelColor` callback for Chart.js tooltips, demonstrating callback-based API design",
+      "PR #3 fixes incorrect tick generation when `ticks:{min:60}` is set, showing edge-case debugging in data visualization",
+      "All PRs reference GitHub issues (#4191, #4216) with clear problem descriptions, indicating strong issue triage skills",
+      "No code changes in PRs (`files_changed: 0`), but descriptions imply deep understanding of Chart.js internals (e.g., canvas rendering)",
+      "PRs involve frontend-only JavaScript, with no backend, testing, or build tool references",
+      "Evidence of defensive programming in handling unexpected inputs (e.g., `ticks.min` without data)",
+      "Contributions focus exclusively on Chart.js, with no evidence of broader JavaScript ecosystem work"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

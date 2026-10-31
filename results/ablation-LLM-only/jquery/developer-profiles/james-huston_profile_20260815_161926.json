@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "developer_name": "james-huston",
+    "generation_timestamp": "2026-08-15T16:15:37.510811",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 7,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 7
+  },
+  "profile": {
+    "developer_name": "james-huston",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Legacy JavaScript Testing (Jasmine/QUnit)",
+      "jQuery Core Maintenance",
+      "JavaScript Error Handling & Edge Cases",
+      "Test Suite Enforcement & Linting",
+      "DOM & AJAX Manipulation Patterns"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES3)",
+      "jQuery"
+    ],
+    "summary": "James Huston is a mid-level JavaScript developer with deep expertise in legacy JavaScript ecosystems, specializing in jQuery's test suite maintenance and JavaScript core behavior enforcement. Their contributions focus on ensuring robust test coverage, enforcing testing standards (e.g., requiring `expect()` assertions), and debugging edge cases like `JSON.parse` error handling. The profile reflects strong skills in legacy testing frameworks (Jasmine/QUnit) and jQuery internals, with no evidence of modern JavaScript frameworks or tooling. Their work demonstrates meticulous attention to code quality and test reliability in older codebases, positioning them as a specialist in maintaining and refining legacy JavaScript systems.",
+    "identified_skills": {
+      "Legacy Testing Frameworks": [
+        "Jasmine",
+        "QUnit",
+        "Assertion-based testing"
+      ],
+      "JavaScript Core Behavior": [
+        "JSON.parse error handling",
+        "SyntaxError exceptions",
+        "Edge-case testing"
+      ],
+      "jQuery Internals": [
+        "DOM traversal",
+        "Event handling",
+        "CSS manipulation",
+        "AJAX support"
+      ],
+      "Test Suite Architecture": [
+        "Test structure enforcement",
+        "Meta-testing",
+        "Test linting"
+      ],
+      "Legacy JavaScript Patterns": [
+        "Pre-ES6 JavaScript",
+        "Legacy DOM manipulation",
+        "Legacy AJAX patterns"
+      ],
+      "Code Quality & Standards": [
+        "Test assertion requirements",
+        "Consistency audits",
+        "Standards enforcement"
+      ],
+      "Error Handling Debugging": [
+        "Discrepancy resolution",
+        "Specification compliance"
+      ],
+      "Incremental Code Maintenance": [
+        "Small, focused improvements",
+        "Test reliability"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Enforce expects in css.js' — enforces test assertion requirements across jQuery modules",
+      "PR: 'Ensure all tests have an expect() in ajax.js' — systematic test structure enforcement",
+      "PR: 'parseJSON to match throws on JSON.parse on errors ticket #12751' — debugging JavaScript core error behavior",
+      "All PRs reference Issue #53 (2012 Dev Summit) — legacy testing framework context (QUnit/Jasmine)",
+      "No code changes in PRs — focus on meta-testing and standards enforcement",
+      "PRs target core jQuery modules: css.js, effects.js, event.js, traversing.js, manipulation.js, ajax.js",
+      "PRs mention 'expects' — evidence of Jasmine/QUnit assertion patterns",
+      "PRs reference 'ticket #12751' — indicates debugging JavaScript specification compliance"
+    ]
+  },
+  "statistics": {
+    "total_prs": 7,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

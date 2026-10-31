@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "developer_name": "mhassan1",
+    "generation_timestamp": "2026-09-18T02:14:18.397237",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "mhassan1",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Axios internals (HTTP client)",
+      "JavaScript URL/URI parsing",
+      "HTTP adapter consistency (XHR, Fetch, HTTP)",
+      "RFC-compliant networking code",
+      "Edge-case debugging in JavaScript",
+      "Config propagation in HTTP clients"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Axios context)"
+    ],
+    "summary": "mhassan1 is a Senior JavaScript engineer with deep expertise in Axios' HTTP client internals, specializing in URL construction, HTTP adapter consistency, and RFC-compliant networking logic. Their contributions demonstrate advanced debugging skills, particularly in handling edge cases like Data URIs, config propagation, and cross-adapter behavior. The developer shows a strong understanding of JavaScript's object model, regex patterns, and standards compliance, with a focus on maintaining backward compatibility and code quality in a high-impact open-source project.",
+    "identified_skills": {
+      "HTTP Client Architecture": [
+        "Axios internals",
+        "HTTP adapter consistency (XHR/Fetch/HTTP)",
+        "Config propagation mechanisms",
+        "Redirect handling (follow-redirects integration)"
+      ],
+      "JavaScript Core": [
+        "Object prototype behavior",
+        "Truthy/falsy value handling",
+        "Regex pattern matching",
+        "URI parsing (RFC 2397 compliance)"
+      ],
+      "Debugging & Testing": [
+        "Edge-case reproduction",
+        "TypeError debugging",
+        "Issue triage from GitHub issues",
+        "Backward-compatibility validation"
+      ],
+      "Standards & Compliance": [
+        "RFC 2397 (Data URI scheme)",
+        "HTTP URL resolution standards",
+        "Library dependency correctness"
+      ],
+      "Dependency Management": [
+        "External library adoption (data-uri-to-buffer)",
+        "Non-standard regex replacement"
+      ],
+      "Code Quality Practices": [
+        "Small, focused PRs",
+        "Backward-compatible changes",
+        "Clear PR documentation"
+      ],
+      "Node.js Ecosystem": [
+        "Node.js HTTP client patterns",
+        "Cross-platform adapter behavior"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed `buildFullPath` to handle `allowAbsoluteUrls: false` without `baseURL` (PR #2), demonstrating deep JavaScript object behavior knowledge",
+      "Replaced non-compliant Data URI regex with RFC 2397-compliant `data-uri-to-buffer` library (PR #4), showing standards awareness",
+      "Ensured `config.allowAbsoluteUrls` works across XHR, Fetch, and HTTP adapters (PR #2), proving cross-adapter consistency expertise",
+      "Debugged `TypeError` in URL construction edge cases (PR #3), highlighting edge-case handling proficiency",
+      "Used `follow-redirects` integration to fix redirect handling in Axios (PR #1), indicating HTTP client architecture knowledge",
+      "All PRs resolve specific GitHub issues (#2546, #6806, #6832) with clear problem descriptions, showing strong issue triage skills",
+      "Made minimal, focused changes without breaking existing functionality, demonstrating disciplined code quality practices",
+      "Replaced custom regex with external library for correctness rather than performance, showing pragmatic dependency management"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

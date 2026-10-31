@@ -1,0 +1,60 @@
+{
+  "reviewer_name": "aduh95",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 2,
+    "total_prs": 1,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "aduh95",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "ES Modules (ESM) vs CommonJS (CJS) compatibility",
+      "Jest module resolution",
+      "package.json configuration (\"type\": \"module\", \"exports\")",
+      "Build tooling for JavaScript module systems"
+    ],
+    "programming_languages": [
+      "JavaScript (ESM-focused)"
+    ],
+    "summary": "aduh95 is a mid-level JavaScript reviewer with specialized expertise in ESM/CJS module system compatibility, particularly around Jest 28's module resolution and package.json configuration. Their reviews demonstrate deep technical understanding of how JavaScript module systems interact with build tools and test runners, focusing on ensuring correct file extension handling (.mjs vs .js) and proper package.json settings. The reviewer's contributions are narrowly but precisely focused on module-related issues, indicating a strong foundation in this specific area of JavaScript development.",
+    "identified_skills": {
+      "Module Systems": [
+        "ES Modules (ESM)",
+        "CommonJS (CJS)",
+        "File extension semantics (.mjs vs .js)",
+        "package.json \"type\" field configuration",
+        "package.json \"exports\" field usage"
+      ],
+      "Testing Frameworks": [
+        "Jest 28 module handling"
+      ],
+      "Build Tooling": [
+        "ESM/CJS distribution file generation",
+        "Jest configuration for module systems"
+      ],
+      "Code Quality": [
+        "Module resolution debugging"
+      ],
+      "JavaScript Core": [
+        "Module resolution algorithms"
+      ]
+    },
+    "skill_evidence": [
+      "PR description mentions Jest 28's misinterpretation of module types due to .js extension and missing \"type\": \"module\" in package.json",
+      "Review addresses switching distribution files from .js to .mjs to enforce ESM behavior in Jest 28",
+      "Explicit reference to package.json's \"exports\" field in context of Jest module resolution",
+      "Focus on build output conventions for ESM/CJS compatibility",
+      "Technical discussion of how Jest parses file extensions and package.json configuration",
+      "PR title/description demonstrates understanding of ESM's strict extension-based module resolution",
+      "Review state (COMMENTED) suggests technical debugging of module-related issues",
+      "No evidence of framework-specific code or broader JavaScript patterns"
+    ]
+  }
+}

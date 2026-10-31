@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "developer_name": "cowboy",
+    "generation_timestamp": "2026-08-15T16:21:49.326554",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "cowboy",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "jQuery Core Development",
+      "DOM Event Handling",
+      "AJAX/XHR Optimization",
+      "DOM Manipulation (jQuery API)",
+      "JavaScript Unit Testing (QUnit)",
+      "Debugging & Issue Tracing",
+      "Code Optimization (DRY Principles)"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5)",
+      "jQuery"
+    ],
+    "summary": "Senior JavaScript developer with deep expertise in jQuery's core internals, specializing in DOM event handling, AJAX optimization, and DOM manipulation. Demonstrates strong debugging skills, unit testing proficiency (QUnit), and a focus on code optimization through DRY principles. Contributions are low-level but high-impact, addressing subtle bugs and improving internal consistency in jQuery's event system and AJAX layer. Experience spans 10+ years, primarily in legacy frontend systems with a focus on browser compatibility and asynchronous patterns.",
+    "identified_skills": {
+      "jQuery Core Systems": [
+        "Event Binding & Propagation",
+        "DOM Ready Detection",
+        "AJAX Method Optimization",
+        "Selector Engine Enhancements",
+        "jQuery Deferred/Promise Patterns"
+      ],
+      "JavaScript Language": [
+        "Prototype-Based OOP",
+        "Closures & Scope Management",
+        "Asynchronous Callback Patterns",
+        "DOM API Interactions"
+      ],
+      "Testing & QA": [
+        "Unit Testing (QUnit)",
+        "Regression Testing",
+        "Bug Reproduction & Verification",
+        "Test-Driven Debugging"
+      ],
+      "Code Quality": [
+        "DRY (Don't Repeat Yourself) Refactoring",
+        "Code Duplication Elimination",
+        "Performance-Conscious Optimizations"
+      ],
+      "Debugging": [
+        "Browser Event Loop Analysis",
+        "DOM Content Load Timing",
+        "Cross-Browser Compatibility Fixes",
+        "JSFiddle-Based Debugging"
+      ],
+      "Community Contributions": [
+        "Bug Triage & Resolution",
+        "Issue Tracker Engagement",
+        "External Demo Creation (JSFiddle)"
+      ],
+      "Asynchronous Programming": [
+        "Callback-Based Async Patterns",
+        "Event Queue Management"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Fixed `.bind('ready')` event firing out of order, demonstrating deep knowledge of jQuery's event propagation and DOM readiness detection. Used conditional binding with `rootjQuery.bind('ready', fn)` to ensure correct execution order.",
+      "PR #2: Rewrote `$.get` and `$.post` to eliminate code duplication, showing expertise in AJAX/XHR patterns and DRY optimization. Consolidated shared logic to improve maintainability and performance.",
+      "PR #3: Added unit tests for DOM ready events using QUnit, proving proficiency in jQuery's testing framework and test-driven development for core features. Referenced bug #7279 and PR #80 for regression testing context.",
+      "PR #4: Enhanced `jQuery#addBack` method to support optional selectors, indicating mastery of jQuery's selector engine and DOM traversal patterns. Improved chainability and selector filtering in the API.",
+      "All PRs reference specific bug tickets (e.g., #7847, #9800) and include JSFiddle links, demonstrating structured debugging workflows and community collaboration practices.",
+      "PR descriptions emphasize 'fixes' and 'optimizations' in jQuery's core, suggesting a focus on internal consistency and subtle edge-case handling rather than high-level abstractions.",
+      "No evidence of modern JavaScript (ES6+) or frontend frameworks, reinforcing specialization in legacy jQuery systems and browser compatibility quirks."
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

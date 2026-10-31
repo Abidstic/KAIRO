@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "developer_name": "alexsch01",
+    "generation_timestamp": "2026-09-17T18:26:42.487312",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 20,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "alexsch01",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Node.js CLI internals",
+      "npm Arborist dependency resolution",
+      "PowerShell shell integration",
+      "Cross-shell command-line argument handling",
+      "Security-conscious CLI development",
+      "Version-specific backporting",
+      "Shell injection prevention",
+      "Performance optimization for CLI tools"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)",
+      "PowerShell (scripting)"
+    ],
+    "summary": "Senior JavaScript developer with deep expertise in Node.js CLI internals, particularly npm's PowerShell integration and dependency resolution systems. Specializes in fixing cross-shell compatibility issues, security regressions, and performance optimizations in command-line tools. Demonstrates strong version compatibility skills through extensive backporting work across npm releases. While contributions are primarily focused on CLI infrastructure rather than application code, the depth of understanding suggests strong JavaScript/Node.js fundamentals with particular emphasis on shell interaction patterns and dependency management systems.",
+    "identified_skills": {
+      "CLI Infrastructure": [
+        "npm CLI architecture",
+        "Node.js command-line argument parsing",
+        "Shell command execution patterns",
+        "Cross-platform shell compatibility"
+      ],
+      "Dependency Systems": [
+        "npm Arborist dependency resolution",
+        "File dependency tracking",
+        "Registry URL handling"
+      ],
+      "Shell Integration": [
+        "PowerShell Invoke-Expression handling",
+        "Pipeline input processing",
+        "Shell redirect operations",
+        "Bash/PowerShell command chaining"
+      ],
+      "Security Practices": [
+        "Shell injection prevention",
+        "Command argument sanitization",
+        "Security regression fixes",
+        "PowerShell code execution risks"
+      ],
+      "Version Management": [
+        "npm version backporting",
+        "Version-specific fixes",
+        "Release engineering for CLI tools",
+        "Security patch backports"
+      ],
+      "Debugging Techniques": [
+        "Root-cause analysis for shell regressions",
+        "Issue triage with commit references",
+        "Temporary fix implementation",
+        "Performance regression identification"
+      ],
+      "Documentation": [
+        "Technical PR descriptions",
+        "Issue reproduction examples",
+        "Fix rationale explanations"
+      ],
+      "Performance Optimization": [
+        "Shell operation performance tuning",
+        "Invoke-Expression avoidance patterns",
+        "Async CLI operation optimization"
+      ],
+      "Node.js Ecosystem": [
+        "Node.js CLI interaction patterns",
+        "npm-Node.js integration points",
+        "Cross-tool compatibility considerations"
+      ]
+    },
+    "skill_evidence": [
+      "PRs all in `npm/cli` repository with `files_changed: 0` but detailed descriptions about PowerShell `Invoke-Expression` usage and security implications",
+      "Multiple PRs explicitly labeled with `[Backport v10]` indicating version-specific fix maintenance across npm releases",
+      "Fixes for `Get-Content | npm start` pipeline input handling demonstrating deep PowerShell shell integration knowledge",
+      "PRs referencing `arborist` dependency resolution system with fixes for file dependency tracking and registry URL issues",
+      "Security-focused PRs avoiding `Invoke-Expression` to prevent potential code injection risks in shell environments",
+      "Descriptions explaining how specific commits (e.g., `815311b`) introduced regressions requiring targeted fixes",
+      "PRs mentioning `ExpectingInput` flag to prevent performance/security regressions in PowerShell command processing",
+      "Technical explanations in PR descriptions about why certain shell operations should be avoided in specific contexts"
+    ]
+  },
+  "statistics": {
+    "total_prs": 20,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

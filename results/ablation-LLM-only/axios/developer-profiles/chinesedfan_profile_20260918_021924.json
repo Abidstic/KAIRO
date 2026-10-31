@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "developer_name": "chinesedfan",
+    "generation_timestamp": "2026-09-18T02:01:28.253145",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 15,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "chinesedfan",
+    "experience_level": "Mid/Senior",
+    "primary_skills": [
+      "Axios internals",
+      "Asynchronous JavaScript (Promises/async-await)",
+      "HTTP request/response handling",
+      "JavaScript ES6+ features",
+      "GitHub Actions automation",
+      "Node.js environment compatibility",
+      "Dependency versioning and security"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from Axios ecosystem)"
+    ],
+    "summary": "chinesedfan is a mid-to-senior JavaScript developer with deep expertise in Axios' core HTTP client functionality. Their contributions focus on fixing subtle bugs in asynchronous request handling, optimizing config merging, and ensuring cross-environment compatibility (browser vs. Node.js). Strong skills in debugging Promise-based security issues (e.g., XSS), CI/CD automation with GitHub Actions, and dependency management demonstrate a backend-oriented approach. While primarily contributing to Axios' internals, their mastery of modern JavaScript patterns and testing practices would transfer well to frontend or middleware roles.",
+    "identified_skills": {
+      "HTTP Client Libraries": [
+        "Axios internals",
+        "HTTP request/response lifecycle",
+        "Config merging strategies",
+        "Redirect handling"
+      ],
+      "Asynchronous Programming": [
+        "Promises",
+        "async/await",
+        "`.finally()` behavior",
+        "XSS in async contexts"
+      ],
+      "Testing & Debugging": [
+        "Cross-environment test compatibility",
+        "Edge-case testing (large responses)",
+        "CI/CD debugging",
+        "Node.js 12 compatibility"
+      ],
+      "Dependency Management": [
+        "`follow-redirects` versioning",
+        "Security-related dependency checks",
+        "Dependency conflict resolution"
+      ],
+      "CI/CD & Automation": [
+        "GitHub Actions workflows",
+        "Stale PR/issue bots",
+        "CI environment variable handling",
+        "Sauce Labs integration"
+      ],
+      "JavaScript Language": [
+        "ES6+ modules",
+        "Object spread/rest patterns",
+        "JSON parsing/serialization",
+        "Error handling"
+      ],
+      "Security": [
+        "XSS mitigation in async code",
+        "Input sanitization"
+      ],
+      "Version Control": [
+        "Release branching (0.21.1 → master)",
+        "Git workflows"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Fixed XSS checks in Promise-based async contexts, demonstrating deep understanding of security implications in async JavaScript",
+      "PR #2: Discussed `.finally()` draft status, showing awareness of Promise behavior and user expectations",
+      "PR #3: Adjusted `follow-redirects@1.6.0` versioning to avoid breaking changes, proving dependency management expertise",
+      "PR #4: Added test for large HTTP responses, highlighting edge-case testing in Axios' response parsing",
+      "PR #5: Debugged browser vs. Node.js test failures, requiring cross-environment JavaScript knowledge",
+      "PR #7: Refactored `mergeConfig` without `utils.deepMerge`, indicating optimization of Axios' core config system",
+      "PR #10: Implemented GitHub Actions to auto-close invalid issues, showing CI/CD automation skills",
+      "PR #14: Fixed `axios.delete` ignoring `config.data`, proving deep HTTP method implementation knowledge"
+    ]
+  },
+  "statistics": {
+    "total_prs": 15,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

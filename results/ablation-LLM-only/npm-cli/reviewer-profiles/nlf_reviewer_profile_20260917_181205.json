@@ -1,0 +1,19 @@
+{
+  "reviewer_name": "nlf",
+  "generated_at": "20260917_181205",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 0,
+    "total_prs": 2,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "nlf",
+    "raw_response": "```json\n{\n  \"reviewer_name\": \"nlf\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Node.js CLI tooling\",\n    \"Testing frameworks (TAP)\",\n    \"Semantic versioning\",\n    \"Code review quality assurance\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (Node.js)\"\n  ],\n  \"summary\": \"nlf demonstrates a strong mid-level proficiency in Node.js tooling and testing frameworks, particularly TAP. Their reviews show expertise in CLI development, semantic versioning awareness, and maintaining code quality through focused, documentation-conscious changes. While evidence is limited to two PRs, their contributions indicate a practical understanding of Node.js ecosystem tooling and clean code review practices. No frontend or advanced backend framework experience is visible in the available data.\",\n  \"identified_skills\": {\n    \"Testing\": [\"TAP (Test Anything Protocol)\"],\n    \"Node.js Tooling\": [\"CLI argument parsing\", \"workspace tooling\", \"npm/yarn/pnpm compatibility\"],\n    \"Version Management\": [\"semantic versioning\", \"major version updates\"],\n    \"Code Review\": [\"clean change approval\", \"documentation suggestions\"],\n    \"Scripting\": [\"CLI alias implementation\"],\n    \"JavaScript Ecosystem\": [\"Node.js runtime\"]\n  },\n  \"skill_evidence\": [\n    \"PR 1 title references 'TAP' and 'testing framework update' indicating familiarity with TAP protocol\",\n    \"PR 1 approved after major version update (v15.0.2) showing awareness of semver implications\",\n    \"PR 2 adds '--iwr' alias for '--include-workspace-root' demonstrating CLI tooling expertise\",\n    \"Review comment 'this could maybe use docs somewhere' shows attention to documentation\",\n    \"Both PRs approved without red flags indicating strong code quality judgment\",\n    \"No evidence of frontend frameworks or advanced backend patterns in reviewed code\",\n    \"CLI-focused changes suggest familiarity with Node.js workspace tooling patterns\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 30 column 3 (char 1897)"
+  }
+}

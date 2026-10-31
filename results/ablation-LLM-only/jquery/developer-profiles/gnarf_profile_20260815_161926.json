@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "developer_name": "gnarf",
+    "generation_timestamp": "2026-08-15T16:07:18.849577",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 52,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 15
+  },
+  "profile": {
+    "developer_name": "gnarf",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "jQuery Core Internals",
+      "DOM Manipulation & Animation",
+      "Cross-Browser Compatibility (IE-Specific)",
+      "JavaScript Performance Optimization",
+      "CSS Property Handling & Hooks",
+      "Legacy JavaScript Patterns",
+      "Unit Testing & Debugging"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES3)",
+      "jQuery"
+    ],
+    "summary": "Gnarf is a senior JavaScript developer with deep expertise in jQuery's core internals, specializing in DOM manipulation, animation systems, and cross-browser compatibility. Their contributions focus on performance optimizations, CSS property handling, and debugging legacy JavaScript codebases. The developer demonstrates strong skills in fixing IE-specific bugs, optimizing DOM traversal, and maintaining jQuery's test suite. All contributions are rooted in pre-ES6 JavaScript practices and are entirely frontend-focused, with no evidence of modern frameworks or backend work.",
+    "identified_skills": {
+      "jQuery Core Contributions": [
+        "jQuery animation engine",
+        "jQuery.cssNumber",
+        "jQuery.cssHooks",
+        "jQuery.when()",
+        "jQuery.support",
+        "jQuery.data() caching",
+        "jQuery.index() optimization",
+        "jQuery.prevAll() traversal"
+      ],
+      "DOM & Rendering": [
+        "DOM traversal optimizations",
+        "CSS property expansion",
+        "opacity/position animation quirks",
+        "requestAnimationFrame integration",
+        "IE-specific rendering bugs"
+      ],
+      "Performance": [
+        "DOM traversal micro-optimizations",
+        "attribute caching",
+        "minification awareness",
+        "jsPerf benchmarking",
+        "gzip size reduction"
+      ],
+      "Cross-Browser & Legacy Support": [
+        "IE-specific form element bugs",
+        "AIR URI handling",
+        "requestAnimationFrame fallbacks",
+        "IE8/IE9 compatibility fixes",
+        "CSS filter opacity regressions"
+      ],
+      "Testing & Debugging": [
+        "unit test additions",
+        "global leak fixes",
+        "collaborative debugging",
+        "bug triage via issue trackers",
+        "test suite maintenance"
+      ],
+      "CSS & Animation Systems": [
+        "cssHooks mapping",
+        "non-numeric CSS value handling",
+        "animation queue management",
+        "IE-specific CSS bugs",
+        "opacity/position animation conflicts"
+      ],
+      "JavaScript Patterns": [
+        "closures and variable scoping",
+        "unused variable cleanup",
+        "legacy variable hygiene",
+        "pre-ES6 module patterns"
+      ],
+      "Tooling & Workflow": [
+        "jsPerf performance testing",
+        "bug report analysis",
+        "readability improvements",
+        "code golfing"
+      ]
+    },
+    "skill_evidence": [
+      "PR #8498: 'Animating margin/padding can cause flashes' - addresses IE-specific rendering quirks in jQuery's animation engine",
+      "PR #8909: '$(element).data() will scan the attributes more times than needed' - demonstrates DOM attribute caching optimization",
+      "PR #6652: 'CSS: Remove filter from style when setting opacity to 1' - fixes IE opacity/position animation conflicts",
+      "PR #8500: 'RADIOS AND CHECKBOXES REVERT TO DEFAULT STATE WHEN WRAPPED IN IE' - targets IE form element state regression",
+      "PR #index-optimized: 'Quick improvement to the performance of .index() with no arguments' - shows DOM traversal optimization via jsPerf",
+      "PR #readability-improvement: 'Readability Improvement for jQuery.when()' - involves unused variable cleanup and minification awareness",
+      "PR #8627: '+1 unit test for #8627' - indicates active test suite maintenance and unit test contributions",
+      "PR #fixing-leaking-globals: 'Fixing leaking globals in tests' - demonstrates debugging of test environment side effects"
+    ]
+  },
+  "statistics": {
+    "total_prs": 52,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

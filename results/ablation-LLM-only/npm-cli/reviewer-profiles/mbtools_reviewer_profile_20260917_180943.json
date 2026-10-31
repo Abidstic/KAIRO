@@ -1,0 +1,76 @@
+{
+  "reviewer_name": "mbtools",
+  "generated_at": "20260917_180943",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 11,
+    "total_comments": 7,
+    "total_prs": 8,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "mbtools",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "npm CLI internals",
+      "PowerShell scripting",
+      "Node.js versioning",
+      "Cross-platform compatibility testing",
+      "Technical documentation"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)",
+      "PowerShell",
+      "TypeScript (indirect exposure)"
+    ],
+    "summary": "mbtools is a Senior-level reviewer with deep expertise in npm CLI internals, PowerShell scripting for cross-platform tooling, and Node.js versioning. Their reviews demonstrate strong technical judgment in documentation maintenance, Windows Shim testing, and npm's release processes. While their direct JavaScript code review evidence is limited, their work on npm CLI tools indicates proficiency with Node.js internals and TypeScript patterns. The reviewer combines technical precision with collaborative communication, approving changes efficiently when they meet correctness standards.",
+    "identified_skills": {
+      "Package Management": [
+        "npm CLI internals",
+        "npm publish workflows",
+        "dist-tag management",
+        "package.json engine constraints",
+        "npm versioning (semver)"
+      ],
+      "Scripting Languages": [
+        "PowerShell (Invoke-Expression handling)",
+        "Windows Shim compatibility testing"
+      ],
+      "Documentation Practices": [
+        "README.md maintenance",
+        "Markdown formatting improvements",
+        "API documentation updates"
+      ],
+      "Testing & CI/CD": [
+        "Windows Shim test validation",
+        "Cross-platform compatibility verification"
+      ],
+      "Release Engineering": [
+        "npm release processes",
+        "autorelease tagging"
+      ],
+      "Node.js Environment": [
+        "Node.js version compatibility checks",
+        "package.json engine constraints"
+      ],
+      "Code Review Patterns": [
+        "Minimalist approval feedback",
+        "Test-pass verification",
+        "Collaborative tone"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'docs: update publish docs: dist-tag + publish case' shows focus on npm CLI documentation for critical publish workflows",
+      "Review comment 'Matches package.json' confirms understanding of npm's versioning constraints in PR 'docs: update npm node versions in readme.md'",
+      "Multiple PowerShell PRs ('fix(powershell): use Invoke-Expression to pass args') demonstrate deep handling of PowerShell's controversial cmdlet and pipeline behavior",
+      "Approval comment 'It passes the Windows Shim Tests. LGTM' indicates direct involvement with npm's cross-platform testing infrastructure",
+      "PR label 'autorelease: tagged' in release PR shows familiarity with npm's automated release processes",
+      "Documentation PRs receive 'looks good' approvals with no substantive feedback, suggesting high trust in maintainers' documentation quality",
+      "Review of 'fix(arborist): improve README markdown' shows attention to technical documentation formatting and readability",
+      "Indirect evidence of TypeScript exposure through npm CLI's modern JavaScript runtime usage in versioning and release PRs"
+    ]
+  }
+}

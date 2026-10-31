@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "developer_name": "joshkel",
+    "generation_timestamp": "2026-09-17T22:48:34.497479",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 10,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 10
+  },
+  "profile": {
+    "developer_name": "joshkel",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "JavaScript Core (Callbacks, Events, DOM/Canvas)",
+      "Type Documentation & JSDoc",
+      "ESLint Configuration (TypeScript)",
+      "JavaScript Debugging & Optimization"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)"
+    ],
+    "summary": "joshkel is a mid-level JavaScript developer with deep expertise in TypeScript, particularly in type definitions, interfaces, and documentation. Their contributions focus on improving type safety and documentation within Chart.js, a vanilla JavaScript library. Strong in debugging complex event systems and optimizing performance through careful JavaScript core patterns. Skilled in TypeScript ESLint configurations and technical writing for type annotations. No exposure to modern frontend frameworks or backend systems evident in their contributions.",
+    "identified_skills": {
+      "TypeScript Core": [
+        "TypeScript type definitions",
+        "TypeScript interfaces",
+        "TypeScript ESLint configuration",
+        "TypeScript callback type annotations",
+        "TypeScript `@default` annotations",
+        "TypeScript type distribution"
+      ],
+      "JavaScript Core Patterns": [
+        "Event-driven programming",
+        "Callback-based architectures",
+        "DOM/Canvas interaction",
+        "Prototype/instance-based patterns",
+        "Event listener management",
+        "Sets equality comparison (`setsEqual`)"
+      ],
+      "Documentation & Technical Writing": [
+        "TypeScript type documentation",
+        "JSDoc-like annotations",
+        "Method description updates",
+        "Type definition alignment with code"
+      ],
+      "Tooling & Configuration": [
+        "ESLint for TypeScript",
+        "TypeScript ESLint plugins"
+      ],
+      "Debugging & Optimization": [
+        "Event system debugging",
+        "Redundant operation elimination",
+        "Performance-focused fixes"
+      ],
+      "JavaScript Libraries": [
+        "Chart.js core contributions"
+      ],
+      "Testing": [],
+      "Backend Systems": [],
+      "Frontend Frameworks": [],
+      "Dependency Management": []
+    },
+    "skill_evidence": [
+      "PR 3: 'TypeScript updates' – Focused on type definitions and TypeScript-specific changes",
+      "PR 4: 'Update TypeScript ESLint configuration' – Directly involved in TypeScript tooling configuration",
+      "PR 5: 'Give elements their own interface definition' – Created TypeScript interfaces for Chart.js elements",
+      "PR 6: 'Minor type fixes' – Updated callback parameter types with `@default true` annotations",
+      "PR 6: 'Update RadialLinearScaleOptions.pointLabels.callback type' – Fixed type safety for complex callback signatures",
+      "PR 8: 'Fix detecting changed events' – Debugged event listener inefficiencies and optimized `setsEqual` checks",
+      "PR 9: 'Fix type definitions and docs for getPixelForValue' – Combined type fixes with documentation updates",
+      "PR 1 & 2: Documentation-only PRs – Updated method descriptions without code changes"
+    ]
+  },
+  "statistics": {
+    "total_prs": 10,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

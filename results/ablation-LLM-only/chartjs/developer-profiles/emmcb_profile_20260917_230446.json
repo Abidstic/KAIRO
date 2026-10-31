@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "emmcb",
+    "generation_timestamp": "2026-09-17T22:53:12.133913",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 7,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 7
+  },
+  "profile": {
+    "developer_name": "emmcb",
+    "raw_response": "```json\n{\n  \"developer_name\": \"emmcb\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Chart.js library internals\",\n    \"TypeScript type system design\",\n    \"Canvas-based rendering optimizations\",\n    \"TypeScript documentation improvements\",\n    \"Precision UI debugging (HiDPI scaling)\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript\",\n    \"TypeScript\"\n  ],\n  \"summary\": \"emmcb is a specialized JavaScript developer with deep expertise in Chart.js and TypeScript type systems. Their contributions focus on improving type safety, rendering precision (e.g., HiDPI fixes), and documentation within the Chart.js library. The developer demonstrates strong problem-solving skills in debugging subtle UI issues and refining complex type hierarchies, though their experience is narrowly concentrated on charting libraries and type systems rather than broader JavaScript ecosystems.\",\n  \"identified_skills\": {\n    \"Charting Libraries\": [\n      \"Chart.js core rendering\",\n      \"Canvas API manipulation\",\n      \"HiDPI/retina display optimizations\"\n    ],\n    \"TypeScript\": [\n      \"Type definitions for complex objects\",\n      \"Type system refactoring\",\n      \"Enum and interface design\",\n      \"Type documentation\",\n      \"Type safety audits\"\n    ],\n    \"JavaScript Language\": [\n      \"Precision math for UI rendering\",\n      \"Object-oriented patterns\",\n      \"ES6 module systems\"\n    ],\n    \"Code Quality\": [\n      \"Type-related documentation\",\n      \"Code maintenance and cleanup\",\n      \"Proactive type fixes\"\n    ],\n    \"Open Source Contribution\": [\n      \"Issue resolution\",\n      \"PR review readiness\",\n      \"Community-driven improvements\"\n    ],\n    \"Debugging\": [\n      \"UI rendering precision issues\",\n      \"Type inference problems\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"HiDPI rendering fix using `Math.round` instead of `Math.floor` for chart sizing (PR #1)\",\n    \"`type: documentation` label on multiple PRs indicating type definition improvements\",\n    \"PR titled 'Strong chart object and properties typing' showing deep TypeScript expertise\",\n    \"Issue `#7954` closed with type improvements for `defaults` in Chart.js options\",\n    \"PR `Remove enum types` demonstrating refactoring of type system design\",\n    \"Descriptions referencing missing types noticed during real-world usage (e.g., PR #3)\",\n    \"All PRs closed and merged, indicating reviewed contributions to Chart.js maintainers\",\n    \"Focus on `scales`, `datasets`, and `options` type refinements across multiple PRs\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 58 column 3 (char 2490)"
+  },
+  "statistics": {
+    "total_prs": 7,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

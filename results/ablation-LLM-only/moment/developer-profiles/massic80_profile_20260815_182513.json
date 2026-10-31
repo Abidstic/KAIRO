@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "developer_name": "massic80",
+    "generation_timestamp": "2026-08-15T18:07:51.703102",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "massic80",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Moment.js localization",
+      "JavaScript string manipulation",
+      "Git rebasing and PR workflow",
+      "Internationalization (i18n) in JavaScript",
+      "Open-source library maintenance"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "massic80 is a Mid-level JavaScript developer with specialized expertise in Moment.js localization and internationalization. Their contributions focus on refining localized weekday names and string formatting for non-English languages (Polish/Italian), demonstrating strong skills in string manipulation and attention to cultural/linguistic conventions. While primarily involved in library maintenance for Moment.js, their work includes Git rebasing, PR coordination, and test updates. The developer shows proficiency in JavaScript’s string operations and collaboration with non-technical teams for localization tasks. No evidence of frontend frameworks or backend systems is present, indicating a niche focus on date/time library internals and i18n.",
+    "identified_skills": {
+      "Localization & Internationalization": [
+        "Moment.js locale adjustments",
+        "Polish/Italian weekday abbreviation standardization",
+        "String length consistency for i18n",
+        "Collaboration with non-English-speaking teams"
+      ],
+      "Library Maintenance": [
+        "Moment.js repository contributions",
+        "PR rebasing and merging",
+        "Test updates for localization changes",
+        "ES6+ compatibility considerations"
+      ],
+      "String Processing": [
+        "JavaScript string manipulation",
+        "Manual string formatting fixes",
+        "Unicode-aware text adjustments"
+      ],
+      "Version Control & Collaboration": [
+        "Git rebasing workflow",
+        "PR discussion coordination",
+        "Referencing related PRs in descriptions"
+      ],
+      "Technical Communication": [
+        "Clear PR description writing",
+        "Explaining non-code localization changes",
+        "Documenting cultural/linguistic adjustments"
+      ],
+      "Testing": [
+        "Test updates for localized changes"
+      ],
+      "JavaScript Language": [
+        "ES6+ syntax familiarity (inferred)",
+        "String operations (substring/padding)"
+      ]
+    },
+    "skill_evidence": [
+      "PR titles like 'Same length for weekdaysMin parts (Polish)' show direct work on Moment.js localization for non-English languages",
+      "Descriptions mention manual string fixes (e.g., 'adding a \"d\" to \"N\" in Polish weekday names') proving hands-on string manipulation",
+      "PR label 'es6 rework' indicates awareness of ES6+ JavaScript features in Moment.js’s modernization efforts",
+      "Multiple rebasing PRs demonstrate proficiency in Git rebasing and PR workflow coordination",
+      "References to 'Polish colleagues' and 'Italian' localization issues highlight collaboration with non-technical teams",
+      "PRs updating tests ('Updated tests due to...') show involvement in test maintenance for localized changes",
+      "Clear PR descriptions explaining cultural/linguistic rationale (e.g., 'to match local conventions') prove strong technical communication",
+      "No evidence of frontend frameworks or backend systems, confirming niche focus on Moment.js internals"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "reviewer_name": "koto",
+  "generated_at": "20260815_164745",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 5,
+    "total_comments": 5,
+    "total_prs": 1,
+    "repos": [
+      "jquery"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "koto",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "DOM Security (TrustedHTML)",
+      "Frontend JavaScript",
+      "Code Review & Security Feedback"
+    ],
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript (inferred)"
+    ],
+    "summary": "koto is a Mid-level JavaScript reviewer with demonstrated expertise in frontend security, particularly DOM manipulation and XSS prevention using TrustedHTML. Their reviews focus on security-critical changes, indicating a strong understanding of safe HTML handling in browser environments. While evidence is limited to a single PR type, their iterative review process suggests thoroughness and attention to detail. No evidence supports backend, framework-specific, or testing skills beyond the inferred frontend security domain.",
+    "identified_skills": {
+      "Security & Sanitization": [
+        "TrustedHTML",
+        "XSS prevention"
+      ],
+      "DOM Manipulation": [
+        "Safe HTML handling"
+      ],
+      "Code Review Practices": [
+        "Iterative feedback",
+        "Security-focused review"
+      ],
+      "JavaScript Ecosystem": [
+        "Core JavaScript concepts"
+      ],
+      "Browser APIs": [
+        "TrustedHTML API"
+      ],
+      "Frontend Development": [],
+      "Backend Development": [],
+      "Testing": [],
+      "Build Tools": [],
+      "Package Management": []
+    },
+    "skill_evidence": [
+      "PR title 'Add basic TrustedHTML support' indicates familiarity with browser-native XSS prevention mechanisms",
+      "Label 'Manipulation' paired with TrustedHTML suggests focus on safe DOM manipulation techniques",
+      "Label 'Core' implies engagement with foundational JavaScript/DOM concepts, though not proven in code",
+      "Multiple review states (APPROVED/COMMENTED) demonstrate iterative security-focused feedback",
+      "No code changes visible (additions/deletions=0) prevents confirmation of framework or testing skills",
+      "Security context (TrustedHTML) implies awareness of modern browser security patterns",
+      "Review engagement suggests ability to provide constructive feedback on security implications",
+      "Generic labels ('Manipulation', 'Core') prevent deeper inference into specific frameworks or libraries"
+    ]
+  }
+}

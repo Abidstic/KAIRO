@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "developer_name": "wesleytodd",
+    "generation_timestamp": "2026-09-17T18:53:56.144735",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "npm_cli"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "wesleytodd",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "npm CLI internals",
+      "Node.js configuration systems",
+      "Technical documentation",
+      "GitHub PR collaboration"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)"
+    ],
+    "summary": "wesleytodd demonstrates **mid-level expertise** in npm CLI internals and Node.js configuration systems, with a strong focus on **documentation and collaboration**. Their contributions are **documentation-only**, showing deep familiarity with npm’s internal CLI workflows (e.g., argument handling, config factories) but lack direct code contributions or evidence of broader JavaScript/Node.js frameworks. The profile highlights **technical writing proficiency** and **open-source collaboration** via structured PR discussions, though concrete JavaScript coding skills remain unproven in this dataset.",
+    "identified_skills": {
+      "npm CLI & Node.js Core": [
+        "npm CLI argument parsing (argv)",
+        "npm configuration system (config factory)",
+        "npm internal helper methods"
+      ],
+      "Documentation & Communication": [
+        "README documentation updates",
+        "technical footnote additions",
+        "GitHub PR discussion references (Slack)",
+        "structured PR templates"
+      ],
+      "Open-Source Collaboration": [
+        "PR triaging and documentation",
+        "cross-referencing related PRs",
+        "external discussion integration"
+      ],
+      "Node.js Ecosystem": [
+        "npm package manager internals"
+      ],
+      "Testing": [],
+      "Frontend Frameworks": [],
+      "Backend Frameworks": [],
+      "Tooling & Build Systems": [],
+      "Asynchronous Programming": [],
+      "TypeScript": [],
+      "Package Management": [
+        "npm dependency configuration"
+      ]
+    },
+    "skill_evidence": [
+      "PR title: 'docs: update readme example' — evidence of README-focused documentation contributions",
+      "PR description mentions 'Config factory' and 'clearing argv' — indicates npm CLI internals knowledge",
+      "PR references Slack discussions and related PRs — shows collaboration via external channels",
+      "No file changes or code additions in any PR — confirms documentation-only contributions",
+      "PR label: 'docs' — explicitly categorizes contributions as documentation updates",
+      "Mention of 'tests lol' in PR without test file changes — no evidence of testing involvement",
+      "All PRs in `npm_cli` repo — confirms Node.js/CLI domain specialization",
+      "Structured PR descriptions with 'What / Why' sections — demonstrates technical writing skills"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "npm_cli"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "reviewer_name": "rkuykendall",
+  "generated_at": "20260815_235231",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 0,
+    "total_prs": 2,
+    "repos": [
+      "lodash"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "rkuykendall",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript core (performance optimization, Lodash internals)",
+      "Functional programming patterns",
+      "BigInt handling and edge-case resolution",
+      "Memory allocation optimization"
+    ],
+    "programming_languages": [
+      "JavaScript"
+    ],
+    "summary": "rkuykendall demonstrates **mid-level JavaScript expertise** primarily focused on **Lodash internals and performance-critical utility functions**. Their review activity is limited to two highly abstract PRs in the Lodash repository, suggesting specialized knowledge in **memory optimization, BigInt handling, and functional programming patterns** rather than broader frontend/backend frameworks. While there is **no direct evidence** of testing, TypeScript, or modern frontend/backend frameworks, the context strongly implies deep familiarity with **JavaScript core concepts** and **performance optimization techniques**. The lack of review comments and code changes makes it difficult to assess broader JavaScript proficiency beyond Lodash-specific contributions. Their experience level is estimated as **Mid** due to the **technical depth implied by the PR titles** ('meaningless allocation', 'big int issue') and the **Lodash ecosystem**, which requires advanced JavaScript knowledge.",
+    "javascript_skill_matrix": {
+      "Framework/Library Expertise": [
+        "Lodash"
+      ],
+      "Asynchronous Programming": [],
+      "API Design & Consumption": [],
+      "Error Handling": [],
+      "Frontend Development Skills": [],
+      "Backend Development Skills": [],
+      "DevOps & Deployment": [],
+      "Advanced JavaScript Concepts": [
+        "BigInt",
+        "Memory Management"
+      ],
+      "Functional Programming": [
+        "Functional patterns (currying, memoization implied)"
+      ],
+      "Data Structures & Algorithms": [],
+      "TypeScript": [],
+      "Progressive Web Apps (PWA)": [],
+      "Mobile Development with JavaScript": [],
+      "Web Performance Optimization": [
+        "Memory allocation optimization"
+      ],
+      "Event-Driven Architecture": [],
+      "Dependency Management": [],
+      "Graphical Data Visualization": []
+    }
+  }
+}

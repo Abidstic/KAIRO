@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "developer_name": "thomheymann",
+    "generation_timestamp": "2026-09-18T13:51:47.022496",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "thomheymann",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "Fastify (Node.js web framework)",
+      "TypeScript",
+      "Asynchronous JavaScript (Promises, async/await)",
+      "Plugin architecture design",
+      "Route handler and middleware systems",
+      "Node.js streams and logging",
+      "TypeScript generics and return types",
+      "Semantic versioning and backward compatibility"
+    ],
+    "programming_languages": [
+      "JavaScript (ES Modules)",
+      "TypeScript"
+    ],
+    "summary": "thomheymann is a senior JavaScript developer with deep expertise in Fastify's core architecture, specializing in TypeScript integration, plugin systems, and asynchronous patterns. Their contributions focus on improving Fastify's type safety, routing flexibility, and performance optimizations, particularly in lifecycle hooks and logging systems. The developer demonstrates strong skills in maintaining backward compatibility and writing comprehensive documentation for complex framework features.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js runtime"
+      ],
+      "TypeScript Advanced": [
+        "TypeScript generics",
+        "Return type definitions",
+        "Context types",
+        "Thenable types"
+      ],
+      "Asynchronous Patterns": [
+        "Promise chaining",
+        "Async/await",
+        "Lifecycle hooks (.after(), .register())"
+      ],
+      "Plugin Architecture": [
+        "Plugin system design",
+        "Server constraints removal",
+        "Plugin lifecycle management"
+      ],
+      "Routing & Middleware": [
+        "Route handlers",
+        "URL rewriting",
+        "Middleware context types"
+      ],
+      "Performance Optimization": [
+        "Logging performance",
+        "Stream handling",
+        "Benchmarking"
+      ],
+      "Documentation": [
+        "Migration guides",
+        "API documentation updates"
+      ],
+      "Version Control": [
+        "Semantic versioning (semver-minor)"
+      ],
+      "Testing": [
+        "Unit testing",
+        "Benchmark testing"
+      ]
+    },
+    "skill_evidence": [
+      "\"Removed server constraints from plugin types\" - TypeScript PR showing plugin system architecture work",
+      "\"fix: Chainable / thenable types & after signature\" - Async/await and Promise chaining in lifecycle hooks",
+      "\"Add url rewrite option\" - Route handler modifications with context type fixes",
+      "\"docs: Migration Guide v3\" - Documentation contributions for Fastify v3 transition",
+      "\"Fix double logging + reduced log level for streams\" - Performance tuning in Node.js streams",
+      "\"semver-minor\" label - Awareness of semantic versioning and compatibility considerations",
+      "All PRs include \"run npm run test\" and \"run npm run benchmark\" checklists - Testing and benchmarking workflow",
+      "\"Fix context type for route handlers\" - TypeScript context type refinements in routing system"
+    ]
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

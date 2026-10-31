@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "developer_name": "jboesch",
+    "generation_timestamp": "2026-08-15T16:11:27.408383",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 12,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 12
+  },
+  "profile": {
+    "developer_name": "jboesch",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "jQuery Core DOM Manipulation",
+      "Cross-Browser JavaScript Debugging",
+      "Legacy JavaScript Patterns",
+      "jQuery Utility Function Extensions",
+      "DOM Property & Method Fixes"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES3)",
+      "jQuery"
+    ],
+    "summary": "jboesch is a highly specialized senior JavaScript developer with deep expertise in jQuery's core DOM manipulation layer. Their contributions focus on fixing edge cases in jQuery's internal DOM utilities (e.g., `outerWidth()`, `replaceWith()`, `nodeName`) and improving cross-browser compatibility, particularly for Internet Explorer and WebKit. The developer demonstrates strong debugging skills, reverse engineering legacy code, and iterative problem-solving through multiple iterations on the same bug fixes. Their work is entirely confined to jQuery's monorepo, showing deep familiarity with its internal architecture but no exposure to modern JavaScript frameworks or backend systems. The profile reflects a maintainer-level contributor with 10+ years of focused jQuery development experience.",
+    "identified_skills": {
+      "DOM Manipulation": [
+        "DOM element property fixes",
+        "outerWidth/height/width calculations",
+        "replaceWith() error handling",
+        "styleSheets iteration fixes"
+      ],
+      "jQuery Internals": [
+        "$.map() object support",
+        "$.each() length property handling",
+        "jQuery.nodeName utility",
+        "cloneFixAttributes patterns"
+      ],
+      "Cross-Browser Compatibility": [
+        "Internet Explorer-specific fixes",
+        "WebKit/Chrome quirks",
+        "DOM property inconsistencies"
+      ],
+      "Legacy JavaScript Patterns": [
+        "Prototype-based object extensions",
+        "Pre-ES6 iteration patterns",
+        "Callback-based utility functions"
+      ],
+      "Debugging Techniques": [
+        "Edge case reproduction",
+        "Historical bug context analysis",
+        "Iterative debugging approach",
+        "Self-reported mistake acknowledgment"
+      ],
+      "Version Control Practices": [
+        "Disciplined branching",
+        "Revert/rollback discipline",
+        "Small, focused PRs"
+      ],
+      "Testing Approaches": [
+        "Manual bug reproduction",
+        "Issue tracker validation",
+        "Real-world testing scenarios"
+      ],
+      "jQuery Ecosystem": [
+        "jQuery core contribution",
+        "jQuery issue tracker integration",
+        "jQuery's object-oriented patterns"
+      ]
+    },
+    "skill_evidence": [
+      "Fixed outerWidth() inconsistencies across browsers in 'Bug fix for outerWidth() etc on inputs (#4146)'",
+      "Added object support to $.map() in 'Adding object support to $.map' PR",
+      "Resolved IE-specific errors in $.each(document.styleSheets) in 'Bug 4366; fixing $.each from throwing errors in IE'",
+      "Implemented defensive programming for replaceWith() on non-existent elements in 'Bug 6158: Fixing replaceWith from throwing an error'",
+      "Standardized jQuery.nodeName usage across DOM node comparisons in 'Fix nodename inconsistency'",
+      "Demonstrated iterative debugging with multiple attempts on bug #4146 ('fixing bug 4146 - round 2!')",
+      "Showed historical context awareness by referencing older PRs like #3333 in descriptions",
+      "Used defensive programming patterns to handle missing elements in DOM operations"
+    ]
+  },
+  "statistics": {
+    "total_prs": 12,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

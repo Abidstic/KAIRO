@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "developer_name": "k1r0s",
+    "generation_timestamp": "2026-09-18T04:13:16.228642",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 9,
+    "repositories": [
+      "preact"
+    ],
+    "pr_data_sample_size": 9
+  },
+  "profile": {
+    "developer_name": "k1r0s",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "Preact",
+      "Frontend Build Tools (Webpack, Zero-Config)",
+      "Type-Safe HTML Attributes",
+      "Frontend Routing (Preact Router)",
+      "CSS Integration & Styling Systems",
+      "Developer Experience (DX) Improvements"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "k1r0s is a Mid-level JavaScript developer with deep expertise in TypeScript and Preact. Their contributions focus on enhancing developer experience through TypeScript integration, zero-config build setups, and Preact-specific improvements like routing and type-safe HTML attribute handling. They demonstrate strong skills in frontend tooling (Webpack) and CSS integration while advocating for simplicity and accessibility in frontend development.",
+    "identified_skills": {
+      "Frontend Frameworks & Libraries": [
+        "Preact",
+        "Preact Router"
+      ],
+      "TypeScript": [
+        "TypeScript type definitions",
+        "TypeScript callback patterns",
+        "TypeScript HTMLAttributes compatibility",
+        "TypeScript error handling"
+      ],
+      "Build Systems & Tooling": [
+        "Webpack configuration",
+        "Zero-config build tools (Poi)",
+        "TypeScript starters",
+        "CSS preprocessor integration"
+      ],
+      "Type-Safe DOM & Attributes": [
+        "HTMLAttributes type adjustments",
+        "value prop handling for numbers",
+        "TypeScript DOM attribute compatibility"
+      ],
+      "CSS & Styling": [
+        "CSS addons for Preact",
+        "CSS preprocessor support (Sass/Less)"
+      ],
+      "Developer Experience (DX)": [
+        "Preact starters with TypeScript",
+        "Zero-config project templates",
+        "TypeScript starter kits"
+      ],
+      "Frontend Routing": [
+        "Preact Router adaptations",
+        "Client-side routing patterns"
+      ],
+      "Asynchronous Patterns": [
+        "Callback flexibility in TypeScript"
+      ],
+      "Accessibility": [
+        "Type-safe form input handling"
+      ]
+    },
+    "skill_evidence": [
+      "PR 2: 'add TypeScript support' – Direct TypeScript integration for Preact",
+      "PR 3 & 5: '[zero config] Poi preact starter' – Zero-config build tooling and TypeScript starters",
+      "PR 8: 'value attr from HTMLAttributes should allow number' – Type-safe HTML attribute handling",
+      "PR 4: 'Yet another Preact Router' – Frontend routing contributions for Preact",
+      "PR 1: 'Add preact stylesheet addon' – CSS integration and preprocessor support",
+      "PR 9: 'allow optional arguments even if not used' – TypeScript callback pattern improvements",
+      "PR 6: 'add preact-bind-group' – Event binding or prop handling in Preact",
+      "PR 5: '[zero config] Poi preact starter' – Advocacy for simplicity in frontend tooling"
+    ]
+  },
+  "statistics": {
+    "total_prs": 9,
+    "repos_contributed": 1,
+    "repo_list": [
+      "preact"
+    ]
+  }
+}

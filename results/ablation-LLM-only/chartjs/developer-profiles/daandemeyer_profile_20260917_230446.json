@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "daandemeyer",
+    "generation_timestamp": "2026-09-17T22:52:03.115316",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 7,
+    "repositories": [
+      "chartjs"
+    ],
+    "pr_data_sample_size": 7
+  },
+  "profile": {
+    "developer_name": "daandemeyer",
+    "raw_response": "```json\n{\n  \"developer_name\": \"daandemeyer\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Chart.js API documentation\",\n    \"TypeScript type definitions\",\n    \"Technical writing for JavaScript libraries\",\n    \"JavaScript visualization libraries\",\n    \"DefinitelyTyped contributions\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES6+)\",\n    \"TypeScript\"\n  ],\n  \"summary\": \"daandemeyer is a mid-level JavaScript developer with deep expertise in Chart.js internals, TypeScript typing, and technical documentation. Their contributions focus on refining API documentation, adding missing TypeScript definitions, and ensuring consistency in naming conventions and defaults across Chart.js chart types. While contributions are primarily documentation-focused, the precision and technical depth suggest strong problem-solving skills in frontend visualization libraries and static typing ecosystems. Experience with DefinitelyTyped indicates familiarity with community-driven type definition processes and TypeScript tooling.\",\n  \"identified_skills\": {\n    \"Visualization Libraries\": [\"Chart.js API design\", \"Chart.js chart types (radar, bar, pie, doughnut)\", \"Chart.js option naming conventions\"],\n    \"TypeScript\": [\"TypeScript type definitions\", \"DefinitelyTyped contributions\", \"`.d.ts` file structure\", \"TypeScript for JavaScript libraries\"],\n    \"Documentation\": [\"Technical writing for developer APIs\", \"Documentation precision (capitalization, terminology)\", \"Missing field documentation\", \"Deprecated option removal\"],\n    \"JavaScript Ecosystem\": [\"ES module systems\", \"JavaScript prototyping\", \"DefinitelyTyped publishing workflow\"],\n    \"Collaboration\": [\"GitHub issue triage\", \"Community feedback integration\", \"Incremental documentation fixes\"],\n    \"Problem-Solving\": [\"Backward compatibility awareness\", \"API consistency fixes\", \"Self-aware documentation corrections\"]\n  },\n  \"skill_evidence\": [\n    \"PR #3: 'First pass on TypeScript definitions for chart.js 2.0' — contributed type definitions for Chart.js, demonstrating TypeScript expertise and DefinitelyTyped workflow\",\n    \"PR #1: 'Documentation fixes for radar chart tension option' — renamed `tension` to `lineTension` in docs, showing API design knowledge and consistency focus\",\n    \"PR #2: 'Remove unused scale option from bar chart docs' — removed deprecated `scale` option, indicating attention to deprecated features and documentation accuracy\",\n    \"PR #4: 'Add position field to global scale defaults' — added missing `position` field with default 'left', demonstrating deep understanding of Chart.js internals\",\n    \"PR #5: 'Fix pie/doughnut chart documentation inconsistencies' — corrected terminology and missing field descriptions, highlighting precision in technical writing\",\n    \"PR #6: 'Capitalization and grammar fixes in Chart.js documentation' — incremental but critical fixes showing commitment to documentation quality\",\n    \"PR #3 description: 'I'm unsure about a few things...' — self-awareness and collaborative debugging approach in type definition contributions\",\n    \"All PRs reference GitHub issues (e.g., 'fixes #2367') — evidence of issue triage and GitHub workflow familiarity\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 33 column 3 (char 3183)"
+  },
+  "statistics": {
+    "total_prs": 7,
+    "repos_contributed": 1,
+    "repo_list": [
+      "chartjs"
+    ]
+  }
+}

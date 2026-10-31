@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "curious-attempt-bunny",
+    "generation_timestamp": "2026-08-15T15:49:28.414814",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "express"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "curious-attempt-bunny",
+    "raw_response": "```json\n{\n  \"developer_name\": \"curious-attempt-bunny\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Node.js CLI tooling\",\n    \"Express.js framework internals\",\n    \"npm/package.json configurations\",\n    \"Deployment automation (Heroku)\",\n    \"Command-line interface development\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (Node.js runtime)\",\n    \"Shell scripting (for automation)\"\n  ],\n  \"summary\": \"A mid-level JavaScript developer with specialized expertise in Node.js CLI tooling and Express.js framework contributions. The developer demonstrates strong skills in extending command-line interfaces, optimizing npm/package.json configurations for deployment, and automating project setup tasks. Their contributions focus on improving the Express CLI's usability for deployment scenarios (e.g., Heroku integration) and maintaining clean, collaborative PR practices. While their experience is heavily concentrated in Node.js tooling and Express.js internals, they show proficiency in version control, Git workflows, and community collaboration. No evidence of frontend development or advanced backend patterns is present in their contributions.\",\n  \"identified_skills\": {\n    \"Node.js Ecosystem\": [\n      \"Node.js runtime\",\n      \"npm package management\",\n      \"package.json optimizations\",\n      \"CLI tooling extensions\"\n    ],\n    \"Express.js\": [\n      \"Express CLI internals\",\n      \"Generator scripts\",\n      \"Deployment-ready configurations\"\n    ],\n    \"Command-Line Development\": [\n      \"Custom CLI flags (--paas heroku)\",\n      \"Argument parsing\",\n      \"Dynamic configuration generation\"\n    ],\n    \"Deployment & DevOps\": [\n      \"Heroku-specific npm scripts\",\n      \"Engine entries for CI/CD\",\n      \"Automated .gitignore generation\"\n    ],\n    \"Version Control\": [\n      \"Git PR workflow\",\n      \"Manual verification practices\",\n      \"Incremental contributions\"\n    ],\n    \"JavaScript Module Patterns\": [\n      \"CommonJS module resolution\",\n      \"npm script execution\"\n    ],\n    \"Community Contributions\": [\n      \"PR referencing\",\n      \"Maintainer engagement\",\n      \"Collaborative feedback integration\"\n    ],\n    \"Automation Scripts\": [\n      \"Template-based file generation\",\n      \"Boilerplate automation\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR 1: Added `.gitignore` entry for `node_modules` in Express CLI (`bin/express`), demonstrating Node.js project structure knowledge and npm conventions\",\n    \"PR 2: Introduced `--paas heroku` CLI flag that automates Heroku deployment-ready `package.json` entries, showing deep Express CLI extension skills\",\n    \"PR 2: Added engine entries for `node` and `npm` in `package.json`, proving awareness of CI/CD version pinning requirements\",\n    \"PR 3: Simplified version after maintainer feedback (@shesek), illustrating collaborative PR practices and adaptability\",\n    \"All PRs: Focused on Express CLI generator improvements with no frontend or testing-related changes, confirming backend/tooling specialization\",\n    \"PR descriptions reference prior PRs (#1483) and seek maintainer input, demonstrating community engagement and context-aware contributions\",\n    \"Manual verification mentioned in PR 1 ('I've manually verified that the changes work'), showing attention to quality and testing practices\",\n    \"No evidence of frontend frameworks, testing libraries, or advanced Node.js patterns (e.g., streams, microservices) in any PR\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 66 column 3 (char 3411)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "express"
+    ]
+  }
+}

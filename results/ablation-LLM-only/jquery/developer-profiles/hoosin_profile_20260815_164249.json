@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "developer_name": "hoosin",
+    "generation_timestamp": "2026-08-15T16:25:18.376151",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "jquery"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "hoosin",
+    "experience_level": "Junior",
+    "primary_skills": [],
+    "programming_languages": [],
+    "summary": "The available GitHub PR data for developer **hoosin** does not provide sufficient evidence to assess JavaScript technical skills. All four PRs in the **jquery** repository show no code changes (files_changed: 0, additions: 0, deletions: 0), indicating they were likely metadata updates or administrative actions rather than technical contributions. While the repository context suggests exposure to the **jQuery ecosystem**, no actual JavaScript code modifications or technical discussions are visible. Without concrete code changes, PR descriptions, or reviews, it is impossible to infer specific skills or experience level beyond basic Git workflow familiarity.",
+    "identified_skills": {
+      "Git Workflow": [],
+      "Repository Metadata": [],
+      "jQuery Ecosystem Exposure": [],
+      "Basic Editorial Corrections": []
+    },
+    "skill_evidence": [
+      "All four PRs have `files_changed: 0` and empty `languages` arrays, indicating no JavaScript code was modified.",
+      "PR titles like 'uodate' and 'update' suggest non-technical updates (e.g., typos, metadata changes).",
+      "No labels or descriptions attached to PRs, preventing inference of technical focus (e.g., frontend/backend).",
+      "All PRs are closed in the **jquery** repository, but no code diffs or reviews provide technical context.",
+      "No evidence of JavaScript language features, frameworks, or tooling usage in PR metadata."
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "jquery"
+    ]
+  }
+}

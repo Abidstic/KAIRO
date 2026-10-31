@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "kkopanidis",
+    "generation_timestamp": "2026-08-15T18:21:39.510180",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "kkopanidis",
+    "raw_response": "```json\n{\n  \"developer_name\": \"kkopanidis\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Moment.js date-time manipulation\",\n    \"Locale-specific date parsing\",\n    \"Daylight Saving Time (DST) handling\",\n    \"Regex-based string parsing for dates\",\n    \"JavaScript debugging and issue analysis\",\n    \"Test-driven bug fixes\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES5/ES6)\",\n    \"JavaScript (Moment.js internals)\"\n  ],\n  \"summary\": \"kkopanidis is a Mid-level JavaScript developer with specialized expertise in date-time manipulation, particularly within the Moment.js library. Their contributions focus on fixing locale-specific parsing issues, handling timezone edge cases (including Daylight Saving Time transitions), and ensuring robust date formatting. The developer demonstrates strong debugging skills, test-driven development practices, and deep knowledge of Moment.js internals, such as locale systems and regex-based date parsing. While not actively contributing to modern frameworks, their foundational JavaScript skills in string manipulation, object configuration, and timezone arithmetic are highly relevant for date-heavy applications.\",\n  \"identified_skills\": {\n    \"Date-Time & Localization\": [\n      \"Moment.js locale handling\",\n      \"Spanish locale (es/es-do) fixes\",\n      \"D-MMM-YYYY date format parsing\",\n      \"Dot lenient parsing rules\",\n      \"Timezone arithmetic for DST transitions\"\n    ],\n    \"Debugging & Issue Resolution\": [\n      \"Targeted bug fixes for reported issues\",\n      \"Edge-case analysis (e.g., DST time corrections)\",\n      \"Issue reproduction and justification\",\n      \"Collaborative debugging with other contributors\"\n    ],\n    \"Testing & Code Quality\": [\n      \"Test-first approach for bug fixes\",\n      \"Moment.js test suite integration\"\n    ],\n    \"JavaScript Core Skills\": [\n      \"Regex-based string parsing\",\n      \"Object/locale configuration\",\n      \"Timezone and date arithmetic\"\n    ],\n    \"Open Source Contribution\": [\n      \"Focused, incremental PRs\",\n      \"Reference to contributor guidelines\",\n      \"Collaboration with maintainers\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR 1: Fixed Spanish locale parsing for 'D-MMM-YYYY' formats (e.g., '1-ENE-2023' vs. '1-Ene-2023'), referencing issue #3629 and mentioning 'dot lenient' parsing rules.\",\n    \"PR 2: Added test for locale-specific fix and addressed 'es-do' Spanish locale inconsistencies, explicitly stating 'Also added the appropriate test'.\",\n    \"PR 3: Corrected DST transition bug where time was not set to '23:59:59:999', referencing 'Issue#3132' and justifying fix with 'since all days end on 23:59'.\",\n    \"PR 1: Collaborated with @julionc, showing awareness of contributor interactions and incremental fixes.\",\n    \"PR 2: Demonstrated understanding of Moment.js locale system by modifying 'es' and 'es-do' locale configurations directly.\",\n    \"PR 3: Applied timezone arithmetic to handle edge cases where time corrections were needed for DST transitions.\",\n    \"All PRs: Focused on small, targeted fixes without introducing merge conflicts or large-scale changes.\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 54 column 3 (char 3099)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "alexbrasetvik",
+    "generation_timestamp": "2026-08-15T17:10:41.327917",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "lodash"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "alexbrasetvik",
+    "raw_response": "```json\n{\n  \"developer_name\": \"alexbrasetvik\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"JavaScript Security Hardening\",\n    \"Prototype Pollution Mitigation\",\n    \"Eval/Function Code Injection Prevention\",\n    \"Lodash Utility Library Maintenance\",\n    \"Unicode Security Handling\",\n    \"Defensive JavaScript Programming\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES5/ES6+)\"\n  ],\n  \"summary\": \"alexbrasetvik is a JavaScript developer with a specialized focus on security hardening in core language features and utility libraries. Their contributions to Lodash demonstrate deep expertise in mitigating prototype pollution risks, preventing eval-based code injection, and sanitizing potentially dangerous inputs like sourceURL. The developer's work is centered on defensive programming practices, runtime security, and proactive vulnerability mitigation rather than feature development. Their contributions suggest a Mid-level experience with niche but critical security knowledge in JavaScript ecosystems.\",\n  \"identified_skills\": {\n    \"JavaScript Security\": [\n      \"Prototype Pollution Prevention\",\n      \"Eval/Function Security Mitigation\",\n      \"Unicode Escape Sequence Handling\",\n      \"SourceURL Sanitization\",\n      \"Defensive Input Validation\"\n    ],\n    \"JavaScript Core Mechanics\": [\n      \"Prototype Inheritance\",\n      \"Function Construction Risks\",\n      \"Debugger Interaction Patterns\",\n      \"Dynamic Property Assignment\"\n    ],\n    \"Utility Library Development\": [\n      \"Lodash Internals\",\n      \"Template Function Security\",\n      \"Utility Function Hardening\"\n    ],\n    \"Security Testing Practices\": [\n      \"Vulnerability Auditing\",\n      \"Security Edge Case Testing\",\n      \"Static Analysis Awareness\"\n    ],\n    \"Defensive Programming\": [\n      \"Strict Property Access Controls\",\n      \"Input Sanitization Patterns\",\n      \"Runtime Safety Measures\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR: 'Prevent prototype pollution chaining to code execution via _.template' — Demonstrates deep understanding of prototype inheritance and Function construction risks in Lodash's templating system\",\n    \"PR: 'Sanitize sourceURL so it cannot affect evaled code' — Shows expertise in blocking eval-based injection via Unicode escapes and regex sanitization\",\n    \"PR labels: 'enhancement', 'issue bankruptcy' — Indicates proactive security hardening rather than reactive bug fixes\",\n    \"Focus on '_.template' and 'Function' — Evidence of core JavaScript runtime security knowledge beyond framework-level work\",\n    \"Unicode escape sequences (\\uXXXX) handling — Proves awareness of advanced code injection techniques\",\n    \"Regex-based sanitization patterns — Demonstrates defensive programming for security-critical inputs\",\n    \"Contributions to Lodash — Shows specialized knowledge of utility library internals and their security implications\",\n    \"No frontend framework or backend system involvement — Confirms niche focus on core language security\"\n  ]\n}\n```",
+    "parsing_error": "Invalid \\uXXXX escape: line 51 column 33 (char 2565)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "lodash"
+    ]
+  }
+}

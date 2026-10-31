@@ -1,0 +1,61 @@
+{
+  "reviewer_name": "tlhunter",
+  "generated_at": "20260918_125641",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 10,
+    "total_comments": 8,
+    "total_prs": 1,
+    "repos": [
+      "fastify"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "tlhunter",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js backend development",
+      "Event-driven architecture",
+      "Express.js middleware"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)"
+    ],
+    "summary": "tlhunter demonstrates **mid-level expertise** in Node.js backend development with a focus on event-driven systems and routing middleware. Their reviews (where visible) suggest familiarity with diagnostics channels and routing-related patterns, but lack concrete evidence of deeper technical discussions or code changes. The limited data indicates backend specialization without frontend or testing experience.",
+    "identified_skills": {
+      "Backend Frameworks": [
+        "Node.js",
+        "Express.js"
+      ],
+      "Event-Driven Systems": [
+        "diagnostics_channel",
+        "EventEmitter patterns"
+      ],
+      "Routing & Middleware": [
+        "HTTP routing",
+        "request handling"
+      ],
+      "Version-Specific Knowledge": [
+        "v5.x compatibility"
+      ],
+      "Code Review": [
+        "PR metadata review"
+      ],
+      "Documentation": [],
+      "Testing": [],
+      "Frontend Frameworks": [],
+      "Asynchronous Programming": [
+        "event-based workflows"
+      ]
+    },
+    "skill_evidence": [
+      "PR title 'diagnostics_channel events upon routing request' implies Node.js/Express.js middleware expertise",
+      "Label 'v5.x' suggests version-specific Node.js knowledge (likely v5.x runtime)",
+      "All PRs have `files_changed: 0`, indicating review of metadata rather than code changes",
+      "Review state 'COMMENTED' (no visible comments) suggests procedural review rather than technical debate",
+      "No frontend or testing-related terms in PR titles/labels",
+      "Event-driven keywords ('events upon routing') align with Node.js event emitter patterns"
+    ]
+  }
+}

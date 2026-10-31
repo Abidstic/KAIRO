@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "KiraPC",
+    "generation_timestamp": "2026-09-18T14:15:00.029926",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "KiraPC",
+    "raw_response": "```json\n{\n  \"developer_name\": \"KiraPC\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"TypeScript\",\n    \"Fastify\",\n    \"Node.js Backend Development\",\n    \"API Request/Response Typing\",\n    \"TypeScript Type Definitions\"\n  ],\n  \"programming_languages\": [\n    \"TypeScript\",\n    \"JavaScript (Node.js)\"\n  ],\n  \"summary\": \"KiraPC is a mid-level JavaScript developer with specialized expertise in TypeScript and Fastify. Their contributions focus on enhancing type safety and API design within the Fastify framework, demonstrating strong backend development skills. Evidence is limited to Fastify-specific contributions, with no clear indication of broader JavaScript ecosystem experience (e.g., frontend frameworks or testing tools). Their work primarily involves extending type definitions and improving request/response object typing, suggesting a deep focus on type system correctness and backend API architecture.\",\n  \"identified_skills\": {\n    \"TypeScript\": [\n      \"Type Definitions\",\n      \"TypeScript Type Safety\",\n      \"Missing Type Workflows\",\n      \"Request/Response Typing\",\n      \"Fastify TypeScript Integration\"\n    ],\n    \"Backend Frameworks\": [\n      \"Fastify\",\n      \"Node.js HTTP Server\",\n      \"Fastify Plugins\",\n      \"Error Handling Systems\"\n    ],\n    \"API Design\": [\n      \"Request/Response Object Typing\",\n      \"Serializer Integration\",\n      \"Client Error Handlers\"\n    ],\n    \"Node.js\": [\n      \"Asynchronous Programming Patterns\",\n      \"Module Systems\",\n      \"HTTP Server Fundamentals\"\n    ],\n    \"Tooling\": [\n      \"TypeScript Tooling\",\n      \"IDE Integration (TypeScript Definitions)\"\n    ],\n    \"Documentation\": [\n      \"Type Definition Updates\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR titled 'serializer log req and res are now Fastify Objects in type definition' shows explicit work on Fastify request/response typing in TypeScript\",\n    \"PR labeled 'typescript' with 'add clientErrorHandler in fastify ts definition' confirms TypeScript-focused error handling contributions\",\n    \"PR titled 'add missing types workflow' indicates involvement in improving Fastify's type coverage and IDE support\",\n    \"All PRs involve only additions to `.d.ts` files, demonstrating a focus on type definitions over runtime logic\",\n    \"No evidence of frontend frameworks (React, Vue) or testing tools (Jest, Mocha) in PR titles, labels, or descriptions\",\n    \"Contributions involve Fastify's core systems (request/response objects, error handling), not general Node.js utilities\",\n    \"PRs show no changes to runtime JavaScript code, only type annotations and documentation\",\n    \"Missing evidence of dependency management, DevOps tools, or broader JavaScript ecosystem contributions\"\n  }\n}\n```",
+    "parsing_error": "Expecting ',' delimiter: line 57 column 3 (char 2703)"
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "developer_name": "reidn3r",
+    "generation_timestamp": "2026-09-18T13:55:37.994579",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 5,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 5
+  },
+  "profile": {
+    "developer_name": "reidn3r",
+    "raw_response": "```json\n{\n  \"developer_name\": \"reidn3r\",\n  \"experience_level\": \"Mid\",\n  \"primary_skills\": [\n    \"Node.js\",\n    \"Fastify\",\n    \"Test Framework Migration\",\n    \"Node.js Testing\",\n    \"Test Suite Maintenance\",\n    \"HTTPS/HTTP Server Testing\"\n  ],\n  \"programming_languages\": [\n    \"JavaScript (ES Modules)\",\n    \"TypeScript (inferred from Fastify ecosystem)\"\n  ],\n  \"summary\": \"reidn3r is a Mid-level JavaScript developer with specialized expertise in Node.js testing and Fastify internals. Their contributions focus on modernizing Fastify’s test infrastructure by migrating from legacy `tap` to Node.js’s built-in `node:test` framework. They demonstrate strong skills in test suite maintenance, Node.js runtime awareness, and refactoring without breaking existing functionality. While primarily backend-focused (Fastify, Node.js), their work shows proficiency in test framework evolution, benchmarking, and documentation practices within open-source projects.\",\n  \"identified_skills\": {\n    \"Node.js Runtime & Ecosystem\": [\n      \"Node.js built-in modules (node:test)\",\n      \"Node.js version compatibility (v18+)\",\n      \"Async/await patterns (inferred)\",\n      \"ES Modules\"\n    ],\n    \"Testing & Test Frameworks\": [\n      \"Test framework migration (tap → node:test)\",\n      \"Test suite execution (npm run test)\",\n      \"Benchmarking (npm run benchmark)\",\n      \"Test verification workflows\"\n    ],\n    \"Backend Frameworks\": [\n      \"Fastify\",\n      \"HTTPS server testing\",\n      \"Stream handling\",\n      \"Validation/error handling\"\n    ],\n    \"Refactoring & Maintenance\": [\n      \"Zero-code-change refactors\",\n      \"Documentation updates\",\n      \"Issue-driven contributions\",\n      \"Contribution guidelines adherence\"\n    ],\n    \"Tooling & Build Systems\": [\n      \"npm scripts (test/benchmark)\",\n      \"GitHub issue tracking\",\n      \"PR labels (test)\"\n    ],\n    \"JavaScript Language\": [\n      \"ES Modules\",\n      \"Modern JavaScript patterns\"\n    ]\n  },\n  \"skill_evidence\": [\n    \"PR 1: 'tests: migrate https module tests framework to 'node:test'\",',\n    \"PR 2: 'refactor: migrate test framework in build module' with issue reference #5555\",\n    \"PR 3: 'test: migrated stream.1.test.js from tap to node:test' and ran 'npm run test' and 'npm run benchmark'\",\n    \"PR 4 & 5: Validation/error-handling test migrations to node:test with explicit test verification\",\n    \"PR descriptions include documentation updates and adherence to Developer's Certification of Origin\",\n    \"All PRs reference Fastify’s HTTPS/server/test files (e.g., https.test.js, custom-https-server.test.js)\",\n    \"PR 3 mentions 'documentation is changed or added' as part of the migration\",\n    \"No code changes in PRs, only test framework refactors with zero test failures\"\n  ]\n}\n```",
+    "parsing_error": "Expecting value: line 53 column 73 (char 2040)"
+  },
+  "statistics": {
+    "total_prs": 5,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

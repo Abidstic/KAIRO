@@ -1,0 +1,69 @@
+{
+  "reviewer_name": "MortezaMirjavadi",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 4,
+    "total_prs": 1,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "MortezaMirjavadi",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Zustand state management",
+      "Redux Toolkit",
+      "React hook-based state patterns",
+      "Modern JavaScript/TypeScript integration"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript"
+    ],
+    "summary": "MortezaMirjavadi demonstrates a strong mid-level proficiency in frontend JavaScript, particularly in state management for React applications. Their reviews focus on evaluating and integrating Zustand (a lightweight hook-based state manager) and Redux Toolkit (a modern Redux implementation), showing deep conceptual understanding of trade-offs between micro and global state solutions. While their experience is frontend-centric, the precision in PR descriptions and library selection suggests familiarity with TypeScript and modern JavaScript patterns. No backend or testing-related evidence is present, indicating a specialized focus on frontend architecture and state management.",
+    "identified_skills": {
+      "State Management Libraries": [
+        "Zustand",
+        "Redux Toolkit",
+        "Global state vs. micro state trade-offs"
+      ],
+      "React Patterns": [
+        "Hook-based state management",
+        "Component state lifecycle",
+        "React hooks (useState, useReducer implied)"
+      ],
+      "JavaScript/TypeScript": [
+        "Modern JavaScript (ES6+)",
+        "TypeScript integration",
+        "Module system (ES6 imports/exports)"
+      ],
+      "Frontend Architecture": [
+        "Library integration",
+        "State management architecture",
+        "Demo project development"
+      ],
+      "Technical Review": [
+        "Library evaluation",
+        "State management recommendations",
+        "PR scoping"
+      ],
+      "Code Quality": [
+        "Dependency management"
+      ]
+    },
+    "skill_evidence": [
+      "PRs explicitly mention 'Zustand is actually a micro state management and works by hooks' — demonstrating understanding of Zustand's hook-based architecture vs. Redux Toolkit's structured approach.",
+      "All 5 PRs focus on integrating Zustand and Redux Toolkit into a demo, indicating hands-on experience with both libraries' setup and configuration.",
+      "PR descriptions highlight 'powerful state management' and contrast 'Zustand for micro state' with 'Redux for complex apps,' showing ability to evaluate and recommend solutions.",
+      "Mentions of 'works by hooks' imply familiarity with React's hook API and component state patterns, even if not explicitly shown in code reviews.",
+      "PRs are in 'COMMENTED' state, suggesting active engagement in technical discussions (though no comments are visible in the snippet).",
+      "Focus on Redux Toolkit and Zustand — both TypeScript-friendly libraries — implies comfort with type-safe state management, even if not explicitly mentioned.",
+      "PR titles and descriptions imply frontend project setup and library integration (e.g., 'adding Zustand and Redux Toolkit to a demo').",
+      "No evidence of backend, testing, or DevOps-related reviews, confirming frontend specialization."
+    ]
+  }
+}

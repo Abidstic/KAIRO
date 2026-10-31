@@ -1,0 +1,91 @@
+{
+  "reviewer_name": "rschristian",
+  "generated_at": "20260918_034504",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 218,
+    "total_comments": 131,
+    "total_prs": 145,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "rschristian",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "TypeScript type definitions",
+      "React/Preact compatibility",
+      "ES Modules (ESM) and CommonJS (CJS) interoperability",
+      "State management libraries (Zustand, Redux Toolkit)",
+      "Cross-browser testing (IE11, Sauce Labs)",
+      "JavaScript module system configurations"
+    ],
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript (ES6+)",
+      "JavaScript Module Systems (ESM/CJS)"
+    ],
+    "summary": "rschristian is a Senior JavaScript reviewer with deep expertise in TypeScript type definitions for React-like ecosystems (particularly Preact), ESM/CJS module system configurations, and state management patterns. Their reviews demonstrate strong technical depth in bridging gaps between `@types/react` and Preact's internal types, as well as practical experience with modern frontend tooling (Jest, Sauce Labs) and legacy browser support (IE11). The reviewer also excels in maintainer responsibilities, providing thoughtful approvals and constructive feedback while engaging thoughtfully with the community. Their work spans type safety, module resolution, and state management, making them a valuable asset for libraries requiring backward-compatible TypeScript definitions and robust JavaScript module configurations.",
+    "identified_skills": {
+      "TypeScript & Type Systems": [
+        "TypeScript type definitions",
+        "React type compatibility (ComponentType)",
+        "@types/react mirroring",
+        "Internal type consistency fixes",
+        "TypeScript type system design"
+      ],
+      "Module Systems & Bundling": [
+        "ES Modules (ESM)",
+        "CommonJS (CJS)",
+        "package.json exports field",
+        "Jest 28 module resolution",
+        "Module extension handling (.js vs .mjs)"
+      ],
+      "React & React-like Ecosystems": [
+        "Preact compatibility",
+        "React hooks patterns",
+        "State management (Zustand, Redux Toolkit)",
+        "VNode handling",
+        "Memoized component testing"
+      ],
+      "Testing & Tooling": [
+        "Cross-browser testing (Sauce Labs)",
+        "IE11 compatibility fixes",
+        "Asynchronous test optimizations",
+        "External service timeouts",
+        "Test performance tuning"
+      ],
+      "Code Review & Maintenance": [
+        "Constructive approvals",
+        "Community engagement",
+        "Git state debugging",
+        "Long-term project direction",
+        "Documentation linkage"
+      ],
+      "State Management": [
+        "Zustand integration",
+        "Redux Toolkit patterns",
+        "Hooks-based state",
+        "State management demos"
+      ],
+      "JavaScript Language Features": [
+        "ES6+ features",
+        "Module resolution",
+        "Async/Await context"
+      ]
+    },
+    "skill_evidence": [
+      "PR: 'Add ComponentType to preact/compat' — explicit React type compatibility work",
+      "Review comment: 'mirror the same type in @types/react' — type system alignment evidence",
+      "PR: 'Switch all ESM dist to .mjs' — ESM/CJS extension and Jest 28 module resolution discussion",
+      "Comment: 'Jest 28 supports \"exports\" field in package.json' — module system configuration evidence",
+      "PR: 'Add zustand and redux-toolkit to the demo' — state management library integration",
+      "PR: '10.19.2' — IE11 test fixes and memoed component testing",
+      "Comment: 'Good shout, that 6hr default on saucelabs is a bit crazy' — Sauce Labs testing awareness",
+      "PR: 'Add some sensible timeouts to actions that call out to external services' — async testing optimizations",
+      "Review state: 'APPROVED' with constructive comments — maintainer engagement evidence"
+    ]
+  }
+}

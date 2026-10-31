@@ -1,0 +1,59 @@
+{
+  "reviewer_name": "hesxenon",
+  "generated_at": "20260918_034607",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 4,
+    "total_comments": 4,
+    "total_prs": 1,
+    "repos": [
+      "preact"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "hesxenon",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "React component props",
+      "React rendering behavior",
+      "JavaScript object/array handling"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)"
+    ],
+    "summary": "hesxenon demonstrates a focused proficiency in React, particularly around children props and rendering behavior, with limited but sufficient JavaScript core knowledge to address basic component-level issues. Their review activity is limited to a single repository (preact) and appears to center on frontend debugging and component-level fixes. While evidence of advanced JavaScript, testing, or backend skills is absent, their consistent engagement with React-specific PRs suggests a specialized but narrow expertise in frontend component architecture.",
+    "identified_skills": {
+      "Frontend Frameworks": [
+        "React",
+        "Preact"
+      ],
+      "Component Architecture": [
+        "children props",
+        "JSX rendering"
+      ],
+      "JavaScript Core": [
+        "object/array manipulation"
+      ],
+      "Code Review": [
+        "PR feedback (commented state)"
+      ],
+      "Debugging": [
+        "bug fixes in rendering behavior"
+      ],
+      "Testing": [],
+      "Backend": [],
+      "Tooling": [],
+      "Performance": []
+    },
+    "skill_evidence": [
+      "Repeated PR title 'fix: react props with children didn't allow for multiple children' indicates deep focus on React's children prop handling",
+      "Review state 'COMMENTED' suggests active feedback engagement, though no specific comments are visible",
+      "No backend-related terms or labels appear in the limited data",
+      "PR titles exclusively reference React frontend concerns (no mention of Node.js, databases, or backend tooling)",
+      "Likely familiarity with JavaScript object/array behavior based on children prop handling (e.g., distinguishing between single vs. array children)",
+      "No evidence of advanced JavaScript features (async/await, generators, etc.) or testing frameworks (Jest, Cypress)",
+      "Repository context limited to 'preact', suggesting frontend-only specialization"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "reviewer_name": "jeanbmar",
+  "generated_at": "20260917_181205",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 2,
+    "total_prs": 1,
+    "repos": [
+      "npm_cli"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "jeanbmar",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js package management",
+      "Semantic Versioning",
+      "Deployment automation",
+      "Testing workflows"
+    ],
+    "programming_languages": [
+      "JavaScript (Node.js)"
+    ],
+    "summary": "jeanbmar demonstrates moderate expertise in Node.js package management and deployment automation, with inferred skills in semantic versioning and testing workflows. The reviewer's contributions focus on script-based deployment tasks and versioning practices, though evidence is limited to repetitive PRs without detailed review comments or code changes. Their involvement in labeling PRs for testing gaps suggests awareness of quality assurance processes, but no specific testing frameworks or advanced JavaScript patterns are visible. The profile reflects a technical contributor with practical experience in Node.js ecosystems, particularly around build/deployment pipelines and version control.",
+    "identified_skills": {
+      "Package Management": [
+        "npm scripts",
+        "package.json configurations",
+        "dependency copying"
+      ],
+      "Versioning": [
+        "Semantic Versioning (SemVer)",
+        "release labeling"
+      ],
+      "Deployment": [
+        "asset copying for deployments",
+        "deployable folder generation"
+      ],
+      "Testing": [
+        "test coverage labeling"
+      ],
+      "Code Review": [
+        "process-oriented feedback"
+      ],
+      "Node.js": [
+        "custom npm scripts"
+      ],
+      "Build Systems": [],
+      "Frontend Frameworks": [],
+      "Backend Frameworks": [],
+      "Asynchronous Patterns": [],
+      "Error Handling": [],
+      "Performance Optimization": []
+    },
+    "skill_evidence": [
+      "PR title references 'npm copy' script for copying modules/dependencies into a deployable folder",
+      "'semver:minor' label indicates adherence to Semantic Versioning for version bumps",
+      "'pr: needs tests' label appears twice, suggesting awareness of testing gaps in PRs",
+      "COMMENTED state on both PRs implies review focus on process (testing, versioning) rather than code details",
+      "No explicit mention of frontend frameworks or backend frameworks in PR titles/labels",
+      "No evidence of testing frameworks (Jest, Mocha) or specific JavaScript features in review context",
+      "Repository labeled 'npm_cli' suggests focus on Node.js package management tools"
+    ]
+  }
+}

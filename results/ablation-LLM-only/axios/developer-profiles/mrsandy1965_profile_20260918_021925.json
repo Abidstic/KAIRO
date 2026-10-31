@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "developer_name": "mrsandy1965",
+    "generation_timestamp": "2026-09-18T02:18:49.540438",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 4,
+    "repositories": [
+      "axios"
+    ],
+    "pr_data_sample_size": 4
+  },
+  "profile": {
+    "developer_name": "mrsandy1965",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "Node.js HTTP client development",
+      "HTTP/HTTPS protocol handling",
+      "FormData processing",
+      "JavaScript ES6+ best practices",
+      "API documentation maintenance",
+      "HTTP testing and debugging"
+    ],
+    "programming_languages": [
+      "JavaScript (ES6+)",
+      "TypeScript (inferred from axios ecosystem)"
+    ],
+    "summary": "mrsandy1965 is a mid-level JavaScript developer with specialized expertise in HTTP client libraries, particularly axios. Their contributions demonstrate deep knowledge of Node.js HTTP handling, FormData processing, and modern JavaScript practices. The developer shows strong skills in documentation maintenance, HTTP testing, and debugging network-related issues. Contributions are highly focused on backend HTTP client functionality rather than frontend frameworks or broader JavaScript tooling.",
+    "identified_skills": {
+      "HTTP Client Libraries": [
+        "axios",
+        "HTTP protocol implementation"
+      ],
+      "Node.js Runtime": [
+        "HTTP server handling",
+        "FormData processing",
+        "Buffer deprecation awareness"
+      ],
+      "JavaScript Language": [
+        "ES6+ best practices",
+        "deprecated API handling"
+      ],
+      "Testing": [
+        "HTTP protocol testing",
+        "local server mocking",
+        "error propagation testing"
+      ],
+      "Documentation": [
+        "API example updates",
+        "README formatting",
+        "deprecation documentation"
+      ],
+      "Networking": [
+        "HTTPS certificate handling",
+        "FormData length calculation"
+      ],
+      "Tooling": [
+        "Markdown documentation",
+        "test reliability improvements"
+      ]
+    },
+    "skill_evidence": [
+      "PR 'fix(http): propagate FormData length calculation errors' shows deep FormData processing knowledge in Node.js HTTP context",
+      "PR 'test(http): fix HTTPS protocol test by using local HTTPS server' demonstrates HTTP protocol testing and local server setup expertise",
+      "PR 'doc: Update deprecated var usage in documentation examples' indicates awareness of modern JavaScript best practices",
+      "Multiple PRs fixing 'deprecated Buffer constructor' usage show Node.js-specific JavaScript knowledge",
+      "Documentation-focused PRs ('docs: fix deprecated Buffer constructor') prove strong API documentation maintenance skills",
+      "HTTP testing improvements ('use local HTTPS server instead of external requests') show test reliability focus",
+      "FormData error handling in PRs indicates specialized knowledge of multipart request processing",
+      "All contributions are axios-specific, demonstrating deep HTTP client library expertise"
+    ]
+  },
+  "statistics": {
+    "total_prs": 4,
+    "repos_contributed": 1,
+    "repo_list": [
+      "axios"
+    ]
+  }
+}

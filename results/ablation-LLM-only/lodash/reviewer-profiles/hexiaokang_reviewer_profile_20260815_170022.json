@@ -1,0 +1,44 @@
+{
+  "reviewer_name": "hexiaokang",
+  "generated_at": "20260815_170022",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 2,
+    "total_comments": 0,
+    "total_prs": 2,
+    "repos": [
+      "lodash"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "hexiaokang",
+    "experience_level": "Unknown",
+    "primary_skills": [],
+    "programming_languages": [
+      "JavaScript"
+    ],
+    "summary": "The reviewer 'hexiaokang' has an insufficient and unreliable evidence base for assessing JavaScript expertise. Both reviewed PRs lack actual code changes, have misleading labels ('issue bankruptcy'), and provide no actionable technical feedback or code modifications. No concrete JavaScript skills, frameworks, or patterns can be reliably inferred from the available data.",
+    "identified_skills": {
+      "Dependency Management": [
+        "npm lockfile updates"
+      ],
+      "Lodash Utility Functions": [],
+      "Code Review Process": [
+        "APPROVED review state"
+      ],
+      "JavaScript Core Features": [
+        "Symbol support (hypothetical)"
+      ]
+    },
+    "skill_evidence": [
+      "PR labeled 'Update NPM lockfile to version 2' with no file changes",
+      "PR labeled 'isEmpty support Symbol' with no file changes",
+      "Both PRs have 'files_changed = 0' indicating no actual code review",
+      "Review state marked 'APPROVED' with no accompanying comments or feedback",
+      "Labeled as 'issue bankruptcy' (potential mislabeling or non-technical PRs)",
+      "No evidence of JavaScript syntax, async/await, or modern ES features in reviews",
+      "No backend (Node.js), frontend (React/Vue), or testing-related PRs visible"
+    ]
+  }
+}

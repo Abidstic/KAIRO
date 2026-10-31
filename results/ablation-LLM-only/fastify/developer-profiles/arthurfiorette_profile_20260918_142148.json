@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "developer_name": "arthurfiorette",
+    "generation_timestamp": "2026-09-18T14:20:40.602192",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "fastify"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "arthurfiorette",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "TypeScript",
+      "Node.js Runtime",
+      "Fastify Framework",
+      "ES Modules (ES2022+)",
+      "Symbol Handling",
+      "Async Resource Management",
+      "Runtime Type Safety"
+    ],
+    "programming_languages": [
+      "JavaScript (ES2022+)",
+      "TypeScript"
+    ],
+    "summary": "arthurfiorette is a mid-level JavaScript/TypeScript developer with deep expertise in Node.js runtime behavior, Fastify framework internals, and TypeScript-specific features. Their contributions focus on improving runtime type safety, async resource management (via `Symbol.asyncDispose`), and developer experience within Fastify. The developer demonstrates strong debugging skills for build systems and runtime compatibility issues, particularly around ES2022+ features and TypeScript symbol handling. Evidence suggests a backend-focused specialization with a strong emphasis on runtime correctness and DX improvements.",
+    "identified_skills": {
+      "Runtime Systems": [
+        "Symbol.asyncDispose",
+        "ES2022+ Module Features",
+        "Async Resource Cleanup",
+        "Runtime Type Checking"
+      ],
+      "Backend Frameworks": [
+        "Fastify",
+        "Node.js Web Framework"
+      ],
+      "TypeScript Advanced": [
+        "Symbol Types",
+        "Type Annotations",
+        "Build System Integration"
+      ],
+      "Debugging & Build Systems": [
+        "TypeScript Compiler Behavior",
+        "ES Module Resolution",
+        "Polyfill Fallbacks"
+      ],
+      "Documentation & DX": [
+        "API Documentation Clarity",
+        "Developer Experience Improvements"
+      ],
+      "JavaScript Internals": [
+        "Symbol Global Registry",
+        "Module Lifecycle Management"
+      ],
+      "Pattern Optimization": [
+        "Minimal Runtime Changes",
+        "High-Impact DX Fixes"
+      ]
+    },
+    "skill_evidence": [
+      "PR 1 labeled 'typescript' introduces `Symbol.asyncDispose` for async resource cleanup in Fastify, demonstrating deep ES2022+ module system knowledge",
+      "PR 3 fixes a build issue when `Symbol.asyncDispose` is unavailable, showing awareness of TypeScript/ES symbol resolution and polyfill strategies",
+      "All PRs in Fastify repo target runtime behavior (e.g., server lifecycle) rather than implementation details, indicating focus on framework internals",
+      "PR 2 labeled 'documentation' references PR #5082, proving involvement in clarifying API behavior for TypeScript users",
+      "Changes involve no code modifications but address subtle runtime type safety issues, suggesting expertise in TypeScript's type system semantics",
+      "PRs involve `Symbol.for()` and global symbol handling, proving familiarity with JavaScript's symbol internals",
+      "Debugging effort in PR 3 reveals understanding of how TypeScript handles unavailable runtime symbols during compilation",
+      "Contributions focus on 'short-lived servers' in Fastify, indicating experience with async resource lifecycle management patterns"
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "fastify"
+    ]
+  }
+}

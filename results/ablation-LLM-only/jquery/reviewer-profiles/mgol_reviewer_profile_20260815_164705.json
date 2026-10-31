@@ -1,0 +1,93 @@
+{
+  "reviewer_name": "mgol",
+  "generated_at": "20260815_164705",
+  "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+  "source": "GitHub Review Data Analysis (LLM-inferred skills, no KU taxonomy)",
+  "stats": {
+    "total_reviews": 398,
+    "total_comments": 455,
+    "total_prs": 144,
+    "repos": [
+      "jquery"
+    ]
+  },
+  "profile": {
+    "reviewer_name": "mgol",
+    "experience_level": "Senior",
+    "primary_skills": [
+      "ES Modules (ESM) and AMD migration",
+      "DOM manipulation and CORS security",
+      "jQuery internals (CSS manipulation, Sizzle selector engine)",
+      "ESLint configuration and code quality enforcement",
+      "Legacy JavaScript modernization",
+      "Test suite maintenance and TDD",
+      "Code review and mentorship"
+    ],
+    "programming_languages": [
+      "JavaScript (ES5/ES6+)",
+      "TypeScript (inferred from ESLint context)",
+      "CSS (value parsing and manipulation)"
+    ],
+    "summary": "mgol is a Senior JavaScript reviewer with deep expertise in modernizing legacy JavaScript ecosystems, particularly jQuery and AMD-based codebases. Their reviews demonstrate strong technical depth in ES Modules migration, DOM security (CORS), jQuery internals, and ESLint best practices. The reviewer excels in code review leadership, test-driven development, and maintaining high code quality standards while mentoring contributors. Their work spans both technical implementation and process improvement, making them well-suited for maintaining large-scale JavaScript libraries.",
+    "identified_skills": {
+      "Module Systems": [
+        "ES Modules (ESM)",
+        "AMD (Asynchronous Module Definition)",
+        "Module migration strategies"
+      ],
+      "DOM & Browser APIs": [
+        "DOM manipulation",
+        "CORS (`crossorigin` attribute)",
+        "Script loading security",
+        "CSS property manipulation"
+      ],
+      "Legacy JavaScript": [
+        "jQuery internals",
+        "Sizzle selector engine",
+        "AMD-based projects",
+        "Grunt build system"
+      ],
+      "Code Quality & Tooling": [
+        "ESLint configuration",
+        "`eslint-disable-next-line` preference",
+        "Report unused disable directives",
+        "Code review patterns"
+      ],
+      "Testing & TDD": [
+        "Unit testing (QUnit/Mocha)",
+        "Test suite maintenance",
+        "Grunt-based testing",
+        "Test-driven refactoring"
+      ],
+      "Security Awareness": [
+        "CORS policy handling",
+        "DOM XSS prevention",
+        "Script loading security"
+      ],
+      "Documentation": [
+        "README maintenance",
+        "Markdown updates"
+      ],
+      "Code Review": [
+        "Constructive feedback",
+        "Approval patterns",
+        "Multi-stage review guidance"
+      ],
+      "Build Systems": [
+        "Grunt",
+        "ESLint plugins",
+        "Build optimization"
+      ]
+    },
+    "skill_evidence": [
+      "\"Core: Migrate from AMD to ES modules\" (multiple reviews) — Demonstrates deep knowledge of module system evolution and transpilation.",
+      "\"Manipulation: Respect script crossorigin attribute in DOM manipulation\" — Shows expertise in CORS security and DOM API safety.",
+      "\"Offset: Send px-ed strings to .css()\" — Indicates familiarity with jQuery’s CSS manipulation internals and unit conversion.",
+      "\"Tests: Port changes from Sizzle\" — Proves experience with test suite maintenance and legacy selector engine testing.",
+      "\"Prefer eslint-disable-next-line to eslint-disable\" — Reflects strong ESLint configuration preferences and code quality focus.",
+      "\"Build: Enable reportUnusedDisableDirectives in ESLint\" — Demonstrates advanced ESLint plugin usage and stricter linting rules.",
+      "\"Docs: Change OS X to macOS in README\" — Shows attention to documentation accuracy and maintainability.",
+      "\"Grunt build and unit tests pass locally\" — Confirms hands-on experience with legacy build systems and testing workflows."
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "developer_name": "socketpair",
+    "generation_timestamp": "2026-08-15T18:18:57.046920",
+    "llm_provider": "OpenRouter (mistralai/ministral-8b-2512)",
+    "source": "GitHub PR Data Analysis (LLM-inferred skills, no KU taxonomy)",
+    "total_prs_analyzed": 3,
+    "repositories": [
+      "moment"
+    ],
+    "pr_data_sample_size": 3
+  },
+  "profile": {
+    "developer_name": "socketpair",
+    "experience_level": "Mid",
+    "primary_skills": [
+      "JavaScript Internationalization (i18n)",
+      "Moment.js Localization",
+      "Regular Expressions for Locale Parsing",
+      "Cyrillic Script Handling",
+      "Russian Language Grammar Rules"
+    ],
+    "programming_languages": [
+      "JavaScript"
+    ],
+    "summary": "socketpair is a mid-level JavaScript developer with specialized expertise in internationalization (i18n) and localization (l10n) for Moment.js. Their contributions focus on refining Russian locale implementations, particularly regex-based date parsing and month abbreviation handling. The developer demonstrates strong debugging skills for edge cases in non-Latin scripts, linguistic awareness, and attention to detail in fixing subtle technical and grammatical inconsistencies. While their contributions are narrowly focused on Moment.js internals, their work reveals deep knowledge of regex patterns, string manipulation, and locale-specific data structures. No evidence exists for broader JavaScript ecosystem experience (e.g., frameworks, testing, or modern JS features).",
+    "identified_skills": {
+      "Internationalization & Localization": [
+        "Moment.js locale systems",
+        "Cyrillic script handling",
+        "Russian language grammar rules",
+        "Locale-specific regex patterns",
+        "Month abbreviation standardization"
+      ],
+      "JavaScript Language Features": [
+        "Regular expressions (regex)",
+        "String manipulation (capitalization, abbreviations)",
+        "Object/array handling for locale data"
+      ],
+      "Debugging & Problem-Solving": [
+        "Regex debugging for parsing edge cases",
+        "Linguistic rule validation",
+        "Duplicate data elimination",
+        "Edge case testing for Cyrillic input"
+      ],
+      "Collaboration & Documentation": [
+        "External resource referencing",
+        "Clear PR description writing",
+        "Locale-specific testing validation"
+      ],
+      "Domain-Specific Knowledge": [
+        "Moment.js internals",
+        "ru_RU locale structure",
+        "Date parsing regex patterns"
+      ]
+    },
+    "skill_evidence": [
+      "PR #1: Fixed capitalization of Russian month names (e.g., 'Январь' vs. 'январь') referencing [Грамота.ру](http:\n    "
+    ]
+  },
+  "statistics": {
+    "total_prs": 3,
+    "repos_contributed": 1,
+    "repo_list": [
+      "moment"
+    ]
+  }
+}
