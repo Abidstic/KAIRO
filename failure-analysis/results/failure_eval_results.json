@@ -1,0 +1,2017 @@
+{
+  "overall": {
+    "analyzable": 81,
+    "justified_top1": 57,
+    "justified_top1_pct": 70.4,
+    "justified_best3": 64,
+    "justified_best3_pct": 79.0
+  },
+  "per_repo": [
+    {
+      "repo": "axios",
+      "analyzable": 12,
+      "justified_top1": 7,
+      "justified_top1_pct": 58.3,
+      "justified_best3": 9,
+      "justified_best3_pct": 75.0,
+      "caseA_of_justified": 7,
+      "caseB_of_justified": 0
+    },
+    {
+      "repo": "Express Repo",
+      "analyzable": 5,
+      "justified_top1": 4,
+      "justified_top1_pct": 80.0,
+      "justified_best3": 4,
+      "justified_best3_pct": 80.0,
+      "caseA_of_justified": 4,
+      "caseB_of_justified": 0
+    },
+    {
+      "repo": "JQuery Repo",
+      "analyzable": 0
+    },
+    {
+      "repo": "Lodash Repo",
+      "analyzable": 19,
+      "justified_top1": 13,
+      "justified_top1_pct": 68.4,
+      "justified_best3": 15,
+      "justified_best3_pct": 78.9,
+      "caseA_of_justified": 12,
+      "caseB_of_justified": 1
+    },
+    {
+      "repo": "Moment Repo",
+      "analyzable": 28,
+      "justified_top1": 23,
+      "justified_top1_pct": 82.1,
+      "justified_best3": 25,
+      "justified_best3_pct": 89.3,
+      "caseA_of_justified": 23,
+      "caseB_of_justified": 0
+    },
+    {
+      "repo": "preact",
+      "analyzable": 17,
+      "justified_top1": 10,
+      "justified_top1_pct": 58.8,
+      "justified_best3": 11,
+      "justified_best3_pct": 64.7,
+      "caseA_of_justified": 10,
+      "caseB_of_justified": 0
+    }
+  ],
+  "records": [
+    {
+      "repo": "axios",
+      "pr_number": 6980,
+      "pr_title": "fix(sandbox): Improper Encoding or Escaping of Output as DOM text reinterpreted as HTML",
+      "actual_reviewer": "jasonsaayman",
+      "actual_exp": "senior",
+      "actual_reviews": 63,
+      "our_top1": "DigitalBrainJS",
+      "top1_exp": "senior",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Error Handling",
+          "Frontend Development Skills"
+        ],
+        "R_coverage": 0.5,
+        "R_relKU_freq": 3.0,
+        "A_relKU_freq": 1.5,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "axios",
+      "pr_number": 6998,
+      "pr_title": "fix(fetch-adapter): set correct Content-Type for Node FormData",
+      "actual_reviewer": "jasonsaayman",
+      "actual_exp": "senior",
+      "actual_reviews": 63,
+      "our_top1": "DigitalBrainJS",
+      "top1_exp": "senior",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "API Design & Consumption",
+          "Advanced JavaScript Concepts",
+          "Backend Development Skills",
+          "Dependency Management",
+          "Framework/Library Expertise",
+          "TypeScript"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 6.17,
+        "A_relKU_freq": 6.17,
+        "R_freq_label": "Strong"
+      }
+    },
+    {
+      "repo": "axios",
+      "pr_number": 7002,
+      "pr_title": "chore: removing dist files from src",
+      "actual_reviewer": "jasonsaayman",
+      "actual_exp": "senior",
+      "actual_reviews": 63,
+      "our_top1": "DigitalBrainJS",
+      "top1_exp": "senior",
+      "top1_reviews": 12,
+      "justified_top1": false,
+      "justified_best3": false,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 16.2,
+        "A_strength": 18.6,
+        "R_experience": "senior",
+        "A_experience": "senior"
+      }
+    },
+    {
+      "repo": "axios",
+      "pr_number": 7006,
+      "pr_title": "chore(CI): fixed release info script to use npm registry instead of git as file history source;",
+      "actual_reviewer": "jasonsaayman",
+      "actual_exp": "senior",
+      "actual_reviews": 63,
+      "our_top1": "DigitalBrainJS",
+      "top1_exp": "senior",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "API Design & Consumption",
+          "Dependency Management",
+          "DevOps & Deployment",
+          "Error Handling"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 4.25,
+        "A_relKU_freq": 4.0,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "axios",
+      "pr_number": 7032,
+      "pr_title": "chore: remove unused terser-webpack-plugin",
+      "actual_reviewer": "jasonsaayman",
+      "actual_exp": "senior",
+      "actual_reviews": 63,
+      "our_top1": "DigitalBrainJS",
+      "top1_exp": "senior",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Dependency Management",
+          "DevOps & Deployment",
+          "Frontend Development Skills"
+        ],
+        "R_coverage": 0.67,
+        "R_relKU_freq": 1.67,
+        "A_relKU_freq": 1.0,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "axios",
+      "pr_number": 7085,
+      "pr_title": "chore: Refine Contributor Experience and Modernize CI Infrastructure",
+      "actual_reviewer": "hamzawritescode",
+      "actual_exp": "unknown",
+      "actual_reviews": 1,
+      "our_top1": "jasonsaayman",
+      "top1_exp": "senior",
+      "top1_reviews": 63,
+      "justified_top1": false,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "DevOps & Deployment",
+          "Error Handling",
+          "Frontend Development Skills"
+        ],
+        "R_coverage": 0.33,
+        "R_relKU_freq": 1.0,
+        "A_relKU_freq": 0.0,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "axios",
+      "pr_number": 7092,
+      "pr_title": "V1.x",
+      "actual_reviewer": "Hritik930",
+      "actual_exp": "junior",
+      "actual_reviews": 4,
+      "our_top1": "JikokuAice",
+      "top1_exp": "unknown",
+      "top1_reviews": 0,
+      "justified_top1": false,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "B",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 3.0,
+        "A_strength": 3.4,
+        "R_experience": "unknown",
+        "A_experience": "junior"
+      }
+    },
+    {
+      "repo": "axios",
+      "pr_number": 7099,
+      "pr_title": "feat: added footer and toggle mode from day to dark and dark to day a…",
+      "actual_reviewer": "jasonsaayman",
+      "actual_exp": "senior",
+      "actual_reviews": 63,
+      "our_top1": "DigitalBrainJS",
+      "top1_exp": "senior",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "DevOps & Deployment",
+          "Error Handling",
+          "Frontend Development Skills",
+          "Graphical Data Visualization"
+        ],
+        "R_coverage": 0.5,
+        "R_relKU_freq": 2.25,
+        "A_relKU_freq": 0.75,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "axios",
+      "pr_number": 7107,
+      "pr_title": "style(client): improve padding",
+      "actual_reviewer": "ShrivastvAryan",
+      "actual_exp": "junior",
+      "actual_reviews": 1,
+      "our_top1": "DigitalBrainJS",
+      "top1_exp": "senior",
+      "top1_reviews": 12,
+      "justified_top1": false,
+      "justified_best3": false,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Frontend Development Skills",
+          "Graphical Data Visualization"
+        ],
+        "R_coverage": 0.0,
+        "R_relKU_freq": 0.0,
+        "A_relKU_freq": 0.5,
+        "R_freq_label": "None"
+      }
+    },
+    {
+      "repo": "axios",
+      "pr_number": 7117,
+      "pr_title": "feat: add missing Cloudflare HTTP status codes[HactoberFest]",
+      "actual_reviewer": "jasonsaayman",
+      "actual_exp": "senior",
+      "actual_reviews": 63,
+      "our_top1": "DigitalBrainJS",
+      "top1_exp": "senior",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Data Structures & Algorithms",
+          "Error Handling",
+          "Functional Programming"
+        ],
+        "R_coverage": 0.67,
+        "R_relKU_freq": 3.0,
+        "A_relKU_freq": 1.67,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "axios",
+      "pr_number": 7133,
+      "pr_title": "fix: resolve issue #7131 (added spacing in mergeConfig.js)",
+      "actual_reviewer": "jasonsaayman",
+      "actual_exp": "senior",
+      "actual_reviews": 63,
+      "our_top1": "DigitalBrainJS",
+      "top1_exp": "senior",
+      "top1_reviews": 12,
+      "justified_top1": false,
+      "justified_best3": false,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 16.2,
+        "A_strength": 18.6,
+        "R_experience": "senior",
+        "A_experience": "senior"
+      }
+    },
+    {
+      "repo": "axios",
+      "pr_number": 7170,
+      "pr_title": "Refactor form data handling in index.html",
+      "actual_reviewer": "jasonsaayman",
+      "actual_exp": "senior",
+      "actual_reviews": 63,
+      "our_top1": "DigitalBrainJS",
+      "top1_exp": "senior",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Error Handling"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 6.0,
+        "A_relKU_freq": 3.0,
+        "R_freq_label": "Strong"
+      }
+    },
+    {
+      "repo": "Express Repo",
+      "pr_number": 6754,
+      "pr_title": "feat: add express.asyncHandler helper for async route support",
+      "actual_reviewer": "shivarm",
+      "actual_exp": "junior",
+      "actual_reviews": 9,
+      "our_top1": "UlisesGascon",
+      "top1_exp": "senior",
+      "top1_reviews": 72,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Asynchronous Programming",
+          "Backend Development Skills",
+          "Error Handling",
+          "Framework/Library Expertise"
+        ],
+        "R_coverage": 0.75,
+        "R_relKU_freq": 11.5,
+        "A_relKU_freq": 6.0,
+        "R_freq_label": "Strong"
+      }
+    },
+    {
+      "repo": "Express Repo",
+      "pr_number": 6803,
+      "pr_title": "Update Readme.md",
+      "actual_reviewer": "shivarm",
+      "actual_exp": "junior",
+      "actual_reviews": 9,
+      "our_top1": "UlisesGascon",
+      "top1_exp": "senior",
+      "top1_reviews": 72,
+      "justified_top1": false,
+      "justified_best3": false,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Frontend Development Skills"
+        ],
+        "R_coverage": 0.0,
+        "R_relKU_freq": 0.0,
+        "A_relKU_freq": 0.0,
+        "R_freq_label": "None"
+      }
+    },
+    {
+      "repo": "Express Repo",
+      "pr_number": 6810,
+      "pr_title": "Automatically close PRs named \"Update Readme.md\" ",
+      "actual_reviewer": "Cycloctane",
+      "actual_exp": "unknown",
+      "actual_reviews": 1,
+      "our_top1": "UlisesGascon",
+      "top1_exp": "senior",
+      "top1_reviews": 72,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 20.0,
+        "A_strength": 0.1,
+        "R_experience": "senior",
+        "A_experience": "unknown"
+      }
+    },
+    {
+      "repo": "Express Repo",
+      "pr_number": 6825,
+      "pr_title": "Update Readme.md",
+      "actual_reviewer": "SleepyStew",
+      "actual_exp": "none",
+      "actual_reviews": 1,
+      "our_top1": "UlisesGascon",
+      "top1_exp": "senior",
+      "top1_reviews": 72,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 20.0,
+        "A_strength": 0.1,
+        "R_experience": "senior",
+        "A_experience": "none"
+      }
+    },
+    {
+      "repo": "Express Repo",
+      "pr_number": 6860,
+      "pr_title": "Fix asci code message of EXPRESS",
+      "actual_reviewer": "Shanu2409",
+      "actual_exp": "unknown",
+      "actual_reviews": 1,
+      "our_top1": "UlisesGascon",
+      "top1_exp": "senior",
+      "top1_reviews": 72,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 20.0,
+        "A_strength": 0.1,
+        "R_experience": "senior",
+        "A_experience": "unknown"
+      }
+    },
+    {
+      "repo": "Lodash Repo",
+      "pr_number": 5465,
+      "pr_title": "⚡️reduction of lodash size at import",
+      "actual_reviewer": "Kalle888dt",
+      "actual_exp": "junior",
+      "actual_reviews": 1,
+      "our_top1": "jdalton",
+      "top1_exp": "mid",
+      "top1_reviews": 37,
+      "justified_top1": false,
+      "justified_best3": false,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Dependency Management",
+          "DevOps & Deployment",
+          "Error Handling",
+          "Frontend Development Skills",
+          "Web Performance Optimization"
+        ],
+        "R_coverage": 0.2,
+        "R_relKU_freq": 0.6,
+        "A_relKU_freq": 0.6,
+        "R_freq_label": "None"
+      }
+    },
+    {
+      "repo": "Lodash Repo",
+      "pr_number": 5469,
+      "pr_title": "feat: Add weighted sample size function",
+      "actual_reviewer": "KaGois",
+      "actual_exp": "junior",
+      "actual_reviews": 1,
+      "our_top1": "jdalton",
+      "top1_exp": "mid",
+      "top1_reviews": 37,
+      "justified_top1": false,
+      "justified_best3": false,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Data Structures & Algorithms",
+          "Error Handling",
+          "Frontend Development Skills"
+        ],
+        "R_coverage": 0.0,
+        "R_relKU_freq": 0.0,
+        "A_relKU_freq": 0.0,
+        "R_freq_label": "None"
+      }
+    },
+    {
+      "repo": "Lodash Repo",
+      "pr_number": 5496,
+      "pr_title": "Create reverse.js",
+      "actual_reviewer": "Gauravms2143",
+      "actual_exp": "junior",
+      "actual_reviews": 3,
+      "our_top1": "Kirill89",
+      "top1_exp": "mid",
+      "top1_reviews": 4,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 7.3,
+        "A_strength": 3.5,
+        "R_experience": "mid",
+        "A_experience": "junior"
+      }
+    },
+    {
+      "repo": "Lodash Repo",
+      "pr_number": 5497,
+      "pr_title": "isEmpty support Symbol",
+      "actual_reviewer": "hexiaokang",
+      "actual_exp": "mid",
+      "actual_reviews": 6,
+      "our_top1": "Kirill89",
+      "top1_exp": "mid",
+      "top1_reviews": 4,
+      "justified_top1": false,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 7.3,
+        "A_strength": 7.5,
+        "R_experience": "mid",
+        "A_experience": "mid"
+      }
+    },
+    {
+      "repo": "Lodash Repo",
+      "pr_number": 5506,
+      "pr_title": "Added JSON Object sorting function",
+      "actual_reviewer": "Gauravms2143",
+      "actual_exp": "junior",
+      "actual_reviews": 3,
+      "our_top1": "jdalton",
+      "top1_exp": "mid",
+      "top1_reviews": 37,
+      "justified_top1": false,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "API Design & Consumption",
+          "Data Structures & Algorithms",
+          "Framework/Library Expertise"
+        ],
+        "R_coverage": 0.33,
+        "R_relKU_freq": 1.0,
+        "A_relKU_freq": 0.0,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "Lodash Repo",
+      "pr_number": 5534,
+      "pr_title": "Remove meaningless allocation",
+      "actual_reviewer": "rkuykendall",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "jdalton",
+      "top1_exp": "mid",
+      "top1_reviews": 37,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 10.8,
+        "A_strength": 7.2,
+        "R_experience": "mid",
+        "A_experience": "mid"
+      }
+    },
+    {
+      "repo": "Lodash Repo",
+      "pr_number": 5540,
+      "pr_title": "Update NPM lockfile to version 2",
+      "actual_reviewer": "hexiaokang",
+      "actual_exp": "mid",
+      "actual_reviews": 6,
+      "our_top1": "Kirill89",
+      "top1_exp": "mid",
+      "top1_reviews": 4,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Dependency Management",
+          "DevOps & Deployment"
+        ],
+        "R_coverage": 0.5,
+        "R_relKU_freq": 1.0,
+        "A_relKU_freq": 1.0,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "Lodash Repo",
+      "pr_number": 5544,
+      "pr_title": "fix big int issue",
+      "actual_reviewer": "rkuykendall",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "Kirill89",
+      "top1_exp": "mid",
+      "top1_reviews": 4,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 7.3,
+        "A_strength": 7.2,
+        "R_experience": "mid",
+        "A_experience": "mid"
+      }
+    },
+    {
+      "repo": "Lodash Repo",
+      "pr_number": 5564,
+      "pr_title": "fix: isEmpty returns false when some date is given",
+      "actual_reviewer": "0xflotus",
+      "actual_exp": "junior",
+      "actual_reviews": 2,
+      "our_top1": "jdalton",
+      "top1_exp": "mid",
+      "top1_reviews": 37,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 10.8,
+        "A_strength": 3.6,
+        "R_experience": "mid",
+        "A_experience": "junior"
+      }
+    },
+    {
+      "repo": "Lodash Repo",
+      "pr_number": 5576,
+      "pr_title": "Changed `baseFlatten` implementation to use `Array.prototype.concat` to avoid stack limits",
+      "actual_reviewer": "hexiaokang",
+      "actual_exp": "mid",
+      "actual_reviews": 6,
+      "our_top1": "jdalton",
+      "top1_exp": "mid",
+      "top1_reviews": 37,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Advanced JavaScript Concepts",
+          "Data Structures & Algorithms",
+          "Event-Driven Architecture",
+          "Web Performance Optimization"
+        ],
+        "R_coverage": 0.5,
+        "R_relKU_freq": 1.25,
+        "A_relKU_freq": 0.75,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "Lodash Repo",
+      "pr_number": 5577,
+      "pr_title": "chore: fix isSymbol equal",
+      "actual_reviewer": "hexiaokang",
+      "actual_exp": "mid",
+      "actual_reviews": 6,
+      "our_top1": "HaseebIjaz",
+      "top1_exp": "mid",
+      "top1_reviews": 13,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 8.0,
+        "A_strength": 7.5,
+        "R_experience": "mid",
+        "A_experience": "mid"
+      }
+    },
+    {
+      "repo": "Lodash Repo",
+      "pr_number": 5582,
+      "pr_title": "fix: deleted test/concat.js",
+      "actual_reviewer": "Gauravms2143",
+      "actual_exp": "junior",
+      "actual_reviews": 3,
+      "our_top1": "armano2",
+      "top1_exp": "mid",
+      "top1_reviews": 4,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 7.9,
+        "A_strength": 3.5,
+        "R_experience": "mid",
+        "A_experience": "junior"
+      }
+    },
+    {
+      "repo": "Lodash Repo",
+      "pr_number": 5609,
+      "pr_title": "Adding a check for the type that gets passed to map",
+      "actual_reviewer": "rianonehub",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "jdalton",
+      "top1_exp": "mid",
+      "top1_reviews": 37,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 10.8,
+        "A_strength": 7.0,
+        "R_experience": "mid",
+        "A_experience": "mid"
+      }
+    },
+    {
+      "repo": "Lodash Repo",
+      "pr_number": 5677,
+      "pr_title": "removed semicolon that was blocking npm validate",
+      "actual_reviewer": "hexiaokang",
+      "actual_exp": "mid",
+      "actual_reviews": 6,
+      "our_top1": "HaseebIjaz",
+      "top1_exp": "mid",
+      "top1_reviews": 13,
+      "justified_top1": false,
+      "justified_best3": false,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Dependency Management",
+          "DevOps & Deployment",
+          "Error Handling",
+          "Frontend Development Skills"
+        ],
+        "R_coverage": 0.0,
+        "R_relKU_freq": 0.0,
+        "A_relKU_freq": 0.75,
+        "R_freq_label": "None"
+      }
+    },
+    {
+      "repo": "Lodash Repo",
+      "pr_number": 5685,
+      "pr_title": "fix(sumBy): Handle string-to-number conversion and prevent concatenation in baseSum function",
+      "actual_reviewer": "maloun96",
+      "actual_exp": "mid",
+      "actual_reviews": 1,
+      "our_top1": "blikblum",
+      "top1_exp": "mid",
+      "top1_reviews": 4,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 15.4,
+        "A_strength": 7.0,
+        "R_experience": "mid",
+        "A_experience": "mid"
+      }
+    },
+    {
+      "repo": "Lodash Repo",
+      "pr_number": 5687,
+      "pr_title": "Add default rules description to words()",
+      "actual_reviewer": "rajatsaini736",
+      "actual_exp": "unknown",
+      "actual_reviews": 1,
+      "our_top1": "Ephigenia",
+      "top1_exp": "junior",
+      "top1_reviews": 2,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "B",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 3.4,
+        "A_strength": 0.1,
+        "R_experience": "junior",
+        "A_experience": "unknown"
+      }
+    },
+    {
+      "repo": "Lodash Repo",
+      "pr_number": 5688,
+      "pr_title": "Run trailing debounce when browser tab is closed",
+      "actual_reviewer": "kapillondhe",
+      "actual_exp": "junior",
+      "actual_reviews": 1,
+      "our_top1": "jdalton",
+      "top1_exp": "mid",
+      "top1_reviews": 37,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "API Design & Consumption",
+          "Advanced JavaScript Concepts",
+          "Frontend Development Skills",
+          "Web Performance Optimization"
+        ],
+        "R_coverage": 0.5,
+        "R_relKU_freq": 1.25,
+        "A_relKU_freq": 0.5,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "Lodash Repo",
+      "pr_number": 5736,
+      "pr_title": "Modified ternary operator.",
+      "actual_reviewer": "jdalton",
+      "actual_exp": "mid",
+      "actual_reviews": 37,
+      "our_top1": "Kirill89",
+      "top1_exp": "mid",
+      "top1_reviews": 4,
+      "justified_top1": false,
+      "justified_best3": false,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 7.3,
+        "A_strength": 10.8,
+        "R_experience": "mid",
+        "A_experience": "mid"
+      }
+    },
+    {
+      "repo": "Lodash Repo",
+      "pr_number": 5754,
+      "pr_title": "Fixes #5751",
+      "actual_reviewer": "ex1st",
+      "actual_exp": "mid",
+      "actual_reviews": 1,
+      "our_top1": "jdalton",
+      "top1_exp": "mid",
+      "top1_reviews": 37,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 10.8,
+        "A_strength": 6.6,
+        "R_experience": "mid",
+        "A_experience": "mid"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 5810,
+      "pr_title": "Update oc-lnc.js",
+      "actual_reviewer": "anandfresh",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "ashsearle",
+      "top1_exp": "mid",
+      "top1_reviews": 12,
+      "justified_top1": false,
+      "justified_best3": false,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "DevOps & Deployment"
+        ],
+        "R_coverage": 0.0,
+        "R_relKU_freq": 0.0,
+        "A_relKU_freq": 0.0,
+        "R_freq_label": "None"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 5827,
+      "pr_title": "[bugfix] ts: toISOString function also return null",
+      "actual_reviewer": "anandfresh",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "erhangundogan",
+      "top1_exp": "mid",
+      "top1_reviews": 4,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "TypeScript"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 1.0,
+        "A_relKU_freq": 0.0,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 5877,
+      "pr_title": "Fix incorrect localization",
+      "actual_reviewer": "anandfresh",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "ashsearle",
+      "top1_exp": "mid",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 12.8,
+        "A_strength": 6.8,
+        "R_experience": "mid",
+        "A_experience": "mid"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 5895,
+      "pr_title": "ku.js",
+      "actual_reviewer": "CYAXXX",
+      "actual_exp": "unknown",
+      "actual_reviews": 2,
+      "our_top1": "ichernev",
+      "top1_exp": "mid",
+      "top1_reviews": 14,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 12.0,
+        "A_strength": 0.2,
+        "R_experience": "mid",
+        "A_experience": "unknown"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 5906,
+      "pr_title": "[locale] ro: Improve past tense",
+      "actual_reviewer": "anandfresh",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "ichernev",
+      "top1_exp": "mid",
+      "top1_reviews": 14,
+      "justified_top1": false,
+      "justified_best3": false,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "DevOps & Deployment"
+        ],
+        "R_coverage": 0.0,
+        "R_relKU_freq": 0.0,
+        "A_relKU_freq": 0.0,
+        "R_freq_label": "None"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 5987,
+      "pr_title": "[bugfix] undefined-locale-name",
+      "actual_reviewer": "anandfresh",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "ichernev",
+      "top1_exp": "mid",
+      "top1_reviews": 14,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Error Handling"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 4.0,
+        "A_relKU_freq": 2.0,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 5993,
+      "pr_title": "[locale] Update pt-br.js",
+      "actual_reviewer": "anandfresh",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "ichernev",
+      "top1_exp": "mid",
+      "top1_reviews": 14,
+      "justified_top1": false,
+      "justified_best3": false,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "DevOps & Deployment"
+        ],
+        "R_coverage": 0.0,
+        "R_relKU_freq": 0.0,
+        "A_relKU_freq": 0.0,
+        "R_freq_label": "None"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6023,
+      "pr_title": "Pr/5930",
+      "actual_reviewer": "anandfresh",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "ashsearle",
+      "top1_exp": "mid",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 12.8,
+        "A_strength": 6.8,
+        "R_experience": "mid",
+        "A_experience": "mid"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6038,
+      "pr_title": "Auto build fixes",
+      "actual_reviewer": "anandfresh",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "ashsearle",
+      "top1_exp": "mid",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 12.8,
+        "A_strength": 6.8,
+        "R_experience": "mid",
+        "A_experience": "mid"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6039,
+      "pr_title": "Create SECURITY.md",
+      "actual_reviewer": "anandfresh",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "icambron",
+      "top1_exp": "mid",
+      "top1_reviews": 7,
+      "justified_top1": false,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Frontend Development Skills"
+        ],
+        "R_coverage": 0.0,
+        "R_relKU_freq": 0.0,
+        "A_relKU_freq": 0.0,
+        "R_freq_label": "None"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6051,
+      "pr_title": "[feature] Add support for getMonthName",
+      "actual_reviewer": "anandfresh",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "ashsearle",
+      "top1_exp": "mid",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "API Design & Consumption"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 2.0,
+        "A_relKU_freq": 0.0,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6055,
+      "pr_title": "[misc] refactor unit aliases and priorities",
+      "actual_reviewer": "anandfresh",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "ichernev",
+      "top1_exp": "mid",
+      "top1_reviews": 14,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Error Handling",
+          "Frontend Development Skills",
+          "Functional Programming"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 5.67,
+        "A_relKU_freq": 0.67,
+        "R_freq_label": "Strong"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6067,
+      "pr_title": "[locale] nl, nl-be: Fix erroneous regex anchoring",
+      "actual_reviewer": "anandfresh",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "ashsearle",
+      "top1_exp": "mid",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Error Handling",
+          "Framework/Library Expertise"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 3.5,
+        "A_relKU_freq": 1.5,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6086,
+      "pr_title": "[misc] Update contributing doc",
+      "actual_reviewer": "MdmCoffee",
+      "actual_exp": "unknown",
+      "actual_reviews": 1,
+      "our_top1": "ashsearle",
+      "top1_exp": "mid",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Frontend Development Skills"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 3.0,
+        "A_relKU_freq": 0.0,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6121,
+      "pr_title": "Added implementation of year_guess()",
+      "actual_reviewer": "suyundukov",
+      "actual_exp": "mid",
+      "actual_reviews": 4,
+      "our_top1": "ashsearle",
+      "top1_exp": "mid",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Frontend Development Skills",
+          "Functional Programming"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 3.0,
+        "A_relKU_freq": 1.5,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6123,
+      "pr_title": "Gigwell",
+      "actual_reviewer": "danielschuetter",
+      "actual_exp": "unknown",
+      "actual_reviews": 1,
+      "our_top1": "ashsearle",
+      "top1_exp": "mid",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 12.8,
+        "A_strength": 0.1,
+        "R_experience": "mid",
+        "A_experience": "unknown"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6125,
+      "pr_title": "Italian days and months with capital letter",
+      "actual_reviewer": "suyundukov",
+      "actual_exp": "mid",
+      "actual_reviews": 4,
+      "our_top1": "ashsearle",
+      "top1_exp": "mid",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 12.8,
+        "A_strength": 7.8,
+        "R_experience": "mid",
+        "A_experience": "mid"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6127,
+      "pr_title": "feat: add support for getting month name with moment",
+      "actual_reviewer": "suyundukov",
+      "actual_exp": "mid",
+      "actual_reviews": 4,
+      "our_top1": "ashsearle",
+      "top1_exp": "mid",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 12.8,
+        "A_strength": 7.8,
+        "R_experience": "mid",
+        "A_experience": "mid"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6128,
+      "pr_title": "[feature] Graceful handling of undefined locale name",
+      "actual_reviewer": "suyundukov",
+      "actual_exp": "mid",
+      "actual_reviews": 4,
+      "our_top1": "ashsearle",
+      "top1_exp": "mid",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Error Handling"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 4.0,
+        "A_relKU_freq": 3.0,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6129,
+      "pr_title": "Capital letter months in language Ukraine - uk.js",
+      "actual_reviewer": "bs-divy-jain",
+      "actual_exp": "junior",
+      "actual_reviews": 1,
+      "our_top1": "ichernev",
+      "top1_exp": "mid",
+      "top1_reviews": 14,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 12.0,
+        "A_strength": 3.8,
+        "R_experience": "mid",
+        "A_experience": "junior"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6156,
+      "pr_title": "feat: consider string number as milliseconds",
+      "actual_reviewer": "anandfresh",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "ashsearle",
+      "top1_exp": "mid",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Error Handling"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 4.0,
+        "A_relKU_freq": 2.0,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6164,
+      "pr_title": "Create or.js",
+      "actual_reviewer": "anandfresh",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "ashsearle",
+      "top1_exp": "mid",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 12.8,
+        "A_strength": 6.8,
+        "R_experience": "mid",
+        "A_experience": "mid"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6169,
+      "pr_title": "[bugfix] Access default year month date from moment instance",
+      "actual_reviewer": "anandfresh",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "ashsearle",
+      "top1_exp": "mid",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Framework/Library Expertise"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 3.0,
+        "A_relKU_freq": 1.0,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6176,
+      "pr_title": "Update locale/vi.js to capitalize the first letter of months and weekdays",
+      "actual_reviewer": "rksp25",
+      "actual_exp": "junior",
+      "actual_reviews": 5,
+      "our_top1": "ichernev",
+      "top1_exp": "mid",
+      "top1_reviews": 14,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "API Design & Consumption"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 2.0,
+        "A_relKU_freq": 0.0,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6208,
+      "pr_title": "[bugfix] KO L date format",
+      "actual_reviewer": "anandfresh",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "ichernev",
+      "top1_exp": "mid",
+      "top1_reviews": 14,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 12.0,
+        "A_strength": 6.8,
+        "R_experience": "mid",
+        "A_experience": "mid"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6219,
+      "pr_title": "[locale] Change Saat to Saa in dist/locale/sw.js",
+      "actual_reviewer": "anandfresh",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "Spiralis",
+      "top1_exp": "junior",
+      "top1_reviews": 8,
+      "justified_top1": false,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 4.0,
+        "A_strength": 6.8,
+        "R_experience": "junior",
+        "A_experience": "mid"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6241,
+      "pr_title": "misc: add libraries link to readme",
+      "actual_reviewer": "anandfresh",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "ashsearle",
+      "top1_exp": "mid",
+      "top1_reviews": 12,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Framework/Library Expertise"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 3.0,
+        "A_relKU_freq": 1.0,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "Moment Repo",
+      "pr_number": 6249,
+      "pr_title": "[locale] Italian capitalization",
+      "actual_reviewer": "anandfresh",
+      "actual_exp": "mid",
+      "actual_reviews": 2,
+      "our_top1": "ichernev",
+      "top1_exp": "mid",
+      "top1_reviews": 14,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "API Design & Consumption",
+          "DevOps & Deployment"
+        ],
+        "R_coverage": 0.5,
+        "R_relKU_freq": 1.0,
+        "A_relKU_freq": 0.0,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "preact",
+      "pr_number": 4795,
+      "pr_title": "fix: escape style object value in precompile transform",
+      "actual_reviewer": "JoviDeCroock",
+      "actual_exp": "senior",
+      "actual_reviews": 229,
+      "our_top1": "rschristian",
+      "top1_exp": "senior",
+      "top1_reviews": 218,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "API Design & Consumption",
+          "Frontend Development Skills"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 62.5,
+        "A_relKU_freq": 11.0,
+        "R_freq_label": "Strong"
+      }
+    },
+    {
+      "repo": "preact",
+      "pr_number": 4816,
+      "pr_title": "test: migrate hooks tests to vitest spies",
+      "actual_reviewer": "JoviDeCroock",
+      "actual_exp": "senior",
+      "actual_reviews": 229,
+      "our_top1": "marvinhagemeister",
+      "top1_exp": "senior",
+      "top1_reviews": 175,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 20.0,
+        "A_strength": 20.0,
+        "R_experience": "senior",
+        "A_experience": "senior"
+      }
+    },
+    {
+      "repo": "preact",
+      "pr_number": 4835,
+      "pr_title": "types: Add types for '/compat/server' & '/compat/scheduler'",
+      "actual_reviewer": "JoviDeCroock",
+      "actual_exp": "senior",
+      "actual_reviews": 229,
+      "our_top1": "rschristian",
+      "top1_exp": "senior",
+      "top1_reviews": 218,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "API Design & Consumption",
+          "TypeScript"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 52.5,
+        "A_relKU_freq": 3.5,
+        "R_freq_label": "Strong"
+      }
+    },
+    {
+      "repo": "preact",
+      "pr_number": 4844,
+      "pr_title": "chore: Update 'replaceNode' deprecation comment to point at new shim",
+      "actual_reviewer": "JoviDeCroock",
+      "actual_exp": "senior",
+      "actual_reviews": 229,
+      "our_top1": "rschristian",
+      "top1_exp": "senior",
+      "top1_reviews": 218,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "profile_strength",
+      "case": "A",
+      "detail": {
+        "required_kus": [],
+        "R_strength": 20.0,
+        "A_strength": 20.0,
+        "R_experience": "senior",
+        "A_experience": "senior"
+      }
+    },
+    {
+      "repo": "preact",
+      "pr_number": 4852,
+      "pr_title": "fix(types): correct eslint directive for no-unsafe-declaration-merging",
+      "actual_reviewer": "JoviDeCroock",
+      "actual_exp": "senior",
+      "actual_reviews": 229,
+      "our_top1": "Boshen",
+      "top1_exp": "unknown",
+      "top1_reviews": 0,
+      "justified_top1": false,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "B",
+      "detail": {
+        "required_kus": [
+          "TypeScript"
+        ],
+        "R_coverage": 0.0,
+        "R_relKU_freq": 0.0,
+        "A_relKU_freq": 5.0,
+        "R_freq_label": "None"
+      }
+    },
+    {
+      "repo": "preact",
+      "pr_number": 4863,
+      "pr_title": "fix(types) make React.SVGAttributes generic",
+      "actual_reviewer": "rschristian",
+      "actual_exp": "senior",
+      "actual_reviews": 218,
+      "our_top1": "developit",
+      "top1_exp": "senior",
+      "top1_reviews": 33,
+      "justified_top1": false,
+      "justified_best3": false,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Advanced JavaScript Concepts",
+          "Framework/Library Expertise",
+          "TypeScript"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 8.33,
+        "A_relKU_freq": 80.0,
+        "R_freq_label": "Strong"
+      }
+    },
+    {
+      "repo": "preact",
+      "pr_number": 4876,
+      "pr_title": "refactor: Make HTMLAttribute type declarations consistent",
+      "actual_reviewer": "JoviDeCroock",
+      "actual_exp": "senior",
+      "actual_reviews": 229,
+      "our_top1": "rschristian",
+      "top1_exp": "senior",
+      "top1_reviews": 218,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "TypeScript"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 100.0,
+        "A_relKU_freq": 5.0,
+        "R_freq_label": "Strong"
+      }
+    },
+    {
+      "repo": "preact",
+      "pr_number": 4877,
+      "pr_title": "Remove rerendercount",
+      "actual_reviewer": "rschristian",
+      "actual_exp": "senior",
+      "actual_reviews": 218,
+      "our_top1": "JoviDeCroock",
+      "top1_exp": "senior",
+      "top1_reviews": 229,
+      "justified_top1": false,
+      "justified_best3": false,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Data Structures & Algorithms",
+          "Error Handling",
+          "Frontend Development Skills",
+          "Functional Programming",
+          "Web Performance Optimization"
+        ],
+        "R_coverage": 0.8,
+        "R_relKU_freq": 9.2,
+        "A_relKU_freq": 27.4,
+        "R_freq_label": "Strong"
+      }
+    },
+    {
+      "repo": "preact",
+      "pr_number": 4880,
+      "pr_title": "Ensure memoized components re-render after errors",
+      "actual_reviewer": "rschristian",
+      "actual_exp": "senior",
+      "actual_reviews": 218,
+      "our_top1": "marvinhagemeister",
+      "top1_exp": "senior",
+      "top1_reviews": 175,
+      "justified_top1": false,
+      "justified_best3": false,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Error Handling",
+          "Frontend Development Skills"
+        ],
+        "R_coverage": 0.5,
+        "R_relKU_freq": 7.5,
+        "A_relKU_freq": 62.0,
+        "R_freq_label": "Strong"
+      }
+    },
+    {
+      "repo": "preact",
+      "pr_number": 4884,
+      "pr_title": "fix: Types w/ module augmentation",
+      "actual_reviewer": "JoviDeCroock",
+      "actual_exp": "senior",
+      "actual_reviews": 229,
+      "our_top1": "marvinhagemeister",
+      "top1_exp": "senior",
+      "top1_reviews": 175,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Advanced JavaScript Concepts",
+          "TypeScript"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 12.0,
+        "A_relKU_freq": 7.5,
+        "R_freq_label": "Strong"
+      }
+    },
+    {
+      "repo": "preact",
+      "pr_number": 4892,
+      "pr_title": "10.27.1",
+      "actual_reviewer": "marvinhagemeister",
+      "actual_exp": "senior",
+      "actual_reviews": 175,
+      "our_top1": "rschristian",
+      "top1_exp": "senior",
+      "top1_reviews": 218,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Advanced JavaScript Concepts",
+          "Framework/Library Expertise",
+          "Frontend Development Skills",
+          "TypeScript",
+          "Web Performance Optimization"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 72.6,
+        "A_relKU_freq": 11.4,
+        "R_freq_label": "Strong"
+      }
+    },
+    {
+      "repo": "preact",
+      "pr_number": 4904,
+      "pr_title": "refactor (v10): Mirror non-JSX types to the 'preact' namespace",
+      "actual_reviewer": "rschristian",
+      "actual_exp": "senior",
+      "actual_reviews": 218,
+      "our_top1": "marvinhagemeister",
+      "top1_exp": "senior",
+      "top1_reviews": 175,
+      "justified_top1": false,
+      "justified_best3": false,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "API Design & Consumption",
+          "Error Handling",
+          "TypeScript"
+        ],
+        "R_coverage": 0.67,
+        "R_relKU_freq": 6.33,
+        "A_relKU_freq": 36.33,
+        "R_freq_label": "Strong"
+      }
+    },
+    {
+      "repo": "preact",
+      "pr_number": 4906,
+      "pr_title": "Address memory leak",
+      "actual_reviewer": "rschristian",
+      "actual_exp": "senior",
+      "actual_reviews": 218,
+      "our_top1": "JoviDeCroock",
+      "top1_exp": "senior",
+      "top1_reviews": 229,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Web Performance Optimization"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 15.0,
+        "A_relKU_freq": 3.0,
+        "R_freq_label": "Strong"
+      }
+    },
+    {
+      "repo": "preact",
+      "pr_number": 4915,
+      "pr_title": "test: add failing test for Context+memo bailout retention",
+      "actual_reviewer": "JoviDeCroock",
+      "actual_exp": "senior",
+      "actual_reviews": 229,
+      "our_top1": "marvinhagemeister",
+      "top1_exp": "senior",
+      "top1_reviews": 175,
+      "justified_top1": false,
+      "justified_best3": false,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "Web Performance Optimization"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 3.0,
+        "A_relKU_freq": 15.0,
+        "R_freq_label": "Weak"
+      }
+    },
+    {
+      "repo": "preact",
+      "pr_number": 4917,
+      "pr_title": "10.27.2",
+      "actual_reviewer": "marvinhagemeister",
+      "actual_exp": "senior",
+      "actual_reviews": 175,
+      "our_top1": "rschristian",
+      "top1_exp": "senior",
+      "top1_reviews": 218,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "TypeScript",
+          "Web Performance Optimization"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 51.5,
+        "A_relKU_freq": 8.5,
+        "R_freq_label": "Strong"
+      }
+    },
+    {
+      "repo": "preact",
+      "pr_number": 4946,
+      "pr_title": "Adds `scrollsnapchange` and `scrollsnapchanging` event support",
+      "actual_reviewer": "rschristian",
+      "actual_exp": "senior",
+      "actual_reviews": 218,
+      "our_top1": "marvinhagemeister",
+      "top1_exp": "senior",
+      "top1_reviews": 175,
+      "justified_top1": false,
+      "justified_best3": false,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "API Design & Consumption",
+          "Data Structures & Algorithms",
+          "Event-Driven Architecture",
+          "Frontend Development Skills"
+        ],
+        "R_coverage": 0.75,
+        "R_relKU_freq": 6.25,
+        "A_relKU_freq": 31.75,
+        "R_freq_label": "Strong"
+      }
+    },
+    {
+      "repo": "preact",
+      "pr_number": 4948,
+      "pr_title": "types: Fix scroll events",
+      "actual_reviewer": "JoviDeCroock",
+      "actual_exp": "senior",
+      "actual_reviews": 229,
+      "our_top1": "rschristian",
+      "top1_exp": "senior",
+      "top1_reviews": 218,
+      "justified_top1": true,
+      "justified_best3": true,
+      "method": "ku_coverage",
+      "case": "A",
+      "detail": {
+        "required_kus": [
+          "API Design & Consumption",
+          "Event-Driven Architecture",
+          "Frontend Development Skills",
+          "TypeScript"
+        ],
+        "R_coverage": 1.0,
+        "R_relKU_freq": 56.75,
+        "A_relKU_freq": 8.75,
+        "R_freq_label": "Strong"
+      }
+    }
+  ]
+}
