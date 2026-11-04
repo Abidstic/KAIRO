@@ -2,9 +2,9 @@
 
 **Paper reference:** Section 4.4 (or ablation) → **“LLM Only”** configuration — manuscript prompt label **(P5)**.
 
-**Approach (what the LLM receives):** Reviewer ranking uses the same PR requirement JSON ([P3](P3_pr_requirement_extraction_prompt.md)), FAISS-retrieved similar training PRs (`all-MiniLM-L6-v2`), and **plain-language reviewer profiles** from `newAnalysis/LLM/` — experience level, activity stats, `primary_skills`, LLM-inferred **`identified_skills`** categories, and **`skill_evidence`** snippets. There is **no** fixed KU skill matrix and **no** frequency-embedded category keys (unlike `LLM+KU+freq`).
+**Approach (what the LLM receives):** Reviewer ranking uses the same PR requirement JSON ([P3](P3_pr_requirement_extraction_prompt.md)), FAISS-retrieved similar training PRs (`all-MiniLM-L6-v2`), and **plain-language reviewer profiles** — experience level, activity stats, `primary_skills`, LLM-inferred **`identified_skills`** categories, and **`skill_evidence`** snippets. There is **no** fixed KU skill matrix and **no** frequency-embedded category keys (unlike `LLM+KU+freq`).
 
-**Implementation:** `newAnalysis/LLM/axios/PrecisionMetricsCalculation/TopThreeReviewerList.ipynb` → `SmartReviewerAssigner.matching_prompt`. Profiles are built with `newAnalysis/LLM/axios/Reviewer_profile.ipynb` (and matching `developer_profile.ipynb` for authors).
+**Implementation:** `{path/to/your-repo}/{subject-repo}/TopThreeReviewerList.ipynb` → `SmartReviewerAssigner.matching_prompt`. Profiles are built with `{path/to/your-repo}/{subject-repo}/Reviewer_profile.ipynb` (and matching `developer_profile.ipynb` for authors). See [`proposed-approach/notebooks/`](../proposed-approach/notebooks/) for the actual notebooks.
 
 **Model configuration:** `mistralai/ministral-8b-2512`, temperature 0.1, max tokens 4,000, served via OpenRouter.
 
